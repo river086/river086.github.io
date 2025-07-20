@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegas-Life Simulator</title>
+    <meta name="description" content="Live 25 years in 30 minutes - Financial life simulation game">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2196F3">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .game-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .game-status {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .status-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .status-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .status-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #f0f0f0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #45a049);
+            transition: width 1s linear;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .game-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .command-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .command-input:focus {
+            outline: none;
+            border-color: #2196F3;
+        }
+        
+        .command-help {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+        }
+        
+        .log-area {
+            height: 300px;
+            overflow-y: auto;
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .log-entry {
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        
+        .log-info { background: #e3f2fd; }
+        .log-success { background: #e8f5e8; }
+        .log-warning { background: #fff3cd; }
+        .log-error { background: #f8d7da; }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .portfolio-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .btn {
+            background: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+        }
+        
+        .btn:hover {
+            background: #1976D2;
+        }
+        
+        .btn-danger {
+            background: #f44336;
+        }
+        
+        .btn-danger:hover {
+            background: #d32f2f;
+        }
+        
+        .game-over {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .game-over-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 500px;
+            margin: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .game-status {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Vegas-Life Simulator</h1>
+            <div class="game-status">
+                <div class="status-card">
+                    <div class="status-value" id="age">24</div>
+                    <div class="status-label">Age</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-value" id="cash">$500</div>
+                    <div class="status-label">Cash</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-value" id="net-worth">$3,500</div>
+                    <div class="status-label">Net Worth</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-value" id="date">Jan 2000</div>
+                    <div class="status-label">Date</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-value" id="profession">Loading...</div>
+                    <div class="status-label">Profession</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-value" id="happiness">50</div>
+                    <div class="status-label">Happiness</div>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="month-progress">Month Starting...</div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="game-panel">
+                <h3>Commands</h3>
+                <input type="text" class="command-input" id="command-input" placeholder="Enter command (e.g., buy AAPL 10, portfolio, pass)">
+                <div class="command-help">
+                    <strong>Available Commands:</strong><br>
+                    • <code>buy AAPL 10</code> - Buy stocks<br>
+                    • <code>buy BTC 0.1</code> - Buy crypto<br>
+                    • <code>sell AAPL 5</code> - Sell investments<br>
+                    • <code>deposit 1000</code> - Bank deposit<br>
+                    • <code>withdraw 500</code> - Bank withdrawal<br>
+                    • <code>portfolio</code> - View holdings<br>
+                    • <code>pass</code> - Skip month actions
+                </div>
+                <button class="btn" onclick="game.executeCommand()">Execute</button>
+                <button class="btn btn-danger" onclick="game.pauseGame()">Pause</button>
+            </div>
+            
+            <div class="game-panel">
+                <h3>Game Log</h3>
+                <div class="log-area" id="game-log"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="game-over" id="game-over">
+        <div class="game-over-content">
+            <h2 id="game-over-title">Game Over</h2>
+            <p id="game-over-message"></p>
+            <div id="final-stats"></div>
+            <button class="btn" onclick="game.restart()">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
