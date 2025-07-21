@@ -83,7 +83,7 @@
         
         .main-content {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             gap: 20px;
         }
         
@@ -197,6 +197,225 @@
             margin: 20px;
         }
         
+        .profession-selection {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1001;
+        }
+        
+        .profession-content {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 800px;
+            margin: 20px;
+            text-align: center;
+        }
+        
+        .profession-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .profession-card {
+            background: #f8f9fa;
+            border: 3px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+        
+        .profession-card:hover {
+            border-color: #2196F3;
+            box-shadow: 0 8px 25px rgba(33, 150, 243, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .profession-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2196F3;
+            margin-bottom: 10px;
+        }
+        
+        .profession-salary {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        
+        .profession-details {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        .profession-loan {
+            background: #fff3cd;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.8em;
+            color: #856404;
+        }
+        
+        .assets-section {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .asset-category {
+            background: #f8f9fa;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .asset-header {
+            background: #e9ecef;
+            padding: 10px 15px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .asset-items {
+            padding: 10px 15px;
+            display: none;
+        }
+        
+        .asset-items.expanded {
+            display: block;
+        }
+        
+        .asset-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .asset-item:last-child {
+            border-bottom: none;
+        }
+        
+        .asset-name {
+            font-weight: 500;
+        }
+        
+        .asset-value {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .asset-debt {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        
+        .event-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1002;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        .event-popup-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s ease-in-out;
+        }
+        
+        .event-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2196F3;
+        }
+        
+        .event-description {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .event-impact {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2196F3;
+        }
+        
+        .event-cost {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .event-cost.positive {
+            color: #28a745;
+        }
+        
+        .event-cost.negative {
+            color: #dc3545;
+        }
+        
+        .event-happiness {
+            font-size: 1em;
+            color: #666;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { 
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 968px) {
+            .main-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
         @media (max-width: 768px) {
             .main-content {
                 grid-template-columns: 1fr;
@@ -204,6 +423,15 @@
             
             .game-status {
                 grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .profession-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .profession-content {
+                padding: 20px;
+                margin: 10px;
             }
         }
     </style>
@@ -239,7 +467,7 @@
                 </div>
             </div>
             <div class="progress-bar">
-                <div class="progress-fill" id="month-progress">Month Starting...</div>
+                <div class="progress-fill" id="month-progress" style="width: 100%; background: linear-gradient(90deg, #2196F3, #1976D2);">Ready for Actions</div>
             </div>
         </div>
         
@@ -258,13 +486,122 @@
                     • <code>pass</code> - Skip month actions
                 </div>
                 <button class="btn" onclick="game.executeCommand()">Execute</button>
-                <button class="btn btn-danger" onclick="game.pauseGame()">Pause</button>
+                <button class="btn" onclick="game.endTurn()" style="background: #4CAF50;">End Turn</button>
+            </div>
+            
+            <div class="game-panel">
+                <h3>Player Assets</h3>
+                <div class="assets-section" id="assets-section">
+                    <div class="asset-category">
+                        <div class="asset-header" onclick="toggleAssetCategory('cash-category')">
+                            <span>💰 Cash & Bank</span>
+                            <span>▼</span>
+                        </div>
+                        <div class="asset-items expanded" id="cash-category">
+                            <div class="asset-item">
+                                <span class="asset-name">Cash on Hand</span>
+                                <span class="asset-value" id="asset-cash">$500</span>
+                            </div>
+                            <div class="asset-item">
+                                <span class="asset-name">Bank Account</span>
+                                <span class="asset-value" id="asset-bank">$0</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="asset-category">
+                        <div class="asset-header" onclick="toggleAssetCategory('investments-category')">
+                            <span>📈 Investments</span>
+                            <span>▼</span>
+                        </div>
+                        <div class="asset-items" id="investments-category">
+                            <div id="stocks-list"></div>
+                            <div id="crypto-list"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="asset-category">
+                        <div class="asset-header" onclick="toggleAssetCategory('vehicles-category')">
+                            <span>🚗 Vehicles</span>
+                            <span>▼</span>
+                        </div>
+                        <div class="asset-items" id="vehicles-category">
+                            <div id="cars-list"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="asset-category">
+                        <div class="asset-header" onclick="toggleAssetCategory('property-category')">
+                            <span>🏠 Real Estate</span>
+                            <span>▼</span>
+                        </div>
+                        <div class="asset-items" id="property-category">
+                            <div id="properties-list"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="asset-category">
+                        <div class="asset-header" onclick="toggleAssetCategory('debts-category')">
+                            <span>💳 Debts & Loans</span>
+                            <span>▼</span>
+                        </div>
+                        <div class="asset-items" id="debts-category">
+                            <div id="loans-list"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             <div class="game-panel">
                 <h3>Game Log</h3>
                 <div class="log-area" id="game-log"></div>
             </div>
+        </div>
+    </div>
+    
+    <div class="profession-selection" id="profession-selection">
+        <div class="profession-content">
+            <h2>Choose Your Career Path</h2>
+            <p>Select a profession to begin your 25-year journey in Vegas-Life</p>
+            
+            <div class="profession-grid">
+                <div class="profession-card" onclick="game.selectProfession('teacher_elementary')">
+                    <div class="profession-title">Elementary Teacher</div>
+                    <div class="profession-salary">$45,000 - $85,000</div>
+                    <div class="profession-details">
+                        • Stable career with regular raises (5% annually)<br>
+                        • Lower starting salary but good work-life balance<br>
+                        • Fixed costs: $2,400/month
+                    </div>
+                    <div class="profession-loan">Student Loan: $22,000 at 5% (10 years)</div>
+                </div>
+                
+                <div class="profession-card" onclick="game.selectProfession('software_dev')">
+                    <div class="profession-title">Software Developer</div>
+                    <div class="profession-salary">$85,000 - $150,000</div>
+                    <div class="profession-details">
+                        • High income potential with fast raises (8% annually)<br>
+                        • Tech industry growth opportunities<br>
+                        • Fixed costs: $2,900/month
+                    </div>
+                    <div class="profession-loan">Student Loan: $35,000 at 5% (10 years)</div>
+                </div>
+                
+                <div class="profession-card" onclick="game.selectProfession('nurse')">
+                    <div class="profession-title">Registered Nurse</div>
+                    <div class="profession-salary">$55,000 - $95,000</div>
+                    <div class="profession-details">
+                        • Healthcare career with steady growth (6% annually)<br>
+                        • Job security and meaningful work<br>
+                        • Fixed costs: $2,550/month
+                    </div>
+                    <div class="profession-loan">Student Loan: $28,000 at 5% (10 years)</div>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.9em; color: #666;">
+                Each profession includes food, housing, utilities, phone, internet, and other basic expenses.
+            </p>
         </div>
     </div>
     
@@ -277,6 +614,37 @@
         </div>
     </div>
     
+    <div class="event-popup" id="event-popup">
+        <div class="event-popup-content">
+            <div class="event-title" id="event-popup-title">Event Title</div>
+            <div class="event-description" id="event-popup-description">Event description goes here.</div>
+            <div class="event-impact">
+                <div class="event-cost" id="event-popup-cost">Cost: $0</div>
+                <div class="event-happiness" id="event-popup-happiness">Happiness: +0</div>
+            </div>
+            <button class="btn" onclick="closeEventPopup()" style="background: #2196F3;">Continue</button>
+        </div>
+    </div>
+    
+    <script>
+        function toggleAssetCategory(categoryId) {
+            const category = document.getElementById(categoryId);
+            const header = category.previousElementSibling;
+            const arrow = header.querySelector('span:last-child');
+            
+            if (category.classList.contains('expanded')) {
+                category.classList.remove('expanded');
+                arrow.textContent = '▶';
+            } else {
+                category.classList.add('expanded');
+                arrow.textContent = '▼';
+            }
+        }
+        
+        function closeEventPopup() {
+            document.getElementById('event-popup').style.display = 'none';
+        }
+    </script>
     <script src="game.js"></script>
 </body>
 </html>

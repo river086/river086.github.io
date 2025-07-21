@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+    <event id="travel_trip">
+        <category>lifestyle</category>
+        <weight>0.5</weight>
+        <cooldown>12</cooldown>
+        <costRange>
+            <min>300</min>
+            <max>1000</max>
+        </costRange>
+        <effects>
+            <happiness>8</happiness>
+        </effects>
+        <description>Weekend getaway</description>
+        <detailedDescription>You decide to take a spontaneous weekend trip to recharge and explore new places. The experience brings joy and creates lasting memories.</detailedDescription>
+    </event>
+    
+    <event id="car_repair">
+        <category>maintenance</category>
+        <weight>0.8</weight>
+        <cooldown>6</cooldown>
+        <costRange>
+            <min>200</min>
+            <max>800</max>
+        </costRange>
+        <effects>
+            <happiness>-3</happiness>
+        </effects>
+        <description>Car needs repairs</description>
+        <detailedDescription>Your car has developed mechanical issues that require immediate attention. The unexpected repair costs are frustrating but necessary for reliable transportation.</detailedDescription>
+    </event>
+    
+    <event id="bonus">
+        <category>income</category>
+        <weight>0.3</weight>
+        <cooldown>24</cooldown>
+        <costRange>
+            <min>-2000</min>
+            <max>-500</max>
+        </costRange>
+        <effects>
+            <happiness>5</happiness>
+        </effects>
+        <description>Work bonus!</description>
+        <detailedDescription>Your hard work and dedication have been recognized! Your employer rewards you with a performance bonus that boosts both your finances and morale.</detailedDescription>
+    </event>
+    
+    <event id="medical_expense">
+        <category>health</category>
+        <weight>0.4</weight>
+        <cooldown>18</cooldown>
+        <costRange>
+            <min>150</min>
+            <max>600</max>
+        </costRange>
+        <effects>
+            <happiness>-2</happiness>
+        </effects>
+        <description>Medical checkup</description>
+        <detailedDescription>You need to visit the doctor for a routine checkup or minor health issue. While it's important for your well-being, the medical costs add up.</detailedDescription>
+    </event>
+    
+    <event id="friend_wedding">
+        <category>social</category>
+        <weight>0.2</weight>
+        <cooldown>36</cooldown>
+        <costRange>
+            <min>250</min>
+            <max>500</max>
+        </costRange>
+        <effects>
+            <happiness>6</happiness>
+        </effects>
+        <description>Friend's wedding</description>
+        <detailedDescription>A close friend is getting married and you're invited to celebrate! Between the gift, outfit, and travel expenses, it costs money but brings joy and strengthens friendships.</detailedDescription>
+    </event>
+    
+    <event id="no_event">
+        <category>none</category>
+        <weight>2.0</weight>
+        <cooldown>0</cooldown>
+        <costRange>
+            <min>0</min>
+            <max>0</max>
+        </costRange>
+        <effects></effects>
+        <description>Quiet month</description>
+        <detailedDescription>Nothing significant happens this month. Sometimes life is just routine and peaceful.</detailedDescription>
+    </event>
+</events>

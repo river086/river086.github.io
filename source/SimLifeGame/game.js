@@ -20,77 +20,12 @@ class SimLifeGame {
                 bonds: {},
                 crypto: {}
             },
-            monthlyTimer: null,
-            isPaused: false,
-            gameOver: false
+            gameOver: false,
+            gameStarted: false
         };
         
-        this.professions = {
-            'teacher_elementary': {
-                id: 'teacher_elementary',
-                title: 'Elementary Teacher',
-                salaryRange: [45000, 85000],
-                raise: 0.05,
-                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 600, housing: 1800 }
-            },
-            'software_dev': {
-                id: 'software_dev',
-                title: 'Software Developer',
-                salaryRange: [85000, 150000],
-                raise: 0.08,
-                studentLoan: { principal: 35000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2200 }
-            },
-            'nurse': {
-                id: 'nurse',
-                title: 'Registered Nurse',
-                salaryRange: [55000, 95000],
-                raise: 0.06,
-                studentLoan: { principal: 28000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 650, housing: 1900 }
-            }
-        };
-        
-        this.events = [
-            {
-                id: 'travel_trip',
-                category: 'lifestyle',
-                weight: 0.5,
-                cooldown: 12,
-                costRange: [300, 1000],
-                effects: { happiness: 8 },
-                description: 'Weekend getaway'
-            },
-            {
-                id: 'car_repair',
-                category: 'maintenance',
-                weight: 0.8,
-                cooldown: 6,
-                costRange: [200, 800],
-                effects: { happiness: -3 },
-                description: 'Car needs repairs'
-            },
-            {
-                id: 'bonus',
-                category: 'income',
-                weight: 0.3,
-                cooldown: 24,
-                costRange: [-500, -2000],
-                effects: { happiness: 5 },
-                description: 'Work bonus!'
-            },
-            {
-                id: 'no_event',
-                category: 'none',
-                weight: 2.0,
-                cooldown: 0,
-                costRange: [0, 0],
-                effects: {},
-                description: 'Quiet month'
-            }
-        ];
-        
+        this.professions = {};
+        this.events = [];
         this.eventCooldowns = {};
         this.stockPrices = this.generateMockStockPrices();
         this.cryptoPrices = this.generateMockCryptoPrices();
@@ -98,21 +33,47 @@ class SimLifeGame {
         this.init();
     }
     
-    init() {
-        this.initializeProfession();
-        this.addStarterCar();
-        this.updateUI();
-        this.startMonthlyTimer();
+    async init() {
         this.setupEventListeners();
-        this.log('Welcome to Vegas-Life! You are 24 years old with $500 and a dream.', 'info');
+        await this.loadProfessions();
+        await this.loadEvents();
+        this.showProfessionSelection();
     }
     
-    initializeProfession() {
-        const professionKeys = Object.keys(this.professions);
-        const randomProfession = professionKeys[Math.floor(Math.random() * professionKeys.length)];
-        const profession = this.professions[randomProfession];
+    showProfessionSelection() {
+        document.getElementById('profession-selection').style.display = 'flex';
+    }
+    
+    selectProfession(professionId) {
+        if (!this.professions[professionId]) {
+            console.error(`Profession ${professionId} not found. Available professions:`, Object.keys(this.professions));
+            this.log('Error: Profession data not loaded. Please refresh the page.', 'error');
+            return;
+        }
         
-        this.gameState.professionId = randomProfession;
+        this.gameState.professionId = professionId;
+        this.initializeProfession(professionId);
+        this.addStarterCar();
+        this.hideProfessionSelection();
+        this.startGame();
+    }
+    
+    hideProfessionSelection() {
+        document.getElementById('profession-selection').style.display = 'none';
+    }
+    
+    startGame() {
+        this.gameState.gameStarted = true;
+        this.updateUI();
+        const profession = this.professions[this.gameState.professionId];
+        this.log(`Welcome to Vegas-Life! You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
+        this.log(`Your starting salary: $${this.gameState.grossAnnual.toFixed(0)}/year`, 'info');
+        this.log('Use the "End Turn" button to advance to the next month.', 'info');
+    }
+    
+    initializeProfession(professionId) {
+        const profession = this.professions[professionId];
+        
         this.gameState.grossAnnual = this.randomBetween(profession.salaryRange[0], profession.salaryRange[1]);
         this.gameState.fixedCosts = profession.fixedCosts.food + profession.fixedCosts.housing + 390; // utilities etc.
         
@@ -261,6 +222,9 @@ class SimLifeGame {
             
             this.eventCooldowns[selectedEvent.id] = selectedEvent.cooldown;
             this.log(`Event: ${selectedEvent.description} (Cost: $${cost})`, cost > 0 ? 'warning' : 'success');
+            
+            // Show event popup
+            this.showEventPopup(selectedEvent, cost);
         }
         
         // Decrease all cooldowns
@@ -519,25 +483,10 @@ class SimLifeGame {
         return prices;
     }
     
-    startMonthlyTimer() {
-        if (this.gameState.gameOver) return;
+    endTurn() {
+        if (this.gameState.gameOver || !this.gameState.gameStarted) return;
         
-        let timeLeft = 60;
-        const progressBar = document.getElementById('month-progress');
-        
-        this.gameState.monthlyTimer = setInterval(() => {
-            if (this.gameState.isPaused || this.gameState.gameOver) return;
-            
-            timeLeft--;
-            const progress = ((60 - timeLeft) / 60) * 100;
-            progressBar.style.width = `${progress}%`;
-            progressBar.textContent = `${timeLeft}s left in ${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`;
-            
-            if (timeLeft <= 0) {
-                this.processMonthEnd();
-                timeLeft = 60;
-            }
-        }, 1000);
+        this.processMonthEnd();
     }
     
     processMonthEnd() {
@@ -549,16 +498,9 @@ class SimLifeGame {
         this.log('--- NEW MONTH ---', 'info');
     }
     
-    pauseGame() {
-        this.gameState.isPaused = !this.gameState.isPaused;
-        const btn = document.querySelector('.btn-danger');
-        btn.textContent = this.gameState.isPaused ? 'Resume' : 'Pause';
-        this.log(this.gameState.isPaused ? 'Game paused' : 'Game resumed', 'info');
-    }
     
     endGame(reason) {
         this.gameState.gameOver = true;
-        clearInterval(this.gameState.monthlyTimer);
         
         const gameOverDiv = document.getElementById('game-over');
         const title = document.getElementById('game-over-title');
@@ -593,8 +535,170 @@ class SimLifeGame {
         document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toFixed(0)}`;
         document.getElementById('net-worth').textContent = `$${this.calculateNetWorth().toFixed(0)}`;
         document.getElementById('date').textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`;
-        document.getElementById('profession').textContent = this.professions[this.gameState.professionId]?.title || 'Loading...';
+        
+        if (this.gameState.professionId) {
+            const profession = this.professions[this.gameState.professionId];
+            document.getElementById('profession').textContent = `${profession.title} ($${Math.round(this.gameState.grossAnnual / 1000)}k/yr)`;
+        } else {
+            document.getElementById('profession').textContent = 'Choose Profession';
+        }
+        
         document.getElementById('happiness').textContent = this.gameState.happiness;
+        
+        // Update progress bar to show current month
+        const progressBar = document.getElementById('month-progress');
+        if (this.gameState.gameStarted && !this.gameState.gameOver) {
+            progressBar.textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} - Take Actions`;
+            progressBar.style.width = '100%';
+        }
+        
+        // Update assets panel
+        this.updateAssetsPanel();
+    }
+    
+    async loadProfessions() {
+        try {
+            const response = await fetch('professions.xml');
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+            
+            const professionNodes = xmlDoc.querySelectorAll('profession');
+            professionNodes.forEach(node => {
+                const id = node.getAttribute('id');
+                const profession = {
+                    id: id,
+                    title: node.querySelector('title').textContent,
+                    salaryRange: [
+                        parseInt(node.querySelector('salaryRange min').textContent),
+                        parseInt(node.querySelector('salaryRange max').textContent)
+                    ],
+                    raise: parseFloat(node.querySelector('raise').textContent),
+                    studentLoan: {
+                        principal: parseInt(node.querySelector('studentLoan principal').textContent),
+                        annualRate: parseFloat(node.querySelector('studentLoan annualRate').textContent),
+                        termMonths: parseInt(node.querySelector('studentLoan termMonths').textContent)
+                    },
+                    fixedCosts: {
+                        food: parseInt(node.querySelector('fixedCosts food').textContent),
+                        housing: parseInt(node.querySelector('fixedCosts housing').textContent)
+                    }
+                };
+                this.professions[id] = profession;
+            });
+            console.log('Loaded professions:', Object.keys(this.professions));
+        } catch (error) {
+            console.error('Error loading professions:', error);
+            // Fallback to hardcoded professions if XML loading fails
+            this.professions = {
+                'teacher_elementary': {
+                    id: 'teacher_elementary',
+                    title: 'Elementary Teacher',
+                    salaryRange: [45000, 85000],
+                    raise: 0.05,
+                    studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
+                    fixedCosts: { food: 600, housing: 1800 }
+                },
+                'software_dev': {
+                    id: 'software_dev',
+                    title: 'Software Developer',
+                    salaryRange: [85000, 150000],
+                    raise: 0.08,
+                    studentLoan: { principal: 35000, annualRate: 0.05, termMonths: 120 },
+                    fixedCosts: { food: 700, housing: 2200 }
+                },
+                'nurse': {
+                    id: 'nurse',
+                    title: 'Registered Nurse',
+                    salaryRange: [55000, 95000],
+                    raise: 0.06,
+                    studentLoan: { principal: 28000, annualRate: 0.05, termMonths: 120 },
+                    fixedCosts: { food: 650, housing: 1900 }
+                }
+            };
+            console.log('Using fallback professions');
+        }
+    }
+    
+    async loadEvents() {
+        try {
+            const response = await fetch('events.xml');
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+            
+            const eventNodes = xmlDoc.querySelectorAll('event');
+            eventNodes.forEach(node => {
+                const effects = {};
+                const effectsNode = node.querySelector('effects');
+                if (effectsNode && effectsNode.children.length > 0) {
+                    Array.from(effectsNode.children).forEach(child => {
+                        effects[child.tagName] = parseInt(child.textContent);
+                    });
+                }
+                
+                const event = {
+                    id: node.getAttribute('id'),
+                    category: node.querySelector('category').textContent,
+                    weight: parseFloat(node.querySelector('weight').textContent),
+                    cooldown: parseInt(node.querySelector('cooldown').textContent),
+                    costRange: [
+                        parseInt(node.querySelector('costRange min').textContent),
+                        parseInt(node.querySelector('costRange max').textContent)
+                    ],
+                    effects: effects,
+                    description: node.querySelector('description').textContent,
+                    detailedDescription: node.querySelector('detailedDescription').textContent
+                };
+                this.events.push(event);
+            });
+        } catch (error) {
+            console.error('Error loading events:', error);
+            // Fallback to hardcoded events if XML loading fails
+            this.events = [
+                {
+                    id: 'travel_trip',
+                    category: 'lifestyle',
+                    weight: 0.5,
+                    cooldown: 12,
+                    costRange: [300, 1000],
+                    effects: { happiness: 8 },
+                    description: 'Weekend getaway',
+                    detailedDescription: 'You decide to take a spontaneous weekend trip to recharge and explore new places.'
+                },
+                {
+                    id: 'car_repair',
+                    category: 'maintenance',
+                    weight: 0.8,
+                    cooldown: 6,
+                    costRange: [200, 800],
+                    effects: { happiness: -3 },
+                    description: 'Car needs repairs',
+                    detailedDescription: 'Your car has developed mechanical issues that require immediate attention.'
+                },
+                {
+                    id: 'bonus',
+                    category: 'income',
+                    weight: 0.3,
+                    cooldown: 24,
+                    costRange: [-2000, -500],
+                    effects: { happiness: 5 },
+                    description: 'Work bonus!',
+                    detailedDescription: 'Your hard work and dedication have been recognized with a performance bonus!'
+                },
+                {
+                    id: 'no_event',
+                    category: 'none',
+                    weight: 2.0,
+                    cooldown: 0,
+                    costRange: [0, 0],
+                    effects: {},
+                    description: 'Quiet month',
+                    detailedDescription: 'Nothing significant happens this month. Sometimes life is just routine and peaceful.'
+                }
+            ];
+            console.log('Using fallback events');
+        }
     }
     
     setupEventListeners() {
@@ -614,10 +718,129 @@ class SimLifeGame {
         logArea.scrollTop = logArea.scrollHeight;
     }
     
+    updateAssetsPanel() {
+        // Update cash and bank
+        document.getElementById('asset-cash').textContent = `$${this.gameState.portfolio.cash.toFixed(2)}`;
+        document.getElementById('asset-bank').textContent = `$${this.gameState.portfolio.bank.toFixed(2)}`;
+        
+        // Update stocks
+        const stocksList = document.getElementById('stocks-list');
+        stocksList.innerHTML = '';
+        Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
+            if (shares > 0) {
+                const price = this.getStockPrice(symbol);
+                const value = shares * price;
+                const div = document.createElement('div');
+                div.className = 'asset-item';
+                div.innerHTML = `
+                    <span class="asset-name">${symbol} (${shares} shares)</span>
+                    <span class="asset-value">$${value.toFixed(2)}</span>
+                `;
+                stocksList.appendChild(div);
+            }
+        });
+        
+        // Update crypto
+        const cryptoList = document.getElementById('crypto-list');
+        cryptoList.innerHTML = '';
+        Object.entries(this.gameState.portfolio.crypto).forEach(([symbol, amount]) => {
+            if (amount > 0) {
+                const price = this.getCryptoPrice(symbol);
+                const value = amount * price;
+                const div = document.createElement('div');
+                div.className = 'asset-item';
+                div.innerHTML = `
+                    <span class="asset-name">${symbol} (${amount} units)</span>
+                    <span class="asset-value">$${value.toFixed(2)}</span>
+                `;
+                cryptoList.appendChild(div);
+            }
+        });
+        
+        // Update cars
+        const carsList = document.getElementById('cars-list');
+        carsList.innerHTML = '';
+        this.gameState.cars.forEach(car => {
+            const div = document.createElement('div');
+            div.className = 'asset-item';
+            div.innerHTML = `
+                <span class="asset-name">${car.id.replace(/_/g, ' ')}</span>
+                <span class="asset-value">$${car.value.toFixed(2)}</span>
+            `;
+            carsList.appendChild(div);
+        });
+        
+        // Update properties
+        const propertiesList = document.getElementById('properties-list');
+        propertiesList.innerHTML = '';
+        this.gameState.properties.forEach(property => {
+            const div = document.createElement('div');
+            div.className = 'asset-item';
+            div.innerHTML = `
+                <span class="asset-name">${property.id.replace(/_/g, ' ')}</span>
+                <span class="asset-value">$${property.value.toFixed(2)}</span>
+            `;
+            propertiesList.appendChild(div);
+        });
+        
+        // Update loans
+        const loansList = document.getElementById('loans-list');
+        loansList.innerHTML = '';
+        this.gameState.loans.forEach(loan => {
+            const div = document.createElement('div');
+            div.className = 'asset-item';
+            div.innerHTML = `
+                <span class="asset-name">${loan.kind} Loan</span>
+                <span class="asset-debt">-$${loan.balance.toFixed(2)}</span>
+            `;
+            loansList.appendChild(div);
+        });
+    }
+    
     getMonthName(monthNum) {
         const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         return months[monthNum - 1];
+    }
+    
+    showEventPopup(event, cost) {
+        const popup = document.getElementById('event-popup');
+        const title = document.getElementById('event-popup-title');
+        const description = document.getElementById('event-popup-description');
+        const costElement = document.getElementById('event-popup-cost');
+        const happinessElement = document.getElementById('event-popup-happiness');
+        
+        title.textContent = event.description;
+        description.textContent = event.detailedDescription || event.description;
+        
+        // Format cost display
+        if (cost > 0) {
+            costElement.textContent = `Cost: -$${cost.toFixed(0)}`;
+            costElement.className = 'event-cost negative';
+        } else if (cost < 0) {
+            costElement.textContent = `Income: +$${Math.abs(cost).toFixed(0)}`;
+            costElement.className = 'event-cost positive';
+        } else {
+            costElement.textContent = 'No financial impact';
+            costElement.className = 'event-cost';
+        }
+        
+        // Format happiness display
+        if (event.effects.happiness) {
+            const happinessChange = event.effects.happiness;
+            if (happinessChange > 0) {
+                happinessElement.textContent = `Happiness: +${happinessChange}`;
+                happinessElement.style.color = '#28a745';
+            } else {
+                happinessElement.textContent = `Happiness: ${happinessChange}`;
+                happinessElement.style.color = '#dc3545';
+            }
+        } else {
+            happinessElement.textContent = 'No happiness change';
+            happinessElement.style.color = '#666';
+        }
+        
+        popup.style.display = 'flex';
     }
     
     randomBetween(min, max) {
