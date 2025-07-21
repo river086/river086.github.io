@@ -41,6 +41,13 @@ class SimLifeGame {
     }
     
     showProfessionSelection() {
+        // Ensure we have professions loaded before generating cards
+        if (Object.keys(this.professions).length === 0) {
+            console.error('No professions loaded! Cannot show profession selection.');
+            return;
+        }
+        
+        this.generateProfessionCards();
         document.getElementById('profession-selection').style.display = 'flex';
     }
     
@@ -62,11 +69,69 @@ class SimLifeGame {
         document.getElementById('profession-selection').style.display = 'none';
     }
     
+    generateProfessionCards() {
+        const grid = document.getElementById('profession-grid');
+        grid.innerHTML = '';
+        
+        console.log('Generating cards for professions:', Object.keys(this.professions));
+        console.log('Number of professions to display:', Object.keys(this.professions).length);
+        
+        let cardCount = 0;
+        Object.entries(this.professions).forEach(([id, profession]) => {
+            cardCount++;
+            const card = document.createElement('div');
+            card.className = 'profession-card';
+            card.onclick = () => this.selectProfession(id);
+            
+            const fixedCostsTotal = profession.fixedCosts.food + 390; // utilities etc. (no housing - living with parents)
+            const raisePercent = Math.round(profession.raise * 100);
+            const loanYears = profession.studentLoan.termMonths / 12;
+            
+            let loanDisplay = '';
+            if (profession.studentLoan.principal > 0) {
+                loanDisplay = `<div class="profession-loan">Student Loan: $${profession.studentLoan.principal.toLocaleString()} at ${Math.round(profession.studentLoan.annualRate * 100)}% (${loanYears} years)</div>`;
+            } else {
+                loanDisplay = `<div class="profession-loan" style="background: #d4edda; color: #155724;">No Student Loan Required!</div>`;
+            }
+            
+            card.innerHTML = `
+                <div class="profession-title">${profession.title}</div>
+                <div class="profession-salary">$${profession.salaryRange[0].toLocaleString()} - $${profession.salaryRange[1].toLocaleString()}</div>
+                <div class="profession-details">
+                    • Annual raises: ${raisePercent}%<br>
+                    • Fixed costs: $${Math.round(fixedCostsTotal).toLocaleString()}/month<br>
+                    • Starting career path
+                </div>
+                ${loanDisplay}
+            `;
+            
+            grid.appendChild(card);
+        });
+        
+        console.log('Generated', cardCount, 'profession cards');
+        console.log('Grid children count:', grid.children.length);
+        
+        // Add scroll event listener to hide hint when user scrolls
+        const scrollHint = document.getElementById('scroll-hint');
+        grid.addEventListener('scroll', () => {
+            if (scrollHint) {
+                scrollHint.style.opacity = '0.3';
+            }
+        });
+        
+        // Hide scroll hint if all professions fit without scrolling
+        setTimeout(() => {
+            if (grid.scrollHeight <= grid.clientHeight && scrollHint) {
+                scrollHint.style.display = 'none';
+            }
+        }, 100);
+    }
+    
     startGame() {
         this.gameState.gameStarted = true;
         this.updateUI();
         const profession = this.professions[this.gameState.professionId];
-        this.log(`Welcome to Vegas-Life! You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
+        this.log(`Welcome to Life Simulator! You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
         this.log(`Your starting salary: $${this.gameState.grossAnnual.toFixed(0)}/year`, 'info');
         this.log('Use the "End Turn" button to advance to the next month.', 'info');
     }
@@ -75,7 +140,7 @@ class SimLifeGame {
         const profession = this.professions[professionId];
         
         this.gameState.grossAnnual = this.randomBetween(profession.salaryRange[0], profession.salaryRange[1]);
-        this.gameState.fixedCosts = profession.fixedCosts.food + profession.fixedCosts.housing + 390; // utilities etc.
+        this.gameState.fixedCosts = profession.fixedCosts.food + 390; // utilities etc. (no housing - living with parents)
         
         if (profession.studentLoan) {
             const loan = {
@@ -104,6 +169,7 @@ class SimLifeGame {
     }
     
     calculateMonthlyPayment(principal, annualRate, months) {
+        if (principal <= 0 || months <= 0) return 0;
         const monthlyRate = annualRate / 12;
         return (principal * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -months));
     }
@@ -114,6 +180,27 @@ class SimLifeGame {
         const fica = grossMonthly * 0.0765;
         const health = 200;
         return grossMonthly - federal - fica - health;
+    }
+    
+    calculateMonthlyExpenses() {
+        let totalExpenses = this.gameState.fixedCosts;
+        
+        // Add loan payments
+        this.gameState.loans.forEach(loan => {
+            totalExpenses += loan.monthlyPayment;
+        });
+        
+        // Add car maintenance
+        this.gameState.cars.forEach(car => {
+            totalExpenses += car.maintenance;
+        });
+        
+        // Add property maintenance costs
+        this.gameState.properties.forEach(property => {
+            totalExpenses += property.maintenance;
+        });
+        
+        return totalExpenses;
     }
     
     calculateNetWorth() {
@@ -216,7 +303,7 @@ class SimLifeGame {
             this.gameState.portfolio.cash -= cost;
             
             if (selectedEvent.effects.happiness) {
-                this.gameState.happiness = Math.max(0, Math.min(100, 
+                this.gameState.happiness = Math.max(0, Math.min(1000, 
                     this.gameState.happiness + selectedEvent.effects.happiness));
             }
             
@@ -543,7 +630,11 @@ class SimLifeGame {
             document.getElementById('profession').textContent = 'Choose Profession';
         }
         
-        document.getElementById('happiness').textContent = this.gameState.happiness;
+        document.getElementById('happiness').textContent = `${this.gameState.happiness} / 1000`;
+        
+        // Calculate and display monthly expenses
+        const monthlyExpenses = this.calculateMonthlyExpenses();
+        document.getElementById('monthly-expenses').textContent = `$${monthlyExpenses.toFixed(0)}`;
         
         // Update progress bar to show current month
         const progressBar = document.getElementById('month-progress');
@@ -557,148 +648,328 @@ class SimLifeGame {
     }
     
     async loadProfessions() {
-        try {
-            const response = await fetch('professions.xml');
-            const xmlText = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-            
-            const professionNodes = xmlDoc.querySelectorAll('profession');
-            professionNodes.forEach(node => {
-                const id = node.getAttribute('id');
-                const profession = {
-                    id: id,
-                    title: node.querySelector('title').textContent,
-                    salaryRange: [
-                        parseInt(node.querySelector('salaryRange min').textContent),
-                        parseInt(node.querySelector('salaryRange max').textContent)
-                    ],
-                    raise: parseFloat(node.querySelector('raise').textContent),
-                    studentLoan: {
-                        principal: parseInt(node.querySelector('studentLoan principal').textContent),
-                        annualRate: parseFloat(node.querySelector('studentLoan annualRate').textContent),
-                        termMonths: parseInt(node.querySelector('studentLoan termMonths').textContent)
-                    },
-                    fixedCosts: {
-                        food: parseInt(node.querySelector('fixedCosts food').textContent),
-                        housing: parseInt(node.querySelector('fixedCosts housing').textContent)
-                    }
-                };
-                this.professions[id] = profession;
-            });
-            console.log('Loaded professions:', Object.keys(this.professions));
-        } catch (error) {
-            console.error('Error loading professions:', error);
-            // Fallback to hardcoded professions if XML loading fails
-            this.professions = {
-                'teacher_elementary': {
-                    id: 'teacher_elementary',
-                    title: 'Elementary Teacher',
-                    salaryRange: [45000, 85000],
-                    raise: 0.05,
-                    studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
-                    fixedCosts: { food: 600, housing: 1800 }
-                },
-                'software_dev': {
-                    id: 'software_dev',
-                    title: 'Software Developer',
-                    salaryRange: [85000, 150000],
-                    raise: 0.08,
-                    studentLoan: { principal: 35000, annualRate: 0.05, termMonths: 120 },
-                    fixedCosts: { food: 700, housing: 2200 }
-                },
-                'nurse': {
-                    id: 'nurse',
-                    title: 'Registered Nurse',
-                    salaryRange: [55000, 95000],
-                    raise: 0.06,
-                    studentLoan: { principal: 28000, annualRate: 0.05, termMonths: 120 },
-                    fixedCosts: { food: 650, housing: 1900 }
-                }
-            };
-            console.log('Using fallback professions');
-        }
+        console.log('Loading embedded professions...');
+        // Use embedded data instead of fetching XML to avoid CORS issues
+        this.professions = this.getEmbeddedProfessions();
+        console.log('Loaded professions:', Object.keys(this.professions));
+        console.log('Total profession count:', Object.keys(this.professions).length);
+    }
+    
+    getEmbeddedProfessions() {
+        return {
+            'fast_food_worker': {
+                id: 'fast_food_worker',
+                title: 'Fast-Food Worker',
+                salaryRange: [20000, 36000],
+                raise: 0.04,
+                studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
+                fixedCosts: { food: 600, housing: 1800 }
+            },
+            'barista': {
+                id: 'barista',
+                title: 'Barista',
+                salaryRange: [21000, 38000],
+                raise: 0.05,
+                studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
+                fixedCosts: { food: 600, housing: 1800 }
+            },
+            'retail_sales': {
+                id: 'retail_sales',
+                title: 'Retail Sales Clerk',
+                salaryRange: [24000, 42000],
+                raise: 0.05,
+                studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
+                fixedCosts: { food: 600, housing: 1800 }
+            },
+            'waiter': {
+                id: 'waiter',
+                title: 'Restaurant Server',
+                salaryRange: [24000, 42000],
+                raise: 0.07,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 600, housing: 1800 }
+            },
+            'customer_service_rep': {
+                id: 'customer_service_rep',
+                title: 'Customer Service Rep',
+                salaryRange: [30000, 55000],
+                raise: 0.06,
+                studentLoan: { principal: 5000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 650, housing: 1900 }
+            },
+            'administrative_assistant': {
+                id: 'administrative_assistant',
+                title: 'Administrative Assistant',
+                salaryRange: [33000, 60000],
+                raise: 0.06,
+                studentLoan: { principal: 5000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 650, housing: 1900 }
+            },
+            'construction_laborer': {
+                id: 'construction_laborer',
+                title: 'Construction Laborer',
+                salaryRange: [30000, 50000],
+                raise: 0.05,
+                studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
+                fixedCosts: { food: 650, housing: 1900 }
+            },
+            'truck_driver': {
+                id: 'truck_driver',
+                title: 'Truck Driver',
+                salaryRange: [42000, 70000],
+                raise: 0.06,
+                studentLoan: { principal: 7000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 650, housing: 1900 }
+            },
+            'electrician': {
+                id: 'electrician',
+                title: 'Electrician',
+                salaryRange: [45000, 80000],
+                raise: 0.06,
+                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 }
+            },
+            'plumber': {
+                id: 'plumber',
+                title: 'Plumber',
+                salaryRange: [43000, 77000],
+                raise: 0.06,
+                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 }
+            },
+            'carpenter': {
+                id: 'carpenter',
+                title: 'Carpenter',
+                salaryRange: [38000, 70000],
+                raise: 0.06,
+                studentLoan: { principal: 5000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 }
+            },
+            'auto_mechanic': {
+                id: 'auto_mechanic',
+                title: 'Automotive Technician',
+                salaryRange: [35000, 60000],
+                raise: 0.06,
+                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 }
+            },
+            'chef': {
+                id: 'chef',
+                title: 'Chef',
+                salaryRange: [40000, 72000],
+                raise: 0.07,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 }
+            },
+            'fitness_trainer': {
+                id: 'fitness_trainer',
+                title: 'Fitness Trainer',
+                salaryRange: [32000, 60000],
+                raise: 0.08,
+                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 }
+            },
+            'graphic_designer': {
+                id: 'graphic_designer',
+                title: 'Graphic Designer',
+                salaryRange: [38000, 80000],
+                raise: 0.07,
+                studentLoan: { principal: 20000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 }
+            },
+            'ux_designer': {
+                id: 'ux_designer',
+                title: 'UX Designer',
+                salaryRange: [75000, 140000],
+                raise: 0.08,
+                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 }
+            },
+            'journalist': {
+                id: 'journalist',
+                title: 'Journalist',
+                salaryRange: [38000, 70000],
+                raise: 0.06,
+                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 }
+            },
+            'content_creator': {
+                id: 'content_creator',
+                title: 'Content Creator',
+                salaryRange: [35000, 85000],
+                raise: 0.20,
+                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 }
+            },
+            'marketing_specialist': {
+                id: 'marketing_specialist',
+                title: 'Marketing Specialist',
+                salaryRange: [45000, 95000],
+                raise: 0.07,
+                studentLoan: { principal: 20000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 }
+            },
+            'sales_manager': {
+                id: 'sales_manager',
+                title: 'Sales Manager',
+                salaryRange: [85000, 175000],
+                raise: 0.10,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 }
+            },
+            'accountant': {
+                id: 'accountant',
+                title: 'Accountant',
+                salaryRange: [50000, 105000],
+                raise: 0.07,
+                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 }
+            },
+            'financial_analyst': {
+                id: 'financial_analyst',
+                title: 'Financial Analyst',
+                salaryRange: [70000, 125000],
+                raise: 0.08,
+                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 850, housing: 2300 }
+            },
+            'software_dev': {
+                id: 'software_dev',
+                title: 'Software Developer',
+                salaryRange: [85000, 150000],
+                raise: 0.08,
+                studentLoan: { principal: 35000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 }
+            },
+            'data_scientist': {
+                id: 'data_scientist',
+                title: 'Data Scientist',
+                salaryRange: [80000, 145000],
+                raise: 0.10,
+                studentLoan: { principal: 30000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 }
+            },
+            'teacher_elementary': {
+                id: 'teacher_elementary',
+                title: 'Elementary Teacher',
+                salaryRange: [45000, 85000],
+                raise: 0.05,
+                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 600, housing: 1800 }
+            },
+            'registered_nurse': {
+                id: 'registered_nurse',
+                title: 'Registered Nurse',
+                salaryRange: [65000, 115000],
+                raise: 0.06,
+                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 }
+            },
+            'paramedic': {
+                id: 'paramedic',
+                title: 'Paramedic',
+                salaryRange: [35000, 62000],
+                raise: 0.06,
+                studentLoan: { principal: 12000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 }
+            },
+            'police_officer': {
+                id: 'police_officer',
+                title: 'Police Officer',
+                salaryRange: [50000, 95000],
+                raise: 0.06,
+                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 }
+            },
+            'firefighter': {
+                id: 'firefighter',
+                title: 'Firefighter',
+                salaryRange: [40000, 75000],
+                raise: 0.06,
+                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 }
+            },
+            'real_estate_agent': {
+                id: 'real_estate_agent',
+                title: 'Real Estate Agent',
+                salaryRange: [35000, 80000],
+                raise: 0.08,
+                studentLoan: { principal: 8000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 }
+            }
+        };
     }
     
     async loadEvents() {
-        try {
-            const response = await fetch('events.xml');
-            const xmlText = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-            
-            const eventNodes = xmlDoc.querySelectorAll('event');
-            eventNodes.forEach(node => {
-                const effects = {};
-                const effectsNode = node.querySelector('effects');
-                if (effectsNode && effectsNode.children.length > 0) {
-                    Array.from(effectsNode.children).forEach(child => {
-                        effects[child.tagName] = parseInt(child.textContent);
-                    });
-                }
-                
-                const event = {
-                    id: node.getAttribute('id'),
-                    category: node.querySelector('category').textContent,
-                    weight: parseFloat(node.querySelector('weight').textContent),
-                    cooldown: parseInt(node.querySelector('cooldown').textContent),
-                    costRange: [
-                        parseInt(node.querySelector('costRange min').textContent),
-                        parseInt(node.querySelector('costRange max').textContent)
-                    ],
-                    effects: effects,
-                    description: node.querySelector('description').textContent,
-                    detailedDescription: node.querySelector('detailedDescription').textContent
-                };
-                this.events.push(event);
-            });
-        } catch (error) {
-            console.error('Error loading events:', error);
-            // Fallback to hardcoded events if XML loading fails
-            this.events = [
-                {
-                    id: 'travel_trip',
-                    category: 'lifestyle',
-                    weight: 0.5,
-                    cooldown: 12,
-                    costRange: [300, 1000],
-                    effects: { happiness: 8 },
-                    description: 'Weekend getaway',
-                    detailedDescription: 'You decide to take a spontaneous weekend trip to recharge and explore new places.'
-                },
-                {
-                    id: 'car_repair',
-                    category: 'maintenance',
-                    weight: 0.8,
-                    cooldown: 6,
-                    costRange: [200, 800],
-                    effects: { happiness: -3 },
-                    description: 'Car needs repairs',
-                    detailedDescription: 'Your car has developed mechanical issues that require immediate attention.'
-                },
-                {
-                    id: 'bonus',
-                    category: 'income',
-                    weight: 0.3,
-                    cooldown: 24,
-                    costRange: [-2000, -500],
-                    effects: { happiness: 5 },
-                    description: 'Work bonus!',
-                    detailedDescription: 'Your hard work and dedication have been recognized with a performance bonus!'
-                },
-                {
-                    id: 'no_event',
-                    category: 'none',
-                    weight: 2.0,
-                    cooldown: 0,
-                    costRange: [0, 0],
-                    effects: {},
-                    description: 'Quiet month',
-                    detailedDescription: 'Nothing significant happens this month. Sometimes life is just routine and peaceful.'
-                }
-            ];
-            console.log('Using fallback events');
-        }
+        console.log('Loading embedded events...');
+        // Use embedded data instead of fetching XML to avoid CORS issues
+        this.events = this.getEmbeddedEvents();
+        console.log('Loaded events:', this.events.map(e => e.id));
+    }
+    
+    getEmbeddedEvents() {
+        return [
+            {
+                id: 'travel_trip',
+                category: 'lifestyle',
+                weight: 0.5,
+                cooldown: 12,
+                costRange: [300, 1000],
+                effects: { happiness: 8 },
+                description: 'Weekend getaway',
+                detailedDescription: 'You decide to take a spontaneous weekend trip to recharge and explore new places. The experience brings joy and creates lasting memories.'
+            },
+            {
+                id: 'car_repair',
+                category: 'maintenance',
+                weight: 0.8,
+                cooldown: 6,
+                costRange: [200, 800],
+                effects: { happiness: -3 },
+                description: 'Car needs repairs',
+                detailedDescription: 'Your car has developed mechanical issues that require immediate attention. The unexpected repair costs are frustrating but necessary for reliable transportation.'
+            },
+            {
+                id: 'bonus',
+                category: 'income',
+                weight: 0.3,
+                cooldown: 24,
+                costRange: [-2000, -500],
+                effects: { happiness: 5 },
+                description: 'Work bonus!',
+                detailedDescription: 'Your hard work and dedication have been recognized! Your employer rewards you with a performance bonus that boosts both your finances and morale.'
+            },
+            {
+                id: 'medical_expense',
+                category: 'health',
+                weight: 0.4,
+                cooldown: 18,
+                costRange: [150, 600],
+                effects: { happiness: -2 },
+                description: 'Medical checkup',
+                detailedDescription: 'You need to visit the doctor for a routine checkup or minor health issue. While it\'s important for your well-being, the medical costs add up.'
+            },
+            {
+                id: 'friend_wedding',
+                category: 'social',
+                weight: 0.2,
+                cooldown: 36,
+                costRange: [250, 500],
+                effects: { happiness: 6 },
+                description: 'Friend\'s wedding',
+                detailedDescription: 'A close friend is getting married and you\'re invited to celebrate! Between the gift, outfit, and travel expenses, it costs money but brings joy and strengthens friendships.'
+            },
+            {
+                id: 'no_event',
+                category: 'none',
+                weight: 2.0,
+                cooldown: 0,
+                costRange: [0, 0],
+                effects: {},
+                description: 'Quiet month',
+                detailedDescription: 'Nothing significant happens this month. Sometimes life is just routine and peaceful.'
+            }
+        ];
     }
     
     setupEventListeners() {
@@ -841,6 +1112,108 @@ class SimLifeGame {
         }
         
         popup.style.display = 'flex';
+    }
+    
+    updateStockInfo() {
+        // Update current date
+        document.getElementById('stock-current-date').textContent = 
+            `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`;
+        
+        // Update stock prices
+        const stocksContainer = document.getElementById('stocks-info');
+        stocksContainer.innerHTML = '';
+        
+        const stockSymbols = ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL'];
+        stockSymbols.forEach(symbol => {
+            const price = this.getStockPrice(symbol);
+            const div = document.createElement('div');
+            div.className = 'stock-item';
+            div.innerHTML = `
+                <span class="stock-symbol">${symbol}</span>
+                <span class="stock-price">$${price.toFixed(2)}</span>
+            `;
+            stocksContainer.appendChild(div);
+        });
+        
+        // Update crypto prices
+        const cryptoContainer = document.getElementById('crypto-info');
+        cryptoContainer.innerHTML = '';
+        
+        const cryptoSymbols = ['BTC', 'ETH', 'LTC', 'USDC'];
+        cryptoSymbols.forEach(symbol => {
+            const price = this.getCryptoPrice(symbol);
+            const div = document.createElement('div');
+            div.className = 'stock-item';
+            div.innerHTML = `
+                <span class="stock-symbol">${symbol}</span>
+                <span class="crypto-price">$${price.toFixed(2)}</span>
+            `;
+            cryptoContainer.appendChild(div);
+        });
+    }
+    
+    updateExpenseBreakdown() {
+        const container = document.getElementById('expense-breakdown-list');
+        container.innerHTML = '';
+        
+        const profession = this.professions[this.gameState.professionId];
+        let totalExpenses = 0;
+        
+        // Food expenses
+        if (profession) {
+            const foodExpense = profession.fixedCosts.food;
+            totalExpenses += foodExpense;
+            this.addExpenseItem(container, '🍔 Food', foodExpense);
+            
+            // Housing expenses (only if not living with parents)
+            // For now, player lives with parents so no housing expense
+            // TODO: Add housing expense when player moves out
+        }
+        
+        // Utilities & Other Fixed Costs
+        const utilities = 390; // utilities, phone, internet, etc.
+        totalExpenses += utilities;
+        this.addExpenseItem(container, '🔌 Utilities & Other', utilities);
+        
+        // Loan payments
+        this.gameState.loans.forEach((loan, index) => {
+            const loanType = loan.kind.charAt(0).toUpperCase() + loan.kind.slice(1);
+            this.addExpenseItem(container, `📋 ${loanType} Loan Payment`, loan.monthlyPayment);
+            totalExpenses += loan.monthlyPayment;
+        });
+        
+        // Car maintenance
+        this.gameState.cars.forEach((car, index) => {
+            const carName = car.id.replace(/_/g, ' ');
+            this.addExpenseItem(container, `🚗 ${carName} Maintenance`, car.maintenance);
+            totalExpenses += car.maintenance;
+        });
+        
+        // Property maintenance
+        this.gameState.properties.forEach((property, index) => {
+            const propertyName = property.id.replace(/_/g, ' ');
+            this.addExpenseItem(container, `🏠 ${propertyName} Maintenance`, property.maintenance);
+            totalExpenses += property.maintenance;
+        });
+        
+        // Total
+        const totalDiv = document.createElement('div');
+        totalDiv.className = 'expense-item';
+        totalDiv.innerHTML = `
+            <span class="expense-category">💰 Total Monthly Expenses</span>
+            <span class="expense-amount expense-total">$${totalExpenses.toFixed(0)}</span>
+        `;
+        container.appendChild(totalDiv);
+    }
+    
+    addExpenseItem(container, category, amount) {
+        const div = document.createElement('div');
+        div.className = 'expense-item';
+        div.innerHTML = `
+            <span class="expense-category">${category}</span>
+            <span class="expense-amount">$${amount.toFixed(0)}</span>
+        `;
+        container.appendChild(div);
     }
     
     randomBetween(min, max) {
