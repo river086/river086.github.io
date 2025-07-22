@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
+
     <event id="travel_trip">
         <category>lifestyle</category>
         <weight>0.5</weight>
@@ -12,9 +13,11 @@
             <happiness>8</happiness>
         </effects>
         <description>Weekend getaway</description>
-        <detailedDescription>You decide to take a spontaneous weekend trip to recharge and explore new places. The experience brings joy and creates lasting memories.</detailedDescription>
+        <detailedDescription>
+            You decide to take a spontaneous weekend trip to recharge and explore new places. The experience brings joy and creates lasting memories.
+        </detailedDescription>
     </event>
-    
+
     <event id="car_repair">
         <category>maintenance</category>
         <weight>0.8</weight>
@@ -27,9 +30,11 @@
             <happiness>-3</happiness>
         </effects>
         <description>Car needs repairs</description>
-        <detailedDescription>Your car has developed mechanical issues that require immediate attention. The unexpected repair costs are frustrating but necessary for reliable transportation.</detailedDescription>
+        <detailedDescription>
+            Your car has developed mechanical issues that require immediate attention. The unexpected repair costs are frustrating but necessary for reliable transportation.
+        </detailedDescription>
     </event>
-    
+
     <event id="bonus">
         <category>income</category>
         <weight>0.3</weight>
@@ -42,9 +47,11 @@
             <happiness>5</happiness>
         </effects>
         <description>Work bonus!</description>
-        <detailedDescription>Your hard work and dedication have been recognized! Your employer rewards you with a performance bonus that boosts both your finances and morale.</detailedDescription>
+        <detailedDescription>
+            Your hard work and dedication have been recognized! Your employer rewards you with a performance bonus that boosts both your finances and morale.
+        </detailedDescription>
     </event>
-    
+
     <event id="medical_expense">
         <category>health</category>
         <weight>0.4</weight>
@@ -57,9 +64,11 @@
             <happiness>-2</happiness>
         </effects>
         <description>Medical checkup</description>
-        <detailedDescription>You need to visit the doctor for a routine checkup or minor health issue. While it's important for your well-being, the medical costs add up.</detailedDescription>
+        <detailedDescription>
+            You need to visit the doctor for a routine checkup or minor health issue. While it's important for your well-being, the medical costs add up.
+        </detailedDescription>
     </event>
-    
+
     <event id="friend_wedding">
         <category>social</category>
         <weight>0.2</weight>
@@ -72,9 +81,11 @@
             <happiness>6</happiness>
         </effects>
         <description>Friend's wedding</description>
-        <detailedDescription>A close friend is getting married and you're invited to celebrate! Between the gift, outfit, and travel expenses, it costs money but brings joy and strengthens friendships.</detailedDescription>
+        <detailedDescription>
+            A close friend is getting married and you're invited to celebrate! Between the gift, outfit, and travel expenses, it costs money but brings joy and strengthens friendships.
+        </detailedDescription>
     </event>
-    
+
     <event id="no_event">
         <category>none</category>
         <weight>2.0</weight>
@@ -83,8 +94,11 @@
             <min>0</min>
             <max>0</max>
         </costRange>
-        <effects></effects>
+        <effects/>
         <description>Quiet month</description>
-        <detailedDescription>Nothing significant happens this month. Sometimes life is just routine and peaceful.</detailedDescription>
+        <detailedDescription>
+            Nothing significant happens this month. Sometimes life is just routine and peaceful.
+        </detailedDescription>
     </event>
+
 </events>

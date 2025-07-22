@@ -1,56 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <professions>
-    <profession id="teacher_elementary">
-        <title>Elementary Teacher</title>
-        <salaryRange>
-            <min>45000</min>
-            <max>85000</max>
-        </salaryRange>
-        <raise>0.05</raise>
-        <studentLoan>
-            <principal>22000</principal>
-            <annualRate>0.05</annualRate>
-            <termMonths>120</termMonths>
-        </studentLoan>
-        <fixedCosts>
-            <food>600</food>
-            <housing>1800</housing>
-        </fixedCosts>
-    </profession>
-    
-    <profession id="software_dev">
-        <title>Software Developer</title>
-        <salaryRange>
-            <min>85000</min>
-            <max>150000</max>
-        </salaryRange>
-        <raise>0.08</raise>
-        <studentLoan>
-            <principal>35000</principal>
-            <annualRate>0.05</annualRate>
-            <termMonths>120</termMonths>
-        </studentLoan>
-        <fixedCosts>
-            <food>700</food>
-            <housing>2200</housing>
-        </fixedCosts>
-    </profession>
-    
-    <profession id="nurse">
-        <title>Registered Nurse</title>
-        <salaryRange>
-            <min>55000</min>
-            <max>95000</max>
-        </salaryRange>
-        <raise>0.06</raise>
-        <studentLoan>
-            <principal>28000</principal>
-            <annualRate>0.05</annualRate>
-            <termMonths>120</termMonths>
-        </studentLoan>
-        <fixedCosts>
-            <food>650</food>
-            <housing>1900</housing>
-        </fixedCosts>
-    </profession>
+
+  <!-- ───────── Entry-Level / Service ───────── -->
+  <profession id="fast_food_worker">
+    <title>Fast-Food Worker</title>
+    <salaryRange><min>20000</min><max>36000</max></salaryRange>
+    <raise>0.04</raise>
+    <studentLoan><principal>0</principal><annualRate>0.05</annualRate><termMonths>0</termMonths></studentLoan>
+    <fixedCosts><food>600</food><housing>1800</housing></fixedCosts>
+  </profession>
+
+  <profession id="barista">
+    <title>Barista</title>
+    <salaryRange><min>21000</min><max>38000</max></salaryRange>
+    <raise>0.05</raise>
+    <studentLoan><principal>0</principal><annualRate>0.05</annualRate><termMonths>0</termMonths></studentLoan>
+    <fixedCosts><food>600</food><housing>1800</housing></fixedCosts>
+  </profession>
+
+  <profession id="retail_sales">
+    <title>Retail Sales Clerk</title>
+    <salaryRange><min>24000</min><max>42000</max></salaryRange>
+    <raise>0.05</raise>
+    <studentLoan><principal>0</principal><annualRate>0.05</annualRate><termMonths>0</termMonths></studentLoan>
+    <fixedCosts><food>600</food><housing>1800</housing></fixedCosts>
+  </profession>
+
+  <profession id="waiter">
+    <title>Restaurant Server</title>
+    <salaryRange><min>24000</min><max>42000</max></salaryRange>
+    <raise>0.07</raise>
+    <studentLoan><principal>15000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>600</food><housing>1800</housing></fixedCosts>
+  </profession>
+
+  <profession id="customer_service_rep">
+    <title>Customer Service Rep</title>
+    <salaryRange><min>30000</min><max>55000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>5000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>650</food><housing>1900</housing></fixedCosts>
+  </profession>
+
+  <profession id="administrative_assistant">
+    <title>Administrative Assistant</title>
+    <salaryRange><min>33000</min><max>60000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>5000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>650</food><housing>1900</housing></fixedCosts>
+  </profession>
+
+  <profession id="construction_laborer">
+    <title>Construction Laborer</title>
+    <salaryRange><min>30000</min><max>50000</max></salaryRange>
+    <raise>0.05</raise>
+    <studentLoan><principal>0</principal><annualRate>0.05</annualRate><termMonths>0</termMonths></studentLoan>
+    <fixedCosts><food>650</food><housing>1900</housing></fixedCosts>
+  </profession>
+
+  <profession id="truck_driver">
+    <title>Truck Driver</title>
+    <salaryRange><min>42000</min><max>70000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>7000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>650</food><housing>1900</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── Skilled Trades ───────── -->
+  <profession id="electrician">
+    <title>Electrician</title>
+    <salaryRange><min>45000</min><max>80000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>10000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>700</food><housing>2000</housing></fixedCosts>
+  </profession>
+
+  <profession id="plumber">
+    <title>Plumber</title>
+    <salaryRange><min>43000</min><max>77000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>10000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>700</food><housing>2000</housing></fixedCosts>
+  </profession>
+
+  <profession id="carpenter">
+    <title>Carpenter</title>
+    <salaryRange><min>38000</min><max>70000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>5000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>700</food><housing>2000</housing></fixedCosts>
+  </profession>
+
+  <profession id="auto_mechanic">
+    <title>Automotive Technician</title>
+    <salaryRange><min>35000</min><max>60000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>10000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>700</food><housing>2000</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── Culinary / Lifestyle ───────── -->
+  <profession id="chef">
+    <title>Chef</title>
+    <salaryRange><min>40000</min><max>72000</max></salaryRange>
+    <raise>0.07</raise>
+    <studentLoan><principal>15000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>750</food><housing>2100</housing></fixedCosts>
+  </profession>
+
+  <profession id="fitness_trainer">
+    <title>Fitness Trainer</title>
+    <salaryRange><min>32000</min><max>60000</max></salaryRange>
+    <raise>0.08</raise>
+    <studentLoan><principal>10000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>700</food><housing>2000</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── Creative / Media ───────── -->
+  <profession id="graphic_designer">
+    <title>Graphic Designer</title>
+    <salaryRange><min>38000</min><max>80000</max></salaryRange>
+    <raise>0.07</raise>
+    <studentLoan><principal>20000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>750</food><housing>2100</housing></fixedCosts>
+  </profession>
+
+  <profession id="ux_designer">
+    <title>UX Designer</title>
+    <salaryRange><min>75000</min><max>140000</max></salaryRange>
+    <raise>0.08</raise>
+    <studentLoan><principal>22000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>900</food><housing>2400</housing></fixedCosts>
+  </profession>
+
+  <profession id="journalist">
+    <title>Journalist</title>
+    <salaryRange><min>38000</min><max>70000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>25000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>750</food><housing>2100</housing></fixedCosts>
+  </profession>
+
+  <profession id="content_creator">
+    <title>Content Creator</title>
+    <salaryRange><min>35000</min><max>85000</max></salaryRange>
+    <raise>0.20</raise>
+    <studentLoan><principal>25000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>750</food><housing>2100</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── Business / Office ───────── -->
+  <profession id="marketing_specialist">
+    <title>Marketing Specialist</title>
+    <salaryRange><min>45000</min><max>95000</max></salaryRange>
+    <raise>0.07</raise>
+    <studentLoan><principal>20000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>800</food><housing>2200</housing></fixedCosts>
+  </profession>
+
+  <profession id="sales_manager">
+    <title>Sales Manager</title>
+    <salaryRange><min>85000</min><max>175000</max></salaryRange>
+    <raise>0.10</raise>
+    <studentLoan><principal>15000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>900</food><housing>2400</housing></fixedCosts>
+  </profession>
+
+  <profession id="accountant">
+    <title>Accountant</title>
+    <salaryRange><min>50000</min><max>105000</max></salaryRange>
+    <raise>0.07</raise>
+    <studentLoan><principal>22000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>800</food><housing>2200</housing></fixedCosts>
+  </profession>
+
+  <profession id="financial_analyst">
+    <title>Financial Analyst</title>
+    <salaryRange><min>70000</min><max>125000</max></salaryRange>
+    <raise>0.08</raise>
+    <studentLoan><principal>25000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>850</food><housing>2300</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── STEM / Tech ───────── -->
+  <profession id="software_dev">
+    <title>Software Developer</title>
+    <salaryRange><min>85000</min><max>150000</max></salaryRange>
+    <raise>0.08</raise>
+    <studentLoan><principal>35000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>900</food><housing>2400</housing></fixedCosts>
+  </profession>
+
+  <profession id="data_scientist">
+    <title>Data Scientist</title>
+    <salaryRange><min>80000</min><max>145000</max></salaryRange>
+    <raise>0.10</raise>
+    <studentLoan><principal>30000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>900</food><housing>2400</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── Education / Health / Safety ───────── -->
+  <profession id="teacher_elementary">
+    <title>Elementary Teacher</title>
+    <salaryRange><min>45000</min><max>85000</max></salaryRange>
+    <raise>0.05</raise>
+    <studentLoan><principal>22000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>600</food><housing>1800</housing></fixedCosts>
+  </profession>
+
+  <profession id="registered_nurse">
+    <title>Registered Nurse</title>
+    <salaryRange><min>65000</min><max>115000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>25000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>800</food><housing>2200</housing></fixedCosts>
+  </profession>
+
+  <profession id="paramedic">
+    <title>Paramedic</title>
+    <salaryRange><min>35000</min><max>62000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>12000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>700</food><housing>2000</housing></fixedCosts>
+  </profession>
+
+  <profession id="police_officer">
+    <title>Police Officer</title>
+    <salaryRange><min>50000</min><max>95000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>10000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>750</food><housing>2100</housing></fixedCosts>
+  </profession>
+
+  <profession id="firefighter">
+    <title>Firefighter</title>
+    <salaryRange><min>40000</min><max>75000</max></salaryRange>
+    <raise>0.06</raise>
+    <studentLoan><principal>10000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>750</food><housing>2100</housing></fixedCosts>
+  </profession>
+
+  <!-- ───────── Real-Estate & Sales ───────── -->
+  <profession id="real_estate_agent">
+    <title>Real-Estate Agent</title>
+    <salaryRange><min>35000</min><max>80000</max></salaryRange>
+    <raise>0.08</raise>
+    <studentLoan><principal>8000</principal><annualRate>0.05</annualRate><termMonths>120</termMonths></studentLoan>
+    <fixedCosts><food>800</food><housing>2200</housing></fixedCosts>
+  </profession>
+
 </professions>
