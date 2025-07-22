@@ -8,7 +8,7 @@ class SimLifeGame {
             grossAnnual: 0,
             salaryFactor: 1.0,
             fixedCosts: 0,
-            happiness: 50,
+            happiness: 100,
             negativeCashStreak: 0,
             loans: [],
             cars: [],
@@ -20,6 +20,7 @@ class SimLifeGame {
                 bonds: {},
                 crypto: {}
             },
+            cashFlowHistory: [],
             gameOver: false,
             gameStarted: false
         };
@@ -34,7 +35,6 @@ class SimLifeGame {
     }
     
     async init() {
-        this.setupEventListeners();
         await this.loadProfessions();
         await this.loadEvents();
         this.showProfessionSelection();
@@ -259,6 +259,10 @@ class SimLifeGame {
         const netCashFlow = netIncome - totalExpenses;
         this.gameState.portfolio.cash += netCashFlow;
         
+        // Record monthly income and expenses
+        this.recordCashFlow('income', netIncome, 'Monthly Salary', 'salary');
+        this.recordCashFlow('expense', totalExpenses, 'Monthly Expenses', 'living');
+        
         this.log(`Monthly income: $${netIncome.toFixed(0)}, Expenses: $${totalExpenses.toFixed(0)}, Net: $${netCashFlow.toFixed(0)}`, 'info');
         
         // Update loan balances
@@ -278,6 +282,20 @@ class SimLifeGame {
             }
         } else {
             this.gameState.negativeCashStreak = 0;
+        }
+    }
+    
+    checkPsychiatristVisit() {
+        if (this.gameState.happiness < 10) {
+            const cost = 75;
+            this.gameState.portfolio.cash -= cost;
+            this.gameState.happiness += 10;
+            
+            // Ensure happiness doesn't exceed 1000
+            this.gameState.happiness = Math.min(1000, this.gameState.happiness);
+            
+            this.recordCashFlow('expense', cost, 'See a psychiatrist', 'health');
+            this.log(`Mental health visit: Happiness too low. Visited psychiatrist ($${cost}), happiness increased by 10.`, 'warning');
         }
     }
     
@@ -301,6 +319,13 @@ class SimLifeGame {
         if (selectedEvent && selectedEvent.id !== 'no_event') {
             const cost = this.randomBetween(selectedEvent.costRange[0], selectedEvent.costRange[1]);
             this.gameState.portfolio.cash -= cost;
+            
+            // Record event cash flow
+            if (cost > 0) {
+                this.recordCashFlow('expense', cost, selectedEvent.description, 'event');
+            } else if (cost < 0) {
+                this.recordCashFlow('income', Math.abs(cost), selectedEvent.description, 'event');
+            }
             
             if (selectedEvent.effects.happiness) {
                 this.gameState.happiness = Math.max(0, Math.min(1000, 
@@ -342,45 +367,6 @@ class SimLifeGame {
         }
     }
     
-    executeCommand(commandText = null) {
-        const command = commandText || document.getElementById('command-input').value.trim();
-        if (!command) return;
-        
-        document.getElementById('command-input').value = '';
-        this.log(`> ${command}`, 'info');
-        
-        const parts = command.toLowerCase().split(' ');
-        const action = parts[0];
-        
-        try {
-            switch (action) {
-                case 'buy':
-                    this.handleBuy(parts);
-                    break;
-                case 'sell':
-                    this.handleSell(parts);
-                    break;
-                case 'deposit':
-                    this.handleDeposit(parts);
-                    break;
-                case 'withdraw':
-                    this.handleWithdraw(parts);
-                    break;
-                case 'portfolio':
-                    this.showPortfolio();
-                    break;
-                case 'pass':
-                    this.log('Skipping month actions...', 'info');
-                    break;
-                default:
-                    this.log(`Unknown command: ${action}`, 'error');
-            }
-        } catch (error) {
-            this.log(`Error: ${error.message}`, 'error');
-        }
-        
-        this.updateUI();
-    }
     
     handleBuy(parts) {
         if (parts.length < 3) throw new Error('Usage: buy SYMBOL AMOUNT');
@@ -398,6 +384,7 @@ class SimLifeGame {
             
             this.gameState.portfolio.cash -= cost;
             this.gameState.portfolio.crypto[symbol] = (this.gameState.portfolio.crypto[symbol] || 0) + amount;
+            this.recordCashFlow('expense', cost, `Buy ${amount} ${symbol}`, 'investment');
             this.log(`Bought ${amount} ${symbol} for $${cost.toFixed(2)}`, 'success');
         } else {
             const price = this.getStockPrice(symbol);
@@ -409,6 +396,7 @@ class SimLifeGame {
             
             this.gameState.portfolio.cash -= cost;
             this.gameState.portfolio.stocks[symbol] = (this.gameState.portfolio.stocks[symbol] || 0) + amount;
+            this.recordCashFlow('expense', cost, `Buy ${amount} shares ${symbol}`, 'investment');
             this.log(`Bought ${amount} shares of ${symbol} for $${cost.toFixed(2)}`, 'success');
         }
     }
@@ -429,6 +417,7 @@ class SimLifeGame {
             
             this.gameState.portfolio.cash += proceeds;
             this.gameState.portfolio.crypto[symbol] -= amount;
+            this.recordCashFlow('income', proceeds, `Sell ${amount} ${symbol}`, 'investment');
             this.log(`Sold ${amount} ${symbol} for $${proceeds.toFixed(2)}`, 'success');
         } else {
             if (!this.gameState.portfolio.stocks[symbol] || this.gameState.portfolio.stocks[symbol] < amount) {
@@ -440,6 +429,7 @@ class SimLifeGame {
             
             this.gameState.portfolio.cash += proceeds;
             this.gameState.portfolio.stocks[symbol] -= amount;
+            this.recordCashFlow('income', proceeds, `Sell ${amount} shares ${symbol}`, 'investment');
             this.log(`Sold ${amount} shares of ${symbol} for $${proceeds.toFixed(2)}`, 'success');
         }
     }
@@ -454,6 +444,7 @@ class SimLifeGame {
         
         this.gameState.portfolio.cash -= amount;
         this.gameState.portfolio.bank += amount;
+        this.recordCashFlow('expense', amount, `Bank Deposit`, 'banking');
         this.log(`Deposited $${amount} to bank`, 'success');
     }
     
@@ -467,6 +458,7 @@ class SimLifeGame {
         
         this.gameState.portfolio.bank -= amount;
         this.gameState.portfolio.cash += amount;
+        this.recordCashFlow('income', amount, `Bank Withdrawal`, 'banking');
         this.log(`Withdrew $${amount} from bank`, 'success');
     }
     
@@ -499,6 +491,555 @@ class SimLifeGame {
         this.log(portfolioText, 'info');
     }
     
+    showCashFlowHistory() {
+        if (this.gameState.cashFlowHistory.length === 0) {
+            this.log('No cash flow history available yet.', 'info');
+            return;
+        }
+        
+        let historyText = '💰 CASH FLOW HISTORY (現金流水帳歷史):\n';
+        historyText += '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n';
+        
+        this.gameState.cashFlowHistory.forEach((record, index) => {
+            const typeIcon = record.type === 'income' ? '📈' : '📉';
+            const amountSign = record.type === 'income' ? '+' : '-';
+            const amountColor = record.type === 'income' ? 'success' : 'warning';
+            
+            historyText += `${typeIcon} ${record.date} | ${amountSign}$${record.amount.toFixed(0)} | ${record.description}\n`;
+            historyText += `   Category: ${record.category} | Balance: $${record.balance.toFixed(0)}\n`;
+            
+            if (index < this.gameState.cashFlowHistory.length - 1) {
+                historyText += '────────────────────────────────────────────────────────────────\n';
+            }
+        });
+        
+        historyText += '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━';
+        this.log(historyText, 'info');
+    }
+    
+    updateCashFlowModal() {
+        const container = document.getElementById('cashflow-history-list');
+        container.innerHTML = '';
+        
+        if (this.gameState.cashFlowHistory.length === 0) {
+            container.innerHTML = '<div style="text-align: center; color: #666; padding: 20px;">No cash flow history available yet.</div>';
+            return;
+        }
+        
+        this.gameState.cashFlowHistory.forEach((record, index) => {
+            const typeIcon = record.type === 'income' ? '📈' : '📉';
+            const amountSign = record.type === 'income' ? '+' : '-';
+            const amountColor = record.type === 'income' ? '#28a745' : '#dc3545';
+            
+            const recordDiv = document.createElement('div');
+            recordDiv.className = 'expense-item';
+            recordDiv.style.marginBottom = '10px';
+            recordDiv.style.padding = '10px';
+            recordDiv.style.border = '1px solid #ddd';
+            recordDiv.style.borderRadius = '5px';
+            recordDiv.style.backgroundColor = record.type === 'income' ? '#f8fff8' : '#fff8f8';
+            
+            recordDiv.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="font-weight: bold;">${typeIcon} ${record.description}</div>
+                    <div style="color: ${amountColor}; font-weight: bold;">${amountSign}$${record.amount.toFixed(0)}</div>
+                </div>
+                <div style="font-size: 0.9em; color: #666; margin-top: 5px;">
+                    📅 ${record.date} | 📂 ${record.category} | 💰 Balance: $${record.balance.toFixed(0)}
+                </div>
+            `;
+            
+            container.appendChild(recordDiv);
+        });
+    }
+    
+    updateBankModal() {
+        document.getElementById('bank-cash-display').textContent = `$${this.gameState.portfolio.cash.toFixed(2)}`;
+        document.getElementById('bank-balance-display').textContent = `$${this.gameState.portfolio.bank.toFixed(2)}`;
+    }
+    
+    updateStockTradingModal() {
+        document.getElementById('stock-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        
+        const container = document.getElementById('stock-trading-list');
+        container.innerHTML = '';
+        
+        const stockSymbols = ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL'];
+        
+        stockSymbols.forEach(symbol => {
+            const price = this.getStockPrice(symbol);
+            const holdings = this.gameState.portfolio.stocks[symbol] || 0;
+            
+            const stockDiv = document.createElement('div');
+            stockDiv.style.marginBottom = '15px';
+            stockDiv.style.padding = '15px';
+            stockDiv.style.border = '1px solid #ddd';
+            stockDiv.style.borderRadius = '5px';
+            stockDiv.style.backgroundColor = '#f8f9fa';
+            
+            // Get price history for the last 12 months
+            const priceHistory = this.getStockPriceHistory(symbol, 12);
+            const priceChange = priceHistory.length >= 2 ? ((price - priceHistory[priceHistory.length - 2].price) / priceHistory[priceHistory.length - 2].price * 100) : 0;
+            const changeColor = priceChange >= 0 ? '#28a745' : '#dc3545';
+            const changeSymbol = priceChange >= 0 ? '+' : '';
+            
+            stockDiv.innerHTML = `
+                <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 10px;">
+                    <div>
+                        <h4 style="margin: 0; color: #007bff;">${symbol}</h4>
+                        <div style="font-size: 0.9em; color: #666;">Price: $${price.toFixed(2)} | Holdings: ${holdings} shares</div>
+                        <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)}</div>
+                        <div style="font-size: 0.85em; color: ${changeColor}; font-weight: bold;">${changeSymbol}${priceChange.toFixed(1)}% this month</div>
+                    </div>
+                </div>
+                
+                <div style="background: #f8f9fa; padding: 10px; border-radius: 3px; margin-bottom: 10px;">
+                    <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 5px;">📈 12-Month Price History</div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.8em; color: #666;">
+                        ${priceHistory.slice(-6).map(data => `
+                            <div style="text-align: center;">
+                                <div>${data.date}</div>
+                                <div style="font-weight: bold;">$${data.price.toFixed(0)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #28a745;">📈 Buy Shares</label>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="number" id="buy-${symbol}-amount" placeholder="Shares" 
+                                   style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
+                            <button class="btn" onclick="handleStockBuy('${symbol}')" 
+                                    style="background: #28a745; padding: 5px 10px;">Buy</button>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #dc3545;">📉 Sell Shares</label>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="number" id="sell-${symbol}-amount" placeholder="Shares" 
+                                   style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
+                            <button class="btn" onclick="handleStockSell('${symbol}')" 
+                                    style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            container.appendChild(stockDiv);
+        });
+    }
+    
+    updateCryptoTradingModal() {
+        document.getElementById('crypto-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        
+        const container = document.getElementById('crypto-trading-list');
+        container.innerHTML = '';
+        
+        const cryptoSymbols = ['BTC', 'ETH', 'LTC', 'USDC'];
+        const cryptoNames = {
+            'BTC': 'Bitcoin',
+            'ETH': 'Ethereum', 
+            'LTC': 'Litecoin',
+            'USDC': 'USD Coin'
+        };
+        
+        cryptoSymbols.forEach(symbol => {
+            const price = this.getCryptoPrice(symbol);
+            const holdings = this.gameState.portfolio.crypto[symbol] || 0;
+            
+            const cryptoDiv = document.createElement('div');
+            cryptoDiv.style.marginBottom = '15px';
+            cryptoDiv.style.padding = '15px';
+            cryptoDiv.style.border = '1px solid #ddd';
+            cryptoDiv.style.borderRadius = '5px';
+            cryptoDiv.style.backgroundColor = '#fff8f0';
+            
+            cryptoDiv.innerHTML = `
+                <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 10px;">
+                    <div>
+                        <h4 style="margin: 0; color: #ff6b35;">${symbol} - ${cryptoNames[symbol]}</h4>
+                        <div style="font-size: 0.9em; color: #666;">Price: $${price.toFixed(4)} | Holdings: ${holdings.toFixed(4)} ${symbol}</div>
+                        <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)}</div>
+                    </div>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #28a745;">📈 Buy ${symbol}</label>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="number" id="buy-${symbol}-crypto-amount" placeholder="${symbol} Amount" step="0.0001"
+                                   style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
+                            <button class="btn" onclick="handleCryptoBuy('${symbol}')" 
+                                    style="background: #28a745; padding: 5px 10px;">Buy</button>
+                        </div>
+                        <div style="font-size: 0.8em; color: #666; margin-top: 2px;">Fee: 0.5%</div>
+                    </div>
+                    
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #dc3545;">📉 Sell ${symbol}</label>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="number" id="sell-${symbol}-crypto-amount" placeholder="${symbol} Amount" step="0.0001"
+                                   style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
+                            <button class="btn" onclick="handleCryptoSell('${symbol}')" 
+                                    style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                        </div>
+                        <div style="font-size: 0.8em; color: #666; margin-top: 2px;">Fee: 0.5%</div>
+                    </div>
+                </div>
+            `;
+            
+            container.appendChild(cryptoDiv);
+        });
+    }
+    
+    updateVehicleModal() {
+        document.getElementById('vehicle-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        
+        // Update owned vehicles
+        const ownedContainer = document.getElementById('owned-vehicles-list');
+        ownedContainer.innerHTML = '';
+        
+        if (this.gameState.cars.length === 0) {
+            ownedContainer.innerHTML = '<div style="color: #666; text-align: center; padding: 20px;">No vehicles owned</div>';
+        } else {
+            this.gameState.cars.forEach(car => {
+                const vehicleInfo = this.getAvailableVehicles().find(v => v.id === car.id) || {name: car.id, emoji: '🚗'};
+                const div = document.createElement('div');
+                div.style.marginBottom = '10px';
+                div.style.padding = '10px';
+                div.style.border = '1px solid #ddd';
+                div.style.borderRadius = '5px';
+                div.style.backgroundColor = '#fff';
+                
+                div.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong>${vehicleInfo.emoji} ${vehicleInfo.name}</strong>
+                            <div style="font-size: 0.9em; color: #666;">
+                                Value: $${car.value.toFixed(0)} | Maintenance: $${car.maintenance}/month
+                            </div>
+                        </div>
+                        <button class="btn" onclick="handleVehicleSell('${car.id}')" 
+                                style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                    </div>
+                `;
+                
+                ownedContainer.appendChild(div);
+            });
+        }
+        
+        // Update available vehicles
+        const availableContainer = document.getElementById('available-vehicles-list');
+        availableContainer.innerHTML = '';
+        
+        this.getAvailableVehicles().forEach(vehicle => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '10px';
+            div.style.padding = '10px';
+            div.style.border = '1px solid #ddd';
+            div.style.borderRadius = '5px';
+            div.style.backgroundColor = '#f8f9fa';
+            
+            div.innerHTML = `
+                <div>
+                    <strong>${vehicle.emoji} ${vehicle.name}</strong>
+                    <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
+                        Price: $${vehicle.price.toLocaleString()} | Maintenance: $${vehicle.maintenance}/month
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 0.85em; color: #666;">
+                            ${vehicle.description}
+                        </div>
+                        <button class="btn" onclick="handleVehicleBuy('${vehicle.id}')" 
+                                style="background: #28a745; padding: 5px 10px;">Buy</button>
+                    </div>
+                </div>
+            `;
+            
+            availableContainer.appendChild(div);
+        });
+    }
+    
+    getAvailableVehicles() {
+        return [
+            {
+                id: 'honda_civic_2020',
+                name: '2020 Honda Civic',
+                emoji: '🚗',
+                price: 22000,
+                maintenance: 180,
+                description: 'Reliable compact car, great for daily commuting'
+            },
+            {
+                id: 'toyota_camry_2021',
+                name: '2021 Toyota Camry',
+                emoji: '🚙',
+                price: 28000,
+                maintenance: 200,
+                description: 'Mid-size sedan with excellent fuel economy'
+            },
+            {
+                id: 'bmw_3_series_2022',
+                name: '2022 BMW 3 Series',
+                emoji: '🏎️',
+                price: 45000,
+                maintenance: 350,
+                description: 'Luxury sports sedan with premium features'
+            },
+            {
+                id: 'ford_f150_2021',
+                name: '2021 Ford F-150',
+                emoji: '🚚',
+                price: 35000,
+                maintenance: 280,
+                description: 'Full-size pickup truck, perfect for work'
+            },
+            {
+                id: 'tesla_model_3_2023',
+                name: '2023 Tesla Model 3',
+                emoji: '⚡',
+                price: 42000,
+                maintenance: 120,
+                description: 'Electric sedan with autopilot features'
+            },
+            {
+                id: 'jeep_wrangler_2021',
+                name: '2021 Jeep Wrangler',
+                emoji: '🚐',
+                price: 38000,
+                maintenance: 320,
+                description: 'Off-road capable SUV for adventures'
+            }
+        ];
+    }
+    
+    buyVehicle(vehicleId) {
+        const vehicle = this.getAvailableVehicles().find(v => v.id === vehicleId);
+        if (!vehicle) {
+            throw new Error('Vehicle not found');
+        }
+        
+        if (this.gameState.portfolio.cash < vehicle.price) {
+            throw new Error('Insufficient cash to buy this vehicle');
+        }
+        
+        // Check if player already owns this vehicle
+        if (this.gameState.cars.find(car => car.id === vehicleId)) {
+            throw new Error('You already own this vehicle');
+        }
+        
+        this.gameState.portfolio.cash -= vehicle.price;
+        this.gameState.cars.push({
+            id: vehicle.id,
+            value: vehicle.price,
+            maintenance: vehicle.maintenance,
+            loan: null
+        });
+        
+        this.recordCashFlow('expense', vehicle.price, `Buy ${vehicle.name}`, 'vehicle');
+        this.log(`Purchased ${vehicle.name} for $${vehicle.price.toLocaleString()}`, 'success');
+    }
+    
+    sellVehicle(vehicleId) {
+        const carIndex = this.gameState.cars.findIndex(car => car.id === vehicleId);
+        if (carIndex === -1) {
+            throw new Error('Vehicle not found in your garage');
+        }
+        
+        // Don't allow selling the starter car if it's the only vehicle
+        if (this.gameState.cars.length === 1 && vehicleId === 'starter_compact_1995') {
+            throw new Error('Cannot sell your only vehicle. You need transportation!');
+        }
+        
+        const car = this.gameState.cars[carIndex];
+        const vehicleInfo = this.getAvailableVehicles().find(v => v.id === vehicleId);
+        const sellPrice = Math.floor(car.value * 0.7); // Sell for 70% of current value
+        
+        this.gameState.portfolio.cash += sellPrice;
+        this.gameState.cars.splice(carIndex, 1);
+        
+        this.recordCashFlow('income', sellPrice, `Sell ${vehicleInfo?.name || vehicleId}`, 'vehicle');
+        this.log(`Sold ${vehicleInfo?.name || vehicleId} for $${sellPrice.toLocaleString()}`, 'success');
+    }
+    
+    updateRealEstateModal() {
+        document.getElementById('realestate-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        
+        // Update owned properties
+        const ownedContainer = document.getElementById('owned-properties-list');
+        ownedContainer.innerHTML = '';
+        
+        if (this.gameState.properties.length === 0) {
+            ownedContainer.innerHTML = '<div style="color: #666; text-align: center; padding: 20px;">No properties owned<br><small>Living with parents</small></div>';
+        } else {
+            this.gameState.properties.forEach(property => {
+                const propertyInfo = this.getAvailableProperties().find(p => p.id === property.id) || {name: property.id, emoji: '🏠'};
+                const div = document.createElement('div');
+                div.style.marginBottom = '10px';
+                div.style.padding = '10px';
+                div.style.border = '1px solid #ddd';
+                div.style.borderRadius = '5px';
+                div.style.backgroundColor = '#fff';
+                
+                div.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong>${propertyInfo.emoji} ${propertyInfo.name}</strong>
+                            <div style="font-size: 0.9em; color: #666;">
+                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month
+                            </div>
+                        </div>
+                        <button class="btn" onclick="handlePropertySell('${property.id}')" 
+                                style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                    </div>
+                `;
+                
+                ownedContainer.appendChild(div);
+            });
+        }
+        
+        // Update available properties
+        const availableContainer = document.getElementById('available-properties-list');
+        availableContainer.innerHTML = '';
+        
+        this.getAvailableProperties().forEach(property => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '10px';
+            div.style.padding = '10px';
+            div.style.border = '1px solid #ddd';
+            div.style.borderRadius = '5px';
+            div.style.backgroundColor = '#f8f9fa';
+            
+            div.innerHTML = `
+                <div>
+                    <strong>${property.emoji} ${property.name}</strong>
+                    <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
+                        Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 0.85em; color: #666;">
+                            ${property.description}
+                        </div>
+                        <button class="btn" onclick="handlePropertyBuy('${property.id}')" 
+                                style="background: #28a745; padding: 5px 10px;">Buy</button>
+                    </div>
+                </div>
+            `;
+            
+            availableContainer.appendChild(div);
+        });
+    }
+    
+    getAvailableProperties() {
+        return [
+            {
+                id: 'studio_apartment',
+                name: 'Studio Apartment',
+                emoji: '🏠',
+                price: 150000,
+                maintenance: 800,
+                description: 'Compact downtown studio, perfect for young professionals'
+            },
+            {
+                id: 'one_bedroom_condo',
+                name: '1BR Condo',
+                emoji: '🏢',
+                price: 220000,
+                maintenance: 950,
+                description: 'Modern condo with amenities and city views'
+            },
+            {
+                id: 'two_bedroom_house',
+                name: '2BR House',
+                emoji: '🏡',
+                price: 320000,
+                maintenance: 1200,
+                description: 'Suburban house with yard and garage'
+            },
+            {
+                id: 'three_bedroom_house',
+                name: '3BR Family House',
+                emoji: '🏘️',
+                price: 450000,
+                maintenance: 1500,
+                description: 'Spacious family home in good neighborhood'
+            },
+            {
+                id: 'luxury_penthouse',
+                name: 'Luxury Penthouse',
+                emoji: '🏰',
+                price: 800000,
+                maintenance: 2500,
+                description: 'Premium penthouse with panoramic city views'
+            },
+            {
+                id: 'vacation_cabin',
+                name: 'Mountain Cabin',
+                emoji: '🏔️',
+                price: 280000,
+                maintenance: 600,
+                description: 'Peaceful retreat in the mountains, rental income potential'
+            }
+        ];
+    }
+    
+    buyProperty(propertyId) {
+        const property = this.getAvailableProperties().find(p => p.id === propertyId);
+        if (!property) {
+            throw new Error('Property not found');
+        }
+        
+        if (this.gameState.portfolio.cash < property.price) {
+            throw new Error('Insufficient cash to buy this property');
+        }
+        
+        // Check if player already owns this property
+        if (this.gameState.properties.find(prop => prop.id === propertyId)) {
+            throw new Error('You already own this property');
+        }
+        
+        this.gameState.portfolio.cash -= property.price;
+        this.gameState.properties.push({
+            id: property.id,
+            value: property.price,
+            maintenance: property.maintenance,
+            loan: null
+        });
+        
+        this.recordCashFlow('expense', property.price, `Buy ${property.name}`, 'real_estate');
+        this.log(`Purchased ${property.name} for $${property.price.toLocaleString()}`, 'success');
+        
+        // If this is the first property, update housing costs
+        if (this.gameState.properties.length === 1) {
+            this.log('You moved out of your parents\' house! Housing costs now apply.', 'info');
+        }
+    }
+    
+    sellProperty(propertyId) {
+        const propertyIndex = this.gameState.properties.findIndex(prop => prop.id === propertyId);
+        if (propertyIndex === -1) {
+            throw new Error('Property not found in your portfolio');
+        }
+        
+        const property = this.gameState.properties[propertyIndex];
+        const propertyInfo = this.getAvailableProperties().find(p => p.id === propertyId);
+        const sellPrice = Math.floor(property.value * 0.9); // Sell for 90% of current value
+        
+        this.gameState.portfolio.cash += sellPrice;
+        this.gameState.properties.splice(propertyIndex, 1);
+        
+        this.recordCashFlow('income', sellPrice, `Sell ${propertyInfo?.name || propertyId}`, 'real_estate');
+        this.log(`Sold ${propertyInfo?.name || propertyId} for $${sellPrice.toLocaleString()}`, 'success');
+        
+        // If this was the last property, player moves back with parents
+        if (this.gameState.properties.length === 0) {
+            this.log('You moved back in with your parents. No more housing costs!', 'info');
+        }
+    }
+    
     isCrypto(symbol) {
         return ['BTC', 'ETH', 'LTC', 'USDC'].includes(symbol);
     }
@@ -506,6 +1047,32 @@ class SimLifeGame {
     getStockPrice(symbol) {
         const key = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
         return this.stockPrices[symbol]?.[key] || 100;
+    }
+    
+    getStockPriceHistory(symbol, months = 12) {
+        const history = [];
+        const currentYear = this.gameState.currentYear;
+        const currentMonth = this.gameState.currentMonth;
+        
+        for (let i = months - 1; i >= 0; i--) {
+            let year = currentYear;
+            let month = currentMonth - i;
+            
+            if (month <= 0) {
+                year -= 1;
+                month += 12;
+            }
+            
+            const key = `${year}-${month.toString().padStart(2, '0')}`;
+            const price = this.stockPrices[symbol]?.[key] || 100;
+            
+            history.push({
+                date: `${this.getMonthName(month)} ${year}`.substring(0, 6),
+                price: price
+            });
+        }
+        
+        return history;
     }
     
     getCryptoPrice(symbol) {
@@ -579,6 +1146,7 @@ class SimLifeGame {
     processMonthEnd() {
         this.log('--- MONTH END ---', 'info');
         this.processMonthlyFinances();
+        this.checkPsychiatristVisit();
         this.processEvent();
         this.advanceMonth();
         this.updateUI();
@@ -643,8 +1211,41 @@ class SimLifeGame {
             progressBar.style.width = '100%';
         }
         
+        // Update seasonal background
+        this.updateSeasonalBackground();
+        
         // Update assets panel
         this.updateAssetsPanel();
+    }
+    
+    updateSeasonalBackground() {
+        if (!this.gameState.gameStarted) return;
+        
+        const month = this.gameState.currentMonth;
+        let season, backgroundColor;
+        
+        // Determine season based on month
+        if (month >= 3 && month <= 5) {
+            // Spring (March, April, May)
+            season = 'spring';
+            backgroundColor = 'linear-gradient(135deg, #e8f5e8 0%, #b8e6b8 100%)';
+        } else if (month >= 6 && month <= 8) {
+            // Summer (June, July, August)
+            season = 'summer';
+            backgroundColor = 'linear-gradient(135deg, #fff8dc 0%, #ffd700 100%)';
+        } else if (month >= 9 && month <= 11) {
+            // Autumn (September, October, November)
+            season = 'autumn';
+            backgroundColor = 'linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%)';
+        } else {
+            // Winter (December, January, February)
+            season = 'winter';
+            backgroundColor = 'linear-gradient(135deg, #dfe6e9 0%, #b2bec3 100%)';
+        }
+        
+        // Apply background to body
+        document.body.style.background = backgroundColor;
+        document.body.style.transition = 'background 1s ease-in-out';
     }
     
     async loadProfessions() {
@@ -972,13 +1573,6 @@ class SimLifeGame {
         ];
     }
     
-    setupEventListeners() {
-        document.getElementById('command-input').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                this.executeCommand();
-            }
-        });
-    }
     
     log(message, type = 'info') {
         const logArea = document.getElementById('game-log');
@@ -1044,15 +1638,27 @@ class SimLifeGame {
         // Update properties
         const propertiesList = document.getElementById('properties-list');
         propertiesList.innerHTML = '';
-        this.gameState.properties.forEach(property => {
+        
+        if (this.gameState.properties.length === 0) {
+            // Show living with parents if no real estate
             const div = document.createElement('div');
             div.className = 'asset-item';
             div.innerHTML = `
-                <span class="asset-name">${property.id.replace(/_/g, ' ')}</span>
-                <span class="asset-value">$${property.value.toFixed(2)}</span>
+                <span class="asset-name">🏠 Living with Parents</span>
+                <span class="asset-value" style="color: #28a745;">Free</span>
             `;
             propertiesList.appendChild(div);
-        });
+        } else {
+            this.gameState.properties.forEach(property => {
+                const div = document.createElement('div');
+                div.className = 'asset-item';
+                div.innerHTML = `
+                    <span class="asset-name">${property.id.replace(/_/g, ' ')}</span>
+                    <span class="asset-value">$${property.value.toFixed(2)}</span>
+                `;
+                propertiesList.appendChild(div);
+            });
+        }
         
         // Update loans
         const loansList = document.getElementById('loans-list');
@@ -1218,6 +1824,23 @@ class SimLifeGame {
     
     randomBetween(min, max) {
         return Math.random() * (max - min) + min;
+    }
+    
+    recordCashFlow(type, amount, description, category = 'other') {
+        const record = {
+            date: `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`,
+            type: type, // 'income' or 'expense'
+            amount: Math.abs(amount),
+            description: description,
+            category: category,
+            balance: this.gameState.portfolio.cash
+        };
+        this.gameState.cashFlowHistory.unshift(record); // Add to beginning
+        
+        // Keep only last 50 records to prevent memory issues
+        if (this.gameState.cashFlowHistory.length > 50) {
+            this.gameState.cashFlowHistory = this.gameState.cashFlowHistory.slice(0, 50);
+        }
     }
 }
 
