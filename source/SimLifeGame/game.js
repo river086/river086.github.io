@@ -1260,7 +1260,7 @@ class SimLifeGame {
                     
                     currentPrice *= (1 + config.trend/12 + volatility);
                     const key = `${year}-${month.toString().padStart(2, '0')}`;
-                    prices[symbol][key] = Math.max(1, Math.round(currentPrice * 100) / 100);
+                    prices[symbol][key] = Math.round(currentPrice * 100) / 100;
                 }
             }
         });
