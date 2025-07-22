@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stocks>
+    <stock symbol="AAPL">
+        <name>Apple Inc.</name>
+        <sector>Technology</sector>
+        <basePrice>25</basePrice>
+        <annualTrend>0.015</annualTrend>
+        <description>Leading technology company known for consumer electronics</description>
+    </stock>
+
+    <stock symbol="MSFT">
+        <name>Microsoft Corp.</name>
+        <sector>Technology</sector>
+        <basePrice>50</basePrice>
+        <annualTrend>0.012</annualTrend>
+        <description>Software giant and cloud computing leader</description>
+    </stock>
+
+    <stock symbol="NVDA">
+        <name>NVIDIA Corp.</name>
+        <sector>Technology</sector>
+        <basePrice>15</basePrice>
+        <annualTrend>0.025</annualTrend>
+        <description>Graphics processing and AI chip manufacturer</description>
+    </stock>
+
+    <stock symbol="AMZN">
+        <name>Amazon.com Inc.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>40</basePrice>
+        <annualTrend>0.018</annualTrend>
+        <description>E-commerce and cloud services giant</description>
+    </stock>
+
+    <stock symbol="GOOGL">
+        <name>Alphabet Inc.</name>
+        <sector>Technology</sector>
+        <basePrice>250</basePrice>
+        <annualTrend>0.014</annualTrend>
+        <description>Search engine and digital advertising leader</description>
+    </stock>
+</stocks>

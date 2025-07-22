@@ -37,6 +37,7 @@ class SimLifeGame {
     async init() {
         await this.loadProfessions();
         await this.loadEvents();
+        await this.loadStocks();
         this.showProfessionSelection();
     }
     
@@ -83,7 +84,7 @@ class SimLifeGame {
             card.className = 'profession-card';
             card.onclick = () => this.selectProfession(id);
             
-            const fixedCostsTotal = profession.fixedCosts.food + 390; // utilities etc. (no housing - living with parents)
+            const fixedCostsTotal = profession.fixedCosts.food + 390 + 20; // utilities, entertainment etc. (no housing - living with parents)
             const raisePercent = Math.round(profession.raise * 100);
             const loanYears = profession.studentLoan.termMonths / 12;
             
@@ -140,7 +141,7 @@ class SimLifeGame {
         const profession = this.professions[professionId];
         
         this.gameState.grossAnnual = this.randomBetween(profession.salaryRange[0], profession.salaryRange[1]);
-        this.gameState.fixedCosts = profession.fixedCosts.food + 390; // utilities etc. (no housing - living with parents)
+        this.gameState.fixedCosts = profession.fixedCosts.food + 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
         
         if (profession.studentLoan) {
             const loan = {
@@ -163,6 +164,8 @@ class SimLifeGame {
             id: 'starter_compact_1995',
             value: 3000,
             maintenance: 150,
+            insurance: 75,
+            licensePlate: 10,
             loan: null
         };
         this.gameState.cars.push(starterCar);
@@ -190,9 +193,11 @@ class SimLifeGame {
             totalExpenses += loan.monthlyPayment;
         });
         
-        // Add car maintenance
+        // Add car maintenance, insurance, and license fees
         this.gameState.cars.forEach(car => {
             totalExpenses += car.maintenance;
+            totalExpenses += car.insurance || 0;
+            totalExpenses += car.licensePlate || 0;
         });
         
         // Add property maintenance costs
@@ -221,7 +226,9 @@ class SimLifeGame {
         // Add investments (simplified)
         Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
             const price = this.getStockPrice(symbol);
-            netWorth += shares * price;
+            if (price !== undefined) {
+                netWorth += shares * price;
+            }
         });
         
         Object.entries(this.gameState.portfolio.crypto).forEach(([symbol, amount]) => {
@@ -472,7 +479,9 @@ class SimLifeGame {
             Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
                 if (shares > 0) {
                     const price = this.getStockPrice(symbol);
-                    portfolioText += `  ${symbol}: ${shares} shares @ $${price.toFixed(2)} = $${(shares * price).toFixed(2)}\n`;
+                    if (price !== undefined) {
+                        portfolioText += `  ${symbol}: ${shares} shares @ $${price.toFixed(2)} = $${(shares * price).toFixed(2)}\n`;
+                    }
                 }
             });
         }
@@ -564,10 +573,11 @@ class SimLifeGame {
         const container = document.getElementById('stock-trading-list');
         container.innerHTML = '';
         
-        const stockSymbols = ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL'];
+        const stockSymbols = this.getStockSymbols();
         
         stockSymbols.forEach(symbol => {
             const price = this.getStockPrice(symbol);
+            if (price === undefined) return; // Skip stocks without prices
             const holdings = this.gameState.portfolio.stocks[symbol] || 0;
             
             const stockDiv = document.createElement('div');
@@ -599,7 +609,7 @@ class SimLifeGame {
                         ${priceHistory.slice(-6).map(data => `
                             <div style="text-align: center;">
                                 <div>${data.date}</div>
-                                <div style="font-weight: bold;">$${data.price.toFixed(0)}</div>
+                                <div style="font-weight: bold;">$${data.price.toFixed(2)}</div>
                             </div>
                         `).join('')}
                     </div>
@@ -714,12 +724,15 @@ class SimLifeGame {
                 div.style.borderRadius = '5px';
                 div.style.backgroundColor = '#fff';
                 
+                const loanInfo = car.loan ? ` | Loan: $${car.loan.monthlyPayment.toFixed(0)}/mo` : '';
+                const insuranceInfo = car.insurance ? ` | Insurance: $${car.insurance}/mo` : '';
+                const licensePlateInfo = car.licensePlate ? ` | License: $${car.licensePlate}/mo` : '';
                 div.innerHTML = `
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div>
                             <strong>${vehicleInfo.emoji} ${vehicleInfo.name}</strong>
                             <div style="font-size: 0.9em; color: #666;">
-                                Value: $${car.value.toFixed(0)} | Maintenance: $${car.maintenance}/month
+                                Value: $${car.value.toFixed(0)} | Maintenance: $${car.maintenance}/mo${insuranceInfo}${licensePlateInfo}${loanInfo}
                             </div>
                         </div>
                         <button class="btn" onclick="handleVehicleSell('${car.id}')" 
@@ -747,14 +760,18 @@ class SimLifeGame {
                 <div>
                     <strong>${vehicle.emoji} ${vehicle.name}</strong>
                     <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
-                        Price: $${vehicle.price.toLocaleString()} | Maintenance: $${vehicle.maintenance}/month
+                        Price: $${vehicle.price.toLocaleString()} | Maintenance: $${vehicle.maintenance}/mo | Insurance: $${vehicle.insurance}/mo | License: $${vehicle.licensePlate}/mo
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div style="font-size: 0.85em; color: #666;">
                             ${vehicle.description}
                         </div>
-                        <button class="btn" onclick="handleVehicleBuy('${vehicle.id}')" 
-                                style="background: #28a745; padding: 5px 10px;">Buy</button>
+                        <div style="display: flex; gap: 5px;">
+                            <button class="btn" onclick="handleVehicleBuy('${vehicle.id}')" 
+                                    style="background: #28a745; padding: 5px 8px; font-size: 0.85em;">Cash</button>
+                            <button class="btn" onclick="handleVehicleFinance('${vehicle.id}')" 
+                                    style="background: #007bff; padding: 5px 8px; font-size: 0.85em;">Finance</button>
+                        </div>
                     </div>
                 </div>
             `;
@@ -771,6 +788,8 @@ class SimLifeGame {
                 emoji: '🚗',
                 price: 22000,
                 maintenance: 180,
+                insurance: 85,
+                licensePlate: 12,
                 description: 'Reliable compact car, great for daily commuting'
             },
             {
@@ -779,6 +798,8 @@ class SimLifeGame {
                 emoji: '🚙',
                 price: 28000,
                 maintenance: 200,
+                insurance: 95,
+                licensePlate: 15,
                 description: 'Mid-size sedan with excellent fuel economy'
             },
             {
@@ -787,6 +808,8 @@ class SimLifeGame {
                 emoji: '🏎️',
                 price: 45000,
                 maintenance: 350,
+                insurance: 180,
+                licensePlate: 25,
                 description: 'Luxury sports sedan with premium features'
             },
             {
@@ -795,6 +818,8 @@ class SimLifeGame {
                 emoji: '🚚',
                 price: 35000,
                 maintenance: 280,
+                insurance: 140,
+                licensePlate: 20,
                 description: 'Full-size pickup truck, perfect for work'
             },
             {
@@ -803,6 +828,8 @@ class SimLifeGame {
                 emoji: '⚡',
                 price: 42000,
                 maintenance: 120,
+                insurance: 160,
+                licensePlate: 22,
                 description: 'Electric sedan with autopilot features'
             },
             {
@@ -811,6 +838,8 @@ class SimLifeGame {
                 emoji: '🚐',
                 price: 38000,
                 maintenance: 320,
+                insurance: 155,
+                licensePlate: 18,
                 description: 'Off-road capable SUV for adventures'
             }
         ];
@@ -836,6 +865,8 @@ class SimLifeGame {
             id: vehicle.id,
             value: vehicle.price,
             maintenance: vehicle.maintenance,
+            insurance: vehicle.insurance,
+            licensePlate: vehicle.licensePlate,
             loan: null
         });
         
@@ -865,6 +896,60 @@ class SimLifeGame {
         this.log(`Sold ${vehicleInfo?.name || vehicleId} for $${sellPrice.toLocaleString()}`, 'success');
     }
     
+    financeVehicle(vehicleId) {
+        const vehicle = this.getAvailableVehicles().find(v => v.id === vehicleId);
+        if (!vehicle) {
+            throw new Error('Vehicle not found');
+        }
+        
+        // Check if player already owns this vehicle
+        if (this.gameState.cars.find(car => car.id === vehicleId)) {
+            throw new Error('You already own this vehicle');
+        }
+        
+        // Calculate financing terms
+        const downPayment = Math.floor(vehicle.price * 0.2); // 20% down payment
+        const loanAmount = vehicle.price - downPayment;
+        const annualRate = 0.065; // 6.5% APR for auto loans
+        const termMonths = 60; // 5 years
+        const monthlyPayment = this.calculateMonthlyPayment(loanAmount, annualRate, termMonths);
+        
+        if (this.gameState.portfolio.cash < downPayment) {
+            throw new Error(`Insufficient cash for down payment. Need $${downPayment.toLocaleString()} (20%)`);
+        }
+        
+        // Process the financing
+        this.gameState.portfolio.cash -= downPayment;
+        
+        // Add the vehicle with loan
+        this.gameState.cars.push({
+            id: vehicle.id,
+            value: vehicle.price,
+            maintenance: vehicle.maintenance,
+            insurance: vehicle.insurance,
+            licensePlate: vehicle.licensePlate,
+            loan: {
+                balance: loanAmount,
+                monthlyPayment: monthlyPayment,
+                annualRate: annualRate,
+                termMonths: termMonths
+            }
+        });
+        
+        // Add loan to the loans array
+        this.gameState.loans.push({
+            kind: 'vehicle',
+            balance: loanAmount,
+            annualRate: annualRate,
+            termMonths: termMonths,
+            monthlyPayment: monthlyPayment,
+            assetId: vehicle.id
+        });
+        
+        this.recordCashFlow('expense', downPayment, `${vehicle.name} Down Payment`, 'vehicle');
+        this.log(`Financed ${vehicle.name} - Down payment: $${downPayment.toLocaleString()}, Monthly payment: $${monthlyPayment.toFixed(0)}`, 'success');
+    }
+    
     updateRealEstateModal() {
         document.getElementById('realestate-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
         
@@ -884,12 +969,13 @@ class SimLifeGame {
                 div.style.borderRadius = '5px';
                 div.style.backgroundColor = '#fff';
                 
+                const loanInfo = property.loan ? ` | Mortgage: $${property.loan.monthlyPayment.toFixed(0)}/mo` : '';
                 div.innerHTML = `
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div>
                             <strong>${propertyInfo.emoji} ${propertyInfo.name}</strong>
                             <div style="font-size: 0.9em; color: #666;">
-                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month
+                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month${loanInfo}
                             </div>
                         </div>
                         <button class="btn" onclick="handlePropertySell('${property.id}')" 
@@ -923,8 +1009,12 @@ class SimLifeGame {
                         <div style="font-size: 0.85em; color: #666;">
                             ${property.description}
                         </div>
-                        <button class="btn" onclick="handlePropertyBuy('${property.id}')" 
-                                style="background: #28a745; padding: 5px 10px;">Buy</button>
+                        <div style="display: flex; gap: 5px;">
+                            <button class="btn" onclick="handlePropertyBuy('${property.id}')" 
+                                    style="background: #28a745; padding: 5px 8px; font-size: 0.85em;">Cash</button>
+                            <button class="btn" onclick="handlePropertyFinance('${property.id}')" 
+                                    style="background: #007bff; padding: 5px 8px; font-size: 0.85em;">Mortgage</button>
+                        </div>
                     </div>
                 </div>
             `;
@@ -1040,13 +1130,70 @@ class SimLifeGame {
         }
     }
     
+    financeProperty(propertyId) {
+        const property = this.getAvailableProperties().find(p => p.id === propertyId);
+        if (!property) {
+            throw new Error('Property not found');
+        }
+        
+        // Check if player already owns this property
+        if (this.gameState.properties.find(prop => prop.id === propertyId)) {
+            throw new Error('You already own this property');
+        }
+        
+        // Calculate mortgage terms
+        const downPayment = Math.floor(property.price * 0.2); // 20% down payment
+        const loanAmount = property.price - downPayment;
+        const annualRate = 0.045; // 4.5% APR for mortgages
+        const termMonths = 360; // 30 years
+        const monthlyPayment = this.calculateMonthlyPayment(loanAmount, annualRate, termMonths);
+        
+        if (this.gameState.portfolio.cash < downPayment) {
+            throw new Error(`Insufficient cash for down payment. Need $${downPayment.toLocaleString()} (20%)`);
+        }
+        
+        // Process the mortgage
+        this.gameState.portfolio.cash -= downPayment;
+        
+        // Add the property with mortgage
+        this.gameState.properties.push({
+            id: property.id,
+            value: property.price,
+            maintenance: property.maintenance,
+            loan: {
+                balance: loanAmount,
+                monthlyPayment: monthlyPayment,
+                annualRate: annualRate,
+                termMonths: termMonths
+            }
+        });
+        
+        // Add mortgage to the loans array
+        this.gameState.loans.push({
+            kind: 'mortgage',
+            balance: loanAmount,
+            annualRate: annualRate,
+            termMonths: termMonths,
+            monthlyPayment: monthlyPayment,
+            assetId: property.id
+        });
+        
+        this.recordCashFlow('expense', downPayment, `${property.name} Down Payment`, 'real_estate');
+        this.log(`Mortgaged ${property.name} - Down payment: $${downPayment.toLocaleString()}, Monthly payment: $${monthlyPayment.toFixed(0)}`, 'success');
+        
+        // If this is the first property, update housing costs
+        if (this.gameState.properties.length === 1) {
+            this.log('You moved out of your parents\' house! Housing costs now apply.', 'info');
+        }
+    }
+    
     isCrypto(symbol) {
         return ['BTC', 'ETH', 'LTC', 'USDC'].includes(symbol);
     }
     
     getStockPrice(symbol) {
         const key = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
-        return this.stockPrices[symbol]?.[key] || 100;
+        return this.stockPrices[symbol]?.[key];
     }
     
     getStockPriceHistory(symbol, months = 12) {
@@ -1064,12 +1211,14 @@ class SimLifeGame {
             }
             
             const key = `${year}-${month.toString().padStart(2, '0')}`;
-            const price = this.stockPrices[symbol]?.[key] || 100;
+            const price = this.stockPrices[symbol]?.[key];
             
-            history.push({
-                date: `${this.getMonthName(month)} ${year}`.substring(0, 6),
-                price: price
-            });
+            if (price !== undefined) {
+                history.push({
+                    date: `${this.getMonthName(month)} ${year}`.substring(0, 6),
+                    price: price
+                });
+            }
         }
         
         return history;
@@ -1081,7 +1230,7 @@ class SimLifeGame {
     }
     
     generateMockStockPrices() {
-        const stocks = {
+        const stocks = this.stocksData || {
             'AAPL': { base: 25, trend: 0.015 },
             'MSFT': { base: 50, trend: 0.012 },
             'NVDA': { base: 15, trend: 0.025 },
@@ -1097,10 +1246,21 @@ class SimLifeGame {
             
             for (let year = 2000; year <= 2025; year++) {
                 for (let month = 1; month <= 12; month++) {
-                    const volatility = (Math.random() - 0.5) * 0.1;
-                    currentPrice *= (1 + config.trend + volatility);
+                    // Reduced volatility to max ±5% per month
+                    let volatility = (Math.random() - 0.5) * 0.05;
+                    
+                    // Add market crash scenarios with gradual decline
+                    if (year === 2000 && month >= 3 && month <= 10) {
+                        volatility = Math.min(volatility, -0.02); // Dot-com crash
+                    } else if (year === 2008 && month >= 9 && month <= 12) {
+                        volatility = Math.min(volatility, -0.03); // Financial crisis
+                    } else if (year === 2020 && month >= 2 && month <= 4) {
+                        volatility = Math.min(volatility, -0.025); // COVID crash
+                    }
+                    
+                    currentPrice *= (1 + config.trend/12 + volatility);
                     const key = `${year}-${month.toString().padStart(2, '0')}`;
-                    prices[symbol][key] = Math.max(1, currentPrice);
+                    prices[symbol][key] = Math.max(1, Math.round(currentPrice * 100) / 100);
                 }
             }
         });
@@ -1189,7 +1349,6 @@ class SimLifeGame {
         document.getElementById('age').textContent = this.gameState.ageYears;
         document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toFixed(0)}`;
         document.getElementById('net-worth').textContent = `$${this.calculateNetWorth().toFixed(0)}`;
-        document.getElementById('date').textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`;
         
         if (this.gameState.professionId) {
             const profession = this.professions[this.gameState.professionId];
@@ -1507,6 +1666,13 @@ class SimLifeGame {
         this.events = this.getEmbeddedEvents();
         console.log('Loaded events:', this.events.map(e => e.id));
     }
+
+    async loadStocks() {
+        console.log('Loading embedded stocks...');
+        // Use embedded data instead of fetching XML to avoid CORS issues
+        this.stocksData = this.getEmbeddedStocks();
+        console.log('Loaded stocks:', Object.keys(this.stocksData));
+    }
     
     getEmbeddedEvents() {
         return [
@@ -1572,6 +1738,50 @@ class SimLifeGame {
             }
         ];
     }
+
+    getEmbeddedStocks() {
+        return {
+            'AAPL': {
+                name: 'Apple Inc.',
+                sector: 'Technology',
+                base: 25,
+                trend: 0.015,
+                description: 'Leading technology company known for consumer electronics'
+            },
+            'MSFT': {
+                name: 'Microsoft Corp.',
+                sector: 'Technology',
+                base: 50,
+                trend: 0.012,
+                description: 'Software giant and cloud computing leader'
+            },
+            'NVDA': {
+                name: 'NVIDIA Corp.',
+                sector: 'Technology',
+                base: 15,
+                trend: 0.025,
+                description: 'Graphics processing and AI chip manufacturer'
+            },
+            'AMZN': {
+                name: 'Amazon.com Inc.',
+                sector: 'Consumer Discretionary',
+                base: 40,
+                trend: 0.018,
+                description: 'E-commerce and cloud services giant'
+            },
+            'GOOGL': {
+                name: 'Alphabet Inc.',
+                sector: 'Technology',
+                base: 250,
+                trend: 0.014,
+                description: 'search engine and digital advertising leader'
+            }
+        };
+    }
+
+    getStockSymbols() {
+        return Object.keys(this.stocksData || {});
+    }
     
     
     log(message, type = 'info') {
@@ -1594,14 +1804,16 @@ class SimLifeGame {
         Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
             if (shares > 0) {
                 const price = this.getStockPrice(symbol);
-                const value = shares * price;
-                const div = document.createElement('div');
-                div.className = 'asset-item';
-                div.innerHTML = `
-                    <span class="asset-name">${symbol} (${shares} shares)</span>
-                    <span class="asset-value">$${value.toFixed(2)}</span>
-                `;
-                stocksList.appendChild(div);
+                if (price !== undefined) {
+                    const value = shares * price;
+                    const div = document.createElement('div');
+                    div.className = 'asset-item';
+                    div.innerHTML = `
+                        <span class="asset-name">${symbol} (${shares} shares)</span>
+                        <span class="asset-value">$${value.toFixed(2)}</span>
+                    `;
+                    stocksList.appendChild(div);
+                }
             }
         });
         
@@ -1729,16 +1941,18 @@ class SimLifeGame {
         const stocksContainer = document.getElementById('stocks-info');
         stocksContainer.innerHTML = '';
         
-        const stockSymbols = ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL'];
+        const stockSymbols = this.getStockSymbols();
         stockSymbols.forEach(symbol => {
             const price = this.getStockPrice(symbol);
-            const div = document.createElement('div');
-            div.className = 'stock-item';
-            div.innerHTML = `
-                <span class="stock-symbol">${symbol}</span>
-                <span class="stock-price">$${price.toFixed(2)}</span>
-            `;
-            stocksContainer.appendChild(div);
+            if (price !== undefined) {
+                const div = document.createElement('div');
+                div.className = 'stock-item';
+                div.innerHTML = `
+                    <span class="stock-symbol">${symbol}</span>
+                    <span class="stock-price">$${price.toFixed(2)}</span>
+                `;
+                stocksContainer.appendChild(div);
+            }
         });
         
         // Update crypto prices
@@ -1780,6 +1994,11 @@ class SimLifeGame {
         const utilities = 390; // utilities, phone, internet, etc.
         totalExpenses += utilities;
         this.addExpenseItem(container, '🔌 Utilities & Other', utilities);
+        
+        // Entertainment subscriptions
+        const entertainment = 20; // Netflix, Crunchyroll, etc.
+        totalExpenses += entertainment;
+        this.addExpenseItem(container, '🎬 Entertainment', entertainment);
         
         // Loan payments
         this.gameState.loans.forEach((loan, index) => {

@@ -83,6 +83,13 @@
         
         .main-content {
             display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .second-row {
+            display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 20px;
         }
@@ -574,13 +581,13 @@
         }
         
         @media (max-width: 968px) {
-            .main-content {
+            .second-row {
                 grid-template-columns: 1fr 1fr;
             }
         }
         
         @media (max-width: 768px) {
-            .main-content {
+            .main-content, .second-row {
                 grid-template-columns: 1fr;
             }
             
@@ -617,10 +624,6 @@
                     <div class="status-label">Net Worth</div>
                 </div>
                 <div class="status-card">
-                    <div class="status-value" id="date">Jan 2000</div>
-                    <div class="status-label">Date</div>
-                </div>
-                <div class="status-card">
                     <div class="status-value" id="profession">Loading...</div>
                     <div class="status-label">Profession</div>
                 </div>
@@ -642,8 +645,14 @@
             <div class="game-panel">
                 <h3>Game Controls</h3>
                 <button class="btn" onclick="game.endTurn()" style="background: #4CAF50;">End Turn</button>
-                <button class="btn" onclick="showStockInfo()" style="background: #6f42c1;">📈 Market Info</button>
                 <button class="btn" onclick="showCashFlowHistory()" style="background: #17a2b8;">💰 Cash Flow</button>
+            </div>
+        </div>
+        
+        <div class="second-row">
+            <div class="game-panel">
+                <h3>Action Controls</h3>
+                <button class="btn" onclick="showStockInfo()" style="background: #6f42c1;">📈 Market Info</button>
                 <button class="btn" onclick="showBankModal()" style="background: #28a745;">🏦 Bank</button>
                 <button class="btn" onclick="showStockTradingModal()" style="background: #007bff;">📈 Stocks</button>
                 <button class="btn" onclick="showCryptoTradingModal()" style="background: #ff6b35;">₿ Crypto</button>
@@ -712,6 +721,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            
             </div>
             
             <div class="game-panel">
@@ -1167,6 +1178,16 @@
             }
         }
         
+        function handleVehicleFinance(vehicleId) {
+            try {
+                game.financeVehicle(vehicleId);
+                game.updateVehicleModal();
+                game.updateUI();
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+        
         function showRealEstateModal() {
             if (game && game.gameState.gameStarted) {
                 game.updateRealEstateModal();
@@ -1193,6 +1214,16 @@
         function handlePropertySell(propertyId) {
             try {
                 game.sellProperty(propertyId);
+                game.updateRealEstateModal();
+                game.updateUI();
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+        
+        function handlePropertyFinance(propertyId) {
+            try {
+                game.financeProperty(propertyId);
                 game.updateRealEstateModal();
                 game.updateUI();
             } catch (error) {
