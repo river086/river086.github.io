@@ -28,8 +28,7 @@ class SimLifeGame {
         this.professions = {};
         this.events = [];
         this.eventCooldowns = {};
-        this.stockPrices = this.generateMockStockPrices();
-        this.cryptoPrices = this.generateMockCryptoPrices();
+        // Stock and crypto prices will be generated after loading stock data
         
         this.init();
     }
@@ -593,12 +592,13 @@ class SimLifeGame {
             const changeColor = priceChange >= 0 ? '#28a745' : '#dc3545';
             const changeSymbol = priceChange >= 0 ? '+' : '';
             
+            const stockInfo = this.stocksData[symbol] || { name: symbol };
             stockDiv.innerHTML = `
                 <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 10px;">
                     <div>
-                        <h4 style="margin: 0; color: #007bff;">${symbol}</h4>
+                        <h4 style="margin: 0; color: #007bff;">${symbol} - ${stockInfo.name}</h4>
                         <div style="font-size: 0.9em; color: #666;">Price: $${price.toFixed(2)} | Holdings: ${holdings} shares</div>
-                        <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)}</div>
+                        <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)} | Sector: ${stockInfo.sector || 'N/A'}</div>
                         <div style="font-size: 0.85em; color: ${changeColor}; font-weight: bold;">${changeSymbol}${priceChange.toFixed(1)}% this month</div>
                     </div>
                 </div>
@@ -1672,6 +1672,11 @@ class SimLifeGame {
         // Use embedded data instead of fetching XML to avoid CORS issues
         this.stocksData = this.getEmbeddedStocks();
         console.log('Loaded stocks:', Object.keys(this.stocksData));
+        
+        // Generate prices after stock data is loaded
+        this.stockPrices = this.generateMockStockPrices();
+        this.cryptoPrices = this.generateMockCryptoPrices();
+        console.log('Generated stock and crypto prices');
     }
     
     getEmbeddedEvents() {
@@ -1741,41 +1746,56 @@ class SimLifeGame {
 
     getEmbeddedStocks() {
         return {
-            'AAPL': {
-                name: 'Apple Inc.',
-                sector: 'Technology',
-                base: 25,
-                trend: 0.015,
-                description: 'Leading technology company known for consumer electronics'
-            },
-            'MSFT': {
-                name: 'Microsoft Corp.',
-                sector: 'Technology',
-                base: 50,
-                trend: 0.012,
-                description: 'Software giant and cloud computing leader'
-            },
-            'NVDA': {
-                name: 'NVIDIA Corp.',
-                sector: 'Technology',
-                base: 15,
-                trend: 0.025,
-                description: 'Graphics processing and AI chip manufacturer'
-            },
-            'AMZN': {
-                name: 'Amazon.com Inc.',
-                sector: 'Consumer Discretionary',
-                base: 40,
-                trend: 0.018,
-                description: 'E-commerce and cloud services giant'
-            },
-            'GOOGL': {
-                name: 'Alphabet Inc.',
-                sector: 'Technology',
-                base: 250,
-                trend: 0.014,
-                description: 'search engine and digital advertising leader'
-            }
+            'AAPL': { name: 'Apple Inc.', sector: 'Technology', base: 1.00, trend: 0.020 },
+            'MSFT': { name: 'Microsoft Corp.', sector: 'Technology', base: 58.28, trend: 0.012 },
+            'INTC': { name: 'Intel Corp.', sector: 'Technology', base: 43.50, trend: 0.008 },
+            'CSCO': { name: 'Cisco Systems Inc.', sector: 'Technology', base: 54.03, trend: 0.010 },
+            'ORCL': { name: 'Oracle Corp.', sector: 'Technology', base: 29.53, trend: 0.011 },
+            'IBM': { name: 'International Business Machines Corp.', sector: 'Technology', base: 110.90, trend: 0.005 },
+            'TXN': { name: 'Texas Instruments', sector: 'Technology', base: 51.44, trend: 0.009 },
+            'HPQ': { name: 'HP Inc.', sector: 'Technology', base: 26.67, trend: 0.006 },
+            'QCOM': { name: 'Qualcomm Inc.', sector: 'Technology', base: 89.66, trend: 0.013 },
+            'NVDA': { name: 'NVIDIA Corp.', sector: 'Technology', base: 0.10, trend: 0.035 },
+            'AMZN': { name: 'Amazon.com Inc.', sector: 'Consumer Discretionary', base: 4.47, trend: 0.025 },
+            'DIS': { name: 'Walt Disney Co.', sector: 'Consumer Discretionary', base: 29.47, trend: 0.008 },
+            'MCD': { name: 'McDonald\'s Corp.', sector: 'Consumer Discretionary', base: 39.62, trend: 0.007 },
+            'SBUX': { name: 'Starbucks Corp.', sector: 'Consumer Discretionary', base: 3.08, trend: 0.015 },
+            'NKE': { name: 'Nike Inc.', sector: 'Consumer Discretionary', base: 6.02, trend: 0.012 },
+            'YUM': { name: 'Yum! Brands Inc.', sector: 'Consumer Discretionary', base: 6.71, trend: 0.009 },
+            'WMT': { name: 'Walmart Inc.', sector: 'Consumer Staples', base: 22.27, trend: 0.006 },
+            'KO': { name: 'Coca-Cola Co.', sector: 'Consumer Staples', base: 28.19, trend: 0.005 },
+            'PEP': { name: 'PepsiCo Inc.', sector: 'Consumer Staples', base: 36.88, trend: 0.006 },
+            'COST': { name: 'Costco Wholesale Corp.', sector: 'Consumer Staples', base: 44.50, trend: 0.010 },
+            'CVS': { name: 'CVS Health Corp.', sector: 'Consumer Staples', base: 18.91, trend: 0.008 },
+            'LOW': { name: 'Lowe\'s Companies Inc.', sector: 'Consumer Discretionary', base: 13.94, trend: 0.011 },
+            'PG': { name: 'Procter & Gamble Co.', sector: 'Consumer Staples', base: 53.59, trend: 0.006 },
+            'CL': { name: 'Colgate-Palmolive Co.', sector: 'Consumer Staples', base: 31.12, trend: 0.005 },
+            'WBA': { name: 'Walgreens Boots Alliance Inc.', sector: 'Consumer Staples', base: 28.56, trend: 0.004 },
+            'XOM': { name: 'Exxon Mobil Corp.', sector: 'Energy', base: 39.16, trend: 0.007 },
+            'DD': { name: 'DuPont de Nemours, Inc.', sector: 'Materials', base: 62.92, trend: 0.006 },
+            'CAT': { name: 'Caterpillar Inc.', sector: 'Industrials', base: 24.31, trend: 0.008 },
+            'BA': { name: 'Boeing Co.', sector: 'Industrials', base: 40.19, trend: 0.009 },
+            'JNJ': { name: 'Johnson & Johnson', sector: 'Health Care', base: 46.09, trend: 0.007 },
+            'PFE': { name: 'Pfizer Inc.', sector: 'Health Care', base: 30.24, trend: 0.006 },
+            'MRK': { name: 'Merck & Co. Inc.', sector: 'Health Care', base: 64.53, trend: 0.006 },
+            'ABT': { name: 'Abbott Laboratories', sector: 'Health Care', base: 15.71, trend: 0.008 },
+            'MDT': { name: 'Medtronic plc', sector: 'Health Care', base: 34.25, trend: 0.007 },
+            'UNH': { name: 'UnitedHealth Group Inc.', sector: 'Health Care', base: 6.72, trend: 0.015 },
+            'BMY': { name: 'Bristol-Myers Squibb Co.', sector: 'Health Care', base: 61.33, trend: 0.005 },
+            'BAC': { name: 'Bank of America Corp.', sector: 'Financials', base: 24.22, trend: 0.008 },
+            'JPM': { name: 'JPMorgan Chase & Co.', sector: 'Financials', base: 48.58, trend: 0.009 },
+            'C': { name: 'Citigroup Inc.', sector: 'Financials', base: 397.50, trend: 0.006 },
+            'WFC': { name: 'Wells Fargo & Co.', sector: 'Financials', base: 19.56, trend: 0.007 },
+            'AIG': { name: 'American International Group Inc.', sector: 'Financials', base: 1385.83, trend: 0.005 },
+            'GE': { name: 'General Electric Co.', sector: 'Industrials', base: 239.62, trend: 0.004 },
+            'UPS': { name: 'United Parcel Service Inc.', sector: 'Industrials', base: 67.06, trend: 0.007 },
+            'MMM': { name: '3M Co.', sector: 'Industrials', base: 39.45, trend: 0.006 },
+            'ADP': { name: 'Automatic Data Processing Inc.', sector: 'Industrials', base: 41.24, trend: 0.008 },
+            'AEP': { name: 'American Electric Power Co.', sector: 'Utilities', base: 31.44, trend: 0.005 },
+            'F': { name: 'Ford Motor Co.', sector: 'Consumer Discretionary', base: 28.78, trend: 0.006 },
+            'HMC': { name: 'Honda Motor Co., Ltd', sector: 'Consumer Discretionary', base: 18.92, trend: 0.007 },
+            'MO': { name: 'Altria Group Inc.', sector: 'Consumer Staples', base: 23.44, trend: 0.004 },
+            'HD': { name: 'Home Depot Inc.', sector: 'Consumer Discretionary', base: 65.19, trend: 0.010 }
         };
     }
 
@@ -1945,10 +1965,14 @@ class SimLifeGame {
         stockSymbols.forEach(symbol => {
             const price = this.getStockPrice(symbol);
             if (price !== undefined) {
+                const stockInfo = this.stocksData[symbol] || { name: symbol, sector: 'N/A' };
                 const div = document.createElement('div');
                 div.className = 'stock-item';
                 div.innerHTML = `
-                    <span class="stock-symbol">${symbol}</span>
+                    <div>
+                        <span class="stock-symbol">${symbol} - ${stockInfo.name}</span>
+                        <div style="font-size: 0.8em; color: #666;">${stockInfo.sector}</div>
+                    </div>
                     <span class="stock-price">$${price.toFixed(2)}</span>
                 `;
                 stocksContainer.appendChild(div);

@@ -1,42 +1,703 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <stocks>
     <stock symbol="AAPL">
         <name>Apple Inc.</name>
         <sector>Technology</sector>
-        <basePrice>25</basePrice>
-        <annualTrend>0.015</annualTrend>
-        <description>Leading technology company known for consumer electronics</description>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>0.94</openPrice>
+            <intradayHigh>1.00</intradayHigh>
+            <intradayLow>0.91</intradayLow>
+            <closePrice>1.00</closePrice>
+            <volume>535796800</volume>
+        </financeData>
     </stock>
-
     <stock symbol="MSFT">
         <name>Microsoft Corp.</name>
         <sector>Technology</sector>
-        <basePrice>50</basePrice>
-        <annualTrend>0.012</annualTrend>
-        <description>Software giant and cloud computing leader</description>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>58.69</openPrice>
+            <intradayHigh>59.31</intradayHigh>
+            <intradayLow>56.00</intradayLow>
+            <closePrice>58.28</closePrice>
+            <volume>53228400</volume>
+        </financeData>
     </stock>
-
+    <stock symbol="INTC">
+        <name>Intel Corp.</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>41.63</openPrice>
+            <intradayHigh>43.69</intradayHigh>
+            <intradayLow>41.62</intradayLow>
+            <closePrice>43.50</closePrice>
+            <volume>57710200</volume>
+        </financeData>
+    </stock>
+    <stock symbol="CSCO">
+        <name>Cisco Systems Inc.</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>54.97</openPrice>
+            <intradayHigh>55.12</intradayHigh>
+            <intradayLow>51.78</intradayLow>
+            <closePrice>54.03</closePrice>
+            <volume>53076000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="ORCL">
+        <name>Oracle Corp.</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>31.16</openPrice>
+            <intradayHigh>31.30</intradayHigh>
+            <intradayLow>27.91</intradayLow>
+            <closePrice>29.53</closePrice>
+            <volume>98114800</volume>
+        </financeData>
+    </stock>
+    <stock symbol="IBM">
+        <name>International Business Machines Corp.</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>107.49</openPrice>
+            <intradayHigh>110.90</intradayHigh>
+            <intradayLow>106.96</intradayLow>
+            <closePrice>110.90</closePrice>
+            <volume>10823694</volume>
+        </financeData>
+    </stock>
+    <stock symbol="TXN">
+        <name>Texas Instruments</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>49.75</openPrice>
+            <intradayHigh>51.94</intradayHigh>
+            <intradayLow>48.06</intradayLow>
+            <closePrice>51.44</closePrice>
+            <volume>10815600</volume>
+        </financeData>
+    </stock>
+    <stock symbol="HPQ">
+        <name>HP Inc.</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>25.83</openPrice>
+            <intradayHigh>26.98</intradayHigh>
+            <intradayLow>25.72</intradayLow>
+            <closePrice>26.67</closePrice>
+            <volume>18368644</volume>
+        </financeData>
+    </stock>
+    <stock symbol="QCOM">
+        <name>Qualcomm Inc.</name>
+        <sector>Technology</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>99.62</openPrice>
+            <intradayHigh>100.00</intradayHigh>
+            <intradayLow>87.00</intradayLow>
+            <closePrice>89.66</closePrice>
+            <volume>91334000</volume>
+        </financeData>
+    </stock>
     <stock symbol="NVDA">
         <name>NVIDIA Corp.</name>
         <sector>Technology</sector>
-        <basePrice>15</basePrice>
-        <annualTrend>0.025</annualTrend>
-        <description>Graphics processing and AI chip manufacturer</description>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>0.10</openPrice>
+            <intradayHigh>0.10</intradayHigh>
+            <intradayLow>0.09</intradayLow>
+            <closePrice>0.10</closePrice>
+            <volume>300912000</volume>
+        </financeData>
     </stock>
-
     <stock symbol="AMZN">
         <name>Amazon.com Inc.</name>
         <sector>Consumer Discretionary</sector>
-        <basePrice>40</basePrice>
-        <annualTrend>0.018</annualTrend>
-        <description>E-commerce and cloud services giant</description>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>4.07</openPrice>
+            <intradayHigh>4.48</intradayHigh>
+            <intradayLow>3.95</intradayLow>
+            <closePrice>4.47</closePrice>
+            <volume>322352000</volume>
+        </financeData>
     </stock>
-
-    <stock symbol="GOOGL">
-        <name>Alphabet Inc.</name>
-        <sector>Technology</sector>
-        <basePrice>250</basePrice>
-        <annualTrend>0.014</annualTrend>
-        <description>Search engine and digital advertising leader</description>
+    <stock symbol="DIS">
+        <name>Walt Disney Co.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>28.86</openPrice>
+            <intradayHigh>29.53</intradayHigh>
+            <intradayLow>28.36</intradayLow>
+            <closePrice>29.47</closePrice>
+            <volume>8402230</volume>
+        </financeData>
+    </stock>
+    <stock symbol="MCD">
+        <name>McDonald's Corp.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>39.94</openPrice>
+            <intradayHigh>40.06</intradayHigh>
+            <intradayLow>38.94</intradayLow>
+            <closePrice>39.62</closePrice>
+            <volume>4520600</volume>
+        </financeData>
+    </stock>
+    <stock symbol="SBUX">
+        <name>Starbucks Corp.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>2.98</openPrice>
+            <intradayHigh>3.09</intradayHigh>
+            <intradayLow>2.91</intradayLow>
+            <closePrice>3.08</closePrice>
+            <volume>24232000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="NKE">
+        <name>Nike Inc.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>6.16</openPrice>
+            <intradayHigh>6.20</intradayHigh>
+            <intradayLow>5.97</intradayLow>
+            <closePrice>6.02</closePrice>
+            <volume>8014400</volume>
+        </financeData>
+    </stock>
+    <stock symbol="YUM">
+        <name>Yum! Brands Inc.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>6.93</openPrice>
+            <intradayHigh>6.93</intradayHigh>
+            <intradayLow>6.66</intradayLow>
+            <closePrice>6.71</closePrice>
+            <volume>3033493</volume>
+        </financeData>
+    </stock>
+    <stock symbol="WMT">
+        <name>Walmart Inc.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>22.79</openPrice>
+            <intradayHigh>23.00</intradayHigh>
+            <intradayLow>21.83</intradayLow>
+            <closePrice>22.27</closePrice>
+            <volume>25109700</volume>
+        </financeData>
+    </stock>
+    <stock symbol="KO">
+        <name>Coca-Cola Co.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>29.00</openPrice>
+            <intradayHigh>29.00</intradayHigh>
+            <intradayLow>27.62</intradayLow>
+            <closePrice>28.19</closePrice>
+            <volume>10997000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="PEP">
+        <name>PepsiCo Inc.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>35.38</openPrice>
+            <intradayHigh>37.38</intradayHigh>
+            <intradayLow>35.00</intradayLow>
+            <closePrice>36.88</closePrice>
+            <volume>5298400</volume>
+        </financeData>
+    </stock>
+    <stock symbol="COST">
+        <name>Costco Wholesale Corp.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>45.53</openPrice>
+            <intradayHigh>45.53</intradayHigh>
+            <intradayLow>43.97</intradayLow>
+            <closePrice>44.50</closePrice>
+            <volume>6057400</volume>
+        </financeData>
+    </stock>
+    <stock symbol="CVS">
+        <name>CVS Health Corp.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>20.00</openPrice>
+            <intradayHigh>20.09</intradayHigh>
+            <intradayLow>18.47</intradayLow>
+            <closePrice>18.91</closePrice>
+            <volume>6503000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="LOW">
+        <name>Lowe's Companies Inc.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>14.70</openPrice>
+            <intradayHigh>14.86</intradayHigh>
+            <intradayLow>13.75</intradayLow>
+            <closePrice>13.94</closePrice>
+            <volume>8093600</volume>
+        </financeData>
+    </stock>
+    <stock symbol="PG">
+        <name>Procter &amp; Gamble Co.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>53.91</openPrice>
+            <intradayHigh>53.97</intradayHigh>
+            <intradayLow>52.84</intradayLow>
+            <closePrice>53.59</closePrice>
+            <volume>4275000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="CL">
+        <name>Colgate-Palmolive Co.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>32.00</openPrice>
+            <intradayHigh>32.00</intradayHigh>
+            <intradayLow>31.00</intradayLow>
+            <closePrice>31.12</closePrice>
+            <volume>2434800</volume>
+        </financeData>
+    </stock>
+    <stock symbol="WBA">
+        <name>Walgreens Boots Alliance Inc.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>28.50</openPrice>
+            <intradayHigh>28.69</intradayHigh>
+            <intradayLow>27.75</intradayLow>
+            <closePrice>28.56</closePrice>
+            <volume>2095900</volume>
+        </financeData>
+    </stock>
+    <stock symbol="XOM">
+        <name>Exxon Mobil Corp.</name>
+        <sector>Energy</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>39.75</openPrice>
+            <intradayHigh>40.38</intradayHigh>
+            <intradayLow>38.94</intradayLow>
+            <closePrice>39.16</closePrice>
+            <volume>13458200</volume>
+        </financeData>
+    </stock>
+    <stock symbol="DD">
+        <name>DuPont de Nemours, Inc.</name>
+        <sector>Materials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>63.51</openPrice>
+            <intradayHigh>63.93</intradayHigh>
+            <intradayLow>62.65</intradayLow>
+            <closePrice>62.92</closePrice>
+            <volume>1296100</volume>
+        </financeData>
+    </stock>
+    <stock symbol="CAT">
+        <name>Caterpillar Inc.</name>
+        <sector>Industrials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>23.84</openPrice>
+            <intradayHigh>24.50</intradayHigh>
+            <intradayLow>23.84</intradayLow>
+            <closePrice>24.31</closePrice>
+            <volume>5055000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="BA">
+        <name>Boeing Co.</name>
+        <sector>Industrials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>41.44</openPrice>
+            <intradayHigh>41.69</intradayHigh>
+            <intradayLow>39.81</intradayLow>
+            <closePrice>40.19</closePrice>
+            <volume>2638200</volume>
+        </financeData>
+    </stock>
+    <stock symbol="JNJ">
+        <name>Johnson &amp; Johnson</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>46.56</openPrice>
+            <intradayHigh>46.88</intradayHigh>
+            <intradayLow>45.78</intradayLow>
+            <closePrice>46.09</closePrice>
+            <volume>4642400</volume>
+        </financeData>
+    </stock>
+    <stock symbol="PFE">
+        <name>Pfizer Inc.</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>30.42</openPrice>
+            <intradayHigh>30.72</intradayHigh>
+            <intradayLow>30.00</intradayLow>
+            <closePrice>30.24</closePrice>
+            <volume>12873345</volume>
+        </financeData>
+    </stock>
+    <stock symbol="MRK">
+        <name>Merck &amp; Co. Inc.</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>65.48</openPrice>
+            <intradayHigh>65.48</intradayHigh>
+            <intradayLow>63.45</intradayLow>
+            <closePrice>64.53</closePrice>
+            <volume>6265782</volume>
+        </financeData>
+    </stock>
+    <stock symbol="ABT">
+        <name>Abbott Laboratories</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>15.82</openPrice>
+            <intradayHigh>16.16</intradayHigh>
+            <intradayLow>15.60</intradayLow>
+            <closePrice>15.71</closePrice>
+            <volume>10635087</volume>
+        </financeData>
+    </stock>
+    <stock symbol="MDT">
+        <name>Medtronic plc</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>33.00</openPrice>
+            <intradayHigh>35.25</intradayHigh>
+            <intradayLow>32.75</intradayLow>
+            <closePrice>34.25</closePrice>
+            <volume>9266900</volume>
+        </financeData>
+    </stock>
+    <stock symbol="UNH">
+        <name>UnitedHealth Group Inc.</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>6.64</openPrice>
+            <intradayHigh>6.76</intradayHigh>
+            <intradayLow>6.62</intradayLow>
+            <closePrice>6.72</closePrice>
+            <volume>3431200</volume>
+        </financeData>
+    </stock>
+    <stock symbol="BMY">
+        <name>Bristol-Myers Squibb Co.</name>
+        <sector>Health Care</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>61.15</openPrice>
+            <intradayHigh>61.75</intradayHigh>
+            <intradayLow>60.56</intradayLow>
+            <closePrice>61.33</closePrice>
+            <volume>3568588</volume>
+        </financeData>
+    </stock>
+    <stock symbol="BAC">
+        <name>Bank of America Corp.</name>
+        <sector>Financials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>25.12</openPrice>
+            <intradayHigh>25.12</intradayHigh>
+            <intradayLow>24.00</intradayLow>
+            <closePrice>24.22</closePrice>
+            <volume>13705800</volume>
+        </financeData>
+    </stock>
+    <stock symbol="JPM">
+        <name>JPMorgan Chase &amp; Co.</name>
+        <sector>Financials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>49.83</openPrice>
+            <intradayHigh>50.25</intradayHigh>
+            <intradayLow>48.08</intradayLow>
+            <closePrice>48.58</closePrice>
+            <volume>12019200</volume>
+        </financeData>
+    </stock>
+    <stock symbol="C">
+        <name>Citigroup Inc.</name>
+        <sector>Financials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>417.19</openPrice>
+            <intradayHigh>417.19</intradayHigh>
+            <intradayLow>390.00</intradayLow>
+            <closePrice>397.50</closePrice>
+            <volume>1681920</volume>
+        </financeData>
+    </stock>
+    <stock symbol="WFC">
+        <name>Wells Fargo &amp; Co.</name>
+        <sector>Financials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>20.16</openPrice>
+            <intradayHigh>20.19</intradayHigh>
+            <intradayLow>19.00</intradayLow>
+            <closePrice>19.56</closePrice>
+            <volume>9037000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="AIG">
+        <name>American International Group Inc.</name>
+        <sector>Financials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>1428.33</openPrice>
+            <intradayHigh>1432.50</intradayHigh>
+            <intradayLow>1373.33</intradayLow>
+            <closePrice>1385.83</closePrice>
+            <volume>166575</volume>
+        </financeData>
+    </stock>
+    <stock symbol="GE">
+        <name>General Electric Co.</name>
+        <sector>Industrials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>244.41</openPrice>
+            <intradayHigh>245.51</intradayHigh>
+            <intradayLow>238.32</intradayLow>
+            <closePrice>239.62</closePrice>
+            <volume>4605131</volume>
+        </financeData>
+    </stock>
+    <stock symbol="UPS">
+        <name>United Parcel Service Inc.</name>
+        <sector>Industrials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>69.69</openPrice>
+            <intradayHigh>69.75</intradayHigh>
+            <intradayLow>67.00</intradayLow>
+            <closePrice>67.06</closePrice>
+            <volume>1273200</volume>
+        </financeData>
+    </stock>
+    <stock symbol="MMM">
+        <name>3M Co.</name>
+        <sector>Industrials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>40.16</openPrice>
+            <intradayHigh>40.34</intradayHigh>
+            <intradayLow>39.32</intradayLow>
+            <closePrice>39.45</closePrice>
+            <volume>2599386</volume>
+        </financeData>
+    </stock>
+    <stock symbol="ADP">
+        <name>Automatic Data Processing Inc.</name>
+        <sector>Industrials</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>42.43</openPrice>
+            <intradayHigh>42.78</intradayHigh>
+            <intradayLow>41.19</intradayLow>
+            <closePrice>41.24</closePrice>
+            <volume>2698899</volume>
+        </financeData>
+    </stock>
+    <stock symbol="AEP">
+        <name>American Electric Power Co.</name>
+        <sector>Utilities</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>32.00</openPrice>
+            <intradayHigh>32.00</intradayHigh>
+            <intradayLow>31.12</intradayLow>
+            <closePrice>31.44</closePrice>
+            <volume>396900</volume>
+        </financeData>
+    </stock>
+    <stock symbol="F">
+        <name>Ford Motor Co.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>28.99</openPrice>
+            <intradayHigh>29.23</intradayHigh>
+            <intradayLow>28.65</intradayLow>
+            <closePrice>28.78</closePrice>
+            <volume>4056814</volume>
+        </financeData>
+    </stock>
+    <stock symbol="HMC">
+        <name>Honda Motor Co., Ltd</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>19.06</openPrice>
+            <intradayHigh>19.06</intradayHigh>
+            <intradayLow>18.86</intradayLow>
+            <closePrice>18.92</closePrice>
+            <volume>48000</volume>
+        </financeData>
+    </stock>
+    <stock symbol="MO">
+        <name>Altria Group Inc.</name>
+        <sector>Consumer Staples</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>23.56</openPrice>
+            <intradayHigh>23.94</intradayHigh>
+            <intradayLow>23.19</intradayLow>
+            <closePrice>23.44</closePrice>
+            <volume>7386600</volume>
+        </financeData>
+    </stock>
+    <stock symbol="HD">
+        <name>Home Depot Inc.</name>
+        <sector>Consumer Discretionary</sector>
+        <basePrice>0</basePrice>
+        <annualTrend>0</annualTrend>
+        <description />
+        <financeData asOf="2000-01-03T00:00:00Z">
+            <openPrice>68.62</openPrice>
+            <intradayHigh>69.19</intradayHigh>
+            <intradayLow>63.81</intradayLow>
+            <closePrice>65.19</closePrice>
+            <volume>12030800</volume>
+        </financeData>
     </stock>
 </stocks>
