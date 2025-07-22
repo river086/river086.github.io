@@ -1746,7 +1746,7 @@ class SimLifeGame {
 
     getEmbeddedStocks() {
         return {
-            'AAPL': { name: 'Apple Inc.', sector: 'Technology', base: 1.00, trend: 0.020 },
+            'AAPL': { name: 'Apple Inc.', sector: 'Technology', base: 1.00, trend: 0.20 },
             'MSFT': { name: 'Microsoft Corp.', sector: 'Technology', base: 58.28, trend: 0.012 },
             'INTC': { name: 'Intel Corp.', sector: 'Technology', base: 43.50, trend: 0.008 },
             'CSCO': { name: 'Cisco Systems Inc.', sector: 'Technology', base: 54.03, trend: 0.010 },
@@ -1755,7 +1755,7 @@ class SimLifeGame {
             'TXN': { name: 'Texas Instruments', sector: 'Technology', base: 51.44, trend: 0.009 },
             'HPQ': { name: 'HP Inc.', sector: 'Technology', base: 26.67, trend: 0.006 },
             'QCOM': { name: 'Qualcomm Inc.', sector: 'Technology', base: 89.66, trend: 0.013 },
-            'NVDA': { name: 'NVIDIA Corp.', sector: 'Technology', base: 0.10, trend: 0.035 },
+            'NVDA': { name: 'NVIDIA Corp.', sector: 'Technology', base: 0.10, trend: 0.28 },
             'AMZN': { name: 'Amazon.com Inc.', sector: 'Consumer Discretionary', base: 4.47, trend: 0.025 },
             'DIS': { name: 'Walt Disney Co.', sector: 'Consumer Discretionary', base: 29.47, trend: 0.008 },
             'MCD': { name: 'McDonald\'s Corp.', sector: 'Consumer Discretionary', base: 39.62, trend: 0.007 },
