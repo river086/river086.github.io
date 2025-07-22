@@ -1,0 +1,257 @@
+/* PSP Dashboard Button and Interface Styles */
+
+/* PSP Dashboard Button */
+.psp-dashboard-btn {
+  position: absolute;
+  top: 20px;
+  right: 180px; /* Next to Portfolio button */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.psp-dashboard-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.psp-dashboard-btn::before {
+  content: "📊 ";
+  margin-right: 5px;
+}
+
+/* PSP Dashboard Modal */
+.psp-dashboard-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  max-width: 800px;
+  width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 1000;
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+.psp-dashboard-modal .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #f0f0f0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+
+.psp-dashboard-modal .header h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.close-btn {
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.close-btn:hover {
+  opacity: 1;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  border-left: 4px solid #667eea;
+}
+
+.stat-card.productivity {
+  border-left-color: #4CAF50;
+}
+
+.stat-card.quality {
+  border-left-color: #2196F3;
+}
+
+.stat-card.projects {
+  border-left-color: #FF9800;
+}
+
+.stat-card.income {
+  border-left-color: #9C27B0;
+}
+
+.stat-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-card .score {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat-card .trend,
+.stat-card .defect-rate,
+.stat-card .success-rate,
+.stat-card .next-opportunity {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.stat-card .amount {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Actions Panel */
+.actions-panel {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px 20px 20px;
+  flex-wrap: wrap;
+}
+
+.psp-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background 0.3s ease;
+}
+
+.psp-btn:hover {
+  background: #5a67d8;
+}
+
+/* Recent Activity */
+.recent-activity {
+  padding: 0 20px 20px 20px;
+}
+
+.recent-activity h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.activity-log {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-log li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.activity-log li:last-child {
+  border-bottom: none;
+}
+
+/* Modal Backdrop */
+.psp-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: backdropFadeIn 0.3s ease-out;
+}
+
+/* Animations */
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes backdropFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .psp-dashboard-btn {
+    position: relative;
+    right: auto;
+    top: auto;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .psp-dashboard-modal {
+    width: 95vw;
+    height: 95vh;
+    max-height: none;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 15px;
+  }
+  
+  .actions-panel {
+    padding: 0 15px 15px 15px;
+  }
+  
+  .psp-btn {
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+/* Hidden state */
+.psp-dashboard-modal.hidden {
+  display: none;
+}
+
+.psp-modal-backdrop.hidden {
+  display: none;
+}
