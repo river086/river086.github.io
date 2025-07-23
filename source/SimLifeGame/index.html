@@ -619,9 +619,31 @@
             }
         }
         
+        @media (max-width: 1200px) {
+            .game-container {
+                padding: 15px;
+            }
+            
+            .stock-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
         @media (max-width: 968px) {
             .second-row {
                 grid-template-columns: 1fr 1fr;
+            }
+            
+            .game-panel {
+                padding: 15px;
+            }
+            
+            .status-card {
+                padding: 12px;
+            }
+            
+            .status-value {
+                font-size: 1.3em;
             }
         }
         
@@ -632,6 +654,7 @@
             
             .game-status {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
             }
             
             .profession-grid {
@@ -641,6 +664,157 @@
             .profession-content {
                 padding: 20px;
                 margin: 10px;
+            }
+            
+            .header {
+                padding: 15px;
+            }
+            
+            .game-panel {
+                padding: 12px;
+            }
+            
+            .log-area {
+                height: 200px;
+                font-size: 0.8em;
+            }
+            
+            .second-row .game-panel {
+                height: auto;
+                min-height: 250px;
+            }
+            
+            .btn {
+                padding: 8px 15px;
+                font-size: 13px;
+                margin: 3px;
+            }
+            
+            .stock-info-content, .expense-breakdown-content {
+                padding: 20px;
+                margin: 10px;
+                max-height: 85vh;
+            }
+            
+            .event-popup-content {
+                padding: 20px;
+                margin: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .game-container {
+                padding: 10px;
+            }
+            
+            .game-status {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            
+            .status-card {
+                padding: 10px;
+            }
+            
+            .status-value {
+                font-size: 1.2em;
+            }
+            
+            .status-label {
+                font-size: 0.8em;
+            }
+            
+            .header {
+                padding: 12px;
+            }
+            
+            .game-panel {
+                padding: 10px;
+            }
+            
+            .log-area {
+                height: 150px;
+                font-size: 0.75em;
+                padding: 10px;
+            }
+            
+            .btn {
+                padding: 6px 12px;
+                font-size: 12px;
+                margin: 2px;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .asset-header {
+                padding: 8px 12px;
+                font-size: 0.9em;
+            }
+            
+            .asset-items {
+                padding: 8px 12px;
+            }
+            
+            .asset-item {
+                font-size: 0.85em;
+                padding: 3px 0;
+            }
+            
+            .stock-info-content, .expense-breakdown-content {
+                padding: 15px;
+                margin: 5px;
+                max-height: 90vh;
+            }
+            
+            .profession-content {
+                padding: 15px;
+                margin: 5px;
+            }
+            
+            .profession-card {
+                padding: 15px;
+            }
+            
+            .event-popup-content {
+                padding: 15px;
+                margin: 10px;
+            }
+            
+            .command-input {
+                padding: 12px;
+                font-size: 14px;
+            }
+            
+            .command-help {
+                font-size: 0.8em;
+                padding: 12px;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .game-container {
+                padding: 8px;
+            }
+            
+            .header, .game-panel {
+                padding: 8px;
+            }
+            
+            .status-value {
+                font-size: 1.1em;
+            }
+            
+            .btn {
+                font-size: 11px;
+                padding: 5px 10px;
+            }
+            
+            .log-area {
+                height: 120px;
             }
         }
     </style>
@@ -955,7 +1129,7 @@
     <div class="stock-info-modal" id="cashflow-modal">
         <div class="expense-breakdown-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <h2>💰 Cash Flow History (現金流水帳歷史)</h2>
+                <h2>💰 Cash Flow History</h2>
                 <button class="btn" onclick="closeCashFlowModal()" style="background: #dc3545;">✕ Close</button>
             </div>
             <div id="cashflow-history-list" style="max-height: 400px; overflow-y: auto; background: #f8f9fa; padding: 15px; border-radius: 5px;">

@@ -199,9 +199,10 @@ class SimLifeGame {
             totalExpenses += car.licensePlate || 0;
         });
         
-        // Add property maintenance costs
+        // Add property maintenance costs and property tax
         this.gameState.properties.forEach(property => {
             totalExpenses += property.maintenance;
+            totalExpenses += property.propertyTax;
         });
         
         return totalExpenses;
@@ -505,7 +506,7 @@ class SimLifeGame {
             return;
         }
         
-        let historyText = '💰 CASH FLOW HISTORY (現金流水帳歷史):\n';
+        let historyText = '💰 CASH FLOW HISTORY:\n';
         historyText += '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n';
         
         this.gameState.cashFlowHistory.forEach((record, index) => {
@@ -975,7 +976,7 @@ class SimLifeGame {
                         <div>
                             <strong>${propertyInfo.emoji} ${propertyInfo.name}</strong>
                             <div style="font-size: 0.9em; color: #666;">
-                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month${loanInfo}
+                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month${loanInfo}
                             </div>
                         </div>
                         <button class="btn" onclick="handlePropertySell('${property.id}')" 
@@ -1003,7 +1004,7 @@ class SimLifeGame {
                 <div>
                     <strong>${property.emoji} ${property.name}</strong>
                     <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
-                        Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month
+                        Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div style="font-size: 0.85em; color: #666;">
@@ -1031,6 +1032,7 @@ class SimLifeGame {
                 emoji: '🏠',
                 price: 150000,
                 maintenance: 800,
+                propertyTax: 188, // ~1.5% annually / 12 months
                 description: 'Compact downtown studio, perfect for young professionals'
             },
             {
@@ -1039,6 +1041,7 @@ class SimLifeGame {
                 emoji: '🏢',
                 price: 220000,
                 maintenance: 950,
+                propertyTax: 275, // ~1.5% annually / 12 months
                 description: 'Modern condo with amenities and city views'
             },
             {
@@ -1047,6 +1050,7 @@ class SimLifeGame {
                 emoji: '🏡',
                 price: 320000,
                 maintenance: 1200,
+                propertyTax: 400, // ~1.5% annually / 12 months
                 description: 'Suburban house with yard and garage'
             },
             {
@@ -1055,6 +1059,7 @@ class SimLifeGame {
                 emoji: '🏘️',
                 price: 450000,
                 maintenance: 1500,
+                propertyTax: 563, // ~1.5% annually / 12 months
                 description: 'Spacious family home in good neighborhood'
             },
             {
@@ -1063,6 +1068,7 @@ class SimLifeGame {
                 emoji: '🏰',
                 price: 800000,
                 maintenance: 2500,
+                propertyTax: 1000, // ~1.5% annually / 12 months
                 description: 'Premium penthouse with panoramic city views'
             },
             {
@@ -1071,6 +1077,7 @@ class SimLifeGame {
                 emoji: '🏔️',
                 price: 280000,
                 maintenance: 600,
+                propertyTax: 350, // ~1.5% annually / 12 months
                 description: 'Peaceful retreat in the mountains, rental income potential'
             }
         ];
@@ -1096,6 +1103,7 @@ class SimLifeGame {
             id: property.id,
             value: property.price,
             maintenance: property.maintenance,
+            propertyTax: property.propertyTax,
             loan: null
         });
         
@@ -1160,6 +1168,7 @@ class SimLifeGame {
             id: property.id,
             value: property.price,
             maintenance: property.maintenance,
+            propertyTax: property.propertyTax,
             loan: {
                 balance: loanAmount,
                 monthlyPayment: monthlyPayment,
@@ -2043,6 +2052,13 @@ class SimLifeGame {
             const propertyName = property.id.replace(/_/g, ' ');
             this.addExpenseItem(container, `🏠 ${propertyName} Maintenance`, property.maintenance);
             totalExpenses += property.maintenance;
+        });
+        
+        // Property taxes
+        this.gameState.properties.forEach((property, index) => {
+            const propertyName = property.id.replace(/_/g, ' ');
+            this.addExpenseItem(container, `🏛️ ${propertyName} Property Tax`, property.propertyTax);
+            totalExpenses += property.propertyTax;
         });
         
         // Total
