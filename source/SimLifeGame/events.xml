@@ -1,103 +1,692 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
 
-    <event id="travel_trip">
+    <!-- ──────────── 1 ──────────── -->
+    <event id="sudden_rain">
         <category>lifestyle</category>
-        <weight>0.5</weight>
-        <cooldown>12</cooldown>
-        <costRange>
-            <min>300</min>
-            <max>1000</max>
-        </costRange>
-        <effects>
-            <happiness>8</happiness>
-        </effects>
-        <description>Weekend getaway</description>
+        <weight>1.0</weight>
+        <cooldown>1</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>-1</happiness></effects>
+        <description>Sudden rainstorm</description>
         <detailedDescription>
-            You decide to take a spontaneous weekend trip to recharge and explore new places. The experience brings joy and creates lasting memories.
+            A sudden downpour ruins your outdoor plans, leaving you stuck indoors feeling a little bored.
         </detailedDescription>
     </event>
 
-    <event id="car_repair">
-        <category>maintenance</category>
-        <weight>0.8</weight>
-        <cooldown>6</cooldown>
-        <costRange>
-            <min>200</min>
-            <max>800</max>
-        </costRange>
-        <effects>
-            <happiness>-3</happiness>
-        </effects>
-        <description>Car needs repairs</description>
-        <detailedDescription>
-            Your car has developed mechanical issues that require immediate attention. The unexpected repair costs are frustrating but necessary for reliable transportation.
-        </detailedDescription>
-    </event>
-
-    <event id="bonus">
-        <category>income</category>
-        <weight>0.3</weight>
-        <cooldown>24</cooldown>
-        <costRange>
-            <min>-2000</min>
-            <max>-500</max>
-        </costRange>
-        <effects>
-            <happiness>5</happiness>
-        </effects>
-        <description>Work bonus!</description>
-        <detailedDescription>
-            Your hard work and dedication have been recognized! Your employer rewards you with a performance bonus that boosts both your finances and morale.
-        </detailedDescription>
-    </event>
-
-    <event id="medical_expense">
-        <category>health</category>
+    <!-- ──────────── 2 ──────────── -->
+    <event id="lost_wallet">
+        <category>emergency</category>
         <weight>0.4</weight>
         <cooldown>18</cooldown>
-        <costRange>
-            <min>150</min>
-            <max>600</max>
-        </costRange>
-        <effects>
-            <happiness>-2</happiness>
-        </effects>
-        <description>Medical checkup</description>
+        <costRange><min>50</min><max>200</max></costRange>
+        <effects><happiness>-4</happiness></effects>
+        <description>Wallet lost</description>
         <detailedDescription>
-            You need to visit the doctor for a routine checkup or minor health issue. While it's important for your well-being, the medical costs add up.
+            You misplace your wallet and must replace IDs and cash—an annoying and costly hassle.
         </detailedDescription>
     </event>
 
-    <event id="friend_wedding">
+    <!-- ──────────── 3 ──────────── -->
+    <event id="found_cash">
+        <category>income</category>
+        <weight>0.3</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>-100</min><max>-20</max></costRange>
+        <effects><happiness>3</happiness></effects>
+        <description>Found cash</description>
+        <detailedDescription>
+            You spot a small amount of money on the sidewalk. Sweet, unexpected pocket change!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 4 ──────────── -->
+    <event id="appliance_leak">
+        <category>maintenance</category>
+        <weight>0.5</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>100</min><max>600</max></costRange>
+        <effects><happiness>-2</happiness></effects>
+        <description>Appliance leak</description>
+        <detailedDescription>
+            Your washing machine springs a leak. Emergency repairs disrupt your budget and routine.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 5 ──────────── -->
+    <event id="flat_tire">
+        <category>maintenance</category>
+        <weight>0.6</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>50</min><max>150</max></costRange>
+        <effects><happiness>-3</happiness></effects>
+        <description>Flat tire repair</description>
+        <detailedDescription>
+            A tire blows out on the road. You pay for a roadside replacement and lose precious time.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 6 ──────────── -->
+    <event id="friend_surprise_visit">
+        <category>social</category>
+        <weight>0.7</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>20</min><max>100</max></costRange>
+        <effects><happiness>5</happiness></effects>
+        <description>Surprise visit from a friend</description>
+        <detailedDescription>
+            An old friend shows up unannounced. You grab dinner together and share great memories.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 7 ──────────── -->
+    <event id="local_fair">
+        <category>recreation</category>
+        <weight>0.5</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>30</min><max>120</max></costRange>
+        <effects><happiness>4</happiness></effects>
+        <description>Visit a local fair</description>
+        <detailedDescription>
+            You check out a neighborhood fair, indulge in snacks, and pick up handmade goods—great fun!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 8 ──────────── -->
+    <event id="parking_ticket">
+        <category>government</category>
+        <weight>0.3</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>50</min><max>300</max></costRange>
+        <effects><happiness>-4</happiness></effects>
+        <description>Parking ticket</description>
+        <detailedDescription>
+            You get cited for illegal parking. Paying the fine stings both wallet and pride.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 9 ──────────── -->
+    <event id="impulse_purchase">
+        <category>lifestyle</category>
+        <weight>0.8</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>30</min><max>200</max></costRange>
+        <effects><happiness>1</happiness></effects>
+        <description>Impulse purchase</description>
+        <detailedDescription>
+            A flash sale tempts you into buying something you didn’t plan on. Fun now, regret later.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 10 ──────────── -->
+    <event id="overtime_bonus">
+        <category>income</category>
+        <weight>0.4</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>-600</min><max>-100</max></costRange>
+        <effects><happiness>2</happiness></effects>
+        <description>Overtime bonus</description>
+        <detailedDescription>
+            A last-minute project requires extra hours. The one-time bonus boosts your paycheck.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 11 ──────────── -->
+    <event id="power_outage">
+        <category>utilities</category>
+        <weight>0.5</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>-2</happiness></effects>
+        <description>Short power outage</description>
+        <detailedDescription>
+            The neighborhood loses electricity for several hours. Your routine stalls and food warms up.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 12 ──────────── -->
+    <event id="credit_card_fraud">
+        <category>emergency</category>
+        <weight>0.2</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>100</min><max>500</max></costRange>
+        <effects><happiness>-6</happiness></effects>
+        <description>Credit card fraud</description>
+        <detailedDescription>
+            Fraudulent charges appear on your card. You dispute them but must wait for a refund.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 13 ──────────── -->
+    <event id="phone_screen_crack">
+        <category>technology</category>
+        <weight>0.5</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>100</min><max>400</max></costRange>
+        <effects><happiness>-3</happiness></effects>
+        <description>Phone screen cracked</description>
+        <detailedDescription>
+            You drop your phone and shatter the screen. A replacement panel isn’t cheap.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 14 ──────────── -->
+    <event id="neighbor_party">
+        <category>social</category>
+        <weight>0.6</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>25</min><max>80</max></costRange>
+        <effects><happiness>4</happiness></effects>
+        <description>Neighborhood party</description>
+        <detailedDescription>
+            The neighbors host a weekend barbecue. You bring a small gift and strengthen community ties.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 15 ──────────── -->
+    <event id="raffle_win">
+        <category>income</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>-200</min><max>-20</max></costRange>
+        <effects><happiness>3</happiness></effects>
+        <description>Raffle prize</description>
+        <detailedDescription>
+            You win a small cash prize in a mall raffle—lucky you!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 16 ──────────── -->
+    <event id="lend_friend">
+        <category>social</category>
+        <weight>0.5</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>50</min><max>300</max></costRange>
+        <effects><happiness>-1</happiness></effects>
+        <description>Loan to a friend</description>
+        <detailedDescription>
+            A friend needs an urgent loan. You help out, but your own cash is tighter for a while.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 17 ──────────── -->
+    <event id="soaked_buy_umbrella">
+        <category>lifestyle</category>
+        <weight>0.8</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>10</min><max>30</max></costRange>
+        <effects><happiness>-1</happiness></effects>
+        <description>Bought umbrella in the rain</description>
+        <detailedDescription>
+            Caught in a shower without an umbrella, you buy one from a nearby shop—wet and annoyed.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 18 ──────────── -->
+    <event id="replace_houseplant">
+        <category>lifestyle</category>
+        <weight>0.7</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>15</min><max>50</max></costRange>
+        <effects><happiness>1</happiness></effects>
+        <description>Replace dead houseplant</description>
+        <detailedDescription>
+            A beloved plant dies, so you buy a fresh one—costly but brightens the room.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 19 ──────────── -->
+    <event id="fancy_dinner">
+        <category>lifestyle</category>
+        <weight>0.6</weight>
+        <cooldown>9</cooldown>
+        <costRange><min>60</min><max>200</max></costRange>
+        <effects><happiness>3</happiness></effects>
+        <description>Spontaneous fancy dinner</description>
+        <detailedDescription>
+            You book a high-end restaurant on a whim. Delicious—but your wallet notices.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 20 ──────────── -->
+    <event id="sell_unused">
+        <category>income</category>
+        <weight>0.4</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>-300</min><max>-30</max></costRange>
+        <effects><happiness>2</happiness></effects>
+        <description>Sell unused items</description>
+        <detailedDescription>
+            You list clutter on a second-hand app and make some quick cash while freeing space.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 21 ──────────── -->
+    <event id="car_wash">
+        <category>maintenance</category>
+        <weight>0.9</weight>
+        <cooldown>3</cooldown>
+        <costRange><min>15</min><max>30</max></costRange>
+        <effects><happiness>1</happiness></effects>
+        <description>Unexpected car wash</description>
+        <detailedDescription>
+            Your car is filthy before an outing. You spring for a wash and feel better driving a clean ride.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 22 ──────────── -->
+    <event id="lost_car_keys">
+        <category>emergency</category>
+        <weight>0.3</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>80</min><max>250</max></costRange>
+        <effects><happiness>-4</happiness></effects>
+        <description>Lost car keys</description>
+        <detailedDescription>
+            You misplace your car keys and have to pay a locksmith for a replacement.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 23 ──────────── -->
+    <event id="broken_glasses">
+        <category>health</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>120</min><max>400</max></costRange>
+        <effects><happiness>-3</happiness></effects>
+        <description>Broken glasses</description>
+        <detailedDescription>
+            Your eyeglasses snap in half. You rush to get a new pair, hurting your budget.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 24 ──────────── -->
+    <event id="unexpected_gift">
+        <category>social</category>
+        <weight>0.4</weight>
+        <cooldown>9</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>5</happiness></effects>
+        <description>Unexpected gift</description>
+        <detailedDescription>
+            A friend surprises you with a thoughtful present. Pure joy at zero cost.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 25 ──────────── -->
+    <event id="community_cleanup">
+        <category>social</category>
+        <weight>0.5</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>0</min><max>50</max></costRange>
+        <effects><happiness>6</happiness></effects>
+        <description>Community clean-up day</description>
+        <detailedDescription>
+            You join a neighborhood litter-pick. Minimal expense, maximum satisfaction.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 26 ──────────── -->
+    <event id="microwave_breakdown">
+        <category>maintenance</category>
+        <weight>0.5</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>80</min><max>250</max></costRange>
+        <effects><happiness>-2</happiness></effects>
+        <description>Microwave breakdown</description>
+        <detailedDescription>
+            The kitchen microwave quits working. You must repair or replace it on short notice.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 27 ──────────── -->
+    <event id="free_flight_upgrade">
+        <category>recreation</category>
+        <weight>0.1</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>6</happiness></effects>
+        <description>Free flight upgrade</description>
+        <detailedDescription>
+            Your overbooked flight bumps you up to business class—more comfort for no cost.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 28 ──────────── -->
+    <event id="phone_lost_found">
+        <category>technology</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>20</min><max>80</max></costRange>
+        <effects><happiness>-1</happiness></effects>
+        <description>Lost phone recovered</description>
+        <detailedDescription>
+            You leave your phone in a taxi and pay to retrieve it—luckily it’s returned safely.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 29 ──────────── -->
+    <event id="scratch_ticket_win">
+        <category>income</category>
+        <weight>0.2</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>-150</min><max>-20</max></costRange>
+        <effects><happiness>4</happiness></effects>
+        <description>Scratch-off ticket win</description>
+        <detailedDescription>
+            A spur-of-the-moment scratch card nets you a modest cash prize—nice!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 30 ──────────── -->
+    <event id="coffee_spill_laptop">
+        <category>technology</category>
+        <weight>0.5</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>200</min><max>800</max></costRange>
+        <effects><happiness>-5</happiness></effects>
+        <description>Coffee spill on laptop</description>
+        <detailedDescription>
+            You knock coffee onto your laptop, causing expensive damage and immediate panic.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 31 ──────────── -->
+    <event id="house_lockout">
+        <category>emergency</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>80</min><max>200</max></costRange>
+        <effects><happiness>-3</happiness></effects>
+        <description>Locked out of house</description>
+        <detailedDescription>
+            You lock yourself outside and must call a locksmith—annoying and pricey.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 32 ──────────── -->
+    <event id="concert_ticket_win">
+        <category>recreation</category>
+        <weight>0.2</weight>
+        <cooldown>30</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>5</happiness></effects>
+        <description>Won concert tickets</description>
+        <detailedDescription>
+            A radio contest lands you free seats at a popular band’s show—rock on!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 33 ──────────── -->
+    <event id="water_bill_credit">
+        <category>utilities</category>
+        <weight>0.3</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>-20</min><max>-100</max></costRange>
+        <effects><happiness>2</happiness></effects>
+        <description>Water bill credit</description>
+        <detailedDescription>
+            The utility company corrects an overcharge and credits your account, saving you money.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 34 ──────────── -->
+    <event id="cheap_furniture">
+        <category>lifestyle</category>
+        <weight>0.6</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>-100</min><max>-40</max></costRange>
+        <effects><happiness>2</happiness></effects>
+        <description>Cheap furniture find</description>
+        <detailedDescription>
+            A friend moving out sells you quality furniture at a bargain price—great deal!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 35 ──────────── -->
+    <event id="pipe_burst">
+        <category>maintenance</category>
+        <weight>0.3</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>300</min><max>1200</max></costRange>
+        <effects><happiness>-6</happiness></effects>
+        <description>Burst water pipe</description>
+        <detailedDescription>
+            An old pipe bursts and floods part of your home. Emergency plumbing burns a hole in your wallet.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 36 ──────────── -->
+    <event id="tax_adjust_refund">
+        <category>income</category>
+        <weight>0.3</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>-250</min><max>-1500</max></costRange>
+        <effects><happiness>4</happiness></effects>
+        <description>Tax adjustment refund</description>
+        <detailedDescription>
+            The tax office recalculates your return and sends you an additional refund—unexpected and welcome.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 37 ──────────── -->
+    <event id="clothing_flash_sale">
+        <category>lifestyle</category>
+        <weight>0.7</weight>
+        <cooldown>9</cooldown>
+        <costRange><min>40</min><max>200</max></costRange>
+        <effects><happiness>2</happiness></effects>
+        <description>Clothing flash sale</description>
+        <detailedDescription>
+            You catch a limited-time clothing sale and snag new outfits—fun but slightly guilty.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 38 ──────────── -->
+    <event id="atm_fee">
+        <category>utilities</category>
+        <weight>0.6</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>3</min><max>6</max></costRange>
+        <effects><happiness>-1</happiness></effects>
+        <description>ATM fee</description>
+        <detailedDescription>
+            The nearest in-network ATM is down, so you pay a small out-of-network fee to withdraw cash.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 39 ──────────── -->
+    <event id="meet_celebrity">
         <category>social</category>
         <weight>0.2</weight>
-        <cooldown>36</cooldown>
-        <costRange>
-            <min>250</min>
-            <max>500</max>
-        </costRange>
-        <effects>
-            <happiness>6</happiness>
-        </effects>
-        <description>Friend's wedding</description>
+        <cooldown>24</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>4</happiness></effects>
+        <description>Met a celebrity</description>
         <detailedDescription>
-            A close friend is getting married and you're invited to celebrate! Between the gift, outfit, and travel expenses, it costs money but brings joy and strengthens friendships.
+            You run into a favorite celebrity at a café and even get an autograph—day made!
         </detailedDescription>
     </event>
 
-    <event id="no_event">
-        <category>none</category>
-        <weight>2.0</weight>
-        <cooldown>0</cooldown>
-        <costRange>
-            <min>0</min>
-            <max>0</max>
-        </costRange>
-        <effects/>
-        <description>Quiet month</description>
+    <!-- ──────────── 40 ──────────── -->
+    <event id="ac_repair">
+        <category>maintenance</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>150</min><max>500</max></costRange>
+        <effects><happiness>-2</happiness></effects>
+        <description>Air conditioner repair</description>
         <detailedDescription>
-            Nothing significant happens this month. Sometimes life is just routine and peaceful.
+            Your AC quits on a hot day. You fork out for fast repairs to cool things down again.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 41 ──────────── -->
+    <event id="bike_stolen">
+        <category>emergency</category>
+        <weight>0.2</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>200</min><max>600</max></costRange>
+        <effects><happiness>-5</happiness></effects>
+        <description>Bicycle stolen</description>
+        <detailedDescription>
+            You return to the rack to find your bike missing. Replacing it isn’t cheap.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 42 ──────────── -->
+    <event id="car_battery_dead">
+        <category>maintenance</category>
+        <weight>0.6</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>80</min><max>200</max></costRange>
+        <effects><happiness>-2</happiness></effects>
+        <description>Dead car battery</description>
+        <detailedDescription>
+            Your car refuses to start. A new battery—or a tow—quickly drains your funds.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 43 ──────────── -->
+    <event id="hail_damage_car">
+        <category>emergency</category>
+        <weight>0.15</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>300</min><max>1200</max></costRange>
+        <effects><happiness>-4</happiness></effects>
+        <description>Hail damage to car</description>
+        <detailedDescription>
+            A sudden hailstorm dents your car’s bodywork. Repairs put a big dent in your savings, too.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 44 ──────────── -->
+    <event id="phishing_scam">
+        <category>emergency</category>
+        <weight>0.25</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>50</min><max>300</max></costRange>
+        <effects><happiness>-4</happiness></effects>
+        <description>Phishing scam</description>
+        <detailedDescription>
+            You fall for a phishing email and lose a bit of cash before freezing your accounts.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 45 ──────────── -->
+    <event id="giftcard_bonus">
+        <category>income</category>
+        <weight>0.3</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>-50</min><max>-200</max></costRange>
+        <effects><happiness>3</happiness></effects>
+        <description>Gift card bonus</description>
+        <detailedDescription>
+            A company raffle rewards you with a gift card—useful for shopping or dining out.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 46 ──────────── -->
+    <event id="update_error">
+        <category>technology</category>
+        <weight>0.5</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>0</min><max>100</max></costRange>
+        <effects><happiness>-2</happiness></effects>
+        <description>System update failure</description>
+        <detailedDescription>
+            A computer update crashes your system. You waste time and pay a tech to fix it.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 47 ──────────── -->
+    <event id="kitchen_fire">
+        <category>emergency</category>
+        <weight>0.1</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>200</min><max>800</max></costRange>
+        <effects><happiness>-7</happiness></effects>
+        <description>Small kitchen fire</description>
+        <detailedDescription>
+            Cooking goes wrong and starts a minor fire. You extinguish it but need cleanup and repairs.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 48 ──────────── -->
+    <event id="free_movie_preview">
+        <category>recreation</category>
+        <weight>0.3</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>0</min><max>0</max></costRange>
+        <effects><happiness>3</happiness></effects>
+        <description>Free movie preview</description>
+        <detailedDescription>
+            A studio invites you to a test screening of an unreleased film—free entertainment!
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 49 ──────────── -->
+    <event id="forgotten_coupon">
+        <category>income</category>
+        <weight>0.4</weight>
+        <cooldown>9</cooldown>
+        <costRange><min>-30</min><max>-100</max></costRange>
+        <effects><happiness>2</happiness></effects>
+        <description>Found forgotten coupon</description>
+        <detailedDescription>
+            Cleaning a drawer, you discover a nearly expired coupon and save money on a planned purchase.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 50 ──────────── -->
+    <event id="lost_luggage_fee">
+        <category>emergency</category>
+        <weight>0.15</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>100</min><max>400</max></costRange>
+        <effects><happiness>-5</happiness></effects>
+        <description>Delayed luggage reimbursement</description>
+        <detailedDescription>
+            The airline misdirects your bag. You buy essentials out of pocket but later receive compensation.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 51 ──────────── -->
+    <event id="gym_membership_sale">
+        <category>health</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>100</min><max>300</max></costRange>
+        <effects><happiness>3</happiness></effects>
+        <description>Gym membership promotion</description>
+        <detailedDescription>
+            A local gym offers a discounted membership. You sign up to improve your health and fitness.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 52 ──────────── -->
+    <event id="stock_market_tip">
+        <category>income</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>-500</min><max>-50</max></costRange>
+        <effects><happiness>4</happiness></effects>
+        <description>Stock tip pays off</description>
+        <detailedDescription>
+            A friend's stock recommendation turns out to be profitable. Your small investment grows nicely.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 53 ──────────── -->
+    <event id="identity_theft_protection">
+        <category>technology</category>
+        <weight>0.3</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>50</min><max>150</max></costRange>
+        <effects><happiness>-1</happiness></effects>
+        <description>Identity monitoring service</description>
+        <detailedDescription>
+            After a data breach, you subscribe to identity protection services for peace of mind.
         </detailedDescription>
     </event>
 

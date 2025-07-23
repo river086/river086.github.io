@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '1.2.0'; // Update this when making changes to the game
+    static VERSION = '1.3.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -12,6 +12,14 @@ class SimLifeGame {
             fixedCosts: 0,
             happiness: 100,
             negativeCashStreak: 0,
+            playerStatus: {
+                energy: 75,      // 體力 (1-100)
+                focus: 70,       // 專注 (1-100)
+                wisdom: 65,      // 智慧 (1-100)
+                charm: 60,       // 魅力 (1-100)
+                luck: 55,        // 幸運 (1-100)
+                psp: 50          // 專業技能點 (1-100)
+            },
             loans: [],
             cars: [],
             properties: [],
@@ -531,6 +539,91 @@ class SimLifeGame {
         this.log(historyText, 'info');
     }
     
+    updatePlayerStatusModal() {
+        const statusContainer = document.getElementById('player-status-content');
+        statusContainer.innerHTML = '';
+        
+        const statusData = [
+            { key: 'energy', label: 'Energy', icon: '⚡', color: '#ff6b35' },
+            { key: 'focus', label: 'Focus', icon: '🎯', color: '#4ecdc4' },
+            { key: 'wisdom', label: 'Wisdom', icon: '🧠', color: '#6c5ce7' },
+            { key: 'charm', label: 'Charm', icon: '✨', color: '#fd79a8' },
+            { key: 'luck', label: 'Luck', icon: '🍀', color: '#00b894' },
+            { key: 'psp', label: 'Professional Skills', icon: '💼', color: '#fdcb6e' }
+        ];
+        
+        statusData.forEach(stat => {
+            const value = this.gameState.playerStatus[stat.key];
+            const statusCard = document.createElement('div');
+            statusCard.style.background = 'white';
+            statusCard.style.border = '2px solid #e9ecef';
+            statusCard.style.borderRadius = '15px';
+            statusCard.style.padding = '25px';
+            statusCard.style.textAlign = 'center';
+            statusCard.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            statusCard.style.minHeight = '200px';
+            
+            // Create progress bar
+            const progressPercent = Math.max(0, Math.min(100, value));
+            
+            statusCard.innerHTML = `
+                <div style="font-size: 2.5em; margin-bottom: 12px;">${stat.icon}</div>
+                <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">${stat.label}</h3>
+                <div style="background: #f1f3f4; border-radius: 25px; height: 25px; margin-bottom: 15px; overflow: hidden; border: 1px solid #e0e0e0;">
+                    <div style="background: ${stat.color}; height: 100%; width: ${progressPercent}%; border-radius: 25px; transition: width 0.3s ease; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.8em;">
+                        ${progressPercent >= 20 ? `${value}%` : ''}
+                    </div>
+                </div>
+                <div style="font-size: 1.6em; font-weight: bold; color: ${stat.color}; margin-bottom: 8px;">${value}/100</div>
+                <div style="font-size: 0.85em; color: #666; line-height: 1.4; padding: 8px; background: #f8f9fa; border-radius: 8px;">
+                    ${this.getStatusDescription(stat.key, value)}
+                </div>
+            `;
+            
+            statusContainer.appendChild(statusCard);
+        });
+    }
+    
+    getStatusDescription(statKey, value) {
+        const descriptions = {
+            energy: {
+                high: 'Full of energy and ready for anything!',
+                medium: 'Feeling decent, could use some rest.',
+                low: 'Exhausted and need to recharge.'
+            },
+            focus: {
+                high: 'Crystal clear concentration.',
+                medium: 'Reasonably focused on tasks.',
+                low: 'Struggling to concentrate.'
+            },
+            wisdom: {
+                high: 'Making wise decisions consistently.',
+                medium: 'Learning from experiences.',
+                low: 'Need to gain more knowledge.'
+            },
+            charm: {
+                high: 'Naturally charismatic and likeable.',
+                medium: 'Getting along well with others.',
+                low: 'Working on social skills.'
+            },
+            luck: {
+                high: 'Fortune favors you lately.',
+                medium: 'Things are going reasonably well.',
+                low: 'Could use a lucky break.'
+            },
+            psp: {
+                high: 'Expert-level professional skills.',
+                medium: 'Solid professional competence.',
+                low: 'Building professional expertise.'
+            }
+        };
+        
+        const stat = descriptions[statKey];
+        if (value >= 75) return stat.high;
+        if (value >= 40) return stat.medium;
+        return stat.low;
+    }
+    
     updateCashFlowModal() {
         const container = document.getElementById('cashflow-history-list');
         container.innerHTML = '';
@@ -742,7 +835,8 @@ class SimLifeGame {
                             </div>
                         </div>
                         <button class="btn" onclick="handleVehicleSell('${car.id}')" 
-                                style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                                style="background: ${this.gameState.cars.length === 1 ? '#999' : '#dc3545'}; padding: 5px 10px;" 
+                                ${this.gameState.cars.length === 1 ? 'disabled title="Cannot sell your only vehicle"' : ''}>Sell</button>
                     </div>
                 `;
                 
@@ -886,9 +980,9 @@ class SimLifeGame {
             throw new Error('Vehicle not found in your garage');
         }
         
-        // Don't allow selling the starter car if it's the only vehicle
-        if (this.gameState.cars.length === 1 && vehicleId === 'starter_compact_1995') {
-            throw new Error('Cannot sell your only vehicle. You need transportation!');
+        // Don't allow selling any vehicle if it's the only one
+        if (this.gameState.cars.length === 1) {
+            throw new Error('Cannot sell your only vehicle. You need transportation to work!');
         }
         
         const car = this.gameState.cars[carIndex];
