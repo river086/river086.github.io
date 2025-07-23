@@ -35,6 +35,15 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
         
+        .version-badge {
+            font-size: 0.8em;
+            color: #666;
+            background: #f0f0f0;
+            padding: 4px 8px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+        
         .game-status {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -670,6 +679,11 @@
                 padding: 15px;
             }
             
+            .version-badge {
+                font-size: 0.7em;
+                padding: 3px 6px;
+            }
+            
             .game-panel {
                 padding: 12px;
             }
@@ -726,6 +740,11 @@
             
             .header {
                 padding: 12px;
+            }
+            
+            .version-badge {
+                font-size: 0.65em;
+                padding: 2px 5px;
             }
             
             .game-panel {
@@ -822,7 +841,10 @@
 <body>
     <div class="game-container">
         <div class="header">
-            <h1>Life Simulator</h1>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h1>Life Simulator</h1>
+                <div class="version-badge" id="game-version">v1.2.0</div>
+            </div>
             <div class="game-status">
                 <div class="status-card">
                     <div class="status-value" id="age">24</div>

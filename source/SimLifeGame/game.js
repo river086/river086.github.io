@@ -1,4 +1,6 @@
 class SimLifeGame {
+    static VERSION = '1.2.0'; // Update this when making changes to the game
+    
     constructor() {
         this.gameState = {
             ageYears: 24,
@@ -34,6 +36,9 @@ class SimLifeGame {
     }
     
     async init() {
+        // Update version display
+        document.getElementById('game-version').textContent = `v${SimLifeGame.VERSION}`;
+        
         await this.loadProfessions();
         await this.loadEvents();
         await this.loadStocks();
@@ -1893,9 +1898,16 @@ class SimLifeGame {
             this.gameState.properties.forEach(property => {
                 const div = document.createElement('div');
                 div.className = 'asset-item';
+                const monthlyCosts = property.maintenance + property.propertyTax;
+                const loanPayment = property.loan ? ` + $${property.loan.monthlyPayment.toFixed(0)} loan` : '';
                 div.innerHTML = `
-                    <span class="asset-name">${property.id.replace(/_/g, ' ')}</span>
-                    <span class="asset-value">$${property.value.toFixed(2)}</span>
+                    <div>
+                        <span class="asset-name">🏠 ${property.id.replace(/_/g, ' ')}</span>
+                        <div style="font-size: 0.75em; color: #666; margin-top: 2px;">
+                            Monthly: $${monthlyCosts}/mo (Tax: $${property.propertyTax} + Maint: $${property.maintenance})${loanPayment}
+                        </div>
+                    </div>
+                    <span class="asset-value">$${property.value.toFixed(0)}</span>
                 `;
                 propertiesList.appendChild(div);
             });
