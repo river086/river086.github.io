@@ -39,6 +39,7 @@ class SimLifeGame {
         this.professions = {};
         this.events = [];
         this.pets = {};
+        this.sideJobs = {};
         this.eventCooldowns = {};
         // Stock and crypto prices will be generated after loading stock data
         
@@ -52,6 +53,7 @@ class SimLifeGame {
         await this.loadProfessions();
         await this.loadEvents();
         await this.loadPets();
+        await this.loadSideJobs();
         await this.loadStocks();
         this.showProfessionSelection();
     }
@@ -406,6 +408,9 @@ class SimLifeGame {
             
             return true; // Keep pet
         });
+        
+        // Monthly energy recovery
+        this.gameState.playerStatus.energy = Math.min(100, this.gameState.playerStatus.energy + 50);
         
         if (this.gameState.currentMonth > 12) {
             this.gameState.currentMonth = 1;
@@ -1967,10 +1972,61 @@ class SimLifeGame {
     }
     
     async loadEvents() {
-        console.log('Loading embedded events...');
-        // Use embedded data instead of fetching XML to avoid CORS issues
+        try {
+            console.log('Starting to load events.xml...');
+            const response = await fetch('events.xml');
+            if (!response.ok) {
+                throw new Error(`Failed to fetch events.xml: ${response.status} ${response.statusText}`);
+            }
+            const text = await response.text();
+            console.log('events.xml loaded, parsing...');
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
+            
+            // Check for XML parsing errors
+            const parserError = xmlDoc.querySelector('parsererror');
+            if (parserError) {
+                throw new Error('XML parsing error: ' + parserError.textContent);
+            }
+            
+            // Load events
+            const eventNodes = xmlDoc.querySelectorAll('events > event');
+            this.events = [];
+            eventNodes.forEach(eventNode => {
+                const id = eventNode.getAttribute('id');
+                const costRangeNode = eventNode.querySelector('costRange');
+                const effectsNode = eventNode.querySelector('effects');
+                
+                this.events.push({
+                    id: id,
+                    category: eventNode.querySelector('category')?.textContent || 'misc',
+                    weight: parseFloat(eventNode.querySelector('weight')?.textContent || '1.0'),
+                    cooldown: parseInt(eventNode.querySelector('cooldown')?.textContent || '0'),
+                    costRange: [
+                        parseInt(costRangeNode?.querySelector('min')?.textContent || '0'),
+                        parseInt(costRangeNode?.querySelector('max')?.textContent || '0')
+                    ],
+                    effects: {
+                        happiness: parseInt(effectsNode?.querySelector('happiness')?.textContent || '0')
+                    },
+                    description: eventNode.querySelector('description')?.textContent || '',
+                    detailedDescription: eventNode.querySelector('detailedDescription')?.textContent || ''
+                });
+            });
+            
+            console.log(`Loaded ${this.events.length} events from XML`);
+            console.log('Sample events:', this.events.slice(0, 5).map(e => e.id));
+        } catch (error) {
+            console.error('Error loading events from XML:', error);
+            console.log('Falling back to embedded event data...');
+            this.loadEmbeddedEvents();
+        }
+    }
+    
+    loadEmbeddedEvents() {
+        // Fallback embedded event data to avoid CORS issues
         this.events = this.getEmbeddedEvents();
-        console.log('Loaded events:', this.events.map(e => e.id));
+        console.log(`Loaded ${this.events.length} embedded events as fallback`);
     }
 
     async loadPets() {
@@ -2189,6 +2245,208 @@ class SimLifeGame {
         return effects;
     }
 
+    async loadSideJobs() {
+        try {
+            console.log('Starting to load sidejobs.xml...');
+            const response = await fetch('sidejobs.xml');
+            if (!response.ok) {
+                throw new Error(`Failed to fetch sidejobs.xml: ${response.status} ${response.statusText}`);
+            }
+            const text = await response.text();
+            console.log('sidejobs.xml loaded, parsing...');
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
+            
+            // Check for XML parsing errors
+            const parserError = xmlDoc.querySelector('parsererror');
+            if (parserError) {
+                throw new Error('XML parsing error: ' + parserError.textContent);
+            }
+            
+            // Load side jobs
+            const sideJobNodes = xmlDoc.querySelectorAll('sidejobs > sidejob');
+            sideJobNodes.forEach(jobNode => {
+                const id = jobNode.getAttribute('id');
+                const paymentRangeNode = jobNode.querySelector('payment_range');
+                const requirementsNode = jobNode.querySelector('requirements');
+                
+                this.sideJobs[id] = {
+                    id: id,
+                    name: jobNode.querySelector('name')?.textContent || '',
+                    description: jobNode.querySelector('description')?.textContent || '',
+                    paymentRange: [
+                        parseInt(paymentRangeNode?.querySelector('min')?.textContent || '20'),
+                        parseInt(paymentRangeNode?.querySelector('max')?.textContent || '50')
+                    ],
+                    energyCost: parseInt(jobNode.querySelector('energy_cost')?.textContent || '10'),
+                    duration: jobNode.querySelector('duration')?.textContent || '1-2 hours',
+                    seasonal: jobNode.querySelector('seasonal')?.textContent || '',
+                    requirements: this.parseSideJobRequirements(requirementsNode)
+                };
+            });
+            
+            console.log(`Loaded ${Object.keys(this.sideJobs).length} side jobs from XML`);
+            console.log('Sample side jobs:', Object.keys(this.sideJobs).slice(0, 5));
+        } catch (error) {
+            console.error('Error loading side jobs from XML:', error);
+            console.log('Falling back to embedded side job data...');
+            this.loadEmbeddedSideJobs();
+        }
+    }
+    
+    parseSideJobRequirements(reqNode) {
+        if (!reqNode) return {};
+        
+        return {
+            minAge: parseInt(reqNode.querySelector('min_age')?.textContent || '16'),
+            maxAge: parseInt(reqNode.querySelector('max_age')?.textContent || '75'),
+            minEnergy: parseInt(reqNode.querySelector('min_energy')?.textContent || '0'),
+            minWisdom: parseInt(reqNode.querySelector('min_wisdom')?.textContent || '0'),
+            minCharm: parseInt(reqNode.querySelector('min_charm')?.textContent || '0'),
+            minFocus: parseInt(reqNode.querySelector('min_focus')?.textContent || '0'),
+            minPsp: parseInt(reqNode.querySelector('min_psp')?.textContent || '0')
+        };
+    }
+    
+    loadEmbeddedSideJobs() {
+        // Fallback embedded side job data
+        this.sideJobs = {
+            food_delivery: {
+                id: 'food_delivery',
+                name: 'Food Delivery',
+                description: 'Deliver food orders using your car or bike',
+                paymentRange: [25, 60],
+                energyCost: 15,
+                duration: '2-4 hours',
+                seasonal: '',
+                requirements: { minAge: 16, maxAge: 70, minEnergy: 0, minWisdom: 0, minCharm: 0, minFocus: 0, minPsp: 0 }
+            },
+            dog_walking: {
+                id: 'dog_walking',
+                name: 'Dog Walking',
+                description: 'Walk dogs for busy pet owners in your neighborhood',
+                paymentRange: [20, 40],
+                energyCost: 10,
+                duration: '1-2 hours',
+                seasonal: '',
+                requirements: { minAge: 14, maxAge: 75, minEnergy: 0, minWisdom: 0, minCharm: 0, minFocus: 0, minPsp: 0 }
+            },
+            lawn_mowing: {
+                id: 'lawn_mowing',
+                name: 'Lawn Mowing',
+                description: 'Mow lawns and do basic yard work',
+                paymentRange: [30, 80],
+                energyCost: 25,
+                duration: '2-3 hours',
+                seasonal: '',
+                requirements: { minAge: 16, maxAge: 65, minEnergy: 0, minWisdom: 0, minCharm: 0, minFocus: 0, minPsp: 0 }
+            },
+            tutoring: {
+                id: 'tutoring',
+                name: 'Tutoring',
+                description: 'Help students with homework and test preparation',
+                paymentRange: [50, 120],
+                energyCost: 25,
+                duration: '2-3 hours',
+                seasonal: '',
+                requirements: { minAge: 18, maxAge: 65, minEnergy: 0, minWisdom: 70, minCharm: 0, minFocus: 0, minPsp: 0 }
+            },
+            house_cleaning: {
+                id: 'house_cleaning',
+                name: 'House Cleaning',
+                description: 'Clean houses for busy families',
+                paymentRange: [40, 100],
+                energyCost: 30,
+                duration: '3-4 hours',
+                seasonal: '',
+                requirements: { minAge: 18, maxAge: 70, minEnergy: 0, minWisdom: 0, minCharm: 0, minFocus: 0, minPsp: 0 }
+            }
+        };
+        
+        console.log(`Loaded ${Object.keys(this.sideJobs).length} embedded side jobs as fallback`);
+    }
+    
+    doOneTimeSideJob() {
+        // Get available side jobs based on current season, age, and requirements
+        const availableJobs = this.getAvailableSideJobs();
+        
+        if (availableJobs.length === 0) {
+            this.log('❌ No side jobs available that match your current skills and age.', 'warning');
+            return;
+        }
+        
+        // Randomly select a job from available options
+        const selectedJob = availableJobs[Math.floor(Math.random() * availableJobs.length)];
+        
+        // Check if player has enough energy
+        if (this.gameState.playerStatus.energy < selectedJob.energyCost) {
+            this.log(`❌ Not enough energy for ${selectedJob.name}. Need ${selectedJob.energyCost} energy, you have ${this.gameState.playerStatus.energy}.`, 'warning');
+            this.log('💤 Energy recovers by 50 each month. Rest and try again later!', 'info');
+            return;
+        }
+        
+        // Calculate payment (random within range)
+        const payment = Math.floor(Math.random() * (selectedJob.paymentRange[1] - selectedJob.paymentRange[0] + 1)) + selectedJob.paymentRange[0];
+        
+        // Apply effects
+        this.gameState.portfolio.cash += payment;
+        this.gameState.playerStatus.energy -= selectedJob.energyCost;
+        
+        // Record transaction
+        this.recordCashFlow('income', payment, `Side Job: ${selectedJob.name}`, 'sidejob');
+        
+        // Log results to console
+        this.log(`✅ Completed ${selectedJob.name}!`, 'success');
+        this.log(`💰 Earned $${payment} (Duration: ${selectedJob.duration})`, 'success');
+        this.log(`⚡ Energy: ${this.gameState.playerStatus.energy + selectedJob.energyCost} → ${this.gameState.playerStatus.energy}`, 'info');
+        
+        this.updateUI();
+        
+        // Show completion popup modal
+        if (typeof showSideJobCompletionModal === 'function') {
+            showSideJobCompletionModal(selectedJob, payment, this.gameState.playerStatus.energy);
+        }
+    }
+    
+    getAvailableSideJobs() {
+        const currentSeason = this.getCurrentSeason();
+        const availableJobs = [];
+        
+        Object.values(this.sideJobs).forEach(job => {
+            // Check seasonal availability
+            if (job.seasonal && job.seasonal !== currentSeason) {
+                return;
+            }
+            
+            // Check age requirements
+            if (this.gameState.ageYears < job.requirements.minAge || 
+                this.gameState.ageYears > job.requirements.maxAge) {
+                return;
+            }
+            
+            // Check stat requirements
+            const stats = this.gameState.playerStatus;
+            if (job.requirements.minWisdom && stats.wisdom < job.requirements.minWisdom) return;
+            if (job.requirements.minCharm && stats.charm < job.requirements.minCharm) return;
+            if (job.requirements.minFocus && stats.focus < job.requirements.minFocus) return;
+            if (job.requirements.minPsp && stats.psp < job.requirements.minPsp) return;
+            if (job.requirements.minEnergy && stats.energy < job.requirements.minEnergy) return;
+            
+            availableJobs.push(job);
+        });
+        
+        return availableJobs;
+    }
+    
+    getCurrentSeason() {
+        const month = this.gameState.currentMonth;
+        if (month >= 12 || month <= 2) return 'winter';
+        if (month >= 3 && month <= 5) return 'spring';
+        if (month >= 6 && month <= 8) return 'summer';
+        if (month >= 9 && month <= 11) return 'fall';
+        return 'spring';
+    }
+
     async loadStocks() {
         console.log('Loading embedded stocks...');
         // Use embedded data instead of fetching XML to avoid CORS issues
@@ -2256,12 +2514,62 @@ class SimLifeGame {
             {
                 id: 'no_event',
                 category: 'none',
-                weight: 2.0,
+                weight: 0.8,
                 cooldown: 0,
                 costRange: [0, 0],
                 effects: {},
                 description: 'Quiet month',
                 detailedDescription: 'Nothing significant happens this month. Sometimes life is just routine and peaceful.'
+            },
+            {
+                id: 'sudden_rain',
+                category: 'lifestyle',
+                weight: 1.0,
+                cooldown: 1,
+                costRange: [0, 0],
+                effects: { happiness: -1 },
+                description: 'Sudden rainstorm',
+                detailedDescription: 'A sudden downpour ruins your outdoor plans, leaving you stuck indoors feeling a little bored.'
+            },
+            {
+                id: 'found_cash',
+                category: 'income',
+                weight: 0.3,
+                cooldown: 12,
+                costRange: [-100, -20],
+                effects: { happiness: 3 },
+                description: 'Found cash',
+                detailedDescription: 'You spot a small amount of money on the sidewalk. Sweet, unexpected pocket change!'
+            },
+            {
+                id: 'flat_tire',
+                category: 'maintenance',
+                weight: 0.4,
+                cooldown: 8,
+                costRange: [80, 200],
+                effects: { happiness: -2 },
+                description: 'Flat tire',
+                detailedDescription: 'Your tire goes flat and needs replacement. An annoying but necessary expense for safe driving.'
+            },
+            {
+                id: 'local_fair',
+                category: 'social',
+                weight: 0.2,
+                cooldown: 24,
+                costRange: [30, 80],
+                effects: { happiness: 4 },
+                description: 'Local fair',
+                detailedDescription: 'A fun local fair comes to town! You enjoy games, food, and entertainment for a small cost.'
+            },
+            {
+                id: 'parking_ticket',
+                category: 'fine',
+                weight: 0.3,
+                cooldown: 3,
+                costRange: [25, 75],
+                effects: { happiness: -2 },
+                description: 'Parking ticket',
+                detailedDescription: 'You return to find a parking ticket on your windshield. A frustrating and avoidable expense.'
             }
         ];
     }

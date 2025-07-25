@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sidejobs>
+    <!-- Quick & Easy Side Jobs -->
+    <sidejob id="food_delivery">
+        <name>Food Delivery</name>
+        <description>Deliver food orders using your car or bike</description>
+        <payment_range><min>25</min><max>60</max></payment_range>
+        <energy_cost>15</energy_cost>
+        <duration>2-4 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>70</max_age>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="dog_walking">
+        <name>Dog Walking</name>
+        <description>Walk dogs for busy pet owners in your neighborhood</description>
+        <payment_range><min>20</min><max>40</max></payment_range>
+        <energy_cost>10</energy_cost>
+        <duration>1-2 hours</duration>
+        <requirements>
+            <min_age>14</min_age>
+            <max_age>75</max_age>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="lawn_mowing">
+        <name>Lawn Mowing</name>
+        <description>Mow lawns and do basic yard work</description>
+        <payment_range><min>30</min><max>80</max></payment_range>
+        <energy_cost>25</energy_cost>
+        <duration>2-3 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>65</max_age>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="house_cleaning">
+        <name>House Cleaning</name>
+        <description>Clean houses for busy families</description>
+        <payment_range><min>40</min><max>100</max></payment_range>
+        <energy_cost>30</energy_cost>
+        <duration>3-4 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>70</max_age>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="babysitting">
+        <name>Babysitting</name>
+        <description>Watch children for parents having date nights</description>
+        <payment_range><min>35</min><max>75</max></payment_range>
+        <energy_cost>20</energy_cost>
+        <duration>3-6 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>50</max_age>
+            <min_charm>60</min_charm>
+        </requirements>
+    </sidejob>
+
+    <!-- Skilled Side Jobs -->
+    <sidejob id="tutoring">
+        <name>Tutoring</name>
+        <description>Help students with homework and test preparation</description>
+        <payment_range><min>50</min><max>120</max></payment_range>
+        <energy_cost>25</energy_cost>
+        <duration>2-3 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>65</max_age>
+            <min_wisdom>70</min_wisdom>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="freelance_writing">
+        <name>Freelance Writing</name>
+        <description>Write articles or blog posts for online clients</description>
+        <payment_range><min>60</min><max>150</max></payment_range>
+        <energy_cost>20</energy_cost>
+        <duration>3-5 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>75</max_age>
+            <min_wisdom>65</min_wisdom>
+            <min_focus>60</min_focus>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="graphic_design">
+        <name>Graphic Design</name>
+        <description>Create logos and designs for small businesses</description>
+        <payment_range><min>80</min><max>200</max></payment_range>
+        <energy_cost>30</energy_cost>
+        <duration>4-6 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>70</max_age>
+            <min_wisdom>70</min_wisdom>
+            <min_focus>70</min_focus>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="web_development">
+        <name>Web Development</name>
+        <description>Build simple websites for local businesses</description>
+        <payment_range><min>150</min><max>400</max></payment_range>
+        <energy_cost>40</energy_cost>
+        <duration>6-8 hours</duration>
+        <requirements>
+            <min_age>20</min_age>
+            <max_age>65</max_age>
+            <min_wisdom>80</min_wisdom>
+            <min_focus>75</min_focus>
+        </requirements>
+    </sidejob>
+
+    <!-- Physical Side Jobs -->
+    <sidejob id="moving_helper">
+        <name>Moving Helper</name>
+        <description>Help people move furniture and boxes</description>
+        <payment_range><min>60</min><max>120</max></payment_range>
+        <energy_cost>35</energy_cost>
+        <duration>4-6 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>50</max_age>
+            <min_energy>40</min_energy>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="handyman">
+        <name>Handyman Work</name>
+        <description>Fix minor repairs and maintenance tasks</description>
+        <payment_range><min>70</min><max>160</max></payment_range>
+        <energy_cost>30</energy_cost>
+        <duration>3-5 hours</duration>
+        <requirements>
+            <min_age>20</min_age>
+            <max_age>65</max_age>
+            <min_wisdom>60</min_wisdom>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="construction_helper">
+        <name>Construction Helper</name>
+        <description>Assist with construction and renovation projects</description>
+        <payment_range><min>80</min><max>180</max></payment_range>
+        <energy_cost>40</energy_cost>
+        <duration>6-8 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>55</max_age>
+            <min_energy>50</min_energy>
+        </requirements>
+    </sidejob>
+
+    <!-- Creative Side Jobs -->
+    <sidejob id="photography">
+        <name>Event Photography</name>
+        <description>Take photos at parties, weddings, and events</description>
+        <payment_range><min>100</min><max>300</max></payment_range>
+        <energy_cost>25</energy_cost>
+        <duration>4-8 hours</duration>
+        <requirements>
+            <min_age>18</min_age>
+            <max_age>70</max_age>
+            <min_charm>65</min_charm>
+            <min_focus>60</min_focus>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="music_lessons">
+        <name>Music Lessons</name>
+        <description>Teach instrument or vocal lessons to students</description>
+        <payment_range><min>40</min><max>100</max></payment_range>
+        <energy_cost>20</energy_cost>
+        <duration>2-3 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>75</max_age>
+            <min_charm>60</min_charm>
+            <min_wisdom>55</min_wisdom>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="art_commissions">
+        <name>Art Commissions</name>
+        <description>Create custom artwork for clients</description>
+        <payment_range><min>50</min><max>200</max></payment_range>
+        <energy_cost>30</energy_cost>
+        <duration>4-8 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>80</max_age>
+            <min_focus>65</min_focus>
+            <min_charm>50</min_charm>
+        </requirements>
+    </sidejob>
+
+    <!-- Service Side Jobs -->
+    <sidejob id="car_washing">
+        <name>Car Washing</name>
+        <description>Wash and detail cars in driveways</description>
+        <payment_range><min>25</min><max>60</max></payment_range>
+        <energy_cost>20</energy_cost>
+        <duration>1-2 hours</duration>
+        <requirements>
+            <min_age>14</min_age>
+            <max_age>70</max_age>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="pet_sitting">
+        <name>Pet Sitting</name>
+        <description>Take care of pets while owners are away</description>
+        <payment_range><min>30</min><max>80</max></payment_range>
+        <energy_cost>15</energy_cost>
+        <duration>4-12 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>75</max_age>
+            <min_charm>55</min_charm>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="grocery_shopping">
+        <name>Grocery Shopping</name>
+        <description>Shop for groceries for elderly or busy people</description>
+        <payment_range><min>20</min><max>50</max></payment_range>
+        <energy_cost>15</energy_cost>
+        <duration>1-3 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>75</max_age>
+        </requirements>
+    </sidejob>
+
+    <!-- Seasonal Side Jobs -->
+    <sidejob id="snow_shoveling">
+        <name>Snow Shoveling</name>
+        <description>Clear driveways and walkways after snowstorms</description>
+        <payment_range><min>30</min><max>80</max></payment_range>
+        <energy_cost>25</energy_cost>
+        <duration>1-3 hours</duration>
+        <requirements>
+            <min_age>14</min_age>
+            <max_age>65</max_age>
+        </requirements>
+        <seasonal>winter</seasonal>
+    </sidejob>
+
+    <sidejob id="leaf_raking">
+        <name>Leaf Raking</name>
+        <description>Rake and bag leaves for homeowners</description>
+        <payment_range><min>25</min><max>70</max></payment_range>
+        <energy_cost>20</energy_cost>
+        <duration>2-4 hours</duration>
+        <requirements>
+            <min_age>14</min_age>
+            <max_age>70</max_age>
+        </requirements>
+        <seasonal>fall</seasonal>
+    </sidejob>
+
+    <!-- High-Skill Side Jobs -->
+    <sidejob id="consulting">
+        <name>Business Consulting</name>
+        <description>Provide business advice to small companies</description>
+        <payment_range><min>200</min><max>500</max></payment_range>
+        <energy_cost>35</energy_cost>
+        <duration>4-6 hours</duration>
+        <requirements>
+            <min_age>25</min_age>
+            <max_age>70</max_age>
+            <min_wisdom>85</min_wisdom>
+            <min_charm>75</min_charm>
+            <min_psp>70</min_psp>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="tax_preparation">
+        <name>Tax Preparation</name>
+        <description>Help people prepare their tax returns</description>
+        <payment_range><min>75</min><max>200</max></payment_range>
+        <energy_cost>30</energy_cost>
+        <duration>2-4 hours</duration>
+        <requirements>
+            <min_age>21</min_age>
+            <max_age>75</max_age>
+            <min_wisdom>75</min_wisdom>
+            <min_focus>70</min_focus>
+        </requirements>
+        <seasonal>spring</seasonal>
+    </sidejob>
+
+    <!-- Event-Based Side Jobs -->
+    <sidejob id="event_staff">
+        <name>Event Staff</name>
+        <description>Work at concerts, festivals, and special events</description>
+        <payment_range><min>60</min><max>120</max></payment_range>
+        <energy_cost>30</energy_cost>
+        <duration>6-10 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>65</max_age>
+            <min_energy>35</min_energy>
+        </requirements>
+    </sidejob>
+
+    <sidejob id="catering_helper">
+        <name>Catering Helper</name>
+        <description>Assist with food service at parties and events</description>
+        <payment_range><min>50</min><max>100</max></payment_range>
+        <energy_cost>25</energy_cost>
+        <duration>4-8 hours</duration>
+        <requirements>
+            <min_age>16</min_age>
+            <max_age>70</max_age>
+            <min_charm>55</min_charm>
+        </requirements>
+    </sidejob>
+</sidejobs>
