@@ -3450,11 +3450,21 @@ class SimLifeGame {
             totalExpenses += roundedPayment;
         });
         
-        // Car maintenance
+        // Car maintenance, insurance, and license fees
         this.gameState.cars.forEach((car, index) => {
             const carName = car.id.replace(/_/g, ' ');
             this.addExpenseItem(container, `🚗 ${carName} Maintenance`, car.maintenance);
             totalExpenses += car.maintenance;
+            
+            if (car.insurance && car.insurance > 0) {
+                this.addExpenseItem(container, `🚗 ${carName} Insurance`, car.insurance);
+                totalExpenses += car.insurance;
+            }
+            
+            if (car.licensePlate && car.licensePlate > 0) {
+                this.addExpenseItem(container, `🚗 ${carName} License Plate`, car.licensePlate);
+                totalExpenses += car.licensePlate;
+            }
         });
         
         // Property maintenance
