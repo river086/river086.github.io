@@ -262,11 +262,15 @@ class SimLifeGame {
             totalExpenses += pet.data.monthlyCost;
         });
         
-        // Add rental costs (if renting instead of default housing)
+        // Add housing costs based on living situation
         if (this.gameState.currentRental) {
-            const profession = this.professions[this.gameState.professionId];
-            // Subtract default housing cost and add rental cost
-            totalExpenses = totalExpenses - (profession?.fixedCosts?.housing || 0) + this.gameState.currentRental.rentPrice;
+            // Player is renting - add rental cost
+            totalExpenses += this.gameState.currentRental.rentPrice;
+        } else if (this.gameState.properties.length > 0) {
+            // Player owns properties - no additional housing cost (maintenance/tax handled separately)
+        } else {
+            // Player lives with parents - small contribution
+            totalExpenses += 300; // Parent contribution for groceries/utilities
         }
         
         return totalExpenses;
@@ -3421,12 +3425,10 @@ class SimLifeGame {
                 // Player owns properties - no rent but has maintenance/tax
                 // (These are handled in the property section below)
             } else {
-                // Player lives with parents - include default housing cost
-                const housingExpense = profession.fixedCosts.housing || 0;
-                if (housingExpense > 0) {
-                    totalExpenses += housingExpense;
-                    this.addExpenseItem(container, '🏠 Living with Parents', housingExpense);
-                }
+                // Player lives with parents - small contribution for groceries/utilities
+                const parentContribution = 300; // Small contribution for living expenses
+                totalExpenses += parentContribution;
+                this.addExpenseItem(container, '🏠 Living with Parents (Contribution)', parentContribution);
             }
         }
         
