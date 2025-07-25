@@ -55,7 +55,8 @@ class SimLifeGame {
         await this.loadPets();
         await this.loadSideJobs();
         await this.loadStocks();
-        this.showProfessionSelection();
+        // Don't automatically show profession selection - let player setup handle it
+        this.generateProfessionCards();
     }
     
     showProfessionSelection() {
@@ -149,7 +150,13 @@ class SimLifeGame {
         this.gameState.gameStarted = true;
         this.updateUI();
         const profession = this.professions[this.gameState.professionId];
-        this.log(`Welcome to Life Simulator! You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
+        
+        // Personalized welcome message
+        const playerName = this.gameState.playerName || 'Player';
+        const playerPortrait = this.gameState.playerPortrait || '👤';
+        
+        this.log(`Welcome to Life Simulator, ${playerName}! ${playerPortrait}`, 'info');
+        this.log(`You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
         this.log(`Your starting salary: $${this.gameState.grossAnnual.toFixed(0)}/year`, 'info');
         this.log('Use the "End Turn" button to advance to the next month.', 'info');
     }
@@ -159,6 +166,20 @@ class SimLifeGame {
         
         this.gameState.grossAnnual = this.randomBetween(profession.salaryRange[0], profession.salaryRange[1]);
         this.gameState.fixedCosts = profession.fixedCosts.food + 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
+        
+        // Apply player setup data if available
+        if (window.playerSetupData) {
+            // Apply custom stats from player setup
+            if (window.playerSetupData.stats) {
+                Object.assign(this.gameState.playerStatus, window.playerSetupData.stats);
+            }
+            
+            // Store player name and portrait for potential future use
+            this.gameState.playerName = window.playerSetupData.name;
+            this.gameState.playerPortrait = window.playerSetupData.portrait;
+            
+            console.log(`Initialized ${window.playerSetupData.name} (${window.playerSetupData.portrait}) with custom stats:`, window.playerSetupData.stats);
+        }
         
         if (profession.studentLoan) {
             const loan = {

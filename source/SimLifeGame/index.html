@@ -255,7 +255,7 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.9);
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             z-index: 1001;
@@ -1127,6 +1127,143 @@
                 justify-content: center;
             }
         }
+        
+        /* Player Setup Styles */
+        .player-setup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        
+        .player-setup-content {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .setup-container {
+            display: grid;
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .setup-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid #e9ecef;
+        }
+        
+        .setup-section h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        
+        .portrait-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .portrait-option {
+            width: 65px;
+            height: 75px;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #f8f9fa;
+            margin: 0 auto;
+            padding: 4px;
+        }
+        
+        .portrait-emoji {
+            font-size: 24px;
+            line-height: 1;
+            margin-bottom: 2px;
+        }
+        
+        .portrait-name {
+            font-size: 9px;
+            font-weight: 500;
+            color: #666;
+            line-height: 1.1;
+            text-align: center;
+            word-break: break-word;
+        }
+        
+        .portrait-option:hover {
+            border-color: #007bff;
+            transform: scale(1.1);
+        }
+        
+        .portrait-option.selected {
+            border-color: #28a745;
+            background: #e8f5e8;
+            transform: scale(1.1);
+        }
+        
+        .stats-display {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 15px;
+        }
+        
+        .stat-item {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .stat-name {
+            font-weight: bold;
+            color: #495057;
+        }
+        
+        .stat-value {
+            font-weight: bold;
+            color: #007bff;
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .player-setup-content {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            .stats-display {
+                grid-template-columns: 1fr;
+            }
+            
+            .portrait-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
@@ -1268,6 +1405,71 @@
         </div>
     </div>
     
+    <!-- Player Setup Page -->
+    <div class="player-setup" id="player-setup">
+        <div class="player-setup-content">
+            <h2>🎮 Create Your Character</h2>
+            <p>Customize your appearance and roll your starting stats</p>
+            
+            <div class="setup-container">
+                <!-- Name Section -->
+                <div class="setup-section">
+                    <h3>📝 Your Name</h3>
+                    <input type="text" id="player-name" placeholder="Enter your name..." maxlength="20" 
+                           style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; margin-top: 10px;">
+                </div>
+                
+                <!-- Portrait Section -->
+                <div class="setup-section">
+                    <h3>👤 Choose Your Portrait</h3>
+                    <div class="portrait-grid" id="portrait-grid">
+                        <!-- Portrait options will be generated here -->
+                    </div>
+                </div>
+                
+                <!-- Stats Section -->
+                <div class="setup-section">
+                    <h3>📊 Your Starting Stats</h3>
+                    <div class="stats-display" id="stats-display">
+                        <div class="stat-item">
+                            <span class="stat-name">Energy</span>
+                            <span class="stat-value" id="stat-energy">75</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Focus</span>
+                            <span class="stat-value" id="stat-focus">70</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Wisdom</span>
+                            <span class="stat-value" id="stat-wisdom">65</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Charm</span>
+                            <span class="stat-value" id="stat-charm">60</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Luck</span>
+                            <span class="stat-value" id="stat-luck">55</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">PSP</span>
+                            <span class="stat-value" id="stat-psp">50</span>
+                        </div>
+                    </div>
+                    <button class="btn" onclick="randomizeStats()" style="background: #17a2b8; margin-top: 15px; width: 100%;">
+                        🎲 Randomize Stats
+                    </button>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn" onclick="startGameWithSetup()" style="background: #28a745; padding: 15px 30px; font-size: 18px;">
+                    ✨ Start Your Life Journey
+                </button>
+            </div>
+        </div>
+    </div>
+
     <div class="profession-selection" id="profession-selection">
         <div class="profession-content">
             <h2>Choose Your Career Path</h2>
@@ -2252,6 +2454,129 @@
             
             petsVisual.innerHTML = html;
         }
+        
+        // Player Setup System
+        let selectedPortrait = 1;
+        
+        function initializePlayerSetup() {
+            generatePortraitOptions();
+            randomizeStats();
+        }
+        
+        function generatePortraitOptions() {
+            const portraitGrid = document.getElementById('portrait-grid');
+            const portraits = [
+                { id: 1, emoji: '👨‍💼', name: 'Professional' },
+                { id: 2, emoji: '👩‍💼', name: 'Executive' },
+                { id: 3, emoji: '👨‍🎓', name: 'Graduate' },
+                { id: 4, emoji: '👩‍🎓', name: 'Scholar' },
+                { id: 5, emoji: '👨‍💻', name: 'Tech Guy' },
+                { id: 6, emoji: '👩‍💻', name: 'Developer' },
+                { id: 7, emoji: '👨‍🔬', name: 'Scientist' },
+                { id: 8, emoji: '👩‍🔬', name: 'Researcher' },
+                { id: 9, emoji: '👨‍🎨', name: 'Artist' },
+                { id: 10, emoji: '👩‍🎨', name: 'Creative' },
+                { id: 11, emoji: '👨‍🍳', name: 'Chef' },
+                { id: 12, emoji: '👩‍🍳', name: 'Cook' }
+            ];
+            
+            let html = '';
+            portraits.forEach(portrait => {
+                html += `
+                    <div class="portrait-option ${portrait.id === 1 ? 'selected' : ''}" 
+                         onclick="selectPortrait(${portrait.id})" 
+                         data-portrait-id="${portrait.id}">
+                        <div class="portrait-emoji">${portrait.emoji}</div>
+                        <div class="portrait-name">${portrait.name}</div>
+                    </div>
+                `;
+            });
+            
+            portraitGrid.innerHTML = html;
+        }
+        
+        function selectPortrait(portraitId) {
+            // Remove selection from all portraits
+            document.querySelectorAll('.portrait-option').forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // Add selection to clicked portrait
+            document.querySelector(`[data-portrait-id="${portraitId}"]`).classList.add('selected');
+            selectedPortrait = portraitId;
+        }
+        
+        function randomizeStats() {
+            // Generate random stats with some balance (total around 300-400)
+            const baseStats = {
+                energy: 50 + Math.floor(Math.random() * 30),    // 50-79
+                focus: 45 + Math.floor(Math.random() * 35),     // 45-79
+                wisdom: 40 + Math.floor(Math.random() * 40),    // 40-79
+                charm: 35 + Math.floor(Math.random() * 45),     // 35-79
+                luck: 30 + Math.floor(Math.random() * 50),      // 30-79
+                psp: 25 + Math.floor(Math.random() * 55)        // 25-79
+            };
+            
+            // Update display
+            document.getElementById('stat-energy').textContent = baseStats.energy;
+            document.getElementById('stat-focus').textContent = baseStats.focus;
+            document.getElementById('stat-wisdom').textContent = baseStats.wisdom;
+            document.getElementById('stat-charm').textContent = baseStats.charm;
+            document.getElementById('stat-luck').textContent = baseStats.luck;
+            document.getElementById('stat-psp').textContent = baseStats.psp;
+            
+            // Store stats for later use
+            window.playerSetupStats = baseStats;
+        }
+        
+        function startGameWithSetup() {
+            // Get player name
+            const playerName = document.getElementById('player-name').value.trim();
+            if (!playerName) {
+                alert('Please enter your name!');
+                return;
+            }
+            
+            if (playerName.length < 2) {
+                alert('Please enter a name with at least 2 characters!');
+                return;
+            }
+            
+            // Get selected portrait
+            const portraits = [
+                null, // index 0 unused
+                '👨‍💼', '👩‍💼', '👨‍🎓', '👩‍🎓', '👨‍💻', '👩‍💻',
+                '👨‍🔬', '👩‍🔬', '👨‍🎨', '👩‍🎨', '👨‍🍳', '👩‍🍳'
+            ];
+            
+            // Store player setup data
+            window.playerSetupData = {
+                name: playerName,
+                portrait: portraits[selectedPortrait],
+                stats: window.playerSetupStats || {
+                    energy: 75, focus: 70, wisdom: 65, 
+                    charm: 60, luck: 55, psp: 50
+                }
+            };
+            
+            // Hide player setup and show profession selection
+            document.getElementById('player-setup').style.display = 'none';
+            document.getElementById('profession-selection').style.display = 'flex';
+            
+            console.log('Player setup completed:', window.playerSetupData);
+        }
+        
+        // Initialize setup page when DOM loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show player setup first
+            document.getElementById('player-setup').style.display = 'flex';
+            document.getElementById('profession-selection').style.display = 'none';
+            
+            // Initialize setup components
+            setTimeout(() => {
+                initializePlayerSetup();
+            }, 100);
+        });
     </script>
     <script src="game.js"></script>
 </body>
