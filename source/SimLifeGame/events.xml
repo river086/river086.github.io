@@ -690,4 +690,60 @@
         </detailedDescription>
     </event>
 
+    <!-- ──────────── 54 ──────────── -->
+    <event id="home_burglary">
+        <category>emergency</category>
+        <weight>0.1</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>10</min><max>25</max></costRange>
+        <costType>percentage</costType>
+        <effects><happiness>-15</happiness></effects>
+        <description>Home burglary</description>
+        <detailedDescription>
+            Your home was burglarized while you were away. Cash and valuables were stolen, causing significant financial loss.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 55 ──────────── -->
+    <event id="pickpocket_theft">
+        <category>emergency</category>
+        <weight>0.3</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>5</min><max>15</max></costRange>
+        <costType>percentage</costType>
+        <effects><happiness>-8</happiness></effects>
+        <description>Pickpocket theft</description>
+        <detailedDescription>
+            A skilled pickpocket managed to steal cash from your wallet while you were in a crowded area.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 56 ──────────── -->
+    <event id="investment_scam">
+        <category>emergency</category>
+        <weight>0.2</weight>
+        <cooldown>48</cooldown>
+        <costRange><min>15</min><max>35</max></costRange>
+        <costType>percentage</costType>
+        <effects><happiness>-20</happiness></effects>
+        <description>Investment scam loss</description>
+        <detailedDescription>
+            You fell victim to a convincing investment scam and lost a significant portion of your savings.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 57 ──────────── -->
+    <event id="purse_snatching">
+        <category>emergency</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>8</min><max>20</max></costRange>
+        <costType>percentage</costType>
+        <effects><happiness>-10</happiness></effects>
+        <description>Purse/wallet snatching</description>
+        <detailedDescription>
+            A thief snatched your purse/wallet and ran away before you could react, taking your cash.
+        </detailedDescription>
+    </event>
+
 </events>

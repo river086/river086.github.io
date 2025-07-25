@@ -2094,6 +2094,26 @@
             }
         }
         
+        function handlePropertyRent(propertyId) {
+            try {
+                game.rentProperty(propertyId);
+                game.updateRealEstateModal();
+                game.updateUI();
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+        
+        function handleRentalEnd(rentalId) {
+            try {
+                game.endRental();
+                game.updateRealEstateModal();
+                game.updateUI();
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+        
         function showExpenseBreakdown() {
             if (game && game.gameState.gameStarted) {
                 game.updateExpenseBreakdown();
@@ -2165,8 +2185,47 @@
         }
         
         function updatePetsModal() {
+            updatePetCapacityInfo();
             updateOwnedPets();
             updateAvailablePets();
+        }
+        
+        function updatePetCapacityInfo() {
+            // Add capacity info after the header
+            const stockHeader = document.querySelector('#pets-modal .stock-header');
+            let capacityInfo = document.getElementById('pet-capacity-info');
+            
+            if (!capacityInfo) {
+                capacityInfo = document.createElement('div');
+                capacityInfo.id = 'pet-capacity-info';
+                capacityInfo.style.cssText = 'background: #f8f9fa; padding: 10px; margin: 10px 0; border-radius: 5px; border-left: 4px solid #007bff;';
+                stockHeader.parentNode.insertBefore(capacityInfo, stockHeader.nextSibling);
+            }
+            
+            const currentPets = game.gameState.pets.length;
+            const maxCapacity = game.calculatePetCapacity();
+            const livingSpace = game.getCurrentLivingSpace();
+            
+            if (game.gameState.properties.length === 0) {
+                capacityInfo.innerHTML = `
+                    <div style="text-align: center; color: #dc3545;">
+                        <strong>🏠 Living with Parents</strong><br>
+                        <span style="font-size: 0.9em;">You cannot have pets while living with your parents. Buy your own place first!</span>
+                    </div>
+                `;
+            } else {
+                const capacityColor = currentPets >= maxCapacity ? '#dc3545' : '#28a745';
+                capacityInfo.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong>🏠 ${livingSpace}</strong>
+                        </div>
+                        <div style="color: ${capacityColor}; font-weight: bold;">
+                            Pet Capacity: ${currentPets}/${maxCapacity}
+                        </div>
+                    </div>
+                `;
+            }
         }
         
         function updateOwnedPets() {
@@ -2525,7 +2584,7 @@
                 wisdom: 40 + Math.floor(Math.random() * 40),    // 40-79
                 charm: 35 + Math.floor(Math.random() * 45),     // 35-79
                 luck: 30 + Math.floor(Math.random() * 50),      // 30-79
-                psp: 25 + Math.floor(Math.random() * 55)        // 25-79
+                psp: 50 + Math.floor(Math.random() * 101)       // 50-150
             };
             
             // Update display

@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '1.4.0'; // Update this when making changes to the game
+    static VERSION = '1.5.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -18,11 +18,14 @@ class SimLifeGame {
                 wisdom: 65,      // 智慧 (1-100)
                 charm: 60,       // 魅力 (1-100)
                 luck: 55,        // 幸運 (1-100)
-                psp: 50          // 專業技能點 (1-100)
+                psp: 100         // 專業技能點 (50-10000)
             },
+            relationshipStatus: 'Single', // Single/Dating/Marriage
+            childrenCount: 0,
             loans: [],
             cars: [],
             properties: [],
+            currentRental: null, // Current rental property
             portfolio: {
                 cash: 500,
                 bank: 0,
@@ -156,8 +159,8 @@ class SimLifeGame {
         const playerPortrait = this.gameState.playerPortrait || '👤';
         
         this.log(`Welcome to Life Simulator, ${playerName}! ${playerPortrait}`, 'info');
-        this.log(`You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
-        this.log(`Your starting salary: $${this.gameState.grossAnnual.toFixed(0)}/year`, 'info');
+        this.log(`You are a 24-year-old ${profession.title} with $${this.gameState.portfolio.cash.toLocaleString()} and a dream.`, 'info');
+        this.log(`Your starting salary: $${this.gameState.grossAnnual.toLocaleString()}/year`, 'info');
         this.log('Use the "End Turn" button to advance to the next month.', 'info');
         
         // Update player info display on main page
@@ -171,6 +174,11 @@ class SimLifeGame {
         
         this.gameState.grossAnnual = this.randomBetweenInt(profession.salaryRange[0], profession.salaryRange[1]);
         this.gameState.fixedCosts = profession.fixedCosts.food + 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
+        
+        // Set initial cash based on profession
+        if (profession.initialCash) {
+            this.gameState.portfolio.cash = profession.initialCash;
+        }
         
         // Apply player setup data if available
         if (window.playerSetupData) {
@@ -254,6 +262,13 @@ class SimLifeGame {
             totalExpenses += pet.data.monthlyCost;
         });
         
+        // Add rental costs (if renting instead of default housing)
+        if (this.gameState.currentRental) {
+            const profession = this.professions[this.gameState.professionId];
+            // Subtract default housing cost and add rental cost
+            totalExpenses = totalExpenses - (profession?.fixedCosts?.housing || 0) + this.gameState.currentRental.rentPrice;
+        }
+        
         return totalExpenses;
     }
     
@@ -316,7 +331,7 @@ class SimLifeGame {
         this.recordCashFlow('income', netIncome, 'Monthly Salary', 'salary');
         this.recordCashFlow('expense', totalExpenses, 'Monthly Expenses', 'living');
         
-        this.log(`Monthly income: $${netIncome.toFixed(0)}, Expenses: $${totalExpenses.toFixed(0)}, Net: $${netCashFlow.toFixed(0)}`, 'info');
+        this.log(`Monthly income: $${netIncome.toLocaleString()}, Expenses: $${totalExpenses.toLocaleString()}, Net: $${netCashFlow.toLocaleString()}`, 'info');
         
         // Update loan balances
         this.gameState.loans = this.gameState.loans.filter(loan => {
@@ -395,7 +410,15 @@ class SimLifeGame {
         }
         
         if (selectedEvent && selectedEvent.id !== 'no_event') {
-            const cost = this.randomBetweenInt(selectedEvent.costRange[0], selectedEvent.costRange[1]);
+            let cost;
+            if (selectedEvent.costType === 'percentage') {
+                // Calculate percentage-based cost of current cash
+                const percentage = this.randomBetweenInt(selectedEvent.costRange[0], selectedEvent.costRange[1]);
+                cost = Math.floor(this.gameState.portfolio.cash * (percentage / 100));
+            } else {
+                // Fixed cost as before
+                cost = this.randomBetweenInt(selectedEvent.costRange[0], selectedEvent.costRange[1]);
+            }
             this.gameState.portfolio.cash -= cost;
             
             // Record event cash flow
@@ -411,7 +434,15 @@ class SimLifeGame {
             }
             
             this.eventCooldowns[selectedEvent.id] = selectedEvent.cooldown;
-            this.log(`Event: ${selectedEvent.description} (Cost: $${cost})`, cost > 0 ? 'warning' : 'success');
+            
+            let logMessage;
+            if (selectedEvent.costType === 'percentage' && cost > 0) {
+                const percentage = Math.round((cost / (this.gameState.portfolio.cash + cost)) * 100);
+                logMessage = `Event: ${selectedEvent.description} (Lost ${percentage}% of cash: $${cost.toLocaleString()})`;
+            } else {
+                logMessage = `Event: ${selectedEvent.description} (Cost: $${cost.toLocaleString()})`;
+            }
+            this.log(logMessage, cost > 0 ? 'warning' : 'success');
             
             // Show event popup
             this.showEventPopup(selectedEvent, cost);
@@ -457,7 +488,7 @@ class SimLifeGame {
             // Annual salary increase
             const profession = this.professions[this.gameState.professionId];
             this.gameState.grossAnnual *= (1 + profession.raise);
-            this.log(`Annual raise! New salary: $${this.gameState.grossAnnual.toFixed(0)}`, 'success');
+            this.log(`Annual raise! New salary: $${this.gameState.grossAnnual.toLocaleString()}`, 'success');
         }
         
         // Check end of game
@@ -490,7 +521,7 @@ class SimLifeGame {
             this.gameState.portfolio.cash -= cost;
             this.gameState.portfolio.crypto[symbol] = (this.gameState.portfolio.crypto[symbol] || 0) + amount;
             this.recordCashFlow('expense', cost, `Buy ${amount} ${symbol}`, 'investment');
-            this.log(`Bought ${amount} ${symbol} for $${cost.toFixed(2)}`, 'success');
+            this.log(`Bought ${amount} ${symbol} for $${cost.toLocaleString()}`, 'success');
         } else {
             const price = this.getStockPrice(symbol);
             const cost = amount * price;
@@ -502,7 +533,7 @@ class SimLifeGame {
             this.gameState.portfolio.cash -= cost;
             this.gameState.portfolio.stocks[symbol] = (this.gameState.portfolio.stocks[symbol] || 0) + amount;
             this.recordCashFlow('expense', cost, `Buy ${amount} shares ${symbol}`, 'investment');
-            this.log(`Bought ${amount} shares of ${symbol} for $${cost.toFixed(2)}`, 'success');
+            this.log(`Bought ${amount} shares of ${symbol} for $${cost.toLocaleString()}`, 'success');
         }
     }
     
@@ -524,7 +555,7 @@ class SimLifeGame {
             throw new Error(`You need at least $${req.minCash} cash to buy a ${pet.name}`);
         }
         if (this.gameState.portfolio.cash < pet.purchaseCost) {
-            throw new Error(`Insufficient cash. ${pet.name} costs $${pet.purchaseCost}, you have $${this.gameState.portfolio.cash.toFixed(2)}`);
+            throw new Error(`Insufficient cash. ${pet.name} costs $${pet.purchaseCost.toLocaleString()}, you have $${this.gameState.portfolio.cash.toLocaleString()}`);
         }
         
         // Check player status requirements
@@ -541,6 +572,20 @@ class SimLifeGame {
             if (netWorth < req.minNetWorth) {
                 throw new Error(`You need at least $${req.minNetWorth} net worth to afford a ${pet.name}`);
             }
+        }
+        
+        // Check living situation - can't have pets while living with parents
+        if (this.gameState.properties.length === 0) {
+            throw new Error('You cannot have pets while living with your parents. Buy or rent your own place first!');
+        }
+        
+        // Check pet capacity based on property size
+        const currentPetCount = this.gameState.pets.length;
+        const maxPetCapacity = this.calculatePetCapacity();
+        
+        if (currentPetCount >= maxPetCapacity) {
+            const livingSpace = this.getCurrentLivingSpace();
+            throw new Error(`Your ${livingSpace} can only accommodate ${maxPetCapacity} pets. Upgrade to a larger home for more pets!`);
         }
         
         // Create new pet instance
@@ -631,7 +676,7 @@ class SimLifeGame {
             this.gameState.portfolio.cash += proceeds;
             this.gameState.portfolio.crypto[symbol] -= amount;
             this.recordCashFlow('income', proceeds, `Sell ${amount} ${symbol}`, 'investment');
-            this.log(`Sold ${amount} ${symbol} for $${proceeds.toFixed(2)}`, 'success');
+            this.log(`Sold ${amount} ${symbol} for $${proceeds.toLocaleString()}`, 'success');
         } else {
             if (!this.gameState.portfolio.stocks[symbol] || this.gameState.portfolio.stocks[symbol] < amount) {
                 throw new Error('Insufficient stock holdings');
@@ -643,7 +688,7 @@ class SimLifeGame {
             this.gameState.portfolio.cash += proceeds;
             this.gameState.portfolio.stocks[symbol] -= amount;
             this.recordCashFlow('income', proceeds, `Sell ${amount} shares ${symbol}`, 'investment');
-            this.log(`Sold ${amount} shares of ${symbol} for $${proceeds.toFixed(2)}`, 'success');
+            this.log(`Sold ${amount} shares of ${symbol} for $${proceeds.toLocaleString()}`, 'success');
         }
     }
     
@@ -677,8 +722,8 @@ class SimLifeGame {
     
     showPortfolio() {
         let portfolioText = 'PORTFOLIO:\n';
-        portfolioText += `Cash: $${this.gameState.portfolio.cash.toFixed(2)}\n`;
-        portfolioText += `Bank: $${this.gameState.portfolio.bank.toFixed(2)}\n`;
+        portfolioText += `Cash: $${this.gameState.portfolio.cash.toLocaleString()}\n`;
+        portfolioText += `Bank: $${this.gameState.portfolio.bank.toLocaleString()}\n`;
         
         if (Object.keys(this.gameState.portfolio.stocks).length > 0) {
             portfolioText += 'STOCKS:\n';
@@ -702,7 +747,7 @@ class SimLifeGame {
             });
         }
         
-        portfolioText += `\nNet Worth: $${this.calculateNetWorth().toFixed(2)}`;
+        portfolioText += `\nNet Worth: $${this.calculateNetWorth().toLocaleString()}`;
         this.log(portfolioText, 'info');
     }
     
@@ -720,8 +765,8 @@ class SimLifeGame {
             const amountSign = record.type === 'income' ? '+' : '-';
             const amountColor = record.type === 'income' ? 'success' : 'warning';
             
-            historyText += `${typeIcon} ${record.date} | ${amountSign}$${record.amount.toFixed(0)} | ${record.description}\n`;
-            historyText += `   Category: ${record.category} | Balance: $${record.balance.toFixed(0)}\n`;
+            historyText += `${typeIcon} ${record.date} | ${amountSign}$${record.amount.toLocaleString()} | ${record.description}\n`;
+            historyText += `   Category: ${record.category} | Balance: $${record.balance.toLocaleString()}\n`;
             
             if (index < this.gameState.cashFlowHistory.length - 1) {
                 historyText += '────────────────────────────────────────────────────────────────\n';
@@ -745,6 +790,34 @@ class SimLifeGame {
             { key: 'psp', label: 'Professional Skills', icon: '💼', color: '#fdcb6e' }
         ];
         
+        // Add relationship and children info
+        const relationshipCard = document.createElement('div');
+        relationshipCard.style.background = 'white';
+        relationshipCard.style.border = '2px solid #e9ecef';
+        relationshipCard.style.borderRadius = '15px';
+        relationshipCard.style.padding = '25px';
+        relationshipCard.style.textAlign = 'center';
+        relationshipCard.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+        relationshipCard.style.minHeight = '200px';
+        relationshipCard.style.marginBottom = '20px';
+        
+        const relationshipIcon = this.gameState.relationshipStatus === 'Single' ? '💔' : 
+                                this.gameState.relationshipStatus === 'Dating' ? '💕' : '💍';
+        
+        relationshipCard.innerHTML = `
+            <div style="font-size: 2.5em; margin-bottom: 12px;">${relationshipIcon}</div>
+            <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">Relationship</h3>
+            <div style="font-size: 1.8em; font-weight: bold; color: #e17055; margin-bottom: 15px;">
+                ${this.gameState.relationshipStatus}
+            </div>
+            <div style="font-size: 2em; margin-bottom: 10px;">👶</div>
+            <div style="font-size: 1.1em; color: #636e72;">
+                Children: <strong>${this.gameState.childrenCount}</strong>
+            </div>
+        `;
+        
+        statusContainer.appendChild(relationshipCard);
+        
         statusData.forEach(stat => {
             const value = this.gameState.playerStatus[stat.key];
             const statusCard = document.createElement('div');
@@ -756,18 +829,27 @@ class SimLifeGame {
             statusCard.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
             statusCard.style.minHeight = '200px';
             
-            // Create progress bar
-            const progressPercent = Math.max(0, Math.min(100, value));
+            // Create progress bar - special handling for PSP with max 10000
+            let progressPercent, maxValue, displayValue;
+            if (stat.key === 'psp') {
+                maxValue = 10000;
+                progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
+                displayValue = `${value}/${maxValue}`;
+            } else {
+                maxValue = 100;
+                progressPercent = Math.max(0, Math.min(100, value));
+                displayValue = `${value}/100`;
+            }
             
             statusCard.innerHTML = `
                 <div style="font-size: 2.5em; margin-bottom: 12px;">${stat.icon}</div>
                 <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">${stat.label}</h3>
                 <div style="background: #f1f3f4; border-radius: 25px; height: 25px; margin-bottom: 15px; overflow: hidden; border: 1px solid #e0e0e0;">
                     <div style="background: ${stat.color}; height: 100%; width: ${progressPercent}%; border-radius: 25px; transition: width 0.3s ease; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.8em;">
-                        ${progressPercent >= 20 ? `${value}%` : ''}
+                        ${progressPercent >= 20 ? `${Math.round(progressPercent)}%` : ''}
                     </div>
                 </div>
-                <div style="font-size: 1.6em; font-weight: bold; color: ${stat.color}; margin-bottom: 8px;">${value}/100</div>
+                <div style="font-size: 1.6em; font-weight: bold; color: ${stat.color}; margin-bottom: 8px;">${displayValue}</div>
                 <div style="font-size: 0.85em; color: #666; line-height: 1.4; padding: 8px; background: #f8f9fa; border-radius: 8px;">
                     ${this.getStatusDescription(stat.key, value)}
                 </div>
@@ -842,10 +924,10 @@ class SimLifeGame {
             recordDiv.innerHTML = `
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div style="font-weight: bold;">${typeIcon} ${record.description}</div>
-                    <div style="color: ${amountColor}; font-weight: bold;">${amountSign}$${record.amount.toFixed(0)}</div>
+                    <div style="color: ${amountColor}; font-weight: bold;">${amountSign}$${record.amount.toLocaleString()}</div>
                 </div>
                 <div style="font-size: 0.9em; color: #666; margin-top: 5px;">
-                    📅 ${record.date} | 📂 ${record.category} | 💰 Balance: $${record.balance.toFixed(0)}
+                    📅 ${record.date} | 📂 ${record.category} | 💰 Balance: $${record.balance.toLocaleString()}
                 </div>
             `;
             
@@ -854,12 +936,12 @@ class SimLifeGame {
     }
     
     updateBankModal() {
-        document.getElementById('bank-cash-display').textContent = `$${this.gameState.portfolio.cash.toFixed(2)}`;
-        document.getElementById('bank-balance-display').textContent = `$${this.gameState.portfolio.bank.toFixed(2)}`;
+        document.getElementById('bank-cash-display').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
+        document.getElementById('bank-balance-display').textContent = `$${this.gameState.portfolio.bank.toLocaleString()}`;
     }
     
     updateStockTradingModal() {
-        document.getElementById('stock-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        document.getElementById('stock-cash-display').textContent = this.gameState.portfolio.cash.toLocaleString();
         
         const container = document.getElementById('stock-trading-list');
         container.innerHTML = '';
@@ -935,10 +1017,23 @@ class SimLifeGame {
     }
     
     updateCryptoTradingModal() {
-        document.getElementById('crypto-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        document.getElementById('crypto-cash-display').textContent = this.gameState.portfolio.cash.toLocaleString();
         
         const container = document.getElementById('crypto-trading-list');
         container.innerHTML = '';
+        
+        // Check if crypto is available (Bitcoin launched in January 2009)
+        if (this.gameState.currentYear < 2009) {
+            container.innerHTML = `
+                <div style="text-align: center; padding: 40px; color: #666;">
+                    <h3>₿ Coming Soon!</h3>
+                    <p>Cryptocurrency trading is not yet available.</p>
+                    <p>Bitcoin will be launched in <strong>January 2009</strong>.</p>
+                    <p>Current date: ${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}</p>
+                </div>
+            `;
+            return;
+        }
         
         const cryptoSymbols = ['BTC', 'ETH', 'LTC', 'USDC'];
         const cryptoNames = {
@@ -998,7 +1093,7 @@ class SimLifeGame {
     }
     
     updateVehicleModal() {
-        document.getElementById('vehicle-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        document.getElementById('vehicle-cash-display').textContent = this.gameState.portfolio.cash.toLocaleString();
         
         // Update owned vehicles
         const ownedContainer = document.getElementById('owned-vehicles-list');
@@ -1016,7 +1111,7 @@ class SimLifeGame {
                 div.style.borderRadius = '5px';
                 div.style.backgroundColor = '#fff';
                 
-                const loanInfo = car.loan ? ` | Loan: $${car.loan.monthlyPayment.toFixed(0)}/mo` : '';
+                const loanInfo = car.loan ? ` | Loan: $${car.loan.monthlyPayment.toLocaleString()}/mo` : '';
                 const insuranceInfo = car.insurance ? ` | Insurance: $${car.insurance}/mo` : '';
                 const licensePlateInfo = car.licensePlate ? ` | License: $${car.licensePlate}/mo` : '';
                 div.innerHTML = `
@@ -1024,7 +1119,7 @@ class SimLifeGame {
                         <div>
                             <strong>${vehicleInfo.emoji} ${vehicleInfo.name}</strong>
                             <div style="font-size: 0.9em; color: #666;">
-                                Value: $${car.value.toFixed(0)} | Maintenance: $${car.maintenance}/mo${insuranceInfo}${licensePlateInfo}${loanInfo}
+                                Value: $${car.value.toLocaleString()} | Maintenance: $${car.maintenance.toLocaleString()}/mo${insuranceInfo}${licensePlateInfo}${loanInfo}
                             </div>
                         </div>
                         <button class="btn" onclick="handleVehicleSell('${car.id}')" 
@@ -1134,6 +1229,146 @@ class SimLifeGame {
                 insurance: 155,
                 licensePlate: 18,
                 description: 'Off-road capable SUV for adventures'
+            },
+            {
+                id: 'lamborghini_huracan_2024',
+                name: '2024 Lamborghini Huracán',
+                emoji: '🏎️',
+                price: 350000,
+                maintenance: 2500,
+                insurance: 1200,
+                licensePlate: 150,
+                description: 'Italian supercar with V10 engine and breathtaking performance'
+            },
+            {
+                id: 'ferrari_f8_2024',
+                name: '2024 Ferrari F8 Tributo',
+                emoji: '🏁',
+                price: 380000,
+                maintenance: 2800,
+                insurance: 1400,
+                licensePlate: 180,
+                description: 'Legendary Italian supercar with twin-turbo V8 and racing heritage'
+            },
+            {
+                id: 'mclaren_720s_2024',
+                name: '2024 McLaren 720S',
+                emoji: '🚀',
+                price: 420000,
+                maintenance: 3200,
+                insurance: 1600,
+                licensePlate: 200,
+                description: 'British engineering masterpiece with carbon fiber construction and incredible speed'
+            },
+            {
+                id: 'nissan_altima_2022',
+                name: '2022 Nissan Altima',
+                emoji: '🚗',
+                price: 26000,
+                maintenance: 190,
+                insurance: 90,
+                licensePlate: 14,
+                description: 'Comfortable mid-size sedan with advanced safety features'
+            },
+            {
+                id: 'subaru_outback_2023',
+                name: '2023 Subaru Outback',
+                emoji: '🚙',
+                price: 32000,
+                maintenance: 220,
+                insurance: 110,
+                licensePlate: 16,
+                description: 'All-wheel drive wagon perfect for outdoor adventures'
+            },
+            {
+                id: 'mazda_cx5_2022',
+                name: '2022 Mazda CX-5',
+                emoji: '🚐',
+                price: 29000,
+                maintenance: 210,
+                insurance: 105,
+                licensePlate: 15,
+                description: 'Stylish compact SUV with premium interior'
+            },
+            {
+                id: 'chevrolet_silverado_2023',
+                name: '2023 Chevrolet Silverado',
+                emoji: '🚚',
+                price: 38000,
+                maintenance: 290,
+                insurance: 145,
+                licensePlate: 21,
+                description: 'Heavy-duty pickup truck for work and towing'
+            },
+            {
+                id: 'audi_a4_2023',
+                name: '2023 Audi A4',
+                emoji: '🏎️',
+                price: 48000,
+                maintenance: 380,
+                insurance: 190,
+                licensePlate: 28,
+                description: 'German luxury sedan with quattro all-wheel drive'
+            },
+            {
+                id: 'volkswagen_jetta_2022',
+                name: '2022 Volkswagen Jetta',
+                emoji: '🚗',
+                price: 24000,
+                maintenance: 185,
+                insurance: 85,
+                licensePlate: 13,
+                description: 'European-engineered compact sedan with efficiency'
+            },
+            {
+                id: 'hyundai_elantra_2023',
+                name: '2023 Hyundai Elantra',
+                emoji: '🚗',
+                price: 23000,
+                maintenance: 175,
+                insurance: 80,
+                licensePlate: 12,
+                description: 'Affordable compact car with excellent warranty'
+            },
+            {
+                id: 'kia_sorento_2023',
+                name: '2023 Kia Sorento',
+                emoji: '🚐',
+                price: 34000,
+                maintenance: 240,
+                insurance: 120,
+                licensePlate: 17,
+                description: 'Three-row family SUV with advanced tech features'
+            },
+            {
+                id: 'lexus_rx350_2023',
+                name: '2023 Lexus RX 350',
+                emoji: '🏎️',
+                price: 52000,
+                maintenance: 420,
+                insurance: 210,
+                licensePlate: 32,
+                description: 'Luxury SUV with refined ride and reliability'
+            },
+            {
+                id: 'dodge_challenger_2023',
+                name: '2023 Dodge Challenger',
+                emoji: '🏁',
+                price: 41000,
+                maintenance: 310,
+                insurance: 220,
+                licensePlate: 24,
+                description: 'American muscle car with powerful V8 engine'
+            },
+            {
+                id: 'porsche_911_2024',
+                name: '2024 Porsche 911',
+                emoji: '🚀',
+                price: 125000,
+                maintenance: 850,
+                insurance: 450,
+                licensePlate: 75,
+                description: 'Iconic sports car with legendary performance and handling'
             }
         ];
     }
@@ -1180,13 +1415,37 @@ class SimLifeGame {
         
         const car = this.gameState.cars[carIndex];
         const vehicleInfo = this.getAvailableVehicles().find(v => v.id === vehicleId);
-        const sellPrice = Math.floor(car.value * 0.7); // Sell for 70% of current value
+        const marketValue = Math.floor(car.value * 0.7); // Market value at 70% of current value
         
-        this.gameState.portfolio.cash += sellPrice;
+        let cashReceived = marketValue;
+        let loanBalance = 0;
+        
+        if (car.loan) {
+            loanBalance = car.loan.balance;
+            cashReceived = Math.max(0, marketValue - loanBalance);
+            
+            // Remove loan from gameState.loans
+            this.gameState.loans = this.gameState.loans.filter(loan => 
+                !(loan.kind === 'vehicle' && loan.assetId === vehicleId)
+            );
+        }
+        
+        this.gameState.portfolio.cash += cashReceived;
         this.gameState.cars.splice(carIndex, 1);
         
-        this.recordCashFlow('income', sellPrice, `Sell ${vehicleInfo?.name || vehicleId}`, 'vehicle');
-        this.log(`Sold ${vehicleInfo?.name || vehicleId} for $${sellPrice.toLocaleString()}`, 'success');
+        // Record the transaction
+        this.recordCashFlow('income', cashReceived, `Sell ${vehicleInfo?.name || vehicleId}`, 'vehicle');
+        
+        // Detailed logging based on loan status
+        if (car.loan) {
+            if (cashReceived > 0) {
+                this.log(`Sold ${vehicleInfo?.name || vehicleId} for $${marketValue.toLocaleString()} - Loan payoff: $${loanBalance.toLocaleString()} = Net: $${cashReceived.toLocaleString()}`, 'success');
+            } else {
+                this.log(`Sold ${vehicleInfo?.name || vehicleId} for $${marketValue.toLocaleString()} - Loan payoff: $${loanBalance.toLocaleString()} = No cash received (underwater loan)`, 'warning');
+            }
+        } else {
+            this.log(`Sold ${vehicleInfo?.name || vehicleId} for $${cashReceived.toLocaleString()}`, 'success');
+        }
     }
     
     financeVehicle(vehicleId) {
@@ -1240,19 +1499,51 @@ class SimLifeGame {
         });
         
         this.recordCashFlow('expense', downPayment, `${vehicle.name} Down Payment`, 'vehicle');
-        this.log(`Financed ${vehicle.name} - Down payment: $${downPayment.toLocaleString()}, Monthly payment: $${monthlyPayment.toFixed(0)}`, 'success');
+        this.log(`Financed ${vehicle.name} - Down payment: $${downPayment.toLocaleString()}, Monthly payment: $${monthlyPayment.toLocaleString()}`, 'success');
     }
     
     updateRealEstateModal() {
-        document.getElementById('realestate-cash-display').textContent = this.gameState.portfolio.cash.toFixed(0);
+        document.getElementById('realestate-cash-display').textContent = this.gameState.portfolio.cash.toLocaleString();
         
         // Update owned properties
         const ownedContainer = document.getElementById('owned-properties-list');
         ownedContainer.innerHTML = '';
         
-        if (this.gameState.properties.length === 0) {
-            ownedContainer.innerHTML = '<div style="color: #666; text-align: center; padding: 20px;">No properties owned<br><small>Living with parents</small></div>';
-        } else {
+        // Show current rental if any
+        if (this.gameState.currentRental) {
+            const div = document.createElement('div');
+            div.style.marginBottom = '10px';
+            div.style.padding = '10px';
+            div.style.border = '2px solid #17a2b8';
+            div.style.borderRadius = '5px';
+            div.style.backgroundColor = '#e7f3ff';
+            
+            div.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <strong>${this.gameState.currentRental.emoji} ${this.gameState.currentRental.name} (RENTAL)</strong>
+                        <div style="font-size: 0.9em; color: #666;">
+                            Monthly Rent: $${this.gameState.currentRental.rentPrice.toLocaleString()} | Deposit Paid: $${this.gameState.currentRental.deposit.toLocaleString()}
+                        </div>
+                    </div>
+                    <button class="btn" onclick="handleRentalEnd('${this.gameState.currentRental.id}')" 
+                            style="background: #dc3545; padding: 5px 10px;">End Lease</button>
+                </div>
+            `;
+            
+            ownedContainer.appendChild(div);
+        }
+        
+        if (this.gameState.properties.length === 0 && !this.gameState.currentRental) {
+            const emptyDiv = document.createElement('div');
+            emptyDiv.style.color = '#666';
+            emptyDiv.style.textAlign = 'center';
+            emptyDiv.style.padding = '20px';
+            emptyDiv.innerHTML = 'No properties owned or rented<br><small>Living with parents</small>';
+            ownedContainer.appendChild(emptyDiv);
+        }
+        
+        if (this.gameState.properties.length > 0) {
             this.gameState.properties.forEach(property => {
                 const propertyInfo = this.getAvailableProperties().find(p => p.id === property.id) || {name: property.id, emoji: '🏠'};
                 const div = document.createElement('div');
@@ -1262,7 +1553,7 @@ class SimLifeGame {
                 div.style.borderRadius = '5px';
                 div.style.backgroundColor = '#fff';
                 
-                const loanInfo = property.loan ? ` | Mortgage: $${property.loan.monthlyPayment.toFixed(0)}/mo` : '';
+                const loanInfo = property.loan ? ` | Mortgage: $${property.loan.monthlyPayment.toLocaleString()}/mo` : '';
                 div.innerHTML = `
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div>
@@ -1292,25 +1583,47 @@ class SimLifeGame {
             div.style.borderRadius = '5px';
             div.style.backgroundColor = '#f8f9fa';
             
-            div.innerHTML = `
-                <div>
-                    <strong>${property.emoji} ${property.name}</strong>
-                    <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
-                        Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month
-                    </div>
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div style="font-size: 0.85em; color: #666;">
-                            ${property.description}
+            if (property.type === 'rental') {
+                // Rental property display
+                div.innerHTML = `
+                    <div>
+                        <strong>${property.emoji} ${property.name}</strong>
+                        <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
+                            Monthly Rent: $${property.rentPrice.toLocaleString()} | Security Deposit: $${property.deposit.toLocaleString()}
                         </div>
-                        <div style="display: flex; gap: 5px;">
-                            <button class="btn" onclick="handlePropertyBuy('${property.id}')" 
-                                    style="background: #28a745; padding: 5px 8px; font-size: 0.85em;">Cash</button>
-                            <button class="btn" onclick="handlePropertyFinance('${property.id}')" 
-                                    style="background: #007bff; padding: 5px 8px; font-size: 0.85em;">Mortgage</button>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-size: 0.85em; color: #666;">
+                                ${property.description}
+                            </div>
+                            <div style="display: flex; gap: 5px;">
+                                <button class="btn" onclick="handlePropertyRent('${property.id}')" 
+                                        style="background: #17a2b8; padding: 5px 8px; font-size: 0.85em;">Rent</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            `;
+                `;
+            } else {
+                // Purchase property display
+                div.innerHTML = `
+                    <div>
+                        <strong>${property.emoji} ${property.name}</strong>
+                        <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
+                            Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-size: 0.85em; color: #666;">
+                                ${property.description}
+                            </div>
+                            <div style="display: flex; gap: 5px;">
+                                <button class="btn" onclick="handlePropertyBuy('${property.id}')" 
+                                        style="background: #28a745; padding: 5px 8px; font-size: 0.85em;">Cash</button>
+                                <button class="btn" onclick="handlePropertyFinance('${property.id}')" 
+                                        style="background: #007bff; padding: 5px 8px; font-size: 0.85em;">Mortgage</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
             
             availableContainer.appendChild(div);
         });
@@ -1371,6 +1684,52 @@ class SimLifeGame {
                 maintenance: 600,
                 propertyTax: 350, // ~1.5% annually / 12 months
                 description: 'Peaceful retreat in the mountains, rental income potential'
+            },
+            {
+                id: 'luxury_mansion',
+                name: 'Luxury Mansion',
+                emoji: '🏛️',
+                price: 1500000,
+                maintenance: 4000,
+                propertyTax: 1875, // ~1.5% annually / 12 months
+                description: 'Grand estate with multiple bedrooms, expansive grounds, and premium amenities'
+            },
+            // Rental Properties
+            {
+                id: 'studio_rental',
+                name: 'Studio Apartment (Rental)',
+                emoji: '🏠',
+                rentPrice: 1200,
+                type: 'rental',
+                deposit: 2400, // 2 months rent
+                description: 'Small but modern studio apartment for rent in downtown area'
+            },
+            {
+                id: 'one_bedroom_rental',
+                name: '1BR Apartment (Rental)',
+                emoji: '🏢',
+                rentPrice: 1600,
+                type: 'rental',
+                deposit: 3200, // 2 months rent
+                description: 'Comfortable one-bedroom apartment with kitchen and living area'
+            },
+            {
+                id: 'two_bedroom_rental',
+                name: '2BR House (Rental)',
+                emoji: '🏡',
+                rentPrice: 2200,
+                type: 'rental',
+                deposit: 4400, // 2 months rent
+                description: 'Spacious two-bedroom house with yard and parking'
+            },
+            {
+                id: 'luxury_apartment_rental',
+                name: 'Luxury Apartment (Rental)',
+                emoji: '🏰',
+                rentPrice: 3500,
+                type: 'rental',
+                deposit: 7000, // 2 months rent
+                description: 'High-end apartment with premium amenities and city views'
             }
         ];
     }
@@ -1416,18 +1775,106 @@ class SimLifeGame {
         
         const property = this.gameState.properties[propertyIndex];
         const propertyInfo = this.getAvailableProperties().find(p => p.id === propertyId);
-        const sellPrice = Math.floor(property.value * 0.9); // Sell for 90% of current value
+        const marketValue = Math.floor(property.value * 0.9); // Market value at 90% of current value
         
-        this.gameState.portfolio.cash += sellPrice;
+        let cashReceived = marketValue;
+        let mortgageBalance = 0;
+        
+        if (property.loan) {
+            mortgageBalance = property.loan.balance;
+            cashReceived = Math.max(0, marketValue - mortgageBalance);
+            
+            // Remove mortgage from gameState.loans
+            this.gameState.loans = this.gameState.loans.filter(loan => 
+                !(loan.kind === 'mortgage' && loan.assetId === propertyId)
+            );
+        }
+        
+        this.gameState.portfolio.cash += cashReceived;
         this.gameState.properties.splice(propertyIndex, 1);
         
-        this.recordCashFlow('income', sellPrice, `Sell ${propertyInfo?.name || propertyId}`, 'real_estate');
-        this.log(`Sold ${propertyInfo?.name || propertyId} for $${sellPrice.toLocaleString()}`, 'success');
+        // Record the transaction
+        this.recordCashFlow('income', cashReceived, `Sell ${propertyInfo?.name || propertyId}`, 'real_estate');
+        
+        // Detailed logging based on mortgage status
+        if (property.loan) {
+            if (cashReceived > 0) {
+                this.log(`Sold ${propertyInfo?.name || propertyId} for $${marketValue.toLocaleString()} - Mortgage payoff: $${mortgageBalance.toLocaleString()} = Net: $${cashReceived.toLocaleString()}`, 'success');
+            } else {
+                this.log(`Sold ${propertyInfo?.name || propertyId} for $${marketValue.toLocaleString()} - Mortgage payoff: $${mortgageBalance.toLocaleString()} = No cash received (underwater mortgage)`, 'warning');
+            }
+        } else {
+            this.log(`Sold ${propertyInfo?.name || propertyId} for $${cashReceived.toLocaleString()}`, 'success');
+        }
         
         // If this was the last property, player moves back with parents
         if (this.gameState.properties.length === 0) {
             this.log('You moved back in with your parents. No more housing costs!', 'info');
+            
+            // Auto-sell all pets since you can't keep them at parents' house
+            if (this.gameState.pets.length > 0) {
+                this.log('⚠️ You cannot keep pets while living with your parents. All pets will be sold.', 'warning');
+                const petsToSell = [...this.gameState.pets]; // Copy array since we'll be modifying it
+                petsToSell.forEach(pet => {
+                    try {
+                        this.handlePetSale(pet.id);
+                    } catch (error) {
+                        console.error(`Failed to auto-sell pet ${pet.id}:`, error);
+                    }
+                });
+            }
         }
+    }
+    
+    rentProperty(propertyId) {
+        const property = this.getAvailableProperties().find(p => p.id === propertyId);
+        if (!property || property.type !== 'rental') {
+            throw new Error('Rental property not found');
+        }
+        
+        const totalCost = property.rentPrice + property.deposit;
+        if (this.gameState.portfolio.cash < totalCost) {
+            throw new Error(`Insufficient cash. Need $${totalCost.toLocaleString()} (first month + deposit), you have $${this.gameState.portfolio.cash.toLocaleString()}`);
+        }
+        
+        // If player already has a rental, end it first
+        if (this.gameState.currentRental) {
+            this.log(`Ended rental agreement for ${this.gameState.currentRental.name}`, 'info');
+        }
+        
+        // Pay first month rent + deposit
+        this.gameState.portfolio.cash -= totalCost;
+        this.recordCashFlow('expense', property.rentPrice, `First month rent: ${property.name}`, 'housing');
+        this.recordCashFlow('expense', property.deposit, `Security deposit: ${property.name}`, 'housing');
+        
+        // Set current rental
+        this.gameState.currentRental = {
+            id: property.id,
+            name: property.name,
+            emoji: property.emoji,
+            rentPrice: property.rentPrice,
+            deposit: property.deposit,
+            description: property.description
+        };
+        
+        this.log(`Rented ${property.name} for $${property.rentPrice.toLocaleString()}/month (+ $${property.deposit.toLocaleString()} deposit)`, 'success');
+        this.log('You moved out of your parents\' house! Rental costs now apply.', 'info');
+    }
+    
+    endRental() {
+        if (!this.gameState.currentRental) {
+            throw new Error('You are not currently renting any property');
+        }
+        
+        // Return security deposit
+        this.gameState.portfolio.cash += this.gameState.currentRental.deposit;
+        this.recordCashFlow('income', this.gameState.currentRental.deposit, `Security deposit returned: ${this.gameState.currentRental.name}`, 'housing');
+        
+        this.log(`Ended rental agreement for ${this.gameState.currentRental.name} - Security deposit of $${this.gameState.currentRental.deposit.toLocaleString()} returned`, 'success');
+        this.log('You moved back in with your parents. Back to default housing costs!', 'info');
+        
+        // Clear current rental
+        this.gameState.currentRental = null;
     }
     
     financeProperty(propertyId) {
@@ -1480,7 +1927,7 @@ class SimLifeGame {
         });
         
         this.recordCashFlow('expense', downPayment, `${property.name} Down Payment`, 'real_estate');
-        this.log(`Mortgaged ${property.name} - Down payment: $${downPayment.toLocaleString()}, Monthly payment: $${monthlyPayment.toFixed(0)}`, 'success');
+        this.log(`Mortgaged ${property.name} - Down payment: $${downPayment.toLocaleString()}, Monthly payment: $${monthlyPayment.toLocaleString()}`, 'success');
         
         // If this is the first property, update housing costs
         if (this.gameState.properties.length === 1) {
@@ -1532,9 +1979,9 @@ class SimLifeGame {
     
     generateMockStockPrices() {
         const stocks = this.stocksData || {
-            'AAPL': { base: 25, trend: 0.015 },
+            'AAPL': { base: 150, trend: 0.015 },
             'MSFT': { base: 50, trend: 0.012 },
-            'NVDA': { base: 15, trend: 0.025 },
+            'NVDA': { base: 85, trend: 0.025 },
             'AMZN': { base: 40, trend: 0.018 },
             'GOOGL': { base: 250, trend: 0.014 }
         };
@@ -1641,8 +2088,8 @@ class SimLifeGame {
             <h3>Final Statistics</h3>
             <p><strong>Age:</strong> ${finalAge} years old</p>
             <p><strong>Years Played:</strong> ${yearsPlayed}</p>
-            <p><strong>Final Net Worth:</strong> $${finalNetWorth.toFixed(2)}</p>
-            <p><strong>Final Cash:</strong> $${this.gameState.portfolio.cash.toFixed(2)}</p>
+            <p><strong>Final Net Worth:</strong> $${finalNetWorth.toLocaleString()}</p>
+            <p><strong>Final Cash:</strong> $${this.gameState.portfolio.cash.toLocaleString()}</p>
             <p><strong>Profession:</strong> ${this.professions[this.gameState.professionId].title}</p>
         `;
         
@@ -1693,8 +2140,8 @@ class SimLifeGame {
 
     updateUI() {
         document.getElementById('age').textContent = this.gameState.ageYears;
-        document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toFixed(0)}`;
-        document.getElementById('net-worth').textContent = `$${this.calculateNetWorth().toFixed(0)}`;
+        document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
+        document.getElementById('net-worth').textContent = `$${this.calculateNetWorth().toLocaleString()}`;
         
         if (this.gameState.professionId) {
             const profession = this.professions[this.gameState.professionId];
@@ -1711,7 +2158,7 @@ class SimLifeGame {
         
         // Calculate and display monthly expenses
         const monthlyExpenses = this.calculateMonthlyExpenses();
-        document.getElementById('monthly-expenses').textContent = `$${monthlyExpenses.toFixed(0)}`;
+        document.getElementById('monthly-expenses').textContent = `$${monthlyExpenses.toLocaleString()}`;
         
         // Update progress bar to show current month
         const progressBar = document.getElementById('month-progress');
@@ -1774,243 +2221,273 @@ class SimLifeGame {
         return {
             'fast_food_worker': {
                 id: 'fast_food_worker',
-                title: 'Fast-Food Worker',
+                title: 'Junior Fast-Food Worker',
                 salaryRange: [20000, 36000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
-                fixedCosts: { food: 600, housing: 1800 }
+                fixedCosts: { food: 600, housing: 1800 },
+                initialCash: 500
             },
             'barista': {
                 id: 'barista',
-                title: 'Barista',
+                title: 'Junior Barista',
                 salaryRange: [21000, 38000],
-                raise: 0.05,
+                raise: 0.035,
                 studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
-                fixedCosts: { food: 600, housing: 1800 }
+                fixedCosts: { food: 600, housing: 1800 },
+                initialCash: 600
             },
             'retail_sales': {
                 id: 'retail_sales',
-                title: 'Retail Sales Clerk',
+                title: 'Junior Retail Sales Associate',
                 salaryRange: [24000, 42000],
-                raise: 0.05,
+                raise: 0.035,
                 studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
-                fixedCosts: { food: 600, housing: 1800 }
+                fixedCosts: { food: 600, housing: 1800 },
+                initialCash: 700
             },
             'waiter': {
                 id: 'waiter',
-                title: 'Restaurant Server',
+                title: 'Junior Restaurant Server',
                 salaryRange: [24000, 42000],
-                raise: 0.07,
-                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 600, housing: 1800 }
+                raise: 0.04,
+                studentLoan: { principal: 22500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 600, housing: 1800 },
+                initialCash: 800
             },
             'customer_service_rep': {
                 id: 'customer_service_rep',
-                title: 'Customer Service Rep',
+                title: 'Junior Customer Service Representative',
                 salaryRange: [30000, 55000],
-                raise: 0.06,
-                studentLoan: { principal: 5000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 650, housing: 1900 }
+                raise: 0.035,
+                studentLoan: { principal: 7500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 650, housing: 1900 },
+                initialCash: 1000
             },
             'administrative_assistant': {
                 id: 'administrative_assistant',
-                title: 'Administrative Assistant',
+                title: 'Junior Administrative Assistant',
                 salaryRange: [33000, 60000],
-                raise: 0.06,
-                studentLoan: { principal: 5000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 650, housing: 1900 }
+                raise: 0.035,
+                studentLoan: { principal: 7500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 650, housing: 1900 },
+                initialCash: 1200
             },
             'construction_laborer': {
                 id: 'construction_laborer',
-                title: 'Construction Laborer',
+                title: 'Junior Construction Laborer',
                 salaryRange: [30000, 50000],
-                raise: 0.05,
+                raise: 0.03,
                 studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
-                fixedCosts: { food: 650, housing: 1900 }
+                fixedCosts: { food: 650, housing: 1900 },
+                initialCash: 800
             },
             'truck_driver': {
                 id: 'truck_driver',
-                title: 'Truck Driver',
+                title: 'Junior Truck Driver',
                 salaryRange: [42000, 70000],
-                raise: 0.06,
-                studentLoan: { principal: 7000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 650, housing: 1900 }
+                raise: 0.035,
+                studentLoan: { principal: 10500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 650, housing: 1900 },
+                initialCash: 1400
             },
             'electrician': {
                 id: 'electrician',
-                title: 'Electrician',
+                title: 'Junior Electrician',
                 salaryRange: [45000, 80000],
-                raise: 0.06,
-                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2000 }
+                raise: 0.035,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 },
+                initialCash: 1600
             },
             'plumber': {
                 id: 'plumber',
-                title: 'Plumber',
+                title: 'Junior Plumber',
                 salaryRange: [43000, 77000],
-                raise: 0.06,
-                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2000 }
+                raise: 0.035,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 },
+                initialCash: 1500
             },
             'carpenter': {
                 id: 'carpenter',
-                title: 'Carpenter',
+                title: 'Junior Carpenter',
                 salaryRange: [38000, 70000],
-                raise: 0.06,
-                studentLoan: { principal: 5000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2000 }
+                raise: 0.035,
+                studentLoan: { principal: 7500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 },
+                initialCash: 1300
             },
             'auto_mechanic': {
                 id: 'auto_mechanic',
-                title: 'Automotive Technician',
+                title: 'Junior Automotive Technician',
                 salaryRange: [35000, 60000],
-                raise: 0.06,
-                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2000 }
+                raise: 0.035,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 },
+                initialCash: 1100
             },
             'chef': {
                 id: 'chef',
-                title: 'Chef',
+                title: 'Junior Chef',
                 salaryRange: [40000, 72000],
-                raise: 0.07,
-                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 750, housing: 2100 }
+                raise: 0.04,
+                studentLoan: { principal: 22500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 },
+                initialCash: 1400
             },
             'fitness_trainer': {
                 id: 'fitness_trainer',
-                title: 'Fitness Trainer',
+                title: 'Junior Fitness Trainer',
                 salaryRange: [32000, 60000],
-                raise: 0.08,
-                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2000 }
+                raise: 0.04,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 },
+                initialCash: 900
             },
             'graphic_designer': {
                 id: 'graphic_designer',
-                title: 'Graphic Designer',
+                title: 'Junior Graphic Designer',
                 salaryRange: [38000, 80000],
-                raise: 0.07,
-                studentLoan: { principal: 20000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 750, housing: 2100 }
+                raise: 0.04,
+                studentLoan: { principal: 30000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 },
+                initialCash: 1700
             },
             'ux_designer': {
                 id: 'ux_designer',
-                title: 'UX Designer',
-                salaryRange: [75000, 140000],
-                raise: 0.08,
-                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 900, housing: 2400 }
+                title: 'Junior UX Designer',
+                salaryRange: [60000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 33000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 },
+                initialCash: 2800
             },
             'journalist': {
                 id: 'journalist',
-                title: 'Journalist',
+                title: 'Junior Journalist',
                 salaryRange: [38000, 70000],
-                raise: 0.06,
-                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 750, housing: 2100 }
+                raise: 0.035,
+                studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 },
+                initialCash: 1800
             },
             'content_creator': {
                 id: 'content_creator',
-                title: 'Content Creator',
+                title: 'Junior Content Creator',
                 salaryRange: [35000, 85000],
-                raise: 0.20,
-                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 750, housing: 2100 }
+                raise: 0.04,
+                studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 },
+                initialCash: 1600
             },
             'marketing_specialist': {
                 id: 'marketing_specialist',
-                title: 'Marketing Specialist',
-                salaryRange: [45000, 95000],
-                raise: 0.07,
-                studentLoan: { principal: 20000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 800, housing: 2200 }
+                title: 'Junior Marketing Specialist',
+                salaryRange: [45000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 30000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 },
+                initialCash: 2200
             },
             'sales_manager': {
                 id: 'sales_manager',
-                title: 'Sales Manager',
-                salaryRange: [85000, 175000],
-                raise: 0.10,
-                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 900, housing: 2400 }
+                title: 'Junior Sales Representative',
+                salaryRange: [45000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 22500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 },
+                initialCash: 2500
             },
             'accountant': {
                 id: 'accountant',
-                title: 'Accountant',
-                salaryRange: [50000, 105000],
-                raise: 0.07,
-                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 800, housing: 2200 }
+                title: 'Junior Accountant',
+                salaryRange: [50000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 33000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 },
+                initialCash: 2400
             },
             'financial_analyst': {
                 id: 'financial_analyst',
-                title: 'Financial Analyst',
-                salaryRange: [70000, 125000],
-                raise: 0.08,
-                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 850, housing: 2300 }
+                title: 'Junior Financial Analyst',
+                salaryRange: [55000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 850, housing: 2300 },
+                initialCash: 2600
             },
             'software_dev': {
                 id: 'software_dev',
-                title: 'Software Developer',
-                salaryRange: [85000, 150000],
-                raise: 0.08,
-                studentLoan: { principal: 35000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 900, housing: 2400 }
+                title: 'Junior Software Developer',
+                salaryRange: [65000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 52500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 },
+                initialCash: 3000
             },
             'data_scientist': {
                 id: 'data_scientist',
-                title: 'Data Scientist',
-                salaryRange: [80000, 145000],
-                raise: 0.10,
-                studentLoan: { principal: 30000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 900, housing: 2400 }
+                title: 'Junior Data Scientist',
+                salaryRange: [60000, 85000],
+                raise: 0.04,
+                studentLoan: { principal: 45000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 900, housing: 2400 },
+                initialCash: 2900
             },
             'teacher_elementary': {
                 id: 'teacher_elementary',
-                title: 'Elementary Teacher',
+                title: 'Junior Elementary Teacher',
                 salaryRange: [45000, 85000],
-                raise: 0.05,
-                studentLoan: { principal: 22000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 600, housing: 1800 }
+                raise: 0.03,
+                studentLoan: { principal: 33000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 600, housing: 1800 },
+                initialCash: 1900
             },
             'registered_nurse': {
                 id: 'registered_nurse',
-                title: 'Registered Nurse',
-                salaryRange: [65000, 115000],
-                raise: 0.06,
-                studentLoan: { principal: 25000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 800, housing: 2200 }
+                title: 'Junior Registered Nurse',
+                salaryRange: [55000, 85000],
+                raise: 0.035,
+                studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 },
+                initialCash: 2700
             },
             'paramedic': {
                 id: 'paramedic',
-                title: 'Paramedic',
+                title: 'Junior Paramedic',
                 salaryRange: [35000, 62000],
-                raise: 0.06,
-                studentLoan: { principal: 12000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 700, housing: 2000 }
+                raise: 0.035,
+                studentLoan: { principal: 18000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 700, housing: 2000 },
+                initialCash: 1200
             },
             'police_officer': {
                 id: 'police_officer',
-                title: 'Police Officer',
-                salaryRange: [50000, 95000],
-                raise: 0.06,
-                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 750, housing: 2100 }
+                title: 'Junior Police Officer',
+                salaryRange: [50000, 85000],
+                raise: 0.035,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 },
+                initialCash: 2100
             },
             'firefighter': {
                 id: 'firefighter',
-                title: 'Firefighter',
+                title: 'Junior Firefighter',
                 salaryRange: [40000, 75000],
-                raise: 0.06,
-                studentLoan: { principal: 10000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 750, housing: 2100 }
+                raise: 0.035,
+                studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 750, housing: 2100 },
+                initialCash: 2000
             },
             'real_estate_agent': {
                 id: 'real_estate_agent',
-                title: 'Real Estate Agent',
+                title: 'Junior Real Estate Agent',
                 salaryRange: [35000, 80000],
-                raise: 0.08,
-                studentLoan: { principal: 8000, annualRate: 0.05, termMonths: 120 },
-                fixedCosts: { food: 800, housing: 2200 }
+                raise: 0.04,
+                studentLoan: { principal: 12000, annualRate: 0.05, termMonths: 120 },
+                fixedCosts: { food: 800, housing: 2200 },
+                initialCash: 1800
             }
         };
     }
@@ -2050,6 +2527,7 @@ class SimLifeGame {
                         parseInt(costRangeNode?.querySelector('min')?.textContent || '0'),
                         parseInt(costRangeNode?.querySelector('max')?.textContent || '0')
                     ],
+                    costType: eventNode.querySelector('costType')?.textContent || 'fixed',
                     effects: {
                         happiness: parseInt(effectsNode?.querySelector('happiness')?.textContent || '0')
                     },
@@ -2614,13 +3092,57 @@ class SimLifeGame {
                 effects: { happiness: -2 },
                 description: 'Parking ticket',
                 detailedDescription: 'You return to find a parking ticket on your windshield. A frustrating and avoidable expense.'
+            },
+            {
+                id: 'home_burglary',
+                category: 'emergency',
+                weight: 0.1,
+                cooldown: 36,
+                costRange: [10, 25],
+                costType: 'percentage',
+                effects: { happiness: -15 },
+                description: 'Home burglary',
+                detailedDescription: 'Your home was burglarized while you were away. Cash and valuables were stolen, causing significant financial loss.'
+            },
+            {
+                id: 'pickpocket_theft',
+                category: 'emergency',
+                weight: 0.3,
+                cooldown: 24,
+                costRange: [5, 15],
+                costType: 'percentage',
+                effects: { happiness: -8 },
+                description: 'Pickpocket theft',
+                detailedDescription: 'A skilled pickpocket managed to steal cash from your wallet while you were in a crowded area.'
+            },
+            {
+                id: 'investment_scam',
+                category: 'emergency',
+                weight: 0.2,
+                cooldown: 48,
+                costRange: [15, 35],
+                costType: 'percentage',
+                effects: { happiness: -20 },
+                description: 'Investment scam loss',
+                detailedDescription: 'You fell victim to a convincing investment scam and lost a significant portion of your savings.'
+            },
+            {
+                id: 'purse_snatching',
+                category: 'emergency',
+                weight: 0.2,
+                cooldown: 18,
+                costRange: [8, 20],
+                costType: 'percentage',
+                effects: { happiness: -10 },
+                description: 'Purse/wallet snatching',
+                detailedDescription: 'A thief snatched your purse/wallet and ran away before you could react, taking your cash.'
             }
         ];
     }
 
     getEmbeddedStocks() {
         return {
-            'AAPL': { name: 'Apple Inc.', sector: 'Technology', base: 1.00, trend: 0.20 },
+            'AAPL': { name: 'Apple Inc.', sector: 'Technology', base: 150.00, trend: 0.20 },
             'MSFT': { name: 'Microsoft Corp.', sector: 'Technology', base: 58.28, trend: 0.012 },
             'INTC': { name: 'Intel Corp.', sector: 'Technology', base: 43.50, trend: 0.008 },
             'CSCO': { name: 'Cisco Systems Inc.', sector: 'Technology', base: 54.03, trend: 0.010 },
@@ -2629,7 +3151,7 @@ class SimLifeGame {
             'TXN': { name: 'Texas Instruments', sector: 'Technology', base: 51.44, trend: 0.009 },
             'HPQ': { name: 'HP Inc.', sector: 'Technology', base: 26.67, trend: 0.006 },
             'QCOM': { name: 'Qualcomm Inc.', sector: 'Technology', base: 89.66, trend: 0.013 },
-            'NVDA': { name: 'NVIDIA Corp.', sector: 'Technology', base: 0.10, trend: 0.28 },
+            'NVDA': { name: 'NVIDIA Corp.', sector: 'Technology', base: 85.00, trend: 0.28 },
             'AMZN': { name: 'Amazon.com Inc.', sector: 'Consumer Discretionary', base: 4.47, trend: 0.025 },
             'DIS': { name: 'Walt Disney Co.', sector: 'Consumer Discretionary', base: 29.47, trend: 0.008 },
             'MCD': { name: 'McDonald\'s Corp.', sector: 'Consumer Discretionary', base: 39.62, trend: 0.007 },
@@ -2689,8 +3211,8 @@ class SimLifeGame {
     
     updateAssetsPanel() {
         // Update cash and bank
-        document.getElementById('asset-cash').textContent = `$${this.gameState.portfolio.cash.toFixed(2)}`;
-        document.getElementById('asset-bank').textContent = `$${this.gameState.portfolio.bank.toFixed(2)}`;
+        document.getElementById('asset-cash').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
+        document.getElementById('asset-bank').textContent = `$${this.gameState.portfolio.bank.toLocaleString()}`;
         
         // Update stocks
         const stocksList = document.getElementById('stocks-list');
@@ -2759,7 +3281,7 @@ class SimLifeGame {
                 const div = document.createElement('div');
                 div.className = 'asset-item';
                 const monthlyCosts = property.maintenance + property.propertyTax;
-                const loanPayment = property.loan ? ` + $${property.loan.monthlyPayment.toFixed(0)} loan` : '';
+                const loanPayment = property.loan ? ` + $${property.loan.monthlyPayment.toLocaleString()} loan` : '';
                 div.innerHTML = `
                     <div>
                         <span class="asset-name">🏠 ${property.id.replace(/_/g, ' ')}</span>
@@ -2767,7 +3289,7 @@ class SimLifeGame {
                             Monthly: $${monthlyCosts}/mo (Tax: $${property.propertyTax} + Maint: $${property.maintenance})${loanPayment}
                         </div>
                     </div>
-                    <span class="asset-value">$${property.value.toFixed(0)}</span>
+                    <span class="asset-value">$${property.value.toLocaleString()}</span>
                 `;
                 propertiesList.appendChild(div);
             });
@@ -2805,10 +3327,10 @@ class SimLifeGame {
         
         // Format cost display
         if (cost > 0) {
-            costElement.textContent = `Cost: -$${cost.toFixed(0)}`;
+            costElement.textContent = `Cost: -$${cost.toLocaleString()}`;
             costElement.className = 'event-cost negative';
         } else if (cost < 0) {
-            costElement.textContent = `Income: +$${Math.abs(cost).toFixed(0)}`;
+            costElement.textContent = `Income: +$${Math.abs(cost).toLocaleString()}`;
             costElement.className = 'event-cost positive';
         } else {
             costElement.textContent = 'No financial impact';
@@ -2890,9 +3412,22 @@ class SimLifeGame {
             totalExpenses += foodExpense;
             this.addExpenseItem(container, '🍔 Food', foodExpense);
             
-            // Housing expenses (only if not living with parents)
-            // For now, player lives with parents so no housing expense
-            // TODO: Add housing expense when player moves out
+            // Housing expenses
+            if (this.gameState.currentRental) {
+                // Player is renting
+                totalExpenses += this.gameState.currentRental.rentPrice;
+                this.addExpenseItem(container, `🏠 Rent: ${this.gameState.currentRental.name}`, this.gameState.currentRental.rentPrice);
+            } else if (this.gameState.properties.length > 0) {
+                // Player owns properties - no rent but has maintenance/tax
+                // (These are handled in the property section below)
+            } else {
+                // Player lives with parents - include default housing cost
+                const housingExpense = profession.fixedCosts.housing || 0;
+                if (housingExpense > 0) {
+                    totalExpenses += housingExpense;
+                    this.addExpenseItem(container, '🏠 Living with Parents', housingExpense);
+                }
+            }
         }
         
         // Utilities & Other Fixed Costs
@@ -2945,7 +3480,7 @@ class SimLifeGame {
         totalDiv.className = 'expense-item';
         totalDiv.innerHTML = `
             <span class="expense-category">💰 Total Monthly Expenses</span>
-            <span class="expense-amount expense-total">$${calculatedTotal.toFixed(0)}</span>
+            <span class="expense-amount expense-total">$${calculatedTotal.toLocaleString()}</span>
         `;
         container.appendChild(totalDiv);
         
@@ -2960,7 +3495,7 @@ class SimLifeGame {
         div.className = 'expense-item';
         div.innerHTML = `
             <span class="expense-category">${category}</span>
-            <span class="expense-amount">$${amount.toFixed(0)}</span>
+            <span class="expense-amount">$${amount.toLocaleString()}</span>
         `;
         container.appendChild(div);
     }
@@ -2971,6 +3506,60 @@ class SimLifeGame {
     
     randomBetweenInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    
+    calculatePetCapacity() {
+        if (this.gameState.properties.length === 0) {
+            return 0; // Living with parents = no pets
+        }
+        
+        // Calculate capacity based on largest property owned
+        let maxCapacity = 0;
+        this.gameState.properties.forEach(property => {
+            const capacity = this.getPropertyPetCapacity(property.id);
+            maxCapacity = Math.max(maxCapacity, capacity);
+        });
+        
+        return maxCapacity;
+    }
+    
+    getPropertyPetCapacity(propertyId) {
+        const petCapacityMap = {
+            'studio_apartment': 1,      // Small pets only
+            'one_bedroom_condo': 2,     // Small to medium pets
+            'two_bedroom_house': 4,     // Most pets, good for families
+            'three_bedroom_house': 6,   // Large families, multiple pets
+            'luxury_penthouse': 3,      // Luxury but not necessarily spacious for pets
+            'vacation_cabin': 2,        // Cozy space, limited capacity
+            'luxury_mansion': 10        // Grand estate with expansive grounds, maximum pet capacity
+        };
+        
+        return petCapacityMap[propertyId] || 1; // Default to 1 if unknown property
+    }
+    
+    getCurrentLivingSpace() {
+        if (this.gameState.properties.length === 0) {
+            return "your parents' house";
+        }
+        
+        // Return the name of the largest property
+        let largestProperty = null;
+        let maxCapacity = 0;
+        
+        this.gameState.properties.forEach(property => {
+            const capacity = this.getPropertyPetCapacity(property.id);
+            if (capacity > maxCapacity) {
+                maxCapacity = capacity;
+                largestProperty = property;
+            }
+        });
+        
+        if (largestProperty) {
+            const propertyInfo = this.getAvailableProperties().find(p => p.id === largestProperty.id);
+            return propertyInfo ? propertyInfo.name : largestProperty.id.replace(/_/g, ' ');
+        }
+        
+        return 'your current home';
     }
     
     recordCashFlow(type, amount, description, category = 'other') {
