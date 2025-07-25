@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pets>
+    <!-- Small Pets - Low cost, low maintenance -->
+    <pet id="goldfish">
+        <name>Goldfish</name>
+        <type>fish</type>
+        <purchaseCost>25</purchaseCost>
+        <monthlyCost>15</monthlyCost>
+        <lifespan>36</lifespan>
+        <happinessBonus>5</happinessBonus>
+        <description>A simple goldfish in a bowl. Low maintenance and calming to watch.</description>
+        <requirements>
+            <minAge>18</minAge>
+            <maxAge>65</maxAge>
+            <minCash>50</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <wisdom>2</wisdom>
+                <focus>3</focus>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="hamster">
+        <name>Hamster</name>
+        <type>small_mammal</type>
+        <purchaseCost>40</purchaseCost>
+        <monthlyCost>25</monthlyCost>
+        <lifespan>24</lifespan>
+        <happinessBonus>8</happinessBonus>
+        <description>A cute hamster with a cage and exercise wheel. Fun to watch and interact with.</description>
+        <requirements>
+            <minAge>16</minAge>
+            <maxAge>70</maxAge>
+            <minCash>100</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>3</charm>
+                <energy>2</energy>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="budgie">
+        <name>Budgerigar</name>
+        <type>bird</type>
+        <purchaseCost>60</purchaseCost>
+        <monthlyCost>30</monthlyCost>
+        <lifespan>84</lifespan>
+        <happinessBonus>12</happinessBonus>
+        <description>A colorful budgie that can learn to talk. Great companion for conversation.</description>
+        <requirements>
+            <minAge>18</minAge>
+            <maxAge>75</maxAge>
+            <minCash>150</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>5</charm>
+                <wisdom>3</wisdom>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <!-- Medium Pets - Moderate cost and care -->
+    <pet id="rabbit">
+        <name>Rabbit</name>
+        <type>small_mammal</type>
+        <purchaseCost>80</purchaseCost>
+        <monthlyCost>45</monthlyCost>
+        <lifespan>96</lifespan>
+        <happinessBonus>15</happinessBonus>
+        <description>A fluffy rabbit that enjoys hopping around and eating vegetables.</description>
+        <requirements>
+            <minAge>20</minAge>
+            <maxAge>70</maxAge>
+            <minCash>200</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>4</charm>
+                <energy>3</energy>
+                <focus>2</focus>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="cat">
+        <name>Cat</name>
+        <type>cat</type>
+        <purchaseCost>150</purchaseCost>
+        <monthlyCost>65</monthlyCost>
+        <lifespan>180</lifespan>
+        <happinessBonus>20</happinessBonus>
+        <description>An independent cat that provides companionship and stress relief.</description>
+        <requirements>
+            <minAge>22</minAge>
+            <maxAge>75</maxAge>
+            <minCash>400</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>6</charm>
+                <wisdom>4</wisdom>
+                <focus>5</focus>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="cat_vet_visit" probability="0.15" cost="200" description="Routine vet checkup and vaccinations"/>
+            <event id="cat_furniture_damage" probability="0.08" cost="150" description="Cat damaged furniture - repair needed"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="small_dog">
+        <name>Small Dog</name>
+        <type>dog</type>
+        <purchaseCost>300</purchaseCost>
+        <monthlyCost>85</monthlyCost>
+        <lifespan>168</lifespan>
+        <happinessBonus>25</happinessBonus>
+        <description>A small, friendly dog that loves walks and playing fetch.</description>
+        <requirements>
+            <minAge>25</minAge>
+            <maxAge>70</maxAge>
+            <minCash>600</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>8</charm>
+                <energy>6</energy>
+                <focus>3</focus>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="dog_vet_visit" probability="0.12" cost="250" description="Annual vet checkup and vaccinations"/>
+            <event id="dog_training" probability="0.06" cost="300" description="Professional dog training classes"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Large Pets - High cost and maintenance -->
+    <pet id="large_dog">
+        <name>Large Dog</name>
+        <type>dog</type>
+        <purchaseCost>500</purchaseCost>
+        <monthlyCost>120</monthlyCost>
+        <lifespan>144</lifespan>
+        <happinessBonus>35</happinessBonus>
+        <description>A large, loyal dog that provides excellent companionship and security.</description>
+        <requirements>
+            <minAge>28</minAge>
+            <maxAge>65</maxAge>
+            <minCash>1000</minCash>
+            <minHousing>house</minHousing>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>10</charm>
+                <energy>8</energy>
+                <focus>4</focus>
+                <luck>3</luck>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="large_dog_vet_visit" probability="0.15" cost="350" description="Vet visit for large dog health maintenance"/>
+            <event id="dog_emergency" probability="0.04" cost="800" description="Emergency vet visit for injury or illness"/>
+            <event id="dog_boarding" probability="0.08" cost="200" description="Pet boarding during business travel"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Exotic Pets - Special requirements -->
+    <pet id="parrot">
+        <name>Parrot</name>
+        <type>bird</type>
+        <purchaseCost>800</purchaseCost>
+        <monthlyCost>75</monthlyCost>
+        <lifespan>600</lifespan>
+        <happinessBonus>30</happinessBonus>
+        <description>An intelligent parrot that can learn words and provide decades of companionship.</description>
+        <requirements>
+            <minAge>30</minAge>
+            <maxAge>50</maxAge>
+            <minCash>1500</minCash>
+            <minWisdom>70</minWisdom>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>12</charm>
+                <wisdom>8</wisdom>
+                <focus>6</focus>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="parrot_vet_specialist" probability="0.10" cost="400" description="Specialized avian veterinarian visit"/>
+            <event id="parrot_toy_destruction" probability="0.12" cost="100" description="Replace destroyed toys and perches"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="reptile">
+        <name>Bearded Dragon</name>
+        <type>reptile</type>
+        <purchaseCost>200</purchaseCost>
+        <monthlyCost>40</monthlyCost>
+        <lifespan>180</lifespan>
+        <happinessBonus>10</happinessBonus>
+        <description>A calm bearded dragon that requires specialized habitat and care.</description>
+        <requirements>
+            <minAge>25</minAge>
+            <maxAge>60</maxAge>
+            <minCash>500</minCash>
+            <minWisdom>60</minWisdom>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <wisdom>6</wisdom>
+                <focus>8</focus>
+                <patience>5</patience>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="reptile_equipment" probability="0.20" cost="150" description="UV lamp and heating equipment replacement"/>
+            <event id="reptile_vet" probability="0.08" cost="300" description="Exotic animal veterinarian visit"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Additional Small Pets -->
+    <pet id="guinea_pig">
+        <name>Guinea Pig</name>
+        <type>small_mammal</type>
+        <purchaseCost>35</purchaseCost>
+        <monthlyCost>30</monthlyCost>
+        <lifespan>72</lifespan>
+        <happinessBonus>12</happinessBonus>
+        <description>A social guinea pig that enjoys companionship and makes cute squeaking sounds.</description>
+        <requirements>
+            <minAge>16</minAge>
+            <maxAge>70</maxAge>
+            <minCash>120</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>4</charm>
+                <energy>2</energy>
+                <focus>3</focus>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="canary">
+        <name>Canary</name>
+        <type>bird</type>
+        <purchaseCost>75</purchaseCost>
+        <monthlyCost>20</monthlyCost>
+        <lifespan>120</lifespan>
+        <happinessBonus>10</happinessBonus>
+        <description>A beautiful singing canary that fills your home with melodious songs.</description>
+        <requirements>
+            <minAge>18</minAge>
+            <maxAge>75</maxAge>
+            <minCash>150</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>6</charm>
+                <wisdom>2</wisdom>
+                <focus>4</focus>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="ferret">
+        <name>Ferret</name>
+        <type>small_mammal</type>
+        <purchaseCost>120</purchaseCost>
+        <monthlyCost>55</monthlyCost>
+        <lifespan>84</lifespan>
+        <happinessBonus>18</happinessBonus>
+        <description>A playful and mischievous ferret that loves to explore and play games.</description>
+        <requirements>
+            <minAge>21</minAge>
+            <maxAge>65</maxAge>
+            <minCash>300</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>5</charm>
+                <energy>7</energy>
+                <luck>4</luck>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="ferret_proofing" probability="0.12" cost="200" description="Ferret-proofing home after escape attempts"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Aquatic Pets -->
+    <pet id="betta_fish">
+        <name>Betta Fish</name>
+        <type>fish</type>
+        <purchaseCost>15</purchaseCost>
+        <monthlyCost>10</monthlyCost>
+        <lifespan>30</lifespan>
+        <happinessBonus>6</happinessBonus>
+        <description>A vibrant betta fish with beautiful flowing fins. Easy to care for.</description>
+        <requirements>
+            <minAge>16</minAge>
+            <maxAge>80</maxAge>
+            <minCash>40</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <focus>4</focus>
+                <wisdom>2</wisdom>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="tropical_fish">
+        <name>Tropical Fish Tank</name>
+        <type>fish</type>
+        <purchaseCost>200</purchaseCost>
+        <monthlyCost>40</monthlyCost>
+        <lifespan>60</lifespan>
+        <happinessBonus>15</happinessBonus>
+        <description>A beautiful tropical fish aquarium with multiple colorful fish species.</description>
+        <requirements>
+            <minAge>20</minAge>
+            <maxAge>75</maxAge>
+            <minCash>400</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <focus>6</focus>
+                <wisdom>4</wisdom>
+                <charm>3</charm>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="aquarium_maintenance" probability="0.20" cost="80" description="Professional aquarium cleaning and maintenance"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Additional Medium Pets -->
+    <pet id="cockatiel">
+        <name>Cockatiel</name>
+        <type>bird</type>
+        <purchaseCost>150</purchaseCost>
+        <monthlyCost>35</monthlyCost>
+        <lifespan>180</lifespan>
+        <happinessBonus>20</happinessBonus>
+        <description>A friendly cockatiel with a distinctive crest that can learn to whistle tunes.</description>
+        <requirements>
+            <minAge>22</minAge>
+            <maxAge>70</maxAge>
+            <minCash>300</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>7</charm>
+                <wisdom>5</wisdom>
+                <focus>3</focus>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="bird_toy_replacement" probability="0.15" cost="50" description="Replace chewed toys and perches"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="chinchilla">
+        <name>Chinchilla</name>
+        <type>small_mammal</type>
+        <purchaseCost>100</purchaseCost>
+        <monthlyCost>45</monthlyCost>
+        <lifespan>180</lifespan>
+        <happinessBonus>16</happinessBonus>
+        <description>A soft, fluffy chinchilla that takes dust baths and is active at night.</description>
+        <requirements>
+            <minAge>23</minAge>
+            <maxAge>65</maxAge>
+            <minCash>250</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>5</charm>
+                <wisdom>6</wisdom>
+                <focus>4</focus>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="chinchilla_dust_bath" probability="0.10" cost="30" description="Special chinchilla dust bath supplies"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Exotic and Unusual Pets -->
+    <pet id="sugar_glider">
+        <name>Sugar Glider</name>
+        <type>exotic_mammal</type>
+        <purchaseCost>250</purchaseCost>
+        <monthlyCost>60</monthlyCost>
+        <lifespan>144</lifespan>
+        <happinessBonus>22</happinessBonus>
+        <description>A nocturnal sugar glider that can glide between perches and forms strong bonds.</description>
+        <requirements>
+            <minAge>25</minAge>
+            <maxAge>60</maxAge>
+            <minCash>600</minCash>
+            <minWisdom>65</minWisdom>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>8</charm>
+                <wisdom>7</wisdom>
+                <luck>5</luck>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="exotic_vet_visit" probability="0.18" cost="400" description="Specialized exotic animal veterinarian"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="hedgehog">
+        <name>Hedgehog</name>
+        <type>exotic_mammal</type>
+        <purchaseCost>180</purchaseCost>
+        <monthlyCost>50</monthlyCost>
+        <lifespan>60</lifespan>
+        <happinessBonus>14</happinessBonus>
+        <description>A spiny but adorable hedgehog that curls into a ball when scared.</description>
+        <requirements>
+            <minAge>24</minAge>
+            <maxAge>65</maxAge>
+            <minCash>400</minCash>
+            <minWisdom>60</minWisdom>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>6</charm>
+                <wisdom>8</wisdom>
+                <focus>5</focus>
+            </playerStatus>
+        </effects>
+    </pet>
+
+    <pet id="axolotl">
+        <name>Axolotl</name>
+        <type>aquatic</type>
+        <purchaseCost>80</purchaseCost>
+        <monthlyCost>25</monthlyCost>
+        <lifespan>120</lifespan>
+        <happinessBonus>12</happinessBonus>
+        <description>A unique aquatic salamander that remains aquatic throughout its life.</description>
+        <requirements>
+            <minAge>22</minAge>
+            <maxAge>70</maxAge>
+            <minCash>300</minCash>
+            <minWisdom>70</minWisdom>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <wisdom>9</wisdom>
+                <focus>7</focus>
+                <charm>4</charm>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="aquatic_setup" probability="0.15" cost="120" description="Specialized aquatic habitat maintenance"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Premium Pets - Luxury companions -->
+    <pet id="horse">
+        <name>Horse</name>
+        <type>large_mammal</type>
+        <purchaseCost>5000</purchaseCost>
+        <monthlyCost>800</monthlyCost>
+        <lifespan>300</lifespan>
+        <happinessBonus>50</happinessBonus>
+        <description>A majestic horse for riding and companionship. Requires significant resources.</description>
+        <requirements>
+            <minAge>35</minAge>
+            <maxAge>60</maxAge>
+            <minCash>15000</minCash>
+            <minNetWorth>100000</minNetWorth>
+            <minHousing>ranch</minHousing>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>15</charm>
+                <energy>12</energy>
+                <wisdom>8</wisdom>
+                <luck>5</luck>
+                <psp>10</psp>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="horse_vet_visit" probability="0.25" cost="500" description="Routine equine veterinary care"/>
+            <event id="horse_equipment" probability="0.15" cost="800" description="Saddle, bridle, and equipment maintenance"/>
+            <event id="horse_boarding" probability="0.10" cost="1200" description="Professional horse boarding and care"/>
+            <event id="horse_emergency" probability="0.03" cost="3000" description="Major equine medical emergency"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="miniature_pig">
+        <name>Miniature Pig</name>
+        <type>pig</type>
+        <purchaseCost>800</purchaseCost>
+        <monthlyCost>100</monthlyCost>
+        <lifespan>180</lifespan>
+        <happinessBonus>35</happinessBonus>
+        <description>An intelligent miniature pig that can be trained and makes a unique companion.</description>
+        <requirements>
+            <minAge>30</minAge>
+            <maxAge>65</maxAge>
+            <minCash>2000</minCash>
+            <minHousing>house</minHousing>
+            <minWisdom>75</minWisdom>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>12</charm>
+                <wisdom>10</wisdom>
+                <energy>6</energy>
+                <luck>7</luck>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="pig_training" probability="0.12" cost="300" description="Professional pig training classes"/>
+            <event id="pig_vet_care" probability="0.20" cost="250" description="Specialized pig veterinary care"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="goat">
+        <name>Goat</name>
+        <type>farm_animal</type>
+        <purchaseCost>300</purchaseCost>
+        <monthlyCost>150</monthlyCost>
+        <lifespan>144</lifespan>
+        <happinessBonus>28</happinessBonus>
+        <description>A friendly goat that provides milk and companionship. Requires outdoor space.</description>
+        <requirements>
+            <minAge>28</minAge>
+            <maxAge>70</maxAge>
+            <minCash>1000</minCash>
+            <minHousing>farm</minHousing>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>10</charm>
+                <energy>8</energy>
+                <wisdom>6</wisdom>
+                <psp>8</psp>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="goat_milk_sales" probability="0.20" income="50" description="Sell fresh goat milk to neighbors"/>
+            <event id="goat_fence_repair" probability="0.15" cost="200" description="Repair fence after goat escape"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Specialized Working Pets -->
+    <pet id="service_dog">
+        <name>Service Dog</name>
+        <type>working_dog</type>
+        <purchaseCost>2000</purchaseCost>
+        <monthlyCost>120</monthlyCost>
+        <lifespan>144</lifespan>
+        <happinessBonus>45</happinessBonus>
+        <description>A specially trained service dog that provides assistance and emotional support.</description>
+        <requirements>
+            <minAge>30</minAge>
+            <maxAge>65</maxAge>
+            <minCash>5000</minCash>
+            <specialNeed>true</specialNeed>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>12</charm>
+                <energy>10</energy>
+                <wisdom>8</wisdom>
+                <focus>10</focus>
+                <psp>5</psp>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="service_training_update" probability="0.08" cost="500" description="Advanced service training refresher"/>
+        </specialEvents>
+    </pet>
+
+    <pet id="guard_dog">
+        <name>Guard Dog</name>
+        <type>working_dog</type>
+        <purchaseCost>1200</purchaseCost>
+        <monthlyCost>140</monthlyCost>
+        <lifespan>132</lifespan>
+        <happinessBonus>30</happinessBonus>
+        <description>A trained guard dog that provides security and protection for your property.</description>
+        <requirements>
+            <minAge>32</minAge>
+            <maxAge>60</maxAge>
+            <minCash>3000</minCash>
+            <minHousing>house</minHousing>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <charm>8</charm>
+                <energy>12</energy>
+                <wisdom>6</wisdom>
+                <luck>8</luck>
+                <psp>12</psp>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="security_training" probability="0.10" cost="400" description="Professional security training session"/>
+            <event id="prevented_burglary" probability="0.02" benefit="2000" description="Guard dog prevented home break-in"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Virtual/Digital Pets - Modern alternative -->
+    <pet id="tamagotchi">
+        <name>Digital Pet</name>
+        <type>virtual</type>
+        <purchaseCost>50</purchaseCost>
+        <monthlyCost>5</monthlyCost>
+        <lifespan>60</lifespan>
+        <happinessBonus>8</happinessBonus>
+        <description>A digital pet device that requires daily attention but minimal cost.</description>
+        <requirements>
+            <minAge>16</minAge>
+            <maxAge>40</maxAge>
+            <minCash>75</minCash>
+        </requirements>
+        <effects>
+            <playerStatus>
+                <focus>4</focus>
+                <wisdom>2</wisdom>
+            </playerStatus>
+        </effects>
+        <specialEvents>
+            <event id="digital_pet_upgrade" probability="0.10" cost="30" description="Software update and new features"/>
+        </specialEvents>
+    </pet>
+
+    <!-- Pet Care Services -->
+    <services>
+        <service id="pet_insurance">
+            <name>Pet Insurance</name>
+            <monthlyCost>25</monthlyCost>
+            <description>Reduces emergency vet costs by 70%</description>
+            <requirements>
+                <hasPet>true</hasPet>
+            </requirements>
+        </service>
+
+        <service id="pet_grooming">
+            <name>Professional Grooming</name>
+            <quarterlyCost>80</quarterlyCost>
+            <description>Keeps pets healthy and increases happiness bonus by 20%</description>
+            <requirements>
+                <petTypes>cat,dog</petTypes>
+            </requirements>
+        </service>
+
+        <service id="pet_sitting">
+            <name>Pet Sitting Service</name>
+            <occasionalCost>150</occasionalCost>
+            <description>Allows travel without pet boarding costs</description>
+            <requirements>
+                <hasPet>true</hasPet>
+            </requirements>
+        </service>
+
+        <service id="dog_walker">
+            <name>Dog Walking Service</name>
+            <monthlyCost>120</monthlyCost>
+            <description>Increases dog happiness and reduces time commitment</description>
+            <requirements>
+                <petTypes>dog</petTypes>
+            </requirements>
+        </service>
+    </services>
+
+    <!-- Pet-Related Events -->
+    <petEvents>
+        <event id="pet_adoption_fair">
+            <name>Pet Adoption Fair</name>
+            <description>Local shelter offering reduced adoption fees</description>
+            <weight>3</weight>
+            <effects>
+                <discountPercent>50</discountPercent>
+                <happinessBonus>10</happinessBonus>
+            </effects>
+            <requirements>
+                <noPets>true</noPets>
+                <minAge>20</minAge>
+            </requirements>
+        </event>
+
+        <event id="pet_show_competition">
+            <name>Pet Show Competition</name>
+            <description>Enter your pet in a local competition</description>
+            <weight>2</weight>
+            <cost>100</cost>
+            <effects>
+                <potentialWinnings>500</potentialWinnings>
+                <charmBonus>5</charmBonus>
+            </effects>
+            <requirements>
+                <petTypes>cat,dog,rabbit,parrot</petTypes>
+                <minCharm>70</minCharm>
+            </requirements>
+        </event>
+
+        <event id="pet_therapy_certification">
+            <name>Pet Therapy Training</name>
+            <description>Train your pet to become a certified therapy animal</description>
+            <weight>1</weight>
+            <cost>400</cost>
+            <effects>
+                <monthlyIncome>100</monthlyIncome>
+                <happinessBonus>15</happinessBonus>
+                <charmBonus>10</charmBonus>
+            </effects>
+            <requirements>
+                <petTypes>dog,cat</petTypes>
+                <minWisdom>75</minWisdom>
+                <minCharm>70</minCharm>
+            </requirements>
+        </event>
+
+        <event id="pet_social_media">
+            <name>Pet Goes Viral</name>
+            <description>Your pet becomes an internet sensation</description>
+            <weight>1</weight>
+            <effects>
+                <oneTimeBonus>2000</oneTimeBonus>
+                <monthlyIncome>200</monthlyIncome>
+                <charmBonus>15</charmBonus>
+            </effects>
+            <requirements>
+                <hasPet>true</hasPet>
+                <minLuck>80</minLuck>
+                <minCharm>75</minCharm>
+            </requirements>
+        </event>
+
+        <event id="pet_bereavement">
+            <name>Pet Passes Away</name>
+            <description>Say goodbye to your beloved companion</description>
+            <weight>1</weight>
+            <effects>
+                <happinessLoss>30</happinessLoss>
+                <memorialCost>200</memorialCost>
+            </effects>
+            <requirements>
+                <hasPet>true</hasPet>
+                <petAge>nearLifespan</petAge>
+            </requirements>
+        </event>
+
+        <event id="pet_rescue_opportunity">
+            <name>Emergency Pet Rescue</name>
+            <description>Opportunity to rescue an abandoned pet</description>
+            <weight>2</weight>
+            <cost>300</cost>
+            <effects>
+                <freePet>true</freePet>
+                <happinessBonus>20</happinessBonus>
+                <charmBonus>8</charmBonus>
+            </effects>
+            <requirements>
+                <maxPets>1</maxPets>
+                <minCash>500</minCash>
+                <minCharm>60</minCharm>
+            </requirements>
+        </event>
+    </petEvents>
+
+    <!-- Pet Achievements -->
+    <achievements>
+        <achievement id="pet_lover">
+            <name>Pet Lover</name>
+            <description>Own your first pet</description>
+            <reward>
+                <happinessBonus>5</happinessBonus>
+                <charmBonus>3</charmBonus>
+            </reward>
+        </achievement>
+
+        <achievement id="menagerie">
+            <name>Menagerie Master</name>
+            <description>Own 3 different types of pets simultaneously</description>
+            <reward>
+                <happinessBonus>15</happinessBonus>
+                <charmBonus>10</charmBonus>
+                <wisdomBonus>5</wisdomBonus>
+            </reward>
+        </achievement>
+
+        <achievement id="pet_mogul">
+            <name>Pet Business Mogul</name>
+            <description>Earn $10,000 from pet-related income</description>
+            <reward>
+                <pspBonus>15</pspBonus>
+                <charmBonus>8</charmBonus>
+            </reward>
+        </achievement>
+
+        <achievement id="lifelong_companion">
+            <name>Lifelong Companion</name>
+            <description>Keep the same pet for its entire natural lifespan</description>
+            <reward>
+                <happinessBonus>25</happinessBonus>
+                <wisdomBonus>10</wisdomBonus>
+                <loyaltyTrait>true</loyaltyTrait>
+            </reward>
+        </achievement>
+    </achievements>
+</pets>

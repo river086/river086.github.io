@@ -31,12 +31,14 @@ class SimLifeGame {
                 crypto: {}
             },
             cashFlowHistory: [],
+            pets: [],
             gameOver: false,
             gameStarted: false
         };
         
         this.professions = {};
         this.events = [];
+        this.pets = {};
         this.eventCooldowns = {};
         // Stock and crypto prices will be generated after loading stock data
         
@@ -49,6 +51,7 @@ class SimLifeGame {
         
         await this.loadProfessions();
         await this.loadEvents();
+        await this.loadPets();
         await this.loadStocks();
         this.showProfessionSelection();
     }
@@ -218,9 +221,25 @@ class SimLifeGame {
             totalExpenses += property.propertyTax;
         });
         
+        // Add pet maintenance costs
+        this.gameState.pets.forEach(pet => {
+            totalExpenses += pet.data.monthlyCost;
+        });
+        
         return totalExpenses;
     }
     
+    calculateTotalHappiness() {
+        let totalHappiness = this.gameState.happiness;
+        
+        // Add pet happiness bonuses
+        this.gameState.pets.forEach(pet => {
+            totalHappiness += pet.data.happinessBonus;
+        });
+        
+        return Math.min(1000, totalHappiness);
+    }
+
     calculateNetWorth() {
         let netWorth = this.gameState.portfolio.cash + this.gameState.portfolio.bank;
         
@@ -369,6 +388,25 @@ class SimLifeGame {
     
     advanceMonth() {
         this.gameState.currentMonth++;
+        
+        // Age pets and check for natural death
+        this.gameState.pets = this.gameState.pets.filter(pet => {
+            pet.ageMonths++;
+            
+            if (pet.ageMonths >= pet.data.lifespan) {
+                this.log(`💔 Your ${pet.data.name} has passed away peacefully after ${pet.ageMonths} months of companionship.`, 'warning');
+                this.gameState.happiness = Math.max(0, this.gameState.happiness - 20);
+                return false; // Remove pet
+            }
+            
+            // Pet happiness may decline with age
+            if (pet.ageMonths > pet.data.lifespan * 0.8) {
+                pet.happiness = Math.max(50, pet.happiness - 1);
+            }
+            
+            return true; // Keep pet
+        });
+        
         if (this.gameState.currentMonth > 12) {
             this.gameState.currentMonth = 1;
             this.gameState.currentYear++;
@@ -389,7 +427,12 @@ class SimLifeGame {
     
     
     handleBuy(parts) {
-        if (parts.length < 3) throw new Error('Usage: buy SYMBOL AMOUNT');
+        if (parts.length < 3) throw new Error('Usage: buy SYMBOL AMOUNT or buy pet PET_TYPE');
+        
+        // Check if buying a pet
+        if (parts[1].toLowerCase() === 'pet') {
+            return this.handlePetPurchase(parts[2].toLowerCase());
+        }
         
         const symbol = parts[1].toUpperCase();
         const amount = parseFloat(parts[2]);
@@ -421,8 +464,116 @@ class SimLifeGame {
         }
     }
     
+    handlePetPurchase(petType) {
+        const pet = this.pets[petType];
+        if (!pet) {
+            throw new Error(`Pet type "${petType}" not found. Available pets: ${Object.keys(this.pets).join(', ')}`);
+        }
+        
+        // Check requirements
+        const req = pet.requirements;
+        if (this.gameState.ageYears < req.minAge) {
+            throw new Error(`You must be at least ${req.minAge} years old to buy a ${pet.name}`);
+        }
+        if (this.gameState.ageYears > req.maxAge) {
+            throw new Error(`You are too old to buy a ${pet.name} (max age: ${req.maxAge})`);
+        }
+        if (this.gameState.portfolio.cash < req.minCash) {
+            throw new Error(`You need at least $${req.minCash} cash to buy a ${pet.name}`);
+        }
+        if (this.gameState.portfolio.cash < pet.purchaseCost) {
+            throw new Error(`Insufficient cash. ${pet.name} costs $${pet.purchaseCost}, you have $${this.gameState.portfolio.cash.toFixed(2)}`);
+        }
+        
+        // Check player status requirements
+        if (req.minWisdom && this.gameState.playerStatus.wisdom < req.minWisdom) {
+            throw new Error(`You need at least ${req.minWisdom} wisdom to care for a ${pet.name}`);
+        }
+        if (req.minCharm && this.gameState.playerStatus.charm < req.minCharm) {
+            throw new Error(`You need at least ${req.minCharm} charm to bond with a ${pet.name}`);
+        }
+        
+        // Calculate net worth if required
+        if (req.minNetWorth) {
+            const netWorth = this.calculateNetWorth();
+            if (netWorth < req.minNetWorth) {
+                throw new Error(`You need at least $${req.minNetWorth} net worth to afford a ${pet.name}`);
+            }
+        }
+        
+        // Create new pet instance
+        const newPet = {
+            id: `${petType}_${Date.now()}`,
+            type: petType,
+            name: pet.name,
+            ageMonths: 0,
+            purchaseMonth: this.gameState.currentMonth,
+            purchaseYear: this.gameState.currentYear,
+            happiness: 100,
+            data: pet
+        };
+        
+        // Purchase the pet
+        this.gameState.portfolio.cash -= pet.purchaseCost;
+        this.gameState.pets.push(newPet);
+        
+        // Apply initial status bonuses
+        if (pet.effects.playerStatus) {
+            Object.entries(pet.effects.playerStatus).forEach(([stat, bonus]) => {
+                if (bonus > 0) {
+                    this.gameState.playerStatus[stat] = Math.min(100, this.gameState.playerStatus[stat] + bonus);
+                }
+            });
+        }
+        
+        // Add to cash flow
+        this.recordCashFlow('expense', pet.purchaseCost, `Bought ${pet.name}`, 'pet');
+        
+        this.log(`🐾 Bought ${pet.name} for $${pet.purchaseCost}! Monthly cost: $${pet.monthlyCost}`, 'success');
+        this.log(`Pet happiness bonus: +${pet.happinessBonus}`, 'info');
+        
+        this.updateUI();
+    }
+    
+    handlePetSale(petId) {
+        const petIndex = this.gameState.pets.findIndex(pet => pet.id === petId);
+        if (petIndex === -1) {
+            const availablePets = this.gameState.pets.map(p => p.id).join(', ');
+            throw new Error(`Pet with ID "${petId}" not found. Available pets: ${availablePets}`);
+        }
+        
+        const pet = this.gameState.pets[petIndex];
+        
+        // Calculate sale price (pets lose value over time)
+        const ageRatio = pet.ageMonths / pet.data.lifespan;
+        const condition = ageRatio < 0.5 ? 0.6 : (ageRatio < 0.8 ? 0.4 : 0.2);
+        const salePrice = Math.floor(pet.data.purchaseCost * condition);
+        
+        // Remove pet
+        this.gameState.pets.splice(petIndex, 1);
+        
+        // Add money back
+        this.gameState.portfolio.cash += salePrice;
+        
+        // Reduce happiness for selling pet
+        this.gameState.happiness = Math.max(0, this.gameState.happiness - pet.data.happinessBonus);
+        
+        // Record transaction
+        this.recordCashFlow('income', salePrice, `Sold ${pet.data.name}`, 'pet');
+        
+        this.log(`💔 Sold ${pet.data.name} for $${salePrice} (${pet.ageMonths} months old)`, 'warning');
+        this.log(`Lost happiness bonus: -${pet.data.happinessBonus}`, 'info');
+        
+        this.updateUI();
+    }
+
     handleSell(parts) {
-        if (parts.length < 3) throw new Error('Usage: sell SYMBOL AMOUNT');
+        if (parts.length < 3) throw new Error('Usage: sell SYMBOL AMOUNT or sell pet PET_ID');
+        
+        // Check if selling a pet
+        if (parts[1].toLowerCase() === 'pet') {
+            return this.handlePetSale(parts[2]);
+        }
         
         const symbol = parts[1].toUpperCase();
         const amount = parseFloat(parts[2]);
@@ -1453,6 +1604,44 @@ class SimLifeGame {
         location.reload();
     }
     
+    showPetStatus() {
+        if (this.gameState.pets.length === 0) {
+            this.log('You don\'t own any pets yet. Use "buy pet <type>" to get one!', 'info');
+            this.log('Available pets: ' + Object.keys(this.pets).join(', '), 'info');
+            return;
+        }
+        
+        this.log('🐾 Your Pets:', 'info');
+        let totalMonthlyCost = 0;
+        
+        this.gameState.pets.forEach(pet => {
+            const age = `${pet.ageMonths} months old`;
+            const happiness = `Happiness bonus: +${pet.data.happinessBonus}`;
+            const cost = `Monthly cost: $${pet.data.monthlyCost}`;
+            
+            this.log(`• ${pet.data.name} (${pet.type}) - ${age}, ${happiness}, ${cost}`, 'success');
+            totalMonthlyCost += pet.data.monthlyCost;
+        });
+        
+        this.log(`Total monthly pet costs: $${totalMonthlyCost}`, 'info');
+        this.log(`Total pet happiness bonus: +${this.gameState.pets.reduce((sum, pet) => sum + pet.data.happinessBonus, 0)}`, 'success');
+    }
+    
+    listAvailablePets() {
+        this.log('🐾 Available Pets:', 'info');
+        
+        Object.values(this.pets).forEach(pet => {
+            const affordable = this.gameState.portfolio.cash >= pet.purchaseCost ? '✅' : '❌';
+            const ageOk = this.gameState.ageYears >= pet.requirements.minAge && 
+                         this.gameState.ageYears <= pet.requirements.maxAge ? '✅' : '❌';
+            
+            this.log(`${affordable}${ageOk} ${pet.name} - $${pet.purchaseCost} (${pet.description})`, 'info');
+            this.log(`   Monthly cost: $${pet.monthlyCost}, Happiness: +${pet.happinessBonus}`, 'info');
+        });
+        
+        this.log('Use command: buy pet <pet_type> (e.g., "buy pet goldfish")', 'info');
+    }
+
     updateUI() {
         document.getElementById('age').textContent = this.gameState.ageYears;
         document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toFixed(0)}`;
@@ -1465,7 +1654,11 @@ class SimLifeGame {
             document.getElementById('profession').textContent = 'Choose Profession';
         }
         
-        document.getElementById('happiness').textContent = `${this.gameState.happiness} / 1000`;
+        const totalHappiness = this.calculateTotalHappiness();
+        const petBonus = totalHappiness - this.gameState.happiness;
+        document.getElementById('happiness').textContent = petBonus > 0 
+            ? `${totalHappiness} / 1000 (+${petBonus} from pets)`
+            : `${totalHappiness} / 1000`;
         
         // Calculate and display monthly expenses
         const monthlyExpenses = this.calculateMonthlyExpenses();
@@ -1483,6 +1676,11 @@ class SimLifeGame {
         
         // Update assets panel
         this.updateAssetsPanel();
+        
+        // Update pet display on main screen
+        if (typeof updatePetDisplay === 'function') {
+            updatePetDisplay();
+        }
     }
     
     updateSeasonalBackground() {
@@ -1773,6 +1971,222 @@ class SimLifeGame {
         // Use embedded data instead of fetching XML to avoid CORS issues
         this.events = this.getEmbeddedEvents();
         console.log('Loaded events:', this.events.map(e => e.id));
+    }
+
+    async loadPets() {
+        try {
+            console.log('Starting to load pets.xml...');
+            const response = await fetch('pets.xml');
+            if (!response.ok) {
+                throw new Error(`Failed to fetch pets.xml: ${response.status} ${response.statusText}`);
+            }
+            const text = await response.text();
+            console.log('pets.xml loaded, parsing...');
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
+            
+            // Check for XML parsing errors
+            const parserError = xmlDoc.querySelector('parsererror');
+            if (parserError) {
+                throw new Error('XML parsing error: ' + parserError.textContent);
+            }
+            
+            // Load pets
+            const petNodes = xmlDoc.querySelectorAll('pets > pet');
+            petNodes.forEach(petNode => {
+                const id = petNode.getAttribute('id');
+                this.pets[id] = {
+                    id: id,
+                    name: petNode.querySelector('name')?.textContent || '',
+                    type: petNode.querySelector('type')?.textContent || '',
+                    purchaseCost: parseInt(petNode.querySelector('purchaseCost')?.textContent || '0'),
+                    monthlyCost: parseInt(petNode.querySelector('monthlyCost')?.textContent || '0'),
+                    lifespan: parseInt(petNode.querySelector('lifespan')?.textContent || '12'),
+                    happinessBonus: parseInt(petNode.querySelector('happinessBonus')?.textContent || '0'),
+                    description: petNode.querySelector('description')?.textContent || '',
+                    requirements: this.parsePetRequirements(petNode.querySelector('requirements')),
+                    effects: this.parsePetEffects(petNode.querySelector('effects'))
+                };
+            });
+            
+            console.log(`Loaded ${Object.keys(this.pets).length} pets from XML`);
+            console.log('First few pets:', Object.keys(this.pets).slice(0, 5));
+        } catch (error) {
+            console.error('Error loading pets from XML:', error);
+            console.log('Falling back to embedded pet data...');
+            this.loadEmbeddedPets();
+        }
+    }
+    
+    loadEmbeddedPets() {
+        // Fallback embedded pet data to avoid CORS issues
+        this.pets = {
+            goldfish: {
+                id: 'goldfish',
+                name: 'Goldfish',
+                type: 'fish',
+                purchaseCost: 25,
+                monthlyCost: 15,
+                lifespan: 36,
+                happinessBonus: 5,
+                description: 'A simple goldfish in a bowl. Low maintenance and calming to watch.',
+                requirements: { minAge: 18, maxAge: 65, minCash: 50, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐠'
+            },
+            hamster: {
+                id: 'hamster',
+                name: 'Hamster',
+                type: 'small_mammal',
+                purchaseCost: 40,
+                monthlyCost: 25,
+                lifespan: 24,
+                happinessBonus: 8,
+                description: 'A cute hamster with a cage and exercise wheel. Fun to watch and interact with.',
+                requirements: { minAge: 16, maxAge: 70, minCash: 100, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐹'
+            },
+            cat: {
+                id: 'cat',
+                name: 'Cat',
+                type: 'cat',
+                purchaseCost: 150,
+                monthlyCost: 65,
+                lifespan: 180,
+                happinessBonus: 20,
+                description: 'An independent cat that provides companionship and stress relief.',
+                requirements: { minAge: 22, maxAge: 75, minCash: 400, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐱'
+            },
+            small_dog: {
+                id: 'small_dog',
+                name: 'Small Dog',
+                type: 'dog',
+                purchaseCost: 300,
+                monthlyCost: 85,
+                lifespan: 168,
+                happinessBonus: 25,
+                description: 'A small, friendly dog that loves walks and playing fetch.',
+                requirements: { minAge: 25, maxAge: 70, minCash: 600, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐶'
+            },
+            rabbit: {
+                id: 'rabbit',
+                name: 'Rabbit',
+                type: 'small_mammal',
+                purchaseCost: 80,
+                monthlyCost: 45,
+                lifespan: 96,
+                happinessBonus: 15,
+                description: 'A fluffy rabbit that enjoys hopping around and eating vegetables.',
+                requirements: { minAge: 20, maxAge: 70, minCash: 200, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐰'
+            },
+            budgie: {
+                id: 'budgie',
+                name: 'Budgerigar',
+                type: 'bird',
+                purchaseCost: 60,
+                monthlyCost: 30,
+                lifespan: 84,
+                happinessBonus: 12,
+                description: 'A colorful budgie that can learn to talk. Great companion for conversation.',
+                requirements: { minAge: 18, maxAge: 75, minCash: 150, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🦜'
+            },
+            guinea_pig: {
+                id: 'guinea_pig',
+                name: 'Guinea Pig',
+                type: 'small_mammal',
+                purchaseCost: 35,
+                monthlyCost: 30,
+                lifespan: 72,
+                happinessBonus: 12,
+                description: 'A social guinea pig that enjoys companionship and makes cute squeaking sounds.',
+                requirements: { minAge: 16, maxAge: 70, minCash: 120, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐹'
+            },
+            betta_fish: {
+                id: 'betta_fish',
+                name: 'Betta Fish',
+                type: 'fish',
+                purchaseCost: 15,
+                monthlyCost: 10,
+                lifespan: 30,
+                happinessBonus: 6,
+                description: 'A vibrant betta fish with beautiful flowing fins. Easy to care for.',
+                requirements: { minAge: 16, maxAge: 80, minCash: 40, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐟'
+            },
+            parrot: {
+                id: 'parrot',
+                name: 'Parrot',
+                type: 'bird',
+                purchaseCost: 800,
+                monthlyCost: 75,
+                lifespan: 600,
+                happinessBonus: 30,
+                description: 'An intelligent parrot that can learn words and provide decades of companionship.',
+                requirements: { minAge: 30, maxAge: 50, minCash: 1500, minWisdom: 70, minCharm: 0 },
+                effects: {},
+                emoji: '🦜'
+            },
+            horse: {
+                id: 'horse',
+                name: 'Horse',
+                type: 'large_mammal',
+                purchaseCost: 5000,
+                monthlyCost: 800,
+                lifespan: 300,
+                happinessBonus: 50,
+                description: 'A majestic horse for riding and companionship. Requires significant resources.',
+                requirements: { minAge: 35, maxAge: 60, minCash: 15000, minWisdom: 0, minCharm: 0 },
+                effects: {},
+                emoji: '🐴'
+            }
+        };
+        
+        console.log(`Loaded ${Object.keys(this.pets).length} embedded pets as fallback`);
+    }
+    
+    parsePetRequirements(reqNode) {
+        if (!reqNode) return {};
+        
+        return {
+            minAge: parseInt(reqNode.querySelector('minAge')?.textContent || '0'),
+            maxAge: parseInt(reqNode.querySelector('maxAge')?.textContent || '999'),
+            minCash: parseInt(reqNode.querySelector('minCash')?.textContent || '0'),
+            minNetWorth: parseInt(reqNode.querySelector('minNetWorth')?.textContent || '0'),
+            minHousing: reqNode.querySelector('minHousing')?.textContent || '',
+            minWisdom: parseInt(reqNode.querySelector('minWisdom')?.textContent || '0'),
+            minCharm: parseInt(reqNode.querySelector('minCharm')?.textContent || '0'),
+            specialNeed: reqNode.querySelector('specialNeed')?.textContent === 'true'
+        };
+    }
+    
+    parsePetEffects(effectsNode) {
+        if (!effectsNode) return {};
+        
+        const effects = {};
+        const statusNode = effectsNode.querySelector('playerStatus');
+        if (statusNode) {
+            effects.playerStatus = {
+                energy: parseInt(statusNode.querySelector('energy')?.textContent || '0'),
+                focus: parseInt(statusNode.querySelector('focus')?.textContent || '0'),
+                wisdom: parseInt(statusNode.querySelector('wisdom')?.textContent || '0'),
+                charm: parseInt(statusNode.querySelector('charm')?.textContent || '0'),
+                luck: parseInt(statusNode.querySelector('luck')?.textContent || '0'),
+                psp: parseInt(statusNode.querySelector('psp')?.textContent || '0')
+            };
+        }
+        return effects;
     }
 
     async loadStocks() {
