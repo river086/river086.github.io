@@ -22,6 +22,8 @@ class SimLifeGame {
             },
             relationshipStatus: 'Single', // Single/Dating/Marriage
             childrenCount: 0,
+            lotteryTickets: [], // Player's lottery tickets
+            monthlyLotteryNumbers: null, // This month's winning numbers
             loans: [],
             cars: [],
             properties: [],
@@ -29,6 +31,7 @@ class SimLifeGame {
             portfolio: {
                 cash: 500,
                 bank: 0,
+                savings: 0, // High-yield savings account with 3% annual interest
                 stocks: {},
                 bonds: {},
                 crypto: {}
@@ -151,6 +154,10 @@ class SimLifeGame {
     
     startGame() {
         this.gameState.gameStarted = true;
+        
+        // Generate initial lottery numbers for the first month
+        this.generateMonthlyLotteryNumbers();
+        
         this.updateUI();
         const profession = this.professions[this.gameState.professionId];
         
@@ -288,7 +295,7 @@ class SimLifeGame {
     }
 
     calculateNetWorth() {
-        let netWorth = this.gameState.portfolio.cash + this.gameState.portfolio.bank;
+        let netWorth = this.gameState.portfolio.cash + this.gameState.portfolio.bank + this.gameState.portfolio.savings;
         
         // Add car values
         this.gameState.cars.forEach(car => {
@@ -330,6 +337,29 @@ class SimLifeGame {
         
         const netCashFlow = netIncome - totalExpenses;
         this.gameState.portfolio.cash += netCashFlow;
+        
+        // Calculate and add monthly savings interest (3% annual = 0.25% monthly)
+        if (this.gameState.portfolio.savings > 0) {
+            const monthlyInterest = this.gameState.portfolio.savings * 0.0025; // 3% annual / 12 months
+            this.gameState.portfolio.savings += monthlyInterest;
+            this.recordCashFlow('income', monthlyInterest, 'Savings Interest', 'banking');
+            this.log(`Earned $${monthlyInterest.toFixed(2)} interest on savings`, 'positive');
+        }
+        
+        // Collect rental income from rented-out properties
+        let totalRentalIncome = 0;
+        this.gameState.properties.forEach(property => {
+            if (property.isRentedOut && property.monthlyRent > 0) {
+                totalRentalIncome += property.monthlyRent;
+                this.gameState.portfolio.cash += property.monthlyRent;
+                const propertyInfo = this.getAvailableProperties().find(p => p.id === property.id);
+                this.recordCashFlow('income', property.monthlyRent, `Rental income: ${propertyInfo?.name || property.id}`, 'real_estate');
+            }
+        });
+        
+        if (totalRentalIncome > 0) {
+            this.log(`🏠 Collected $${totalRentalIncome.toLocaleString()} in rental income from ${this.gameState.properties.filter(p => p.isRentedOut).length} properties`, 'positive');
+        }
         
         // Record monthly income and expenses
         this.recordCashFlow('income', netIncome, 'Monthly Salary', 'salary');
@@ -460,6 +490,80 @@ class SimLifeGame {
         });
     }
     
+    // Lottery System Functions
+    generateMonthlyLotteryNumbers() {
+        const numbers = [];
+        while (numbers.length < 6) {
+            const num = this.randomBetweenInt(1, 49);
+            if (!numbers.includes(num)) {
+                numbers.push(num);
+            }
+        }
+        this.gameState.monthlyLotteryNumbers = numbers.sort((a, b) => a - b);
+    }
+    
+    buyLotteryTicket(numbers) {
+        const ticketCost = 2;
+        if (this.gameState.portfolio.cash < ticketCost) {
+            throw new Error('Not enough cash to buy lottery ticket ($2)');
+        }
+        
+        // Validate numbers (6 numbers, 1-49, no duplicates)
+        if (numbers.length !== 6) {
+            throw new Error('Must select exactly 6 numbers');
+        }
+        
+        for (let num of numbers) {
+            if (num < 1 || num > 49) {
+                throw new Error('Numbers must be between 1 and 49');
+            }
+        }
+        
+        if (new Set(numbers).size !== 6) {
+            throw new Error('Numbers must be unique');
+        }
+        
+        this.gameState.portfolio.cash -= ticketCost;
+        this.gameState.lotteryTickets.push({
+            numbers: numbers.sort((a, b) => a - b),
+            month: this.gameState.currentMonth,
+            year: this.gameState.currentYear
+        });
+        
+        this.log(`Bought lottery ticket with numbers: ${numbers.sort((a, b) => a - b).join(', ')} for $${ticketCost}`, 'info');
+    }
+    
+    checkLotteryWinnings() {
+        if (!this.gameState.monthlyLotteryNumbers || this.gameState.lotteryTickets.length === 0) {
+            return;
+        }
+        
+        const winningNumbers = this.gameState.monthlyLotteryNumbers;
+        this.log(`🎱 This month's winning lottery numbers: ${winningNumbers.join(', ')}`, 'info');
+        
+        for (let ticket of this.gameState.lotteryTickets) {
+            const matches = ticket.numbers.filter(num => winningNumbers.includes(num)).length;
+            let prize = 0;
+            
+            switch (matches) {
+                case 2: prize = 10; break;
+                case 3: prize = 100; break;
+                case 4: prize = 1000; break;
+                case 5: prize = 10000; break;
+                case 6: prize = 1000000; break;
+            }
+            
+            if (prize > 0) {
+                this.gameState.portfolio.cash += prize;
+                this.gameState.happiness = Math.min(100, this.gameState.happiness + Math.min(20, prize / 100));
+                this.log(`🎉 LOTTERY WIN! Matched ${matches} numbers and won $${prize.toLocaleString()}!`, 'success');
+            }
+        }
+        
+        // Clear tickets after checking
+        this.gameState.lotteryTickets = [];
+    }
+
     advanceMonth() {
         this.gameState.currentMonth++;
         
@@ -479,6 +583,32 @@ class SimLifeGame {
             }
             
             return true; // Keep pet
+        });
+        
+        // Vehicle depreciation (realistic rates)
+        this.gameState.cars.forEach(car => {
+            if (car.value > 1000) { // Don't depreciate below $1000 minimum value
+                // Different depreciation rates based on value tier
+                let monthlyDepreciationRate;
+                if (car.value > 50000) {
+                    // Luxury cars: 1.5% monthly (18% annually)
+                    monthlyDepreciationRate = 0.015;
+                } else if (car.value > 25000) {
+                    // Mid-range cars: 1.2% monthly (14.4% annually)
+                    monthlyDepreciationRate = 0.012;
+                } else {
+                    // Budget cars: 1.0% monthly (12% annually)
+                    monthlyDepreciationRate = 0.010;
+                }
+                
+                const depreciation = car.value * monthlyDepreciationRate;
+                car.value = Math.max(1000, car.value - depreciation);
+                
+                // Log depreciation occasionally (every 6 months)
+                if (this.gameState.currentMonth % 6 === 0 && depreciation > 50) {
+                    this.log(`🚗 Vehicle depreciation: -$${depreciation.toFixed(0)} (${car.id})`, 'info');
+                }
+            }
         });
         
         // Monthly energy recovery
@@ -724,10 +854,39 @@ class SimLifeGame {
         this.log(`Withdrew $${amount} from bank`, 'success');
     }
     
+    handleSavingsDeposit(parts) {
+        if (parts.length < 2) throw new Error('Usage: save AMOUNT');
+        
+        const amount = parseFloat(parts[1]);
+        if (this.gameState.portfolio.cash < amount) {
+            throw new Error('Insufficient cash');
+        }
+        
+        this.gameState.portfolio.cash -= amount;
+        this.gameState.portfolio.savings += amount;
+        this.recordCashFlow('expense', amount, `Savings Deposit`, 'banking');
+        this.log(`Deposited $${amount.toLocaleString()} to savings account (3% annual interest)`, 'success');
+    }
+    
+    handleSavingsWithdraw(parts) {
+        if (parts.length < 2) throw new Error('Usage: withdraw-savings AMOUNT');
+        
+        const amount = parseFloat(parts[1]);
+        if (this.gameState.portfolio.savings < amount) {
+            throw new Error('Insufficient savings balance');
+        }
+        
+        this.gameState.portfolio.savings -= amount;
+        this.gameState.portfolio.cash += amount;
+        this.recordCashFlow('income', amount, `Savings Withdrawal`, 'banking');
+        this.log(`Withdrew $${amount.toLocaleString()} from savings account`, 'success');
+    }
+    
     showPortfolio() {
         let portfolioText = 'PORTFOLIO:\n';
         portfolioText += `Cash: $${this.gameState.portfolio.cash.toLocaleString()}\n`;
         portfolioText += `Bank: $${this.gameState.portfolio.bank.toLocaleString()}\n`;
+        portfolioText += `Savings: $${this.gameState.portfolio.savings.toLocaleString()} (3% APY)\n`;
         
         if (Object.keys(this.gameState.portfolio.stocks).length > 0) {
             portfolioText += 'STOCKS:\n';
@@ -942,6 +1101,7 @@ class SimLifeGame {
     updateBankModal() {
         document.getElementById('bank-cash-display').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
         document.getElementById('bank-balance-display').textContent = `$${this.gameState.portfolio.bank.toLocaleString()}`;
+        document.getElementById('savings-balance-display').textContent = `$${this.gameState.portfolio.savings.toLocaleString()}`;
     }
     
     updateStockTradingModal() {
@@ -1558,16 +1718,24 @@ class SimLifeGame {
                 div.style.backgroundColor = '#fff';
                 
                 const loanInfo = property.loan ? ` | Mortgage: $${property.loan.monthlyPayment.toLocaleString()}/mo` : '';
+                const rentalInfo = property.isRentedOut ? ` | 💰 Rental Income: $${property.monthlyRent.toLocaleString()}/mo` : '';
+                const rentalStatus = property.isRentedOut ? ' (RENTED OUT)' : '';
+                
                 div.innerHTML = `
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="margin-bottom: 10px;">
                         <div>
-                            <strong>${propertyInfo.emoji} ${propertyInfo.name}</strong>
+                            <strong>${propertyInfo.emoji} ${propertyInfo.name}${rentalStatus}</strong>
                             <div style="font-size: 0.9em; color: #666;">
-                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month${loanInfo}
+                                Value: $${property.value.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month${loanInfo}${rentalInfo}
                             </div>
                         </div>
-                        <button class="btn" onclick="handlePropertySell('${property.id}')" 
-                                style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                    </div>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        ${property.isRentedOut ? 
+                            `<button class="btn" onclick="handleStopRenting('${property.id}')" style="background: #ffc107; color: #000; padding: 5px 10px;">Stop Renting</button>` :
+                            `<button class="btn" onclick="handleStartRenting('${property.id}')" style="background: #28a745; padding: 5px 10px;">Rent Out</button>`
+                        }
+                        <button class="btn" onclick="handlePropertySell('${property.id}')" style="background: #dc3545; padding: 5px 10px;">Sell</button>
                     </div>
                 `;
                 
@@ -1759,7 +1927,9 @@ class SimLifeGame {
             value: property.price,
             maintenance: property.maintenance,
             propertyTax: property.propertyTax,
-            loan: null
+            loan: null,
+            isRentedOut: false, // Can be rented for income
+            monthlyRent: 0 // Set when rented out
         });
         
         this.recordCashFlow('expense', property.price, `Buy ${property.name}`, 'real_estate');
@@ -1881,6 +2051,48 @@ class SimLifeGame {
         this.gameState.currentRental = null;
     }
     
+    // Rental Property Management Functions
+    rentOutProperty(propertyId) {
+        const property = this.gameState.properties.find(p => p.id === propertyId);
+        if (!property) {
+            throw new Error('Property not found');
+        }
+        
+        if (property.isRentedOut) {
+            throw new Error('Property is already rented out');
+        }
+        
+        // Calculate rental income based on property value (typical 1% rule)
+        const propertyInfo = this.getAvailableProperties().find(p => p.id === propertyId);
+        const baseRent = Math.floor(property.value * 0.01); // 1% of property value per month
+        
+        // Add some randomness (±20%)
+        const variation = 0.8 + Math.random() * 0.4; // 0.8 to 1.2 multiplier
+        const monthlyRent = Math.floor(baseRent * variation);
+        
+        property.isRentedOut = true;
+        property.monthlyRent = monthlyRent;
+        
+        this.log(`🏠 Rented out ${propertyInfo?.name || property.id} for $${monthlyRent.toLocaleString()}/month`, 'success');
+    }
+    
+    stopRentingProperty(propertyId) {
+        const property = this.gameState.properties.find(p => p.id === propertyId);
+        if (!property) {
+            throw new Error('Property not found');
+        }
+        
+        if (!property.isRentedOut) {
+            throw new Error('Property is not currently rented out');
+        }
+        
+        const propertyInfo = this.getAvailableProperties().find(p => p.id === propertyId);
+        this.log(`🏠 Stopped renting ${propertyInfo?.name || property.id} (was $${property.monthlyRent.toLocaleString()}/month)`, 'info');
+        
+        property.isRentedOut = false;
+        property.monthlyRent = 0;
+    }
+    
     financeProperty(propertyId) {
         const property = this.getAvailableProperties().find(p => p.id === propertyId);
         if (!property) {
@@ -1917,7 +2129,9 @@ class SimLifeGame {
                 monthlyPayment: monthlyPayment,
                 annualRate: annualRate,
                 termMonths: termMonths
-            }
+            },
+            isRentedOut: false, // Can be rented for income
+            monthlyRent: 0 // Set when rented out
         });
         
         // Add mortgage to the loans array
@@ -2060,6 +2274,9 @@ class SimLifeGame {
         this.processMonthlyFinances();
         this.checkPsychiatristVisit();
         
+        // Check lottery winnings before advancing month
+        this.checkLotteryWinnings();
+        
         // Show luck benefit message for high luck players occasionally
         if (this.gameState.playerStatus.luck >= 70 && Math.random() < 0.15) {
             const luckLevel = this.gameState.playerStatus.luck >= 75 ? 'exceptional' : 'good';
@@ -2068,6 +2285,10 @@ class SimLifeGame {
         
         this.processEvent();
         this.advanceMonth();
+        
+        // Generate new lottery numbers for the new month
+        this.generateMonthlyLotteryNumbers();
+        
         this.updateUI();
         this.log('--- NEW MONTH ---', 'info');
     }
@@ -3214,9 +3435,10 @@ class SimLifeGame {
     }
     
     updateAssetsPanel() {
-        // Update cash and bank
+        // Update cash, bank, and savings
         document.getElementById('asset-cash').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
         document.getElementById('asset-bank').textContent = `$${this.gameState.portfolio.bank.toLocaleString()}`;
+        document.getElementById('asset-savings').textContent = `$${this.gameState.portfolio.savings.toLocaleString()}`;
         
         // Update stocks
         const stocksList = document.getElementById('stocks-list');
@@ -3521,6 +3743,85 @@ class SimLifeGame {
     
     randomBetweenInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    
+    generateMonthlyLotteryNumbers() {
+        // Generate 6 random numbers between 1-49 (typical lottery format)
+        const numbers = [];
+        while (numbers.length < 6) {
+            const num = this.randomBetweenInt(1, 49);
+            if (!numbers.includes(num)) {
+                numbers.push(num);
+            }
+        }
+        this.gameState.monthlyLotteryNumbers = numbers.sort((a, b) => a - b);
+        this.log(`🎰 This month's lottery numbers: ${this.gameState.monthlyLotteryNumbers.join(', ')}`, 'info');
+    }
+    
+    buyLotteryTicket() {
+        const ticketCost = 5;
+        if (this.gameState.portfolio.cash < ticketCost) {
+            throw new Error(`Insufficient cash. Lottery ticket costs $${ticketCost}`);
+        }
+        
+        // Generate player's lottery numbers
+        const playerNumbers = [];
+        while (playerNumbers.length < 6) {
+            const num = this.randomBetweenInt(1, 49);
+            if (!playerNumbers.includes(num)) {
+                playerNumbers.push(num);
+            }
+        }
+        playerNumbers.sort((a, b) => a - b);
+        
+        const ticket = {
+            numbers: playerNumbers,
+            cost: ticketCost,
+            month: this.gameState.currentMonth,
+            year: this.gameState.currentYear
+        };
+        
+        this.gameState.lotteryTickets.push(ticket);
+        this.gameState.portfolio.cash -= ticketCost;
+        this.recordCashFlow('expense', ticketCost, 'Lottery Ticket', 'entertainment');
+        this.log(`🎰 Bought lottery ticket: ${playerNumbers.join(', ')} for $${ticketCost}`, 'info');
+    }
+    
+    checkLotteryWinnings() {
+        if (!this.gameState.monthlyLotteryNumbers || this.gameState.lotteryTickets.length === 0) {
+            return;
+        }
+        
+        const winningNumbers = this.gameState.monthlyLotteryNumbers;
+        let totalWinnings = 0;
+        
+        this.gameState.lotteryTickets.forEach(ticket => {
+            const matches = ticket.numbers.filter(num => winningNumbers.includes(num)).length;
+            let winAmount = 0;
+            
+            switch (matches) {
+                case 6: winAmount = 1000000; break; // Jackpot
+                case 5: winAmount = 10000; break;
+                case 4: winAmount = 500; break;
+                case 3: winAmount = 50; break;
+                case 2: winAmount = 10; break;
+                default: winAmount = 0;
+            }
+            
+            if (winAmount > 0) {
+                totalWinnings += winAmount;
+                this.log(`🎰 LOTTERY WIN! ${matches} matches: $${winAmount.toLocaleString()} (Ticket: ${ticket.numbers.join(', ')})`, 'success');
+            }
+        });
+        
+        if (totalWinnings > 0) {
+            this.gameState.portfolio.cash += totalWinnings;
+            this.recordCashFlow('income', totalWinnings, 'Lottery Winnings', 'lottery');
+            this.log(`🎰 Total lottery winnings this month: $${totalWinnings.toLocaleString()}!`, 'success');
+        }
+        
+        // Clear tickets for next month
+        this.gameState.lotteryTickets = [];
     }
     
     calculatePetCapacity() {
