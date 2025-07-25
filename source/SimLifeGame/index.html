@@ -1271,7 +1271,18 @@
         <div class="header">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                 <h1>Life Simulator</h1>
-                <div class="version-badge" id="game-version">v1.2.0</div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div id="player-info" style="display: none; text-align: right;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span id="player-portrait-display" style="font-size: 24px;">👤</span>
+                            <div>
+                                <div id="player-name-display" style="font-weight: bold; color: #2c3e50;">Player</div>
+                                <div style="font-size: 0.8em; color: #666;">Your Character</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="version-badge" id="game-version">v1.4.0</div>
+                </div>
             </div>
             <div class="game-status">
                 <div class="status-card">
@@ -2577,6 +2588,15 @@
                 initializePlayerSetup();
             }, 100);
         });
+        
+        // Function to update player info display on main page
+        function updatePlayerInfoDisplay() {
+            if (window.playerSetupData && game?.gameState?.gameStarted) {
+                document.getElementById('player-name-display').textContent = window.playerSetupData.name;
+                document.getElementById('player-portrait-display').textContent = window.playerSetupData.portrait;
+                document.getElementById('player-info').style.display = 'block';
+            }
+        }
     </script>
     <script src="game.js"></script>
 </body>

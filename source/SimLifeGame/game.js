@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '1.3.0'; // Update this when making changes to the game
+    static VERSION = '1.4.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -159,12 +159,17 @@ class SimLifeGame {
         this.log(`You are a 24-year-old ${profession.title} with $500 and a dream.`, 'info');
         this.log(`Your starting salary: $${this.gameState.grossAnnual.toFixed(0)}/year`, 'info');
         this.log('Use the "End Turn" button to advance to the next month.', 'info');
+        
+        // Update player info display on main page
+        if (typeof updatePlayerInfoDisplay === 'function') {
+            updatePlayerInfoDisplay();
+        }
     }
     
     initializeProfession(professionId) {
         const profession = this.professions[professionId];
         
-        this.gameState.grossAnnual = this.randomBetween(profession.salaryRange[0], profession.salaryRange[1]);
+        this.gameState.grossAnnual = this.randomBetweenInt(profession.salaryRange[0], profession.salaryRange[1]);
         this.gameState.fixedCosts = profession.fixedCosts.food + 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
         
         // Apply player setup data if available
@@ -301,22 +306,8 @@ class SimLifeGame {
     
     processMonthlyFinances() {
         const netIncome = this.calculateNetIncome();
-        let totalExpenses = this.gameState.fixedCosts;
-        
-        // Add loan payments
-        this.gameState.loans.forEach(loan => {
-            totalExpenses += loan.monthlyPayment;
-        });
-        
-        // Add car maintenance
-        this.gameState.cars.forEach(car => {
-            totalExpenses += car.maintenance;
-        });
-        
-        // Add property costs
-        this.gameState.properties.forEach(property => {
-            totalExpenses += property.maintenance;
-        });
+        // Use the accurate expense calculation that includes all costs
+        const totalExpenses = this.calculateMonthlyExpenses();
         
         const netCashFlow = netIncome - totalExpenses;
         this.gameState.portfolio.cash += netCashFlow;
@@ -366,12 +357,37 @@ class SimLifeGame {
             return !this.eventCooldowns[event.id] || this.eventCooldowns[event.id] <= 0;
         });
         
-        const totalWeight = eligibleEvents.reduce((sum, event) => sum + event.weight, 0);
+        // Apply luck-based probability adjustment for bad events
+        const adjustedEvents = eligibleEvents.map(event => {
+            let adjustedWeight = event.weight;
+            
+            // Check if this is a "bad" event (typically has positive cost)
+            const avgCost = (event.costRange[0] + event.costRange[1]) / 2;
+            const isBadEvent = avgCost > 0 && event.id !== 'no_event';
+            
+            if (isBadEvent) {
+                // Higher luck reduces bad event probability
+                // Luck ranges from ~25-79, so normalize to 0-1 scale
+                const luckFactor = Math.max(0, Math.min(1, (this.gameState.playerStatus.luck - 25) / 54));
+                // Reduce bad event weight by up to 50% based on luck
+                const luckReduction = luckFactor * 0.5;
+                adjustedWeight = event.weight * (1 - luckReduction);
+                
+                // Debug logging for high luck players
+                if (this.gameState.playerStatus.luck >= 70 && luckReduction > 0.3) {
+                    console.log(`🍀 Luck (${this.gameState.playerStatus.luck}) reduced "${event.description}" probability by ${(luckReduction * 100).toFixed(1)}%`);
+                }
+            }
+            
+            return { ...event, adjustedWeight };
+        });
+        
+        const totalWeight = adjustedEvents.reduce((sum, event) => sum + event.adjustedWeight, 0);
         let random = Math.random() * totalWeight;
         
         let selectedEvent = null;
-        for (const event of eligibleEvents) {
-            random -= event.weight;
+        for (const event of adjustedEvents) {
+            random -= event.adjustedWeight;
             if (random <= 0) {
                 selectedEvent = event;
                 break;
@@ -379,7 +395,7 @@ class SimLifeGame {
         }
         
         if (selectedEvent && selectedEvent.id !== 'no_event') {
-            const cost = this.randomBetween(selectedEvent.costRange[0], selectedEvent.costRange[1]);
+            const cost = this.randomBetweenInt(selectedEvent.costRange[0], selectedEvent.costRange[1]);
             this.gameState.portfolio.cash -= cost;
             
             // Record event cash flow
@@ -1592,6 +1608,13 @@ class SimLifeGame {
         this.log('--- MONTH END ---', 'info');
         this.processMonthlyFinances();
         this.checkPsychiatristVisit();
+        
+        // Show luck benefit message for high luck players occasionally
+        if (this.gameState.playerStatus.luck >= 70 && Math.random() < 0.15) {
+            const luckLevel = this.gameState.playerStatus.luck >= 75 ? 'exceptional' : 'good';
+            this.log(`🍀 Your ${luckLevel} luck (${this.gameState.playerStatus.luck}) helps you avoid some unfortunate events.`, 'positive');
+        }
+        
         this.processEvent();
         this.advanceMonth();
         this.updateUI();
@@ -2910,14 +2933,26 @@ class SimLifeGame {
             totalExpenses += property.propertyTax;
         });
         
-        // Total
+        // Pet maintenance costs
+        this.gameState.pets.forEach((pet, index) => {
+            this.addExpenseItem(container, `🐾 ${pet.data.name} Care`, pet.data.monthlyCost);
+            totalExpenses += pet.data.monthlyCost;
+        });
+        
+        // Total (should match calculateMonthlyExpenses())
+        const calculatedTotal = this.calculateMonthlyExpenses();
         const totalDiv = document.createElement('div');
         totalDiv.className = 'expense-item';
         totalDiv.innerHTML = `
             <span class="expense-category">💰 Total Monthly Expenses</span>
-            <span class="expense-amount expense-total">$${totalExpenses.toFixed(0)}</span>
+            <span class="expense-amount expense-total">$${calculatedTotal.toFixed(0)}</span>
         `;
         container.appendChild(totalDiv);
+        
+        // Debug: Check if manual calculation matches automated calculation
+        if (Math.abs(totalExpenses - calculatedTotal) > 0.01) {
+            console.warn(`Expense breakdown mismatch: Manual=${totalExpenses.toFixed(2)}, Calculated=${calculatedTotal.toFixed(2)}`);
+        }
     }
     
     addExpenseItem(container, category, amount) {
@@ -2932,6 +2967,10 @@ class SimLifeGame {
     
     randomBetween(min, max) {
         return Math.random() * (max - min) + min;
+    }
+    
+    randomBetweenInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     
     recordCashFlow(type, amount, description, category = 'other') {
