@@ -241,7 +241,7 @@ class SimLifeGame {
         
         // Add loan payments
         this.gameState.loans.forEach(loan => {
-            totalExpenses += loan.monthlyPayment;
+            totalExpenses += Math.round(loan.monthlyPayment);
         });
         
         // Add car maintenance, insurance, and license fees
@@ -3443,8 +3443,9 @@ class SimLifeGame {
         // Loan payments
         this.gameState.loans.forEach((loan, index) => {
             const loanType = loan.kind.charAt(0).toUpperCase() + loan.kind.slice(1);
+            const roundedPayment = Math.round(loan.monthlyPayment);
             this.addExpenseItem(container, `📋 ${loanType} Loan Payment`, loan.monthlyPayment);
-            totalExpenses += loan.monthlyPayment;
+            totalExpenses += roundedPayment;
         });
         
         // Car maintenance
@@ -3493,9 +3494,11 @@ class SimLifeGame {
     addExpenseItem(container, category, amount) {
         const div = document.createElement('div');
         div.className = 'expense-item';
+        // Round amount to avoid decimal display issues
+        const roundedAmount = Math.round(amount);
         div.innerHTML = `
             <span class="expense-category">${category}</span>
-            <span class="expense-amount">$${amount.toLocaleString()}</span>
+            <span class="expense-amount">$${roundedAmount.toLocaleString()}</span>
         `;
         container.appendChild(div);
     }
