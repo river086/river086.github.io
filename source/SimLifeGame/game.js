@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '1.7.0'; // Update this when making changes to the game
+    static VERSION = '1.8.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -2208,20 +2208,17 @@ class SimLifeGame {
             button.disabled = true;
             button.style.background = '#95a5a6';
             button.style.cursor = 'not-allowed';
-            button.textContent = '👨‍👩‍👧‍👦 Too Much Cash';
             button.title = 'You can only ask for help when you have less than $2,000 cash';
         } else if (monthsSinceLastHelp < 5) {
             const monthsRemaining = 5 - monthsSinceLastHelp;
             button.disabled = true;
             button.style.background = '#95a5a6';
             button.style.cursor = 'not-allowed';
-            button.textContent = `👨‍👩‍👧‍👦 Ask Parents (${monthsRemaining}mo)`;
             button.title = `Wait ${monthsRemaining} more month${monthsRemaining > 1 ? 's' : ''} before asking again`;
         } else {
             button.disabled = false;
             button.style.background = '#e74c3c';
             button.style.cursor = 'pointer';
-            button.textContent = '👨‍👩‍👧‍👦 Ask Parents';
             button.title = 'Ask your parents for financial help ($1,500-$3,000)';
         }
     }
