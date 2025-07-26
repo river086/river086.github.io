@@ -20,8 +20,18 @@ class SimLifeGame {
                 luck: 55,        // 幸運 (1-100)
                 psp: 100         // 專業技能點 (50-10000)
             },
+            maxPlayerStatus: {
+                energy: 75,      // Maximum energy value
+                focus: 70,       // Maximum focus value
+                wisdom: 65,      // Maximum wisdom value
+                charm: 60,       // Maximum charm value
+                luck: 55,        // Maximum luck value
+                psp: 100         // Maximum PSP value
+            },
             relationshipStatus: 'Single', // Single/Dating/Marriage
             childrenCount: 0,
+            monthlyDatingCost: 0, // Monthly dating expenses
+            monthlyFamilyCost: 0, // Monthly family/children expenses
             lotteryTickets: [], // Player's lottery tickets
             monthlyLotteryNumbers: null, // This month's winning numbers
             loans: [],
@@ -39,7 +49,9 @@ class SimLifeGame {
             cashFlowHistory: [],
             pets: [],
             gameOver: false,
-            gameStarted: false
+            gameStarted: false,
+            realEstatePrices: {}, // Track current real estate prices
+            lastParentHelpMonth: -5 // Track when player last asked parents for help (allow first request immediately)
         };
         
         this.professions = {};
@@ -227,6 +239,9 @@ class SimLifeGame {
         // Start background music
         this.playBackgroundMusic();
         
+        // Initialize news ticker
+        this.initNewsTicker();
+        
         this.updateUI();
         const profession = this.professions[this.gameState.professionId];
         
@@ -261,6 +276,8 @@ class SimLifeGame {
             // Apply custom stats from player setup
             if (window.playerSetupData.stats) {
                 Object.assign(this.gameState.playerStatus, window.playerSetupData.stats);
+                // Set max values equal to the randomized values
+                Object.assign(this.gameState.maxPlayerStatus, window.playerSetupData.stats);
             }
             
             // Store player name and portrait for potential future use
@@ -345,9 +362,12 @@ class SimLifeGame {
         } else if (this.gameState.properties.length > 0) {
             // Player owns properties - no additional housing cost (maintenance/tax handled separately)
         } else {
-            // Player lives with parents - small contribution
-            totalExpenses += 300; // Parent contribution for groceries/utilities
+            // Player lives with parents - no housing costs!
         }
+        
+        // Add relationship and family costs
+        totalExpenses += this.gameState.monthlyDatingCost;
+        totalExpenses += this.gameState.monthlyFamilyCost;
         
         return totalExpenses;
     }
@@ -379,7 +399,9 @@ class SimLifeGame {
         });
         
         // Add investments (simplified)
-        Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
+        Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, holding]) => {
+            // Handle both old format (number) and new format (object)
+            const shares = typeof holding === 'number' ? holding : holding.shares;
             const price = this.getStockPrice(symbol);
             if (price !== undefined) {
                 netWorth += shares * price;
@@ -434,7 +456,11 @@ class SimLifeGame {
         this.recordCashFlow('income', netIncome, 'Monthly Salary', 'salary');
         this.recordCashFlow('expense', totalExpenses, 'Monthly Expenses', 'living');
         
-        this.log(`Monthly income: $${netIncome.toLocaleString()}, Expenses: $${totalExpenses.toLocaleString()}, Net: $${netCashFlow.toLocaleString()}`, 'info');
+        // Use red color for negative net cash flow
+        const logType = netCashFlow < 0 ? 'warning' : 'info';
+        this.log(`Monthly income: $${netIncome.toLocaleString()}, Expenses: $${totalExpenses.toLocaleString()}, Net: $${netCashFlow.toLocaleString()}`, logType);
+        
+        // Banking tip is now shown in the news ticker instead of cluttering the log
         
         // Update loan balances
         this.gameState.loans = this.gameState.loans.filter(loan => {
@@ -445,7 +471,7 @@ class SimLifeGame {
         // Check for negative cash streak
         if (this.gameState.portfolio.cash < 0) {
             this.gameState.negativeCashStreak++;
-            this.log(`Warning: Negative cash for ${this.gameState.negativeCashStreak} months`, 'warning');
+            this.log(`Warning: Negative cash for ${this.gameState.negativeCashStreak} months`, 'loss');
             
             if (this.gameState.negativeCashStreak >= 6) {
                 this.endGame('Bankruptcy: Cash below $0 for 6 consecutive months');
@@ -466,11 +492,91 @@ class SimLifeGame {
             this.gameState.happiness = Math.min(1000, this.gameState.happiness);
             
             this.recordCashFlow('expense', cost, 'See a psychiatrist', 'health');
-            this.log(`Mental health visit: Happiness too low. Visited psychiatrist ($${cost}), happiness increased by 10.`, 'warning');
+            this.log(`Mental health visit: Happiness too low. Visited psychiatrist ($${cost}), happiness increased by 10.`, 'loss');
+        }
+    }
+    
+    processRelationshipEvents() {
+        // Dating event (10% probability, only when single)
+        if (this.gameState.relationshipStatus === 'Single' && Math.random() < 0.10) {
+            const datingCost = this.randomBetweenInt(25, 100);
+            this.gameState.monthlyDatingCost = datingCost;
+            this.gameState.relationshipStatus = 'Dating';
+            this.gameState.happiness = Math.min(1000, this.gameState.happiness + 35);
+            this.recordCashFlow('expense', 0, 'Started Dating', 'relationship'); // Cost is monthly, not one-time
+            this.log(`💕 You started dating someone! Monthly dating expenses: $${datingCost}. Happiness +35!`, 'success');
+            
+            // Show celebration effect
+            if (typeof showCelebration === 'function') {
+                showCelebration('💕', 'You Started Dating!<br>Love is in the air!');
+            }
+            return; // Only one relationship event per month
+        }
+        
+        // Marriage event (2.5% probability, only when dating)
+        if (this.gameState.relationshipStatus === 'Dating' && Math.random() < 0.025) {
+            const marriageCost = this.randomBetweenInt(200, 500);
+            this.gameState.monthlyFamilyCost = marriageCost;
+            this.gameState.monthlyDatingCost = 0; // No more dating costs
+            this.gameState.relationshipStatus = 'Marriage';
+            this.gameState.happiness = Math.min(1000, this.gameState.happiness + 60);
+            this.recordCashFlow('expense', 0, 'Got Married', 'relationship'); // Cost is monthly, not one-time
+            this.log(`💍 You got married! Monthly family expenses: $${marriageCost}. Happiness +60!`, 'success');
+            
+            // Show celebration effect
+            if (typeof showCelebration === 'function') {
+                showCelebration('💍', 'You Got Married!<br>Congratulations on your wedding!');
+            }
+            return; // Only one relationship event per month
+        }
+        
+        // Having children event (2.5% probability, only when married, decreases with more children)
+        if (this.gameState.relationshipStatus === 'Marriage') {
+            // Probability decreases with each child: 2.5%, 1.5%, 0.5%, etc.
+            const childProbability = Math.max(0.0025, 0.025 - (this.gameState.childrenCount * 0.01));
+            
+            if (Math.random() < childProbability) {
+                const childCost = this.randomBetweenInt(300, 1000);
+                this.gameState.monthlyFamilyCost += childCost; // Add to existing family costs
+                this.gameState.childrenCount++;
+                this.gameState.happiness = Math.min(1000, this.gameState.happiness + 50);
+                this.recordCashFlow('expense', 0, `Had Child #${this.gameState.childrenCount}`, 'family'); // Cost is monthly, not one-time
+                this.log(`👶 You had a baby! Child #${this.gameState.childrenCount}. Additional monthly family costs: $${childCost}. Happiness +50!`, 'success');
+                
+                // Show celebration effect
+                if (typeof showCelebration === 'function') {
+                    const childNumber = this.gameState.childrenCount;
+                    const message = childNumber === 1 ? 
+                        'You Had Your First Baby!<br>Welcome to parenthood!' : 
+                        `Baby #${childNumber} Has Arrived!<br>Your family is growing!`;
+                    showCelebration('👶', message);
+                }
+                return; // Only one relationship event per month
+            }
+        }
+    }
+    
+    // Add monthly variation to relationship costs
+    varyRelationshipCosts() {
+        // Vary dating costs monthly (±20% variation)
+        if (this.gameState.relationshipStatus === 'Dating' && this.gameState.monthlyDatingCost > 0) {
+            const baseAmount = this.gameState.monthlyDatingCost;
+            const variation = this.randomBetweenInt(-20, 20) / 100; // ±20%
+            this.gameState.monthlyDatingCost = Math.max(15, Math.round(baseAmount * (1 + variation)));
+        }
+        
+        // Vary marriage/family costs monthly (±15% variation)
+        if (this.gameState.relationshipStatus === 'Marriage' && this.gameState.monthlyFamilyCost > 0) {
+            const baseAmount = this.gameState.monthlyFamilyCost;
+            const variation = this.randomBetweenInt(-15, 15) / 100; // ±15%
+            this.gameState.monthlyFamilyCost = Math.max(150, Math.round(baseAmount * (1 + variation)));
         }
     }
     
     processEvent() {
+        // First, process relationship events with specific probabilities
+        this.processRelationshipEvents();
+        
         const eligibleEvents = this.events.filter(event => {
             return !this.eventCooldowns[event.id] || this.eventCooldowns[event.id] <= 0;
         });
@@ -539,27 +645,27 @@ class SimLifeGame {
             
             // Apply stat improvements from learning events
             if (selectedEvent.effects.energy) {
-                this.gameState.playerStatus.energy = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.energy = Math.max(1, Math.min(this.gameState.maxPlayerStatus.energy, 
                     this.gameState.playerStatus.energy + selectedEvent.effects.energy));
             }
             
             if (selectedEvent.effects.focus) {
-                this.gameState.playerStatus.focus = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.focus = Math.max(1, Math.min(this.gameState.maxPlayerStatus.focus, 
                     this.gameState.playerStatus.focus + selectedEvent.effects.focus));
             }
             
             if (selectedEvent.effects.wisdom) {
-                this.gameState.playerStatus.wisdom = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.wisdom = Math.max(1, Math.min(this.gameState.maxPlayerStatus.wisdom, 
                     this.gameState.playerStatus.wisdom + selectedEvent.effects.wisdom));
             }
             
             if (selectedEvent.effects.charm) {
-                this.gameState.playerStatus.charm = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.charm = Math.max(1, Math.min(this.gameState.maxPlayerStatus.charm, 
                     this.gameState.playerStatus.charm + selectedEvent.effects.charm));
             }
             
             if (selectedEvent.effects.luck) {
-                this.gameState.playerStatus.luck = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.luck = Math.max(1, Math.min(this.gameState.maxPlayerStatus.luck, 
                     this.gameState.playerStatus.luck + selectedEvent.effects.luck));
             }
             
@@ -569,10 +675,16 @@ class SimLifeGame {
             if (selectedEvent.costType === 'percentage' && cost > 0) {
                 const percentage = Math.round((cost / (this.gameState.portfolio.cash + cost)) * 100);
                 logMessage = `Event: ${selectedEvent.description} (Lost ${percentage}% of cash: $${cost.toLocaleString()})`;
+                
+                // Add helpful reminder about banking for protection
+                const currentCash = this.gameState.portfolio.cash;
+                if (currentCash > 1000) {
+                    this.log('💡 Tip: Keep most of your money in the bank or investments to protect it from theft and emergencies!', 'info');
+                }
             } else {
                 logMessage = `Event: ${selectedEvent.description} (Cost: $${cost.toLocaleString()})`;
             }
-            this.log(logMessage, cost > 0 ? 'warning' : 'success');
+            this.log(logMessage, cost > 0 ? 'loss' : 'success');
             
             // Show event popup
             this.showEventPopup(selectedEvent, cost);
@@ -640,7 +752,7 @@ class SimLifeGame {
         });
         
         // Monthly energy recovery
-        this.gameState.playerStatus.energy = Math.min(100, this.gameState.playerStatus.energy + 50);
+        this.gameState.playerStatus.energy = Math.min(this.gameState.maxPlayerStatus.energy, this.gameState.playerStatus.energy + 50);
         
         if (this.gameState.currentMonth > 12) {
             this.gameState.currentMonth = 1;
@@ -701,7 +813,12 @@ class SimLifeGame {
             }
             
             this.gameState.portfolio.cash -= cost;
-            this.gameState.portfolio.stocks[symbol] = (this.gameState.portfolio.stocks[symbol] || 0) + amount;
+            // Track both shares and purchase cost for profit calculation
+            if (!this.gameState.portfolio.stocks[symbol]) {
+                this.gameState.portfolio.stocks[symbol] = { shares: 0, totalCost: 0 };
+            }
+            this.gameState.portfolio.stocks[symbol].shares += amount;
+            this.gameState.portfolio.stocks[symbol].totalCost += cost;
             this.recordCashFlow('expense', cost, `Buy ${amount} shares ${symbol}`, 'investment');
             this.log(`Bought ${amount} shares of ${symbol} for $${cost.toLocaleString()}`, 'success');
         }
@@ -848,15 +965,27 @@ class SimLifeGame {
             this.recordCashFlow('income', proceeds, `Sell ${amount} ${symbol}`, 'investment');
             this.log(`Sold ${amount} ${symbol} for $${proceeds.toLocaleString()}`, 'success');
         } else {
-            if (!this.gameState.portfolio.stocks[symbol] || this.gameState.portfolio.stocks[symbol] < amount) {
+            const stockHolding = this.gameState.portfolio.stocks[symbol];
+            if (!stockHolding || stockHolding.shares < amount) {
                 throw new Error('Insufficient stock holdings');
             }
             
             const price = this.getStockPrice(symbol);
             const proceeds = amount * price;
             
+            // Calculate original cost for sold shares
+            const avgCostPerShare = stockHolding.totalCost / stockHolding.shares;
+            const soldCost = amount * avgCostPerShare;
+            
             this.gameState.portfolio.cash += proceeds;
-            this.gameState.portfolio.stocks[symbol] -= amount;
+            stockHolding.shares -= amount;
+            stockHolding.totalCost -= soldCost;
+            
+            // Remove empty holdings
+            if (stockHolding.shares === 0) {
+                delete this.gameState.portfolio.stocks[symbol];
+            }
+            
             this.recordCashFlow('income', proceeds, `Sell ${amount} shares ${symbol}`, 'investment');
             this.log(`Sold ${amount} shares of ${symbol} for $${proceeds.toLocaleString()}`, 'success');
         }
@@ -926,11 +1055,20 @@ class SimLifeGame {
         
         if (Object.keys(this.gameState.portfolio.stocks).length > 0) {
             portfolioText += 'STOCKS:\n';
-            Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
+            Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, holding]) => {
+                // Handle both old format (number) and new format (object)
+                const shares = typeof holding === 'number' ? holding : holding.shares;
+                const totalCost = typeof holding === 'number' ? shares * 50 : holding.totalCost; // Fallback for old saves
+                
                 if (shares > 0) {
                     const price = this.getStockPrice(symbol);
                     if (price !== undefined) {
-                        portfolioText += `  ${symbol}: ${shares} shares @ $${price.toFixed(2)} = $${(shares * price).toFixed(2)}\n`;
+                        const currentValue = shares * price;
+                        const avgCost = totalCost / shares;
+                        const profit = currentValue - totalCost;
+                        const profitPercent = ((profit / totalCost) * 100).toFixed(1);
+                        portfolioText += `  ${symbol}: ${shares} shares @ $${price.toFixed(2)} (avg cost: $${avgCost.toFixed(2)})\n`;
+                        portfolioText += `    Value: $${currentValue.toFixed(2)} | Profit: $${profit > 0 ? '+' : ''}${profit.toFixed(2)} (${profitPercent}%)\n`;
                     }
                 }
             });
@@ -1028,16 +1166,16 @@ class SimLifeGame {
             statusCard.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
             statusCard.style.minHeight = '200px';
             
-            // Create progress bar - special handling for PSP with max 10000
+            // Create progress bar using player's actual max values
             let progressPercent, maxValue, displayValue;
             if (stat.key === 'psp') {
-                maxValue = 10000;
+                maxValue = this.gameState.maxPlayerStatus[stat.key] || 10000;
                 progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
                 displayValue = `${value}/${maxValue}`;
             } else {
-                maxValue = 100;
-                progressPercent = Math.max(0, Math.min(100, value));
-                displayValue = `${value}/100`;
+                maxValue = this.gameState.maxPlayerStatus[stat.key] || 100;
+                progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
+                displayValue = `${value}/${maxValue}`;
             }
             
             statusCard.innerHTML = `
@@ -1151,7 +1289,8 @@ class SimLifeGame {
         stockSymbols.forEach(symbol => {
             const price = this.getStockPrice(symbol);
             if (price === undefined) return; // Skip stocks without prices
-            const holdings = this.gameState.portfolio.stocks[symbol] || 0;
+            const stockHolding = this.gameState.portfolio.stocks[symbol];
+            const holdings = stockHolding ? (typeof stockHolding === 'number' ? stockHolding : stockHolding.shares) : 0;
             
             const stockDiv = document.createElement('div');
             stockDiv.style.marginBottom = '15px';
@@ -1173,6 +1312,17 @@ class SimLifeGame {
                         <h4 style="margin: 0; color: #007bff;">${symbol} - ${stockInfo.name}</h4>
                         <div style="font-size: 0.9em; color: #666;">Price: $${price.toFixed(2)} | Holdings: ${holdings} shares</div>
                         <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)} | Sector: ${stockInfo.sector || 'N/A'}</div>
+                        ${stockHolding && typeof stockHolding === 'object' && holdings > 0 ? 
+                            (() => {
+                                const totalCost = stockHolding.totalCost;
+                                const currentValue = holdings * price;
+                                const profit = currentValue - totalCost;
+                                const profitPercent = ((profit / totalCost) * 100).toFixed(1);
+                                const profitColor = profit >= 0 ? '#28a745' : '#dc3545';
+                                const avgCost = totalCost / holdings;
+                                return `<div style="font-size: 0.9em; color: ${profitColor}; font-weight: bold;">Avg Cost: $${avgCost.toFixed(2)} | Profit: ${profit >= 0 ? '+' : ''}$${profit.toFixed(2)} (${profitPercent}%)</div>`;
+                            })() : ''
+                        }
                         <div style="font-size: 0.85em; color: ${changeColor}; font-weight: bold;">${changeSymbol}${priceChange.toFixed(1)}% this month</div>
                     </div>
                 </div>
@@ -1838,12 +1988,17 @@ class SimLifeGame {
     }
     
     getAvailableProperties() {
+        // Initialize base prices if not set
+        if (Object.keys(this.gameState.realEstatePrices).length === 0) {
+            this.initializeRealEstatePrices();
+        }
+        
         return [
             {
                 id: 'studio_apartment',
                 name: 'Studio Apartment',
                 emoji: '🏠',
-                price: 150000,
+                price: this.gameState.realEstatePrices.studio_apartment || 150000,
                 maintenance: 800,
                 propertyTax: 188, // ~1.5% annually / 12 months
                 description: 'Compact downtown studio, perfect for young professionals'
@@ -1852,7 +2007,7 @@ class SimLifeGame {
                 id: 'one_bedroom_condo',
                 name: '1BR Condo',
                 emoji: '🏢',
-                price: 220000,
+                price: this.gameState.realEstatePrices.one_bedroom_condo || 220000,
                 maintenance: 950,
                 propertyTax: 275, // ~1.5% annually / 12 months
                 description: 'Modern condo with amenities and city views'
@@ -1861,7 +2016,7 @@ class SimLifeGame {
                 id: 'two_bedroom_house',
                 name: '2BR House',
                 emoji: '🏡',
-                price: 320000,
+                price: this.gameState.realEstatePrices.two_bedroom_house || 320000,
                 maintenance: 1200,
                 propertyTax: 400, // ~1.5% annually / 12 months
                 description: 'Suburban house with yard and garage'
@@ -1870,7 +2025,7 @@ class SimLifeGame {
                 id: 'three_bedroom_house',
                 name: '3BR Family House',
                 emoji: '🏘️',
-                price: 450000,
+                price: this.gameState.realEstatePrices.three_bedroom_house || 450000,
                 maintenance: 1500,
                 propertyTax: 563, // ~1.5% annually / 12 months
                 description: 'Spacious family home in good neighborhood'
@@ -1879,7 +2034,7 @@ class SimLifeGame {
                 id: 'luxury_penthouse',
                 name: 'Luxury Penthouse',
                 emoji: '🏰',
-                price: 800000,
+                price: this.gameState.realEstatePrices.luxury_penthouse || 800000,
                 maintenance: 2500,
                 propertyTax: 1000, // ~1.5% annually / 12 months
                 description: 'Premium penthouse with panoramic city views'
@@ -1888,7 +2043,7 @@ class SimLifeGame {
                 id: 'vacation_cabin',
                 name: 'Mountain Cabin',
                 emoji: '🏔️',
-                price: 280000,
+                price: this.gameState.realEstatePrices.vacation_cabin || 280000,
                 maintenance: 600,
                 propertyTax: 350, // ~1.5% annually / 12 months
                 description: 'Peaceful retreat in the mountains, rental income potential'
@@ -1897,7 +2052,7 @@ class SimLifeGame {
                 id: 'luxury_mansion',
                 name: 'Luxury Mansion',
                 emoji: '🏛️',
-                price: 1500000,
+                price: this.gameState.realEstatePrices.luxury_mansion || 1500000,
                 maintenance: 4000,
                 propertyTax: 1875, // ~1.5% annually / 12 months
                 description: 'Grand estate with multiple bedrooms, expansive grounds, and premium amenities'
@@ -1907,39 +2062,168 @@ class SimLifeGame {
                 id: 'studio_rental',
                 name: 'Studio Apartment (Rental)',
                 emoji: '🏠',
-                rentPrice: 1200,
+                rentPrice: this.gameState.realEstatePrices.studio_rental || 1200,
                 type: 'rental',
-                deposit: 2400, // 2 months rent
+                deposit: (this.gameState.realEstatePrices.studio_rental || 1200) * 2, // 2 months rent
                 description: 'Small but modern studio apartment for rent in downtown area'
             },
             {
                 id: 'one_bedroom_rental',
                 name: '1BR Apartment (Rental)',
                 emoji: '🏢',
-                rentPrice: 1600,
+                rentPrice: this.gameState.realEstatePrices.one_bedroom_rental || 1600,
                 type: 'rental',
-                deposit: 3200, // 2 months rent
+                deposit: (this.gameState.realEstatePrices.one_bedroom_rental || 1600) * 2, // 2 months rent
                 description: 'Comfortable one-bedroom apartment with kitchen and living area'
             },
             {
                 id: 'two_bedroom_rental',
                 name: '2BR House (Rental)',
                 emoji: '🏡',
-                rentPrice: 2200,
+                rentPrice: this.gameState.realEstatePrices.two_bedroom_rental || 2200,
                 type: 'rental',
-                deposit: 4400, // 2 months rent
+                deposit: (this.gameState.realEstatePrices.two_bedroom_rental || 2200) * 2, // 2 months rent
                 description: 'Spacious two-bedroom house with yard and parking'
             },
             {
                 id: 'luxury_apartment_rental',
                 name: 'Luxury Apartment (Rental)',
                 emoji: '🏰',
-                rentPrice: 3500,
+                rentPrice: this.gameState.realEstatePrices.luxury_apartment_rental || 3500,
                 type: 'rental',
-                deposit: 7000, // 2 months rent
+                deposit: (this.gameState.realEstatePrices.luxury_apartment_rental || 3500) * 2, // 2 months rent
                 description: 'High-end apartment with premium amenities and city views'
             }
         ];
+    }
+    
+    // Initialize real estate prices with base values
+    initializeRealEstatePrices() {
+        this.gameState.realEstatePrices = {
+            // Purchase properties
+            studio_apartment: 150000,
+            one_bedroom_condo: 220000,
+            two_bedroom_house: 320000,
+            three_bedroom_house: 450000,
+            luxury_penthouse: 800000,
+            vacation_cabin: 280000,
+            luxury_mansion: 1500000,
+            
+            // Rental properties
+            studio_rental: 1200,
+            one_bedroom_rental: 1600,
+            two_bedroom_rental: 2200,
+            luxury_apartment_rental: 3500
+        };
+    }
+    
+    // Update real estate prices monthly with reasonable fluctuations
+    updateRealEstatePrices() {
+        Object.keys(this.gameState.realEstatePrices).forEach(propertyId => {
+            const currentPrice = this.gameState.realEstatePrices[propertyId];
+            
+            // Price change between -3% to +5% monthly (realistic market fluctuation)
+            const changePercent = this.randomBetweenInt(-3, 5) / 100;
+            const newPrice = Math.round(currentPrice * (1 + changePercent));
+            
+            // Ensure minimum price floors to prevent unrealistic crashes
+            const minPrice = this.getMinimumPrice(propertyId);
+            this.gameState.realEstatePrices[propertyId] = Math.max(newPrice, minPrice);
+        });
+        
+        // Log significant price changes occasionally
+        if (this.gameState.currentMonth % 6 === 0) { // Every 6 months
+            this.log('📈 Real estate market update: Property prices have adjusted based on market conditions.', 'info');
+        }
+    }
+    
+    getMinimumPrice(propertyId) {
+        // Set minimum prices to prevent unrealistic crashes (80% of original base price)
+        const minimumPrices = {
+            studio_apartment: 120000,
+            one_bedroom_condo: 176000,
+            two_bedroom_house: 256000,
+            three_bedroom_house: 360000,
+            luxury_penthouse: 640000,
+            vacation_cabin: 224000,
+            luxury_mansion: 1200000,
+            
+            studio_rental: 960,
+            one_bedroom_rental: 1280,
+            two_bedroom_rental: 1760,
+            luxury_apartment_rental: 2800
+        };
+        
+        return minimumPrices[propertyId] || 50000;
+    }
+    
+    // Ask parents for financial help with 5-month cooldown and cash requirement
+    askParentsForHelp() {
+        // Check cash requirement first
+        if (this.gameState.portfolio.cash >= 2000) {
+            throw new Error('You can only ask your parents for help when you have less than $2,000 cash. You currently have enough money to manage on your own.');
+        }
+        
+        const monthsSinceLastHelp = this.gameState.currentMonth - this.gameState.lastParentHelpMonth;
+        
+        if (monthsSinceLastHelp < 5) {
+            const monthsRemaining = 5 - monthsSinceLastHelp;
+            throw new Error(`You can only ask your parents for help every 5 months. Wait ${monthsRemaining} more month${monthsRemaining > 1 ? 's' : ''}.`);
+        }
+        
+        // Random amount between $1,500 and $3,000
+        const helpAmount = this.randomBetweenInt(1500, 3000);
+        
+        this.gameState.portfolio.cash += helpAmount;
+        this.gameState.lastParentHelpMonth = this.gameState.currentMonth;
+        
+        this.recordCashFlow('income', helpAmount, 'Help from Parents', 'family');
+        
+        // Random supportive messages from parents
+        const parentMessages = [
+            "💝 Your parents sent you money to help with expenses. They believe in your future!",
+            "👨‍👩‍👧‍👦 Your parents want to support your independence. Use this money wisely!",
+            "💰 Your parents know life is tough and sent some financial assistance. They're proud of you!",
+            "🏠 Your parents said 'Every young adult needs help sometimes.' They love and support you!",
+            "💖 Your parents transferred money with a note: 'Invest in yourself and your future!'"
+        ];
+        
+        const randomMessage = parentMessages[Math.floor(Math.random() * parentMessages.length)];
+        this.log(`${randomMessage} (+$${helpAmount.toLocaleString()})`, 'positive');
+        
+        // Update button state
+        this.updateParentHelpButton();
+    }
+    
+    // Update the parent help button state based on cash and cooldown requirements
+    updateParentHelpButton() {
+        const button = document.getElementById('ask-parents-help-btn');
+        if (!button) return;
+        
+        const monthsSinceLastHelp = this.gameState.currentMonth - this.gameState.lastParentHelpMonth;
+        const cashRequirement = this.gameState.portfolio.cash < 2000;
+        
+        // Check cash requirement first
+        if (!cashRequirement) {
+            button.disabled = true;
+            button.style.background = '#95a5a6';
+            button.style.cursor = 'not-allowed';
+            button.textContent = '👨‍👩‍👧‍👦 Too Much Cash';
+            button.title = 'You can only ask for help when you have less than $2,000 cash';
+        } else if (monthsSinceLastHelp < 5) {
+            const monthsRemaining = 5 - monthsSinceLastHelp;
+            button.disabled = true;
+            button.style.background = '#95a5a6';
+            button.style.cursor = 'not-allowed';
+            button.textContent = `👨‍👩‍👧‍👦 Ask Parents (${monthsRemaining}mo)`;
+            button.title = `Wait ${monthsRemaining} more month${monthsRemaining > 1 ? 's' : ''} before asking again`;
+        } else {
+            button.disabled = false;
+            button.style.background = '#e74c3c';
+            button.style.cursor = 'pointer';
+            button.textContent = '👨‍👩‍👧‍👦 Ask Parents';
+            button.title = 'Ask your parents for financial help ($1,500-$3,000)';
+        }
     }
     
     buyProperty(propertyId) {
@@ -2318,6 +2602,17 @@ class SimLifeGame {
             this.log(`🍀 Your ${luckLevel} luck (${this.gameState.playerStatus.luck}) helps you avoid some unfortunate events.`, 'positive');
         }
         
+        // Vary relationship costs monthly
+        this.varyRelationshipCosts();
+        
+        // Add contextual stock investment tips periodically
+        if (this.gameState.currentMonth % 3 === 0) { // Every 3 months
+            this.addStockInvestmentTips();
+        }
+        
+        // Update real estate prices monthly
+        this.updateRealEstatePrices();
+        
         this.processEvent();
         this.advanceMonth();
         
@@ -2432,6 +2727,9 @@ class SimLifeGame {
         
         // Update seasonal background
         this.updateSeasonalBackground();
+        
+        // Update parent help button state
+        this.updateParentHelpButton();
         
         // Update assets panel
         this.updateAssetsPanel();
@@ -3477,6 +3775,100 @@ class SimLifeGame {
         logArea.scrollTop = logArea.scrollHeight;
     }
     
+    // News Ticker System
+    initNewsTicker() {
+        this.newsQueue = [
+            "💡 Keep most of your money in the bank or investments to protect it from theft and emergencies!",
+            "📈 Start investing in stocks early! Even small amounts can grow significantly over time with compound returns.",
+            "🚀 Technology stocks like AAPL and NVDA have shown strong historical performance - consider adding them to your portfolio!",
+            "💎 Blue-chip stocks like Microsoft (MSFT) and Johnson & Johnson (JNJ) offer stability and steady growth.",
+            "📊 Dollar-cost averaging: Invest the same amount regularly regardless of stock prices to reduce timing risk.",
+            "🎯 Diversify your stock portfolio across different sectors: tech, healthcare, finance, and consumer goods.",
+            "💰 Stock market historically outperforms cash savings - don't let inflation erode your wealth!",
+            "📈 Check stock prices regularly and buy during market dips for better entry points.",
+            "🏦 High-yield savings accounts earn 3% annually, but stocks can provide much higher long-term returns!",
+            "🔄 Reinvest your stock profits to accelerate wealth building through compound growth.",
+            "🎲 Only invest money you can afford to lose - never invest emergency funds or rent money!",
+            "⏰ Time in the market beats timing the market - start investing now rather than waiting for the 'perfect' moment.",
+            "🏠 Real estate provides steady rental income, but stocks offer better liquidity and lower entry costs.",
+            "💼 Your Professional Skills (PSP) increase over time - higher skills can lead to better job opportunities!",
+            "🍀 Higher luck reduces the chance of negative random events affecting your finances.",
+            "👶 Family expenses increase significantly with marriage and children - build wealth early to prepare!",
+            "💻 Tech giants like Apple (AAPL) and Google (GOOGL) have been market leaders - consider adding tech stocks to your portfolio!",
+            "🏥 Healthcare stocks like Johnson & Johnson (JNJ) provide defensive stability during market volatility.",
+            "🏦 Financial stocks like JPMorgan Chase (JPM) and Bank of America (BAC) benefit from rising interest rates.",
+            "⚡ NVIDIA (NVDA) has seen explosive growth in AI and gaming - high risk but potentially high reward!",
+            "🛒 Consumer staples like Coca-Cola (KO) and Procter & Gamble (PG) offer steady dividend income.",
+            "🔋 Tesla (TSLA) represents the future of electric vehicles and clean energy innovation.",
+            "📱 Microsoft (MSFT) dominates cloud computing and enterprise software - a solid long-term investment.",
+            "👨‍👩‍👧‍👦 Your parents can help financially when you have less than $2,000 cash, but only every 5 months!"
+        ];
+        this.currentNewsIndex = 0;
+        this.showNextNews();
+    }
+    
+    showNextNews() {
+        if (this.newsQueue.length === 0) return;
+        
+        const newsContent = document.getElementById('news-ticker-content');
+        const currentNews = this.newsQueue[this.currentNewsIndex];
+        
+        newsContent.innerHTML = `<span class="news-item">${currentNews}</span>`;
+        
+        // Move to next news item (cycle through all items)
+        this.currentNewsIndex = (this.currentNewsIndex + 1) % this.newsQueue.length;
+        
+        // Change news every 30 seconds (matching animation duration)
+        setTimeout(() => this.showNextNews(), 30000);
+    }
+    
+    addNewsMessage(message) {
+        // Add a custom message to the news queue
+        this.newsQueue.push(message);
+    }
+    
+    // Add contextual stock investment encouragement based on game state
+    addStockInvestmentTips() {
+        const cash = this.gameState.portfolio.cash;
+        const stockValue = this.calculateStockPortfolioValue();
+        const age = this.gameState.ageYears;
+        
+        // Encourage first-time stock investment
+        if (stockValue === 0 && cash > 1000) {
+            this.addNewsMessage("🌟 You have over $1,000 in cash! Consider making your first stock investment to start building wealth.");
+        }
+        
+        // Encourage diversification
+        const stockCount = Object.keys(this.gameState.portfolio.stocks).length;
+        if (stockCount === 1 && stockValue > 500) {
+            this.addNewsMessage("🎯 You own 1 stock - consider diversifying with 2-3 different stocks to reduce risk!");
+        }
+        
+        // Age-based investment advice
+        if (age <= 30 && stockValue < cash * 0.3) {
+            this.addNewsMessage("⚡ You're young! Consider investing 30-50% of your wealth in stocks for long-term growth.");
+        }
+        
+        // Large cash position warning
+        if (cash > 5000 && stockValue < cash * 0.2) {
+            this.addNewsMessage("💸 Warning: Large cash position detected! Inflation is eroding your buying power - consider stock investments.");
+        }
+    }
+    
+    calculateStockPortfolioValue() {
+        let totalValue = 0;
+        Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, holding]) => {
+            const shares = typeof holding === 'number' ? holding : holding.shares;
+            if (shares > 0) {
+                const price = this.getStockPrice(symbol);
+                if (price !== undefined) {
+                    totalValue += shares * price;
+                }
+            }
+        });
+        return totalValue;
+    }
+    
     updateAssetsPanel() {
         // Update cash, bank, and savings
         document.getElementById('asset-cash').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
@@ -3486,16 +3878,24 @@ class SimLifeGame {
         // Update stocks
         const stocksList = document.getElementById('stocks-list');
         stocksList.innerHTML = '';
-        Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, shares]) => {
+        Object.entries(this.gameState.portfolio.stocks).forEach(([symbol, holding]) => {
+            // Handle both old format (number) and new format (object)
+            const shares = typeof holding === 'number' ? holding : holding.shares;
+            const totalCost = typeof holding === 'number' ? shares * 50 : holding.totalCost; // Fallback for old saves
+            
             if (shares > 0) {
                 const price = this.getStockPrice(symbol);
                 if (price !== undefined) {
-                    const value = shares * price;
+                    const currentValue = shares * price;
+                    const profit = currentValue - totalCost;
+                    const profitPercent = ((profit / totalCost) * 100).toFixed(1);
+                    const profitColor = profit >= 0 ? '#28a745' : '#dc3545';
+                    
                     const div = document.createElement('div');
                     div.className = 'asset-item';
                     div.innerHTML = `
                         <span class="asset-name">${symbol} (${shares} shares)</span>
-                        <span class="asset-value">$${value.toFixed(2)}</span>
+                        <span class="asset-value">$${currentValue.toFixed(2)} <small style="color: ${profitColor};">(${profit >= 0 ? '+' : ''}${profitPercent}%)</small></span>
                     `;
                     stocksList.appendChild(div);
                 }
@@ -3669,27 +4069,27 @@ class SimLifeGame {
         }
         
         if (event.effects.energy) {
-            this.gameState.playerStatus.energy = Math.max(1, Math.min(100, 
+            this.gameState.playerStatus.energy = Math.max(1, Math.min(this.gameState.maxPlayerStatus.energy, 
                 this.gameState.playerStatus.energy + event.effects.energy));
         }
         
         if (event.effects.focus) {
-            this.gameState.playerStatus.focus = Math.max(1, Math.min(100, 
+            this.gameState.playerStatus.focus = Math.max(1, Math.min(this.gameState.maxPlayerStatus.focus, 
                 this.gameState.playerStatus.focus + event.effects.focus));
         }
         
         if (event.effects.wisdom) {
-            this.gameState.playerStatus.wisdom = Math.max(1, Math.min(100, 
+            this.gameState.playerStatus.wisdom = Math.max(1, Math.min(this.gameState.maxPlayerStatus.wisdom, 
                 this.gameState.playerStatus.wisdom + event.effects.wisdom));
         }
         
         if (event.effects.charm) {
-            this.gameState.playerStatus.charm = Math.max(1, Math.min(100, 
+            this.gameState.playerStatus.charm = Math.max(1, Math.min(this.gameState.maxPlayerStatus.charm, 
                 this.gameState.playerStatus.charm + event.effects.charm));
         }
         
         if (event.effects.luck) {
-            this.gameState.playerStatus.luck = Math.max(1, Math.min(100, 
+            this.gameState.playerStatus.luck = Math.max(1, Math.min(this.gameState.maxPlayerStatus.luck, 
                 this.gameState.playerStatus.luck + event.effects.luck));
         }
         
@@ -3772,10 +4172,7 @@ class SimLifeGame {
                 // Player owns properties - no rent but has maintenance/tax
                 // (These are handled in the property section below)
             } else {
-                // Player lives with parents - small contribution for groceries/utilities
-                const parentContribution = 300; // Small contribution for living expenses
-                totalExpenses += parentContribution;
-                this.addExpenseItem(container, '🏠 Living with Parents (Contribution)', parentContribution);
+                // Player lives with parents - no housing costs!
             }
         }
         
@@ -3827,6 +4224,20 @@ class SimLifeGame {
             this.addExpenseItem(container, `🏛️ ${propertyName} Property Tax`, property.propertyTax);
             totalExpenses += property.propertyTax;
         });
+        
+        // Relationship and family costs
+        if (this.gameState.monthlyDatingCost > 0) {
+            this.addExpenseItem(container, '💕 Dating Expenses', this.gameState.monthlyDatingCost);
+            totalExpenses += this.gameState.monthlyDatingCost;
+        }
+        
+        if (this.gameState.monthlyFamilyCost > 0) {
+            const familyLabel = this.gameState.childrenCount > 0 ? 
+                `👨‍👩‍👧‍👦 Family & Children (${this.gameState.childrenCount} kids)` : 
+                '💍 Marriage Expenses';
+            this.addExpenseItem(container, familyLabel, this.gameState.monthlyFamilyCost);
+            totalExpenses += this.gameState.monthlyFamilyCost;
+        }
         
         // Pet maintenance costs
         this.gameState.pets.forEach((pet, index) => {
@@ -3951,7 +4362,7 @@ class SimLifeGame {
             
             if (winAmount > 0) {
                 totalWinnings += winAmount;
-                this.log(`🎰 LOTTERY WIN! ${matches} matches (${matchingNumbers.join(', ')}): $${winAmount.toLocaleString()} (Ticket: ${ticket.numbers.join(', ')})`, 'success');
+                this.log(`🎰 LOTTERY WIN! ${matches} matches (${matchingNumbers.join(', ')}): $${winAmount.toLocaleString()} (Ticket: ${ticket.numbers.join(', ')})`, 'lottery');
             } else if (matches > 0) {
                 this.log(`🎰 Lottery ticket had ${matches} match(es) (${matchingNumbers.join(', ')}) but no prize (Ticket: ${ticket.numbers.join(', ')})`, 'info');
             }

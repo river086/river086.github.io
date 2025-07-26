@@ -52,22 +52,88 @@
         }
         
         .status-card {
-            background: white;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 18px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
+            border: 2px solid #dee2e6;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .status-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .status-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--card-accent, #6c757d);
+        }
+        
+        /* Age Card - Life/Time Theme */
+        .status-card:nth-child(1) {
+            --card-accent: #17a2b8;
+            background: linear-gradient(135deg, #e8f4f8 0%, #d1ecf1 100%);
+            border-color: #17a2b8;
+        }
+        
+        /* Cash Card - Money Theme */
+        .status-card:nth-child(2) {
+            --card-accent: #28a745;
+            background: linear-gradient(135deg, #e8f5e9 0%, #d4edda 100%);
+            border-color: #28a745;
+        }
+        
+        /* Net Worth Card - Wealth Theme */
+        .status-card:nth-child(3) {
+            --card-accent: #ffc107;
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+            border-color: #ffc107;
+        }
+        
+        /* Profession Card - Career Theme */
+        .status-card:nth-child(4) {
+            --card-accent: #6f42c1;
+            background: linear-gradient(135deg, #f0ebf8 0%, #e2d9f3 100%);
+            border-color: #6f42c1;
+        }
+        
+        /* Happiness Card - Emotion Theme */
+        .status-card:nth-child(5) {
+            --card-accent: #e91e63;
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+            border-color: #e91e63;
+        }
+        
+        /* Monthly Expenses Card - Cost Theme */
+        .status-card:nth-child(6) {
+            --card-accent: #dc3545;
+            background: linear-gradient(135deg, #f8e6e7 0%, #f1aeb5 100%);
+            border-color: #dc3545;
         }
         
         .status-value {
-            font-size: 1.5em;
+            font-size: 1.6em;
             font-weight: bold;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+            color: #2c3e50;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         }
         
         .status-label {
-            color: #666;
-            font-size: 0.9em;
+            color: #495057;
+            font-size: 0.95em;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
         .progress-bar {
@@ -188,6 +254,57 @@
         .log-success { background: #e8f5e8; }
         .log-warning { background: #fff3cd; }
         .log-error { background: #f8d7da; }
+        .log-positive { background: #d4edda; }
+        .log-lottery { background: #cce7ff; color: #0066cc; font-weight: bold; }
+        .log-loss { background: #ffe6e6; color: #cc0000; }
+        
+        /* News Ticker Styles */
+        .news-ticker {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 8px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            border-top: 2px solid #0066cc;
+            border-bottom: 2px solid #0066cc;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .news-ticker-content {
+            display: inline-block;
+            animation: scroll-left 30s linear infinite;
+            padding-left: 100%;
+        }
+        
+        .news-item {
+            font-size: 14px;
+            font-weight: 500;
+            margin-right: 50px;
+            display: inline-block;
+        }
+        
+        @keyframes scroll-left {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+        
+        .news-ticker:hover .news-ticker-content {
+            animation-play-state: paused;
+        }
+        
+        /* Responsive news ticker for mobile */
+        @media (max-width: 768px) {
+            .news-ticker {
+                padding: 6px 0;
+            }
+            .news-item {
+                font-size: 12px;
+            }
+            .news-ticker-content {
+                animation-duration: 25s;
+            }
+        }
         
         .portfolio-grid {
             display: grid;
@@ -678,7 +795,21 @@
             
             .game-status {
                 grid-template-columns: repeat(2, 1fr);
-                gap: 10px;
+                gap: 12px;
+            }
+            
+            .status-card {
+                padding: 14px;
+                border-radius: 12px;
+            }
+            
+            .status-value {
+                font-size: 1.3em;
+                margin-bottom: 6px;
+            }
+            
+            .status-label {
+                font-size: 0.85em;
             }
             
             .profession-grid {
@@ -1264,6 +1395,74 @@
                 grid-template-columns: repeat(4, 1fr);
             }
         }
+        
+        /* Celebration Effects */
+        .celebration-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .celebration-message {
+            background: rgba(255, 255, 255, 0.95);
+            border: 3px solid #ffd700;
+            border-radius: 20px;
+            padding: 30px 40px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            animation: celebrationPulse 2s ease-in-out;
+        }
+        
+        .celebration-emoji {
+            display: block;
+            font-size: 48px;
+            margin-bottom: 15px;
+            animation: celebrationBounce 1s ease-in-out infinite alternate;
+        }
+        
+        @keyframes celebrationPulse {
+            0% { transform: scale(0.5); opacity: 0; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        @keyframes celebrationBounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+        
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #ffd700;
+            animation: confettiFall 3s linear infinite;
+        }
+        
+        @keyframes confettiFall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+        
+        .confetti:nth-child(1) { left: 10%; animation-delay: 0s; background: #ff6b6b; }
+        .confetti:nth-child(2) { left: 20%; animation-delay: 0.2s; background: #4ecdc4; }
+        .confetti:nth-child(3) { left: 30%; animation-delay: 0.4s; background: #45b7d1; }
+        .confetti:nth-child(4) { left: 40%; animation-delay: 0.6s; background: #96ceb4; }
+        .confetti:nth-child(5) { left: 50%; animation-delay: 0.8s; background: #feca57; }
+        .confetti:nth-child(6) { left: 60%; animation-delay: 1s; background: #ff9ff3; }
+        .confetti:nth-child(7) { left: 70%; animation-delay: 1.2s; background: #54a0ff; }
+        .confetti:nth-child(8) { left: 80%; animation-delay: 1.4s; background: #5f27cd; }
+        .confetti:nth-child(9) { left: 90%; animation-delay: 1.6s; background: #00d2d3; }
     </style>
 </head>
 <body>
@@ -1287,31 +1486,38 @@
             <div class="game-status">
                 <div class="status-card">
                     <div class="status-value" id="age">24</div>
-                    <div class="status-label">Age</div>
+                    <div class="status-label">🎂 Age</div>
                 </div>
                 <div class="status-card">
                     <div class="status-value" id="cash">$500</div>
-                    <div class="status-label">Cash</div>
+                    <div class="status-label">💵 Cash</div>
                 </div>
                 <div class="status-card">
                     <div class="status-value" id="net-worth">$3,500</div>
-                    <div class="status-label">Net Worth</div>
+                    <div class="status-label">💎 Net Worth</div>
                 </div>
                 <div class="status-card">
                     <div class="status-value" id="profession">Loading...</div>
-                    <div class="status-label">Profession</div>
+                    <div class="status-label">💼 Profession</div>
                 </div>
                 <div class="status-card">
                     <div class="status-value" id="happiness">50 / 1000</div>
-                    <div class="status-label">Happiness</div>
+                    <div class="status-label">😊 Happiness</div>
                 </div>
                 <div class="status-card" onclick="showExpenseBreakdown()" style="cursor: pointer;" title="Click for detailed breakdown">
                     <div class="status-value" id="monthly-expenses">$0</div>
-                    <div class="status-label">Monthly Expenses</div>
+                    <div class="status-label">📊 Monthly Expenses</div>
                 </div>
             </div>
             <div class="progress-bar">
                 <div class="progress-fill" id="month-progress" style="width: 100%; background: linear-gradient(90deg, #2196F3, #1976D2);">Ready for Actions</div>
+            </div>
+        </div>
+        
+        <!-- News Ticker -->
+        <div class="news-ticker" id="news-ticker">
+            <div class="news-ticker-content" id="news-ticker-content">
+                <span class="news-item">💡 Consider depositing excess cash in the bank! Cash on hand is vulnerable to theft and emergencies, but bank deposits are protected.</span>
             </div>
         </div>
         
@@ -1333,6 +1539,7 @@
                     <button class="btn" onclick="showStockInfo()" style="background: #6f42c1;">📈 Market Info</button>
                     <button class="btn" onclick="showStockTradingModal()" style="background: #007bff;">📈 Stocks</button>
                     <button class="btn" onclick="showCryptoTradingModal()" style="background: #ff6b35;">₿ Crypto</button>
+                    <button class="btn" id="ask-parents-help-btn" onclick="askParentsForHelp()" style="background: #e74c3c;">👨‍👩‍👧‍👦 Ask Parents</button>
                 </div>
                 
                 <!-- Assets & Property -->
@@ -1876,7 +2083,7 @@
                 
                 <!-- Ticket Purchase Section -->
                 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
-                    <h3 style="color: #856404; margin-bottom: 15px;">🎫 Buy Lottery Ticket - $2</h3>
+                    <h3 style="color: #856404; margin-bottom: 15px;">🎫 Buy Lottery Ticket - $5</h3>
                     <p style="margin-bottom: 15px;">Select 6 numbers between 1-49:</p>
                     
                     <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; margin-bottom: 15px;">
@@ -2221,6 +2428,19 @@
                 game.updateUI();
             } catch (error) {
                 alert(error.message);
+            }
+        }
+        
+        function askParentsForHelp() {
+            if (game && game.gameState.gameStarted) {
+                try {
+                    game.askParentsForHelp();
+                    game.updateUI();
+                } catch (error) {
+                    alert(error.message);
+                }
+            } else {
+                alert('Please start the game first.');
             }
         }
         
@@ -3068,13 +3288,13 @@
                 psp: 50 + Math.floor(Math.random() * 101)       // 50-150
             };
             
-            // Update display with max values
-            document.getElementById('stat-energy').textContent = `${baseStats.energy}/100`;
-            document.getElementById('stat-focus').textContent = `${baseStats.focus}/100`;
-            document.getElementById('stat-wisdom').textContent = `${baseStats.wisdom}/100`;
-            document.getElementById('stat-charm').textContent = `${baseStats.charm}/100`;
-            document.getElementById('stat-luck').textContent = `${baseStats.luck}/100`;
-            document.getElementById('stat-psp').textContent = `${baseStats.psp}/150`;
+            // Update display (random values are the max values, so just show the value)
+            document.getElementById('stat-energy').textContent = `${baseStats.energy}`;
+            document.getElementById('stat-focus').textContent = `${baseStats.focus}`;
+            document.getElementById('stat-wisdom').textContent = `${baseStats.wisdom}`;
+            document.getElementById('stat-charm').textContent = `${baseStats.charm}`;
+            document.getElementById('stat-luck').textContent = `${baseStats.luck}`;
+            document.getElementById('stat-psp').textContent = `${baseStats.psp}`;
             
             // Store stats for later use
             window.playerSetupStats = baseStats;
@@ -3128,6 +3348,36 @@
                 document.getElementById('player-portrait-display').textContent = window.playerSetupData.portrait;
                 document.getElementById('player-info').style.display = 'block';
             }
+        }
+        
+        // Celebration Effects Function
+        function showCelebration(emoji, message, confettiColor = '#ffd700') {
+            // Create celebration overlay
+            const overlay = document.createElement('div');
+            overlay.className = 'celebration-overlay';
+            
+            // Create confetti
+            for (let i = 0; i < 9; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                overlay.appendChild(confetti);
+            }
+            
+            // Create celebration message
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'celebration-message';
+            messageDiv.innerHTML = `
+                <span class="celebration-emoji">${emoji}</span>
+                ${message}
+            `;
+            
+            overlay.appendChild(messageDiv);
+            document.body.appendChild(overlay);
+            
+            // Remove overlay after animation
+            setTimeout(() => {
+                overlay.remove();
+            }, 3000);
         }
     </script>
     <script src="game.js"></script>
