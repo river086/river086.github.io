@@ -1334,6 +1334,7 @@
                 <button class="btn" onclick="showPetsModal()" style="background: #ff69b4;">🐾 Pets</button>
                 <button class="btn" onclick="doOneTimeSideJob()" style="background: #fd7e14;">💼 Side Job</button>
                 <button class="btn" onclick="showLotteryModal()" style="background: #ffc107;">🎰 Lottery</button>
+                <button class="btn" onclick="showSelfLearningModal()" style="background: #6f42c1;">📚 Self Learning</button>
             </div>
             
             <div class="game-panel">
@@ -1417,6 +1418,7 @@
                 <button class="btn" onclick="game.endTurn()" style="background: #4CAF50;">End Turn</button>
                 <button class="btn" onclick="showPlayerStatus()" style="background: #6f42c1;">👤 Status</button>
                 <button class="btn" onclick="showCashFlowHistory()" style="background: #17a2b8;">💰 Cash Flow</button>
+                <button class="btn" onclick="toggleBackgroundMusic()" id="music-toggle-btn" style="background: #ff6b35;">🎵 Music</button>
             </div>
         </div>
     </div>
@@ -1431,7 +1433,7 @@
                 <!-- Name Section -->
                 <div class="setup-section">
                     <h3>📝 Your Name</h3>
-                    <input type="text" id="player-name" placeholder="Enter your name..." maxlength="20" 
+                    <input type="text" id="player-name" placeholder="Enter your name (or leave empty for 'Guest')..." maxlength="20" 
                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; margin-top: 10px;">
                 </div>
                 
@@ -1449,27 +1451,27 @@
                     <div class="stats-display" id="stats-display">
                         <div class="stat-item">
                             <span class="stat-name">Energy</span>
-                            <span class="stat-value" id="stat-energy">75</span>
+                            <span class="stat-value" id="stat-energy">75/100</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-name">Focus</span>
-                            <span class="stat-value" id="stat-focus">70</span>
+                            <span class="stat-value" id="stat-focus">70/100</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-name">Wisdom</span>
-                            <span class="stat-value" id="stat-wisdom">65</span>
+                            <span class="stat-value" id="stat-wisdom">65/100</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-name">Charm</span>
-                            <span class="stat-value" id="stat-charm">60</span>
+                            <span class="stat-value" id="stat-charm">60/100</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-name">Luck</span>
-                            <span class="stat-value" id="stat-luck">55</span>
+                            <span class="stat-value" id="stat-luck">55/100</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-name">PSP</span>
-                            <span class="stat-value" id="stat-psp">50</span>
+                            <span class="stat-value" id="stat-psp">50/150</span>
                         </div>
                     </div>
                     <button class="btn" onclick="randomizeStats()" style="background: #17a2b8; margin-top: 15px; width: 100%;">
@@ -1744,7 +1746,9 @@
             <div class="event-description" id="event-popup-description">Event description goes here.</div>
             <div class="event-impact">
                 <div class="event-cost" id="event-popup-cost">Cost: $0</div>
-                <div class="event-happiness" id="event-popup-happiness">Happiness: +0</div>
+                <div class="event-effects" id="event-popup-effects" style="margin-top: 10px;">
+                    <!-- All stat effects will be displayed here -->
+                </div>
             </div>
             <button class="btn" onclick="closeEventPopup()" style="background: #2196F3;">Continue</button>
         </div>
@@ -1874,7 +1878,7 @@
                     <div style="display: flex; gap: 10px;">
                         <button class="btn" onclick="clearLotterySelection()" style="background: #6c757d;">Clear</button>
                         <button class="btn" onclick="randomLotteryNumbers()" style="background: #17a2b8;">Quick Pick</button>
-                        <button class="btn" onclick="buyLotteryTicket()" style="background: #28a745; flex: 1;">Buy Ticket ($2)</button>
+                        <button class="btn" onclick="buyLotteryTicket()" style="background: #28a745; flex: 1;">Buy Ticket ($5)</button>
                     </div>
                 </div>
                 
@@ -1899,6 +1903,32 @@
                     <div id="player-lottery-tickets">
                         No tickets purchased this month
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Self Learning Modal -->
+    <div class="stock-info-modal" id="self-learning-modal">
+        <div class="stock-info-content" style="max-width: 700px;">
+            <div class="stock-header">
+                <h2>📚 Self Learning Opportunities</h2>
+                <button class="btn" onclick="closeSelfLearningModal()" style="background: #dc3545;">✕ Close</button>
+            </div>
+            
+            <div style="padding: 20px;">
+                <p style="margin-bottom: 20px;">Invest in yourself! Choose a learning opportunity to improve your skills and stats.</p>
+                
+                <div id="learning-opportunities" style="display: grid; gap: 15px;">
+                    <!-- Learning opportunities will be populated here -->
+                </div>
+                
+                <div style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <h4 style="margin-bottom: 10px;">💡 Learning Benefits</h4>
+                    <p style="font-size: 0.9em; color: #666; margin: 5px 0;">• Each learning activity improves specific stats permanently</p>
+                    <p style="font-size: 0.9em; color: #666; margin: 5px 0;">• Higher stats unlock better side jobs and opportunities</p>
+                    <p style="font-size: 0.9em; color: #666; margin: 5px 0;">• Learning activities have cooldowns to prevent abuse</p>
+                    <p style="font-size: 0.9em; color: #666; margin: 5px 0;">• Investment in yourself pays dividends over time</p>
                 </div>
             </div>
         </div>
@@ -1955,6 +1985,23 @@
                 document.getElementById('cashflow-modal').style.display = 'flex';
             } else {
                 alert('Please start the game first to view cash flow history.');
+            }
+        }
+        
+        function toggleBackgroundMusic() {
+            if (game && game.gameState.gameStarted) {
+                game.toggleMusic();
+                // Update button text based on music state
+                const button = document.getElementById('music-toggle-btn');
+                if (game.musicEnabled) {
+                    button.textContent = '🎵 Music';
+                    button.style.background = '#ff6b35';
+                } else {
+                    button.textContent = '🔇 Music';
+                    button.style.background = '#6c757d';
+                }
+            } else {
+                alert('Please start the game first to control music.');
             }
         }
         
@@ -2775,6 +2822,145 @@
             }
         }
         
+        // Self Learning Modal Functions
+        function showSelfLearningModal() {
+            console.log('showSelfLearningModal called');
+            console.log('game:', game);
+            console.log('game.gameState:', game ? game.gameState : 'no game');
+            console.log('game.events:', game ? game.events : 'no events');
+            console.log('Total events loaded:', game ? game.events.length : 0);
+            
+            if (game && game.gameState.gameStarted) {
+                // Check if events are loaded
+                if (!game.events || game.events.length === 0) {
+                    alert('Events are still loading. Please wait a moment and try again.');
+                    return;
+                }
+                updateSelfLearningModal();
+                document.getElementById('self-learning-modal').style.display = 'flex';
+            } else {
+                alert('Please start the game first!');
+            }
+        }
+        
+        function closeSelfLearningModal() {
+            document.getElementById('self-learning-modal').style.display = 'none';
+        }
+        
+        function updateSelfLearningModal() {
+            const container = document.getElementById('learning-opportunities');
+            
+            // Get learning events from the game (filter learning category events)
+            console.log('All events:', game.events);
+            console.log('Event categories:', game.events.map(e => `${e.id}: ${e.category}`));
+            let learningEvents = game.events.filter(event => event.category === 'learning');
+            
+            // Fallback: If no learning events found in XML, create some manually
+            if (learningEvents.length === 0) {
+                console.log('No learning events found in XML, creating manual ones');
+                const fallbackLearningEvents = [
+                    {
+                        id: 'online_course',
+                        category: 'learning',
+                        description: 'Online Productivity Course',
+                        detailedDescription: 'Take an online course to improve your focus and time management skills.',
+                        costRange: [50, 200],
+                        effects: { focus: 3, wisdom: 1 },
+                        cooldown: 36,
+                        weight: 0.3
+                    },
+                    {
+                        id: 'financial_book',
+                        category: 'learning',
+                        description: 'Read Financial Book',
+                        detailedDescription: 'Study personal finance to improve your money management wisdom.',
+                        costRange: [20, 50],
+                        effects: { wisdom: 2, focus: 1 },
+                        cooldown: 24,
+                        weight: 0.4
+                    },
+                    {
+                        id: 'coding_bootcamp',
+                        category: 'learning',
+                        description: 'Coding Bootcamp',
+                        detailedDescription: 'Intensive programming course to significantly boost your technical skills.',
+                        costRange: [500, 1000],
+                        effects: { wisdom: 5, focus: 3 },
+                        cooldown: 60,
+                        weight: 0.1
+                    }
+                ];
+                
+                // Add fallback events to the main game.events array so triggerLearningEvent can find them
+                game.events.push(...fallbackLearningEvents);
+                learningEvents = fallbackLearningEvents;
+            }
+            console.log('Learning events found:', learningEvents.length);
+            console.log('Learning events:', learningEvents);
+            if (learningEvents.length > 0) {
+                console.log('Sample learning event:', learningEvents[0]);
+            }
+            
+            // Now learningEvents should always have content (either from XML or fallback)
+            if (learningEvents.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 20px; color: #666;">No learning opportunities available.</div>';
+                return;
+            }
+            
+            container.innerHTML = learningEvents.map(event => {
+                const isOnCooldown = game.eventCooldowns && game.eventCooldowns[event.id] && game.eventCooldowns[event.id] > 0;
+                const maxCost = event.costRange ? event.costRange[1] : 0;
+                const canAfford = game.gameState.portfolio.cash >= maxCost;
+                const cooldownInfo = isOnCooldown ? `(Available in ${game.eventCooldowns[event.id]} months)` : '';
+                
+                // Format stat benefits
+                const benefits = [];
+                const effects = event.effects || {};
+                if (effects.happiness > 0) benefits.push(`😊 +${effects.happiness} Happiness`);
+                if (effects.energy > 0) benefits.push(`⚡ +${effects.energy} Energy`);
+                if (effects.focus > 0) benefits.push(`🎯 +${effects.focus} Focus`);
+                if (effects.wisdom > 0) benefits.push(`🧠 +${effects.wisdom} Wisdom`);
+                if (effects.charm > 0) benefits.push(`💫 +${effects.charm} Charm`);
+                if (effects.luck > 0) benefits.push(`🍀 +${effects.luck} Luck`);
+                
+                const disabled = isOnCooldown || !canAfford ? 'disabled' : '';
+                const buttonStyle = disabled ? 'background: #6c757d; cursor: not-allowed;' : 'background: #28a745;';
+                
+                return `
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background: white;">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+                            <div style="flex: 1;">
+                                <h4 style="margin: 0 0 5px 0; color: #2c3e50;">${event.description}</h4>
+                                <p style="margin: 0; font-size: 0.9em; color: #666;">${event.detailedDescription}</p>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-weight: bold; color: #dc3545;">$${event.costRange ? event.costRange[0] : 0}-${event.costRange ? event.costRange[1] : 0}</div>
+                                <div style="font-size: 0.8em; color: #666;">${cooldownInfo}</div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 10px;">
+                            <strong>Benefits:</strong><br>
+                            <span style="font-size: 0.9em;">${benefits.join(' • ')}</span>
+                        </div>
+                        <button class="btn" onclick="startLearningActivity('${event.id}')" 
+                                style="${buttonStyle} padding: 8px 16px;" ${disabled}>
+                            ${isOnCooldown ? 'On Cooldown' : canAfford ? 'Start Learning' : 'Cannot Afford'}
+                        </button>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function startLearningActivity(eventId) {
+            try {
+                game.triggerLearningEvent(eventId);
+                updateSelfLearningModal();
+                game.updateUI();
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+        
         // Update pet display on main screen
         function updatePetDisplay() {
             const petsDisplay = document.getElementById('pets-display');
@@ -2867,30 +3053,22 @@
                 psp: 50 + Math.floor(Math.random() * 101)       // 50-150
             };
             
-            // Update display
-            document.getElementById('stat-energy').textContent = baseStats.energy;
-            document.getElementById('stat-focus').textContent = baseStats.focus;
-            document.getElementById('stat-wisdom').textContent = baseStats.wisdom;
-            document.getElementById('stat-charm').textContent = baseStats.charm;
-            document.getElementById('stat-luck').textContent = baseStats.luck;
-            document.getElementById('stat-psp').textContent = baseStats.psp;
+            // Update display with max values
+            document.getElementById('stat-energy').textContent = `${baseStats.energy}/100`;
+            document.getElementById('stat-focus').textContent = `${baseStats.focus}/100`;
+            document.getElementById('stat-wisdom').textContent = `${baseStats.wisdom}/100`;
+            document.getElementById('stat-charm').textContent = `${baseStats.charm}/100`;
+            document.getElementById('stat-luck').textContent = `${baseStats.luck}/100`;
+            document.getElementById('stat-psp').textContent = `${baseStats.psp}/150`;
             
             // Store stats for later use
             window.playerSetupStats = baseStats;
         }
         
         function startGameWithSetup() {
-            // Get player name
-            const playerName = document.getElementById('player-name').value.trim();
-            if (!playerName) {
-                alert('Please enter your name!');
-                return;
-            }
-            
-            if (playerName.length < 2) {
-                alert('Please enter a name with at least 2 characters!');
-                return;
-            }
+            // Get player name or use default "Guest"
+            const playerNameInput = document.getElementById('player-name').value.trim();
+            const playerName = playerNameInput || 'Guest';
             
             // Get selected portrait
             const portraits = [

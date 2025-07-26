@@ -746,4 +746,134 @@
         </detailedDescription>
     </event>
 
+    <!-- ──────────── LEARNING EVENTS ──────────── -->
+    <event id="online_course_productivity">
+        <category>learning</category>
+        <weight>0.3</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>50</min><max>200</max></costRange>
+        <effects><happiness>2</happiness><focus>3</focus></effects>
+        <description>Online productivity course</description>
+        <detailedDescription>
+            You enrolled in an online course about time management and productivity, gaining valuable focus skills.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 59 ──────────── -->
+    <event id="reading_financial_book">
+        <category>learning</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>20</min><max>50</max></costRange>
+        <effects><happiness>1</happiness><wisdom>2</wisdom></effects>
+        <description>Read financial planning book</description>
+        <detailedDescription>
+            You bought and read a book about personal finance, improving your wisdom about money management.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 60 ──────────── -->
+    <event id="public_speaking_workshop">
+        <category>learning</category>
+        <weight>0.2</weight>
+        <cooldown>48</cooldown>
+        <costRange><min>100</min><max>300</max></costRange>
+        <effects><happiness>1</happiness><charm>4</charm></effects>
+        <description>Public speaking workshop</description>
+        <detailedDescription>
+            You attended a weekend workshop on public speaking, significantly boosting your confidence and charm.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 61 ──────────── -->
+    <event id="coding_bootcamp">
+        <category>learning</category>
+        <weight>0.1</weight>
+        <cooldown>60</cooldown>
+        <costRange><min>500</min><max>1000</max></costRange>
+        <effects><happiness>2</happiness><wisdom>5</wisdom><focus>3</focus></effects>
+        <description>Coding bootcamp weekend</description>
+        <detailedDescription>
+            You invested in an intensive coding bootcamp, learning programming skills that boost your wisdom and focus.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 62 ──────────── -->
+    <event id="meditation_class">
+        <category>learning</category>
+        <weight>0.5</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>30</min><max>80</max></costRange>
+        <effects><happiness>3</happiness><energy>2</energy><focus>1</focus></effects>
+        <description>Meditation class</description>
+        <detailedDescription>
+            You joined a meditation class to manage stress, improving your energy, focus, and overall happiness.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 63 ──────────── -->
+    <event id="networking_event">
+        <category>learning</category>
+        <weight>0.3</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>25</min><max>100</max></costRange>
+        <effects><happiness>2</happiness><charm>2</charm><luck>1</luck></effects>
+        <description>Professional networking event</description>
+        <detailedDescription>
+            You attended a networking event, meeting new people and building connections that enhance your charm and luck.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 64 ──────────── -->
+    <event id="fitness_program">
+        <category>learning</category>
+        <weight>0.4</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>80</min><max>200</max></costRange>
+        <effects><happiness>3</happiness><energy>4</energy></effects>
+        <description>Fitness program enrollment</description>
+        <detailedDescription>
+            You started a structured fitness program, significantly improving your physical energy and mental well-being.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 65 ──────────── -->
+    <event id="language_app">
+        <category>learning</category>
+        <weight>0.6</weight>
+        <cooldown>6</cooldown>
+        <costRange><min>10</min><max>30</max></costRange>
+        <effects><happiness>1</happiness><wisdom>1</wisdom><charm>1</charm></effects>
+        <description>Language learning app</description>
+        <detailedDescription>
+            You subscribed to a language learning app and practiced regularly, improving multiple skills gradually.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 66 ──────────── -->
+    <event id="investment_seminar">
+        <category>learning</category>
+        <weight>0.2</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>150</min><max>400</max></costRange>
+        <effects><happiness>1</happiness><wisdom>3</wisdom><luck>2</luck></effects>
+        <description>Investment strategies seminar</description>
+        <detailedDescription>
+            You attended a seminar about investment strategies, gaining wisdom about markets and improving your financial luck.
+        </detailedDescription>
+    </event>
+
+    <!-- ──────────── 67 ──────────── -->
+    <event id="creative_workshop">
+        <category>learning</category>
+        <weight>0.3</weight>
+        <cooldown>30</cooldown>
+        <costRange><min>75</min><max>250</max></costRange>
+        <effects><happiness>4</happiness><focus>2</focus><charm>1</charm></effects>
+        <description>Creative arts workshop</description>
+        <detailedDescription>
+            You joined a creative workshop (painting, writing, or music), expressing yourself and building focus and charm.
+        </detailedDescription>
+    </event>
+
 </events>

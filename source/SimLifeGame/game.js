@@ -49,7 +49,69 @@ class SimLifeGame {
         this.eventCooldowns = {};
         // Stock and crypto prices will be generated after loading stock data
         
+        // Audio setup
+        this.backgroundMusic = null;
+        this.musicEnabled = true;
+        
         this.init();
+    }
+    
+    // Background Music Functions
+    playBackgroundMusic() {
+        if (!this.musicEnabled) return;
+        
+        try {
+            this.backgroundMusic = new Audio('happy.mp3');
+            this.backgroundMusic.loop = true;
+            this.backgroundMusic.volume = 0.3; // Set to 30% volume
+            
+            // Play music with user interaction handling
+            const playPromise = this.backgroundMusic.play();
+            if (playPromise !== undefined) {
+                playPromise.then(() => {
+                    this.log('🎵 Background music started', 'positive');
+                }).catch(error => {
+                    // Autoplay was prevented, which is normal in modern browsers
+                    console.log('Autoplay prevented:', error);
+                    this.log('🎵 Click anywhere to enable background music', 'info');
+                    
+                    // Add click listener to start music on first user interaction
+                    const startMusicOnClick = () => {
+                        if (this.backgroundMusic && this.musicEnabled) {
+                            this.backgroundMusic.play().then(() => {
+                                this.log('🎵 Background music started', 'positive');
+                            }).catch(console.error);
+                        }
+                        document.removeEventListener('click', startMusicOnClick);
+                    };
+                    document.addEventListener('click', startMusicOnClick);
+                });
+            }
+        } catch (error) {
+            console.error('Failed to load background music:', error);
+            this.log('🎵 Background music unavailable', 'warning');
+        }
+    }
+    
+    toggleMusic() {
+        if (!this.backgroundMusic) return;
+        
+        if (this.musicEnabled) {
+            this.backgroundMusic.pause();
+            this.musicEnabled = false;
+            this.log('🔇 Background music disabled', 'info');
+        } else {
+            this.backgroundMusic.play().then(() => {
+                this.musicEnabled = true;
+                this.log('🎵 Background music enabled', 'positive');
+            }).catch(console.error);
+        }
+    }
+    
+    setMusicVolume(volume) {
+        if (this.backgroundMusic) {
+            this.backgroundMusic.volume = Math.max(0, Math.min(1, volume));
+        }
     }
     
     async init() {
@@ -109,7 +171,11 @@ class SimLifeGame {
             card.onclick = () => this.selectProfession(id);
             
             const fixedCostsTotal = profession.fixedCosts.food + 390 + 20; // utilities, entertainment etc. (no housing - living with parents)
-            const raisePercent = Math.round(profession.raise * 100);
+            // Calculate career-specific raise range based on base rate and normal distribution
+            const baseRaise = profession.raise;
+            const minRaise = Math.max(0.015, baseRaise - 0.005); // Base - 0.5%, minimum 1.5%
+            const maxRaise = Math.min(0.035, baseRaise + 0.005); // Base + 0.5%, maximum 3.5%
+            const raiseRange = `${(minRaise * 100).toFixed(1)}%~${(maxRaise * 100).toFixed(1)}%`;
             const loanYears = profession.studentLoan.termMonths / 12;
             
             let loanDisplay = '';
@@ -123,7 +189,7 @@ class SimLifeGame {
                 <div class="profession-title">${profession.title}</div>
                 <div class="profession-salary">$${profession.salaryRange[0].toLocaleString()} - $${profession.salaryRange[1].toLocaleString()}</div>
                 <div class="profession-details">
-                    • Annual raises: ${raisePercent}%<br>
+                    • Annual raises: ${raiseRange}<br>
                     • Fixed costs: $${Math.round(fixedCostsTotal).toLocaleString()}/month<br>
                     • Starting career path
                 </div>
@@ -157,6 +223,9 @@ class SimLifeGame {
         
         // Generate initial lottery numbers for the first month
         this.generateMonthlyLotteryNumbers();
+        
+        // Start background music
+        this.playBackgroundMusic();
         
         this.updateUI();
         const profession = this.professions[this.gameState.professionId];
@@ -462,9 +531,36 @@ class SimLifeGame {
                 this.recordCashFlow('income', Math.abs(cost), selectedEvent.description, 'event');
             }
             
+            // Apply all event effects
             if (selectedEvent.effects.happiness) {
                 this.gameState.happiness = Math.max(0, Math.min(1000, 
                     this.gameState.happiness + selectedEvent.effects.happiness));
+            }
+            
+            // Apply stat improvements from learning events
+            if (selectedEvent.effects.energy) {
+                this.gameState.playerStatus.energy = Math.max(1, Math.min(100, 
+                    this.gameState.playerStatus.energy + selectedEvent.effects.energy));
+            }
+            
+            if (selectedEvent.effects.focus) {
+                this.gameState.playerStatus.focus = Math.max(1, Math.min(100, 
+                    this.gameState.playerStatus.focus + selectedEvent.effects.focus));
+            }
+            
+            if (selectedEvent.effects.wisdom) {
+                this.gameState.playerStatus.wisdom = Math.max(1, Math.min(100, 
+                    this.gameState.playerStatus.wisdom + selectedEvent.effects.wisdom));
+            }
+            
+            if (selectedEvent.effects.charm) {
+                this.gameState.playerStatus.charm = Math.max(1, Math.min(100, 
+                    this.gameState.playerStatus.charm + selectedEvent.effects.charm));
+            }
+            
+            if (selectedEvent.effects.luck) {
+                this.gameState.playerStatus.luck = Math.max(1, Math.min(100, 
+                    this.gameState.playerStatus.luck + selectedEvent.effects.luck));
             }
             
             this.eventCooldowns[selectedEvent.id] = selectedEvent.cooldown;
@@ -490,79 +586,11 @@ class SimLifeGame {
         });
     }
     
-    // Lottery System Functions
-    generateMonthlyLotteryNumbers() {
-        const numbers = [];
-        while (numbers.length < 6) {
-            const num = this.randomBetweenInt(1, 49);
-            if (!numbers.includes(num)) {
-                numbers.push(num);
-            }
-        }
-        this.gameState.monthlyLotteryNumbers = numbers.sort((a, b) => a - b);
-    }
+    // Removed old generateMonthlyLotteryNumbers function - using the updated one below
     
-    buyLotteryTicket(numbers) {
-        const ticketCost = 2;
-        if (this.gameState.portfolio.cash < ticketCost) {
-            throw new Error('Not enough cash to buy lottery ticket ($2)');
-        }
-        
-        // Validate numbers (6 numbers, 1-49, no duplicates)
-        if (numbers.length !== 6) {
-            throw new Error('Must select exactly 6 numbers');
-        }
-        
-        for (let num of numbers) {
-            if (num < 1 || num > 49) {
-                throw new Error('Numbers must be between 1 and 49');
-            }
-        }
-        
-        if (new Set(numbers).size !== 6) {
-            throw new Error('Numbers must be unique');
-        }
-        
-        this.gameState.portfolio.cash -= ticketCost;
-        this.gameState.lotteryTickets.push({
-            numbers: numbers.sort((a, b) => a - b),
-            month: this.gameState.currentMonth,
-            year: this.gameState.currentYear
-        });
-        
-        this.log(`Bought lottery ticket with numbers: ${numbers.sort((a, b) => a - b).join(', ')} for $${ticketCost}`, 'info');
-    }
+    // Removed old buyLotteryTicket function - using the updated one below
     
-    checkLotteryWinnings() {
-        if (!this.gameState.monthlyLotteryNumbers || this.gameState.lotteryTickets.length === 0) {
-            return;
-        }
-        
-        const winningNumbers = this.gameState.monthlyLotteryNumbers;
-        this.log(`🎱 This month's winning lottery numbers: ${winningNumbers.join(', ')}`, 'info');
-        
-        for (let ticket of this.gameState.lotteryTickets) {
-            const matches = ticket.numbers.filter(num => winningNumbers.includes(num)).length;
-            let prize = 0;
-            
-            switch (matches) {
-                case 2: prize = 10; break;
-                case 3: prize = 100; break;
-                case 4: prize = 1000; break;
-                case 5: prize = 10000; break;
-                case 6: prize = 1000000; break;
-            }
-            
-            if (prize > 0) {
-                this.gameState.portfolio.cash += prize;
-                this.gameState.happiness = Math.min(100, this.gameState.happiness + Math.min(20, prize / 100));
-                this.log(`🎉 LOTTERY WIN! Matched ${matches} numbers and won $${prize.toLocaleString()}!`, 'success');
-            }
-        }
-        
-        // Clear tickets after checking
-        this.gameState.lotteryTickets = [];
-    }
+    // Removed old checkLotteryWinnings function - using the updated one below
 
     advanceMonth() {
         this.gameState.currentMonth++;
@@ -619,10 +647,18 @@ class SimLifeGame {
             this.gameState.currentYear++;
             this.gameState.ageYears++;
             
-            // Annual salary increase
+            // Annual salary increase with normal distribution
             const profession = this.professions[this.gameState.professionId];
-            this.gameState.grossAnnual *= (1 + profession.raise);
-            this.log(`Annual raise! New salary: $${this.gameState.grossAnnual.toLocaleString()}`, 'success');
+            const baseRaise = profession.raise; // e.g., 0.03 for 3%
+            
+            // Create normal distribution around base raise with standard deviation of 0.5%
+            // This keeps most raises realistic and caps at 3.5% for economic realism
+            const uncappedRaise = Math.max(0, this.randomNormal(baseRaise, 0.005));
+            const actualRaise = Math.min(uncappedRaise, 0.035); // Cap at 3.5%
+            
+            this.gameState.grossAnnual *= (1 + actualRaise);
+            const raisePercent = (actualRaise * 100).toFixed(1);
+            this.log(`Annual raise! ${raisePercent}% increase. New salary: $${this.gameState.grossAnnual.toLocaleString()}`, 'success');
         }
         
         // Check end of game
@@ -2274,8 +2310,7 @@ class SimLifeGame {
         this.processMonthlyFinances();
         this.checkPsychiatristVisit();
         
-        // Check lottery winnings before advancing month
-        this.checkLotteryWinnings();
+        // Lottery winnings will be checked after new numbers are generated
         
         // Show luck benefit message for high luck players occasionally
         if (this.gameState.playerStatus.luck >= 70 && Math.random() < 0.15) {
@@ -2288,6 +2323,9 @@ class SimLifeGame {
         
         // Generate new lottery numbers for the new month
         this.generateMonthlyLotteryNumbers();
+        
+        // Now check lottery winnings against the new numbers
+        this.checkLotteryWinnings();
         
         this.updateUI();
         this.log('--- NEW MONTH ---', 'info');
@@ -2457,7 +2495,7 @@ class SimLifeGame {
                 id: 'barista',
                 title: 'Junior Barista',
                 salaryRange: [21000, 38000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
                 fixedCosts: { food: 600, housing: 1800 },
                 initialCash: 600
@@ -2466,7 +2504,7 @@ class SimLifeGame {
                 id: 'retail_sales',
                 title: 'Junior Retail Sales Associate',
                 salaryRange: [24000, 42000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 0, annualRate: 0.05, termMonths: 0 },
                 fixedCosts: { food: 600, housing: 1800 },
                 initialCash: 700
@@ -2475,7 +2513,7 @@ class SimLifeGame {
                 id: 'waiter',
                 title: 'Junior Restaurant Server',
                 salaryRange: [24000, 42000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 22500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 600, housing: 1800 },
                 initialCash: 800
@@ -2484,7 +2522,7 @@ class SimLifeGame {
                 id: 'customer_service_rep',
                 title: 'Junior Customer Service Representative',
                 salaryRange: [30000, 55000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 7500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 650, housing: 1900 },
                 initialCash: 1000
@@ -2493,7 +2531,7 @@ class SimLifeGame {
                 id: 'administrative_assistant',
                 title: 'Junior Administrative Assistant',
                 salaryRange: [33000, 60000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 7500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 650, housing: 1900 },
                 initialCash: 1200
@@ -2511,7 +2549,7 @@ class SimLifeGame {
                 id: 'truck_driver',
                 title: 'Junior Truck Driver',
                 salaryRange: [42000, 70000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 10500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 650, housing: 1900 },
                 initialCash: 1400
@@ -2520,7 +2558,7 @@ class SimLifeGame {
                 id: 'electrician',
                 title: 'Junior Electrician',
                 salaryRange: [45000, 80000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 700, housing: 2000 },
                 initialCash: 1600
@@ -2529,7 +2567,7 @@ class SimLifeGame {
                 id: 'plumber',
                 title: 'Junior Plumber',
                 salaryRange: [43000, 77000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 700, housing: 2000 },
                 initialCash: 1500
@@ -2538,7 +2576,7 @@ class SimLifeGame {
                 id: 'carpenter',
                 title: 'Junior Carpenter',
                 salaryRange: [38000, 70000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 7500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 700, housing: 2000 },
                 initialCash: 1300
@@ -2547,7 +2585,7 @@ class SimLifeGame {
                 id: 'auto_mechanic',
                 title: 'Junior Automotive Technician',
                 salaryRange: [35000, 60000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 700, housing: 2000 },
                 initialCash: 1100
@@ -2556,7 +2594,7 @@ class SimLifeGame {
                 id: 'chef',
                 title: 'Junior Chef',
                 salaryRange: [40000, 72000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 22500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 750, housing: 2100 },
                 initialCash: 1400
@@ -2565,7 +2603,7 @@ class SimLifeGame {
                 id: 'fitness_trainer',
                 title: 'Junior Fitness Trainer',
                 salaryRange: [32000, 60000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 700, housing: 2000 },
                 initialCash: 900
@@ -2574,7 +2612,7 @@ class SimLifeGame {
                 id: 'graphic_designer',
                 title: 'Junior Graphic Designer',
                 salaryRange: [38000, 80000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 30000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 750, housing: 2100 },
                 initialCash: 1700
@@ -2583,7 +2621,7 @@ class SimLifeGame {
                 id: 'ux_designer',
                 title: 'Junior UX Designer',
                 salaryRange: [60000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 33000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 900, housing: 2400 },
                 initialCash: 2800
@@ -2592,7 +2630,7 @@ class SimLifeGame {
                 id: 'journalist',
                 title: 'Junior Journalist',
                 salaryRange: [38000, 70000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 750, housing: 2100 },
                 initialCash: 1800
@@ -2601,7 +2639,7 @@ class SimLifeGame {
                 id: 'content_creator',
                 title: 'Junior Content Creator',
                 salaryRange: [35000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 750, housing: 2100 },
                 initialCash: 1600
@@ -2610,7 +2648,7 @@ class SimLifeGame {
                 id: 'marketing_specialist',
                 title: 'Junior Marketing Specialist',
                 salaryRange: [45000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 30000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 800, housing: 2200 },
                 initialCash: 2200
@@ -2619,7 +2657,7 @@ class SimLifeGame {
                 id: 'sales_manager',
                 title: 'Junior Sales Representative',
                 salaryRange: [45000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 22500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 900, housing: 2400 },
                 initialCash: 2500
@@ -2628,7 +2666,7 @@ class SimLifeGame {
                 id: 'accountant',
                 title: 'Junior Accountant',
                 salaryRange: [50000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 33000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 800, housing: 2200 },
                 initialCash: 2400
@@ -2637,7 +2675,7 @@ class SimLifeGame {
                 id: 'financial_analyst',
                 title: 'Junior Financial Analyst',
                 salaryRange: [55000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 850, housing: 2300 },
                 initialCash: 2600
@@ -2646,7 +2684,7 @@ class SimLifeGame {
                 id: 'software_dev',
                 title: 'Junior Software Developer',
                 salaryRange: [65000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 52500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 900, housing: 2400 },
                 initialCash: 3000
@@ -2655,7 +2693,7 @@ class SimLifeGame {
                 id: 'data_scientist',
                 title: 'Junior Data Scientist',
                 salaryRange: [60000, 85000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 45000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 900, housing: 2400 },
                 initialCash: 2900
@@ -2673,7 +2711,7 @@ class SimLifeGame {
                 id: 'registered_nurse',
                 title: 'Junior Registered Nurse',
                 salaryRange: [55000, 85000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 37500, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 800, housing: 2200 },
                 initialCash: 2700
@@ -2682,7 +2720,7 @@ class SimLifeGame {
                 id: 'paramedic',
                 title: 'Junior Paramedic',
                 salaryRange: [35000, 62000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 18000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 700, housing: 2000 },
                 initialCash: 1200
@@ -2691,7 +2729,7 @@ class SimLifeGame {
                 id: 'police_officer',
                 title: 'Junior Police Officer',
                 salaryRange: [50000, 85000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 750, housing: 2100 },
                 initialCash: 2100
@@ -2700,7 +2738,7 @@ class SimLifeGame {
                 id: 'firefighter',
                 title: 'Junior Firefighter',
                 salaryRange: [40000, 75000],
-                raise: 0.035,
+                raise: 0.025,
                 studentLoan: { principal: 15000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 750, housing: 2100 },
                 initialCash: 2000
@@ -2709,7 +2747,7 @@ class SimLifeGame {
                 id: 'real_estate_agent',
                 title: 'Junior Real Estate Agent',
                 salaryRange: [35000, 80000],
-                raise: 0.04,
+                raise: 0.03,
                 studentLoan: { principal: 12000, annualRate: 0.05, termMonths: 120 },
                 fixedCosts: { food: 800, housing: 2200 },
                 initialCash: 1800
@@ -2754,7 +2792,12 @@ class SimLifeGame {
                     ],
                     costType: eventNode.querySelector('costType')?.textContent || 'fixed',
                     effects: {
-                        happiness: parseInt(effectsNode?.querySelector('happiness')?.textContent || '0')
+                        happiness: parseInt(effectsNode?.querySelector('happiness')?.textContent || '0'),
+                        energy: parseInt(effectsNode?.querySelector('energy')?.textContent || '0'),
+                        focus: parseInt(effectsNode?.querySelector('focus')?.textContent || '0'),
+                        wisdom: parseInt(effectsNode?.querySelector('wisdom')?.textContent || '0'),
+                        charm: parseInt(effectsNode?.querySelector('charm')?.textContent || '0'),
+                        luck: parseInt(effectsNode?.querySelector('luck')?.textContent || '0')
                     },
                     description: eventNode.querySelector('description')?.textContent || '',
                     detailedDescription: eventNode.querySelector('detailedDescription')?.textContent || ''
@@ -3546,7 +3589,7 @@ class SimLifeGame {
         const title = document.getElementById('event-popup-title');
         const description = document.getElementById('event-popup-description');
         const costElement = document.getElementById('event-popup-cost');
-        const happinessElement = document.getElementById('event-popup-happiness');
+        const effectsElement = document.getElementById('event-popup-effects');
         
         title.textContent = event.description;
         description.textContent = event.detailedDescription || event.description;
@@ -3563,22 +3606,104 @@ class SimLifeGame {
             costElement.className = 'event-cost';
         }
         
-        // Format happiness display
-        if (event.effects.happiness) {
-            const happinessChange = event.effects.happiness;
-            if (happinessChange > 0) {
-                happinessElement.textContent = `Happiness: +${happinessChange}`;
-                happinessElement.style.color = '#28a745';
-            } else {
-                happinessElement.textContent = `Happiness: ${happinessChange}`;
-                happinessElement.style.color = '#dc3545';
+        // Format all stat effects display
+        const effects = [];
+        const statNames = {
+            happiness: '😊 Happiness',
+            energy: '⚡ Energy',
+            focus: '🎯 Focus',
+            wisdom: '🧠 Wisdom',
+            charm: '💫 Charm',
+            luck: '🍀 Luck'
+        };
+        
+        Object.entries(event.effects).forEach(([stat, value]) => {
+            if (value !== 0) {
+                const statName = statNames[stat] || stat;
+                const sign = value > 0 ? '+' : '';
+                const color = value > 0 ? '#28a745' : '#dc3545';
+                effects.push(`<span style="color: ${color}">${statName}: ${sign}${value}</span>`);
             }
+        });
+        
+        if (effects.length > 0) {
+            effectsElement.innerHTML = effects.join('<br>');
         } else {
-            happinessElement.textContent = 'No happiness change';
-            happinessElement.style.color = '#666';
+            effectsElement.innerHTML = '<span style="color: #666">No stat changes</span>';
         }
         
         popup.style.display = 'flex';
+    }
+    
+    // Self-Learning System Function
+    triggerLearningEvent(eventId) {
+        const event = this.events.find(e => e.id === eventId);
+        if (!event) {
+            throw new Error('Learning event not found');
+        }
+        
+        if (event.category !== 'learning') {
+            throw new Error('This is not a learning event');
+        }
+        
+        // Check if event is on cooldown
+        if (this.eventCooldowns[eventId] && this.eventCooldowns[eventId] > 0) {
+            throw new Error(`This learning activity is on cooldown for ${this.eventCooldowns[eventId]} more months`);
+        }
+        
+        // Calculate cost (random within range)
+        const cost = this.randomBetweenInt(event.costRange[0], event.costRange[1]);
+        
+        // Check if player can afford it
+        if (this.gameState.portfolio.cash < cost) {
+            throw new Error(`Insufficient cash. Need $${cost.toLocaleString()}, you have $${this.gameState.portfolio.cash.toLocaleString()}`);
+        }
+        
+        // Apply the learning event
+        this.gameState.portfolio.cash -= cost;
+        
+        // Apply all event effects (same logic as random events)
+        if (event.effects.happiness) {
+            this.gameState.happiness = Math.max(0, Math.min(1000, 
+                this.gameState.happiness + event.effects.happiness));
+        }
+        
+        if (event.effects.energy) {
+            this.gameState.playerStatus.energy = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.energy + event.effects.energy));
+        }
+        
+        if (event.effects.focus) {
+            this.gameState.playerStatus.focus = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.focus + event.effects.focus));
+        }
+        
+        if (event.effects.wisdom) {
+            this.gameState.playerStatus.wisdom = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.wisdom + event.effects.wisdom));
+        }
+        
+        if (event.effects.charm) {
+            this.gameState.playerStatus.charm = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.charm + event.effects.charm));
+        }
+        
+        if (event.effects.luck) {
+            this.gameState.playerStatus.luck = Math.max(1, Math.min(100, 
+                this.gameState.playerStatus.luck + event.effects.luck));
+        }
+        
+        // Set cooldown
+        this.eventCooldowns[eventId] = event.cooldown;
+        
+        // Record transaction
+        this.recordCashFlow('expense', cost, event.description, 'learning');
+        
+        // Log the learning activity
+        this.log(`📚 ${event.description} completed! Cost: $${cost.toLocaleString()}`, 'success');
+        
+        // Show event popup
+        this.showEventPopup(event, cost);
     }
     
     updateStockInfo() {
@@ -3745,6 +3870,15 @@ class SimLifeGame {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     
+    // Generate a normal distribution random number using Box-Muller transform
+    randomNormal(mean = 0, stdDev = 1) {
+        let u = 0, v = 0;
+        while(u === 0) u = Math.random(); // Converting [0,1) to (0,1)
+        while(v === 0) v = Math.random();
+        let z = Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+        return z * stdDev + mean;
+    }
+    
     generateMonthlyLotteryNumbers() {
         // Generate 6 random numbers between 1-49 (typical lottery format)
         const numbers = [];
@@ -3796,8 +3930,15 @@ class SimLifeGame {
         let totalWinnings = 0;
         
         this.gameState.lotteryTickets.forEach(ticket => {
-            const matches = ticket.numbers.filter(num => winningNumbers.includes(num)).length;
+            const matchingNumbers = ticket.numbers.filter(num => winningNumbers.includes(num));
+            const matches = matchingNumbers.length;
             let winAmount = 0;
+            
+            // Debug logging
+            console.log(`Checking ticket: ${ticket.numbers.join(', ')}`);
+            console.log(`Against winning numbers: ${winningNumbers.join(', ')}`);
+            console.log(`Matching numbers: ${matchingNumbers.join(', ')}`);
+            console.log(`Total matches: ${matches}`);
             
             switch (matches) {
                 case 6: winAmount = 1000000; break; // Jackpot
@@ -3810,7 +3951,9 @@ class SimLifeGame {
             
             if (winAmount > 0) {
                 totalWinnings += winAmount;
-                this.log(`🎰 LOTTERY WIN! ${matches} matches: $${winAmount.toLocaleString()} (Ticket: ${ticket.numbers.join(', ')})`, 'success');
+                this.log(`🎰 LOTTERY WIN! ${matches} matches (${matchingNumbers.join(', ')}): $${winAmount.toLocaleString()} (Ticket: ${ticket.numbers.join(', ')})`, 'success');
+            } else if (matches > 0) {
+                this.log(`🎰 Lottery ticket had ${matches} match(es) (${matchingNumbers.join(', ')}) but no prize (Ticket: ${ticket.numbers.join(', ')})`, 'info');
             }
         });
         
