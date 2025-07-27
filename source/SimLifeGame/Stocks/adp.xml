@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<adp_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>42.4289</open>
+    <high>43.4203</high>
+    <low>37.1253</low>
+    <close>37.6210</close>
+    <adjusted_close>21.9768</adjusted_close>
+    <volume>46944377</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>37.6705</open>
+    <high>39.0584</high>
+    <low>31.7226</low>
+    <close>34.5479</close>
+    <adjusted_close>20.1816</adjusted_close>
+    <volume>45161673</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>34.5479</open>
+    <high>43.9655</high>
+    <low>33.7052</low>
+    <close>38.2653</close>
+    <adjusted_close>22.3986</adjusted_close>
+    <volume>62986712</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>39.4549</open>
+    <high>43.7672</high>
+    <low>35.4401</low>
+    <close>42.6768</close>
+    <adjusted_close>24.9808</adjusted_close>
+    <volume>46555882</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>42.6272</open>
+    <high>44.6099</high>
+    <low>38.8601</low>
+    <close>43.6185</close>
+    <adjusted_close>25.5321</adjusted_close>
+    <volume>38226925</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>43.5690</open>
+    <high>45.9482</high>
+    <low>40.5454</low>
+    <close>42.4785</close>
+    <adjusted_close>24.9027</adjusted_close>
+    <volume>44475979</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>42.6768</open>
+    <high>43.4698</high>
+    <low>39.2567</low>
+    <close>39.3062</close>
+    <adjusted_close>23.0430</adjusted_close>
+    <volume>28334280</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>40.1489</open>
+    <high>48.1291</high>
+    <low>39.8515</low>
+    <close>47.2988</close>
+    <adjusted_close>27.7286</adjusted_close>
+    <volume>33294537</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>48.3273</open>
+    <high>53.8292</high>
+    <low>47.3360</low>
+    <close>53.0362</close>
+    <adjusted_close>31.1358</adjusted_close>
+    <volume>38508362</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>52.3422</open>
+    <high>52.8875</high>
+    <low>46.8899</low>
+    <close>51.7970</close>
+    <adjusted_close>30.4083</adjusted_close>
+    <volume>48062571</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>51.7970</open>
+    <high>54.9693</high>
+    <low>50.4091</low>
+    <close>52.3422</close>
+    <adjusted_close>30.7284</adjusted_close>
+    <volume>41716300</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>52.3422</open>
+    <high>52.7388</high>
+    <low>46.3942</low>
+    <close>50.2109</close>
+    <adjusted_close>29.5231</adjusted_close>
+    <volume>43005983</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>50.1613</open>
+    <high>50.4091</high>
+    <low>43.0237</low>
+    <close>47.4728</close>
+    <adjusted_close>27.9132</adjusted_close>
+    <volume>53091549</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>46.8859</open>
+    <high>48.1549</high>
+    <low>44.6099</low>
+    <close>46.7908</close>
+    <adjusted_close>27.5122</adjusted_close>
+    <volume>36179042</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>46.6718</open>
+    <high>47.4252</high>
+    <low>38.4398</low>
+    <close>43.1268</close>
+    <adjusted_close>25.4024</adjusted_close>
+    <volume>57628761</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>43.1030</open>
+    <high>44.1182</high>
+    <low>39.3360</low>
+    <close>43.0237</close>
+    <adjusted_close>25.3416</adjusted_close>
+    <volume>47696019</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>42.3496</open>
+    <high>45.3236</high>
+    <low>40.8507</low>
+    <close>42.6193</close>
+    <adjusted_close>25.1034</adjusted_close>
+    <volume>37313002</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>42.9048</open>
+    <high>45.2443</high>
+    <low>39.3122</low>
+    <close>39.4153</close>
+    <adjusted_close>23.2583</adjusted_close>
+    <volume>35973260</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>39.8911</open>
+    <high>42.8017</high>
+    <low>39.8911</low>
+    <close>40.4066</close>
+    <adjusted_close>23.8433</adjusted_close>
+    <volume>34939800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>40.4463</open>
+    <high>42.7224</high>
+    <low>37.1471</low>
+    <close>41.0490</close>
+    <adjusted_close>24.2223</adjusted_close>
+    <volume>57018721</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>41.2393</open>
+    <high>41.5883</high>
+    <low>32.5156</low>
+    <close>37.3057</close>
+    <adjusted_close>22.1027</adjusted_close>
+    <volume>49939723</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>37.1947</open>
+    <high>41.2393</high>
+    <low>37.0361</low>
+    <close>40.9697</close>
+    <adjusted_close>24.2735</adjusted_close>
+    <volume>46625739</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>40.9618</open>
+    <high>45.1809</high>
+    <low>40.4463</low>
+    <close>43.9833</close>
+    <adjusted_close>26.0590</adjusted_close>
+    <volume>40336083</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>43.9358</open>
+    <high>47.8773</high>
+    <low>43.5154</low>
+    <close>46.7115</close>
+    <adjusted_close>27.7296</adjusted_close>
+    <volume>38537239</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>47.1556</open>
+    <high>47.2111</high>
+    <low>40.4463</low>
+    <close>42.8255</close>
+    <adjusted_close>25.4227</adjusted_close>
+    <volume>51959862</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>42.8175</open>
+    <high>43.4996</high>
+    <low>40.9618</low>
+    <close>41.8024</close>
+    <adjusted_close>24.8154</adjusted_close>
+    <volume>36975575</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>41.8024</open>
+    <high>46.6718</high>
+    <low>41.5883</low>
+    <close>46.2118</close>
+    <adjusted_close>27.4876</adjusted_close>
+    <volume>49958512</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>45.9977</open>
+    <high>45.9977</high>
+    <low>39.4946</low>
+    <close>40.3194</close>
+    <adjusted_close>23.9827</adjusted_close>
+    <volume>50778874</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>40.0894</open>
+    <high>43.7296</high>
+    <low>39.4074</low>
+    <close>41.1759</close>
+    <adjusted_close>24.4921</adjusted_close>
+    <volume>38791820</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>41.1680</open>
+    <high>41.9848</high>
+    <low>33.5863</low>
+    <close>34.5379</close>
+    <adjusted_close>20.5905</adjusted_close>
+    <volume>57915369</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>34.5538</open>
+    <high>34.6966</high>
+    <low>24.7039</low>
+    <close>29.5734</close>
+    <adjusted_close>17.6308</adjusted_close>
+    <volume>129119829</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>29.6606</open>
+    <high>31.7305</high>
+    <low>27.4876</low>
+    <close>29.9540</close>
+    <adjusted_close>17.8577</adjusted_close>
+    <volume>66377359</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>29.0975</open>
+    <high>31.2467</high>
+    <low>26.9642</low>
+    <close>27.5748</close>
+    <adjusted_close>16.4887</adjusted_close>
+    <volume>59377548</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>27.5748</open>
+    <high>34.9821</high>
+    <low>26.7738</low>
+    <close>33.7290</close>
+    <adjusted_close>20.1686</adjusted_close>
+    <volume>77084312</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>33.2690</open>
+    <high>36.4492</high>
+    <low>32.6267</low>
+    <close>34.4745</close>
+    <adjusted_close>20.6144</adjusted_close>
+    <volume>64521142</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>34.5379</open>
+    <high>36.0765</high>
+    <low>30.3744</low>
+    <close>31.1278</close>
+    <adjusted_close>18.6670</adjusted_close>
+    <volume>54794815</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>31.1753</open>
+    <high>32.3649</high>
+    <low>26.7263</low>
+    <close>27.4955</close>
+    <adjusted_close>16.4888</adjusted_close>
+    <volume>86229978</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>27.5114</open>
+    <high>27.6383</high>
+    <low>24.8943</low>
+    <close>25.7746</close>
+    <adjusted_close>15.4567</adjusted_close>
+    <volume>51934391</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>25.8618</open>
+    <high>26.1711</high>
+    <low>21.6031</low>
+    <close>24.4184</close>
+    <adjusted_close>14.7016</adjusted_close>
+    <volume>119015603</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>24.4819</open>
+    <high>27.1228</high>
+    <low>24.4264</low>
+    <close>26.6707</close>
+    <adjusted_close>16.0577</adjusted_close>
+    <volume>61751754</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>26.4725</open>
+    <high>27.8524</high>
+    <low>26.0442</low>
+    <close>27.6779</close>
+    <adjusted_close>16.6641</adjusted_close>
+    <volume>63803670</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>27.7572</open>
+    <high>28.6138</high>
+    <low>26.5914</low>
+    <close>26.8531</close>
+    <adjusted_close>16.2234</adjusted_close>
+    <volume>69056334</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>26.7738</open>
+    <high>30.0175</high>
+    <low>26.5280</low>
+    <close>29.4068</close>
+    <adjusted_close>17.7662</adjusted_close>
+    <volume>64367055</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>29.4068</open>
+    <high>31.7226</high>
+    <low>29.0103</low>
+    <close>31.6512</close>
+    <adjusted_close>19.1221</adjusted_close>
+    <volume>47260872</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>31.6433</open>
+    <high>32.2777</high>
+    <low>28.2648</low>
+    <close>28.4313</close>
+    <adjusted_close>17.2295</adjusted_close>
+    <volume>64459606</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>28.4789</open>
+    <high>31.4926</high>
+    <low>28.4393</low>
+    <close>29.9302</close>
+    <adjusted_close>18.1379</adjusted_close>
+    <volume>60678069</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>30.0571</open>
+    <high>31.6274</high>
+    <low>28.9468</low>
+    <close>30.3188</close>
+    <adjusted_close>18.3733</adjusted_close>
+    <volume>56546376</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>30.6916</open>
+    <high>31.6195</high>
+    <low>30.1602</low>
+    <close>31.4133</close>
+    <adjusted_close>19.1059</adjusted_close>
+    <volume>51548042</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>31.4846</open>
+    <high>34.3793</high>
+    <low>31.4133</low>
+    <close>33.9035</close>
+    <adjusted_close>20.6204</adjusted_close>
+    <volume>62549043</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>33.9431</open>
+    <high>35.4341</high>
+    <low>32.6504</low>
+    <close>33.6656</close>
+    <adjusted_close>20.4757</adjusted_close>
+    <volume>42433767</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>33.6735</open>
+    <high>35.3310</high>
+    <low>31.9843</low>
+    <close>33.3087</close>
+    <adjusted_close>20.3247</adjusted_close>
+    <volume>58821727</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>33.1897</open>
+    <high>36.4730</high>
+    <low>33.1739</low>
+    <close>34.7441</close>
+    <adjusted_close>21.2006</adjusted_close>
+    <volume>60314418</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>34.9265</open>
+    <high>37.5199</high>
+    <low>34.7362</low>
+    <close>35.2358</close>
+    <adjusted_close>21.5006</adjusted_close>
+    <volume>65512358</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>35.2358</open>
+    <high>35.7751</high>
+    <low>33.0153</low>
+    <close>33.2135</close>
+    <adjusted_close>20.3301</adjusted_close>
+    <volume>56517629</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>33.3880</open>
+    <high>33.5228</high>
+    <low>30.8105</low>
+    <close>33.2928</close>
+    <adjusted_close>20.3786</adjusted_close>
+    <volume>65206584</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>32.9518</open>
+    <high>33.2056</high>
+    <low>30.6123</low>
+    <close>31.5402</close>
+    <adjusted_close>19.3058</adjusted_close>
+    <volume>39138323</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>31.5402</open>
+    <high>34.1969</high>
+    <low>31.4133</low>
+    <close>32.7694</close>
+    <adjusted_close>20.1268</adjusted_close>
+    <volume>39384583</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>32.7535</open>
+    <high>34.7203</high>
+    <low>31.5560</low>
+    <close>34.4111</close>
+    <adjusted_close>21.1351</adjusted_close>
+    <volume>44937478</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>34.3000</open>
+    <high>36.2034</high>
+    <low>34.1097</low>
+    <close>36.1082</close>
+    <adjusted_close>22.1775</adjusted_close>
+    <volume>41087476</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>36.1161</open>
+    <high>36.7268</high>
+    <low>34.6966</low>
+    <close>35.1724</close>
+    <adjusted_close>21.6768</adjusted_close>
+    <volume>39180819</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>35.1327</open>
+    <high>35.4500</high>
+    <low>32.9122</low>
+    <close>34.4824</close>
+    <adjusted_close>21.2516</adjusted_close>
+    <volume>55247613</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>34.4190</open>
+    <high>35.0138</high>
+    <low>32.6187</low>
+    <close>34.0700</close>
+    <adjusted_close>20.9974</adjusted_close>
+    <volume>44638638</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>34.0621</open>
+    <high>36.0844</high>
+    <low>33.7211</low>
+    <close>35.6482</close>
+    <adjusted_close>22.0491</adjusted_close>
+    <volume>63543287</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>35.6482</open>
+    <high>36.1320</high>
+    <low>33.9035</low>
+    <close>34.4507</close>
+    <adjusted_close>21.3084</adjusted_close>
+    <volume>47098588</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>34.4507</open>
+    <high>35.5134</high>
+    <low>34.1890</low>
+    <close>34.7362</close>
+    <adjusted_close>21.4850</adjusted_close>
+    <volume>37414126</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>34.8155</open>
+    <high>35.1724</high>
+    <low>32.0160</low>
+    <close>33.2849</close>
+    <adjusted_close>20.6606</adjusted_close>
+    <volume>56747872</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>33.3880</open>
+    <high>35.7434</high>
+    <low>32.6822</low>
+    <close>35.2200</close>
+    <adjusted_close>21.8617</adjusted_close>
+    <volume>47788192</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>34.4666</open>
+    <high>35.6562</high>
+    <low>33.4990</low>
+    <close>33.9035</close>
+    <adjusted_close>21.0446</adjusted_close>
+    <volume>39079566</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>33.8876</open>
+    <high>34.7362</high>
+    <low>32.8804</low>
+    <close>34.1335</close>
+    <adjusted_close>21.2643</adjusted_close>
+    <volume>48526093</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>34.0383</open>
+    <high>37.4326</high>
+    <low>33.4594</low>
+    <close>37.0044</close>
+    <adjusted_close>23.0528</adjusted_close>
+    <volume>67913552</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>36.9568</open>
+    <high>38.1543</high>
+    <low>36.5999</low>
+    <close>37.2740</close>
+    <adjusted_close>23.2208</adjusted_close>
+    <volume>45474635</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>37.4088</open>
+    <high>37.9085</high>
+    <low>36.3303</low>
+    <close>36.4016</close>
+    <adjusted_close>22.7669</adjusted_close>
+    <volume>36074006</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>37.0361</open>
+    <high>37.0361</high>
+    <low>34.8472</low>
+    <close>34.8472</close>
+    <adjusted_close>21.7947</adjusted_close>
+    <volume>55005010</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>34.7997</open>
+    <high>36.8220</high>
+    <low>34.3000</low>
+    <close>36.6316</close>
+    <adjusted_close>22.9108</adjusted_close>
+    <volume>59924666</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>36.4730</open>
+    <high>38.0274</high>
+    <low>36.0844</low>
+    <close>36.2272</close>
+    <adjusted_close>22.7497</adjusted_close>
+    <volume>55906705</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>36.4413</open>
+    <high>37.2185</high>
+    <low>34.4983</low>
+    <close>34.9583</close>
+    <adjusted_close>21.9529</adjusted_close>
+    <volume>53665271</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>35.4182</open>
+    <high>36.6713</high>
+    <low>34.3476</low>
+    <close>36.0606</close>
+    <adjusted_close>22.6451</adjusted_close>
+    <volume>72200090</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>36.1637</open>
+    <high>36.5603</high>
+    <low>34.8948</low>
+    <close>35.9655</close>
+    <adjusted_close>22.6772</adjusted_close>
+    <volume>57866322</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>35.9655</open>
+    <high>36.4809</high>
+    <low>33.7052</low>
+    <close>34.7045</close>
+    <adjusted_close>21.8821</adjusted_close>
+    <volume>39664511</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>34.5935</open>
+    <high>37.9402</high>
+    <low>33.8400</low>
+    <close>37.4326</close>
+    <adjusted_close>23.6022</adjusted_close>
+    <volume>52808214</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>37.5992</open>
+    <high>38.3050</high>
+    <low>36.9647</low>
+    <close>37.5437</close>
+    <adjusted_close>23.7648</adjusted_close>
+    <volume>44519227</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>37.6071</open>
+    <high>39.6056</high>
+    <low>36.6871</low>
+    <close>39.2091</close>
+    <adjusted_close>24.8190</adjusted_close>
+    <volume>46222873</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>39.1774</open>
+    <high>39.5580</high>
+    <low>37.8688</low>
+    <close>38.2495</close>
+    <adjusted_close>24.2115</adjusted_close>
+    <volume>49839099</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>38.3367</open>
+    <high>39.4787</high>
+    <low>37.6864</low>
+    <close>39.0584</close>
+    <adjusted_close>24.8425</adjusted_close>
+    <volume>46887131</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>38.6222</open>
+    <high>39.0822</high>
+    <low>37.1551</low>
+    <close>37.8450</close>
+    <adjusted_close>24.0707</adjusted_close>
+    <volume>62663031</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>38.3050</open>
+    <high>40.8428</high>
+    <low>38.1860</low>
+    <close>39.4549</close>
+    <adjusted_close>25.0947</adjusted_close>
+    <volume>62969818</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>39.0584</open>
+    <high>40.3511</high>
+    <low>37.7102</low>
+    <close>38.3843</close>
+    <adjusted_close>24.5293</adjusted_close>
+    <volume>75114359</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>38.7182</open>
+    <high>40.9745</high>
+    <low>38.5338</low>
+    <close>39.2976</close>
+    <adjusted_close>25.1130</adjusted_close>
+    <volume>66979010</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>40.0790</open>
+    <high>43.8016</high>
+    <low>39.7542</low>
+    <close>43.6348</close>
+    <adjusted_close>27.8846</adjusted_close>
+    <volume>64922545</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>43.6348</open>
+    <high>44.1615</high>
+    <low>41.8788</low>
+    <close>42.5549</close>
+    <adjusted_close>27.3254</adjusted_close>
+    <volume>56974376</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>42.8270</open>
+    <high>43.3538</high>
+    <low>39.6049</low>
+    <close>40.7550</close>
+    <adjusted_close>26.1696</adjusted_close>
+    <volume>57541826</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>40.0263</open>
+    <high>43.1431</high>
+    <low>39.7103</low>
+    <close>40.1580</close>
+    <adjusted_close>25.7863</adjusted_close>
+    <volume>78911060</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>40.1756</open>
+    <high>41.2818</high>
+    <low>38.5514</low>
+    <close>40.3248</close>
+    <adjusted_close>26.0279</adjusted_close>
+    <volume>63708714</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>40.3073</open>
+    <high>43.7313</high>
+    <low>40.2985</low>
+    <close>43.5119</close>
+    <adjusted_close>28.0849</adjusted_close>
+    <volume>54214805</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>43.2221</open>
+    <high>43.5119</high>
+    <low>39.1220</low>
+    <close>39.5610</close>
+    <adjusted_close>25.5349</adjusted_close>
+    <volume>62460712</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>39.5083</open>
+    <high>41.0184</high>
+    <low>38.8499</low>
+    <close>39.0957</close>
+    <adjusted_close>25.3963</adjusted_close>
+    <volume>40864360</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>39.0694</open>
+    <high>39.2098</high>
+    <low>33.1431</low>
+    <close>35.6277</close>
+    <adjusted_close>23.1435</adjusted_close>
+    <volume>80846450</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>35.7243</open>
+    <high>36.2072</high>
+    <low>33.1343</low>
+    <close>35.0746</close>
+    <adjusted_close>22.7842</adjusted_close>
+    <volume>75397245</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>35.0307</open>
+    <high>37.5944</high>
+    <low>33.8191</low>
+    <close>37.2169</close>
+    <adjusted_close>24.3523</adjusted_close>
+    <volume>77461682</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>37.4012</open>
+    <high>39.4381</high>
+    <low>36.7603</low>
+    <close>38.8060</close>
+    <adjusted_close>25.3921</adjusted_close>
+    <volume>50151653</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>38.6392</open>
+    <high>39.7103</high>
+    <low>36.5935</low>
+    <close>37.7963</close>
+    <adjusted_close>24.7315</adjusted_close>
+    <volume>53789277</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>37.6646</open>
+    <high>38.7796</high>
+    <low>36.2160</low>
+    <close>36.7867</close>
+    <adjusted_close>24.2338</adjusted_close>
+    <volume>60545141</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>36.3038</open>
+    <high>38.0509</high>
+    <low>35.3468</low>
+    <close>37.4978</close>
+    <adjusted_close>24.7023</adjusted_close>
+    <volume>75063289</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>37.6822</open>
+    <high>40.2634</high>
+    <low>36.9886</low>
+    <close>38.9640</close>
+    <adjusted_close>25.6681</adjusted_close>
+    <volume>45406007</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>39.4381</open>
+    <high>40.3600</high>
+    <low>36.0579</low>
+    <close>37.5329</close>
+    <adjusted_close>24.8862</adjusted_close>
+    <volume>75767875</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>37.1993</open>
+    <high>37.6910</high>
+    <low>27.0676</low>
+    <close>30.6848</close>
+    <adjusted_close>20.3456</adjusted_close>
+    <volume>130506393</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>30.9482</open>
+    <high>36.2335</high>
+    <low>27.8051</low>
+    <close>36.0492</close>
+    <adjusted_close>23.9024</adjusted_close>
+    <volume>87804146</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>35.9614</open>
+    <high>35.9701</high>
+    <low>30.9219</low>
+    <close>34.5391</close>
+    <adjusted_close>23.0960</adjusted_close>
+    <volume>120451758</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>34.7849</open>
+    <high>35.9877</high>
+    <low>31.6067</low>
+    <close>31.8964</close>
+    <adjusted_close>21.3289</adjusted_close>
+    <volume>133742065</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>31.6506</open>
+    <high>35.0922</high>
+    <low>29.3854</low>
+    <close>29.9824</close>
+    <adjusted_close>20.0490</adjusted_close>
+    <volume>127665955</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>29.4557</open>
+    <high>32.9148</high>
+    <low>28.1212</low>
+    <close>30.8692</close>
+    <adjusted_close>20.8407</adjusted_close>
+    <volume>134203472</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>30.2107</open>
+    <high>32.3178</high>
+    <low>29.9210</low>
+    <close>30.9043</close>
+    <adjusted_close>20.8644</adjusted_close>
+    <volume>89651716</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>30.8253</open>
+    <high>33.5119</high>
+    <low>30.2985</low>
+    <close>33.3714</close>
+    <adjusted_close>22.5300</adjusted_close>
+    <volume>99642000</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>33.4328</open>
+    <high>34.3108</high>
+    <low>30.1405</low>
+    <close>31.1150</close>
+    <adjusted_close>21.1892</adjusted_close>
+    <volume>87934900</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>31.1150</open>
+    <high>33.2836</high>
+    <low>29.2011</low>
+    <close>32.7041</close>
+    <adjusted_close>22.2714</adjusted_close>
+    <volume>93263141</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>32.6427</open>
+    <high>34.6795</high>
+    <low>32.5022</low>
+    <close>33.6699</close>
+    <adjusted_close>22.9291</adjusted_close>
+    <volume>86731889</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>33.6611</open>
+    <high>35.5048</high>
+    <low>32.7217</low>
+    <close>34.5040</close>
+    <adjusted_close>23.6989</adjusted_close>
+    <volume>79935592</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>34.3898</open>
+    <high>36.1984</high>
+    <low>33.8104</low>
+    <close>34.9429</close>
+    <adjusted_close>24.0004</adjusted_close>
+    <volume>80917066</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>35.0746</open>
+    <high>38.9552</high>
+    <low>34.8551</low>
+    <close>38.1475</close>
+    <adjusted_close>26.2014</adjusted_close>
+    <volume>72690753</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>38.4460</open>
+    <high>39.0694</high>
+    <low>36.8481</low>
+    <close>37.5944</close>
+    <adjusted_close>26.0272</adjusted_close>
+    <volume>69954306</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>38.2265</open>
+    <high>38.2265</high>
+    <low>35.4609</low>
+    <close>35.8121</close>
+    <adjusted_close>24.7933</adjusted_close>
+    <volume>62708672</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>36.0228</open>
+    <high>37.0852</high>
+    <low>34.8727</low>
+    <close>36.5320</close>
+    <adjusted_close>25.2918</adjusted_close>
+    <volume>68488529</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>36.5935</open>
+    <high>39.7015</high>
+    <low>36.4794</low>
+    <close>39.0430</close>
+    <adjusted_close>27.2422</adjusted_close>
+    <volume>87832048</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>39.2098</open>
+    <high>40.1580</high>
+    <low>38.0421</low>
+    <close>38.0773</close>
+    <adjusted_close>26.5684</adjusted_close>
+    <volume>74415883</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>38.3933</open>
+    <high>38.4197</high>
+    <low>23.2309</low>
+    <close>35.8911</close>
+    <adjusted_close>25.0430</adjusted_close>
+    <volume>97446234</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>35.7770</open>
+    <high>37.5329</high>
+    <low>35.0307</low>
+    <close>35.3468</close>
+    <adjusted_close>24.8690</adjusted_close>
+    <volume>108485877</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>35.2327</open>
+    <high>37.2783</high>
+    <low>34.3108</low>
+    <close>36.2335</close>
+    <adjusted_close>25.4929</adjusted_close>
+    <volume>86523680</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>36.4706</open>
+    <high>37.0588</high>
+    <low>33.7226</low>
+    <close>33.8982</close>
+    <adjusted_close>23.8498</adjusted_close>
+    <volume>69687097</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>34.0737</open>
+    <high>37.5066</high>
+    <low>34.0650</low>
+    <close>36.9008</close>
+    <adjusted_close>26.1868</adjusted_close>
+    <volume>64635745</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>37.0588</open>
+    <high>39.2976</high>
+    <low>36.4355</low>
+    <close>39.0606</close>
+    <adjusted_close>27.7195</adjusted_close>
+    <volume>63702789</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>39.1133</open>
+    <high>40.3863</high>
+    <low>38.9025</low>
+    <close>39.1308</close>
+    <adjusted_close>27.7693</adjusted_close>
+    <volume>64848510</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>39.6137</open>
+    <high>41.4135</high>
+    <low>39.6137</low>
+    <close>40.6321</close>
+    <adjusted_close>29.0597</adjusted_close>
+    <volume>68722704</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>41.0448</open>
+    <high>43.6611</high>
+    <low>41.0272</low>
+    <close>42.0544</close>
+    <adjusted_close>30.0769</adjusted_close>
+    <volume>64957057</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>42.2037</open>
+    <high>43.9245</high>
+    <low>42.2037</low>
+    <close>43.8982</close>
+    <adjusted_close>31.3955</adjusted_close>
+    <volume>43655933</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>43.9157</open>
+    <high>45.2151</high>
+    <low>42.2564</low>
+    <close>45.0483</close>
+    <adjusted_close>32.4476</adjusted_close>
+    <volume>68153889</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>45.1010</open>
+    <high>47.8139</high>
+    <low>45.0922</low>
+    <close>47.7261</close>
+    <adjusted_close>34.3764</adjusted_close>
+    <volume>48371394</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>47.8929</open>
+    <high>48.3933</high>
+    <low>46.4881</low>
+    <close>48.3845</close>
+    <adjusted_close>34.8507</adjusted_close>
+    <volume>70804797</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>48.1826</open>
+    <high>48.3758</high>
+    <low>44.6181</low>
+    <close>46.2511</close>
+    <adjusted_close>33.5419</adjusted_close>
+    <volume>74911461</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>46.1457</open>
+    <high>48.3055</high>
+    <low>44.8464</low>
+    <close>45.2063</close>
+    <adjusted_close>32.7842</adjusted_close>
+    <volume>55102201</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>45.4434</open>
+    <high>45.6014</high>
+    <low>39.2625</low>
+    <close>43.9245</close>
+    <adjusted_close>31.8546</adjusted_close>
+    <volume>137051429</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>44.1001</open>
+    <high>45.1273</high>
+    <low>40.9570</low>
+    <close>41.3960</close>
+    <adjusted_close>30.2477</adjusted_close>
+    <volume>89069116</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>40.9921</open>
+    <high>46.6286</high>
+    <low>40.2546</low>
+    <close>45.9438</close>
+    <adjusted_close>33.5707</adjusted_close>
+    <volume>84238961</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>45.2239</open>
+    <high>46.4355</high>
+    <low>41.7910</low>
+    <close>44.8551</close>
+    <adjusted_close>32.7753</adjusted_close>
+    <volume>60330213</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>44.8815</open>
+    <high>47.9543</high>
+    <low>44.7322</low>
+    <close>47.4188</close>
+    <adjusted_close>34.9130</adjusted_close>
+    <volume>51500796</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>48.1914</open>
+    <high>50.1317</high>
+    <low>47.5241</low>
+    <close>48.0948</close>
+    <adjusted_close>35.4107</adjusted_close>
+    <volume>57494216</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>48.5162</open>
+    <high>48.8850</high>
+    <low>46.8042</low>
+    <close>47.6910</close>
+    <adjusted_close>35.1134</adjusted_close>
+    <volume>55389572</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>47.9368</open>
+    <high>49.0255</high>
+    <low>47.0939</low>
+    <close>48.4548</close>
+    <adjusted_close>35.9392</adjusted_close>
+    <volume>51897510</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>48.3758</open>
+    <high>49.3327</high>
+    <low>47.2169</low>
+    <close>48.8323</close>
+    <adjusted_close>36.2193</adjusted_close>
+    <volume>44637184</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>48.5426</open>
+    <high>49.0342</high>
+    <low>45.3819</low>
+    <close>45.7858</close>
+    <adjusted_close>33.9596</adjusted_close>
+    <volume>55922620</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>45.1185</open>
+    <high>48.9289</high>
+    <low>44.6795</low>
+    <close>48.8674</close>
+    <adjusted_close>36.5238</adjusted_close>
+    <volume>54618015</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>48.6304</open>
+    <high>50.9131</high>
+    <low>48.1563</low>
+    <close>49.6488</close>
+    <adjusted_close>37.1078</adjusted_close>
+    <volume>48315016</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>49.8156</open>
+    <high>51.6155</high>
+    <low>48.5338</low>
+    <close>50.9921</close>
+    <adjusted_close>38.1118</adjusted_close>
+    <volume>39613396</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>50.7989</open>
+    <high>52.2388</high>
+    <low>50.0790</low>
+    <close>51.5013</close>
+    <adjusted_close>38.7525</adjusted_close>
+    <volume>46150572</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>51.3960</open>
+    <high>52.6427</high>
+    <low>50.3161</low>
+    <close>50.7375</close>
+    <adjusted_close>38.1778</adjusted_close>
+    <volume>43062517</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>51.5540</open>
+    <high>52.4583</high>
+    <low>47.4276</low>
+    <close>49.8156</close>
+    <adjusted_close>37.4841</adjusted_close>
+    <volume>49434307</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>50.0439</open>
+    <high>51.4135</high>
+    <low>49.1572</low>
+    <close>49.9824</close>
+    <adjusted_close>37.8937</adjusted_close>
+    <volume>41148766</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>50.9745</open>
+    <high>52.9763</high>
+    <low>50.7024</low>
+    <close>52.0544</close>
+    <adjusted_close>39.4645</adjusted_close>
+    <volume>45195749</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>52.5724</open>
+    <high>54.2845</high>
+    <low>52.2212</low>
+    <close>53.8718</close>
+    <adjusted_close>40.8423</adjusted_close>
+    <volume>43700584</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>53.8104</open>
+    <high>57.1730</high>
+    <low>53.2836</low>
+    <close>57.0939</close>
+    <adjusted_close>43.5878</adjusted_close>
+    <volume>45260330</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>56.7691</open>
+    <high>59.1308</high>
+    <low>55.5751</low>
+    <close>59.1220</close>
+    <adjusted_close>45.1361</adjusted_close>
+    <volume>38125065</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>59.1659</open>
+    <high>63.2133</high>
+    <low>58.4723</low>
+    <close>60.3336</close>
+    <adjusted_close>46.0611</adjusted_close>
+    <volume>49901186</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>60.2809</open>
+    <high>61.4399</high>
+    <low>58.9640</low>
+    <close>60.4565</close>
+    <adjusted_close>46.4516</adjusted_close>
+    <volume>42152796</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>60.4302</open>
+    <high>64.8200</high>
+    <low>60.3600</low>
+    <close>63.2924</close>
+    <adjusted_close>48.6305</adjusted_close>
+    <volume>42262937</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>61.9052</open>
+    <high>64.1615</high>
+    <low>61.3608</low>
+    <close>62.4759</close>
+    <adjusted_close>48.0031</adjusted_close>
+    <volume>39023964</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>63.1958</open>
+    <high>65.8033</high>
+    <low>61.2467</low>
+    <close>63.5470</close>
+    <adjusted_close>49.1158</adjusted_close>
+    <volume>43931800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>63.7226</open>
+    <high>67.3046</high>
+    <low>61.3784</low>
+    <close>65.8736</close>
+    <adjusted_close>50.9141</adjusted_close>
+    <volume>39098112</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>66.1545</open>
+    <high>73.5909</high>
+    <low>65.6190</low>
+    <close>70.2546</close>
+    <adjusted_close>54.3002</adjusted_close>
+    <volume>45010776</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>70.1932</open>
+    <high>71.5979</high>
+    <low>67.2695</low>
+    <close>70.9394</close>
+    <adjusted_close>55.1668</adjusted_close>
+    <volume>44987313</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>70.3863</open>
+    <high>72.8709</high>
+    <low>66.6725</low>
+    <close>67.2520</close>
+    <adjusted_close>52.2992</adjusted_close>
+    <volume>40562070</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>67.2608</open>
+    <high>68.8938</high>
+    <low>63.1343</low>
+    <close>68.2880</close>
+    <adjusted_close>53.1049</adjusted_close>
+    <volume>48781892</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>67.6471</open>
+    <high>69.7015</high>
+    <low>66.3301</low>
+    <close>67.8314</close>
+    <adjusted_close>53.0769</adjusted_close>
+    <volume>45807617</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>67.6471</open>
+    <high>68.7884</high>
+    <low>64.4249</low>
+    <close>68.4460</close>
+    <adjusted_close>53.5578</adjusted_close>
+    <volume>44121558</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>68.4548</open>
+    <high>70.1317</high>
+    <low>67.1203</low>
+    <close>69.9561</close>
+    <adjusted_close>54.7394</adjusted_close>
+    <volume>34758293</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>69.9298</open>
+    <high>70.5619</high>
+    <low>68.4109</low>
+    <close>69.6049</close>
+    <adjusted_close>54.7959</adjusted_close>
+    <volume>36893352</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>69.9034</open>
+    <high>72.5988</high>
+    <low>69.5347</low>
+    <close>71.3872</close>
+    <adjusted_close>56.1989</adjusted_close>
+    <volume>28959532</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>71.0009</open>
+    <high>73.9508</high>
+    <low>70.0702</low>
+    <close>73.2924</close>
+    <adjusted_close>57.6988</adjusted_close>
+    <volume>27628269</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>73.4680</open>
+    <high>74.3459</high>
+    <low>71.8174</low>
+    <close>72.9412</close>
+    <adjusted_close>57.7539</adjusted_close>
+    <volume>32432227</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>73.0300</open>
+    <high>81.9900</high>
+    <low>70.5000</low>
+    <close>81.7800</close>
+    <adjusted_close>64.7523</adjusted_close>
+    <volume>51435700</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>81.5000</open>
+    <high>86.2600</high>
+    <low>81.4800</low>
+    <close>85.6400</close>
+    <adjusted_close>67.8086</adjusted_close>
+    <volume>38122200</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>85.1800</open>
+    <high>86.5400</high>
+    <low>82.0400</low>
+    <close>83.3700</close>
+    <adjusted_close>66.3929</adjusted_close>
+    <volume>43030900</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>82.9800</open>
+    <high>87.1800</high>
+    <low>81.8000</low>
+    <close>82.5300</close>
+    <adjusted_close>65.7239</adjusted_close>
+    <volume>43411800</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>81.8200</open>
+    <high>89.7000</high>
+    <low>81.7100</low>
+    <close>88.8400</close>
+    <adjusted_close>70.7490</adjusted_close>
+    <volume>41753600</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>88.8800</open>
+    <high>90.2300</high>
+    <low>83.9100</low>
+    <close>85.6400</close>
+    <adjusted_close>68.5953</adjusted_close>
+    <volume>42941600</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>85.7300</open>
+    <high>86.7900</high>
+    <low>83.3000</low>
+    <close>84.5400</close>
+    <adjusted_close>67.7143</adjusted_close>
+    <volume>31003400</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>84.5300</open>
+    <high>88.4000</high>
+    <low>84.5200</low>
+    <close>85.5100</close>
+    <adjusted_close>68.4912</adjusted_close>
+    <volume>34668400</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>85.7000</open>
+    <high>85.9800</high>
+    <low>79.8000</low>
+    <close>80.2300</close>
+    <adjusted_close>64.6430</adjusted_close>
+    <volume>36979200</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>79.5100</open>
+    <high>83.0400</high>
+    <low>78.3600</low>
+    <close>79.7700</close>
+    <adjusted_close>64.2723</adjusted_close>
+    <volume>41872500</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>78.5900</open>
+    <high>85.2100</high>
+    <low>64.2900</low>
+    <close>77.3200</close>
+    <adjusted_close>62.2983</adjusted_close>
+    <volume>55337000</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>75.4600</open>
+    <high>81.4700</high>
+    <low>74.6600</low>
+    <close>80.3600</close>
+    <adjusted_close>65.1560</adjusted_close>
+    <volume>43579600</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>80.9100</open>
+    <high>90.6700</high>
+    <low>78.7400</low>
+    <close>86.9900</close>
+    <adjusted_close>70.5316</adjusted_close>
+    <volume>43045100</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>86.9900</open>
+    <high>87.9500</high>
+    <low>85.0000</low>
+    <close>86.2600</close>
+    <adjusted_close>69.9397</adjusted_close>
+    <volume>27509800</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>86.8100</open>
+    <high>87.9700</high>
+    <low>83.1400</low>
+    <close>84.7200</close>
+    <adjusted_close>69.1154</adjusted_close>
+    <volume>33769400</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>82.9300</open>
+    <high>83.2100</high>
+    <low>76.6500</low>
+    <close>83.0900</close>
+    <adjusted_close>67.7857</adjusted_close>
+    <volume>45333000</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>80.7200</open>
+    <high>86.7600</high>
+    <low>78.9800</low>
+    <close>84.6900</close>
+    <adjusted_close>69.0909</adjusted_close>
+    <volume>42040500</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>85.6200</open>
+    <high>90.0000</high>
+    <low>84.3600</low>
+    <close>89.7100</close>
+    <adjusted_close>73.6428</adjusted_close>
+    <volume>34433800</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>88.7400</open>
+    <high>91.0000</high>
+    <low>87.4000</low>
+    <close>88.4400</close>
+    <adjusted_close>72.6003</adjusted_close>
+    <volume>35991300</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>88.2400</open>
+    <high>89.6000</high>
+    <low>84.3600</low>
+    <close>87.8400</close>
+    <adjusted_close>72.1078</adjusted_close>
+    <volume>45429600</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>87.6000</open>
+    <high>91.8700</high>
+    <low>85.2300</low>
+    <close>91.8700</close>
+    <adjusted_close>75.8789</adjusted_close>
+    <volume>45855100</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>92.0000</open>
+    <high>96.0000</high>
+    <low>88.9300</low>
+    <close>88.9500</close>
+    <adjusted_close>73.4672</adjusted_close>
+    <volume>37314900</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>88.0600</open>
+    <high>90.6600</high>
+    <low>87.5500</low>
+    <close>89.8100</close>
+    <adjusted_close>74.1775</adjusted_close>
+    <volume>33655900</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>90.0200</open>
+    <high>90.9900</high>
+    <low>86.2100</low>
+    <close>88.2000</close>
+    <adjusted_close>73.2800</adjusted_close>
+    <volume>35879200</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>88.1600</open>
+    <high>88.3700</high>
+    <low>85.4800</low>
+    <close>87.0600</close>
+    <adjusted_close>72.3328</adjusted_close>
+    <volume>29998900</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>87.3000</open>
+    <high>97.5400</high>
+    <low>86.5300</low>
+    <close>96.0200</close>
+    <adjusted_close>79.7771</adjusted_close>
+    <volume>49832200</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>95.9900</open>
+    <high>103.8800</high>
+    <low>94.9900</low>
+    <close>102.7800</close>
+    <adjusted_close>85.9036</adjusted_close>
+    <volume>43444800</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>102.3800</open>
+    <high>104.0900</high>
+    <low>100.7700</low>
+    <close>100.9900</close>
+    <adjusted_close>84.4076</adjusted_close>
+    <volume>36216000</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>96.0300</open>
+    <high>103.1400</high>
+    <low>94.1100</low>
+    <close>102.6200</close>
+    <adjusted_close>85.7699</adjusted_close>
+    <volume>41957300</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>103.6600</open>
+    <high>105.2000</high>
+    <low>101.7700</low>
+    <close>102.3900</close>
+    <adjusted_close>86.0481</adjusted_close>
+    <volume>37253900</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>102.2300</open>
+    <high>105.6800</high>
+    <low>100.0800</low>
+    <close>104.4900</close>
+    <adjusted_close>87.8129</adjusted_close>
+    <volume>26468700</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>104.2900</open>
+    <high>104.4300</high>
+    <low>95.5000</low>
+    <close>102.3700</close>
+    <adjusted_close>86.0313</adjusted_close>
+    <volume>57940600</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>103.0000</open>
+    <high>104.1600</high>
+    <low>98.5000</low>
+    <close>102.4600</close>
+    <adjusted_close>86.5946</adjusted_close>
+    <volume>66050800</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>101.9800</open>
+    <high>121.7700</high>
+    <low>100.5100</low>
+    <close>118.9100</close>
+    <adjusted_close>100.4974</adjusted_close>
+    <volume>107265000</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>118.7900</open>
+    <high>119.3800</high>
+    <low>102.8100</low>
+    <close>106.4700</close>
+    <adjusted_close>89.9837</adjusted_close>
+    <volume>143818100</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>106.5300</open>
+    <high>109.9400</high>
+    <low>105.9400</low>
+    <close>109.3200</close>
+    <adjusted_close>92.8824</adjusted_close>
+    <volume>60248500</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>109.2200</open>
+    <high>118.4700</high>
+    <low>108.5300</low>
+    <close>116.2600</close>
+    <adjusted_close>98.7789</adjusted_close>
+    <volume>36909800</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>116.4000</open>
+    <high>116.7700</high>
+    <low>109.4400</low>
+    <close>114.4600</close>
+    <adjusted_close>97.2495</adjusted_close>
+    <volume>53788600</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>113.9500</open>
+    <high>119.3900</high>
+    <low>112.2600</low>
+    <close>117.1900</close>
+    <adjusted_close>100.1131</adjusted_close>
+    <volume>34719100</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>116.0300</open>
+    <high>125.2400</high>
+    <low>115.2500</low>
+    <close>123.6300</close>
+    <adjusted_close>105.6147</adjusted_close>
+    <volume>38777400</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>122.5900</open>
+    <high>122.5900</high>
+    <low>107.6100</low>
+    <close>115.3200</close>
+    <adjusted_close>98.5156</adjusted_close>
+    <volume>38724100</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>115.3300</open>
+    <high>119.1700</high>
+    <low>109.1400</low>
+    <close>113.4800</close>
+    <adjusted_close>97.4769</adjusted_close>
+    <volume>56362300</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>115.2500</open>
+    <high>120.1400</high>
+    <low>111.7800</low>
+    <close>118.0800</close>
+    <adjusted_close>101.4282</adjusted_close>
+    <volume>52375100</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>112.6500</open>
+    <high>132.0500</high>
+    <low>112.5800</low>
+    <close>130.0200</close>
+    <adjusted_close>111.6844</adjusted_close>
+    <volume>51409400</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>130.6200</open>
+    <high>141.5200</high>
+    <low>130.6200</low>
+    <close>134.1400</close>
+    <adjusted_close>115.8105</adjusted_close>
+    <volume>50929000</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>132.6600</open>
+    <high>140.3900</high>
+    <low>132.5900</low>
+    <close>134.9900</close>
+    <adjusted_close>116.5444</adjusted_close>
+    <volume>42274800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>130.2100</open>
+    <high>146.9600</high>
+    <low>129.2100</low>
+    <close>146.7500</close>
+    <adjusted_close>126.6975</adjusted_close>
+    <volume>46815700</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>144.3500</open>
+    <high>151.3200</high>
+    <low>144.1900</low>
+    <close>150.6600</close>
+    <adjusted_close>130.6861</adjusted_close>
+    <volume>31775800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>151.3800</open>
+    <high>153.5100</high>
+    <low>133.1300</low>
+    <close>144.0800</close>
+    <adjusted_close>124.9784</adjusted_close>
+    <volume>46546400</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>143.7500</open>
+    <high>148.6700</high>
+    <low>139.0200</low>
+    <close>147.4200</close>
+    <adjusted_close>127.8756</adjusted_close>
+    <volume>48997700</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>149.1900</open>
+    <high>149.6700</high>
+    <low>121.4000</low>
+    <close>131.1200</close>
+    <adjusted_close>114.3841</adjusted_close>
+    <volume>56471100</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>129.1600</open>
+    <high>141.1500</high>
+    <low>126.0600</low>
+    <close>139.8400</close>
+    <adjusted_close>121.9910</adjusted_close>
+    <volume>52324700</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>139.7100</open>
+    <high>154.5500</high>
+    <low>139.7100</low>
+    <close>153.0300</close>
+    <adjusted_close>133.4975</adjusted_close>
+    <volume>39345600</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>154.2500</open>
+    <high>159.9100</high>
+    <low>148.1500</low>
+    <close>159.7400</close>
+    <adjusted_close>140.0766</adjusted_close>
+    <volume>44322600</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>161.2000</open>
+    <high>165.5000</high>
+    <low>158.1800</low>
+    <close>164.3900</close>
+    <adjusted_close>144.1541</adjusted_close>
+    <volume>28046900</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>161.0000</open>
+    <high>164.0300</high>
+    <low>154.7100</low>
+    <close>160.1200</close>
+    <adjusted_close>140.4098</adjusted_close>
+    <volume>35807600</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>160.5500</open>
+    <high>170.4500</high>
+    <low>155.2600</low>
+    <close>165.3300</close>
+    <adjusted_close>145.6750</adjusted_close>
+    <volume>29573100</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>167.6200</open>
+    <high>172.0000</high>
+    <low>158.9200</low>
+    <close>166.5200</close>
+    <adjusted_close>146.7235</adjusted_close>
+    <volume>54130800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>165.2500</open>
+    <high>170.9200</high>
+    <low>158.7300</low>
+    <close>169.8400</close>
+    <adjusted_close>149.6488</adjusted_close>
+    <volume>41894300</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>167.7500</open>
+    <high>174.5000</high>
+    <low>156.0400</low>
+    <close>161.4200</close>
+    <adjusted_close>142.9306</adjusted_close>
+    <volume>43667100</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>162.3100</open>
+    <high>165.2000</high>
+    <low>153.7200</low>
+    <close>162.2300</close>
+    <adjusted_close>143.6478</adjusted_close>
+    <volume>42551800</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>163.4000</open>
+    <high>172.7300</high>
+    <low>156.8900</low>
+    <close>170.7800</close>
+    <adjusted_close>151.2184</adjusted_close>
+    <volume>35144300</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>170.5300</open>
+    <high>171.3600</high>
+    <low>165.2300</low>
+    <close>170.5000</close>
+    <adjusted_close>151.7965</adjusted_close>
+    <volume>34673100</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>171.9600</open>
+    <high>179.8900</high>
+    <low>167.9500</low>
+    <close>171.3900</close>
+    <adjusted_close>152.5888</adjusted_close>
+    <volume>39541300</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>173.8800</open>
+    <high>182.3200</high>
+    <low>150.5300</low>
+    <close>154.7400</close>
+    <adjusted_close>137.7653</adjusted_close>
+    <volume>44654900</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>155.5500</open>
+    <high>164.6200</high>
+    <low>103.1100</low>
+    <close>136.6800</close>
+    <adjusted_close>122.4392</adjusted_close>
+    <volume>86964200</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>129.9800</open>
+    <high>147.3200</high>
+    <low>126.6900</low>
+    <close>146.6900</close>
+    <adjusted_close>131.4063</adjusted_close>
+    <volume>51382500</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>143.1700</open>
+    <high>149.7800</high>
+    <low>130.6400</low>
+    <close>146.4900</close>
+    <adjusted_close>131.2271</adjusted_close>
+    <volume>54382000</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>146.0100</open>
+    <high>161.3000</high>
+    <low>142.4400</low>
+    <close>148.8900</close>
+    <adjusted_close>134.1595</adjusted_close>
+    <volume>44136700</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>149.2200</open>
+    <high>152.6600</high>
+    <low>129.8400</low>
+    <close>132.9100</close>
+    <adjusted_close>119.7605</adjusted_close>
+    <volume>43062400</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>133.3600</open>
+    <high>142.8500</high>
+    <low>132.2200</low>
+    <close>139.0900</close>
+    <adjusted_close>125.3290</adjusted_close>
+    <volume>44216300</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>138.7900</open>
+    <high>144.2500</high>
+    <low>127.3100</low>
+    <close>139.4900</close>
+    <adjusted_close>126.5283</adjusted_close>
+    <volume>46731300</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>141.6200</open>
+    <high>159.4600</high>
+    <low>135.1100</low>
+    <close>157.9600</close>
+    <adjusted_close>143.2820</adjusted_close>
+    <volume>47368300</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>159.4400</open>
+    <high>177.1900</high>
+    <low>158.5000</low>
+    <close>173.8800</close>
+    <adjusted_close>157.7227</adjusted_close>
+    <volume>34920500</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>175.1600</open>
+    <high>179.4600</high>
+    <low>170.8800</low>
+    <close>176.2000</close>
+    <adjusted_close>160.6868</adjusted_close>
+    <volume>30854900</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>175.9700</open>
+    <high>176.5700</high>
+    <low>159.3100</low>
+    <close>165.1200</close>
+    <adjusted_close>150.5823</adjusted_close>
+    <volume>41698800</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>165.2800</open>
+    <high>177.6200</high>
+    <low>164.2400</low>
+    <close>174.0200</close>
+    <adjusted_close>158.6987</adjusted_close>
+    <volume>34438500</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>175.7700</open>
+    <high>193.4400</high>
+    <low>169.9300</low>
+    <close>188.4700</close>
+    <adjusted_close>172.7589</adjusted_close>
+    <volume>53239000</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>190.2200</open>
+    <high>197.2800</high>
+    <low>184.8500</low>
+    <close>186.9900</close>
+    <adjusted_close>171.4023</adjusted_close>
+    <volume>33866100</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>189.1700</open>
+    <high>198.3500</high>
+    <low>187.2900</low>
+    <close>196.0200</close>
+    <adjusted_close>179.6796</adjusted_close>
+    <volume>36776200</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>197.7500</open>
+    <high>200.5100</high>
+    <low>192.1800</low>
+    <close>198.6200</close>
+    <adjusted_close>182.9211</adjusted_close>
+    <volume>30321700</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>198.6200</open>
+    <high>210.3200</high>
+    <low>198.4100</low>
+    <close>209.6300</close>
+    <adjusted_close>193.0609</adjusted_close>
+    <volume>29913700</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>210.5400</open>
+    <high>217.1500</high>
+    <low>206.2000</low>
+    <close>209.0400</close>
+    <adjusted_close>192.5176</adjusted_close>
+    <volume>33701200</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>207.5000</open>
+    <high>207.7800</high>
+    <low>196.1000</low>
+    <close>199.9200</close>
+    <adjusted_close>184.9570</adjusted_close>
+    <volume>30545900</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>200.5100</open>
+    <high>225.0000</high>
+    <low>197.0100</low>
+    <close>224.4900</close>
+    <adjusted_close>207.6880</adjusted_close>
+    <volume>27247600</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>224.1100</open>
+    <high>241.1800</high>
+    <low>221.0600</low>
+    <close>230.8900</close>
+    <adjusted_close>213.6090</adjusted_close>
+    <volume>29444000</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>229.9100</open>
+    <high>248.9600</high>
+    <low>224.5500</low>
+    <close>246.5800</close>
+    <adjusted_close>229.1418</adjusted_close>
+    <volume>32127600</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>245.0600</open>
+    <high>247.4700</high>
+    <low>192.6900</low>
+    <close>206.1700</close>
+    <adjusted_close>191.5896</adjusted_close>
+    <volume>44036500</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>206.4800</open>
+    <high>211.3900</high>
+    <low>192.2600</low>
+    <close>204.4400</close>
+    <adjusted_close>189.9819</adjusted_close>
+    <volume>36704600</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>203.5400</open>
+    <high>232.0700</high>
+    <low>201.1500</low>
+    <close>227.5400</close>
+    <adjusted_close>212.5022</adjusted_close>
+    <volume>46753400</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>228.2700</open>
+    <high>240.6300</high>
+    <low>217.4800</low>
+    <close>218.1800</close>
+    <adjusted_close>203.7608</adjusted_close>
+    <volume>40082400</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>219.7900</open>
+    <high>229.4200</high>
+    <low>203.6300</low>
+    <close>222.9400</close>
+    <adjusted_close>208.2062</adjusted_close>
+    <volume>41288800</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>224.0300</open>
+    <high>224.7000</high>
+    <low>196.6100</low>
+    <close>210.0400</close>
+    <adjusted_close>197.0905</adjusted_close>
+    <volume>34519000</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>209.9400</open>
+    <high>242.0400</high>
+    <low>205.6100</low>
+    <close>241.1200</close>
+    <adjusted_close>226.2543</adjusted_close>
+    <volume>30943800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>240.1100</open>
+    <high>261.5900</high>
+    <low>238.7000</low>
+    <close>244.4100</close>
+    <adjusted_close>229.3415</adjusted_close>
+    <volume>29650500</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>243.0900</open>
+    <high>247.0000</high>
+    <low>225.3300</low>
+    <close>226.1900</close>
+    <adjusted_close>213.1619</adjusted_close>
+    <volume>42386200</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>228.3500</open>
+    <high>246.3000</high>
+    <low>218.8000</low>
+    <close>241.7000</close>
+    <adjusted_close>227.7786</adjusted_close>
+    <volume>37578700</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>242.3400</open>
+    <high>264.9500</high>
+    <low>232.0800</low>
+    <close>264.1400</close>
+    <adjusted_close>248.9261</adjusted_close>
+    <volume>34260600</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>267.0600</open>
+    <high>274.9200</high>
+    <low>236.0500</low>
+    <close>238.8600</close>
+    <adjusted_close>226.1929</adjusted_close>
+    <volume>33466700</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>240.7900</open>
+    <high>246.6700</high>
+    <low>218.4900</low>
+    <close>225.8100</close>
+    <adjusted_close>213.8350</adjusted_close>
+    <volume>43198800</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>225.7100</open>
+    <high>229.1500</high>
+    <low>219.4000</low>
+    <close>219.8200</close>
+    <adjusted_close>208.1626</adjusted_close>
+    <volume>36086100</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>220.1500</open>
+    <high>226.4300</high>
+    <low>210.0400</low>
+    <close>222.6300</close>
+    <adjusted_close>212.0176</adjusted_close>
+    <volume>50592300</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>218.5400</open>
+    <high>220.0600</high>
+    <low>201.4600</low>
+    <close>220.0000</close>
+    <adjusted_close>209.5129</adjusted_close>
+    <volume>32866700</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>219.2300</open>
+    <high>222.5500</high>
+    <low>206.1700</low>
+    <close>208.9900</close>
+    <adjusted_close>199.0278</adjusted_close>
+    <volume>39575700</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>210.3900</open>
+    <high>222.7400</high>
+    <low>208.6600</low>
+    <close>219.7900</close>
+    <adjusted_close>210.5286</adjusted_close>
+    <volume>34597600</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>218.2200</open>
+    <high>256.8400</high>
+    <low>216.2500</low>
+    <close>247.2600</close>
+    <adjusted_close>236.8411</adjusted_close>
+    <volume>37111800</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>247.2600</open>
+    <high>256.4300</high>
+    <low>245.0200</low>
+    <close>254.6100</close>
+    <adjusted_close>243.8814</adjusted_close>
+    <volume>29234100</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>254.7900</open>
+    <high>256.7600</high>
+    <low>236.1300</low>
+    <close>240.5800</close>
+    <adjusted_close>231.5957</adjusted_close>
+    <volume>28364700</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>240.5800</open>
+    <high>251.3000</high>
+    <low>213.2600</low>
+    <close>218.2200</close>
+    <adjusted_close>210.0707</adjusted_close>
+    <volume>35432900</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>215.0000</open>
+    <high>233.7500</high>
+    <low>205.5300</low>
+    <close>229.9200</close>
+    <adjusted_close>221.3338</adjusted_close>
+    <volume>36170700</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>229.6400</open>
+    <high>240.2200</high>
+    <low>227.1200</low>
+    <close>232.9700</close>
+    <adjusted_close>225.6294</adjusted_close>
+    <volume>36037700</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>233.3800</open>
+    <high>251.2200</high>
+    <low>231.6700</low>
+    <close>245.7800</close>
+    <adjusted_close>238.0358</adjusted_close>
+    <volume>36956800</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>245.0000</open>
+    <high>256.5700</high>
+    <low>241.9700</low>
+    <close>251.1300</close>
+    <adjusted_close>243.2172</adjusted_close>
+    <volume>31669300</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>249.4300</open>
+    <high>251.2300</high>
+    <low>238.8300</low>
+    <close>249.7400</close>
+    <adjusted_close>243.2682</adjusted_close>
+    <volume>47440800</volume>
+    <news>ADP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>250.3800</open>
+    <high>250.6100</high>
+    <low>239.7200</low>
+    <close>241.8900</close>
+    <adjusted_close>235.6216</adjusted_close>
+    <volume>32352100</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>249.6900</open>
+    <high>254.6400</high>
+    <low>239.3200</low>
+    <close>244.9200</close>
+    <adjusted_close>238.5731</adjusted_close>
+    <volume>29249600</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>244.1700</open>
+    <high>253.1000</high>
+    <low>236.2400</low>
+    <close>238.6900</close>
+    <adjusted_close>233.8448</adjusted_close>
+    <volume>32494900</volume>
+    <news>ADP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>239.3000</open>
+    <high>269.4900</high>
+    <low>231.2700</low>
+    <close>262.6200</close>
+    <adjusted_close>257.2890</adjusted_close>
+    <volume>34818000</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>260.3800</open>
+    <high>276.7700</high>
+    <low>256.4700</low>
+    <close>275.9100</close>
+    <adjusted_close>270.3093</adjusted_close>
+    <volume>31151100</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>273.0000</open>
+    <high>281.5400</high>
+    <low>267.7900</low>
+    <close>276.7300</close>
+    <adjusted_close>272.4828</adjusted_close>
+    <volume>34077600</volume>
+    <news>ADP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>278.1800</open>
+    <high>294.1800</high>
+    <low>273.4500</low>
+    <close>289.2400</close>
+    <adjusted_close>284.8008</adjusted_close>
+    <volume>34811900</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>288.0100</open>
+    <high>309.6300</high>
+    <low>285.9900</low>
+    <close>306.9300</close>
+    <adjusted_close>302.2193</adjusted_close>
+    <volume>32039500</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>307.6700</open>
+    <high>307.7300</high>
+    <low>287.6300</low>
+    <close>292.7300</close>
+    <adjusted_close>289.7308</adjusted_close>
+    <volume>40091900</volume>
+    <news>ADP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</adp_stock_data>

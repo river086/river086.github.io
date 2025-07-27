@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<general_electric_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>244.4143</open>
+    <high>247.5094</high>
+    <low>212.5646</low>
+    <close>214.0622</close>
+    <adjusted_close>116.0737</adjusted_close>
+    <volume>87798395</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>214.4616</open>
+    <high>228.6392</high>
+    <low>199.5851</low>
+    <close>211.4663</close>
+    <adjusted_close>114.6660</adjusted_close>
+    <volume>92962717</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>213.2635</open>
+    <high>263.3844</high>
+    <low>201.6817</low>
+    <close>248.6077</close>
+    <adjusted_close>135.2035</adjusted_close>
+    <volume>117413115</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>248.0086</open>
+    <high>268.2766</high>
+    <low>228.5394</low>
+    <close>251.2036</close>
+    <adjusted_close>136.6153</adjusted_close>
+    <volume>84243480</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>253.9992</open>
+    <high>264.4826</high>
+    <low>233.6313</low>
+    <close>252.2020</close>
+    <adjusted_close>137.1582</adjusted_close>
+    <volume>62865067</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>249.5063</open>
+    <high>258.7916</high>
+    <low>229.7375</low>
+    <close>253.9992</close>
+    <adjusted_close>138.1357</adjusted_close>
+    <volume>55042826</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>251.6030</open>
+    <high>262.3860</high>
+    <low>237.2256</low>
+    <close>247.7091</close>
+    <adjusted_close>135.0706</adjusted_close>
+    <volume>51346087</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>248.9072</open>
+    <high>289.9425</high>
+    <low>245.3129</low>
+    <close>280.9566</close>
+    <adjusted_close>153.2000</adjusted_close>
+    <volume>52990464</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>283.9519</open>
+    <high>287.8458</high>
+    <low>263.5840</low>
+    <close>277.0628</close>
+    <adjusted_close>151.4283</adjusted_close>
+    <volume>48784883</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>277.9614</open>
+    <high>287.2467</high>
+    <low>234.8294</low>
+    <close>262.6855</close>
+    <adjusted_close>143.5704</adjusted_close>
+    <volume>89524194</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>262.3860</open>
+    <high>264.7822</high>
+    <low>229.7375</low>
+    <close>237.5252</close>
+    <adjusted_close>129.8191</adjusted_close>
+    <volume>59439942</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>243.8152</open>
+    <high>269.2751</high>
+    <low>226.1431</low>
+    <close>229.7375</close>
+    <adjusted_close>125.9714</adjusted_close>
+    <volume>68881820</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>224.0464</open>
+    <high>233.6313</high>
+    <low>204.2776</low>
+    <close>220.3563</close>
+    <adjusted_close>120.8274</adjusted_close>
+    <volume>102225853</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>222.8483</open>
+    <high>232.1936</high>
+    <low>215.7555</low>
+    <close>222.8483</close>
+    <adjusted_close>122.1940</adjusted_close>
+    <volume>75557460</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>218.0559</open>
+    <high>223.3276</high>
+    <low>174.5406</low>
+    <close>200.6114</close>
+    <adjusted_close>110.3971</adjusted_close>
+    <volume>134601027</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>198.9820</open>
+    <high>239.6698</high>
+    <low>187.0968</low>
+    <close>232.5770</close>
+    <adjusted_close>127.9879</adjusted_close>
+    <volume>89411997</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>230.2766</open>
+    <high>256.6350</high>
+    <low>227.6887</low>
+    <close>234.8294</close>
+    <adjusted_close>129.2274</adjusted_close>
+    <volume>74858609</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>234.7815</open>
+    <high>252.1301</high>
+    <low>221.6982</low>
+    <close>234.8294</close>
+    <adjusted_close>129.2274</adjusted_close>
+    <volume>118386398</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>234.4460</open>
+    <high>240.5804</high>
+    <low>206.0269</low>
+    <close>208.4710</close>
+    <adjusted_close>115.0942</adjusted_close>
+    <volume>84922088</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>206.0748</open>
+    <high>208.6148</high>
+    <low>190.9307</low>
+    <close>196.0107</close>
+    <adjusted_close>108.2150</adjusted_close>
+    <volume>77176239</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>196.0107</open>
+    <high>202.0971</high>
+    <low>136.5845</low>
+    <close>178.2787</close>
+    <adjusted_close>98.8710</adjusted_close>
+    <volume>126681092</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>178.7579</open>
+    <high>189.2534</high>
+    <low>172.7194</low>
+    <close>174.4926</close>
+    <adjusted_close>96.7713</adjusted_close>
+    <volume>90476009</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>173.7259</open>
+    <high>200.2280</high>
+    <low>172.7674</low>
+    <close>184.5088</close>
+    <adjusted_close>102.3261</adjusted_close>
+    <volume>69456829</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>184.0296</open>
+    <high>198.3590</high>
+    <low>173.5342</low>
+    <close>192.0809</close>
+    <adjusted_close>107.0005</adjusted_close>
+    <volume>93391245</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>193.1352</open>
+    <high>198.1194</high>
+    <low>165.2912</low>
+    <close>178.0390</close>
+    <adjusted_close>99.1783</adjusted_close>
+    <volume>101674589</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>176.8409</open>
+    <high>190.0201</high>
+    <low>166.3934</low>
+    <close>184.5088</close>
+    <adjusted_close>103.2621</adjusted_close>
+    <volume>94678005</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>187.3843</open>
+    <high>200.5156</high>
+    <low>176.5055</low>
+    <close>179.2372</close>
+    <adjusted_close>100.3117</adjusted_close>
+    <volume>103752530</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>177.5598</open>
+    <high>181.1541</high>
+    <low>144.4920</low>
+    <close>151.2014</close>
+    <adjusted_close>84.6213</adjusted_close>
+    <volume>134501767</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>152.1599</open>
+    <high>160.3070</high>
+    <low>145.6901</low>
+    <close>149.2365</close>
+    <adjusted_close>83.5216</adjusted_close>
+    <volume>105021382</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>149.2365</open>
+    <high>150.4825</high>
+    <low>131.4086</low>
+    <close>139.2203</close>
+    <adjusted_close>78.4043</adjusted_close>
+    <volume>118304809</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>139.2682</open>
+    <high>154.3165</high>
+    <low>110.3219</low>
+    <close>154.3165</close>
+    <adjusted_close>86.9059</adjusted_close>
+    <volume>172582954</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>153.8372</open>
+    <high>158.0546</high>
+    <low>135.4822</low>
+    <close>144.4920</close>
+    <adjusted_close>81.3731</adjusted_close>
+    <volume>117625887</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>141.3769</open>
+    <high>142.3354</high>
+    <low>112.6702</low>
+    <close>118.1336</close>
+    <adjusted_close>66.9945</adjusted_close>
+    <volume>122458333</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>118.6128</open>
+    <high>130.4022</high>
+    <low>102.5582</low>
+    <close>121.0090</close>
+    <adjusted_close>68.6252</adjusted_close>
+    <volume>158018611</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>121.1528</open>
+    <high>131.3128</high>
+    <low>111.1845</low>
+    <close>129.9709</close>
+    <adjusted_close>73.7076</adjusted_close>
+    <volume>117798512</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>134.0924</open>
+    <high>134.0924</high>
+    <low>115.4977</low>
+    <close>116.6958</close>
+    <adjusted_close>66.6799</adjusted_close>
+    <volume>85501735</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>118.1336</open>
+    <high>125.8494</high>
+    <low>107.5902</low>
+    <close>110.8970</close>
+    <adjusted_close>63.3665</adjusted_close>
+    <volume>96361904</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>111.9034</open>
+    <high>115.9770</high>
+    <low>102.0789</low>
+    <close>115.2581</close>
+    <adjusted_close>66.3844</adjusted_close>
+    <volume>88525391</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>115.9770</open>
+    <high>134.1882</high>
+    <low>110.9929</low>
+    <close>122.2072</close>
+    <adjusted_close>70.3868</adjusted_close>
+    <volume>109292820</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>122.4468</open>
+    <high>142.7188</high>
+    <low>122.2072</low>
+    <close>141.1373</close>
+    <adjusted_close>81.2898</adjusted_close>
+    <volume>88309532</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>141.1373</open>
+    <high>141.1373</high>
+    <low>131.0732</low>
+    <close>137.5430</close>
+    <adjusted_close>79.2196</adjusted_close>
+    <volume>80344128</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>140.9935</open>
+    <high>151.7286</high>
+    <low>136.7282</low>
+    <close>137.4471</close>
+    <adjusted_close>79.6819</adjusted_close>
+    <volume>86805683</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>136.4886</open>
+    <high>141.3769</high>
+    <low>128.9166</low>
+    <close>136.2969</close>
+    <adjusted_close>79.0150</adjusted_close>
+    <volume>96594186</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>135.1467</open>
+    <high>145.6422</high>
+    <low>130.2585</low>
+    <close>141.7124</close>
+    <adjusted_close>82.1545</adjusted_close>
+    <volume>70212250</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>142.5750</open>
+    <high>155.3708</high>
+    <low>140.4663</low>
+    <close>142.8626</close>
+    <adjusted_close>83.3353</adjusted_close>
+    <volume>88341832</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>142.8626</open>
+    <high>150.0033</high>
+    <low>134.1882</low>
+    <close>139.0286</close>
+    <adjusted_close>81.0988</adjusted_close>
+    <volume>99631996</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>139.2203</open>
+    <high>143.5335</high>
+    <low>131.1690</low>
+    <close>137.3992</close>
+    <adjusted_close>80.1484</adjusted_close>
+    <volume>85741171</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>139.9392</open>
+    <high>149.9554</high>
+    <low>137.9263</low>
+    <close>148.4697</close>
+    <adjusted_close>87.1736</adjusted_close>
+    <volume>89419006</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>148.5656</open>
+    <high>165.6746</high>
+    <low>148.1822</low>
+    <close>161.1697</close>
+    <adjusted_close>94.6303</adjusted_close>
+    <volume>92789799</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>161.4572</open>
+    <high>162.8949</high>
+    <low>155.0354</low>
+    <close>155.8501</close>
+    <adjusted_close>92.0654</adjusted_close>
+    <volume>70689040</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>156.6648</open>
+    <high>160.4508</high>
+    <low>138.4056</low>
+    <close>146.2652</close>
+    <adjusted_close>86.4033</adjusted_close>
+    <volume>182817307</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>145.7859</open>
+    <high>152.6391</high>
+    <low>142.8146</low>
+    <close>143.5335</close>
+    <adjusted_close>84.7896</adjusted_close>
+    <volume>135684799</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>144.3482</open>
+    <high>150.8180</high>
+    <low>141.6165</low>
+    <close>149.1407</close>
+    <adjusted_close>88.1020</adjusted_close>
+    <volume>82740194</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>148.5656</open>
+    <high>160.4987</high>
+    <low>147.7029</low>
+    <close>155.2750</close>
+    <adjusted_close>92.2779</adjusted_close>
+    <volume>120545006</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>155.2750</open>
+    <high>161.1217</high>
+    <low>150.9618</low>
+    <close>159.3485</close>
+    <adjusted_close>94.6988</adjusted_close>
+    <volume>94471572</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>156.4731</open>
+    <high>159.8278</high>
+    <low>150.5784</low>
+    <close>157.1440</close>
+    <adjusted_close>93.3887</adjusted_close>
+    <volume>67958259</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>157.1440</open>
+    <high>165.4829</high>
+    <low>156.3293</low>
+    <close>160.9301</close>
+    <adjusted_close>96.2057</adjusted_close>
+    <volume>75023372</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>161.5051</open>
+    <high>164.8598</high>
+    <low>156.4731</low>
+    <close>163.5180</close>
+    <adjusted_close>97.7528</adjusted_close>
+    <volume>66681976</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>163.4221</open>
+    <high>176.6492</high>
+    <low>162.0323</low>
+    <close>169.4606</close>
+    <adjusted_close>101.3054</adjusted_close>
+    <volume>75904695</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>169.4606</open>
+    <high>180.9145</high>
+    <low>169.0293</low>
+    <close>174.9240</close>
+    <adjusted_close>105.1941</adjusted_close>
+    <volume>83558462</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>175.9304</open>
+    <high>176.7930</high>
+    <low>167.4957</low>
+    <close>173.1508</close>
+    <adjusted_close>104.1277</adjusted_close>
+    <volume>79385700</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>172.5277</open>
+    <high>175.4511</high>
+    <low>167.9749</low>
+    <close>168.6938</close>
+    <adjusted_close>102.0842</adjusted_close>
+    <volume>64890010</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>169.0293</open>
+    <high>174.8281</high>
+    <low>168.0229</low>
+    <close>172.8153</close>
+    <adjusted_close>104.5783</adjusted_close>
+    <volume>82435380</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>173.3904</open>
+    <high>175.4032</high>
+    <low>167.8312</low>
+    <close>173.4862</close>
+    <adjusted_close>104.9843</adjusted_close>
+    <volume>89505102</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>172.9111</open>
+    <high>178.9496</high>
+    <low>170.4191</low>
+    <close>174.8281</close>
+    <adjusted_close>105.7964</adjusted_close>
+    <volume>70516396</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>174.8281</open>
+    <high>177.9432</high>
+    <low>163.6617</low>
+    <close>166.0580</close>
+    <adjusted_close>101.1119</adjusted_close>
+    <volume>104675107</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>167.0164</open>
+    <high>171.4734</high>
+    <low>162.6074</low>
+    <close>165.3391</close>
+    <adjusted_close>100.6742</adjusted_close>
+    <volume>90584097</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>165.6746</open>
+    <high>165.9142</high>
+    <low>157.4316</low>
+    <close>161.0738</close>
+    <adjusted_close>98.0771</adjusted_close>
+    <volume>86252897</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>160.2112</open>
+    <high>165.7225</high>
+    <low>158.1504</low>
+    <close>161.3614</close>
+    <adjusted_close>98.9007</adjusted_close>
+    <volume>95658694</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>161.0259</open>
+    <high>165.3391</high>
+    <low>156.5689</low>
+    <close>162.5116</close>
+    <adjusted_close>99.6057</adjusted_close>
+    <volume>98129774</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>162.7991</open>
+    <high>174.1572</high>
+    <low>160.5946</low>
+    <close>171.1859</close>
+    <adjusted_close>104.9223</adjusted_close>
+    <volume>92318325</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>171.8089</open>
+    <high>173.7738</high>
+    <low>167.4957</low>
+    <close>167.9749</close>
+    <adjusted_close>103.6882</adjusted_close>
+    <volume>95124247</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>168.2146</open>
+    <high>170.7545</high>
+    <low>156.3772</low>
+    <close>156.9523</close>
+    <adjusted_close>96.8841</adjusted_close>
+    <volume>137559877</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>156.5210</open>
+    <high>161.7448</high>
+    <low>154.3644</low>
+    <close>157.5274</close>
+    <adjusted_close>97.9671</adjusted_close>
+    <volume>101070217</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>158.0067</open>
+    <high>167.7353</high>
+    <low>156.1376</low>
+    <close>166.6810</close>
+    <adjusted_close>103.6598</adjusted_close>
+    <volume>119471086</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>166.7289</open>
+    <high>167.6874</high>
+    <low>158.4859</low>
+    <close>165.7704</close>
+    <adjusted_close>103.0935</adjusted_close>
+    <volume>99603470</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>166.0100</open>
+    <high>168.8855</high>
+    <low>161.5051</low>
+    <close>164.1889</close>
+    <adjusted_close>102.1099</adjusted_close>
+    <volume>104818460</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>164.3806</open>
+    <high>167.3519</high>
+    <low>157.0961</low>
+    <close>157.9587</close>
+    <adjusted_close>98.9702</adjusted_close>
+    <volume>119733501</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>158.6297</open>
+    <high>161.1217</high>
+    <low>153.6455</low>
+    <close>156.6648</close>
+    <adjusted_close>98.1595</adjusted_close>
+    <volume>99207180</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>156.4731</open>
+    <high>165.0515</high>
+    <low>154.3165</low>
+    <close>163.2304</close>
+    <adjusted_close>102.2732</adjusted_close>
+    <volume>84907672</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>163.8055</open>
+    <high>170.8504</high>
+    <low>161.7927</low>
+    <close>169.1730</close>
+    <adjusted_close>106.7588</adjusted_close>
+    <volume>96034453</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>169.6523</open>
+    <high>174.8281</high>
+    <low>167.3519</low>
+    <close>168.2625</close>
+    <adjusted_close>106.1841</adjusted_close>
+    <volume>116095623</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>168.6938</open>
+    <high>173.8696</high>
+    <low>165.9142</low>
+    <close>169.0772</close>
+    <adjusted_close>106.6983</adjusted_close>
+    <volume>96348425</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>169.5564</open>
+    <high>184.4609</high>
+    <low>167.5436</low>
+    <close>178.3266</close>
+    <adjusted_close>113.3673</adjusted_close>
+    <volume>134967421</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>179.2851</open>
+    <high>183.4545</high>
+    <low>171.3776</low>
+    <close>172.7674</close>
+    <adjusted_close>109.8331</adjusted_close>
+    <volume>135776275</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>173.3904</open>
+    <high>174.9240</high>
+    <low>165.3391</low>
+    <close>167.3040</close>
+    <adjusted_close>107.1957</adjusted_close>
+    <volume>126586278</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>165.8663</open>
+    <high>172.5277</high>
+    <low>162.4636</low>
+    <close>169.4606</close>
+    <adjusted_close>108.5775</adjusted_close>
+    <volume>165005847</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>169.4606</open>
+    <high>178.4704</high>
+    <low>165.5787</low>
+    <close>176.6492</close>
+    <adjusted_close>113.1835</adjusted_close>
+    <volume>163407852</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>176.4576</open>
+    <high>181.2021</high>
+    <low>174.6843</low>
+    <close>180.0998</close>
+    <adjusted_close>115.3943</adjusted_close>
+    <volume>138288318</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>180.5790</open>
+    <high>190.5952</high>
+    <low>175.6428</low>
+    <close>183.4545</close>
+    <adjusted_close>118.3922</adjusted_close>
+    <volume>182865780</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>184.1254</open>
+    <high>196.3941</high>
+    <low>180.8187</low>
+    <close>185.7549</close>
+    <adjusted_close>119.8768</adjusted_close>
+    <volume>182419535</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>184.9881</open>
+    <high>193.9020</high>
+    <low>173.4862</low>
+    <close>186.2820</close>
+    <adjusted_close>120.2170</adjusted_close>
+    <volume>217516331</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>186.1383</open>
+    <high>201.6178</high>
+    <low>184.2692</low>
+    <close>198.4069</close>
+    <adjusted_close>128.9059</adjusted_close>
+    <volume>142179217</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>197.8318</open>
+    <high>202.0012</high>
+    <low>188.8220</low>
+    <close>197.2567</close>
+    <adjusted_close>128.1586</adjusted_close>
+    <volume>150841574</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>195.9628</open>
+    <high>196.3941</high>
+    <low>175.0198</low>
+    <close>183.5024</close>
+    <adjusted_close>119.2223</adjusted_close>
+    <volume>186695711</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>183.0711</open>
+    <high>183.0711</high>
+    <low>172.8632</low>
+    <close>177.6557</close>
+    <adjusted_close>116.4105</adjusted_close>
+    <volume>174149004</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>177.7994</open>
+    <high>179.4768</high>
+    <low>157.7670</low>
+    <close>169.4606</close>
+    <adjusted_close>111.0406</adjusted_close>
+    <volume>229955785</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>170.5629</open>
+    <high>173.9655</high>
+    <low>158.5818</low>
+    <close>158.8214</close>
+    <adjusted_close>105.0166</adjusted_close>
+    <volume>176921665</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>159.7799</open>
+    <high>180.8666</high>
+    <low>151.6806</low>
+    <close>177.3681</close>
+    <adjusted_close>117.2801</adjusted_close>
+    <volume>241537071</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>179.0455</open>
+    <high>184.6047</high>
+    <low>151.2014</low>
+    <close>156.7127</close>
+    <adjusted_close>103.6223</adjusted_close>
+    <volume>287595495</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>157.1919</open>
+    <high>161.1217</high>
+    <low>144.7795</low>
+    <close>147.2237</close>
+    <adjusted_close>97.3479</adjusted_close>
+    <volume>221149265</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>147.3674</open>
+    <high>149.2365</high>
+    <low>125.3222</low>
+    <close>127.9102</close>
+    <adjusted_close>85.5171</adjusted_close>
+    <volume>313312681</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>126.6162</open>
+    <high>143.2460</high>
+    <low>122.6864</low>
+    <close>135.5780</close>
+    <adjusted_close>90.6436</adjusted_close>
+    <volume>309641397</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>136.2490</open>
+    <high>145.6422</high>
+    <low>133.0381</low>
+    <close>134.6675</close>
+    <adjusted_close>90.0349</adjusted_close>
+    <volume>181246543</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>136.7762</open>
+    <high>140.3226</high>
+    <low>106.2004</low>
+    <close>122.2072</close>
+    <adjusted_close>82.8016</adjusted_close>
+    <volume>447617659</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>115.0185</open>
+    <high>123.4053</high>
+    <low>82.7654</low>
+    <close>93.5005</close>
+    <adjusted_close>63.3514</adjusted_close>
+    <volume>771013226</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>94.7944</open>
+    <high>100.8329</high>
+    <low>60.2889</low>
+    <close>82.2861</close>
+    <adjusted_close>55.7531</adjusted_close>
+    <volume>522277954</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>78.4043</open>
+    <high>92.4940</high>
+    <low>73.5639</low>
+    <close>77.6375</close>
+    <adjusted_close>53.6150</adjusted_close>
+    <volume>440432485</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>79.1231</open>
+    <high>82.6216</high>
+    <low>56.8862</low>
+    <close>58.1323</close>
+    <adjusted_close>40.1451</adjusted_close>
+    <volume>468562391</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>57.6530</open>
+    <high>61.8224</high>
+    <low>40.2565</low>
+    <close>40.7836</close>
+    <adjusted_close>28.9920</adjusted_close>
+    <volume>705891436</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>39.7293</open>
+    <high>54.3942</high>
+    <low>28.1316</low>
+    <close>48.4515</close>
+    <adjusted_close>34.4429</adjusted_close>
+    <volume>1245900305</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>47.4931</open>
+    <high>61.3911</high>
+    <low>46.9659</low>
+    <close>60.6243</close>
+    <adjusted_close>43.0962</adjusted_close>
+    <volume>561318929</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>61.0557</open>
+    <high>69.7300</high>
+    <low>58.5636</low>
+    <close>64.6021</close>
+    <adjusted_close>45.9239</adjusted_close>
+    <volume>418679043</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>66.2315</open>
+    <high>67.0462</high>
+    <low>53.9149</low>
+    <close>56.1674</close>
+    <adjusted_close>40.2565</adjusted_close>
+    <volume>382274018</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>56.3591</open>
+    <high>64.4583</high>
+    <low>50.3206</low>
+    <close>64.2187</close>
+    <adjusted_close>46.0271</adjusted_close>
+    <volume>439779208</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>65.4168</open>
+    <high>71.3115</high>
+    <low>63.0685</low>
+    <close>66.6149</close>
+    <adjusted_close>47.7445</adjusted_close>
+    <volume>365106871</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>65.8481</open>
+    <high>83.9635</high>
+    <low>62.4455</low>
+    <close>78.6918</close>
+    <adjusted_close>56.7341</adjusted_close>
+    <volume>555256582</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>78.1647</open>
+    <high>80.8484</high>
+    <low>67.8130</low>
+    <close>68.3402</close>
+    <adjusted_close>49.2709</adjusted_close>
+    <volume>445766804</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>68.5319</open>
+    <high>77.8771</high>
+    <low>67.8130</low>
+    <close>76.7748</close>
+    <adjusted_close>55.3520</adjusted_close>
+    <volume>321009013</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>77.9730</open>
+    <high>79.0273</high>
+    <low>72.5096</low>
+    <close>72.5096</close>
+    <adjusted_close>52.6168</adjusted_close>
+    <volume>277409529</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>72.9409</open>
+    <high>81.0880</high>
+    <low>72.6054</low>
+    <close>77.0624</close>
+    <adjusted_close>55.9205</adjusted_close>
+    <volume>334513500</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>77.6375</open>
+    <high>81.6152</high>
+    <low>73.0847</low>
+    <close>76.9665</close>
+    <adjusted_close>56.1996</adjusted_close>
+    <volume>293876996</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>77.1582</open>
+    <high>90.7688</high>
+    <low>75.8643</low>
+    <close>87.2224</close>
+    <adjusted_close>63.6882</adjusted_close>
+    <volume>434007340</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>87.5578</open>
+    <high>94.4110</high>
+    <low>87.1265</low>
+    <close>90.3854</close>
+    <adjusted_close>65.9978</adjusted_close>
+    <volume>338131656</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>90.9125</open>
+    <high>92.6857</high>
+    <low>72.6054</low>
+    <close>78.3564</close>
+    <adjusted_close>57.2145</adjusted_close>
+    <volume>429974506</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>77.8292</open>
+    <high>79.1231</high>
+    <low>68.3881</low>
+    <close>69.1069</close>
+    <adjusted_close>50.7811</adjusted_close>
+    <volume>367289995</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>68.6756</open>
+    <high>79.4107</high>
+    <low>65.8960</low>
+    <close>77.2541</close>
+    <adjusted_close>56.7677</adjusted_close>
+    <volume>318715985</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>78.2126</open>
+    <high>79.2669</high>
+    <low>68.2922</low>
+    <close>69.3945</close>
+    <adjusted_close>50.9924</adjusted_close>
+    <volume>265912731</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>70.5926</open>
+    <high>80.0337</high>
+    <low>69.9696</low>
+    <close>77.8771</close>
+    <adjusted_close>57.6489</adjusted_close>
+    <volume>252577846</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>78.5960</open>
+    <high>83.8197</high>
+    <low>76.1039</low>
+    <close>76.7748</close>
+    <adjusted_close>56.8330</adjusted_close>
+    <volume>275439071</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>77.1103</open>
+    <high>80.8005</high>
+    <low>74.9058</low>
+    <close>75.8643</close>
+    <adjusted_close>56.1589</adjusted_close>
+    <volume>231457778</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>76.8228</open>
+    <high>88.6122</high>
+    <low>76.8228</low>
+    <close>87.6537</close>
+    <adjusted_close>65.3976</adjusted_close>
+    <volume>256616749</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>88.6122</open>
+    <high>99.3951</high>
+    <low>86.8390</low>
+    <close>96.5197</close>
+    <adjusted_close>72.0124</adjusted_close>
+    <volume>308097733</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>97.6699</open>
+    <high>103.7563</high>
+    <low>96.2321</low>
+    <close>100.2578</close>
+    <adjusted_close>75.3190</adjusted_close>
+    <volume>200809196</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>101.2163</open>
+    <high>101.4559</high>
+    <low>89.1393</low>
+    <close>96.0884</close>
+    <adjusted_close>72.1867</adjusted_close>
+    <volume>298196364</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>96.5197</open>
+    <high>99.9223</high>
+    <low>93.5005</low>
+    <close>98.0053</close>
+    <adjusted_close>73.6269</adjusted_close>
+    <volume>226126231</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>99.2035</open>
+    <high>99.2514</high>
+    <low>90.9125</low>
+    <close>94.1235</close>
+    <adjusted_close>70.7106</adjusted_close>
+    <volume>190080188</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>93.3088</open>
+    <high>93.9318</high>
+    <low>86.1201</low>
+    <close>90.3854</close>
+    <adjusted_close>68.4607</adjusted_close>
+    <volume>238271448</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>90.3854</open>
+    <high>93.5963</high>
+    <low>85.2095</low>
+    <close>85.8326</close>
+    <adjusted_close>65.0123</adjusted_close>
+    <volume>222506819</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>88.1329</open>
+    <high>88.2767</high>
+    <low>71.0239</low>
+    <close>78.1647</close>
+    <adjusted_close>59.2044</adjusted_close>
+    <volume>435245458</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>78.1647</open>
+    <high>78.8356</high>
+    <low>70.5447</low>
+    <close>72.9409</close>
+    <adjusted_close>55.7776</adjusted_close>
+    <volume>370610664</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>72.3658</open>
+    <high>83.8677</high>
+    <low>67.1900</low>
+    <close>80.0816</close>
+    <adjusted_close>61.2381</adjusted_close>
+    <volume>299891057</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>77.3020</open>
+    <high>79.9858</high>
+    <low>70.3530</low>
+    <close>76.2477</close>
+    <adjusted_close>58.3063</adjusted_close>
+    <volume>261642251</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>76.1518</open>
+    <high>87.6058</high>
+    <low>75.3850</low>
+    <close>85.8326</close>
+    <adjusted_close>66.2727</adjusted_close>
+    <volume>314929999</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>87.3661</open>
+    <high>92.3503</high>
+    <low>87.3661</low>
+    <close>89.6665</close>
+    <adjusted_close>69.2330</adjusted_close>
+    <volume>205042409</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>90.7688</open>
+    <high>93.4525</high>
+    <low>89.6186</low>
+    <close>91.2959</close>
+    <adjusted_close>71.1145</adjusted_close>
+    <volume>199065095</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>91.7752</open>
+    <high>100.6412</high>
+    <low>87.7975</low>
+    <close>96.1842</close>
+    <adjusted_close>74.9222</adjusted_close>
+    <volume>222053272</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>95.9925</open>
+    <high>96.3759</high>
+    <low>89.6186</low>
+    <close>93.8359</close>
+    <adjusted_close>73.0930</adjusted_close>
+    <volume>175822057</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>93.8359</open>
+    <high>95.6091</high>
+    <low>87.7975</low>
+    <close>91.4876</close>
+    <adjusted_close>71.2639</adjusted_close>
+    <volume>201236579</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>90.1937</open>
+    <high>99.8744</high>
+    <low>86.3597</low>
+    <close>99.8744</close>
+    <adjusted_close>78.6797</adjusted_close>
+    <volume>260480190</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>99.3951</open>
+    <high>100.6412</high>
+    <low>92.7816</low>
+    <close>99.4431</close>
+    <adjusted_close>78.3399</adjusted_close>
+    <volume>218270999</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>99.9702</open>
+    <high>101.5518</high>
+    <low>96.8072</low>
+    <close>99.2514</close>
+    <adjusted_close>78.1889</adjusted_close>
+    <volume>145550907</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>98.8680</open>
+    <high>110.0344</high>
+    <low>98.1491</low>
+    <close>108.8363</close>
+    <adjusted_close>86.3945</adjusted_close>
+    <volume>211786594</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>108.9321</open>
+    <high>111.0887</high>
+    <low>100.4974</low>
+    <close>100.9287</close>
+    <adjusted_close>80.1175</adjusted_close>
+    <volume>189957202</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>100.7850</open>
+    <high>104.3793</high>
+    <low>95.2257</low>
+    <close>101.2642</close>
+    <adjusted_close>80.3838</adjusted_close>
+    <volume>173370945</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>101.5038</open>
+    <high>105.1940</high>
+    <low>97.0948</low>
+    <close>100.5933</close>
+    <adjusted_close>80.5800</adjusted_close>
+    <volume>188550257</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>103.0853</open>
+    <high>108.2132</high>
+    <low>99.1076</low>
+    <close>106.7755</close>
+    <adjusted_close>85.5322</adjusted_close>
+    <volume>192113432</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>107.4944</open>
+    <high>113.8204</high>
+    <low>106.7276</low>
+    <close>111.2804</close>
+    <adjusted_close>89.8702</adjusted_close>
+    <volume>159808975</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>110.3219</open>
+    <high>114.5393</high>
+    <low>109.5072</low>
+    <close>110.8012</close>
+    <adjusted_close>89.4832</adjusted_close>
+    <volume>143136936</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>110.3698</open>
+    <high>113.6766</high>
+    <low>101.1684</low>
+    <close>106.8234</close>
+    <adjusted_close>86.2708</adjusted_close>
+    <volume>201644078</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>105.9129</open>
+    <high>115.6415</high>
+    <low>105.9129</low>
+    <close>111.7596</close>
+    <adjusted_close>90.2573</adjusted_close>
+    <volume>176127121</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>111.9993</open>
+    <high>117.1751</high>
+    <low>109.0759</low>
+    <close>111.1366</close>
+    <adjusted_close>90.4709</adjusted_close>
+    <volume>182654675</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>111.2325</open>
+    <high>119.5713</high>
+    <low>109.0759</low>
+    <close>116.7917</close>
+    <adjusted_close>95.0745</adjusted_close>
+    <volume>165533993</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>117.8940</open>
+    <high>119.1879</high>
+    <low>110.4178</low>
+    <close>110.8970</close>
+    <adjusted_close>90.2759</adjusted_close>
+    <volume>135773605</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>111.7117</open>
+    <high>119.3796</high>
+    <low>109.8427</low>
+    <close>114.4913</close>
+    <adjusted_close>93.9197</adjusted_close>
+    <volume>154309642</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>114.7309</open>
+    <high>126.9037</high>
+    <low>112.6223</low>
+    <close>125.2743</close>
+    <adjusted_close>102.7652</adjusted_close>
+    <volume>186990445</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>124.8430</open>
+    <high>131.7920</high>
+    <low>124.7471</low>
+    <close>127.7664</close>
+    <adjusted_close>104.8095</adjusted_close>
+    <volume>149215179</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>127.7185</open>
+    <high>134.6196</high>
+    <low>125.5619</low>
+    <close>134.3320</close>
+    <adjusted_close>111.0870</adjusted_close>
+    <volume>154942474</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>133.5173</open>
+    <high>133.9007</high>
+    <low>119.3317</low>
+    <close>120.4340</close>
+    <adjusted_close>99.5939</adjusted_close>
+    <volume>192705995</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>120.4340</open>
+    <high>124.7951</high>
+    <low>116.5521</low>
+    <close>122.0634</close>
+    <adjusted_close>101.8233</adjusted_close>
+    <volume>140804344</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>120.8173</open>
+    <high>126.2807</high>
+    <low>119.4275</low>
+    <close>124.0762</close>
+    <adjusted_close>103.5024</adjusted_close>
+    <volume>142339992</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>123.7887</open>
+    <high>128.9166</high>
+    <low>121.8717</low>
+    <close>128.8686</close>
+    <adjusted_close>107.5001</adjusted_close>
+    <volume>137338655</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>128.1019</open>
+    <high>129.2041</high>
+    <low>125.3222</low>
+    <close>128.3894</close>
+    <adjusted_close>107.1004</adjusted_close>
+    <volume>92035652</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>128.0060</open>
+    <high>131.9358</high>
+    <low>125.5619</low>
+    <close>125.9453</close>
+    <adjusted_close>105.9281</adjusted_close>
+    <volume>117208396</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>125.8973</open>
+    <high>130.1147</high>
+    <low>120.5298</low>
+    <close>120.5298</close>
+    <adjusted_close>101.3734</adjusted_close>
+    <volume>152178452</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>120.1464</open>
+    <high>126.7600</high>
+    <low>118.6128</low>
+    <close>124.5075</close>
+    <adjusted_close>104.7189</adjusted_close>
+    <volume>113743292</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>124.0762</open>
+    <high>126.5203</high>
+    <low>121.2487</low>
+    <close>122.7822</close>
+    <adjusted_close>104.1400</adjusted_close>
+    <volume>115352387</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>121.8717</open>
+    <high>124.2679</high>
+    <low>113.5328</low>
+    <close>123.6928</close>
+    <adjusted_close>104.9123</adjusted_close>
+    <volume>170099310</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>122.1592</open>
+    <high>129.8750</high>
+    <low>122.1113</low>
+    <close>126.9517</close>
+    <adjusted_close>107.6764</adjusted_close>
+    <volume>107790662</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>125.3702</open>
+    <high>126.8558</high>
+    <low>115.3060</low>
+    <close>121.1049</close>
+    <adjusted_close>103.6844</adjusted_close>
+    <volume>180903667</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>121.4404</open>
+    <high>122.0155</high>
+    <low>112.1910</low>
+    <close>114.4913</close>
+    <adjusted_close>98.0221</adjusted_close>
+    <volume>187651402</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>115.0185</open>
+    <high>125.8973</high>
+    <low>114.5393</low>
+    <close>124.5555</close>
+    <adjusted_close>107.6189</adjusted_close>
+    <volume>140468292</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>124.0283</open>
+    <high>125.1785</high>
+    <low>118.2294</low>
+    <close>118.9004</close>
+    <adjusted_close>102.7327</adjusted_close>
+    <volume>155852551</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>118.4691</open>
+    <high>137.4471</high>
+    <low>117.7502</low>
+    <close>129.7792</close>
+    <adjusted_close>112.1323</adjusted_close>
+    <volume>288074417</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>129.8271</open>
+    <high>133.1818</high>
+    <low>127.5268</low>
+    <close>130.6898</close>
+    <adjusted_close>112.9191</adjusted_close>
+    <volume>133401220</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>130.6418</open>
+    <high>132.6547</high>
+    <low>127.1434</low>
+    <close>127.3351</close>
+    <adjusted_close>110.9563</adjusted_close>
+    <volume>145794351</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>127.8143</open>
+    <high>130.9773</high>
+    <low>122.3030</low>
+    <close>125.0826</close>
+    <adjusted_close>108.9936</adjusted_close>
+    <volume>128718387</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>125.1785</open>
+    <high>126.1849</high>
+    <low>92.8295</low>
+    <close>118.9483</close>
+    <adjusted_close>103.6483</adjusted_close>
+    <volume>162326504</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>116.1687</open>
+    <high>124.7471</high>
+    <low>113.4849</low>
+    <close>120.8653</close>
+    <adjusted_close>106.2613</adjusted_close>
+    <volume>193806348</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>120.5298</open>
+    <high>142.9584</high>
+    <low>118.8045</low>
+    <close>138.5973</close>
+    <adjusted_close>121.8508</adjusted_close>
+    <volume>309064404</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>138.6931</open>
+    <high>148.5176</high>
+    <low>138.4056</low>
+    <close>143.4856</close>
+    <adjusted_close>126.1484</adjusted_close>
+    <volume>685148502</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>143.7252</open>
+    <high>150.9138</high>
+    <low>142.6709</low>
+    <close>149.2844</close>
+    <adjusted_close>132.2282</adjusted_close>
+    <volume>232263380</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>146.4090</open>
+    <high>147.7988</high>
+    <low>131.6962</low>
+    <close>139.4599</close>
+    <adjusted_close>123.5262</adjusted_close>
+    <volume>240581193</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>139.0286</open>
+    <high>141.9041</high>
+    <low>129.8750</low>
+    <close>139.6516</close>
+    <adjusted_close>124.6863</adjusted_close>
+    <volume>178647591</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>140.9456</open>
+    <high>153.5976</high>
+    <low>140.4663</low>
+    <close>152.3516</close>
+    <adjusted_close>136.0253</adjusted_close>
+    <volume>153022344</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>150.9618</open>
+    <high>153.4538</high>
+    <low>145.2588</low>
+    <close>147.3674</close>
+    <adjusted_close>131.5753</adjusted_close>
+    <volume>134883262</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>146.8403</open>
+    <high>148.5176</high>
+    <low>139.2682</low>
+    <close>144.8754</close>
+    <adjusted_close>129.3502</adjusted_close>
+    <volume>127105155</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>143.9648</open>
+    <high>150.9618</high>
+    <low>139.7954</low>
+    <close>150.8659</close>
+    <adjusted_close>135.7193</adjusted_close>
+    <volume>180600876</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>150.8659</open>
+    <high>158.1504</high>
+    <low>148.9490</low>
+    <close>149.2365</close>
+    <adjusted_close>134.2534</adjusted_close>
+    <volume>160195522</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>149.1407</open>
+    <high>151.2972</high>
+    <low>148.5656</low>
+    <close>149.7157</close>
+    <adjusted_close>134.6846</adjusted_close>
+    <volume>112148488</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>149.2844</open>
+    <high>150.7222</high>
+    <low>140.8977</low>
+    <close>141.9520</close>
+    <adjusted_close>128.6970</adjusted_close>
+    <volume>153840360</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>141.1852</open>
+    <high>142.5750</high>
+    <low>135.7697</low>
+    <close>139.4599</close>
+    <adjusted_close>126.4376</adjusted_close>
+    <volume>144801891</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>138.9807</open>
+    <high>150.9138</high>
+    <low>135.0988</low>
+    <close>147.4154</close>
+    <adjusted_close>133.6502</adjusted_close>
+    <volume>148770396</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>146.8403</open>
+    <high>155.1791</high>
+    <low>146.7444</low>
+    <close>151.4410</close>
+    <adjusted_close>138.3332</adjusted_close>
+    <volume>133681477</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>151.7765</open>
+    <high>152.5912</high>
+    <low>141.3769</low>
+    <close>142.3354</close>
+    <adjusted_close>130.0158</adjusted_close>
+    <volume>137725075</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>142.4792</open>
+    <high>146.6007</high>
+    <low>140.2267</low>
+    <close>142.8626</close>
+    <adjusted_close>131.5381</adjusted_close>
+    <volume>110018609</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>143.6773</open>
+    <high>145.8339</high>
+    <low>140.1788</low>
+    <close>142.8146</close>
+    <adjusted_close>131.4940</adjusted_close>
+    <volume>144757592</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>142.6229</open>
+    <high>146.3610</high>
+    <low>138.6452</low>
+    <close>138.9328</close>
+    <adjusted_close>127.9198</adjusted_close>
+    <volume>120033847</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>139.0286</open>
+    <high>140.4663</high>
+    <low>129.8750</low>
+    <close>131.2169</close>
+    <adjusted_close>120.8156</adjusted_close>
+    <volume>157573618</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>131.8400</open>
+    <high>141.2331</high>
+    <low>128.3894</low>
+    <close>129.4437</close>
+    <adjusted_close>120.1884</adjusted_close>
+    <volume>202125709</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>130.1626</open>
+    <high>132.2233</high>
+    <low>121.0570</low>
+    <close>122.7343</close>
+    <adjusted_close>113.9587</adjusted_close>
+    <volume>169843345</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>122.8302</open>
+    <high>124.0762</high>
+    <low>115.7374</low>
+    <close>117.6543</close>
+    <adjusted_close>109.2419</adjusted_close>
+    <volume>143702701</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>117.8940</open>
+    <high>121.2487</high>
+    <low>113.0057</low>
+    <close>115.8811</close>
+    <adjusted_close>108.6706</adjusted_close>
+    <volume>200811099</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>116.0728</open>
+    <high>119.2838</high>
+    <low>96.0884</low>
+    <close>96.6155</close>
+    <adjusted_close>90.6038</adjusted_close>
+    <volume>377775640</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>96.1842</open>
+    <high>99.4431</high>
+    <low>83.6760</low>
+    <close>87.6537</close>
+    <adjusted_close>82.1995</adjusted_close>
+    <volume>392871050</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>87.6058</open>
+    <high>87.6058</high>
+    <low>82.6695</low>
+    <close>83.6280</close>
+    <adjusted_close>78.9659</adjusted_close>
+    <volume>257852009</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>84.2510</open>
+    <high>92.9254</high>
+    <low>75.7205</low>
+    <close>77.4937</close>
+    <adjusted_close>73.1735</adjusted_close>
+    <volume>490162690</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>76.9665</open>
+    <high>77.2062</high>
+    <low>66.8545</low>
+    <close>67.6213</close>
+    <adjusted_close>64.3799</adjusted_close>
+    <volume>355086455</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>67.8609</open>
+    <high>73.4681</high>
+    <low>61.0077</low>
+    <close>64.6021</close>
+    <adjusted_close>61.5054</adjusted_close>
+    <volume>368555593</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>64.4583</open>
+    <high>72.1262</high>
+    <low>61.2953</low>
+    <close>67.4296</close>
+    <adjusted_close>64.1974</adjusted_close>
+    <volume>310434396</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>67.4775</open>
+    <high>74.7141</high>
+    <low>65.9919</low>
+    <close>67.4775</close>
+    <adjusted_close>64.2430</adjusted_close>
+    <volume>263048800</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>67.5734</open>
+    <high>69.2028</high>
+    <low>60.4326</low>
+    <close>65.2251</close>
+    <adjusted_close>62.6497</adjusted_close>
+    <volume>336847718</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>64.6021</open>
+    <high>68.4839</high>
+    <low>61.5828</low>
+    <close>65.3209</close>
+    <adjusted_close>62.7418</adjusted_close>
+    <volume>264206352</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>64.9375</open>
+    <high>64.9375</high>
+    <low>57.2217</low>
+    <close>62.0141</close>
+    <adjusted_close>59.5656</adjusted_close>
+    <volume>223186578</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>61.7266</open>
+    <high>62.2538</high>
+    <low>53.7232</low>
+    <close>54.1066</close>
+    <adjusted_close>52.4656</adjusted_close>
+    <volume>273054084</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>62.3975</open>
+    <high>66.0398</high>
+    <low>46.9659</low>
+    <close>48.4036</close>
+    <adjusted_close>46.9356</adjusted_close>
+    <volume>598687760</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>47.9723</open>
+    <high>49.0266</high>
+    <low>34.7931</low>
+    <close>35.9433</close>
+    <adjusted_close>34.8532</adjusted_close>
+    <volume>698172168</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>36.1350</open>
+    <high>38.0999</high>
+    <low>31.9176</low>
+    <close>36.2788</close>
+    <adjusted_close>35.2268</adjusted_close>
+    <volume>539271895</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>35.7516</open>
+    <high>51.6146</high>
+    <low>35.5120</low>
+    <close>48.6912</close>
+    <adjusted_close>47.2793</adjusted_close>
+    <volume>519833877</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>48.8829</open>
+    <high>56.3111</high>
+    <low>45.7199</low>
+    <close>51.7852</close>
+    <adjusted_close>50.2836</adjusted_close>
+    <volume>399624869</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>52.0842</open>
+    <high>52.6823</high>
+    <low>45.1064</low>
+    <close>49.7915</close>
+    <adjusted_close>48.3990</adjusted_close>
+    <volume>388025936</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>49.9410</open>
+    <high>52.4829</high>
+    <low>43.8105</low>
+    <close>50.6887</close>
+    <adjusted_close>49.2711</adjusted_close>
+    <volume>288692648</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>50.5890</open>
+    <high>52.3334</high>
+    <low>45.6048</low>
+    <close>47.0502</close>
+    <adjusted_close>45.7344</adjusted_close>
+    <volume>256046463</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>46.3525</open>
+    <high>53.3801</high>
+    <low>46.1032</low>
+    <close>52.3334</close>
+    <adjusted_close>50.9188</adjusted_close>
+    <volume>194098920</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>52.9315</open>
+    <high>53.7788</high>
+    <low>49.6420</low>
+    <close>52.0842</close>
+    <adjusted_close>50.6763</adjusted_close>
+    <volume>205450821</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>51.6855</open>
+    <high>52.2836</high>
+    <low>38.1286</low>
+    <close>41.1191</close>
+    <adjusted_close>40.0076</adjusted_close>
+    <volume>432225082</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>40.3715</open>
+    <high>47.5486</high>
+    <low>40.2718</low>
+    <close>44.5582</close>
+    <adjusted_close>43.4006</adjusted_close>
+    <volume>205331821</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>44.6578</open>
+    <high>51.6855</high>
+    <low>41.0693</low>
+    <close>49.7417</close>
+    <adjusted_close>48.4494</adjusted_close>
+    <volume>250427271</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>50.2401</open>
+    <high>59.0122</high>
+    <low>50.1404</low>
+    <close>56.1712</close>
+    <adjusted_close>54.7119</adjusted_close>
+    <volume>219519499</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>56.3706</open>
+    <high>57.8160</high>
+    <low>53.6293</low>
+    <close>55.6229</close>
+    <adjusted_close>54.2270</adjusted_close>
+    <volume>207993487</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>55.9718</open>
+    <high>64.7938</high>
+    <low>55.9718</low>
+    <close>62.0525</close>
+    <adjusted_close>60.4952</adjusted_close>
+    <volume>299534931</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>62.1023</open>
+    <high>66.0896</high>
+    <low>49.1436</low>
+    <close>54.2274</close>
+    <adjusted_close>52.8665</adjusted_close>
+    <volume>235792796</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>55.8722</open>
+    <high>56.7195</high>
+    <low>29.4064</low>
+    <close>39.5740</close>
+    <adjusted_close>38.6192</adjusted_close>
+    <volume>512354815</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>37.4807</open>
+    <high>38.6270</high>
+    <low>30.9016</low>
+    <close>33.8921</close>
+    <adjusted_close>33.0744</adjusted_close>
+    <volume>505934362</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>33.2442</open>
+    <high>37.3312</high>
+    <low>27.3131</low>
+    <close>32.7458</close>
+    <adjusted_close>31.9557</adjusted_close>
+    <volume>506753623</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>32.7956</open>
+    <high>42.7140</high>
+    <low>31.9981</low>
+    <close>34.0416</close>
+    <adjusted_close>33.2701</adjusted_close>
+    <volume>456936029</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>34.5401</open>
+    <high>35.9356</high>
+    <low>29.9048</low>
+    <close>30.2537</close>
+    <adjusted_close>29.5680</adjusted_close>
+    <volume>352963603</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>30.6026</open>
+    <high>34.8889</high>
+    <low>30.0045</low>
+    <close>31.5994</close>
+    <adjusted_close>30.8832</adjusted_close>
+    <volume>313996018</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>31.2505</open>
+    <high>35.7861</high>
+    <low>29.5559</low>
+    <close>31.0512</close>
+    <adjusted_close>30.3975</adjusted_close>
+    <volume>482244773</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>31.2505</open>
+    <high>40.0226</high>
+    <low>30.1540</low>
+    <close>36.9823</close>
+    <adjusted_close>36.2038</adjusted_close>
+    <volume>499428781</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>37.3810</open>
+    <high>54.0779</high>
+    <low>36.5337</low>
+    <close>50.7385</close>
+    <adjusted_close>49.6705</adjusted_close>
+    <volume>452933268</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>51.4861</open>
+    <high>57.2677</high>
+    <low>49.8912</low>
+    <close>53.8287</close>
+    <adjusted_close>52.7441</adjusted_close>
+    <volume>354030288</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>54.2772</open>
+    <high>60.9560</high>
+    <low>51.8350</low>
+    <close>53.2306</close>
+    <adjusted_close>52.1580</adjusted_close>
+    <volume>338299251</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>54.1277</open>
+    <high>66.5382</high>
+    <low>53.0312</low>
+    <close>62.5011</close>
+    <adjusted_close>61.2417</adjusted_close>
+    <volume>249725767</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>64.3950</open>
+    <high>71.8712</high>
+    <low>59.5604</low>
+    <close>65.4417</close>
+    <adjusted_close>64.1704</adjusted_close>
+    <volume>470322867</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>65.9401</open>
+    <high>69.7779</high>
+    <low>63.6474</low>
+    <close>65.3919</close>
+    <adjusted_close>64.1215</adjusted_close>
+    <volume>248517393</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>65.9899</open>
+    <high>71.7715</high>
+    <low>63.3982</low>
+    <close>70.0769</close>
+    <adjusted_close>68.7156</adjusted_close>
+    <volume>265294768</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>70.9242</open>
+    <high>71.6220</high>
+    <low>63.5477</low>
+    <close>67.0865</close>
+    <adjusted_close>65.8333</adjusted_close>
+    <volume>236134362</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>67.6846</open>
+    <high>67.9338</high>
+    <low>58.9125</low>
+    <close>64.5445</close>
+    <adjusted_close>63.3388</adjusted_close>
+    <volume>245270467</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>65.0928</open>
+    <high>66.8061</high>
+    <low>61.1242</low>
+    <close>65.6722</close>
+    <adjusted_close>64.4454</adjusted_close>
+    <volume>325002441</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>65.6411</open>
+    <high>66.8871</high>
+    <low>59.9405</low>
+    <close>64.1894</close>
+    <adjusted_close>63.0393</adjusted_close>
+    <volume>339598676</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>64.9059</open>
+    <high>69.1362</high>
+    <low>63.0368</low>
+    <close>65.3358</close>
+    <adjusted_close>64.1651</adjusted_close>
+    <volume>220162741</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>65.8903</open>
+    <high>72.3759</high>
+    <low>58.8564</low>
+    <close>59.1804</close>
+    <adjusted_close>58.1200</adjusted_close>
+    <volume>268107032</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>60.1523</open>
+    <high>61.6413</high>
+    <low>54.9314</low>
+    <close>58.8564</close>
+    <adjusted_close>57.8525</adjusted_close>
+    <volume>202893065</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>59.3237</open>
+    <high>64.6255</high>
+    <low>54.8566</low>
+    <close>58.8626</close>
+    <adjusted_close>57.8586</adjusted_close>
+    <volume>231129542</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>59.1866</open>
+    <high>63.4916</high>
+    <low>54.6386</low>
+    <close>59.5043</close>
+    <adjusted_close>58.4894</adjusted_close>
+    <volume>213939955</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>59.1617</open>
+    <high>59.9529</high>
+    <low>53.1371</low>
+    <close>57.0060</close>
+    <adjusted_close>56.0840</adjusted_close>
+    <volume>232081198</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>57.3799</open>
+    <high>58.4265</high>
+    <low>46.3213</low>
+    <close>46.4459</close>
+    <adjusted_close>45.6947</adjusted_close>
+    <volume>233598656</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>46.1593</open>
+    <high>50.3211</high>
+    <low>44.3214</low>
+    <close>48.7760</close>
+    <adjusted_close>47.9871</adjusted_close>
+    <volume>224269212</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>49.2682</open>
+    <high>49.4925</high>
+    <low>38.4775</low>
+    <close>39.6675</close>
+    <adjusted_close>39.0725</adjusted_close>
+    <volume>238743140</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>39.5553</open>
+    <high>46.6640</high>
+    <low>37.3374</low>
+    <close>46.0472</close>
+    <adjusted_close>45.3565</adjusted_close>
+    <volume>226697395</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>45.6671</open>
+    <high>50.6513</high>
+    <low>45.2871</low>
+    <close>45.7544</close>
+    <adjusted_close>45.0681</adjusted_close>
+    <volume>203508938</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>45.6360</open>
+    <high>47.6546</high>
+    <low>38.5523</low>
+    <close>38.5710</close>
+    <adjusted_close>38.0396</adjusted_close>
+    <volume>225091180</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>39.1005</open>
+    <high>49.1311</high>
+    <low>38.7205</low>
+    <close>48.4769</close>
+    <adjusted_close>47.8091</adjusted_close>
+    <volume>205191879</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>48.9442</open>
+    <high>55.0622</high>
+    <low>47.7044</low>
+    <close>53.5608</close>
+    <adjusted_close>52.8228</adjusted_close>
+    <volume>186225136</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>53.7103</open>
+    <high>54.2648</high>
+    <low>47.7792</low>
+    <close>52.2026</close>
+    <adjusted_close>51.5331</adjusted_close>
+    <volume>193897482</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>52.3646</open>
+    <high>67.0311</high>
+    <low>52.0468</low>
+    <close>64.2299</close>
+    <adjusted_close>63.4061</adjusted_close>
+    <volume>241121352</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>64.0622</open>
+    <high>68.3559</high>
+    <low>63.8547</low>
+    <close>67.6057</close>
+    <adjusted_close>66.7387</adjusted_close>
+    <volume>136081942</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>67.5658</open>
+    <high>76.3528</high>
+    <low>66.5443</low>
+    <close>76.2969</close>
+    <adjusted_close>75.3882</adjusted_close>
+    <volume>255262038</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>76.4166</open>
+    <high>81.4126</high>
+    <low>74.5970</low>
+    <close>78.9864</close>
+    <adjusted_close>78.0458</adjusted_close>
+    <volume>155150846</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>79.4014</open>
+    <high>84.5491</high>
+    <low>77.7414</low>
+    <close>81.0295</close>
+    <adjusted_close>80.0645</adjusted_close>
+    <volume>145848825</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>80.7741</open>
+    <high>87.9968</high>
+    <low>80.6624</low>
+    <close>87.6696</close>
+    <adjusted_close>86.6255</adjusted_close>
+    <volume>142631246</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>87.0391</open>
+    <high>94.1421</high>
+    <low>85.2833</low>
+    <close>91.1732</close>
+    <adjusted_close>90.1540</adjusted_close>
+    <volume>126651862</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>90.7342</open>
+    <high>92.4581</high>
+    <low>87.8053</low>
+    <close>91.3488</close>
+    <adjusted_close>90.3276</adjusted_close>
+    <volume>110066152</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>91.7957</open>
+    <high>93.9106</high>
+    <low>87.5898</low>
+    <close>88.2282</close>
+    <adjusted_close>87.3048</adjusted_close>
+    <volume>103146835</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>88.1484</open>
+    <high>91.6919</high>
+    <low>84.2219</low>
+    <close>86.6959</close>
+    <adjusted_close>85.7885</adjusted_close>
+    <volume>143308868</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>86.4326</open>
+    <high>97.2386</high>
+    <low>84.4613</low>
+    <close>97.2067</close>
+    <adjusted_close>96.1892</adjusted_close>
+    <volume>121447653</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>97.1269</open>
+    <high>103.1125</high>
+    <low>94.3097</low>
+    <close>101.8595</close>
+    <adjusted_close>100.8567</adjusted_close>
+    <volume>107725423</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>101.3647</open>
+    <high>107.3184</high>
+    <low>98.6832</low>
+    <close>105.6824</close>
+    <adjusted_close>104.6419</adjusted_close>
+    <volume>134450786</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>106.1692</open>
+    <high>125.4429</high>
+    <low>105.7223</low>
+    <close>125.2115</close>
+    <adjusted_close>123.9787</adjusted_close>
+    <volume>139973507</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>125.2993</open>
+    <high>143.9425</high>
+    <low>124.9641</low>
+    <close>140.0878</close>
+    <adjusted_close>138.7085</adjusted_close>
+    <volume>190019457</volume>
+    <news>GE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>140.1437</open>
+    <high>166.2600</high>
+    <low>133.9900</low>
+    <close>161.8200</close>
+    <adjusted_close>160.5118</adjusted_close>
+    <volume>205917292</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>162.5700</open>
+    <high>170.8000</high>
+    <low>157.3600</low>
+    <close>165.1400</close>
+    <adjusted_close>163.8050</adjusted_close>
+    <volume>124843200</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>166.1200</open>
+    <high>167.5000</high>
+    <low>153.2200</low>
+    <close>158.9700</close>
+    <adjusted_close>157.6848</adjusted_close>
+    <volume>117064600</volume>
+    <news>GE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>160.6700</open>
+    <high>177.2000</high>
+    <low>156.0500</low>
+    <close>170.2000</close>
+    <adjusted_close>169.1098</adjusted_close>
+    <volume>129300600</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>170.7500</open>
+    <high>175.9700</high>
+    <low>150.2000</low>
+    <close>174.6200</close>
+    <adjusted_close>173.5015</adjusted_close>
+    <volume>94693100</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>174.1900</open>
+    <high>190.8800</high>
+    <low>160.5900</low>
+    <close>188.5800</close>
+    <adjusted_close>187.6496</adjusted_close>
+    <volume>100351700</volume>
+    <news>GE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>187.4900</open>
+    <high>194.8000</high>
+    <low>170.4300</low>
+    <close>171.7800</close>
+    <adjusted_close>170.9325</adjusted_close>
+    <volume>102242700</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>172.7600</open>
+    <high>187.4700</high>
+    <low>171.4500</low>
+    <close>182.1600</close>
+    <adjusted_close>181.2613</adjusted_close>
+    <volume>83995100</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>180.8000</open>
+    <high>182.9000</high>
+    <low>159.6000</low>
+    <close>166.7900</close>
+    <adjusted_close>166.2375</adjusted_close>
+    <volume>111508700</volume>
+    <news>GE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</general_electric_stock_data>

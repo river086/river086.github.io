@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<amazon_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>81.5000</open>
+    <high>91.5000</high>
+    <low>58.4375</low>
+    <close>64.5625</close>
+    <adjusted_close>3.2281</adjusted_close>
+    <volume>5242767905</volume>
+    <news>Amazon stock crashes during dot-com bubble burst</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>67.5000</open>
+    <high>85.9375</high>
+    <low>63.0625</low>
+    <close>68.8750</close>
+    <adjusted_close>3.4438</adjusted_close>
+    <volume>4139713903</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>67.6250</open>
+    <high>75.2500</high>
+    <low>60.0000</low>
+    <close>67.0000</close>
+    <adjusted_close>3.3500</adjusted_close>
+    <volume>3131181976</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>65.4375</open>
+    <high>68.6250</high>
+    <low>40.8125</low>
+    <close>55.1875</close>
+    <adjusted_close>2.7594</adjusted_close>
+    <volume>3238557977</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>56.0000</open>
+    <high>62.3750</high>
+    <low>40.4375</low>
+    <close>48.3125</close>
+    <adjusted_close>2.4156</adjusted_close>
+    <volume>2613131965</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>48.8750</open>
+    <high>58.1250</high>
+    <low>32.4688</low>
+    <close>36.3125</close>
+    <adjusted_close>1.8156</adjusted_close>
+    <volume>4063471923</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>36.6875</open>
+    <high>43.9375</high>
+    <low>27.8750</low>
+    <close>30.1250</close>
+    <adjusted_close>1.5063</adjusted_close>
+    <volume>3967405926</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>30.6250</open>
+    <high>43.9688</high>
+    <low>29.3125</low>
+    <close>41.5000</close>
+    <adjusted_close>2.0750</adjusted_close>
+    <volume>2884551962</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>42.1250</open>
+    <high>49.6250</high>
+    <low>35.5000</low>
+    <close>38.4375</close>
+    <adjusted_close>1.9219</adjusted_close>
+    <volume>2674117941</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>38.1875</open>
+    <high>38.4375</high>
+    <low>19.3750</low>
+    <close>36.6250</close>
+    <adjusted_close>1.8313</adjusted_close>
+    <volume>4924815932</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>35.8125</open>
+    <high>40.8750</high>
+    <low>22.1250</low>
+    <close>24.6875</close>
+    <adjusted_close>1.2344</adjusted_close>
+    <volume>3186159956</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>24.9375</open>
+    <high>27.6250</high>
+    <low>14.8750</low>
+    <close>15.5625</close>
+    <adjusted_close>0.7781</adjusted_close>
+    <volume>4036133924</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>15.8125</open>
+    <high>22.3750</high>
+    <low>13.5625</low>
+    <close>17.3125</close>
+    <adjusted_close>0.8656</adjusted_close>
+    <volume>4182667921</volume>
+    <news>Amazon reports first profitable quarter</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>17.1875</open>
+    <high>17.1875</high>
+    <low>9.9375</low>
+    <close>10.1875</close>
+    <adjusted_close>0.5094</adjusted_close>
+    <volume>3346637955</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>9.8750</open>
+    <high>14.0000</high>
+    <low>9.5625</low>
+    <close>10.2300</close>
+    <adjusted_close>0.5115</adjusted_close>
+    <volume>3352063952</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>10.3300</open>
+    <high>18.1600</high>
+    <low>8.1000</low>
+    <close>15.7800</close>
+    <adjusted_close>0.7890</adjusted_close>
+    <volume>3795611948</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>15.9000</open>
+    <high>17.6000</high>
+    <low>13.1000</low>
+    <close>16.6900</close>
+    <adjusted_close>0.8345</adjusted_close>
+    <volume>2877045961</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>17.2200</open>
+    <high>17.9200</high>
+    <low>11.2000</low>
+    <close>14.1500</close>
+    <adjusted_close>0.7075</adjusted_close>
+    <volume>2735389960</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>14.1000</open>
+    <high>17.4200</high>
+    <low>11.0700</low>
+    <close>12.4900</close>
+    <adjusted_close>0.6245</adjusted_close>
+    <volume>3446445952</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>12.7300</open>
+    <high>12.8600</high>
+    <low>8.5500</low>
+    <close>8.9400</close>
+    <adjusted_close>0.4470</adjusted_close>
+    <volume>2016127971</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>8.9500</open>
+    <high>9.1900</high>
+    <low>5.6700</low>
+    <close>5.9700</close>
+    <adjusted_close>0.2985</adjusted_close>
+    <volume>2539849985</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>5.9100</open>
+    <high>9.9900</high>
+    <low>5.5100</low>
+    <close>6.9800</close>
+    <adjusted_close>0.3490</adjusted_close>
+    <volume>3402363933</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>7.0800</open>
+    <high>12.4000</high>
+    <low>6.6000</low>
+    <close>11.3200</close>
+    <adjusted_close>0.5660</adjusted_close>
+    <volume>6229109971</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>11.0200</open>
+    <high>12.8010</high>
+    <low>9.5100</low>
+    <close>10.8200</close>
+    <adjusted_close>0.5410</adjusted_close>
+    <volume>4248467921</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>10.9350</open>
+    <high>15.7700</high>
+    <low>9.0300</low>
+    <close>14.1900</close>
+    <adjusted_close>0.7095</adjusted_close>
+    <volume>6453249930</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>14.0700</open>
+    <high>14.7500</high>
+    <low>11.0600</low>
+    <close>14.1000</close>
+    <adjusted_close>0.7050</adjusted_close>
+    <volume>3279289955</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>14.1300</open>
+    <high>16.9600</high>
+    <low>13.5500</low>
+    <close>14.3000</close>
+    <adjusted_close>0.7150</adjusted_close>
+    <volume>3257959915</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>14.2800</open>
+    <high>17.0500</high>
+    <low>12.5200</low>
+    <close>16.6900</close>
+    <adjusted_close>0.8345</adjusted_close>
+    <volume>3178303918</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>16.5500</open>
+    <high>20.4000</high>
+    <low>15.7500</low>
+    <close>18.2300</close>
+    <adjusted_close>0.9115</adjusted_close>
+    <volume>3096803939</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>18.3100</open>
+    <high>19.1600</high>
+    <low>14.6800</low>
+    <close>16.2500</close>
+    <adjusted_close>0.8125</adjusted_close>
+    <volume>2851789962</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>16.1700</open>
+    <high>17.1600</high>
+    <low>12.2600</low>
+    <close>14.4590</close>
+    <adjusted_close>0.7230</adjusted_close>
+    <volume>3532475908</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>14.3100</open>
+    <high>15.9900</high>
+    <low>12.7800</low>
+    <close>14.9400</close>
+    <adjusted_close>0.7470</adjusted_close>
+    <volume>2309559809</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>14.7100</open>
+    <high>17.9300</high>
+    <low>14.2400</low>
+    <close>15.9300</close>
+    <adjusted_close>0.7965</adjusted_close>
+    <volume>2924473621</volume>
+    <news>Amazon Web Services beta launched</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>16.2300</open>
+    <high>22.0300</high>
+    <low>16.0100</low>
+    <close>19.3600</close>
+    <adjusted_close>0.9680</adjusted_close>
+    <volume>4075988282</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>19.2900</open>
+    <high>24.5000</high>
+    <low>18.2000</low>
+    <close>23.3500</close>
+    <adjusted_close>1.1675</adjusted_close>
+    <volume>4136852421</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>24.1500</open>
+    <high>25.0000</high>
+    <low>18.4300</low>
+    <close>18.8900</close>
+    <adjusted_close>0.9445</adjusted_close>
+    <volume>3118782656</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>19.1900</open>
+    <high>23.2890</high>
+    <low>18.5500</low>
+    <close>21.8500</close>
+    <adjusted_close>1.0925</adjusted_close>
+    <volume>3395339252</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>21.9400</open>
+    <high>22.5000</high>
+    <low>19.6100</low>
+    <close>22.0100</close>
+    <adjusted_close>1.1005</adjusted_close>
+    <volume>2324877129</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>22.1500</open>
+    <high>28.0400</high>
+    <low>21.3600</low>
+    <close>26.0300</close>
+    <adjusted_close>1.3015</adjusted_close>
+    <volume>3264524555</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>25.5500</open>
+    <high>29.1900</high>
+    <low>24.1300</low>
+    <close>28.6900</close>
+    <adjusted_close>1.4345</adjusted_close>
+    <volume>4419120897</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>28.6800</open>
+    <high>36.0900</high>
+    <low>28.1500</low>
+    <close>35.8900</close>
+    <adjusted_close>1.7945</adjusted_close>
+    <volume>3823325748</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>36.5000</open>
+    <high>37.2400</high>
+    <low>32.8300</low>
+    <close>36.3200</close>
+    <adjusted_close>1.8160</adjusted_close>
+    <volume>3446259331</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>36.3300</open>
+    <high>43.1000</high>
+    <low>34.0000</low>
+    <close>41.6400</close>
+    <adjusted_close>2.0820</adjusted_close>
+    <volume>4588703796</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>41.4100</open>
+    <high>46.9500</high>
+    <low>38.2800</low>
+    <close>46.3200</close>
+    <adjusted_close>2.3160</adjusted_close>
+    <volume>3019950658</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>46.5200</open>
+    <high>51.3000</high>
+    <low>44.7300</low>
+    <close>48.4300</close>
+    <adjusted_close>2.4215</adjusted_close>
+    <volume>4059262802</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>48.3700</open>
+    <high>61.1500</high>
+    <low>47.5100</low>
+    <close>54.4300</close>
+    <adjusted_close>2.7215</adjusted_close>
+    <volume>5771731179</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>54.8000</open>
+    <high>57.4900</high>
+    <low>47.6700</low>
+    <close>53.9700</close>
+    <adjusted_close>2.6985</adjusted_close>
+    <volume>3642397629</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>54.4000</open>
+    <high>54.9400</high>
+    <low>47.0000</low>
+    <close>52.6200</close>
+    <adjusted_close>2.6310</adjusted_close>
+    <volume>3876247046</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>52.7600</open>
+    <high>57.8200</high>
+    <low>48.6000</low>
+    <close>50.4000</close>
+    <adjusted_close>2.5200</adjusted_close>
+    <volume>4359627117</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>50.5600</open>
+    <high>50.6500</high>
+    <low>42.2300</low>
+    <close>43.0100</close>
+    <adjusted_close>2.1505</adjusted_close>
+    <volume>3727294147</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>42.8800</open>
+    <high>45.0600</high>
+    <low>39.1500</low>
+    <close>43.2800</close>
+    <adjusted_close>2.1640</adjusted_close>
+    <volume>3096139894</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>43.4400</open>
+    <high>49.1000</high>
+    <low>43.3000</low>
+    <close>43.6000</close>
+    <adjusted_close>2.1800</adjusted_close>
+    <volume>3253746253</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>43.7700</open>
+    <high>48.6800</high>
+    <low>40.5500</low>
+    <close>48.5000</close>
+    <adjusted_close>2.4250</adjusted_close>
+    <volume>3007187799</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>47.8800</open>
+    <high>54.7000</high>
+    <low>47.7000</low>
+    <close>54.4000</close>
+    <adjusted_close>2.7200</adjusted_close>
+    <volume>3239145776</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>53.7800</open>
+    <high>54.0400</high>
+    <low>37.3800</low>
+    <close>38.9200</close>
+    <adjusted_close>1.9460</adjusted_close>
+    <volume>4050850423</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>38.4500</open>
+    <high>40.8300</high>
+    <low>34.8500</low>
+    <close>38.1400</close>
+    <adjusted_close>1.9070</adjusted_close>
+    <volume>3600904248</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>38.2300</open>
+    <high>44.2800</high>
+    <low>37.3600</low>
+    <close>40.8600</close>
+    <adjusted_close>2.0430</adjusted_close>
+    <volume>3525613572</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>41.2400</open>
+    <high>42.7000</high>
+    <low>33.0000</low>
+    <close>34.1300</close>
+    <adjusted_close>1.7065</adjusted_close>
+    <volume>4177783183</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>34.2300</open>
+    <high>41.5000</high>
+    <low>34.1500</low>
+    <close>39.6800</close>
+    <adjusted_close>1.9840</adjusted_close>
+    <volume>3374371672</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>40.0000</open>
+    <high>45.6800</high>
+    <low>37.9900</low>
+    <close>44.2900</close>
+    <adjusted_close>2.2145</adjusted_close>
+    <volume>3526412131</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>45.0500</open>
+    <high>45.4400</high>
+    <low>40.2600</low>
+    <close>43.2200</close>
+    <adjusted_close>2.1610</adjusted_close>
+    <volume>3905736185</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>43.0000</open>
+    <high>43.5900</high>
+    <low>33.2000</low>
+    <close>35.1800</close>
+    <adjusted_close>1.7590</adjusted_close>
+    <volume>4402765299</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>35.0600</open>
+    <high>36.4299</high>
+    <low>32.8200</low>
+    <close>34.2700</close>
+    <adjusted_close>1.7135</adjusted_close>
+    <volume>2401998446</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>34.6300</open>
+    <high>35.3400</high>
+    <low>30.6000</low>
+    <close>32.3600</close>
+    <adjusted_close>1.6180</adjusted_close>
+    <volume>3311378414</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>32.3000</open>
+    <high>36.0400</high>
+    <low>32.1000</low>
+    <close>35.5100</close>
+    <adjusted_close>1.7755</adjusted_close>
+    <volume>2343990567</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>35.5700</open>
+    <high>36.9900</high>
+    <low>32.9300</low>
+    <close>33.0900</close>
+    <adjusted_close>1.6545</adjusted_close>
+    <volume>2129853854</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>33.2400</open>
+    <high>45.8100</high>
+    <low>32.7900</low>
+    <close>45.1500</close>
+    <adjusted_close>2.2575</adjusted_close>
+    <volume>3669217428</volume>
+    <news>Amazon Prime membership program introduced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>44.8800</open>
+    <high>46.9700</high>
+    <low>41.9100</low>
+    <close>42.7000</close>
+    <adjusted_close>2.1350</adjusted_close>
+    <volume>2308083327</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>42.5200</open>
+    <high>45.8400</high>
+    <low>40.5000</low>
+    <close>45.3000</close>
+    <adjusted_close>2.2650</adjusted_close>
+    <volume>2074663251</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>45.3300</open>
+    <high>47.0000</high>
+    <low>38.7200</low>
+    <close>39.8600</close>
+    <adjusted_close>1.9930</adjusted_close>
+    <volume>2950746139</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>39.9700</open>
+    <high>49.4300</high>
+    <low>39.6500</low>
+    <close>48.4600</close>
+    <adjusted_close>2.4230</adjusted_close>
+    <volume>4318930239</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>48.8800</open>
+    <high>50.0010</high>
+    <low>47.1400</low>
+    <close>47.1500</close>
+    <adjusted_close>2.3575</adjusted_close>
+    <volume>2412927045</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>47.4700</open>
+    <high>48.5800</high>
+    <low>43.1000</low>
+    <close>44.8200</close>
+    <adjusted_close>2.2410</adjusted_close>
+    <volume>2466756767</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>43.9200</open>
+    <high>44.6900</high>
+    <low>37.0500</low>
+    <close>37.4400</close>
+    <adjusted_close>1.8720</adjusted_close>
+    <volume>3304211495</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>37.4500</open>
+    <high>37.8300</high>
+    <low>35.1391</low>
+    <close>36.5300</close>
+    <adjusted_close>1.8265</adjusted_close>
+    <volume>2440146606</volume>
+    <news>AWS S3 storage service officially launched</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>36.6700</open>
+    <high>38.8400</high>
+    <low>35.0100</low>
+    <close>35.2100</close>
+    <adjusted_close>1.7605</adjusted_close>
+    <volume>2128984809</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>35.1900</open>
+    <high>36.5000</high>
+    <low>31.5200</low>
+    <close>34.6100</close>
+    <adjusted_close>1.7305</adjusted_close>
+    <volume>2924389099</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>34.6250</open>
+    <high>38.8400</high>
+    <low>32.4200</low>
+    <close>38.6800</close>
+    <adjusted_close>1.9340</adjusted_close>
+    <volume>2295701150</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>38.5200</open>
+    <high>38.6200</high>
+    <low>25.9600</low>
+    <close>26.8900</close>
+    <adjusted_close>1.3445</adjusted_close>
+    <volume>4558096918</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>26.5500</open>
+    <high>30.9900</high>
+    <low>25.7600</low>
+    <close>30.8300</close>
+    <adjusted_close>1.5415</adjusted_close>
+    <volume>3181188936</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>30.8500</open>
+    <high>32.8100</high>
+    <low>29.6800</low>
+    <close>32.1200</close>
+    <adjusted_close>1.6060</adjusted_close>
+    <volume>2909593301</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>31.9800</open>
+    <high>38.5900</high>
+    <low>30.5800</low>
+    <close>38.0900</close>
+    <adjusted_close>1.9045</adjusted_close>
+    <volume>4168273082</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>38.1250</open>
+    <high>43.2500</high>
+    <low>36.8700</low>
+    <close>40.3400</close>
+    <adjusted_close>2.0170</adjusted_close>
+    <volume>2927333239</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>40.2600</open>
+    <high>40.6400</high>
+    <low>37.7000</low>
+    <close>39.4600</close>
+    <adjusted_close>1.9730</adjusted_close>
+    <volume>2420787447</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>38.6800</open>
+    <high>39.1400</high>
+    <low>36.3000</low>
+    <close>37.6700</close>
+    <adjusted_close>1.8835</adjusted_close>
+    <volume>2601914244</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>37.9500</open>
+    <high>42.0000</high>
+    <low>36.6800</low>
+    <close>39.1400</close>
+    <adjusted_close>1.9570</adjusted_close>
+    <volume>3125767778</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>39.3200</open>
+    <high>40.2400</high>
+    <low>37.0400</low>
+    <close>39.7900</close>
+    <adjusted_close>1.9895</adjusted_close>
+    <volume>2841303281</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>39.8500</open>
+    <high>63.8400</high>
+    <low>39.5500</low>
+    <close>61.3300</close>
+    <adjusted_close>3.0665</adjusted_close>
+    <volume>6909728745</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>61.1200</open>
+    <high>73.3100</high>
+    <low>59.7000</low>
+    <close>69.1400</close>
+    <adjusted_close>3.4570</adjusted_close>
+    <volume>6605536728</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>68.9000</open>
+    <high>74.7200</high>
+    <low>66.7100</low>
+    <close>68.4100</close>
+    <adjusted_close>3.4205</adjusted_close>
+    <volume>4772312215</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>68.8100</open>
+    <high>89.0000</high>
+    <low>68.0100</low>
+    <close>78.5400</close>
+    <adjusted_close>3.9270</adjusted_close>
+    <volume>5263654206</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>78.1000</open>
+    <high>80.8000</high>
+    <low>70.0500</low>
+    <close>79.9100</close>
+    <adjusted_close>3.9955</adjusted_close>
+    <volume>3503339389</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>79.9000</open>
+    <high>94.2600</high>
+    <low>79.7300</low>
+    <close>93.1500</close>
+    <adjusted_close>4.6575</adjusted_close>
+    <volume>2437933647</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>93.4200</open>
+    <high>101.0900</high>
+    <low>83.2700</low>
+    <close>89.1500</close>
+    <adjusted_close>4.4575</adjusted_close>
+    <volume>4599391816</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>87.7500</open>
+    <high>91.4700</high>
+    <low>76.5000</low>
+    <close>90.5600</close>
+    <adjusted_close>4.5280</adjusted_close>
+    <volume>3575941952</volume>
+    <news>Kindle e-reader revolutionizes digital reading</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>90.0300</open>
+    <high>95.9400</high>
+    <low>83.8600</low>
+    <close>92.6400</close>
+    <adjusted_close>4.6320</adjusted_close>
+    <volume>2539120982</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>95.3500</open>
+    <high>97.4300</high>
+    <low>68.8400</low>
+    <close>77.7000</close>
+    <adjusted_close>3.8850</adjusted_close>
+    <volume>5706168258</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>79.0200</open>
+    <high>79.4000</high>
+    <low>63.9700</low>
+    <close>64.4700</close>
+    <adjusted_close>3.2235</adjusted_close>
+    <volume>4213137881</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>63.5900</open>
+    <high>76.9300</high>
+    <low>61.2000</low>
+    <close>71.3000</close>
+    <adjusted_close>3.5650</adjusted_close>
+    <volume>3847678705</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>72.9900</open>
+    <high>82.6400</high>
+    <low>70.6500</low>
+    <close>78.6300</close>
+    <adjusted_close>3.9315</adjusted_close>
+    <volume>3955899464</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>78.4000</open>
+    <high>84.7500</high>
+    <low>71.5600</low>
+    <close>81.6200</close>
+    <adjusted_close>4.0810</adjusted_close>
+    <volume>3051832958</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>81.1500</open>
+    <high>84.8800</high>
+    <low>72.6200</low>
+    <close>73.3300</close>
+    <adjusted_close>3.6665</adjusted_close>
+    <volume>3066339956</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>72.2400</open>
+    <high>82.3800</high>
+    <low>62.9900</low>
+    <close>76.3400</close>
+    <adjusted_close>3.8170</adjusted_close>
+    <volume>4316868700</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>76.3600</open>
+    <high>91.7500</high>
+    <low>74.0500</low>
+    <close>80.8100</close>
+    <adjusted_close>4.0405</adjusted_close>
+    <volume>2981310158</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>83.1600</open>
+    <high>86.7700</high>
+    <low>61.3200</low>
+    <close>72.7600</close>
+    <adjusted_close>3.6380</adjusted_close>
+    <volume>3850898604</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>71.7800</open>
+    <high>71.9900</high>
+    <low>43.3100</low>
+    <close>57.2400</close>
+    <adjusted_close>2.8620</adjusted_close>
+    <volume>6643701009</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>56.3500</open>
+    <high>58.7300</high>
+    <low>34.6800</low>
+    <close>42.7000</close>
+    <adjusted_close>2.1350</adjusted_close>
+    <volume>4566350596</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>42.0000</open>
+    <high>54.8500</high>
+    <low>38.8200</low>
+    <close>51.2800</close>
+    <adjusted_close>2.5640</adjusted_close>
+    <volume>4127071124</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>51.3500</open>
+    <high>59.7400</high>
+    <low>47.6300</low>
+    <close>58.8200</close>
+    <adjusted_close>2.9410</adjusted_close>
+    <volume>4086352403</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>58.5700</open>
+    <high>67.3600</high>
+    <low>58.1300</low>
+    <close>64.7900</close>
+    <adjusted_close>3.2395</adjusted_close>
+    <volume>3736608668</volume>
+    <news>Amazon acquires Zappos for $1.2 billion</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>63.9400</open>
+    <high>75.6100</high>
+    <low>59.8200</low>
+    <close>73.4400</close>
+    <adjusted_close>3.6720</adjusted_close>
+    <volume>4554618400</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>73.0150</open>
+    <high>86.6800</high>
+    <low>71.7100</low>
+    <close>80.5200</close>
+    <adjusted_close>4.0260</adjusted_close>
+    <volume>3701626126</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>80.3800</open>
+    <high>83.6000</high>
+    <low>73.1000</low>
+    <close>77.9900</close>
+    <adjusted_close>3.8995</adjusted_close>
+    <volume>2752775561</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>78.2100</open>
+    <high>88.5600</high>
+    <low>76.2500</low>
+    <close>83.6600</close>
+    <adjusted_close>4.1830</adjusted_close>
+    <volume>3042130975</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>84.4200</open>
+    <high>94.4000</high>
+    <low>75.4100</low>
+    <close>85.7600</close>
+    <adjusted_close>4.2880</adjusted_close>
+    <volume>3510110593</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>86.5600</open>
+    <high>88.2000</high>
+    <low>80.2500</low>
+    <close>81.1900</close>
+    <adjusted_close>4.0595</adjusted_close>
+    <volume>2252930569</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>80.7400</open>
+    <high>94.5000</high>
+    <low>77.5100</low>
+    <close>93.3600</close>
+    <adjusted_close>4.6680</adjusted_close>
+    <volume>2563169785</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>92.5000</open>
+    <high>125.6800</high>
+    <low>88.2700</low>
+    <close>118.8100</close>
+    <adjusted_close>5.9405</adjusted_close>
+    <volume>5372923463</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>118.6600</open>
+    <high>136.0800</high>
+    <low>116.2500</low>
+    <close>135.9100</close>
+    <adjusted_close>6.7955</adjusted_close>
+    <volume>3207334075</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>136.9400</open>
+    <high>145.9100</high>
+    <low>125.6474</low>
+    <close>134.5200</close>
+    <adjusted_close>6.7260</adjusted_close>
+    <volume>4150667423</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>136.2500</open>
+    <high>136.6100</high>
+    <low>118.1200</low>
+    <close>125.4100</close>
+    <adjusted_close>6.2705</adjusted_close>
+    <volume>4619148376</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>123.1800</open>
+    <high>124.8600</high>
+    <low>113.8200</low>
+    <close>118.4000</close>
+    <adjusted_close>5.9200</adjusted_close>
+    <volume>4204024860</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>118.8500</open>
+    <high>138.1900</high>
+    <low>117.5300</low>
+    <close>135.7700</close>
+    <adjusted_close>6.7885</adjusted_close>
+    <volume>3162008535</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>135.8000</open>
+    <high>151.0900</high>
+    <low>130.7800</low>
+    <close>137.1000</close>
+    <adjusted_close>6.8550</adjusted_close>
+    <volume>3461257231</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>137.2000</open>
+    <high>139.4400</high>
+    <low>117.5200</low>
+    <close>125.4600</close>
+    <adjusted_close>6.2730</adjusted_close>
+    <volume>2823467360</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>124.9700</open>
+    <high>129.1500</high>
+    <low>106.0100</low>
+    <close>109.2600</close>
+    <adjusted_close>5.4630</adjusted_close>
+    <volume>2668646182</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>108.9000</open>
+    <high>124.8800</high>
+    <low>105.8000</low>
+    <close>117.8900</close>
+    <adjusted_close>5.8945</adjusted_close>
+    <volume>3507030613</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>119.1500</open>
+    <high>130.8100</high>
+    <low>117.5700</low>
+    <close>124.8300</close>
+    <adjusted_close>6.2415</adjusted_close>
+    <volume>2270169870</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>126.3600</open>
+    <high>161.7800</high>
+    <low>126.1700</low>
+    <close>157.0600</close>
+    <adjusted_close>7.8530</adjusted_close>
+    <volume>2687875663</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>157.0800</open>
+    <high>171.9900</high>
+    <low>151.4000</low>
+    <close>165.2300</close>
+    <adjusted_close>8.2615</adjusted_close>
+    <volume>2861589820</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>164.4500</open>
+    <high>181.8425</high>
+    <low>156.7700</low>
+    <close>175.4000</close>
+    <adjusted_close>8.7700</adjusted_close>
+    <volume>2622416342</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>179.1600</open>
+    <high>185.6500</high>
+    <low>173.0900</low>
+    <close>180.0000</close>
+    <adjusted_close>9.0000</adjusted_close>
+    <volume>1874579553</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>181.3700</open>
+    <high>191.6000</high>
+    <low>166.9000</low>
+    <close>169.6400</close>
+    <adjusted_close>8.4820</adjusted_close>
+    <volume>2273290988</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>170.5200</open>
+    <high>191.4000</high>
+    <low>169.5100</low>
+    <close>173.2900</close>
+    <adjusted_close>8.6645</adjusted_close>
+    <volume>1917039896</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>173.5300</open>
+    <high>181.5700</high>
+    <low>160.5900</low>
+    <close>180.1300</close>
+    <adjusted_close>9.0065</adjusted_close>
+    <volume>2380447509</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>181.5800</open>
+    <high>197.8000</high>
+    <low>175.3700</low>
+    <close>195.8100</close>
+    <adjusted_close>9.7905</adjusted_close>
+    <volume>2336107547</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>196.5700</open>
+    <high>206.3900</high>
+    <low>190.8800</low>
+    <close>196.6900</close>
+    <adjusted_close>9.8345</adjusted_close>
+    <volume>2127116050</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>196.0600</open>
+    <high>206.2500</high>
+    <low>181.5900</low>
+    <close>204.4900</close>
+    <adjusted_close>10.2245</adjusted_close>
+    <volume>1912024694</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>205.5500</open>
+    <high>227.2000</high>
+    <low>203.6100</low>
+    <close>222.5200</close>
+    <adjusted_close>11.1260</adjusted_close>
+    <volume>1856965775</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>225.0000</open>
+    <high>227.4500</high>
+    <low>177.1000</low>
+    <close>215.2300</close>
+    <adjusted_close>10.7615</adjusted_close>
+    <volume>3105000518</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>215.2800</open>
+    <high>244.0000</high>
+    <low>204.4700</low>
+    <close>216.2300</close>
+    <adjusted_close>10.8115</adjusted_close>
+    <volume>2873531521</volume>
+    <news>Kindle Fire tablet launched to compete with iPad</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>217.0100</open>
+    <high>246.7100</high>
+    <low>196.5100</low>
+    <close>213.5100</close>
+    <adjusted_close>10.6755</adjusted_close>
+    <volume>3185491177</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>208.1100</open>
+    <high>222.3500</high>
+    <low>181.5100</low>
+    <close>192.2900</close>
+    <adjusted_close>9.6145</adjusted_close>
+    <volume>2732668404</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>191.8500</open>
+    <high>199.6600</high>
+    <low>166.9700</low>
+    <close>173.1000</close>
+    <adjusted_close>8.6550</adjusted_close>
+    <volume>2512540207</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>175.8900</open>
+    <high>196.5000</high>
+    <low>173.5000</low>
+    <close>194.4400</close>
+    <adjusted_close>9.7220</adjusted_close>
+    <volume>2211675349</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>173.8100</open>
+    <high>193.5700</high>
+    <low>172.0000</low>
+    <close>179.6900</close>
+    <adjusted_close>8.9845</adjusted_close>
+    <volume>2932524679</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>179.8900</open>
+    <high>209.8500</high>
+    <low>176.5800</low>
+    <close>202.5100</close>
+    <adjusted_close>10.1255</adjusted_close>
+    <volume>2259994169</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>198.0200</open>
+    <high>233.8400</high>
+    <low>183.6500</low>
+    <close>231.9000</close>
+    <adjusted_close>11.5950</adjusted_close>
+    <volume>2211176149</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>229.4000</open>
+    <high>232.9700</high>
+    <low>207.1100</low>
+    <close>212.9100</close>
+    <adjusted_close>10.6455</adjusted_close>
+    <volume>1856108616</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>208.4400</open>
+    <high>228.3500</high>
+    <low>206.3700</low>
+    <close>228.3500</close>
+    <adjusted_close>11.4175</adjusted_close>
+    <volume>1315418979</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>229.3000</open>
+    <high>240.7400</high>
+    <low>212.6100</low>
+    <close>233.3000</close>
+    <adjusted_close>11.6650</adjusted_close>
+    <volume>1547430335</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>234.1400</open>
+    <high>250.0000</high>
+    <low>228.6600</low>
+    <close>248.2700</close>
+    <adjusted_close>12.4135</adjusted_close>
+    <volume>1204089720</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>248.2700</open>
+    <high>264.1100</high>
+    <low>244.6600</low>
+    <close>254.3200</close>
+    <adjusted_close>12.7160</adjusted_close>
+    <volume>1271783080</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>255.4000</open>
+    <high>261.9000</high>
+    <low>222.9200</low>
+    <close>232.8931</close>
+    <adjusted_close>11.6447</adjusted_close>
+    <volume>1631826017</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>234.2300</open>
+    <high>252.6500</high>
+    <low>218.1800</low>
+    <close>252.0500</close>
+    <adjusted_close>12.6025</adjusted_close>
+    <volume>1344789880</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>252.5400</open>
+    <high>263.1100</high>
+    <low>242.7500</low>
+    <close>250.8700</close>
+    <adjusted_close>12.5435</adjusted_close>
+    <volume>1217853261</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>256.0800</open>
+    <high>284.7200</high>
+    <low>253.2600</low>
+    <close>265.5000</close>
+    <adjusted_close>13.2750</adjusted_close>
+    <volume>1685285733</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>268.9300</open>
+    <high>274.3000</high>
+    <low>255.1100</low>
+    <close>264.2700</close>
+    <adjusted_close>13.2135</adjusted_close>
+    <volume>1373739940</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>263.2700</open>
+    <high>277.4000</high>
+    <low>252.0700</low>
+    <close>266.4900</close>
+    <adjusted_close>13.3245</adjusted_close>
+    <volume>1170481120</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>266.9800</open>
+    <high>275.8000</high>
+    <low>248.5600</low>
+    <close>253.8100</close>
+    <adjusted_close>12.6905</adjusted_close>
+    <volume>1538912193</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>253.9000</open>
+    <high>271.9100</high>
+    <low>245.7500</low>
+    <close>269.2000</close>
+    <adjusted_close>13.4600</adjusted_close>
+    <volume>1181360402</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>268.9600</open>
+    <high>283.3400</high>
+    <low>262.9500</low>
+    <close>277.6900</close>
+    <adjusted_close>13.8845</adjusted_close>
+    <volume>1171946700</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>279.0000</open>
+    <high>313.6200</high>
+    <low>277.1600</low>
+    <close>301.2200</close>
+    <adjusted_close>15.0610</adjusted_close>
+    <volume>1352819517</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>303.0800</open>
+    <high>306.2100</high>
+    <low>279.3300</low>
+    <close>280.9800</close>
+    <adjusted_close>14.0490</adjusted_close>
+    <volume>876174166</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>284.7300</open>
+    <high>320.5700</high>
+    <low>284.1700</low>
+    <close>312.6400</close>
+    <adjusted_close>15.6320</adjusted_close>
+    <volume>870096447</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>314.2200</open>
+    <high>368.4000</high>
+    <low>296.5025</low>
+    <close>364.0300</close>
+    <adjusted_close>18.2015</adjusted_close>
+    <volume>1547271133</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>365.6300</open>
+    <high>394.0999</high>
+    <low>341.8800</low>
+    <close>393.6200</close>
+    <adjusted_close>19.6810</adjusted_close>
+    <volume>1084964461</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>399.0000</open>
+    <high>405.6300</high>
+    <low>379.5000</low>
+    <close>398.7900</close>
+    <adjusted_close>19.9395</adjusted_close>
+    <volume>1114756200</volume>
+    <news>Amazon announces Prime Air drone delivery research</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>398.8000</open>
+    <high>408.0600</high>
+    <low>357.7600</low>
+    <close>358.6900</close>
+    <adjusted_close>17.9345</adjusted_close>
+    <volume>1631622293</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>358.9801</open>
+    <high>365.8650</high>
+    <low>337.7301</low>
+    <close>362.1000</close>
+    <adjusted_close>18.1050</adjusted_close>
+    <volume>1662249198</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>358.7350</open>
+    <high>383.1100</high>
+    <low>330.8800</low>
+    <close>336.3650</close>
+    <adjusted_close>16.8183</adjusted_close>
+    <volume>1506251396</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>338.0900</open>
+    <high>348.2950</high>
+    <low>288.0000</low>
+    <close>304.1300</close>
+    <adjusted_close>15.2065</adjusted_close>
+    <volume>2766376020</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>304.1300</open>
+    <high>314.8700</high>
+    <low>284.3800</low>
+    <close>312.5500</close>
+    <adjusted_close>15.6275</adjusted_close>
+    <volume>1572177518</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>312.5900</open>
+    <high>340.7199</high>
+    <low>303.8400</low>
+    <close>324.7800</close>
+    <adjusted_close>16.2390</adjusted_close>
+    <volume>1532693196</volume>
+    <news>Fire Phone launched but quickly discontinued</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>325.8600</open>
+    <high>364.8500</high>
+    <low>311.8600</low>
+    <close>312.9900</close>
+    <adjusted_close>15.6495</adjusted_close>
+    <volume>1989814790</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>313.6900</open>
+    <high>346.6700</high>
+    <low>304.5880</low>
+    <close>339.0400</close>
+    <adjusted_close>16.9520</adjusted_close>
+    <volume>1241560479</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>339.9800</open>
+    <high>349.3800</high>
+    <low>317.6400</low>
+    <close>322.4400</close>
+    <adjusted_close>16.1220</adjusted_close>
+    <volume>1362023738</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>322.0401</open>
+    <high>325.1600</high>
+    <low>284.0000</low>
+    <close>305.4600</close>
+    <adjusted_close>15.2730</adjusted_close>
+    <volume>2222412748</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>306.2400</open>
+    <high>341.2600</high>
+    <low>292.2900</low>
+    <close>338.6400</close>
+    <adjusted_close>16.9320</adjusted_close>
+    <volume>1379860400</volume>
+    <news>Amazon Echo with Alexa voice assistant launched</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>338.1200</open>
+    <high>340.6400</high>
+    <low>293.0300</low>
+    <close>310.3500</close>
+    <adjusted_close>15.5175</adjusted_close>
+    <volume>1737483055</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>312.5800</open>
+    <high>359.5000</high>
+    <low>285.2500</low>
+    <close>354.5300</close>
+    <adjusted_close>17.7265</adjusted_close>
+    <volume>2061238910</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>350.0500</open>
+    <high>389.3700</high>
+    <low>350.0100</low>
+    <close>380.1600</close>
+    <adjusted_close>19.0080</adjusted_close>
+    <volume>1416944697</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>380.8500</open>
+    <high>388.4182</high>
+    <low>365.6500</low>
+    <close>372.1000</close>
+    <adjusted_close>18.6050</adjusted_close>
+    <volume>1110054898</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>372.1000</open>
+    <high>452.6500</high>
+    <low>368.3400</low>
+    <close>421.7801</close>
+    <adjusted_close>21.0890</adjusted_close>
+    <volume>1688097633</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>423.8200</open>
+    <high>439.0000</high>
+    <low>414.5500</low>
+    <close>429.2300</close>
+    <adjusted_close>21.4615</adjusted_close>
+    <volume>1039683960</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>430.4001</open>
+    <high>447.0401</high>
+    <low>419.1400</low>
+    <close>434.0900</close>
+    <adjusted_close>21.7045</adjusted_close>
+    <volume>1099784519</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>439.3500</open>
+    <high>580.5700</high>
+    <low>425.5700</low>
+    <close>536.1500</close>
+    <adjusted_close>26.8075</adjusted_close>
+    <volume>2041398811</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>537.4500</open>
+    <high>542.7400</high>
+    <low>451.0000</low>
+    <close>512.8900</close>
+    <adjusted_close>25.6445</adjusted_close>
+    <volume>1658313653</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>499.1400</open>
+    <high>549.7800</high>
+    <low>490.5000</low>
+    <close>511.8900</close>
+    <adjusted_close>25.5945</adjusted_close>
+    <volume>1535376977</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>511.0000</open>
+    <high>630.7200</high>
+    <low>506.0000</low>
+    <close>625.9000</close>
+    <adjusted_close>31.2950</adjusted_close>
+    <volume>1943776895</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>627.1300</open>
+    <high>682.7700</high>
+    <low>620.4100</low>
+    <close>664.8000</close>
+    <adjusted_close>33.2400</adjusted_close>
+    <volume>1746096716</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>673.7500</open>
+    <high>696.4401</high>
+    <low>635.2700</low>
+    <close>675.8900</close>
+    <adjusted_close>33.7945</adjusted_close>
+    <volume>1804416056</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>656.2900</open>
+    <high>657.7151</high>
+    <low>547.1800</low>
+    <close>587.0000</close>
+    <adjusted_close>29.3500</adjusted_close>
+    <volume>2604015566</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>578.1500</open>
+    <high>581.8000</high>
+    <low>474.0000</low>
+    <close>552.5200</close>
+    <adjusted_close>27.6260</adjusted_close>
+    <volume>2482895945</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>556.2900</open>
+    <high>603.2400</high>
+    <low>538.5800</low>
+    <close>593.6400</close>
+    <adjusted_close>29.6820</adjusted_close>
+    <volume>1880299396</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>590.4900</open>
+    <high>669.9800</high>
+    <low>585.2500</low>
+    <close>659.5901</close>
+    <adjusted_close>32.9795</adjusted_close>
+    <volume>1569286396</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>663.9200</open>
+    <high>724.2300</high>
+    <low>656.0000</low>
+    <close>722.7900</close>
+    <adjusted_close>36.1395</adjusted_close>
+    <volume>1812462875</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>720.9000</open>
+    <high>731.5000</high>
+    <low>682.1151</low>
+    <close>715.6201</close>
+    <adjusted_close>35.7810</adjusted_close>
+    <volume>1491136175</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>717.3200</open>
+    <high>766.0000</high>
+    <low>716.5400</low>
+    <close>758.8101</close>
+    <adjusted_close>37.9405</adjusted_close>
+    <volume>1372708757</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>759.8700</open>
+    <high>774.9800</high>
+    <low>750.3500</low>
+    <close>769.1601</close>
+    <adjusted_close>38.4580</adjusted_close>
+    <volume>1000007927</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>770.9000</open>
+    <high>839.9500</high>
+    <low>756.0000</low>
+    <close>837.3101</close>
+    <adjusted_close>41.8655</adjusted_close>
+    <volume>1347082639</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>836.0000</open>
+    <high>847.2100</high>
+    <low>774.6100</low>
+    <close>789.8200</close>
+    <adjusted_close>39.4910</adjusted_close>
+    <volume>1541276155</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>799.0000</open>
+    <high>800.8401</high>
+    <low>710.1000</low>
+    <close>750.5700</close>
+    <adjusted_close>37.5285</adjusted_close>
+    <volume>2201719231</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>752.4100</open>
+    <high>782.4600</high>
+    <low>736.7001</low>
+    <close>749.8700</close>
+    <adjusted_close>37.4935</adjusted_close>
+    <volume>1473211658</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>757.9200</open>
+    <high>843.8400</high>
+    <low>747.7001</low>
+    <close>823.4800</close>
+    <adjusted_close>41.1740</adjusted_close>
+    <volume>1414291718</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>829.2101</open>
+    <high>860.8600</high>
+    <low>803.0000</low>
+    <close>845.0400</close>
+    <adjusted_close>42.2520</adjusted_close>
+    <volume>1434964538</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>853.0500</open>
+    <high>890.3500</high>
+    <low>833.5000</low>
+    <close>886.5400</close>
+    <adjusted_close>44.3270</adjusted_close>
+    <volume>1214455017</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>888.0000</open>
+    <high>949.5901</high>
+    <low>884.4900</low>
+    <close>924.9900</close>
+    <adjusted_close>46.2495</adjusted_close>
+    <volume>1470797978</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>927.8000</open>
+    <high>1001.2000</high>
+    <low>927.8000</low>
+    <close>994.6200</close>
+    <adjusted_close>49.7310</adjusted_close>
+    <volume>1524379357</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>998.5900</open>
+    <high>1017.0000</high>
+    <low>927.0001</low>
+    <close>968.0000</close>
+    <adjusted_close>48.4000</adjusted_close>
+    <volume>1922708613</volume>
+    <news>Amazon acquires Whole Foods for $13.7 billion</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>972.7900</open>
+    <high>1083.3100</high>
+    <low>951.0001</low>
+    <close>987.7801</close>
+    <adjusted_close>49.3890</adjusted_close>
+    <volume>1576244236</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>996.1100</open>
+    <high>1006.4000</high>
+    <low>936.3300</low>
+    <close>980.6000</close>
+    <adjusted_close>49.0300</adjusted_close>
+    <volume>1547834116</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>984.2001</open>
+    <high>1000.0000</high>
+    <low>931.7500</low>
+    <close>961.3500</close>
+    <adjusted_close>48.0675</adjusted_close>
+    <volume>1188140200</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>964.0000</open>
+    <high>1122.7900</high>
+    <low>950.3700</low>
+    <close>1105.2800</close>
+    <adjusted_close>55.2640</adjusted_close>
+    <volume>1666672812</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>1105.4000</open>
+    <high>1213.4100</high>
+    <low>1086.8690</low>
+    <close>1176.7500</close>
+    <adjusted_close>58.8375</adjusted_close>
+    <volume>1543299656</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>1172.0500</open>
+    <high>1194.7800</high>
+    <low>1124.7400</low>
+    <close>1169.4700</close>
+    <adjusted_close>58.4735</adjusted_close>
+    <volume>1155200800</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>1172.0000</open>
+    <high>1472.5800</high>
+    <low>1170.5100</low>
+    <close>1450.8900</close>
+    <adjusted_close>72.5445</adjusted_close>
+    <volume>1927425773</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>1445.0000</open>
+    <high>1528.7000</high>
+    <low>1265.9300</low>
+    <close>1512.4500</close>
+    <adjusted_close>75.6225</adjusted_close>
+    <volume>2755680362</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>1513.6000</open>
+    <high>1617.5400</high>
+    <low>1365.2000</low>
+    <close>1447.3400</close>
+    <adjusted_close>72.3670</adjusted_close>
+    <volume>2608003004</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>1417.6200</open>
+    <high>1638.1000</high>
+    <low>1352.8800</low>
+    <close>1566.1300</close>
+    <adjusted_close>78.3065</adjusted_close>
+    <volume>2598914843</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>1563.2200</open>
+    <high>1635.0000</high>
+    <low>1546.0200</low>
+    <close>1629.6200</close>
+    <adjusted_close>81.4810</adjusted_close>
+    <volume>1432305958</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>1637.0300</open>
+    <high>1763.1000</high>
+    <low>1635.0900</low>
+    <close>1699.8000</close>
+    <adjusted_close>84.9900</adjusted_close>
+    <volume>1718830177</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>1682.7000</open>
+    <high>1880.0500</high>
+    <low>1678.0600</low>
+    <close>1777.4400</close>
+    <adjusted_close>88.8720</adjusted_close>
+    <volume>1952596371</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>1784.0000</open>
+    <high>2025.5700</high>
+    <low>1776.0200</low>
+    <close>2012.7100</close>
+    <adjusted_close>100.6355</adjusted_close>
+    <volume>1931513493</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>2026.5000</open>
+    <high>2050.5000</high>
+    <low>1865.0000</low>
+    <close>2003.0000</close>
+    <adjusted_close>100.1500</adjusted_close>
+    <volume>1888913816</volume>
+    <news>Amazon becomes second company to reach $1 trillion</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>2021.9900</open>
+    <high>2033.1900</high>
+    <low>1476.3600</low>
+    <close>1598.0100</close>
+    <adjusted_close>79.9005</adjusted_close>
+    <volume>3664571128</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>1623.5300</open>
+    <high>1784.0000</high>
+    <low>1420.0000</low>
+    <close>1690.1700</close>
+    <adjusted_close>84.5085</adjusted_close>
+    <volume>2785804059</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>1769.4600</open>
+    <high>1778.3400</high>
+    <low>1307.0000</low>
+    <close>1501.9700</close>
+    <adjusted_close>75.0985</adjusted_close>
+    <volume>3096246018</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>1465.2000</open>
+    <high>1736.4110</high>
+    <low>1460.9300</low>
+    <close>1718.7300</close>
+    <adjusted_close>85.9365</adjusted_close>
+    <volume>2680310623</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>1638.8800</open>
+    <high>1673.0600</high>
+    <low>1566.7560</low>
+    <close>1639.8300</close>
+    <adjusted_close>81.9915</adjusted_close>
+    <volume>1618738398</volume>
+    <news>Amazon HQ2 controversy over New York withdrawal</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>1655.1300</open>
+    <high>1823.7500</high>
+    <low>1586.5700</low>
+    <close>1780.7500</close>
+    <adjusted_close>89.0375</adjusted_close>
+    <volume>2016640672</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>1800.1100</open>
+    <high>1956.3350</high>
+    <low>1798.7300</low>
+    <close>1926.5200</close>
+    <adjusted_close>96.3260</adjusted_close>
+    <volume>1625872617</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>1933.0900</open>
+    <high>1964.4000</high>
+    <low>1772.7030</low>
+    <close>1775.0700</close>
+    <adjusted_close>88.7535</adjusted_close>
+    <volume>1964287173</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>1760.0100</open>
+    <high>1935.2000</high>
+    <low>1672.0000</low>
+    <close>1893.6300</close>
+    <adjusted_close>94.6815</adjusted_close>
+    <volume>1494931757</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>1922.9800</open>
+    <high>2035.8000</high>
+    <low>1849.4400</low>
+    <close>1866.7800</close>
+    <adjusted_close>93.3390</adjusted_close>
+    <volume>1463816919</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>1871.7200</open>
+    <high>1897.9200</high>
+    <low>1743.5100</low>
+    <close>1776.2900</close>
+    <adjusted_close>88.8145</adjusted_close>
+    <volume>1599790577</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>1770.0000</open>
+    <high>1853.6600</high>
+    <low>1709.2200</low>
+    <close>1735.9100</close>
+    <adjusted_close>86.7955</adjusted_close>
+    <volume>1240075959</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>1746.0000</open>
+    <high>1798.8500</high>
+    <low>1685.0600</low>
+    <close>1776.6600</close>
+    <adjusted_close>88.8330</adjusted_close>
+    <volume>1443324995</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>1788.0100</open>
+    <high>1824.6900</high>
+    <low>1722.7100</low>
+    <close>1800.8000</close>
+    <adjusted_close>90.0400</adjusted_close>
+    <volume>1041209420</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>1804.4000</open>
+    <high>1901.4000</high>
+    <low>1735.0000</low>
+    <close>1847.8400</close>
+    <adjusted_close>92.3920</adjusted_close>
+    <volume>1370377398</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>1875.0000</open>
+    <high>2055.7200</high>
+    <low>1815.3400</low>
+    <close>2008.7200</close>
+    <adjusted_close>100.4360</adjusted_close>
+    <volume>1696785015</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>2010.6000</open>
+    <high>2185.9500</high>
+    <low>1811.1290</low>
+    <close>1883.7500</close>
+    <adjusted_close>94.1875</adjusted_close>
+    <volume>1851119514</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>1906.4900</open>
+    <high>1996.3300</high>
+    <low>1626.0320</low>
+    <close>1949.7200</close>
+    <adjusted_close>97.4860</adjusted_close>
+    <volume>3276898615</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>1932.9700</open>
+    <high>2475.0000</high>
+    <low>1889.1500</low>
+    <close>2474.0000</close>
+    <adjusted_close>123.7000</adjusted_close>
+    <volume>2491633847</volume>
+    <news>COVID-19 drives massive e-commerce growth</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>2336.8000</open>
+    <high>2525.4500</high>
+    <low>2256.3800</low>
+    <close>2442.3700</close>
+    <adjusted_close>122.1185</adjusted_close>
+    <volume>1652417638</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>2448.0000</open>
+    <high>2796.0000</high>
+    <low>2437.1300</low>
+    <close>2758.8210</close>
+    <adjusted_close>137.9411</adjusted_close>
+    <volume>1756913194</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>2757.9900</open>
+    <high>3344.2900</high>
+    <low>2754.0000</low>
+    <close>3164.6800</close>
+    <adjusted_close>158.2340</adjusted_close>
+    <volume>2550271403</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>3180.5100</open>
+    <high>3495.0000</high>
+    <low>3073.0000</low>
+    <close>3450.9600</close>
+    <adjusted_close>172.5480</adjusted_close>
+    <volume>1670704498</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>3489.5800</open>
+    <high>3552.2500</high>
+    <low>2871.0000</low>
+    <close>3148.7300</close>
+    <adjusted_close>157.4365</adjusted_close>
+    <volume>2319399310</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>3208.0000</open>
+    <high>3496.2400</high>
+    <low>3019.0000</low>
+    <close>3036.1500</close>
+    <adjusted_close>151.8075</adjusted_close>
+    <volume>2325042249</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>3061.7400</open>
+    <high>3366.8000</high>
+    <low>2950.1200</low>
+    <close>3168.0400</close>
+    <adjusted_close>158.4020</adjusted_close>
+    <volume>1816635875</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>3188.5000</open>
+    <high>3350.6500</high>
+    <low>3072.8200</low>
+    <close>3256.9300</close>
+    <adjusted_close>162.8465</adjusted_close>
+    <volume>1551607877</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>3270.0000</open>
+    <high>3363.8900</high>
+    <low>3086.0000</low>
+    <close>3206.2000</close>
+    <adjusted_close>160.3100</adjusted_close>
+    <volume>1430476241</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>3242.3610</open>
+    <high>3434.0000</high>
+    <low>3036.7000</low>
+    <close>3092.9300</close>
+    <adjusted_close>154.6465</adjusted_close>
+    <volume>1442356779</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>3127.8900</open>
+    <high>3182.0000</high>
+    <low>2881.0000</low>
+    <close>3094.0800</close>
+    <adjusted_close>154.7040</adjusted_close>
+    <volume>1564099795</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>3117.9400</open>
+    <high>3554.0000</high>
+    <low>3115.5500</low>
+    <close>3467.4200</close>
+    <adjusted_close>173.3710</adjusted_close>
+    <volume>1536871397</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>3484.7300</open>
+    <high>3486.6450</high>
+    <low>3127.3700</low>
+    <close>3223.0700</close>
+    <adjusted_close>161.1535</adjusted_close>
+    <volume>1503065937</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>3243.4950</open>
+    <high>3524.8600</high>
+    <low>3172.2000</low>
+    <close>3440.1600</close>
+    <adjusted_close>172.0080</adjusted_close>
+    <volume>1340222718</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>3434.6100</open>
+    <high>3773.0781</high>
+    <low>3306.9800</low>
+    <close>3327.5900</close>
+    <adjusted_close>166.3795</adjusted_close>
+    <volume>1674726915</volume>
+    <news>Jeff Bezos steps down as CEO, Andy Jassy takes over</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>3353.1000</open>
+    <high>3472.5800</high>
+    <low>3175.7600</low>
+    <close>3470.7900</close>
+    <adjusted_close>173.5395</adjusted_close>
+    <volume>1257339459</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>3496.3960</open>
+    <high>3549.9900</high>
+    <low>3273.9900</low>
+    <close>3285.0400</close>
+    <adjusted_close>164.2520</adjusted_close>
+    <volume>1250802639</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>3289.0100</open>
+    <high>3479.0000</high>
+    <low>3176.2500</low>
+    <close>3372.4300</close>
+    <adjusted_close>168.6215</adjusted_close>
+    <volume>1273614237</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>3361.8000</open>
+    <high>3762.1451</high>
+    <low>3283.5500</low>
+    <close>3507.0700</close>
+    <adjusted_close>175.3535</adjusted_close>
+    <volume>1516333598</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>3545.0000</open>
+    <high>3559.8800</high>
+    <low>3303.9000</low>
+    <close>3334.3410</close>
+    <adjusted_close>166.7171</adjusted_close>
+    <volume>1288301519</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>3351.0000</open>
+    <high>3428.0000</high>
+    <low>2707.0400</low>
+    <close>2991.4700</close>
+    <adjusted_close>149.5735</adjusted_close>
+    <volume>1525571278</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>3000.0000</open>
+    <high>3276.6900</high>
+    <low>2766.6600</low>
+    <close>3071.2600</close>
+    <adjusted_close>153.5630</adjusted_close>
+    <volume>1690134256</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>3054.6500</open>
+    <high>3416.6300</high>
+    <low>2671.4500</low>
+    <close>3259.9500</close>
+    <adjusted_close>162.9975</adjusted_close>
+    <volume>1628590656</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>3282.9900</open>
+    <high>3367.8900</high>
+    <low>2432.5000</low>
+    <close>2485.6300</close>
+    <adjusted_close>124.2815</adjusted_close>
+    <volume>1465136036</volume>
+    <news>Amazon stock splits 20-for-1</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>2448.0200</open>
+    <high>2524.4100</high>
+    <low>2025.2000</low>
+    <close>2404.1900</close>
+    <adjusted_close>120.2095</adjusted_close>
+    <volume>2258475229</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>2445.1200</open>
+    <high>2512.2000</high>
+    <low>101.4300</low>
+    <close>106.2100</close>
+    <adjusted_close>106.2100</adjusted_close>
+    <volume>1767977675</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>106.2900</open>
+    <high>137.6500</high>
+    <low>105.8469</low>
+    <close>134.9500</close>
+    <adjusted_close>134.9500</adjusted_close>
+    <volume>1338005764</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>134.9600</open>
+    <high>146.5700</high>
+    <low>126.7400</low>
+    <close>126.7700</close>
+    <adjusted_close>126.7700</adjusted_close>
+    <volume>1170523505</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>126.0000</open>
+    <high>136.4900</high>
+    <low>112.0600</low>
+    <close>113.0000</close>
+    <adjusted_close>113.0000</adjusted_close>
+    <volume>1210456404</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>113.5800</open>
+    <high>123.0000</high>
+    <low>97.6600</low>
+    <close>102.4400</close>
+    <adjusted_close>102.4400</adjusted_close>
+    <volume>1459511636</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>103.9900</open>
+    <high>104.5800</high>
+    <low>85.8700</low>
+    <close>96.5400</close>
+    <adjusted_close>96.5400</adjusted_close>
+    <volume>2035252320</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>96.9900</open>
+    <high>97.2300</high>
+    <low>81.6900</low>
+    <close>84.0000</close>
+    <adjusted_close>84.0000</adjusted_close>
+    <volume>1549193157</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>85.4600</open>
+    <high>103.4850</high>
+    <low>81.4300</low>
+    <close>103.1300</close>
+    <adjusted_close>103.1300</adjusted_close>
+    <volume>1523798377</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>102.5300</open>
+    <high>114.0000</high>
+    <low>92.3186</low>
+    <close>94.2300</close>
+    <adjusted_close>94.2300</adjusted_close>
+    <volume>1364198210</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>93.8700</open>
+    <high>103.4900</high>
+    <low>88.1200</low>
+    <close>103.2900</close>
+    <adjusted_close>103.2900</adjusted_close>
+    <volume>1349467002</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>102.3000</open>
+    <high>110.8600</high>
+    <low>97.7050</low>
+    <close>105.4500</close>
+    <adjusted_close>105.4500</adjusted_close>
+    <volume>1224234599</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>104.9500</open>
+    <high>122.9200</high>
+    <low>101.1500</low>
+    <close>120.5800</close>
+    <adjusted_close>120.5800</adjusted_close>
+    <volume>1433039165</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>120.6900</open>
+    <high>131.4900</high>
+    <low>119.9300</low>
+    <close>130.3600</close>
+    <adjusted_close>130.3600</adjusted_close>
+    <volume>1243071270</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>130.8200</open>
+    <high>136.6500</high>
+    <low>125.9150</low>
+    <close>133.6800</close>
+    <adjusted_close>133.6800</adjusted_close>
+    <volume>1058772727</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>133.5500</open>
+    <high>143.6300</high>
+    <low>126.4100</low>
+    <close>138.0100</close>
+    <adjusted_close>138.0100</adjusted_close>
+    <volume>1213497022</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>139.4550</open>
+    <high>145.8600</high>
+    <low>123.0400</low>
+    <close>127.1200</close>
+    <adjusted_close>127.1200</adjusted_close>
+    <volume>1120523243</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>127.2800</open>
+    <high>134.4800</high>
+    <low>118.3500</low>
+    <close>133.0900</close>
+    <adjusted_close>133.0900</adjusted_close>
+    <volume>1224706698</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>133.9600</open>
+    <high>149.2600</high>
+    <low>133.7100</low>
+    <close>146.0900</close>
+    <adjusted_close>146.0900</adjusted_close>
+    <volume>1026201811</volume>
+    <news>Amazon announces major AI initiatives with Bedrock</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>146.0000</open>
+    <high>155.6300</high>
+    <low>142.8100</low>
+    <close>151.9400</close>
+    <adjusted_close>151.9400</adjusted_close>
+    <volume>931322334</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>151.5400</open>
+    <high>161.7300</high>
+    <low>144.0500</low>
+    <close>155.2000</close>
+    <adjusted_close>155.2000</adjusted_close>
+    <volume>954015025</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>155.8700</open>
+    <high>177.2200</high>
+    <low>155.6200</low>
+    <close>176.7600</close>
+    <adjusted_close>176.7600</adjusted_close>
+    <volume>1045157795</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>176.7500</open>
+    <high>181.7000</high>
+    <low>171.4700</low>
+    <close>180.3800</close>
+    <adjusted_close>180.3800</adjusted_close>
+    <volume>702056688</volume>
+    <news>AMZN Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>180.7900</open>
+    <high>189.7700</high>
+    <low>166.3200</low>
+    <close>175.0000</close>
+    <adjusted_close>175.0000</adjusted_close>
+    <volume>917165203</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>181.6350</open>
+    <high>191.7000</high>
+    <low>173.8700</low>
+    <close>176.4400</close>
+    <adjusted_close>176.4400</adjusted_close>
+    <volume>892339074</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>177.7000</open>
+    <high>199.8400</high>
+    <low>175.9200</low>
+    <close>193.2500</close>
+    <adjusted_close>193.2500</adjusted_close>
+    <volume>813275859</volume>
+    <news>AMZN Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>193.4900</open>
+    <high>201.2000</high>
+    <low>176.8000</low>
+    <close>186.9800</close>
+    <adjusted_close>186.9800</adjusted_close>
+    <volume>868117789</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>189.2850</open>
+    <high>190.6000</high>
+    <low>151.6100</low>
+    <close>178.5000</close>
+    <adjusted_close>178.5000</adjusted_close>
+    <volume>971024142</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>177.5500</open>
+    <high>195.3700</high>
+    <low>171.1600</low>
+    <close>186.3300</close>
+    <adjusted_close>186.3300</adjusted_close>
+    <volume>765059604</volume>
+    <news>AMZN Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>184.9000</open>
+    <high>195.6100</high>
+    <low>180.2500</low>
+    <close>186.4000</close>
+    <adjusted_close>186.4000</adjusted_close>
+    <volume>734067362</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>199.0000</open>
+    <high>215.9000</high>
+    <low>194.3101</low>
+    <close>207.8900</close>
+    <adjusted_close>207.8900</adjusted_close>
+    <volume>905938114</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>209.9600</open>
+    <high>233.0000</high>
+    <low>209.5101</low>
+    <close>219.3900</close>
+    <adjusted_close>219.3900</adjusted_close>
+    <volume>760918858</volume>
+    <news>AMZN Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</amazon_stock_data>

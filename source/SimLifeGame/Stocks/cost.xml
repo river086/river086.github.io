@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<costco_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>45.5312</open>
+    <high>53.1250</high>
+    <low>41.8438</low>
+    <close>48.9375</close>
+    <adjusted_close>32.7857</adjusted_close>
+    <volume>95158600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>49.3125</open>
+    <high>55.1875</high>
+    <low>41.8750</low>
+    <close>49.6250</close>
+    <adjusted_close>33.2463</adjusted_close>
+    <volume>80449500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>49.4375</open>
+    <high>56.0625</high>
+    <low>42.3750</low>
+    <close>52.5625</close>
+    <adjusted_close>35.2143</adjusted_close>
+    <volume>128374200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>51.5000</open>
+    <high>60.5000</high>
+    <low>46.3125</low>
+    <close>54.0625</close>
+    <adjusted_close>36.2192</adjusted_close>
+    <volume>96789700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>54.0625</open>
+    <high>59.0000</high>
+    <low>25.9375</low>
+    <close>31.9375</close>
+    <adjusted_close>21.3965</adjusted_close>
+    <volume>213353300</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>32.6875</open>
+    <high>34.6875</high>
+    <low>31.2500</low>
+    <close>33.0000</close>
+    <adjusted_close>22.1084</adjusted_close>
+    <volume>160436500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>33.0000</open>
+    <high>37.1250</high>
+    <low>31.1875</low>
+    <close>32.5625</close>
+    <adjusted_close>21.8153</adjusted_close>
+    <volume>106147400</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>32.2500</open>
+    <high>38.0625</high>
+    <low>31.6250</low>
+    <close>34.4375</close>
+    <adjusted_close>23.0714</adjusted_close>
+    <volume>110153000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>34.8125</open>
+    <high>39.0625</high>
+    <low>32.6250</low>
+    <close>34.9375</close>
+    <adjusted_close>23.4064</adjusted_close>
+    <volume>87117200</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>33.5625</open>
+    <high>36.7500</high>
+    <low>29.3125</low>
+    <close>36.6250</close>
+    <adjusted_close>24.5369</adjusted_close>
+    <volume>130958400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>36.6875</open>
+    <high>37.3750</high>
+    <low>32.0625</low>
+    <close>32.6250</close>
+    <adjusted_close>21.8571</adjusted_close>
+    <volume>116075600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>33.2500</open>
+    <high>41.5000</high>
+    <low>31.7500</low>
+    <close>39.9375</close>
+    <adjusted_close>26.7561</adjusted_close>
+    <volume>142507800</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>40.0000</open>
+    <high>46.3750</high>
+    <low>39.0000</low>
+    <close>46.2500</close>
+    <adjusted_close>30.9852</adjusted_close>
+    <volume>167560600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>45.8750</open>
+    <high>46.3750</high>
+    <low>39.7500</low>
+    <close>41.7500</close>
+    <adjusted_close>27.9704</adjusted_close>
+    <volume>93210000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>41.3750</open>
+    <high>43.1094</high>
+    <low>35.3125</low>
+    <close>39.2500</close>
+    <adjusted_close>26.2956</adjusted_close>
+    <volume>138072500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>38.8125</open>
+    <high>40.3700</high>
+    <low>33.1700</low>
+    <close>34.9300</close>
+    <adjusted_close>23.4014</adjusted_close>
+    <volume>116253500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>35.0400</open>
+    <high>39.3900</high>
+    <low>33.9500</low>
+    <close>38.9100</close>
+    <adjusted_close>26.0678</adjusted_close>
+    <volume>109293700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>39.2100</open>
+    <high>44.0500</high>
+    <low>37.5000</low>
+    <close>41.0800</close>
+    <adjusted_close>27.5216</adjusted_close>
+    <volume>97587300</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>41.2600</open>
+    <high>44.7000</high>
+    <low>39.8800</low>
+    <close>43.0500</close>
+    <adjusted_close>28.8414</adjusted_close>
+    <volume>79465000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>43.1800</open>
+    <high>43.8500</high>
+    <low>36.5000</low>
+    <close>37.4100</close>
+    <adjusted_close>25.0629</adjusted_close>
+    <volume>71472500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>37.5500</open>
+    <high>39.0000</high>
+    <low>29.8300</low>
+    <close>35.5600</close>
+    <adjusted_close>23.8234</adjusted_close>
+    <volume>84414500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>35.2800</open>
+    <high>40.5500</high>
+    <low>33.1000</low>
+    <close>37.8300</close>
+    <adjusted_close>25.3442</adjusted_close>
+    <volume>90556000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>38.0000</open>
+    <high>43.8400</high>
+    <low>37.3000</low>
+    <close>40.8800</close>
+    <adjusted_close>27.3876</adjusted_close>
+    <volume>89047900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>40.6500</open>
+    <high>45.3700</high>
+    <low>40.0800</low>
+    <close>44.3800</close>
+    <adjusted_close>29.7324</adjusted_close>
+    <volume>76693500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>44.2000</open>
+    <high>46.0200</high>
+    <low>41.9800</low>
+    <close>46.0000</close>
+    <adjusted_close>30.8177</adjusted_close>
+    <volume>80990200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>45.6800</open>
+    <high>46.9000</high>
+    <low>41.2500</low>
+    <close>41.2600</close>
+    <adjusted_close>27.6422</adjusted_close>
+    <volume>88377600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>41.3200</open>
+    <high>42.6900</high>
+    <low>38.2900</low>
+    <close>39.8200</close>
+    <adjusted_close>26.6774</adjusted_close>
+    <volume>139301800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>39.4700</open>
+    <high>43.0500</high>
+    <low>38.5700</low>
+    <close>40.2000</close>
+    <adjusted_close>26.9320</adjusted_close>
+    <volume>88981000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>40.0100</open>
+    <high>41.8600</high>
+    <low>37.5800</low>
+    <close>39.2700</close>
+    <adjusted_close>26.3090</adjusted_close>
+    <volume>87754100</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>39.2900</open>
+    <high>41.3500</high>
+    <low>36.5700</low>
+    <close>38.6200</close>
+    <adjusted_close>25.8735</adjusted_close>
+    <volume>79509800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>38.5300</open>
+    <high>39.5500</high>
+    <low>31.0000</low>
+    <close>34.8700</close>
+    <adjusted_close>23.3612</adjusted_close>
+    <volume>107983500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>34.5700</open>
+    <high>36.7300</high>
+    <low>31.6100</low>
+    <close>33.4100</close>
+    <adjusted_close>22.3830</adjusted_close>
+    <volume>106771900</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>33.1500</open>
+    <high>35.6700</high>
+    <low>31.9900</low>
+    <close>32.3700</close>
+    <adjusted_close>21.6863</adjusted_close>
+    <volume>87916100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>32.4500</open>
+    <high>37.0000</high>
+    <low>28.7500</low>
+    <close>33.9300</close>
+    <adjusted_close>22.7314</adjusted_close>
+    <volume>137275400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>33.7700</open>
+    <high>34.7900</high>
+    <low>31.0500</low>
+    <close>32.3000</close>
+    <adjusted_close>21.6394</adjusted_close>
+    <volume>105825900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>33.0300</open>
+    <high>34.4300</high>
+    <low>27.0900</low>
+    <close>28.0600</close>
+    <adjusted_close>18.7988</adjusted_close>
+    <volume>152949000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>28.2400</open>
+    <high>31.0000</high>
+    <low>28.0400</low>
+    <close>28.8700</close>
+    <adjusted_close>19.3415</adjusted_close>
+    <volume>102664400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>28.9700</open>
+    <high>30.7700</high>
+    <low>27.9300</low>
+    <close>30.5200</close>
+    <adjusted_close>20.4469</adjusted_close>
+    <volume>64901700</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>30.6800</open>
+    <high>31.4900</high>
+    <low>27.0000</low>
+    <close>30.0300</close>
+    <adjusted_close>20.1186</adjusted_close>
+    <volume>110479500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>30.1700</open>
+    <high>35.2200</high>
+    <low>29.7600</low>
+    <close>34.6100</close>
+    <adjusted_close>23.1870</adjusted_close>
+    <volume>91514500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>34.3500</open>
+    <high>39.0200</high>
+    <low>33.8200</low>
+    <close>37.2500</close>
+    <adjusted_close>24.9557</adjusted_close>
+    <volume>102462000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>37.2700</open>
+    <high>37.9800</high>
+    <low>34.7300</low>
+    <close>36.6000</close>
+    <adjusted_close>24.5202</adjusted_close>
+    <volume>84916100</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>36.3800</open>
+    <high>37.7100</high>
+    <low>35.6600</low>
+    <close>36.9900</close>
+    <adjusted_close>24.7815</adjusted_close>
+    <volume>54265300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>36.9000</open>
+    <high>37.3100</high>
+    <low>28.8300</low>
+    <close>32.2500</close>
+    <adjusted_close>21.6059</adjusted_close>
+    <volume>204852100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>32.2400</open>
+    <high>33.6400</high>
+    <low>30.6500</low>
+    <close>31.1500</close>
+    <adjusted_close>20.8690</adjusted_close>
+    <volume>129415100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>31.1500</open>
+    <high>35.7600</high>
+    <low>31.1000</low>
+    <close>35.4500</close>
+    <adjusted_close>23.7498</adjusted_close>
+    <volume>97086000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>35.2900</open>
+    <high>35.9500</high>
+    <low>33.2700</low>
+    <close>35.8200</close>
+    <adjusted_close>23.9976</adjusted_close>
+    <volume>65059800</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>35.9500</open>
+    <high>37.4000</high>
+    <low>35.1300</low>
+    <close>37.1800</close>
+    <adjusted_close>24.9088</adjusted_close>
+    <volume>92385500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>37.1900</open>
+    <high>38.3600</high>
+    <low>35.8600</low>
+    <close>36.9400</close>
+    <adjusted_close>24.7480</adjusted_close>
+    <volume>73353600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>36.9700</open>
+    <high>39.5000</high>
+    <low>36.8300</low>
+    <close>38.8600</close>
+    <adjusted_close>26.0343</adjusted_close>
+    <volume>61681700</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>39.1800</open>
+    <high>40.4200</high>
+    <low>36.1000</low>
+    <close>37.6100</close>
+    <adjusted_close>25.1969</adjusted_close>
+    <volume>85947100</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>37.4300</open>
+    <high>38.7700</high>
+    <low>36.7500</low>
+    <close>37.5000</close>
+    <adjusted_close>25.1231</adjusted_close>
+    <volume>66445600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>37.4100</open>
+    <high>39.3200</high>
+    <low>35.0500</low>
+    <close>37.9000</close>
+    <adjusted_close>25.4592</adjusted_close>
+    <volume>70581000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>37.7200</open>
+    <high>43.0000</high>
+    <low>37.6500</low>
+    <close>41.1800</close>
+    <adjusted_close>27.6625</adjusted_close>
+    <volume>82119100</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>41.3000</open>
+    <high>41.9800</high>
+    <low>39.8100</low>
+    <close>40.7100</close>
+    <adjusted_close>27.4136</adjusted_close>
+    <volume>72491600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>40.6100</open>
+    <high>42.7900</high>
+    <low>39.5600</low>
+    <close>41.1700</close>
+    <adjusted_close>27.7234</adjusted_close>
+    <volume>74596500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>41.1100</open>
+    <high>41.9800</high>
+    <low>39.0500</low>
+    <close>41.5100</close>
+    <adjusted_close>27.9523</adjusted_close>
+    <volume>66245500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>41.7400</open>
+    <high>48.5500</high>
+    <low>41.4800</low>
+    <close>47.9400</close>
+    <adjusted_close>32.2822</adjusted_close>
+    <volume>91967700</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>47.8000</open>
+    <high>50.4600</high>
+    <low>47.2000</low>
+    <close>48.6000</close>
+    <adjusted_close>32.7942</adjusted_close>
+    <volume>73920800</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>48.8700</open>
+    <high>49.8200</high>
+    <low>46.8000</low>
+    <close>48.4100</close>
+    <adjusted_close>32.6660</adjusted_close>
+    <volume>69564600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>48.2400</open>
+    <high>49.1800</high>
+    <low>46.3300</low>
+    <close>47.2700</close>
+    <adjusted_close>31.8968</adjusted_close>
+    <volume>51977500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>47.1900</open>
+    <high>47.3600</high>
+    <low>45.4000</low>
+    <close>46.5900</close>
+    <adjusted_close>31.5059</adjusted_close>
+    <volume>48508400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>46.6300</open>
+    <high>47.2700</high>
+    <low>42.7500</low>
+    <close>44.1800</close>
+    <adjusted_close>29.8761</adjusted_close>
+    <volume>88083800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>44.3600</open>
+    <high>47.2300</high>
+    <low>39.4800</low>
+    <close>40.6300</close>
+    <adjusted_close>27.4755</adjusted_close>
+    <volume>97608200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>40.7100</open>
+    <high>46.3600</high>
+    <low>40.6800</low>
+    <close>45.3800</close>
+    <adjusted_close>30.7718</adjusted_close>
+    <volume>72604700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>45.3400</open>
+    <high>46.7300</high>
+    <low>44.2900</low>
+    <close>44.7300</close>
+    <adjusted_close>30.3310</adjusted_close>
+    <volume>58189800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>45.1000</open>
+    <high>46.8000</high>
+    <low>44.5200</low>
+    <close>45.9700</close>
+    <adjusted_close>31.1719</adjusted_close>
+    <volume>40251700</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>45.9200</open>
+    <high>46.0600</high>
+    <low>42.3100</low>
+    <close>43.4000</close>
+    <adjusted_close>29.5039</adjusted_close>
+    <volume>81912200</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>43.7600</open>
+    <high>44.1800</high>
+    <low>40.5100</low>
+    <close>43.0900</close>
+    <adjusted_close>29.2932</adjusted_close>
+    <volume>61770100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>43.0400</open>
+    <high>48.6000</high>
+    <low>42.3500</low>
+    <close>48.3700</close>
+    <adjusted_close>32.8826</adjusted_close>
+    <volume>81024900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>48.3000</open>
+    <high>51.2100</high>
+    <low>47.8500</low>
+    <close>49.9500</close>
+    <adjusted_close>34.0362</adjusted_close>
+    <volume>55618600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>48.6000</open>
+    <high>50.4200</high>
+    <low>48.0200</low>
+    <close>49.4700</close>
+    <adjusted_close>33.7091</adjusted_close>
+    <volume>54919500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>49.7500</open>
+    <high>51.0800</high>
+    <low>48.7400</low>
+    <close>49.8900</close>
+    <adjusted_close>33.9953</adjusted_close>
+    <volume>50314800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>49.9200</open>
+    <high>52.1500</high>
+    <low>48.4800</low>
+    <close>51.1900</close>
+    <adjusted_close>34.9628</adjusted_close>
+    <volume>39344700</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>51.7000</open>
+    <high>56.3100</high>
+    <low>50.7800</low>
+    <close>54.1600</close>
+    <adjusted_close>36.9913</adjusted_close>
+    <volume>74544700</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>54.4800</open>
+    <high>57.3800</high>
+    <low>53.2600</low>
+    <close>54.4300</close>
+    <adjusted_close>37.1757</adjusted_close>
+    <volume>56564500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>54.7400</open>
+    <high>57.2400</high>
+    <low>52.3200</low>
+    <close>52.9300</close>
+    <adjusted_close>36.2342</adjusted_close>
+    <volume>69298200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>53.1000</open>
+    <high>57.3800</high>
+    <low>52.0300</low>
+    <close>57.1300</close>
+    <adjusted_close>39.1094</adjusted_close>
+    <volume>72765000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>57.1800</open>
+    <high>57.9400</high>
+    <low>50.7000</low>
+    <close>52.7600</close>
+    <adjusted_close>36.2093</adjusted_close>
+    <volume>82553700</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>52.4000</open>
+    <high>52.6500</high>
+    <low>46.0000</low>
+    <close>46.7900</close>
+    <adjusted_close>32.1121</adjusted_close>
+    <volume>119717400</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>47.1100</open>
+    <high>52.3500</high>
+    <low>46.9300</low>
+    <close>49.6800</close>
+    <adjusted_close>34.0956</adjusted_close>
+    <volume>105807300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>49.5700</open>
+    <high>54.3500</high>
+    <low>47.8900</low>
+    <close>53.3800</close>
+    <adjusted_close>36.6349</adjusted_close>
+    <volume>110495000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>53.5500</open>
+    <high>54.7700</high>
+    <low>51.4000</low>
+    <close>52.3000</close>
+    <adjusted_close>35.9829</adjusted_close>
+    <volume>66647500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>52.2800</open>
+    <high>55.1200</high>
+    <low>51.7300</low>
+    <close>52.8700</close>
+    <adjusted_close>36.3750</adjusted_close>
+    <volume>61920400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>53.3500</open>
+    <high>57.2500</high>
+    <low>52.4300</low>
+    <close>56.1600</close>
+    <adjusted_close>38.6386</adjusted_close>
+    <volume>63590400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>56.2500</open>
+    <high>58.7000</high>
+    <low>55.0500</low>
+    <close>55.8900</close>
+    <adjusted_close>38.5423</adjusted_close>
+    <volume>57578500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>55.1000</open>
+    <high>56.7400</high>
+    <low>51.5200</low>
+    <close>53.8400</close>
+    <adjusted_close>37.1286</adjusted_close>
+    <volume>105195800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>53.3500</open>
+    <high>56.0700</high>
+    <low>53.3500</low>
+    <close>53.5700</close>
+    <adjusted_close>37.0414</adjusted_close>
+    <volume>73455700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>53.5800</open>
+    <high>57.4500</high>
+    <low>53.0000</low>
+    <close>56.4700</close>
+    <adjusted_close>39.0467</adjusted_close>
+    <volume>89022100</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>56.5400</open>
+    <high>59.0900</high>
+    <low>54.8500</low>
+    <close>58.5200</close>
+    <adjusted_close>40.4642</adjusted_close>
+    <volume>82585700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>59.5000</open>
+    <high>63.0700</high>
+    <low>58.3400</low>
+    <close>59.8000</close>
+    <adjusted_close>41.4492</adjusted_close>
+    <volume>89572800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>60.0000</open>
+    <high>65.5700</high>
+    <low>57.2400</low>
+    <close>61.7500</close>
+    <adjusted_close>42.8008</adjusted_close>
+    <volume>114687300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>61.9600</open>
+    <high>62.7400</high>
+    <low>56.0900</low>
+    <close>61.3700</close>
+    <adjusted_close>42.5373</adjusted_close>
+    <volume>89661000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>61.5200</open>
+    <high>70.5500</high>
+    <low>61.1600</low>
+    <close>67.2600</close>
+    <adjusted_close>46.6199</adjusted_close>
+    <volume>119493700</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>66.7000</open>
+    <high>68.3300</high>
+    <low>63.1500</low>
+    <close>67.4000</close>
+    <adjusted_close>46.8199</adjusted_close>
+    <volume>93320600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>67.4000</open>
+    <high>72.6800</high>
+    <low>65.1000</low>
+    <close>69.7600</close>
+    <adjusted_close>48.4593</adjusted_close>
+    <volume>95612600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>69.6300</open>
+    <high>70.4500</high>
+    <low>62.3800</low>
+    <close>67.9400</close>
+    <adjusted_close>47.1950</adjusted_close>
+    <volume>147585600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>68.1100</open>
+    <high>68.4200</high>
+    <low>61.6400</low>
+    <close>61.9200</close>
+    <adjusted_close>43.1102</adjusted_close>
+    <volume>116784000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>61.9100</open>
+    <high>67.9500</high>
+    <low>59.6600</low>
+    <close>64.9700</close>
+    <adjusted_close>45.2337</adjusted_close>
+    <volume>124947000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>65.1800</open>
+    <high>72.2400</high>
+    <low>64.9700</low>
+    <close>71.2500</close>
+    <adjusted_close>49.6060</adjusted_close>
+    <volume>86953200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>70.7800</open>
+    <high>75.2300</high>
+    <low>68.9000</low>
+    <close>71.3200</close>
+    <adjusted_close>49.7623</adjusted_close>
+    <volume>102556200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>71.4500</open>
+    <high>73.5700</high>
+    <low>67.1400</low>
+    <close>70.1400</close>
+    <adjusted_close>48.9390</adjusted_close>
+    <volume>127820800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>69.4200</open>
+    <high>74.8900</high>
+    <low>60.2400</low>
+    <close>62.6800</close>
+    <adjusted_close>43.7339</adjusted_close>
+    <volume>190949900</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>63.1100</open>
+    <high>68.9700</high>
+    <low>61.5900</low>
+    <close>67.0600</close>
+    <adjusted_close>46.9061</adjusted_close>
+    <volume>99945200</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>68.1500</open>
+    <high>71.0000</high>
+    <low>62.0000</low>
+    <close>64.9300</close>
+    <adjusted_close>45.4163</adjusted_close>
+    <volume>133535900</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>64.0000</open>
+    <high>65.1200</high>
+    <low>48.6600</low>
+    <close>57.0100</close>
+    <adjusted_close>39.8765</adjusted_close>
+    <volume>186164000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>56.5300</open>
+    <high>56.8300</high>
+    <low>43.8800</low>
+    <close>51.4700</close>
+    <adjusted_close>36.1120</adjusted_close>
+    <volume>134303900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>50.7300</open>
+    <high>56.2700</high>
+    <low>47.7600</low>
+    <close>52.5000</close>
+    <adjusted_close>36.8346</adjusted_close>
+    <volume>130133100</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>52.4400</open>
+    <high>53.6200</high>
+    <low>44.7900</low>
+    <close>45.0300</close>
+    <adjusted_close>31.5936</adjusted_close>
+    <volume>115637700</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>44.7800</open>
+    <high>46.1800</high>
+    <low>41.0400</low>
+    <close>42.3400</close>
+    <adjusted_close>29.8147</adjusted_close>
+    <volume>133948900</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>41.7100</open>
+    <high>49.3500</high>
+    <low>38.1700</low>
+    <close>46.3200</close>
+    <adjusted_close>32.6174</adjusted_close>
+    <volume>151183300</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>45.6700</open>
+    <high>48.9700</high>
+    <low>44.0300</low>
+    <close>48.6000</close>
+    <adjusted_close>34.2229</adjusted_close>
+    <volume>112938500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>48.3900</open>
+    <high>49.9200</high>
+    <low>44.6100</low>
+    <close>48.5200</close>
+    <adjusted_close>34.2981</adjusted_close>
+    <volume>119077600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>49.2000</open>
+    <high>50.1400</high>
+    <low>44.7800</low>
+    <close>45.7800</close>
+    <adjusted_close>32.3613</adjusted_close>
+    <volume>113315600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>45.8100</open>
+    <high>49.9300</high>
+    <low>44.3700</low>
+    <close>49.5000</close>
+    <adjusted_close>34.9909</adjusted_close>
+    <volume>96823400</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>49.7500</open>
+    <high>52.0000</high>
+    <low>47.1000</low>
+    <close>50.9800</close>
+    <adjusted_close>36.1702</adjusted_close>
+    <volume>82577000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>51.3400</open>
+    <high>58.8600</high>
+    <low>49.9500</low>
+    <close>56.3800</close>
+    <adjusted_close>40.0015</adjusted_close>
+    <volume>103969200</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>56.1500</open>
+    <high>60.3000</high>
+    <low>55.4000</low>
+    <close>56.8500</close>
+    <adjusted_close>40.4582</adjusted_close>
+    <volume>92945500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>56.8500</open>
+    <high>61.2500</high>
+    <low>56.7600</low>
+    <close>59.9100</close>
+    <adjusted_close>42.6359</adjusted_close>
+    <volume>63580000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>60.1300</open>
+    <high>61.1500</high>
+    <low>57.5200</low>
+    <close>59.1700</close>
+    <adjusted_close>42.1092</adjusted_close>
+    <volume>72889900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>59.1300</open>
+    <high>60.4400</high>
+    <low>56.7500</low>
+    <close>57.4300</close>
+    <adjusted_close>40.8709</adjusted_close>
+    <volume>61205800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>57.8000</open>
+    <high>61.5200</high>
+    <low>57.3600</low>
+    <close>60.9700</close>
+    <adjusted_close>43.5236</adjusted_close>
+    <volume>72957800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>61.0000</open>
+    <high>62.1200</high>
+    <low>59.6400</low>
+    <close>59.7100</close>
+    <adjusted_close>42.6241</adjusted_close>
+    <volume>78643100</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>59.7300</open>
+    <high>61.9600</high>
+    <low>58.6100</low>
+    <close>59.0800</close>
+    <adjusted_close>42.1744</adjusted_close>
+    <volume>83104700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>59.0300</open>
+    <high>60.8300</high>
+    <low>55.0000</low>
+    <close>58.2500</close>
+    <adjusted_close>41.7247</adjusted_close>
+    <volume>118287900</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>58.1800</open>
+    <high>59.1800</high>
+    <low>54.6900</low>
+    <close>54.8300</close>
+    <adjusted_close>39.2750</adjusted_close>
+    <volume>83488700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>54.7300</open>
+    <high>57.4000</high>
+    <low>53.4100</low>
+    <close>56.7100</close>
+    <adjusted_close>40.6216</adjusted_close>
+    <volume>90675600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>57.0600</open>
+    <high>57.6100</high>
+    <low>54.0500</low>
+    <close>56.5000</close>
+    <adjusted_close>40.6184</adjusted_close>
+    <volume>75912600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>56.9300</open>
+    <high>65.2200</high>
+    <low>56.7600</low>
+    <close>64.4900</close>
+    <adjusted_close>46.3625</adjusted_close>
+    <volume>76683600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>64.9200</open>
+    <high>65.4600</high>
+    <low>61.9000</low>
+    <close>62.7700</close>
+    <adjusted_close>45.2718</adjusted_close>
+    <volume>86190200</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>63.0500</open>
+    <high>68.0000</high>
+    <low>62.7100</low>
+    <close>67.6100</close>
+    <adjusted_close>48.7625</adjusted_close>
+    <volume>70219900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>68.2100</open>
+    <high>73.1600</high>
+    <low>68.0100</low>
+    <close>72.2100</close>
+    <adjusted_close>52.0802</adjusted_close>
+    <volume>69379200</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>72.7500</open>
+    <high>73.7000</high>
+    <low>70.0100</low>
+    <close>71.8400</close>
+    <adjusted_close>51.8133</adjusted_close>
+    <volume>51344400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>72.2200</open>
+    <high>75.4800</high>
+    <low>70.5400</low>
+    <close>74.7900</close>
+    <adjusted_close>54.0892</adjusted_close>
+    <volume>41166300</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>75.1100</open>
+    <high>75.3900</high>
+    <low>69.5400</low>
+    <close>73.3200</close>
+    <adjusted_close>53.0261</adjusted_close>
+    <volume>61283600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>73.1600</open>
+    <high>81.5000</high>
+    <low>73.1400</low>
+    <close>80.8900</close>
+    <adjusted_close>58.5008</adjusted_close>
+    <volume>51728400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>81.2100</open>
+    <high>83.9500</high>
+    <low>79.1400</low>
+    <close>82.4800</close>
+    <adjusted_close>59.8254</adjusted_close>
+    <volume>48334900</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>82.3400</open>
+    <high>82.5100</high>
+    <low>77.3100</low>
+    <close>81.2400</close>
+    <adjusted_close>58.9260</adjusted_close>
+    <volume>51884700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>81.5000</open>
+    <high>83.4500</high>
+    <low>77.1900</low>
+    <close>78.2500</close>
+    <adjusted_close>56.7572</adjusted_close>
+    <volume>36468100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>79.3200</open>
+    <high>79.3500</high>
+    <low>70.2200</low>
+    <close>78.5400</close>
+    <adjusted_close>57.1484</adjusted_close>
+    <volume>83484600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>78.9800</open>
+    <high>86.3400</high>
+    <low>76.5900</low>
+    <close>82.1300</close>
+    <adjusted_close>59.7606</adjusted_close>
+    <volume>58581700</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>81.7200</open>
+    <high>86.1400</high>
+    <low>78.4100</low>
+    <close>83.2500</close>
+    <adjusted_close>60.5756</adjusted_close>
+    <volume>61642600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>82.3700</open>
+    <high>85.8200</high>
+    <low>80.3000</low>
+    <close>85.3000</close>
+    <adjusted_close>62.2447</adjusted_close>
+    <volume>46929900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>85.0000</open>
+    <high>88.6800</high>
+    <low>81.8500</low>
+    <close>83.3200</close>
+    <adjusted_close>60.7999</adjusted_close>
+    <volume>48945600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>84.2800</open>
+    <high>85.0800</high>
+    <low>78.8100</low>
+    <close>82.2700</close>
+    <adjusted_close>60.0337</adjusted_close>
+    <volume>51275200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>82.9200</open>
+    <high>87.2000</high>
+    <low>82.7800</low>
+    <close>86.0600</close>
+    <adjusted_close>62.9780</adjusted_close>
+    <volume>44535200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>86.5400</open>
+    <high>91.7800</high>
+    <low>85.6900</low>
+    <close>90.8000</close>
+    <adjusted_close>66.4467</adjusted_close>
+    <volume>44799200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>90.9400</open>
+    <high>92.1000</high>
+    <low>86.0300</low>
+    <close>88.1800</close>
+    <adjusted_close>64.5295</adjusted_close>
+    <volume>43518200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>86.9100</open>
+    <high>88.0000</high>
+    <low>81.9800</low>
+    <close>86.3900</close>
+    <adjusted_close>63.4287</adjusted_close>
+    <volume>59100800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>86.0000</open>
+    <high>95.1100</high>
+    <low>85.1700</low>
+    <close>95.0000</close>
+    <adjusted_close>69.7503</adjusted_close>
+    <volume>49076200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>95.0000</open>
+    <high>97.7600</high>
+    <low>93.1100</low>
+    <close>96.1800</close>
+    <adjusted_close>70.6167</adjusted_close>
+    <volume>34993500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>96.4300</open>
+    <high>99.2800</high>
+    <low>94.3900</low>
+    <close>97.8700</close>
+    <adjusted_close>72.0644</adjusted_close>
+    <volume>31041300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>97.7900</open>
+    <high>103.5100</high>
+    <low>97.0700</low>
+    <close>100.1600</close>
+    <adjusted_close>73.7506</adjusted_close>
+    <volume>31903500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>100.6300</open>
+    <high>104.4300</high>
+    <low>93.8400</low>
+    <close>98.4300</close>
+    <adjusted_close>72.4767</adjusted_close>
+    <volume>69043500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>98.5900</open>
+    <high>104.5000</high>
+    <low>93.5100</low>
+    <close>103.9200</close>
+    <adjusted_close>76.7397</adjusted_close>
+    <volume>62802000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>104.8200</open>
+    <high>105.9700</high>
+    <low>96.5100</low>
+    <close>98.7300</close>
+    <adjusted_close>78.0648</adjusted_close>
+    <volume>64890300</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>100.6000</open>
+    <high>103.5300</high>
+    <low>99.7000</low>
+    <close>102.3400</close>
+    <adjusted_close>80.9192</adjusted_close>
+    <volume>42633600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>102.8900</open>
+    <high>104.3500</high>
+    <low>98.9500</low>
+    <close>101.2900</close>
+    <adjusted_close>80.3027</adjusted_close>
+    <volume>41548000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>100.8200</open>
+    <high>107.0600</high>
+    <low>100.2600</low>
+    <close>106.1100</close>
+    <adjusted_close>84.1240</adjusted_close>
+    <volume>43804300</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>106.0000</open>
+    <high>109.7500</high>
+    <low>103.2000</low>
+    <close>108.4300</close>
+    <adjusted_close>85.9633</adjusted_close>
+    <volume>40330300</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>108.1300</open>
+    <high>115.7700</high>
+    <low>107.7200</low>
+    <close>109.6300</close>
+    <adjusted_close>87.1572</adjusted_close>
+    <volume>40045500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>109.9200</open>
+    <high>112.5900</high>
+    <low>107.3800</low>
+    <close>110.5700</close>
+    <adjusted_close>87.9046</adjusted_close>
+    <volume>34143100</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>111.5500</open>
+    <high>119.3900</high>
+    <low>110.0600</low>
+    <close>117.4200</close>
+    <adjusted_close>93.3503</adjusted_close>
+    <volume>30468900</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>118.0700</open>
+    <high>120.2000</high>
+    <low>110.1900</low>
+    <close>111.8700</close>
+    <adjusted_close>89.1694</adjusted_close>
+    <volume>31715100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>112.8100</open>
+    <high>119.4700</high>
+    <low>111.3500</low>
+    <close>115.1700</close>
+    <adjusted_close>91.7997</adjusted_close>
+    <volume>33037000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>115.1100</open>
+    <high>118.9900</high>
+    <low>110.1500</low>
+    <close>118.0000</close>
+    <adjusted_close>94.0555</adjusted_close>
+    <volume>42905200</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>118.7100</open>
+    <high>126.1200</high>
+    <low>118.5500</low>
+    <close>125.4300</close>
+    <adjusted_close>100.2316</adjusted_close>
+    <volume>31793400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>125.6600</open>
+    <high>125.6900</high>
+    <low>115.8500</low>
+    <close>119.0200</close>
+    <adjusted_close>95.1093</adjusted_close>
+    <volume>43396100</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>118.7100</open>
+    <high>119.3000</high>
+    <low>111.1300</low>
+    <close>112.3600</close>
+    <adjusted_close>89.7872</adjusted_close>
+    <volume>54683000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>112.9600</open>
+    <high>117.4700</high>
+    <low>109.5000</low>
+    <close>116.8000</close>
+    <adjusted_close>93.5876</adjusted_close>
+    <volume>41383300</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>116.2200</open>
+    <high>117.0700</high>
+    <low>111.1500</low>
+    <close>111.6800</close>
+    <adjusted_close>89.4851</adjusted_close>
+    <volume>54850200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>112.2100</open>
+    <high>116.6100</high>
+    <low>110.3600</low>
+    <close>115.6800</close>
+    <adjusted_close>92.6901</adjusted_close>
+    <volume>51977100</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>115.6800</open>
+    <high>116.9100</high>
+    <low>111.6100</low>
+    <close>116.0200</close>
+    <adjusted_close>93.2472</adjusted_close>
+    <volume>40532600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>115.8400</open>
+    <high>118.8500</high>
+    <low>114.5100</low>
+    <close>115.1600</close>
+    <adjusted_close>92.5561</adjusted_close>
+    <volume>33693000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>115.5400</open>
+    <high>119.6000</high>
+    <low>114.9000</low>
+    <close>117.5400</close>
+    <adjusted_close>94.7552</adjusted_close>
+    <volume>39082200</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>117.8000</open>
+    <high>122.0600</high>
+    <low>117.1100</low>
+    <close>121.0800</close>
+    <adjusted_close>97.6090</adjusted_close>
+    <volume>32829300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>121.0000</open>
+    <high>127.7800</high>
+    <low>120.9000</low>
+    <close>125.3200</close>
+    <adjusted_close>101.0271</adjusted_close>
+    <volume>39512400</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>125.2500</open>
+    <high>134.5000</high>
+    <low>122.0500</low>
+    <close>133.3700</close>
+    <adjusted_close>107.5167</adjusted_close>
+    <volume>56709800</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>133.8200</open>
+    <high>142.9700</high>
+    <low>133.3700</low>
+    <close>142.1200</close>
+    <adjusted_close>114.8681</adjusted_close>
+    <volume>33458700</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>143.3200</open>
+    <high>146.8200</high>
+    <low>136.5500</low>
+    <close>141.7500</close>
+    <adjusted_close>114.5690</adjusted_close>
+    <volume>46520400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>141.8700</open>
+    <high>146.1000</high>
+    <low>138.2200</low>
+    <close>142.9900</close>
+    <adjusted_close>115.5713</adjusted_close>
+    <volume>42037000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>144.0000</open>
+    <high>156.8500</high>
+    <low>140.1300</low>
+    <close>146.9600</close>
+    <adjusted_close>123.0098</adjusted_close>
+    <volume>62314000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>147.3200</open>
+    <high>154.2300</high>
+    <low>145.7800</low>
+    <close>151.5000</close>
+    <adjusted_close>126.8099</adjusted_close>
+    <volume>48746100</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>151.8300</open>
+    <high>152.9500</high>
+    <low>142.5400</low>
+    <close>143.0500</close>
+    <adjusted_close>120.0646</adjusted_close>
+    <volume>39579200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>143.4600</open>
+    <high>147.5600</high>
+    <low>141.5300</low>
+    <close>142.5900</close>
+    <adjusted_close>119.6784</adjusted_close>
+    <volume>40758600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>143.0500</open>
+    <high>143.2500</high>
+    <low>134.7300</low>
+    <close>135.0600</close>
+    <adjusted_close>113.3584</adjusted_close>
+    <volume>43415400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>135.7900</open>
+    <high>147.0000</high>
+    <low>135.0600</low>
+    <close>145.3000</close>
+    <adjusted_close>121.9530</adjusted_close>
+    <volume>40333900</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>145.7800</open>
+    <high>147.5900</high>
+    <low>117.0300</low>
+    <close>140.0500</close>
+    <adjusted_close>117.8698</adjusted_close>
+    <volume>43378800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>137.5800</open>
+    <high>146.9000</high>
+    <low>137.5000</low>
+    <close>144.5700</close>
+    <adjusted_close>121.6739</adjusted_close>
+    <volume>39105000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>144.8500</open>
+    <high>159.4000</high>
+    <low>142.1900</low>
+    <close>158.1200</close>
+    <adjusted_close>133.0780</adjusted_close>
+    <volume>46356600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>158.9900</open>
+    <high>164.4700</high>
+    <low>153.2300</low>
+    <close>161.4200</close>
+    <adjusted_close>136.2065</adjusted_close>
+    <volume>39892100</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>162.0200</open>
+    <high>169.7300</high>
+    <low>157.3300</low>
+    <close>161.5000</close>
+    <adjusted_close>136.2740</adjusted_close>
+    <volume>54513100</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>159.8100</open>
+    <high>161.2300</high>
+    <low>144.9100</low>
+    <close>151.1200</close>
+    <adjusted_close>127.5153</adjusted_close>
+    <volume>48510000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>150.8400</open>
+    <high>154.8800</high>
+    <low>141.6200</low>
+    <close>150.0300</close>
+    <adjusted_close>126.9388</adjusted_close>
+    <volume>54382400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>150.4000</open>
+    <high>159.8000</high>
+    <low>147.1000</low>
+    <close>157.5800</close>
+    <adjusted_close>133.3268</adjusted_close>
+    <volume>51290800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>157.8700</open>
+    <high>159.0900</high>
+    <low>147.4600</low>
+    <close>148.1300</close>
+    <adjusted_close>125.7019</adjusted_close>
+    <volume>42835300</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>148.7600</open>
+    <high>153.8800</high>
+    <low>138.5700</low>
+    <close>148.7700</close>
+    <adjusted_close>126.2450</adjusted_close>
+    <volume>69436400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>150.5000</open>
+    <high>158.7900</high>
+    <low>148.5500</low>
+    <close>157.0400</close>
+    <adjusted_close>133.2628</adjusted_close>
+    <volume>55950500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>157.1900</open>
+    <high>168.8200</high>
+    <low>154.6700</low>
+    <close>167.2200</close>
+    <adjusted_close>141.9015</adjusted_close>
+    <volume>43086800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>167.1500</open>
+    <high>169.5900</high>
+    <low>161.1500</low>
+    <close>162.0900</close>
+    <adjusted_close>137.9180</adjusted_close>
+    <volume>34033800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>159.0000</open>
+    <high>159.2800</high>
+    <low>147.2000</low>
+    <close>152.5100</close>
+    <adjusted_close>129.7666</adjusted_close>
+    <volume>60766000</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>152.2200</open>
+    <high>152.3200</high>
+    <low>147.1000</low>
+    <close>147.8700</close>
+    <adjusted_close>125.8186</adjusted_close>
+    <volume>46455900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>148.4800</open>
+    <high>153.4200</high>
+    <low>142.1100</low>
+    <close>150.1100</close>
+    <adjusted_close>128.1177</adjusted_close>
+    <volume>51222600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>150.1100</open>
+    <high>164.9500</high>
+    <low>150.1100</low>
+    <close>160.1100</close>
+    <adjusted_close>136.6525</adjusted_close>
+    <volume>48204500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>160.6500</open>
+    <high>164.8000</high>
+    <low>158.5100</low>
+    <close>163.9500</close>
+    <adjusted_close>139.9300</adjusted_close>
+    <volume>36710400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>163.8400</open>
+    <high>177.8700</high>
+    <low>161.8100</low>
+    <close>177.1800</close>
+    <adjusted_close>151.6290</adjusted_close>
+    <volume>48179100</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>177.3700</open>
+    <high>178.7100</high>
+    <low>164.1000</low>
+    <close>167.6900</close>
+    <adjusted_close>143.5075</adjusted_close>
+    <volume>58812800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>167.7400</open>
+    <high>178.2700</high>
+    <low>166.1100</low>
+    <close>177.5200</close>
+    <adjusted_close>151.9199</adjusted_close>
+    <volume>36641800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>178.5000</open>
+    <high>183.1800</high>
+    <low>169.0600</low>
+    <close>180.4300</close>
+    <adjusted_close>161.1174</adjusted_close>
+    <volume>53726300</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>180.8100</open>
+    <high>182.7200</high>
+    <low>156.5600</low>
+    <close>159.9300</close>
+    <adjusted_close>142.8117</adjusted_close>
+    <volume>110663000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>160.2100</open>
+    <high>161.3500</high>
+    <low>150.0000</low>
+    <close>158.5100</close>
+    <adjusted_close>141.5436</adjusted_close>
+    <volume>93217800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>159.1000</open>
+    <high>162.3500</high>
+    <low>150.0600</low>
+    <close>156.7400</close>
+    <adjusted_close>140.4106</adjusted_close>
+    <volume>78721800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>157.5900</open>
+    <high>165.3200</high>
+    <low>155.0300</low>
+    <close>164.2900</close>
+    <adjusted_close>147.1740</adjusted_close>
+    <volume>50198600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>164.9200</open>
+    <high>167.2900</high>
+    <low>154.1100</low>
+    <close>161.0800</close>
+    <adjusted_close>144.2985</adjusted_close>
+    <volume>89106400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>161.9700</open>
+    <high>184.9000</high>
+    <low>161.2900</low>
+    <close>184.4300</close>
+    <adjusted_close>165.7061</adjusted_close>
+    <volume>57900700</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>183.2600</open>
+    <high>195.3500</high>
+    <low>181.1300</low>
+    <close>186.1200</close>
+    <adjusted_close>167.2245</adjusted_close>
+    <volume>60835900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>187.2300</open>
+    <high>199.8800</high>
+    <low>183.8800</low>
+    <close>194.8700</close>
+    <adjusted_close>175.0862</adjusted_close>
+    <volume>57501400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>193.4100</open>
+    <high>195.5200</high>
+    <low>175.7900</low>
+    <close>190.9000</close>
+    <adjusted_close>171.9782</adjusted_close>
+    <volume>43370500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>191.3100</open>
+    <high>192.9900</high>
+    <low>180.8300</low>
+    <close>188.4300</close>
+    <adjusted_close>169.7530</adjusted_close>
+    <volume>57402100</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>186.9100</open>
+    <high>199.0400</high>
+    <low>180.9400</low>
+    <close>197.1600</close>
+    <adjusted_close>177.6177</adjusted_close>
+    <volume>44178400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>196.4900</open>
+    <high>201.7700</high>
+    <low>190.1800</low>
+    <close>198.2400</close>
+    <adjusted_close>179.1114</adjusted_close>
+    <volume>43231300</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>195.4500</open>
+    <high>212.4600</high>
+    <low>195.0000</low>
+    <close>208.9800</close>
+    <adjusted_close>188.8152</adjusted_close>
+    <volume>44835900</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>208.4200</open>
+    <high>224.6200</high>
+    <low>206.0500</low>
+    <close>218.7100</close>
+    <adjusted_close>197.6062</adjusted_close>
+    <volume>36353800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>218.6500</open>
+    <high>233.5200</high>
+    <low>215.0100</low>
+    <close>233.1300</close>
+    <adjusted_close>211.1577</adjusted_close>
+    <volume>41228700</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>233.1400</open>
+    <high>245.1600</high>
+    <low>231.5100</low>
+    <close>234.8800</close>
+    <adjusted_close>212.7428</adjusted_close>
+    <volume>41975400</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>235.8100</open>
+    <high>237.5700</high>
+    <low>217.0000</low>
+    <close>228.6300</close>
+    <adjusted_close>207.0818</adjusted_close>
+    <volume>66756300</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>228.1800</open>
+    <high>240.8800</high>
+    <low>217.4500</low>
+    <close>231.2800</close>
+    <adjusted_close>209.9800</adjusted_close>
+    <volume>47451000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>230.7200</open>
+    <high>233.8600</high>
+    <low>189.5100</low>
+    <close>203.7100</close>
+    <adjusted_close>184.9491</adjusted_close>
+    <volume>64334700</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>200.5000</open>
+    <high>215.5600</high>
+    <low>199.8500</low>
+    <close>214.6300</close>
+    <adjusted_close>194.8634</adjusted_close>
+    <volume>46077200</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>214.0000</open>
+    <high>219.6900</high>
+    <low>205.7500</low>
+    <close>218.7400</close>
+    <adjusted_close>199.1313</adjusted_close>
+    <volume>37632900</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>219.7600</open>
+    <high>242.4400</high>
+    <low>215.7700</low>
+    <close>242.1400</close>
+    <adjusted_close>220.4336</adjusted_close>
+    <volume>50866400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>243.0700</open>
+    <high>248.7000</high>
+    <low>240.3100</low>
+    <close>245.5300</close>
+    <adjusted_close>223.5198</adjusted_close>
+    <volume>32850000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>245.3400</open>
+    <high>251.0100</high>
+    <low>233.0500</low>
+    <close>239.5800</close>
+    <adjusted_close>218.6921</adjusted_close>
+    <volume>39654400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>239.7800</open>
+    <high>268.9400</high>
+    <low>238.0800</low>
+    <close>264.2600</close>
+    <adjusted_close>241.2204</adjusted_close>
+    <volume>34369400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>266.4300</open>
+    <high>284.3100</high>
+    <low>261.6700</low>
+    <close>275.6300</close>
+    <adjusted_close>251.5991</adjusted_close>
+    <volume>32122300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>275.7500</open>
+    <high>299.9500</high>
+    <low>262.7100</low>
+    <close>294.7600</close>
+    <adjusted_close>269.6565</adjusted_close>
+    <volume>49911800</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>292.5700</open>
+    <high>307.3400</high>
+    <low>284.4000</low>
+    <close>288.1100</close>
+    <adjusted_close>263.5728</adjusted_close>
+    <volume>47479100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>288.0400</open>
+    <high>304.8800</high>
+    <low>281.6000</low>
+    <close>297.1100</close>
+    <adjusted_close>272.3969</adjusted_close>
+    <volume>46758900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>297.9900</open>
+    <high>307.1000</high>
+    <low>295.1700</low>
+    <close>299.8100</close>
+    <adjusted_close>274.8722</adjusted_close>
+    <volume>33480900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>299.7500</open>
+    <high>300.2000</high>
+    <low>289.1000</low>
+    <close>293.9200</close>
+    <adjusted_close>269.4721</adjusted_close>
+    <volume>45563900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>294.0600</open>
+    <high>314.2800</high>
+    <low>288.6200</low>
+    <close>305.5200</close>
+    <adjusted_close>280.1073</adjusted_close>
+    <volume>43480800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>307.0000</open>
+    <high>325.2600</high>
+    <low>271.2800</low>
+    <close>281.1400</close>
+    <adjusted_close>258.2986</adjusted_close>
+    <volume>43434600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>294.4400</open>
+    <high>324.5100</high>
+    <low>276.3400</low>
+    <close>285.1300</close>
+    <adjusted_close>261.9644</adjusted_close>
+    <volume>125473600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>282.3600</open>
+    <high>322.6300</high>
+    <low>280.9000</low>
+    <close>303.0000</close>
+    <adjusted_close>279.0186</adjusted_close>
+    <volume>74411200</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>301.7800</open>
+    <high>311.8300</high>
+    <low>294.5400</low>
+    <close>308.4700</close>
+    <adjusted_close>284.0557</adjusted_close>
+    <volume>60875800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>307.9000</open>
+    <high>315.3500</high>
+    <low>293.8400</low>
+    <close>303.2100</close>
+    <adjusted_close>279.2120</adjusted_close>
+    <volume>62699600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>302.5000</open>
+    <high>331.4900</high>
+    <low>300.7500</low>
+    <close>325.5300</close>
+    <adjusted_close>300.4102</adjusted_close>
+    <volume>46030600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>325.5500</open>
+    <high>349.0600</high>
+    <low>324.3000</low>
+    <close>347.6600</close>
+    <adjusted_close>320.8326</adjusted_close>
+    <volume>40187100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>345.7100</open>
+    <high>363.6700</high>
+    <low>331.2000</low>
+    <close>355.0000</close>
+    <adjusted_close>327.6061</adjusted_close>
+    <volume>58593900</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>356.2600</open>
+    <high>384.8700</high>
+    <low>352.8500</low>
+    <close>357.6200</close>
+    <adjusted_close>330.6582</adjusted_close>
+    <volume>42956000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>362.2200</open>
+    <high>393.1500</high>
+    <low>360.5900</low>
+    <close>391.7700</close>
+    <adjusted_close>362.2336</adjusted_close>
+    <volume>43388200</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>384.5000</open>
+    <high>388.0700</high>
+    <low>359.5000</low>
+    <close>376.7800</close>
+    <adjusted_close>357.4988</adjusted_close>
+    <volume>55504500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>377.4300</open>
+    <high>381.5500</high>
+    <low>351.8800</low>
+    <close>352.4300</close>
+    <adjusted_close>334.3949</adjusted_close>
+    <volume>49700800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>351.2100</open>
+    <high>361.6700</high>
+    <low>330.9400</low>
+    <close>331.0000</close>
+    <adjusted_close>314.6817</adjusted_close>
+    <volume>46555900</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>335.2100</open>
+    <high>357.7700</high>
+    <low>307.0000</low>
+    <close>352.4800</close>
+    <adjusted_close>335.1028</adjusted_close>
+    <volume>92432000</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>352.5400</open>
+    <high>375.4400</high>
+    <low>351.6300</low>
+    <close>372.0900</close>
+    <adjusted_close>354.5038</adjusted_close>
+    <volume>41459800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>373.8400</open>
+    <high>389.4500</high>
+    <low>371.1100</low>
+    <close>378.2700</close>
+    <adjusted_close>360.3916</adjusted_close>
+    <volume>43491400</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>379.9300</open>
+    <high>400.4700</high>
+    <low>375.5000</low>
+    <close>395.6700</close>
+    <adjusted_close>376.9692</adjusted_close>
+    <volume>39478800</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>396.3000</open>
+    <high>431.5000</high>
+    <low>393.8800</low>
+    <close>429.7200</close>
+    <adjusted_close>410.1774</adjusted_close>
+    <volume>37236300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>430.6200</open>
+    <high>460.6200</high>
+    <low>425.4800</low>
+    <close>455.4900</close>
+    <adjusted_close>434.7755</adjusted_close>
+    <volume>35694700</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>455.4800</open>
+    <high>470.4900</high>
+    <low>445.6700</low>
+    <close>449.3500</close>
+    <adjusted_close>428.9147</adjusted_close>
+    <volume>39310500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>449.7300</open>
+    <high>494.1700</high>
+    <low>436.1700</low>
+    <close>491.5400</close>
+    <adjusted_close>469.9450</adjusted_close>
+    <volume>35620200</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>494.1500</open>
+    <high>560.7800</high>
+    <low>487.2000</low>
+    <close>539.3800</close>
+    <adjusted_close>515.6833</adjusted_close>
+    <volume>42982700</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>543.1000</open>
+    <high>571.4900</high>
+    <low>514.0400</low>
+    <close>567.7000</close>
+    <adjusted_close>542.7590</adjusted_close>
+    <volume>60742500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>565.0300</open>
+    <high>568.7200</high>
+    <low>469.0100</low>
+    <close>505.1300</close>
+    <adjusted_close>482.9380</adjusted_close>
+    <volume>57966700</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>505.0000</open>
+    <high>534.2400</high>
+    <low>482.9800</low>
+    <close>519.2500</close>
+    <adjusted_close>497.1900</adjusted_close>
+    <volume>41865600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>519.4600</open>
+    <high>586.3200</high>
+    <low>511.7800</low>
+    <close>575.8500</close>
+    <adjusted_close>551.3853</adjusted_close>
+    <volume>59731500</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>577.3800</open>
+    <high>612.2700</high>
+    <low>529.7000</low>
+    <close>531.7200</close>
+    <adjusted_close>509.9586</adjusted_close>
+    <volume>49744700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>532.2300</open>
+    <high>546.1400</high>
+    <low>406.5100</low>
+    <close>466.2200</close>
+    <adjusted_close>447.1392</adjusted_close>
+    <volume>80773600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>469.3800</open>
+    <high>491.1300</high>
+    <low>443.2000</low>
+    <close>479.2800</close>
+    <adjusted_close>459.6648</adjusted_close>
+    <volume>54370600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>481.1800</open>
+    <high>542.1200</high>
+    <low>478.0000</low>
+    <close>541.3000</close>
+    <adjusted_close>520.0427</adjusted_close>
+    <volume>46975700</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>541.4200</open>
+    <high>564.7500</high>
+    <low>520.2600</low>
+    <close>522.1000</close>
+    <adjusted_close>501.5966</adjusted_close>
+    <volume>42247500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>519.7200</open>
+    <high>542.6000</high>
+    <low>463.5300</low>
+    <close>472.2700</close>
+    <adjusted_close>453.7234</adjusted_close>
+    <volume>49753100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>474.5000</open>
+    <high>512.8200</high>
+    <low>449.0300</low>
+    <close>501.5000</close>
+    <adjusted_close>482.6754</adjusted_close>
+    <volume>44905600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>503.7000</open>
+    <high>542.5800</high>
+    <low>474.5000</low>
+    <close>539.2500</close>
+    <adjusted_close>519.0083</adjusted_close>
+    <volume>40651100</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>519.1400</open>
+    <high>519.1400</high>
+    <low>450.7500</low>
+    <close>456.5000</close>
+    <adjusted_close>439.3645</adjusted_close>
+    <volume>54987400</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>458.0000</open>
+    <high>511.4100</high>
+    <low>447.9000</low>
+    <close>511.1400</close>
+    <adjusted_close>491.9536</adjusted_close>
+    <volume>40977800</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>508.3100</open>
+    <high>530.0500</high>
+    <low>483.7800</low>
+    <close>484.1800</close>
+    <adjusted_close>466.8167</adjusted_close>
+    <volume>31622600</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>481.1000</open>
+    <high>499.8600</high>
+    <low>465.3300</low>
+    <close>496.8700</close>
+    <adjusted_close>479.0516</adjusted_close>
+    <volume>48864100</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>496.5000</open>
+    <high>513.1300</high>
+    <low>477.5000</low>
+    <close>503.2200</close>
+    <adjusted_close>485.1739</adjusted_close>
+    <volume>33747700</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>499.1500</open>
+    <high>514.7900</high>
+    <low>476.7500</low>
+    <close>511.5600</close>
+    <adjusted_close>494.2435</adjusted_close>
+    <volume>43433600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>509.3300</open>
+    <high>539.5600</high>
+    <low>502.1000</low>
+    <close>538.3800</close>
+    <adjusted_close>520.1557</adjusted_close>
+    <volume>35246000</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>537.2500</open>
+    <high>571.1600</high>
+    <low>524.6300</low>
+    <close>560.6700</close>
+    <adjusted_close>541.6912</adjusted_close>
+    <volume>36891600</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>560.6300</open>
+    <high>569.2100</high>
+    <low>530.5600</low>
+    <close>549.2800</close>
+    <adjusted_close>531.6895</adjusted_close>
+    <volume>32426100</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>553.0700</open>
+    <high>572.1800</high>
+    <low>540.1800</low>
+    <close>564.9600</close>
+    <adjusted_close>546.8673</adjusted_close>
+    <volume>33937300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>567.9100</open>
+    <high>577.3000</high>
+    <low>540.2300</low>
+    <close>552.4400</close>
+    <adjusted_close>534.7482</adjusted_close>
+    <volume>39766000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>555.0000</open>
+    <high>599.9400</high>
+    <low>549.6500</low>
+    <close>592.7400</close>
+    <adjusted_close>574.8106</adjusted_close>
+    <volume>34716600</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>593.2800</open>
+    <high>681.9100</high>
+    <low>590.5900</low>
+    <close>660.0800</close>
+    <adjusted_close>654.6702</adjusted_close>
+    <volume>54551500</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>655.5800</open>
+    <high>705.5200</high>
+    <low>640.5100</low>
+    <close>694.8800</close>
+    <adjusted_close>689.1849</adjusted_close>
+    <volume>44189300</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>694.0000</open>
+    <high>752.5600</high>
+    <low>691.5000</low>
+    <close>743.8900</close>
+    <adjusted_close>738.8778</adjusted_close>
+    <volume>37072400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>740.4400</open>
+    <high>787.0800</high>
+    <low>711.0100</low>
+    <close>732.6300</close>
+    <adjusted_close>727.6937</adjusted_close>
+    <volume>50456400</volume>
+    <news>COST Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>731.7600</open>
+    <high>741.0000</high>
+    <low>697.2700</low>
+    <close>722.9000</close>
+    <adjusted_close>719.1818</adjusted_close>
+    <volume>38058600</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>722.2700</open>
+    <high>819.5000</high>
+    <low>715.3200</low>
+    <close>809.8900</close>
+    <adjusted_close>805.7242</adjusted_close>
+    <volume>40171900</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>811.0000</open>
+    <high>873.9600</high>
+    <low>807.1300</low>
+    <close>849.9900</close>
+    <adjusted_close>845.6180</adjusted_close>
+    <volume>34445500</volume>
+    <news>COST Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>853.5000</open>
+    <high>896.6700</high>
+    <low>803.2800</low>
+    <close>822.0000</close>
+    <adjusted_close>818.9362</adjusted_close>
+    <volume>45966400</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>818.5500</open>
+    <high>918.9300</high>
+    <low>793.0000</low>
+    <close>892.3800</close>
+    <adjusted_close>889.0538</adjusted_close>
+    <volume>39311500</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>896.6800</open>
+    <high>923.8300</high>
+    <low>868.7000</low>
+    <close>886.5200</close>
+    <adjusted_close>883.2157</adjusted_close>
+    <volume>40579300</volume>
+    <news>COST Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>885.2500</open>
+    <high>910.0000</high>
+    <low>867.1600</low>
+    <close>874.1800</close>
+    <adjusted_close>870.9217</adjusted_close>
+    <volume>35631000</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>874.2700</open>
+    <high>976.3000</high>
+    <low>867.3400</low>
+    <close>971.8800</close>
+    <adjusted_close>969.5441</adjusted_close>
+    <volume>39058200</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>971.3600</open>
+    <high>1008.2500</high>
+    <low>912.5400</low>
+    <close>916.2700</close>
+    <adjusted_close>914.0678</adjusted_close>
+    <volume>44506900</volume>
+    <news>COST Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</costco_stock_data>

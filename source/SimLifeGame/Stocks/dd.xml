@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dupont_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>63.5134</open>
+    <high>67.1309</high>
+    <low>53.7877</low>
+    <close>55.2703</close>
+    <adjusted_close>25.0184</adjusted_close>
+    <volume>54535691</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>55.1517</open>
+    <high>57.2570</high>
+    <low>48.8656</low>
+    <close>51.4749</close>
+    <adjusted_close>23.3004</adjusted_close>
+    <volume>45487230</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>51.5342</open>
+    <high>56.5157</high>
+    <low>43.6469</low>
+    <close>54.0843</close>
+    <adjusted_close>24.6795</adjusted_close>
+    <volume>63442717</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>55.5075</open>
+    <high>59.5401</high>
+    <low>47.4423</low>
+    <close>53.6098</close>
+    <adjusted_close>24.4630</adjusted_close>
+    <volume>49004554</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>53.6988</open>
+    <high>57.0197</high>
+    <low>48.6877</low>
+    <close>50.7929</close>
+    <adjusted_close>23.1776</adjusted_close>
+    <volume>42878591</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>50.7633</open>
+    <high>52.1866</high>
+    <low>42.7870</low>
+    <close>42.9650</close>
+    <adjusted_close>19.7835</adjusted_close>
+    <volume>43228839</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>43.5876</open>
+    <high>48.2133</high>
+    <low>39.5847</low>
+    <close>40.9190</close>
+    <adjusted_close>18.8414</adjusted_close>
+    <volume>37712877</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>41.1859</open>
+    <high>42.1644</high>
+    <low>37.0050</low>
+    <close>37.2941</close>
+    <adjusted_close>17.1723</adjusted_close>
+    <volume>49934035</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>37.1829</open>
+    <high>39.8516</high>
+    <low>33.8916</low>
+    <close>35.4928</close>
+    <adjusted_close>16.5369</adjusted_close>
+    <volume>51518837</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>36.1155</open>
+    <high>44.2993</high>
+    <low>32.7352</low>
+    <close>43.5876</close>
+    <adjusted_close>20.3084</adjusted_close>
+    <volume>62510993</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>43.4987</open>
+    <high>46.6121</high>
+    <low>41.9865</low>
+    <close>43.4987</close>
+    <adjusted_close>20.2670</adjusted_close>
+    <volume>40167861</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>44.2103</open>
+    <high>54.6180</high>
+    <low>43.4097</low>
+    <close>52.1273</close>
+    <adjusted_close>24.4788</adjusted_close>
+    <volume>50433659</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>49.9034</open>
+    <high>53.1058</high>
+    <low>42.4312</low>
+    <close>48.8182</close>
+    <adjusted_close>22.9248</adjusted_close>
+    <volume>50246344</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>48.8182</open>
+    <high>49.6721</high>
+    <low>41.2464</low>
+    <close>46.6975</close>
+    <adjusted_close>22.0107</adjusted_close>
+    <volume>47607560</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>46.6975</open>
+    <high>51.2804</high>
+    <low>40.9902</low>
+    <close>44.9326</close>
+    <adjusted_close>21.2907</adjusted_close>
+    <volume>44808020</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>44.9326</open>
+    <high>51.7786</high>
+    <low>44.1783</low>
+    <close>47.6084</close>
+    <adjusted_close>22.5586</adjusted_close>
+    <volume>37547908</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>47.6226</open>
+    <high>56.4611</high>
+    <low>47.3237</low>
+    <close>50.9673</close>
+    <adjusted_close>24.1502</adjusted_close>
+    <volume>47279022</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>50.9673</open>
+    <high>52.7748</high>
+    <low>46.0428</low>
+    <close>47.3237</close>
+    <adjusted_close>22.6502</adjusted_close>
+    <volume>34355259</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>48.1065</open>
+    <high>52.6610</high>
+    <low>47.3522</low>
+    <close>51.8070</close>
+    <adjusted_close>24.7960</adjusted_close>
+    <volume>31954872</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>51.8070</open>
+    <high>52.4617</high>
+    <low>47.9642</low>
+    <close>49.8998</close>
+    <adjusted_close>23.8832</adjusted_close>
+    <volume>32987143</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>49.5298</open>
+    <high>51.6505</high>
+    <low>35.6671</low>
+    <close>46.6263</close>
+    <adjusted_close>22.5518</adjusted_close>
+    <volume>36591167</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>46.2563</open>
+    <high>50.4549</high>
+    <low>44.9042</low>
+    <close>47.3237</close>
+    <adjusted_close>22.8891</adjusted_close>
+    <volume>40249291</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>47.6795</open>
+    <high>54.4401</high>
+    <low>47.4518</low>
+    <close>53.3726</close>
+    <adjusted_close>25.8148</adjusted_close>
+    <volume>34129019</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>53.3726</open>
+    <high>55.0378</high>
+    <low>47.9073</low>
+    <close>48.0781</close>
+    <adjusted_close>23.4841</adjusted_close>
+    <volume>40291729</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>48.3912</open>
+    <high>52.6610</high>
+    <low>33.6746</low>
+    <close>42.0434</close>
+    <adjusted_close>20.5364</adjusted_close>
+    <volume>156625122</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>42.6981</open>
+    <high>45.8008</high>
+    <low>40.2074</low>
+    <close>44.5199</close>
+    <adjusted_close>21.7461</adjusted_close>
+    <volume>47191053</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>44.2210</open>
+    <high>49.1028</high>
+    <low>44.2210</low>
+    <close>46.5694</close>
+    <adjusted_close>22.9862</adjusted_close>
+    <volume>39376301</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>46.3417</open>
+    <high>48.1065</high>
+    <low>42.2853</low>
+    <close>45.2600</close>
+    <adjusted_close>22.3399</adjusted_close>
+    <volume>42444665</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>45.1888</open>
+    <high>49.2309</high>
+    <low>43.9506</low>
+    <close>47.4518</close>
+    <adjusted_close>23.4218</adjusted_close>
+    <volume>35743050</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>47.4518</open>
+    <high>49.1028</high>
+    <low>43.5521</low>
+    <close>48.9320</close>
+    <adjusted_close>24.4017</adjusted_close>
+    <volume>35496574</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>48.9605</open>
+    <high>49.4302</high>
+    <low>35.2971</low>
+    <close>41.0898</close>
+    <adjusted_close>20.4909</adjusted_close>
+    <volume>60312883</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>41.1325</open>
+    <high>43.9790</high>
+    <low>37.4320</low>
+    <close>43.0112</close>
+    <adjusted_close>21.4491</adjusted_close>
+    <volume>41499232</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>42.6981</open>
+    <high>43.2105</high>
+    <low>37.5743</low>
+    <close>38.8695</close>
+    <adjusted_close>19.6090</adjusted_close>
+    <volume>42168605</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>39.5669</open>
+    <high>42.4846</high>
+    <low>34.3008</low>
+    <close>36.9908</close>
+    <adjusted_close>18.6612</adjusted_close>
+    <volume>64784767</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>36.6350</open>
+    <high>45.8293</high>
+    <low>36.0087</low>
+    <close>45.4023</close>
+    <adjusted_close>22.9047</adjusted_close>
+    <volume>40104556</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>45.8008</open>
+    <high>45.8435</high>
+    <low>40.7197</low>
+    <close>42.2711</close>
+    <adjusted_close>21.5643</adjusted_close>
+    <volume>42764837</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>42.6269</open>
+    <high>44.5483</high>
+    <low>39.5669</low>
+    <close>41.3602</close>
+    <adjusted_close>21.0996</adjusted_close>
+    <volume>47450950</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>40.9617</open>
+    <high>41.6022</high>
+    <low>36.8627</low>
+    <close>38.8553</close>
+    <adjusted_close>19.8217</adjusted_close>
+    <volume>43765070</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>39.0261</open>
+    <high>42.7266</high>
+    <low>35.3398</low>
+    <close>39.2965</close>
+    <adjusted_close>20.2853</adjusted_close>
+    <volume>46887457</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>39.2965</open>
+    <high>46.8967</high>
+    <low>38.7129</low>
+    <close>46.4555</close>
+    <adjusted_close>23.9808</adjusted_close>
+    <volume>59082408</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>46.4555</open>
+    <high>46.4698</high>
+    <low>43.4097</low>
+    <close>45.2600</close>
+    <adjusted_close>23.3637</adjusted_close>
+    <volume>46777499</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>45.5019</open>
+    <high>45.8151</high>
+    <low>43.6944</low>
+    <close>44.0644</close>
+    <adjusted_close>22.9913</adjusted_close>
+    <volume>52941332</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>44.0644</open>
+    <high>51.0812</high>
+    <low>42.4277</low>
+    <close>50.2414</close>
+    <adjusted_close>26.2142</adjusted_close>
+    <volume>68425258</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>50.1560</open>
+    <high>50.1560</high>
+    <low>47.5087</low>
+    <close>49.1455</close>
+    <adjusted_close>25.6424</adjusted_close>
+    <volume>44230548</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>49.1740</open>
+    <high>49.8144</high>
+    <low>45.8293</low>
+    <close>46.3132</close>
+    <adjusted_close>24.4152</adjusted_close>
+    <volume>47110746</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>46.5409</open>
+    <high>54.4401</high>
+    <low>46.1424</low>
+    <close>53.6430</close>
+    <adjusted_close>28.2793</adjusted_close>
+    <volume>54904280</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>53.4438</open>
+    <high>54.1696</high>
+    <low>51.4654</low>
+    <close>53.4438</close>
+    <adjusted_close>28.1742</adjusted_close>
+    <volume>31320627</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>53.7996</open>
+    <high>59.7773</high>
+    <low>53.6715</low>
+    <close>59.1653</close>
+    <adjusted_close>31.4435</adjusted_close>
+    <volume>44091011</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>59.1653</open>
+    <high>60.8448</high>
+    <low>56.7173</low>
+    <close>59.7062</close>
+    <adjusted_close>31.7309</adjusted_close>
+    <volume>50663342</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>59.0657</open>
+    <high>62.6239</high>
+    <low>57.9128</low>
+    <close>61.8695</close>
+    <adjusted_close>32.8806</adjusted_close>
+    <volume>44496415</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>61.9407</open>
+    <high>62.9370</high>
+    <low>53.3584</low>
+    <close>57.3293</close>
+    <adjusted_close>30.7267</adjusted_close>
+    <volume>61610458</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>57.3435</open>
+    <high>60.4178</high>
+    <low>55.5075</low>
+    <close>56.4896</close>
+    <adjusted_close>30.2766</adjusted_close>
+    <volume>39233322</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>57.0304</open>
+    <high>57.5713</high>
+    <low>51.7359</low>
+    <close>56.7885</close>
+    <adjusted_close>30.4368</adjusted_close>
+    <volume>48481674</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>56.3188</open>
+    <high>58.2829</high>
+    <low>54.6536</low>
+    <close>57.9271</close>
+    <adjusted_close>31.3073</adjusted_close>
+    <volume>47825296</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>57.7136</open>
+    <high>57.9982</high>
+    <low>54.0131</low>
+    <close>56.7742</close>
+    <adjusted_close>30.6842</adjusted_close>
+    <volume>36138898</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>56.6461</open>
+    <high>61.1294</high>
+    <low>54.0273</low>
+    <close>60.9302</close>
+    <adjusted_close>32.9303</adjusted_close>
+    <volume>46723962</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>60.6598</open>
+    <high>64.6164</high>
+    <low>59.0942</low>
+    <close>64.3033</close>
+    <adjusted_close>35.0267</adjusted_close>
+    <volume>49652076</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>64.2891</open>
+    <high>66.0397</high>
+    <low>59.5211</low>
+    <close>63.9617</close>
+    <adjusted_close>34.8406</adjusted_close>
+    <volume>57157896</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>63.7625</open>
+    <high>72.7860</high>
+    <low>63.4494</low>
+    <close>71.8324</close>
+    <adjusted_close>39.1278</adjusted_close>
+    <volume>57332913</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>72.0032</open>
+    <high>73.0707</high>
+    <low>67.2780</low>
+    <close>70.4661</close>
+    <adjusted_close>38.6414</adjusted_close>
+    <volume>49714326</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>70.9927</open>
+    <high>71.5905</high>
+    <low>67.6765</low>
+    <close>70.7365</close>
+    <adjusted_close>38.7897</adjusted_close>
+    <volume>50063174</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>71.0212</open>
+    <high>80.0589</high>
+    <low>70.7650</low>
+    <close>78.4933</close>
+    <adjusted_close>43.0433</adjusted_close>
+    <volume>53475037</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>78.8207</open>
+    <high>80.7706</high>
+    <low>68.6728</low>
+    <close>70.9500</close>
+    <adjusted_close>39.1635</adjusted_close>
+    <volume>73502441</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>71.2346</open>
+    <high>71.8609</high>
+    <low>62.3534</low>
+    <close>65.3708</close>
+    <adjusted_close>36.0839</adjusted_close>
+    <volume>81274753</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>65.5416</open>
+    <high>70.4519</high>
+    <low>61.0298</low>
+    <close>64.4599</close>
+    <adjusted_close>35.5810</adjusted_close>
+    <volume>64140829</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>64.7161</open>
+    <high>68.8009</high>
+    <low>61.3714</low>
+    <close>63.3782</close>
+    <adjusted_close>35.2531</adjusted_close>
+    <volume>72757607</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>63.9333</open>
+    <high>69.6833</high>
+    <low>62.1257</low>
+    <close>68.2458</close>
+    <adjusted_close>37.9606</adjusted_close>
+    <volume>53860416</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>68.3169</open>
+    <high>70.3807</high>
+    <low>61.2575</low>
+    <close>61.4853</close>
+    <adjusted_close>34.2002</adjusted_close>
+    <volume>56876149</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>61.4853</open>
+    <high>64.9580</high>
+    <low>57.1870</low>
+    <close>59.3077</close>
+    <adjusted_close>33.2565</adjusted_close>
+    <volume>75250315</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>59.3219</open>
+    <high>66.1678</high>
+    <low>57.7136</low>
+    <close>65.2711</close>
+    <adjusted_close>36.6005</adjusted_close>
+    <volume>65102768</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>65.4135</open>
+    <high>67.1926</high>
+    <low>63.6059</low>
+    <close>64.4030</close>
+    <adjusted_close>36.1137</adjusted_close>
+    <volume>58715433</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>63.6913</open>
+    <high>64.7872</high>
+    <low>61.4141</low>
+    <close>62.3677</close>
+    <adjusted_close>35.2395</adjusted_close>
+    <volume>64340017</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>62.7235</open>
+    <high>64.2606</high>
+    <low>59.2080</low>
+    <close>60.2043</close>
+    <adjusted_close>34.0171</adjusted_close>
+    <volume>82257494</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>60.1758</open>
+    <high>63.0508</high>
+    <low>57.3008</low>
+    <close>61.2433</close>
+    <adjusted_close>34.6042</adjusted_close>
+    <volume>65876339</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>61.4141</open>
+    <high>62.9085</high>
+    <low>57.3720</low>
+    <close>57.7848</close>
+    <adjusted_close>32.9464</adjusted_close>
+    <volume>75797015</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>58.4964</open>
+    <high>59.6065</high>
+    <low>55.5929</low>
+    <close>57.7990</close>
+    <adjusted_close>32.9545</adjusted_close>
+    <volume>75837134</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>58.5676</open>
+    <high>61.3429</high>
+    <low>55.9345</low>
+    <close>56.7458</close>
+    <adjusted_close>32.3540</adjusted_close>
+    <volume>73398455</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>56.7885</open>
+    <high>58.2829</high>
+    <low>52.6752</low>
+    <close>55.5502</close>
+    <adjusted_close>31.9876</adjusted_close>
+    <volume>76339850</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>55.9060</open>
+    <high>56.2761</high>
+    <low>46.9679</low>
+    <close>49.2167</close>
+    <adjusted_close>28.3406</adjusted_close>
+    <volume>82029145</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>49.2167</open>
+    <high>54.6678</high>
+    <low>48.4623</low>
+    <close>54.2693</close>
+    <adjusted_close>31.2500</adjusted_close>
+    <volume>66571006</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>54.6820</open>
+    <high>56.9023</high>
+    <low>51.4227</low>
+    <close>55.4791</close>
+    <adjusted_close>32.2513</adjusted_close>
+    <volume>63660877</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>55.4791</open>
+    <high>58.8807</high>
+    <low>54.2693</low>
+    <close>58.0552</close>
+    <adjusted_close>33.7488</adjusted_close>
+    <volume>71411691</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>58.0836</open>
+    <high>59.1369</high>
+    <low>55.6498</low>
+    <close>56.9450</close>
+    <adjusted_close>33.1035</adjusted_close>
+    <volume>68587632</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>56.6604</open>
+    <high>57.8559</high>
+    <low>56.1480</low>
+    <close>56.7885</close>
+    <adjusted_close>33.3228</adjusted_close>
+    <volume>74722588</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>56.9308</open>
+    <high>60.7452</high>
+    <low>55.5360</low>
+    <close>59.1226</close>
+    <adjusted_close>34.6925</adjusted_close>
+    <volume>89821975</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>59.0657</open>
+    <high>67.2637</high>
+    <low>58.4964</low>
+    <close>62.3107</close>
+    <adjusted_close>36.5633</adjusted_close>
+    <volume>97234835</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>61.5422</open>
+    <high>67.2637</high>
+    <low>59.1653</low>
+    <close>65.2711</close>
+    <adjusted_close>38.6104</adjusted_close>
+    <volume>154681851</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>65.1431</open>
+    <high>67.7476</high>
+    <low>62.5954</low>
+    <close>63.4921</close>
+    <adjusted_close>37.5580</adjusted_close>
+    <volume>114458132</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>63.5490</open>
+    <high>65.9401</high>
+    <low>62.2111</low>
+    <close>64.5880</close>
+    <adjusted_close>38.2063</adjusted_close>
+    <volume>79483739</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>64.9011</open>
+    <high>66.6233</high>
+    <low>62.5100</low>
+    <close>62.9370</close>
+    <adjusted_close>37.5800</adjusted_close>
+    <volume>72139169</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>63.2643</open>
+    <high>68.2600</high>
+    <low>60.1331</low>
+    <close>61.8838</close>
+    <adjusted_close>36.9511</adjusted_close>
+    <volume>89344132</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>61.5706</open>
+    <high>63.9333</high>
+    <low>55.3510</low>
+    <close>60.6740</close>
+    <adjusted_close>36.2287</adjusted_close>
+    <volume>92018183</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>60.3039</open>
+    <high>63.5348</high>
+    <low>57.9271</low>
+    <close>61.2860</close>
+    <adjusted_close>36.9467</adjusted_close>
+    <volume>65839592</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>61.3287</open>
+    <high>67.5057</high>
+    <low>60.7736</low>
+    <close>64.1041</close>
+    <adjusted_close>38.6456</adjusted_close>
+    <volume>98196495</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>63.3070</open>
+    <high>63.8336</high>
+    <low>55.7922</low>
+    <close>59.6919</close>
+    <adjusted_close>35.9857</adjusted_close>
+    <volume>87373178</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>59.1226</open>
+    <high>64.7588</high>
+    <low>55.9203</low>
+    <close>56.1053</close>
+    <adjusted_close>34.1742</adjusted_close>
+    <volume>79260732</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>55.8206</open>
+    <high>56.9308</high>
+    <low>46.9821</low>
+    <close>54.9951</close>
+    <adjusted_close>33.4980</adjusted_close>
+    <volume>128610123</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>55.2229</open>
+    <high>56.9877</high>
+    <low>53.2445</low>
+    <close>53.6430</close>
+    <adjusted_close>32.6744</adjusted_close>
+    <volume>94647484</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>53.6288</open>
+    <high>54.8528</high>
+    <low>50.1276</low>
+    <close>52.4475</close>
+    <adjusted_close>32.3051</adjusted_close>
+    <volume>100404999</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>52.9029</open>
+    <high>58.2117</high>
+    <low>52.2767</low>
+    <close>57.1443</close>
+    <adjusted_close>35.1981</adjusted_close>
+    <volume>88873243</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>56.9877</open>
+    <high>61.8126</high>
+    <low>56.2619</low>
+    <close>57.5001</close>
+    <adjusted_close>35.4172</adjusted_close>
+    <volume>95667743</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>57.3720</open>
+    <high>57.3720</high>
+    <low>48.8182</low>
+    <close>49.6863</close>
+    <adjusted_close>30.9580</adjusted_close>
+    <volume>109137005</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>49.4586</open>
+    <high>50.3268</high>
+    <low>43.8936</low>
+    <close>47.4091</close>
+    <adjusted_close>29.5391</adjusted_close>
+    <volume>152627075</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>47.5799</open>
+    <high>51.2235</high>
+    <low>45.5446</low>
+    <close>48.5762</close>
+    <adjusted_close>30.2663</adjusted_close>
+    <volume>90600957</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>49.2594</open>
+    <high>56.9166</high>
+    <low>43.8652</low>
+    <close>45.2315</close>
+    <adjusted_close>28.5233</adjusted_close>
+    <volume>147508932</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>44.8615</open>
+    <high>45.9431</high>
+    <low>30.9134</low>
+    <close>37.9728</close>
+    <adjusted_close>23.9459</adjusted_close>
+    <volume>245689123</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>37.8732</open>
+    <high>38.8268</high>
+    <low>23.3559</low>
+    <close>26.4017</close>
+    <adjusted_close>16.6491</adjusted_close>
+    <volume>190589802</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>26.6578</open>
+    <high>30.1733</high>
+    <low>21.2494</low>
+    <close>21.4771</close>
+    <adjusted_close>13.8443</adjusted_close>
+    <volume>270126449</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>21.6052</open>
+    <high>23.7401</high>
+    <low>16.3676</low>
+    <close>16.4957</close>
+    <adjusted_close>10.6332</adjusted_close>
+    <volume>313016488</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>16.4672</open>
+    <high>18.7160</high>
+    <low>10.1194</low>
+    <close>10.1906</close>
+    <adjusted_close>6.5689</adjusted_close>
+    <volume>336960860</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>10.0625</open>
+    <high>13.3645</high>
+    <low>8.3831</low>
+    <close>11.9982</close>
+    <adjusted_close>7.8599</adjusted_close>
+    <volume>418951645</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>11.7704</open>
+    <high>23.0427</high>
+    <low>11.5854</low>
+    <close>22.7723</close>
+    <adjusted_close>14.9180</adjusted_close>
+    <volume>344192590</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>22.7154</open>
+    <high>27.0279</high>
+    <low>21.0075</low>
+    <close>25.1634</close>
+    <adjusted_close>16.4844</adjusted_close>
+    <volume>405462915</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>25.7612</open>
+    <high>26.9567</high>
+    <low>21.0217</low>
+    <close>22.9716</close>
+    <adjusted_close>15.1920</adjusted_close>
+    <volume>258770904</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>23.1281</open>
+    <high>31.9239</high>
+    <low>20.2389</low>
+    <close>30.1306</close>
+    <adjusted_close>19.9266</adjusted_close>
+    <volume>229623725</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>30.7142</open>
+    <high>33.8027</high>
+    <low>29.2767</low>
+    <close>30.3014</close>
+    <adjusted_close>20.0395</adjusted_close>
+    <volume>206551149</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>29.9314</open>
+    <high>38.7699</high>
+    <low>28.1096</low>
+    <close>37.1046</close>
+    <adjusted_close>24.6851</adjusted_close>
+    <volume>214291844</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>36.6919</open>
+    <high>38.9834</high>
+    <low>33.0910</low>
+    <close>33.4184</close>
+    <adjusted_close>22.2327</adjusted_close>
+    <volume>206200267</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>33.8027</open>
+    <high>41.9865</high>
+    <low>32.9345</low>
+    <close>39.5384</close>
+    <adjusted_close>26.3043</adjusted_close>
+    <volume>147565703</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>40.1220</open>
+    <high>41.1040</high>
+    <low>37.1046</low>
+    <close>39.3249</close>
+    <adjusted_close>26.3006</adjusted_close>
+    <volume>126644090</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>40.1362</open>
+    <high>45.0607</high>
+    <low>38.4852</low>
+    <close>38.5564</close>
+    <adjusted_close>25.7866</adjusted_close>
+    <volume>144320077</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>39.1684</open>
+    <high>42.1572</high>
+    <low>36.3930</low>
+    <close>40.2928</close>
+    <adjusted_close>26.9479</adjusted_close>
+    <volume>168257496</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>40.4636</open>
+    <high>43.7798</high>
+    <low>40.3212</low>
+    <close>42.0861</close>
+    <adjusted_close>28.2884</adjusted_close>
+    <volume>159868711</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>42.5415</open>
+    <high>45.6158</high>
+    <low>41.6591</low>
+    <close>43.8794</close>
+    <adjusted_close>29.4938</adjusted_close>
+    <volume>140121433</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>44.2779</open>
+    <high>44.9896</high>
+    <low>33.3045</low>
+    <close>38.3002</close>
+    <adjusted_close>25.7437</adjusted_close>
+    <volume>250928895</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>37.6597</open>
+    <high>39.5384</high>
+    <low>33.6746</low>
+    <close>33.7600</close>
+    <adjusted_close>22.8272</adjusted_close>
+    <volume>177690001</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>33.5892</open>
+    <high>40.2501</high>
+    <low>31.9097</low>
+    <close>38.8980</close>
+    <adjusted_close>26.3013</adjusted_close>
+    <volume>154344882</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>39.7662</open>
+    <high>40.5632</high>
+    <low>32.0947</low>
+    <close>34.6851</close>
+    <adjusted_close>23.4527</adjusted_close>
+    <volume>199957388</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>35.3540</open>
+    <high>40.3497</high>
+    <low>35.0267</low>
+    <close>39.0830</close>
+    <adjusted_close>26.5691</adjusted_close>
+    <volume>118525738</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>39.4246</open>
+    <high>45.4023</high>
+    <low>38.9691</low>
+    <close>43.8936</close>
+    <adjusted_close>29.8395</adjusted_close>
+    <volume>138917235</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>44.2495</open>
+    <high>46.9252</high>
+    <low>43.0966</low>
+    <close>44.3776</close>
+    <adjusted_close>30.1684</adjusted_close>
+    <volume>101728714</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>45.2742</open>
+    <high>49.1028</high>
+    <low>45.2600</low>
+    <close>48.5904</close>
+    <adjusted_close>33.1772</adjusted_close>
+    <volume>97676288</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>49.0886</open>
+    <high>51.4797</high>
+    <low>48.5620</low>
+    <close>50.4976</close>
+    <adjusted_close>34.4794</adjusted_close>
+    <volume>108636680</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>50.8677</open>
+    <high>55.5075</high>
+    <low>49.6010</low>
+    <close>52.8887</close>
+    <adjusted_close>36.1120</adjusted_close>
+    <volume>105013051</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>53.1164</open>
+    <high>54.7674</high>
+    <low>49.3163</low>
+    <close>53.7284</close>
+    <adjusted_close>36.8345</adjusted_close>
+    <volume>124191778</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>53.7284</open>
+    <high>58.9234</high>
+    <low>51.3516</low>
+    <close>58.3398</close>
+    <adjusted_close>39.9960</adjusted_close>
+    <volume>102142057</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>58.4822</open>
+    <high>60.1047</high>
+    <low>49.6294</low>
+    <close>51.4227</close>
+    <adjusted_close>35.2538</adjusted_close>
+    <volume>135393520</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>51.2235</open>
+    <high>51.8070</high>
+    <low>48.3485</low>
+    <close>51.2377</close>
+    <adjusted_close>35.3789</adjusted_close>
+    <volume>149595184</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>51.1523</open>
+    <high>53.0880</high>
+    <low>47.9073</low>
+    <close>49.6294</close>
+    <adjusted_close>34.2684</adjusted_close>
+    <volume>131810290</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>50.8677</open>
+    <high>51.5081</high>
+    <low>36.1795</low>
+    <close>40.4920</close>
+    <adjusted_close>27.9591</adjusted_close>
+    <volume>228756777</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>40.3782</open>
+    <high>40.8336</high>
+    <low>31.9666</low>
+    <close>31.9666</close>
+    <adjusted_close>22.2903</adjusted_close>
+    <volume>185546344</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>31.7247</open>
+    <high>42.0719</high>
+    <low>29.3336</low>
+    <close>39.6808</close>
+    <adjusted_close>27.6693</adjusted_close>
+    <volume>202533008</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>37.5459</open>
+    <high>40.8905</high>
+    <low>34.7562</low>
+    <close>39.4388</close>
+    <adjusted_close>27.5006</adjusted_close>
+    <volume>141671458</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>38.8980</open>
+    <high>41.4314</high>
+    <low>35.9091</low>
+    <close>40.9332</close>
+    <adjusted_close>28.7922</adjusted_close>
+    <volume>121456386</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>41.6733</open>
+    <high>48.2773</high>
+    <low>41.6591</low>
+    <close>47.6938</close>
+    <adjusted_close>33.5476</adjusted_close>
+    <volume>119764860</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>48.0354</open>
+    <high>49.9568</high>
+    <low>46.9821</low>
+    <close>47.6938</close>
+    <adjusted_close>33.5476</adjusted_close>
+    <volume>104402980</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>47.9500</open>
+    <high>51.2377</high>
+    <low>45.8862</low>
+    <close>49.3021</close>
+    <adjusted_close>34.9272</adjusted_close>
+    <volume>113851785</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>49.1882</open>
+    <high>51.3516</high>
+    <low>44.8757</low>
+    <close>48.2204</close>
+    <adjusted_close>34.1609</adjusted_close>
+    <volume>165126604</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>48.4339</open>
+    <high>49.0032</high>
+    <low>41.6591</low>
+    <close>44.2068</close>
+    <adjusted_close>31.3175</adjusted_close>
+    <volume>142475524</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>43.1678</open>
+    <high>48.5335</high>
+    <low>42.5415</low>
+    <close>44.8330</close>
+    <adjusted_close>32.0890</adjusted_close>
+    <volume>177551725</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>44.9184</open>
+    <high>45.3738</high>
+    <low>40.7767</low>
+    <close>40.9617</close>
+    <adjusted_close>29.3181</adjusted_close>
+    <volume>132558921</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>41.1467</open>
+    <high>43.4667</high>
+    <low>40.8905</low>
+    <close>41.7160</close>
+    <adjusted_close>29.8580</adjusted_close>
+    <volume>113354758</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>41.6591</open>
+    <high>46.2278</high>
+    <low>40.4920</low>
+    <close>41.2179</close>
+    <adjusted_close>29.8218</adjusted_close>
+    <volume>176527394</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>41.5452</open>
+    <high>43.9363</high>
+    <low>39.8658</low>
+    <close>41.7018</close>
+    <adjusted_close>30.1719</adjusted_close>
+    <volume>133495919</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>41.8584</open>
+    <high>43.8225</high>
+    <low>39.0688</low>
+    <close>42.9685</close>
+    <adjusted_close>31.0884</adjusted_close>
+    <volume>114218335</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>43.1108</open>
+    <high>46.8967</high>
+    <low>41.3175</low>
+    <close>46.0143</close>
+    <adjusted_close>33.6239</adjusted_close>
+    <volume>102444881</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>46.9537</open>
+    <high>49.5725</high>
+    <low>45.5446</low>
+    <close>45.8293</close>
+    <adjusted_close>33.4887</adjusted_close>
+    <volume>130689350</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>45.9004</open>
+    <high>47.2241</high>
+    <low>43.5948</low>
+    <close>45.1461</close>
+    <adjusted_close>32.9895</adjusted_close>
+    <volume>98620871</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>44.8330</open>
+    <high>48.1208</high>
+    <low>44.2352</low>
+    <close>45.3169</close>
+    <adjusted_close>33.4457</adjusted_close>
+    <volume>101236677</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>45.3454</open>
+    <high>48.7185</high>
+    <low>42.4277</low>
+    <close>48.2631</close>
+    <adjusted_close>35.6201</adjusted_close>
+    <volume>136805199</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>47.8503</open>
+    <high>51.2377</high>
+    <low>46.6832</low>
+    <close>49.0459</close>
+    <adjusted_close>36.1979</adjusted_close>
+    <volume>103340284</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>48.9178</open>
+    <high>50.0279</high>
+    <low>45.0465</low>
+    <close>45.7866</close>
+    <adjusted_close>34.1284</adjusted_close>
+    <volume>91066012</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>46.1282</open>
+    <high>50.5118</high>
+    <low>45.6158</low>
+    <close>49.8714</close>
+    <adjusted_close>37.1731</adjusted_close>
+    <volume>79516691</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>50.3553</open>
+    <high>55.7922</high>
+    <low>50.0422</low>
+    <close>53.2303</close>
+    <adjusted_close>39.6768</adjusted_close>
+    <volume>115965090</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>53.9135</open>
+    <high>58.4679</high>
+    <low>52.8318</low>
+    <close>54.6536</close>
+    <adjusted_close>41.0674</adjusted_close>
+    <volume>133424461</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>54.7390</open>
+    <high>59.4073</high>
+    <low>54.1412</low>
+    <close>56.1765</close>
+    <adjusted_close>42.2117</adjusted_close>
+    <volume>124370100</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>56.3188</open>
+    <high>57.3720</high>
+    <low>54.3120</low>
+    <close>55.5929</close>
+    <adjusted_close>41.7732</adjusted_close>
+    <volume>85643077</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>56.0484</open>
+    <high>64.0329</high>
+    <low>54.6820</low>
+    <close>63.1932</close>
+    <adjusted_close>47.8253</adjusted_close>
+    <volume>147878432</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>62.9085</open>
+    <high>66.6802</high>
+    <low>59.5211</low>
+    <close>64.7730</close>
+    <adjusted_close>49.0209</adjusted_close>
+    <volume>201587576</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>64.6449</open>
+    <high>70.0676</high>
+    <low>62.6239</low>
+    <close>69.3275</close>
+    <adjusted_close>52.4678</adjusted_close>
+    <volume>124679877</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>68.3739</open>
+    <high>72.5298</high>
+    <low>67.7476</low>
+    <close>69.1567</close>
+    <adjusted_close>52.7333</adjusted_close>
+    <volume>111689442</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>69.5410</open>
+    <high>72.0744</high>
+    <low>66.2674</low>
+    <close>71.0212</close>
+    <adjusted_close>54.1550</adjusted_close>
+    <volume>119888519</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>70.9642</open>
+    <high>74.7928</high>
+    <low>68.4877</low>
+    <close>74.1808</close>
+    <adjusted_close>56.5643</adjusted_close>
+    <volume>137825315</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>74.2377</open>
+    <high>75.9314</high>
+    <low>72.4017</low>
+    <close>73.2415</close>
+    <adjusted_close>56.2436</adjusted_close>
+    <volume>89309070</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>73.3696</open>
+    <high>77.2551</high>
+    <low>71.8467</low>
+    <close>72.6864</close>
+    <adjusted_close>55.8173</adjusted_close>
+    <volume>96205444</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>72.8714</open>
+    <high>76.7569</high>
+    <low>71.6474</low>
+    <close>76.2161</close>
+    <adjusted_close>58.5279</adjusted_close>
+    <volume>78773472</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>76.2303</open>
+    <high>78.2371</high>
+    <low>74.5366</low>
+    <close>74.6363</close>
+    <adjusted_close>57.7166</adjusted_close>
+    <volume>134599292</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>74.3516</open>
+    <high>74.4370</high>
+    <low>58.9945</low>
+    <close>70.3095</close>
+    <adjusted_close>54.3707</adjusted_close>
+    <volume>248765773</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>70.1672</open>
+    <high>76.5719</high>
+    <low>67.6195</low>
+    <close>69.2705</close>
+    <adjusted_close>53.5673</adjusted_close>
+    <volume>132931512</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>68.8151</open>
+    <high>72.2736</high>
+    <low>60.5886</low>
+    <close>64.9153</close>
+    <adjusted_close>50.6571</adjusted_close>
+    <volume>160643477</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>65.0292</open>
+    <high>65.5273</high>
+    <low>59.7062</low>
+    <close>64.2749</close>
+    <adjusted_close>50.1573</adjusted_close>
+    <volume>138035957</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>64.5026</open>
+    <high>71.4766</high>
+    <low>63.2359</low>
+    <close>70.0818</close>
+    <adjusted_close>54.6888</adjusted_close>
+    <volume>108566839</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>70.0818</open>
+    <high>71.3485</high>
+    <low>65.3708</low>
+    <close>68.2885</close>
+    <adjusted_close>53.7713</adjusted_close>
+    <volume>132687496</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>68.3596</open>
+    <high>73.8962</high>
+    <low>67.1926</low>
+    <close>72.5868</close>
+    <adjusted_close>57.1558</adjusted_close>
+    <volume>114469796</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>72.9568</open>
+    <high>74.5082</high>
+    <low>71.5478</low>
+    <close>74.1097</close>
+    <adjusted_close>58.3550</adjusted_close>
+    <volume>88400459</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>74.1097</open>
+    <high>76.5292</high>
+    <low>72.1598</low>
+    <close>72.8287</close>
+    <adjusted_close>57.8025</adjusted_close>
+    <volume>129932784</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>73.5261</open>
+    <high>75.7179</high>
+    <low>63.9617</low>
+    <close>66.9791</close>
+    <adjusted_close>53.1598</adjusted_close>
+    <volume>141242023</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>66.6233</open>
+    <high>67.7192</high>
+    <low>49.9710</low>
+    <close>62.2823</close>
+    <adjusted_close>49.4320</adjusted_close>
+    <volume>126464782</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>60.2470</open>
+    <high>64.4741</high>
+    <low>56.7031</low>
+    <close>60.3466</close>
+    <adjusted_close>48.3759</adjusted_close>
+    <volume>280597829</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>60.6171</open>
+    <high>74.0954</high>
+    <low>59.9908</low>
+    <close>73.5403</close>
+    <adjusted_close>58.9524</adjusted_close>
+    <volume>243657957</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>73.3980</open>
+    <high>76.3869</high>
+    <low>71.2346</low>
+    <close>74.1951</close>
+    <adjusted_close>59.4772</adjusted_close>
+    <volume>122533977</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>74.9067</open>
+    <high>81.2687</high>
+    <low>69.7544</low>
+    <close>73.2699</close>
+    <adjusted_close>59.2575</adjusted_close>
+    <volume>232985208</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>71.5478</open>
+    <high>71.8182</high>
+    <low>57.3008</low>
+    <close>59.7773</close>
+    <adjusted_close>48.3453</adjusted_close>
+    <volume>138579776</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>59.1796</open>
+    <high>70.7934</high>
+    <low>58.6672</low>
+    <close>69.1851</close>
+    <adjusted_close>55.9539</adjusted_close>
+    <volume>126978179</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>70.0106</open>
+    <high>74.3374</high>
+    <low>68.9574</low>
+    <close>72.3875</close>
+    <adjusted_close>59.0708</adjusted_close>
+    <volume>97268138</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>71.7186</open>
+    <high>76.8281</high>
+    <low>71.2204</low>
+    <close>74.8782</close>
+    <adjusted_close>61.1034</adjusted_close>
+    <volume>90086790</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>75.2625</open>
+    <high>76.1592</high>
+    <low>71.1777</low>
+    <close>73.0991</close>
+    <adjusted_close>59.6515</adjusted_close>
+    <volume>86264674</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>72.6864</open>
+    <high>76.7712</high>
+    <low>67.9611</low>
+    <close>70.7507</close>
+    <adjusted_close>58.2716</adjusted_close>
+    <volume>133533718</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>70.6938</open>
+    <high>77.1128</high>
+    <low>67.6195</low>
+    <close>76.3869</close>
+    <adjusted_close>62.9136</adjusted_close>
+    <volume>84285849</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>76.5434</open>
+    <high>77.5682</high>
+    <low>74.1666</low>
+    <close>76.3442</close>
+    <adjusted_close>62.8785</adjusted_close>
+    <volume>79206769</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>76.4865</open>
+    <high>77.6963</high>
+    <low>73.3980</low>
+    <close>73.7681</close>
+    <adjusted_close>61.2930</adjusted_close>
+    <volume>91053225</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>74.4939</open>
+    <high>78.5503</high>
+    <low>73.6400</low>
+    <close>76.5861</close>
+    <adjusted_close>63.6346</adjusted_close>
+    <volume>89884085</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>76.8993</open>
+    <high>79.8170</high>
+    <low>73.4407</low>
+    <close>79.3046</close>
+    <adjusted_close>65.8933</adjusted_close>
+    <volume>114393775</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>79.7173</open>
+    <high>84.4426</high>
+    <low>78.6214</low>
+    <close>81.4395</close>
+    <adjusted_close>68.2012</adjusted_close>
+    <volume>101397994</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>81.4110</open>
+    <high>87.8584</high>
+    <low>80.4432</low>
+    <close>84.8696</close>
+    <adjusted_close>71.0737</adjusted_close>
+    <volume>89173117</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>84.8411</open>
+    <high>91.6016</high>
+    <low>84.4426</low>
+    <close>88.6128</close>
+    <adjusted_close>74.2084</adjusted_close>
+    <volume>77048640</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>89.4810</open>
+    <high>93.1103</high>
+    <low>88.2000</low>
+    <close>90.4346</close>
+    <adjusted_close>76.2738</adjusted_close>
+    <volume>105953844</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>90.4773</open>
+    <high>92.3844</high>
+    <low>86.6344</low>
+    <close>89.3813</close>
+    <adjusted_close>75.3855</adjusted_close>
+    <volume>68089340</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>89.8937</open>
+    <high>89.9791</high>
+    <low>84.3857</low>
+    <close>88.1858</close>
+    <adjusted_close>74.3772</adjusted_close>
+    <volume>88782115</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>88.1858</open>
+    <high>93.1815</high>
+    <low>88.0719</low>
+    <close>89.7656</close>
+    <adjusted_close>76.2657</adjusted_close>
+    <volume>92176976</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>90.2638</open>
+    <high>96.0707</high>
+    <low>89.4383</low>
+    <close>91.4308</close>
+    <adjusted_close>78.2222</adjusted_close>
+    <volume>57230330</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>91.7440</open>
+    <high>94.8609</high>
+    <low>88.9828</low>
+    <close>94.8609</close>
+    <adjusted_close>81.1568</adjusted_close>
+    <volume>99093724</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>94.8752</open>
+    <high>100.6252</high>
+    <low>91.1035</low>
+    <close>98.5330</close>
+    <adjusted_close>84.2983</adjusted_close>
+    <volume>129532366</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>98.7749</open>
+    <high>105.1085</high>
+    <low>98.4191</low>
+    <close>102.9166</close>
+    <adjusted_close>88.0487</adjusted_close>
+    <volume>103956259</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>104.0553</open>
+    <high>104.7242</high>
+    <low>96.7823</low>
+    <close>102.4185</close>
+    <adjusted_close>88.0976</adjusted_close>
+    <volume>113873708</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>102.9309</open>
+    <high>104.1833</high>
+    <low>99.4296</low>
+    <close>101.3653</close>
+    <adjusted_close>87.1917</adjusted_close>
+    <volume>98810716</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>101.8634</open>
+    <high>109.7056</high>
+    <low>101.6215</low>
+    <close>107.5707</close>
+    <adjusted_close>92.5295</adjusted_close>
+    <volume>109951820</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>106.2898</open>
+    <high>108.1685</high>
+    <low>94.2062</low>
+    <close>100.0559</close>
+    <adjusted_close>86.5093</adjusted_close>
+    <volume>134573013</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>99.8281</open>
+    <high>104.2260</high>
+    <low>88.6839</low>
+    <close>90.6765</close>
+    <adjusted_close>78.3998</adjusted_close>
+    <volume>145748409</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>90.4773</open>
+    <high>97.2947</high>
+    <low>87.2037</low>
+    <close>90.0076</close>
+    <adjusted_close>77.8214</adjusted_close>
+    <volume>136343376</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>89.9649</open>
+    <high>97.8925</high>
+    <low>87.9296</low>
+    <close>91.2458</close>
+    <adjusted_close>79.3637</adjusted_close>
+    <volume>120728624</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>92.3275</open>
+    <high>100.1982</high>
+    <low>91.7582</low>
+    <close>93.8219</close>
+    <adjusted_close>81.6043</adjusted_close>
+    <volume>131501919</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>93.2669</open>
+    <high>98.3622</high>
+    <low>92.1710</low>
+    <close>97.8783</close>
+    <adjusted_close>85.1324</adjusted_close>
+    <volume>92492936</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>97.4655</open>
+    <high>102.3758</high>
+    <low>92.6976</low>
+    <close>99.8139</close>
+    <adjusted_close>87.2803</adjusted_close>
+    <volume>118902687</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>99.2731</open>
+    <high>100.7675</high>
+    <low>91.2458</low>
+    <close>91.5305</close>
+    <adjusted_close>80.0370</adjusted_close>
+    <volume>120344227</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>92.1852</open>
+    <high>93.5942</high>
+    <low>73.0422</low>
+    <close>76.7427</close>
+    <adjusted_close>67.1061</adjusted_close>
+    <volume>205838986</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>83.3040</open>
+    <high>86.0367</high>
+    <low>79.3758</low>
+    <close>82.3362</close>
+    <adjusted_close>72.4785</adjusted_close>
+    <volume>165538403</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>84.8269</open>
+    <high>85.6951</high>
+    <low>69.5837</low>
+    <close>76.1165</close>
+    <adjusted_close>67.0035</adjusted_close>
+    <volume>192406112</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>74.7074</open>
+    <high>85.4958</high>
+    <low>74.3943</low>
+    <close>76.5861</close>
+    <adjusted_close>67.4169</adjusted_close>
+    <volume>171333578</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>76.0595</open>
+    <high>80.8702</high>
+    <low>72.3448</low>
+    <close>75.7607</close>
+    <adjusted_close>67.1469</adjusted_close>
+    <volume>158372510</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>76.6146</open>
+    <high>80.6140</high>
+    <low>72.9426</low>
+    <close>75.8745</close>
+    <adjusted_close>67.2478</adjusted_close>
+    <volume>185739844</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>76.7000</open>
+    <high>83.7249</high>
+    <low>76.2019</low>
+    <close>81.3757</close>
+    <adjusted_close>72.1235</adjusted_close>
+    <volume>142628039</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>81.2487</open>
+    <high>81.8201</high>
+    <low>63.6190</low>
+    <close>64.5926</close>
+    <adjusted_close>57.4642</adjusted_close>
+    <volume>173300814</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>65.6700</open>
+    <high>76.5000</high>
+    <low>65.5000</low>
+    <close>75.0700</close>
+    <adjusted_close>66.7854</adjusted_close>
+    <volume>105662900</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>74.8700</open>
+    <high>77.0300</high>
+    <low>69.1500</low>
+    <close>72.1600</close>
+    <adjusted_close>64.4611</adjusted_close>
+    <volume>71357400</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>73.2000</open>
+    <high>73.5600</high>
+    <low>63.2800</low>
+    <close>67.9300</close>
+    <adjusted_close>60.6824</adjusted_close>
+    <volume>88680400</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>67.2100</open>
+    <high>73.7700</high>
+    <low>66.5800</low>
+    <close>71.3100</close>
+    <adjusted_close>63.7018</adjusted_close>
+    <volume>65135200</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>71.7300</open>
+    <high>71.8500</high>
+    <low>62.8700</low>
+    <close>65.9100</close>
+    <adjusted_close>58.8779</adjusted_close>
+    <volume>90087500</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>66.5000</open>
+    <high>73.4900</high>
+    <low>64.2200</low>
+    <close>64.8100</close>
+    <adjusted_close>58.1635</adjusted_close>
+    <volume>88524200</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>64.7700</open>
+    <high>66.7300</high>
+    <low>61.6300</low>
+    <close>64.2000</close>
+    <adjusted_close>57.6160</adjusted_close>
+    <volume>102391900</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>64.8000</open>
+    <high>65.1600</high>
+    <low>50.9400</low>
+    <close>51.1800</close>
+    <adjusted_close>45.9313</adjusted_close>
+    <volume>154742100</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>51.4600</open>
+    <high>54.5000</high>
+    <low>42.0600</low>
+    <close>42.9000</close>
+    <adjusted_close>38.7464</adjusted_close>
+    <volume>141787700</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>43.0600</open>
+    <high>46.2600</high>
+    <low>28.3300</low>
+    <close>34.1000</close>
+    <adjusted_close>30.7984</adjusted_close>
+    <volume>216261700</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>32.3900</open>
+    <high>49.1300</high>
+    <low>31.5200</low>
+    <close>47.0200</close>
+    <adjusted_close>42.4675</adjusted_close>
+    <volume>139090000</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>46.0200</open>
+    <high>51.7300</high>
+    <low>41.8300</low>
+    <close>50.7300</close>
+    <adjusted_close>46.0979</adjusted_close>
+    <volume>115594500</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>50.3400</open>
+    <high>58.6700</high>
+    <low>49.0100</low>
+    <close>53.1300</close>
+    <adjusted_close>48.2787</adjusted_close>
+    <volume>135035800</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>53.1200</open>
+    <high>55.7600</high>
+    <low>50.7500</low>
+    <close>53.4800</close>
+    <adjusted_close>48.8608</adjusted_close>
+    <volume>89186000</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>53.0300</open>
+    <high>59.8300</high>
+    <low>52.1200</low>
+    <close>55.7600</close>
+    <adjusted_close>50.9439</adjusted_close>
+    <volume>82985600</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>55.4100</open>
+    <high>60.9800</high>
+    <low>53.4900</low>
+    <close>55.4800</close>
+    <adjusted_close>50.6880</adjusted_close>
+    <volume>88724000</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>55.9600</open>
+    <high>60.2100</high>
+    <low>53.5200</low>
+    <close>56.8800</close>
+    <adjusted_close>51.9671</adjusted_close>
+    <volume>97628400</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>57.9000</open>
+    <high>66.3300</high>
+    <low>57.1500</low>
+    <close>63.4400</close>
+    <adjusted_close>58.2297</adjusted_close>
+    <volume>78640400</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>64.8400</open>
+    <high>71.5500</high>
+    <low>63.2500</low>
+    <close>71.1100</close>
+    <adjusted_close>65.2698</adjusted_close>
+    <volume>122973600</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>71.6800</open>
+    <high>87.2700</high>
+    <low>69.9800</low>
+    <close>79.4500</close>
+    <adjusted_close>72.9248</adjusted_close>
+    <volume>383613900</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>74.2300</open>
+    <high>77.4800</high>
+    <low>67.1500</low>
+    <close>70.3200</close>
+    <adjusted_close>64.8235</adjusted_close>
+    <volume>293752700</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>71.2300</open>
+    <high>79.6700</high>
+    <low>71.0000</low>
+    <close>77.2800</close>
+    <adjusted_close>71.2395</adjusted_close>
+    <volume>92956200</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>77.6700</open>
+    <high>79.3400</high>
+    <low>74.5100</low>
+    <close>77.1100</close>
+    <adjusted_close>71.0828</adjusted_close>
+    <volume>49594000</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>77.9100</open>
+    <high>86.2300</high>
+    <low>75.9000</low>
+    <close>84.5900</close>
+    <adjusted_close>78.2591</adjusted_close>
+    <volume>72627600</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>85.5100</open>
+    <high>86.2800</high>
+    <low>75.5500</low>
+    <close>77.4100</close>
+    <adjusted_close>71.6165</adjusted_close>
+    <volume>56995000</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>78.0300</open>
+    <high>80.5000</high>
+    <low>72.3500</low>
+    <close>75.0500</close>
+    <adjusted_close>69.7148</adjusted_close>
+    <volume>60806500</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>75.4000</open>
+    <high>78.3900</high>
+    <low>72.5100</low>
+    <close>74.0200</close>
+    <adjusted_close>68.7580</adjusted_close>
+    <volume>48473200</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>74.0200</open>
+    <high>74.5800</high>
+    <low>66.3700</low>
+    <close>67.9900</close>
+    <adjusted_close>63.1567</adjusted_close>
+    <volume>58491900</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>68.3100</open>
+    <high>73.3000</high>
+    <low>67.7400</low>
+    <close>69.6000</close>
+    <adjusted_close>64.6522</adjusted_close>
+    <volume>48753100</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>69.8900</open>
+    <high>81.5700</high>
+    <low>69.6600</low>
+    <close>73.9600</close>
+    <adjusted_close>68.9711</adjusted_close>
+    <volume>77735400</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>75.0900</open>
+    <high>81.3900</high>
+    <low>73.7900</low>
+    <close>80.7800</close>
+    <adjusted_close>75.3311</adjusted_close>
+    <volume>57934500</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>81.0400</open>
+    <high>85.1600</high>
+    <low>74.1900</low>
+    <close>76.6000</close>
+    <adjusted_close>71.4330</adjusted_close>
+    <volume>55355700</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>76.8800</open>
+    <high>84.0800</high>
+    <low>72.1100</low>
+    <close>77.3700</close>
+    <adjusted_close>72.4675</adjusted_close>
+    <volume>64440000</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>77.4800</open>
+    <high>78.9800</high>
+    <low>67.5500</low>
+    <close>73.5800</close>
+    <adjusted_close>68.9177</adjusted_close>
+    <volume>70940900</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>74.1200</open>
+    <high>75.3300</high>
+    <low>65.4100</low>
+    <close>65.9300</close>
+    <adjusted_close>61.7524</adjusted_close>
+    <volume>51901500</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>65.6800</open>
+    <high>68.9400</high>
+    <low>62.1000</low>
+    <close>67.8500</close>
+    <adjusted_close>63.8636</adjusted_close>
+    <volume>71385300</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>68.7700</open>
+    <high>68.9300</high>
+    <low>54.5900</low>
+    <close>55.5800</close>
+    <adjusted_close>52.3145</adjusted_close>
+    <volume>64837700</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>55.1600</open>
+    <high>61.6700</high>
+    <low>52.5700</low>
+    <close>61.2300</close>
+    <adjusted_close>57.9543</adjusted_close>
+    <volume>54075100</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>60.4500</open>
+    <high>63.3100</high>
+    <low>55.6200</low>
+    <close>55.6400</close>
+    <adjusted_close>52.6634</adjusted_close>
+    <volume>59983300</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>55.2300</open>
+    <high>59.7900</high>
+    <low>49.5200</low>
+    <close>50.4000</close>
+    <adjusted_close>47.7037</adjusted_close>
+    <volume>67343800</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>51.4900</open>
+    <high>57.8500</high>
+    <low>50.2000</low>
+    <close>57.2000</close>
+    <adjusted_close>54.1399</adjusted_close>
+    <volume>59489700</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>59.0000</open>
+    <high>72.2400</high>
+    <low>57.8700</low>
+    <close>70.5100</close>
+    <adjusted_close>67.0570</adjusted_close>
+    <volume>83270500</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>70.3500</open>
+    <high>71.8500</high>
+    <low>66.3100</low>
+    <close>68.6300</close>
+    <adjusted_close>65.2690</adjusted_close>
+    <volume>50304600</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>69.0500</open>
+    <high>75.3800</high>
+    <low>68.2200</low>
+    <close>73.9500</close>
+    <adjusted_close>70.3285</adjusted_close>
+    <volume>60988000</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>73.5400</open>
+    <high>78.4000</high>
+    <low>71.4600</low>
+    <close>73.0300</close>
+    <adjusted_close>69.7981</adjusted_close>
+    <volume>54665600</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>72.9300</open>
+    <high>75.3800</high>
+    <low>66.8300</low>
+    <close>71.7700</close>
+    <adjusted_close>68.5939</adjusted_close>
+    <volume>80041700</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>72.0100</open>
+    <high>72.8600</high>
+    <low>66.8300</low>
+    <close>69.7200</close>
+    <adjusted_close>66.6346</adjusted_close>
+    <volume>55221300</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>69.8000</open>
+    <high>70.4700</high>
+    <low>62.8000</low>
+    <close>67.1900</close>
+    <adjusted_close>64.5604</adjusted_close>
+    <volume>76293500</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>67.3300</open>
+    <high>73.3000</high>
+    <low>66.6200</low>
+    <close>71.4400</close>
+    <adjusted_close>68.6441</adjusted_close>
+    <volume>83952000</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>71.2500</open>
+    <high>78.7400</high>
+    <low>68.0100</low>
+    <close>77.6300</close>
+    <adjusted_close>74.9385</adjusted_close>
+    <volume>56366700</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>77.4500</open>
+    <high>78.6600</high>
+    <low>73.7700</low>
+    <close>76.8900</close>
+    <adjusted_close>74.2242</adjusted_close>
+    <volume>54979000</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>77.3200</open>
+    <high>78.0800</high>
+    <low>72.3600</low>
+    <close>74.5900</close>
+    <adjusted_close>72.0039</adjusted_close>
+    <volume>41893400</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>73.9200</open>
+    <high>77.0100</high>
+    <low>71.5600</low>
+    <close>72.8800</close>
+    <adjusted_close>70.3532</adjusted_close>
+    <volume>53026600</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>69.8800</open>
+    <high>72.0400</high>
+    <low>66.5600</low>
+    <close>71.5400</close>
+    <adjusted_close>69.4102</adjusted_close>
+    <volume>65094500</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>71.5900</open>
+    <high>77.4100</high>
+    <low>70.4400</low>
+    <close>76.9300</close>
+    <adjusted_close>74.6397</adjusted_close>
+    <volume>66471900</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>76.4900</open>
+    <high>77.7400</high>
+    <low>61.7200</low>
+    <close>61.8000</close>
+    <adjusted_close>59.9601</adjusted_close>
+    <volume>84699400</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>62.2000</open>
+    <high>70.5400</high>
+    <low>61.1400</low>
+    <close>69.1900</close>
+    <adjusted_close>67.4987</adjusted_close>
+    <volume>73482600</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>68.9300</open>
+    <high>77.0500</high>
+    <low>68.8100</low>
+    <close>76.6700</close>
+    <adjusted_close>74.7958</adjusted_close>
+    <volume>45600700</volume>
+    <news>DD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>76.7700</open>
+    <high>77.9400</high>
+    <low>72.3800</low>
+    <close>72.5000</close>
+    <adjusted_close>70.7277</adjusted_close>
+    <volume>45148400</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>76.9200</open>
+    <high>82.6300</high>
+    <low>76.6900</low>
+    <close>82.1600</close>
+    <adjusted_close>80.5256</adjusted_close>
+    <volume>68999200</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>82.1400</open>
+    <high>82.3000</high>
+    <low>79.0200</low>
+    <close>80.4900</close>
+    <adjusted_close>78.8888</adjusted_close>
+    <volume>45745100</volume>
+    <news>DD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>80.4700</open>
+    <high>85.1200</high>
+    <low>78.3000</low>
+    <close>83.7000</close>
+    <adjusted_close>82.0350</adjusted_close>
+    <volume>43395600</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>84.0700</open>
+    <high>84.5200</high>
+    <low>76.6400</low>
+    <close>84.2500</close>
+    <adjusted_close>82.9519</adjusted_close>
+    <volume>40636500</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>83.5000</open>
+    <high>90.0600</high>
+    <low>77.8200</low>
+    <close>89.1100</close>
+    <adjusted_close>87.7370</adjusted_close>
+    <volume>43104100</volume>
+    <news>DD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>89.2000</open>
+    <high>89.5600</high>
+    <low>82.8300</low>
+    <close>82.9900</close>
+    <adjusted_close>81.7113</adjusted_close>
+    <volume>34062700</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>82.7800</open>
+    <high>87.8000</high>
+    <low>80.7500</low>
+    <close>83.5900</close>
+    <adjusted_close>82.6765</adjusted_close>
+    <volume>44972200</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>83.9400</open>
+    <high>85.1200</high>
+    <low>75.4600</low>
+    <close>76.2500</close>
+    <adjusted_close>75.4167</adjusted_close>
+    <volume>40518500</volume>
+    <news>DD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</dupont_stock_data>

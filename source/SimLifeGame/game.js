@@ -2577,7 +2577,74 @@ class SimLifeGame {
     
     getStockPrice(symbol) {
         const key = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
+        
+        // First try to get price from individual XML files
+        if (this.stockPricesFromXML && this.stockPricesFromXML[symbol] && this.stockPricesFromXML[symbol][key]) {
+            return this.stockPricesFromXML[symbol][key];
+        }
+        
+        // Fallback to legacy AAPL data
+        if (symbol === 'AAPL' && this.aaplPrices && this.aaplPrices[key]) {
+            return this.aaplPrices[key];
+        }
+        
+        // Fallback to generated mock prices
         return this.stockPrices[symbol]?.[key];
+    }
+    
+    getCurrentAAPLPrice() {
+        const key = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
+        if (this.aaplPrices && this.aaplPrices[key]) {
+            return this.aaplPrices[key];
+        }
+        // Fallback to mock price if real data not available
+        return this.stockPrices?.['AAPL']?.[key] || 150;
+    }
+
+    checkForStockSplits() {
+        const currentDate = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}-01`;
+        const splitEvents = this.getStockSplitEvents();
+        
+        for (const [symbol, events] of Object.entries(splitEvents)) {
+            for (const splitEvent of events) {
+                const splitDate = new Date(splitEvent.date);
+                const currentGameDate = new Date(currentDate);
+                
+                // Check if split should occur this month
+                if (splitDate.getFullYear() === currentGameDate.getFullYear() && 
+                    splitDate.getMonth() === currentGameDate.getMonth()) {
+                    
+                    this.processStockSplit(symbol, splitEvent);
+                }
+            }
+        }
+    }
+
+    processStockSplit(symbol, splitEvent) {
+        // Check if player owns this stock
+        if (this.gameState.portfolio.stocks[symbol] && this.gameState.portfolio.stocks[symbol].shares > 0) {
+            const currentShares = this.gameState.portfolio.stocks[symbol].shares;
+            const currentTotalCost = this.gameState.portfolio.stocks[symbol].totalCost;
+            const newShares = currentShares * splitEvent.ratio;
+            
+            // Update player's holdings
+            this.gameState.portfolio.stocks[symbol].shares = newShares;
+            // Total cost stays the same, cost per share is reduced proportionally
+            this.gameState.portfolio.stocks[symbol].totalCost = currentTotalCost;
+            
+            // Calculate new cost per share for display
+            const oldCostPerShare = currentTotalCost / currentShares;
+            const newCostPerShare = currentTotalCost / newShares;
+            
+            // Log the split event with detailed information
+            this.log(`🔄 STOCK SPLIT EVENT: ${symbol} ${splitEvent.description}`, 'positive');
+            this.log(`   📊 Your holdings: ${currentShares} shares → ${newShares} shares`, 'info');
+            this.log(`   💰 Cost per share: $${oldCostPerShare.toFixed(2)} → $${newCostPerShare.toFixed(2)}`, 'info');
+            this.log(`   ✅ Total investment value unchanged: $${currentTotalCost.toFixed(2)}`, 'info');
+        } else {
+            // Still log the split for informational purposes
+            this.log(`📰 Market News: ${symbol} executed a ${splitEvent.description}`, 'info');
+        }
     }
     
     getStockPriceHistory(symbol, months = 12) {
@@ -2613,6 +2680,322 @@ class SimLifeGame {
         return this.cryptoPrices[symbol]?.[key] || 1;
     }
     
+    getStockSplitEvents() {
+        return {
+            'AAPL': [
+                { date: '2000-06-21', ratio: 2, description: '2-for-1 stock split' },
+                { date: '2005-02-28', ratio: 2, description: '2-for-1 stock split' },
+                { date: '2014-06-09', ratio: 7, description: '7-for-1 stock split' },
+                { date: '2020-08-31', ratio: 4, description: '4-for-1 stock split' }
+            ]
+        };
+    }
+
+    getEmbeddedAAPLPrices() {
+        return {
+            "2000-01": 103.3598,
+            "2000-02": 111.6388,
+            "2000-03": 128.503,
+            "2000-04": 123.1045,
+            "2000-05": 100.8102,
+            "2000-06": 78.89,
+            "2000-07": 53.7592,
+            "2000-08": 51.3121,
+            "2000-09": 55.755,
+            "2000-10": 20.5741,
+            "2000-11": 19.5464,
+            "2000-12": 14.9694,
+            "2001-01": 18.4347,
+            "2001-02": 19.6312,
+            "2001-03": 20.7523,
+            "2001-04": 22.7184,
+            "2001-05": 23.5304,
+            "2001-06": 21.5309,
+            "2001-07": 21.4624,
+            "2001-08": 18.647,
+            "2001-09": 16.6021,
+            "2001-10": 17.3223,
+            "2001-11": 19.6488,
+            "2001-12": 21.6947,
+            "2002-01": 22.6069,
+            "2002-02": 23.8177,
+            "2002-03": 24.2427,
+            "2002-04": 24.5598,
+            "2002-05": 24.1154,
+            "2002-06": 19.5569,
+            "2002-07": 16.3461,
+            "2002-08": 15.1694,
+            "2002-09": 14.525,
+            "2002-10": 14.6508,
+            "2002-11": 15.9634,
+            "2002-12": 14.7115,
+            "2003-01": 14.4755,
+            "2003-02": 14.6635,
+            "2003-03": 14.6021,
+            "2003-04": 13.848,
+            "2003-05": 17.7693,
+            "2003-06": 18.1763,
+            "2003-07": 20.2516,
+            "2003-08": 20.6272,
+            "2003-09": 22.1528,
+            "2003-10": 23.0087,
+            "2003-11": 21.6021,
+            "2003-12": 20.6737,
+            "2004-01": 22.8018,
+            "2004-02": 22.8053,
+            "2004-03": 26.1985,
+            "2004-04": 27.5267,
+            "2004-05": 27.0774,
+            "2004-06": 31.332,
+            "2004-07": 31.2891,
+            "2004-08": 31.7482,
+            "2004-09": 36.6859,
+            "2004-10": 44.3645,
+            "2004-11": 57.4648,
+            "2004-12": 64.4985,
+            "2005-01": 69.2286,
+            "2005-02": 81.3714,
+            "2005-03": 41.9977,
+            "2005-04": 38.7309,
+            "2005-05": 37.3221,
+            "2005-06": 37.5906,
+            "2005-07": 40.9109,
+            "2005-08": 45.0653,
+            "2005-09": 51.0149,
+            "2005-10": 53.938,
+            "2005-11": 63.5561,
+            "2005-12": 73.0072,
+            "2006-01": 77.8102,
+            "2006-02": 69.519,
+            "2006-03": 64.0356,
+            "2006-04": 67.0034,
+            "2006-05": 66.7822,
+            "2006-06": 58.7098,
+            "2006-07": 57.8705,
+            "2006-08": 66.8141,
+            "2006-09": 73.857,
+            "2006-10": 74.1261,
+            "2006-11": 85.3449,
+            "2006-12": 86.4713,
+            "2007-01": 88.8818,
+            "2007-02": 85.728,
+            "2007-03": 90.603,
+            "2007-04": 93.7051,
+            "2007-05": 108.8056,
+            "2007-06": 121.6955,
+            "2007-07": 136.1008,
+            "2007-08": 129.8434,
+            "2007-09": 142.0803,
+            "2007-10": 171.8104,
+            "2007-11": 174.6581,
+            "2007-12": 190.5053,
+            "2008-01": 160.3784,
+            "2008-02": 125.1527,
+            "2008-03": 130.823,
+            "2008-04": 158.1873,
+            "2008-05": 184.7595,
+            "2008-06": 178.4857,
+            "2008-07": 167.7486,
+            "2008-08": 171.0693,
+            "2008-09": 141.2436,
+            "2008-10": 99.0036,
+            "2008-11": 93.9407,
+            "2008-12": 91.5433,
+            "2009-01": 88.7751,
+            "2009-02": 94.0743,
+            "2009-03": 97.5053,
+            "2009-04": 120.0212,
+            "2009-05": 128.149,
+            "2009-06": 139.5282,
+            "2009-07": 149.3184,
+            "2009-08": 166.2805,
+            "2009-09": 177.7868,
+            "2009-10": 192.8313,
+            "2009-11": 200.3198,
+            "2009-12": 198.9545,
+            "2010-01": 207.7151,
+            "2010-02": 198.796,
+            "2010-03": 223.4109,
+            "2010-04": 251.1487,
+            "2010-05": 251.4617,
+            "2010-06": 261.1449,
+            "2010-07": 254.95,
+            "2010-08": 251.3228,
+            "2010-09": 273.8511,
+            "2010-10": 300.9343,
+            "2010-11": 311.5883,
+            "2010-12": 321.4857,
+            "2011-01": 338.3803,
+            "2011-02": 351.1822,
+            "2011-03": 347.4908,
+            "2011-04": 340.4153,
+            "2011-05": 341.7848,
+            "2011-06": 331.0815,
+            "2011-07": 372.238,
+            "2011-08": 376.7624,
+            "2011-09": 392.4933,
+            "2011-10": 397.2299,
+            "2011-11": 384.8153,
+            "2011-12": 392.9307,
+            "2012-01": 428.5778,
+            "2012-02": 497.5711,
+            "2012-03": 577.508,
+            "2012-04": 606.003,
+            "2012-05": 564.6732,
+            "2012-06": 574.5623,
+            "2012-07": 601.0681,
+            "2012-08": 642.6962,
+            "2012-09": 681.5685,
+            "2012-10": 634.714,
+            "2012-11": 564.3459,
+            "2012-12": 532.055,
+            "2013-01": 497.8224,
+            "2013-02": 456.8088,
+            "2013-03": 441.841,
+            "2013-04": 419.7649,
+            "2013-05": 446.4525,
+            "2013-06": 425.538,
+            "2013-07": 429.1574,
+            "2013-08": 484.8437,
+            "2013-09": 480.1847,
+            "2013-10": 504.7448,
+            "2013-11": 524.6165,
+            "2013-12": 559.6577,
+            "2014-01": 537.4455,
+            "2014-02": 526.5799,
+            "2014-03": 533.2145,
+            "2014-04": 541.0744,
+            "2014-05": 603.1953,
+            "2014-06": 222.6581,
+            "2014-07": 95.6259,
+            "2014-08": 98.4367,
+            "2014-09": 100.5486,
+            "2014-10": 101.6996,
+            "2014-11": 113.2853,
+            "2014-12": 112.4114,
+            "2015-01": 110.6415,
+            "2015-02": 125.4321,
+            "2015-03": 125.9709,
+            "2015-04": 127.2914,
+            "2015-05": 127.8615,
+            "2015-06": 127.8068,
+            "2015-07": 125.3355,
+            "2015-08": 113.3948,
+            "2015-09": 112.7976,
+            "2015-10": 113.36,
+            "2015-11": 118.1625,
+            "2015-12": 111.7268,
+            "2016-01": 98.4289,
+            "2016-02": 95.7465,
+            "2016-03": 104.2673,
+            "2016-04": 106.739,
+            "2016-05": 94.9748,
+            "2016-06": 96.6223,
+            "2016-07": 98.5565,
+            "2016-08": 107.6652,
+            "2016-09": 110.8571,
+            "2016-10": 115.7071,
+            "2016-11": 110.1543,
+            "2016-12": 114.3357,
+            "2017-01": 119.57,
+            "2017-02": 133.7142,
+            "2017-03": 140.6178,
+            "2017-04": 142.8868,
+            "2017-05": 152.2277,
+            "2017-06": 147.8314,
+            "2017-07": 148.2995,
+            "2017-08": 159.0213,
+            "2017-09": 157.6085,
+            "2017-10": 157.8173,
+            "2017-11": 172.4062,
+            "2017-12": 171.8915,
+            "2018-01": 174.0052,
+            "2018-02": 167.6389,
+            "2018-03": 174.4962,
+            "2018-04": 169.8343,
+            "2018-05": 185.5368,
+            "2018-06": 188.6214,
+            "2018-07": 190.3114,
+            "2018-08": 213.3461,
+            "2018-09": 222.0737,
+            "2018-10": 220.8457,
+            "2018-11": 191.2357,
+            "2018-12": 164.2663,
+            "2019-01": 154.1662,
+            "2019-02": 171.7279,
+            "2019-03": 183.2938,
+            "2019-04": 200.5162,
+            "2019-05": 191.2736,
+            "2019-06": 192.969,
+            "2019-07": 205.2164,
+            "2019-08": 204.9577,
+            "2019-09": 217.995,
+            "2019-10": 235.2865,
+            "2019-11": 262.5205,
+            "2019-12": 276.5257,
+            "2020-01": 311.9162,
+            "2020-02": 311.2705,
+            "2020-03": 262.4441,
+            "2020-04": 272.3862,
+            "2020-05": 309.9855,
+            "2020-06": 345.8064,
+            "2020-07": 382.265,
+            "2020-08": 450.7648,
+            "2020-09": 115.1252,
+            "2020-10": 116.4132,
+            "2020-11": 116.826,
+            "2020-12": 127.2905,
+            "2021-01": 133.0368,
+            "2021-02": 131.5316,
+            "2021-03": 121.8713,
+            "2021-04": 131.8129,
+            "2021-05": 126.784,
+            "2021-06": 129.9586,
+            "2021-07": 145.1395,
+            "2021-08": 148.1777,
+            "2021-09": 148.3062,
+            "2021-10": 145.5638,
+            "2021-11": 154.2557,
+            "2021-12": 173.5527,
+            "2022-01": 169.8615,
+            "2022-02": 169.83,
+            "2022-03": 165.3104,
+            "2022-04": 166.821,
+            "2022-05": 148.4305,
+            "2022-06": 139.7986,
+            "2022-07": 149.6705,
+            "2022-08": 166.8852,
+            "2022-09": 153.0029,
+            "2022-10": 145.0133,
+            "2022-11": 145.8433,
+            "2022-12": 137.8767,
+            "2023-01": 135.779,
+            "2023-02": 150.9684,
+            "2023-03": 154.9648,
+            "2023-04": 165.0458,
+            "2023-05": 172.6227,
+            "2023-06": 184.2833,
+            "2023-07": 192.4115,
+            "2023-08": 181.0839,
+            "2023-09": 177.0025,
+            "2023-10": 174.6686,
+            "2023-11": 185.8795,
+            "2023-12": 194.3085,
+            "2024-01": 187.7243,
+            "2024-02": 184.7755,
+            "2024-03": 172.6965,
+            "2024-04": 169.6045,
+            "2024-05": 186.2859,
+            "2024-06": 206.2632,
+            "2024-07": 224.5986,
+            "2024-08": 221.6382,
+            "2024-09": 223.758,
+            "2024-10": 230.0561,
+            "2024-11": 227.8105,
+            "2024-12": 249.3229
+        };
+    }
+
     generateMockStockPrices() {
         const stocks = this.stocksData || {
             'AAPL': { base: 150, trend: 0.015 },
@@ -2626,25 +3009,40 @@ class SimLifeGame {
         
         Object.entries(stocks).forEach(([symbol, config]) => {
             prices[symbol] = {};
-            let currentPrice = config.base;
             
-            for (let year = 2000; year <= 2025; year++) {
-                for (let month = 1; month <= 12; month++) {
-                    // Reduced volatility to max ±5% per month
-                    let volatility = (Math.random() - 0.5) * 0.05;
-                    
-                    // Add market crash scenarios with gradual decline
-                    if (year === 2000 && month >= 3 && month <= 10) {
-                        volatility = Math.min(volatility, -0.02); // Dot-com crash
-                    } else if (year === 2008 && month >= 9 && month <= 12) {
-                        volatility = Math.min(volatility, -0.03); // Financial crisis
-                    } else if (year === 2020 && month >= 2 && month <= 4) {
-                        volatility = Math.min(volatility, -0.025); // COVID crash
+            // Skip generating mock prices if we have real XML data
+            if (this.stockPricesFromXML && this.stockPricesFromXML[symbol]) {
+                // Use real data from individual XML files
+                Object.entries(this.stockPricesFromXML[symbol]).forEach(([key, price]) => {
+                    prices[symbol][key] = Math.round(price * 100) / 100;
+                });
+            } else if (symbol === 'AAPL' && this.aaplPrices) {
+                // Use legacy AAPL data from XML file
+                Object.entries(this.aaplPrices).forEach(([key, price]) => {
+                    prices[symbol][key] = Math.round(price * 100) / 100;
+                });
+            } else {
+                // Generate mock prices for stocks without XML data
+                let currentPrice = config.base;
+                
+                for (let year = 2000; year <= 2025; year++) {
+                    for (let month = 1; month <= 12; month++) {
+                        // Reduced volatility to max ±5% per month
+                        let volatility = (Math.random() - 0.5) * 0.05;
+                        
+                        // Add market crash scenarios with gradual decline
+                        if (year === 2000 && month >= 3 && month <= 10) {
+                            volatility = Math.min(volatility, -0.02); // Dot-com crash
+                        } else if (year === 2008 && month >= 9 && month <= 12) {
+                            volatility = Math.min(volatility, -0.03); // Financial crisis
+                        } else if (year === 2020 && month >= 2 && month <= 4) {
+                            volatility = Math.min(volatility, -0.025); // COVID crash
+                        }
+                        
+                        currentPrice *= (1 + config.trend/12 + volatility);
+                        const key = `${year}-${month.toString().padStart(2, '0')}`;
+                        prices[symbol][key] = Math.round(currentPrice * 100) / 100;
                     }
-                    
-                    currentPrice *= (1 + config.trend/12 + volatility);
-                    const key = `${year}-${month.toString().padStart(2, '0')}`;
-                    prices[symbol][key] = Math.round(currentPrice * 100) / 100;
                 }
             }
         });
@@ -2699,6 +3097,13 @@ class SimLifeGame {
             const luckLevel = this.gameState.playerStatus.luck >= 75 ? 'exceptional' : 'good';
             this.log(`🍀 Your ${luckLevel} luck (${this.gameState.playerStatus.luck}) helps you avoid some unfortunate events.`, 'positive');
         }
+        
+        // Check for stock splits before price updates
+        this.checkForStockSplits();
+        
+        // Update and display current AAPL stock price
+        const aaplPrice = this.getCurrentAAPLPrice();
+        this.log(`📈 AAPL Stock Price: $${aaplPrice.toFixed(2)}`, 'info');
         
         // Vary relationship costs monthly
         this.varyRelationshipCosts();
@@ -3634,15 +4039,79 @@ class SimLifeGame {
     }
 
     async loadStocks() {
-        console.log('Loading embedded stocks...');
-        // Use embedded data instead of fetching XML to avoid CORS issues
+        console.log('Loading stock data...');
+        
+        // First try to load individual XML files from Stocks folder
+        await this.loadIndividualStockXML();
+        
+        // Use embedded data as fallback
         this.stocksData = this.getEmbeddedStocks();
         console.log('Loaded stocks:', Object.keys(this.stocksData));
+        
+        // Load AAPL prices from embedded data (legacy fallback)
+        this.aaplPrices = this.getEmbeddedAAPLPrices();
+        console.log('Loaded AAPL prices from embedded data:', Object.keys(this.aaplPrices).length, 'months');
+        
+        // Load stock split events
+        this.stockSplitEvents = this.getStockSplitEvents();
+        console.log('Loaded stock split events for:', Object.keys(this.stockSplitEvents));
         
         // Generate prices after stock data is loaded
         this.stockPrices = this.generateMockStockPrices();
         this.cryptoPrices = this.generateMockCryptoPrices();
         console.log('Generated stock and crypto prices');
+    }
+
+    async loadIndividualStockXML() {
+        try {
+            const stockSymbols = [
+                'aapl', 'msft', 'nvda', 'amzn', 'googl', 'tsla', 'meta',
+                'intc', 'csco', 'ibm', 'orcl', 'amd', 'qcom',
+                'bac', 'jpm', 'wfc', 'c', 'aig',
+                'jnj', 'pfe', 'mrk', 'abt', 'bmy', 'mdt',
+                'wmt', 'hd', 'mcd', 'ko', 'pep', 'nke',
+                'xom', 'ba', 'cat', 'ge', 'mmm', 'dis',
+                'cost', 'low', 'sbux', 'yum', 'ups', 'wba'
+            ];
+            
+            this.stockPricesFromXML = {};
+            let loadedCount = 0;
+            
+            for (const symbol of stockSymbols) {
+                try {
+                    const response = await fetch(`Stocks/${symbol}.xml`);
+                    if (response.ok) {
+                        const xmlText = await response.text();
+                        const parser = new DOMParser();
+                        const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                        
+                        const stockEntries = xmlDoc.querySelectorAll('stock_entry');
+                        this.stockPricesFromXML[symbol.toUpperCase()] = {};
+                        
+                        stockEntries.forEach(entry => {
+                            const date = entry.querySelector('date').textContent;
+                            const close = parseFloat(entry.querySelector('close').textContent);
+                            
+                            // Convert date to YYYY-MM format for monthly data
+                            const dateObj = new Date(date);
+                            const key = `${dateObj.getFullYear()}-${(dateObj.getMonth() + 1).toString().padStart(2, '0')}`;
+                            
+                            this.stockPricesFromXML[symbol.toUpperCase()][key] = close;
+                        });
+                        
+                        loadedCount++;
+                    }
+                } catch (error) {
+                    console.warn(`Could not load ${symbol} data:`, error);
+                }
+            }
+            
+            console.log(`Stock XML data loaded for ${loadedCount} symbols:`, Object.keys(this.stockPricesFromXML));
+            
+        } catch (error) {
+            console.error('Error loading individual stock XML files:', error);
+            this.stockPricesFromXML = {};
+        }
     }
     
     getEmbeddedEvents() {

@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<yum_brands_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>6.9307</open>
+    <high>6.9307</high>
+    <low>5.1222</low>
+    <close>5.1447</close>
+    <adjusted_close>3.5043</adjusted_close>
+    <volume>112353850</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>5.2795</open>
+    <high>5.7962</high>
+    <low>4.5381</low>
+    <close>4.7852</close>
+    <adjusted_close>3.2595</adjusted_close>
+    <volume>114875457</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>4.7740</open>
+    <high>5.9310</high>
+    <low>4.6729</low>
+    <close>5.5828</close>
+    <adjusted_close>3.8027</adjusted_close>
+    <volume>104722827</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>5.6052</open>
+    <high>6.3915</high>
+    <low>5.1671</low>
+    <close>6.0882</close>
+    <adjusted_close>4.1470</adjusted_close>
+    <volume>87032088</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>6.0995</open>
+    <high>6.1781</high>
+    <low>5.2233</low>
+    <close>5.2682</close>
+    <adjusted_close>3.5885</adjusted_close>
+    <volume>78886949</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>5.2570</open>
+    <high>5.5154</high>
+    <low>4.7852</low>
+    <close>5.0773</close>
+    <adjusted_close>3.4584</adjusted_close>
+    <volume>90449494</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>5.0885</open>
+    <high>5.8299</high>
+    <low>4.2348</low>
+    <close>4.3584</close>
+    <adjusted_close>2.9687</adjusted_close>
+    <volume>105865671</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>4.3584</open>
+    <high>5.8411</high>
+    <low>4.3584</low>
+    <close>5.2374</close>
+    <adjusted_close>3.5674</adjusted_close>
+    <volume>94762709</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>5.2345</open>
+    <high>5.7513</high>
+    <low>5.1334</low>
+    <close>5.5041</close>
+    <adjusted_close>3.7492</adjusted_close>
+    <volume>74384004</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>5.5154</open>
+    <high>5.6951</high>
+    <low>4.6504</low>
+    <close>5.3918</close>
+    <adjusted_close>3.6726</adjusted_close>
+    <volume>82637641</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>5.3469</open>
+    <high>6.7510</high>
+    <low>5.2682</low>
+    <close>6.4702</close>
+    <adjusted_close>4.4072</adjusted_close>
+    <volume>91688042</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>6.4252</open>
+    <high>6.4814</high>
+    <low>5.6502</low>
+    <close>5.9310</close>
+    <adjusted_close>4.0399</adjusted_close>
+    <volume>96018503</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>5.9422</open>
+    <high>6.5241</high>
+    <low>5.6726</low>
+    <close>6.4738</close>
+    <adjusted_close>4.4096</adjusted_close>
+    <volume>108809028</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>6.4738</open>
+    <high>6.9572</high>
+    <low>6.1844</low>
+    <close>6.9195</close>
+    <adjusted_close>4.7132</adjusted_close>
+    <volume>96697311</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>6.8296</open>
+    <high>7.2232</high>
+    <low>6.2904</low>
+    <close>6.8638</close>
+    <adjusted_close>4.6753</adjusted_close>
+    <volume>113111669</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>6.8296</open>
+    <high>8.0787</high>
+    <low>6.5546</low>
+    <close>8.0554</close>
+    <adjusted_close>5.4869</adjusted_close>
+    <volume>79076123</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>7.9978</open>
+    <high>8.3753</high>
+    <low>7.2484</low>
+    <close>8.2135</close>
+    <adjusted_close>5.5946</adjusted_close>
+    <volume>103799758</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>8.2135</open>
+    <high>8.7617</high>
+    <low>7.6743</low>
+    <close>7.8900</close>
+    <adjusted_close>5.3743</adjusted_close>
+    <volume>86196376</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>7.8918</open>
+    <high>8.2584</high>
+    <low>7.4317</low>
+    <close>8.2225</close>
+    <adjusted_close>5.6008</adjusted_close>
+    <volume>74922599</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>8.0967</open>
+    <high>8.2638</high>
+    <low>7.5917</low>
+    <close>7.6600</close>
+    <adjusted_close>5.2176</adjusted_close>
+    <volume>67672707</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>7.6456</open>
+    <high>7.8127</high>
+    <low>6.7487</low>
+    <close>7.0489</close>
+    <adjusted_close>4.8014</adjusted_close>
+    <volume>62035820</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>6.9195</open>
+    <high>9.1247</high>
+    <low>6.7577</low>
+    <close>9.0924</close>
+    <adjusted_close>6.1933</adjusted_close>
+    <volume>136649615</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>9.0924</open>
+    <high>9.4177</high>
+    <low>8.4651</low>
+    <close>8.5280</close>
+    <adjusted_close>5.8089</adjusted_close>
+    <volume>78438490</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>8.5370</open>
+    <high>9.5812</high>
+    <low>8.4831</low>
+    <close>8.8426</close>
+    <adjusted_close>6.0231</adjusted_close>
+    <volume>90317632</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>8.8965</open>
+    <high>10.0557</high>
+    <low>8.5999</low>
+    <close>10.0288</close>
+    <adjusted_close>6.8311</adjusted_close>
+    <volume>107399109</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>9.9569</open>
+    <high>10.7746</high>
+    <low>9.5255</low>
+    <close>10.6272</close>
+    <adjusted_close>7.2388</adjusted_close>
+    <volume>78064589</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>10.6039</open>
+    <high>10.8645</high>
+    <low>9.9838</low>
+    <close>10.5643</close>
+    <adjusted_close>7.1959</adjusted_close>
+    <volume>97820127</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>10.5661</open>
+    <high>11.4899</high>
+    <low>10.2318</low>
+    <close>11.3336</close>
+    <adjusted_close>7.7199</adjusted_close>
+    <volume>85323940</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>11.0622</open>
+    <high>11.8224</high>
+    <low>10.9669</low>
+    <close>11.4845</close>
+    <adjusted_close>7.8227</adjusted_close>
+    <volume>101961969</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>11.5115</open>
+    <high>11.9231</high>
+    <low>10.5140</low>
+    <close>10.5140</close>
+    <adjusted_close>7.1616</adjusted_close>
+    <volume>96602167</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>10.6398</open>
+    <high>11.1071</high>
+    <low>8.2962</low>
+    <close>11.1071</close>
+    <adjusted_close>7.5656</adjusted_close>
+    <volume>115844149</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>10.7836</open>
+    <high>11.3264</high>
+    <low>9.2919</low>
+    <close>10.9022</close>
+    <adjusted_close>7.4261</adjusted_close>
+    <volume>109327870</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>10.9022</open>
+    <high>11.3947</high>
+    <low>9.3961</low>
+    <close>9.9605</close>
+    <adjusted_close>6.7846</adjusted_close>
+    <volume>104605425</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>9.9641</open>
+    <high>11.1035</high>
+    <low>7.3149</low>
+    <close>8.0985</close>
+    <adjusted_close>5.5163</adjusted_close>
+    <volume>225257983</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>7.8720</open>
+    <high>8.7347</high>
+    <low>7.5234</low>
+    <close>8.5945</close>
+    <adjusted_close>5.8542</adjusted_close>
+    <volume>105731301</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>8.7168</open>
+    <high>8.8030</high>
+    <low>7.9080</low>
+    <close>8.7060</close>
+    <adjusted_close>5.9301</adjusted_close>
+    <volume>99963381</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>8.7850</open>
+    <high>9.2919</high>
+    <low>8.1416</low>
+    <close>8.3321</close>
+    <adjusted_close>5.6754</adjusted_close>
+    <volume>84006943</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>8.3932</open>
+    <high>8.7886</high>
+    <low>7.7426</low>
+    <close>8.5586</close>
+    <adjusted_close>5.8297</adjusted_close>
+    <volume>68919042</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>8.5730</open>
+    <high>9.2703</high>
+    <low>7.8792</low>
+    <close>8.7455</close>
+    <adjusted_close>5.9570</adjusted_close>
+    <volume>82698008</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>8.7455</open>
+    <high>9.0906</high>
+    <low>8.2459</low>
+    <close>8.8785</close>
+    <adjusted_close>6.0476</adjusted_close>
+    <volume>101516018</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>8.8246</open>
+    <high>10.0647</high>
+    <low>8.6485</low>
+    <close>10.0503</close>
+    <adjusted_close>6.8458</adjusted_close>
+    <volume>90024130</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>10.1006</open>
+    <high>10.7477</high>
+    <low>9.8311</low>
+    <close>10.6254</close>
+    <adjusted_close>7.2375</adjusted_close>
+    <volume>73067004</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>10.5859</open>
+    <high>11.1251</high>
+    <low>10.2013</low>
+    <close>10.7584</close>
+    <adjusted_close>7.3281</adjusted_close>
+    <volume>78851894</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>10.7584</open>
+    <high>10.7836</high>
+    <low>10.2265</low>
+    <close>10.6578</close>
+    <adjusted_close>7.2596</adjusted_close>
+    <volume>58197215</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>10.7009</open>
+    <high>11.1251</high>
+    <low>10.4960</low>
+    <close>10.6470</close>
+    <adjusted_close>7.2522</adjusted_close>
+    <volume>53650034</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>10.7297</open>
+    <high>12.2825</high>
+    <low>10.7153</low>
+    <close>12.2717</close>
+    <adjusted_close>8.3589</adjusted_close>
+    <volume>76016201</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>12.2394</open>
+    <high>12.5270</high>
+    <low>11.5025</low>
+    <close>12.3976</close>
+    <adjusted_close>8.4446</adjusted_close>
+    <volume>55594933</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>12.4730</open>
+    <high>12.7283</high>
+    <low>11.6966</low>
+    <close>12.3652</close>
+    <adjusted_close>8.4226</adjusted_close>
+    <volume>70737080</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>12.3616</open>
+    <high>12.8613</high>
+    <low>11.5492</low>
+    <close>12.1891</close>
+    <adjusted_close>8.3026</adjusted_close>
+    <volume>80083490</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>12.2574</open>
+    <high>13.4256</high>
+    <low>11.8081</low>
+    <close>13.3106</close>
+    <adjusted_close>9.0665</adjusted_close>
+    <volume>86119034</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>13.1201</open>
+    <high>14.0259</high>
+    <low>13.1201</low>
+    <close>13.6556</close>
+    <adjusted_close>9.3016</adjusted_close>
+    <volume>81834196</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>13.6556</open>
+    <high>14.4357</high>
+    <low>12.8361</low>
+    <close>13.9432</close>
+    <adjusted_close>9.4974</adjusted_close>
+    <volume>82888857</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>13.8641</open>
+    <high>14.1589</high>
+    <low>12.5953</low>
+    <close>13.4795</close>
+    <adjusted_close>9.1816</adjusted_close>
+    <volume>68271950</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>13.3537</open>
+    <high>13.7671</high>
+    <low>13.1021</low>
+    <close>13.3789</close>
+    <adjusted_close>9.1130</adjusted_close>
+    <volume>52105467</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>13.3357</open>
+    <high>14.2092</high>
+    <low>12.8505</low>
+    <close>13.7994</close>
+    <adjusted_close>9.4250</adjusted_close>
+    <volume>73760837</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>13.6377</open>
+    <high>14.3278</high>
+    <low>13.0985</low>
+    <close>14.2739</close>
+    <adjusted_close>9.7490</adjusted_close>
+    <volume>52032858</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>14.3278</open>
+    <high>14.7376</high>
+    <low>14.1337</low>
+    <close>14.6154</close>
+    <adjusted_close>9.9823</adjusted_close>
+    <volume>56713572</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>14.5219</open>
+    <high>15.7728</high>
+    <low>14.3889</low>
+    <close>15.6362</close>
+    <adjusted_close>10.7050</adjusted_close>
+    <volume>76198982</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>15.6111</open>
+    <high>16.5960</high>
+    <low>15.5428</low>
+    <close>16.3192</close>
+    <adjusted_close>11.1725</adjusted_close>
+    <volume>73538274</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>16.4450</open>
+    <high>17.0633</high>
+    <low>16.2725</low>
+    <close>16.9590</close>
+    <adjusted_close>11.6106</adjusted_close>
+    <volume>77606672</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>16.9590</open>
+    <high>17.0273</high>
+    <low>16.0820</low>
+    <close>16.6607</close>
+    <adjusted_close>11.4309</adjusted_close>
+    <volume>58252018</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>16.5888</open>
+    <high>17.6671</high>
+    <low>16.3084</low>
+    <close>17.5341</close>
+    <adjusted_close>12.0302</adjusted_close>
+    <volume>68652249</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>17.5306</open>
+    <high>19.2523</high>
+    <low>17.5018</low>
+    <close>18.6233</close>
+    <adjusted_close>12.7775</adjusted_close>
+    <volume>98377364</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>18.5478</open>
+    <high>18.7850</high>
+    <low>16.5852</low>
+    <close>16.8799</close>
+    <adjusted_close>11.6040</adjusted_close>
+    <volume>101873500</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>16.8799</open>
+    <high>18.6916</high>
+    <low>16.8224</low>
+    <close>18.4364</close>
+    <adjusted_close>12.6740</adjusted_close>
+    <volume>79724887</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>18.4364</open>
+    <high>19.3350</high>
+    <low>18.3681</low>
+    <close>18.7203</close>
+    <adjusted_close>12.8692</adjusted_close>
+    <volume>78083785</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>18.7203</open>
+    <high>19.2164</high>
+    <low>17.4694</low>
+    <close>18.8174</close>
+    <adjusted_close>12.9643</adjusted_close>
+    <volume>74203450</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>18.7455</open>
+    <high>18.7958</high>
+    <low>16.7577</low>
+    <close>17.0309</close>
+    <adjusted_close>11.7335</adjusted_close>
+    <volume>69366665</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>16.9734</open>
+    <high>18.3321</high>
+    <low>16.5313</low>
+    <close>17.4011</close>
+    <adjusted_close>11.9886</adjusted_close>
+    <volume>92078358</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>17.2717</open>
+    <high>18.7455</high>
+    <low>16.9123</low>
+    <close>18.2854</close>
+    <adjusted_close>12.6271</adjusted_close>
+    <volume>130273271</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>18.2854</open>
+    <high>18.7779</high>
+    <low>16.7541</low>
+    <close>17.5377</close>
+    <adjusted_close>12.1108</adjusted_close>
+    <volume>129177719</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>17.5377</open>
+    <high>17.6959</high>
+    <low>16.7362</low>
+    <close>16.8512</close>
+    <adjusted_close>11.6367</adjusted_close>
+    <volume>76534767</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>16.9267</open>
+    <high>18.1129</high>
+    <low>16.6427</low>
+    <close>17.7822</close>
+    <adjusted_close>12.3083</adjusted_close>
+    <volume>87599060</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>17.6671</open>
+    <high>18.7168</high>
+    <low>17.1208</low>
+    <close>17.1459</close>
+    <adjusted_close>11.8679</adjusted_close>
+    <volume>74487217</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>17.1459</open>
+    <high>18.2962</high>
+    <low>16.8835</low>
+    <close>17.5629</close>
+    <adjusted_close>12.1565</adjusted_close>
+    <volume>100476104</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>17.5306</open>
+    <high>18.6916</high>
+    <low>17.0165</low>
+    <close>18.5766</close>
+    <adjusted_close>12.8892</adjusted_close>
+    <volume>90117326</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>18.5766</open>
+    <high>19.4680</high>
+    <low>18.0482</low>
+    <close>18.1165</close>
+    <adjusted_close>12.5699</adjusted_close>
+    <volume>87455786</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>18.1201</open>
+    <high>18.9073</high>
+    <low>17.4587</low>
+    <close>18.0697</close>
+    <adjusted_close>12.5375</adjusted_close>
+    <volume>87484440</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>18.1165</open>
+    <high>18.4184</high>
+    <low>16.0137</low>
+    <close>16.1754</close>
+    <adjusted_close>11.2568</adjusted_close>
+    <volume>118182142</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>16.1215</open>
+    <high>17.7606</high>
+    <low>15.8914</low>
+    <close>17.5701</close>
+    <adjusted_close>12.2274</adjusted_close>
+    <volume>91298286</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>17.6492</open>
+    <high>19.3422</high>
+    <low>17.3832</low>
+    <close>18.7096</close>
+    <adjusted_close>13.0203</adjusted_close>
+    <volume>71826788</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>18.6017</open>
+    <high>22.2286</high>
+    <low>18.5802</low>
+    <close>21.3731</close>
+    <adjusted_close>14.9147</adjusted_close>
+    <volume>125082336</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>21.5061</open>
+    <high>22.8900</high>
+    <low>20.7656</low>
+    <close>21.9950</close>
+    <adjusted_close>15.3486</adjusted_close>
+    <volume>81297273</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>22.1244</open>
+    <high>22.8181</high>
+    <low>20.7836</low>
+    <close>21.1359</close>
+    <adjusted_close>14.7492</adjusted_close>
+    <volume>105533225</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>21.1179</open>
+    <high>21.7038</high>
+    <low>20.6326</low>
+    <close>21.5708</close>
+    <adjusted_close>15.0915</adjusted_close>
+    <volume>71291533</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>21.6032</open>
+    <high>22.3652</high>
+    <low>20.2983</low>
+    <close>20.8267</close>
+    <adjusted_close>14.5709</adjusted_close>
+    <volume>82197529</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>20.3702</open>
+    <high>21.4091</high>
+    <low>19.7735</low>
+    <close>20.7620</close>
+    <adjusted_close>14.6026</adjusted_close>
+    <volume>88769725</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>20.6722</open>
+    <high>22.7678</high>
+    <low>20.6362</low>
+    <close>22.2358</close>
+    <adjusted_close>15.6392</adjusted_close>
+    <volume>63885850</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>22.1064</open>
+    <high>24.8023</high>
+    <low>22.1064</low>
+    <close>24.3422</close>
+    <adjusted_close>17.1207</adjusted_close>
+    <volume>87519493</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>24.3674</open>
+    <high>24.7592</high>
+    <low>22.6959</low>
+    <close>23.5226</close>
+    <adjusted_close>16.5442</adjusted_close>
+    <volume>82325780</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>23.6305</open>
+    <high>25.1977</high>
+    <low>22.7965</low>
+    <close>23.0338</close>
+    <adjusted_close>16.2745</adjusted_close>
+    <volume>101111375</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>22.4083</open>
+    <high>23.9756</high>
+    <low>20.3954</low>
+    <close>23.5226</close>
+    <adjusted_close>16.6199</adjusted_close>
+    <volume>88678058</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>23.4939</open>
+    <high>25.1546</high>
+    <low>22.4659</low>
+    <close>24.3206</close>
+    <adjusted_close>17.1837</adjusted_close>
+    <volume>59303060</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>24.4572</open>
+    <high>29.1876</high>
+    <low>24.0834</low>
+    <close>28.9504</close>
+    <adjusted_close>20.5357</adjusted_close>
+    <volume>135389232</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>28.8569</open>
+    <high>28.9504</high>
+    <low>26.1754</low>
+    <close>26.7074</close>
+    <adjusted_close>18.9447</adjusted_close>
+    <volume>101051422</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>26.6499</open>
+    <high>28.7347</high>
+    <low>26.3911</low>
+    <close>27.5126</close>
+    <adjusted_close>19.5158</adjusted_close>
+    <volume>87197200</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>27.5485</open>
+    <high>28.1093</high>
+    <low>22.2789</low>
+    <close>24.5579</close>
+    <adjusted_close>17.4914</adjusted_close>
+    <volume>182454270</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>24.5938</open>
+    <high>26.6930</high>
+    <low>24.1050</low>
+    <close>24.7664</close>
+    <adjusted_close>17.6399</adjusted_close>
+    <volume>128456487</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>24.6873</open>
+    <high>27.6348</high>
+    <low>24.2272</low>
+    <close>26.7505</close>
+    <adjusted_close>19.0531</adjusted_close>
+    <volume>116427813</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>26.7577</open>
+    <high>30.0000</high>
+    <low>26.7577</low>
+    <close>29.2451</close>
+    <adjusted_close>20.9113</adjusted_close>
+    <volume>96278067</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>28.7635</open>
+    <high>29.8994</high>
+    <low>27.3832</low>
+    <close>28.5406</close>
+    <adjusted_close>20.4075</adjusted_close>
+    <volume>84213507</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>28.3753</open>
+    <high>28.5119</high>
+    <low>24.7807</low>
+    <close>25.2265</close>
+    <adjusted_close>18.0378</adjusted_close>
+    <volume>110418555</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>24.9892</open>
+    <high>26.3120</high>
+    <low>23.7239</low>
+    <close>25.7513</close>
+    <adjusted_close>18.5102</adjusted_close>
+    <volume>148629882</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>25.9310</open>
+    <high>28.1452</high>
+    <low>24.6513</low>
+    <close>25.6506</close>
+    <adjusted_close>18.4379</adjusted_close>
+    <volume>76066419</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>25.8735</open>
+    <high>28.9360</high>
+    <low>22.5593</low>
+    <close>23.4436</close>
+    <adjusted_close>16.8514</adjusted_close>
+    <volume>129196499</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>23.3789</open>
+    <high>23.8821</high>
+    <low>16.1826</low>
+    <close>20.8555</close>
+    <adjusted_close>15.0907</adjusted_close>
+    <volume>185344076</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>20.8555</open>
+    <high>22.0992</high>
+    <low>15.4565</low>
+    <close>19.3674</close>
+    <adjusted_close>14.0139</adjusted_close>
+    <volume>132983357</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>18.9863</open>
+    <high>22.7894</high>
+    <low>17.4766</low>
+    <close>22.6456</close>
+    <adjusted_close>16.3859</adjusted_close>
+    <volume>123051198</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>22.8756</open>
+    <high>24.0403</high>
+    <low>19.8562</low>
+    <close>20.5751</close>
+    <adjusted_close>14.9830</adjusted_close>
+    <volume>109405908</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>20.2876</open>
+    <high>21.8907</high>
+    <low>18.7060</low>
+    <close>18.8929</close>
+    <adjusted_close>13.7580</adjusted_close>
+    <volume>138562101</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>18.4903</open>
+    <high>21.4809</high>
+    <low>16.8009</low>
+    <close>19.7556</close>
+    <adjusted_close>14.3862</adjusted_close>
+    <volume>165115736</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>19.5327</open>
+    <high>25.3343</high>
+    <low>19.4680</low>
+    <close>23.9756</close>
+    <adjusted_close>17.5711</adjusted_close>
+    <volume>170561362</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>23.9971</open>
+    <high>25.6434</high>
+    <low>22.6743</low>
+    <close>24.8958</close>
+    <adjusted_close>18.2455</adjusted_close>
+    <volume>147850503</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>25.1546</open>
+    <high>26.4198</high>
+    <low>23.1776</low>
+    <close>23.9684</close>
+    <adjusted_close>17.5658</adjusted_close>
+    <volume>125409360</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>24.9748</open>
+    <high>26.3480</high>
+    <low>23.8605</low>
+    <close>25.4925</close>
+    <adjusted_close>18.7813</adjusted_close>
+    <volume>190181556</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>25.7513</open>
+    <high>26.5708</high>
+    <low>24.4141</low>
+    <close>24.6226</close>
+    <adjusted_close>18.1404</adjusted_close>
+    <volume>109592719</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>24.6154</open>
+    <high>25.1114</high>
+    <low>23.3645</low>
+    <close>24.2703</close>
+    <adjusted_close>17.8809</adjusted_close>
+    <volume>153347180</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>24.2344</open>
+    <high>25.8663</high>
+    <low>23.5011</low>
+    <close>23.6880</close>
+    <adjusted_close>17.5575</adjusted_close>
+    <volume>204872878</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>23.9109</open>
+    <high>26.0244</high>
+    <low>23.5658</low>
+    <close>25.3559</close>
+    <adjusted_close>18.7937</adjusted_close>
+    <volume>107141220</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>25.5715</open>
+    <high>25.5715</high>
+    <low>23.8677</low>
+    <close>25.1402</close>
+    <adjusted_close>18.6338</adjusted_close>
+    <volume>116512112</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>25.2480</open>
+    <high>26.1107</high>
+    <low>24.4788</low>
+    <close>24.5938</close>
+    <adjusted_close>18.3359</adjusted_close>
+    <volume>88653858</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>24.7664</open>
+    <high>25.8303</high>
+    <low>23.3573</low>
+    <close>24.2416</close>
+    <adjusted_close>18.0732</adjusted_close>
+    <volume>116844140</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>24.2775</open>
+    <high>27.9367</high>
+    <low>24.1625</low>
+    <close>27.5557</close>
+    <adjusted_close>20.5441</adjusted_close>
+    <volume>137161366</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>27.6636</open>
+    <high>31.6319</high>
+    <low>27.6636</low>
+    <close>30.4960</close>
+    <adjusted_close>22.8528</adjusted_close>
+    <volume>154713557</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>30.6470</open>
+    <high>31.0712</high>
+    <low>26.9878</low>
+    <close>29.4393</close>
+    <adjusted_close>22.0609</adjusted_close>
+    <volume>131660238</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>29.3098</open>
+    <high>31.2725</high>
+    <low>27.9942</low>
+    <close>28.0661</close>
+    <adjusted_close>21.0319</adjusted_close>
+    <volume>149692884</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>28.0014</open>
+    <high>30.5967</high>
+    <low>27.4982</low>
+    <close>29.6909</close>
+    <adjusted_close>22.3621</adjusted_close>
+    <volume>132298708</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>30.0431</open>
+    <high>30.9849</high>
+    <low>29.1229</low>
+    <close>29.9784</close>
+    <adjusted_close>22.5786</adjusted_close>
+    <volume>98819840</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>30.1941</open>
+    <high>33.7239</high>
+    <low>30.1510</low>
+    <close>33.1129</close>
+    <adjusted_close>24.9394</adjusted_close>
+    <volume>117349351</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>33.2926</open>
+    <high>35.9957</high>
+    <low>33.1344</low>
+    <close>35.6290</close>
+    <adjusted_close>26.9753</adjusted_close>
+    <volume>104306640</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>35.8735</open>
+    <high>37.7211</high>
+    <low>34.9676</low>
+    <close>36.0029</close>
+    <adjusted_close>27.2583</adjusted_close>
+    <volume>92038298</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>36.5421</open>
+    <high>36.8799</high>
+    <low>35.1689</low>
+    <close>35.2624</close>
+    <adjusted_close>26.6977</adjusted_close>
+    <volume>79633359</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>35.4421</open>
+    <high>35.9310</high>
+    <low>33.2638</low>
+    <close>33.6161</close>
+    <adjusted_close>25.5810</adjusted_close>
+    <volume>102579853</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>33.7383</open>
+    <high>37.1244</high>
+    <low>33.6161</low>
+    <close>36.1826</close>
+    <adjusted_close>27.5341</adjusted_close>
+    <volume>87997304</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>36.3623</open>
+    <high>38.2387</high>
+    <low>35.1618</low>
+    <close>36.9375</close>
+    <adjusted_close>28.1085</adjusted_close>
+    <volume>98737630</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>37.0093</open>
+    <high>39.5255</high>
+    <low>35.3990</low>
+    <close>38.5622</close>
+    <adjusted_close>29.4928</adjusted_close>
+    <volume>108758258</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>38.6700</open>
+    <high>40.9633</high>
+    <low>38.1165</low>
+    <close>39.7700</close>
+    <adjusted_close>30.4165</adjusted_close>
+    <volume>97905536</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>39.7556</open>
+    <high>40.2229</high>
+    <low>37.7426</low>
+    <close>39.7124</close>
+    <adjusted_close>30.3725</adjusted_close>
+    <volume>102287464</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>39.7484</open>
+    <high>41.5169</high>
+    <low>37.3041</low>
+    <close>37.9727</close>
+    <adjusted_close>29.1740</adjusted_close>
+    <volume>115835110</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>38.3825</open>
+    <high>39.3889</high>
+    <low>34.1768</low>
+    <close>39.0870</close>
+    <adjusted_close>30.0301</adjusted_close>
+    <volume>178861876</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>39.0582</open>
+    <high>40.0431</high>
+    <low>34.7807</low>
+    <close>35.5068</close>
+    <adjusted_close>27.2795</adjusted_close>
+    <volume>134133713</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>35.4206</open>
+    <high>39.4608</high>
+    <low>33.8965</low>
+    <close>38.5119</close>
+    <adjusted_close>29.7516</adjusted_close>
+    <volume>142459547</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>37.7498</open>
+    <high>40.6183</high>
+    <low>37.4982</low>
+    <close>40.2876</close>
+    <adjusted_close>31.1234</adjusted_close>
+    <volume>93970259</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>40.3307</open>
+    <high>42.9835</high>
+    <low>40.1725</low>
+    <close>42.4227</close>
+    <adjusted_close>32.7729</adjusted_close>
+    <volume>96934755</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>42.8541</open>
+    <high>46.1538</high>
+    <low>41.9842</low>
+    <close>45.5284</close>
+    <adjusted_close>35.3400</adjusted_close>
+    <volume>95151633</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>45.8303</open>
+    <high>47.8433</high>
+    <low>45.3343</low>
+    <close>47.6204</close>
+    <adjusted_close>36.9639</adjusted_close>
+    <volume>120591079</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>47.6132</open>
+    <high>51.6104</high>
+    <low>46.7865</low>
+    <close>51.1718</close>
+    <adjusted_close>39.7206</adjusted_close>
+    <volume>83237440</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>51.1143</open>
+    <high>53.5155</high>
+    <low>49.1876</low>
+    <close>52.2861</close>
+    <adjusted_close>40.7551</adjusted_close>
+    <volume>113018749</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>52.4946</open>
+    <high>53.4364</high>
+    <low>48.3321</low>
+    <close>50.5823</close>
+    <adjusted_close>39.4271</adjusted_close>
+    <volume>101914399</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>48.6988</open>
+    <high>49.2739</high>
+    <low>44.2487</low>
+    <close>46.3120</close>
+    <adjusted_close>36.0985</adjusted_close>
+    <volume>145632276</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>46.2042</open>
+    <high>48.5262</high>
+    <low>43.8893</low>
+    <close>46.6139</close>
+    <adjusted_close>36.4989</adjusted_close>
+    <volume>151587563</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>46.8584</open>
+    <high>49.3602</high>
+    <low>45.2193</low>
+    <close>45.8088</close>
+    <adjusted_close>35.8684</adjusted_close>
+    <volume>98919296</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>45.6362</open>
+    <high>49.7556</high>
+    <low>45.1114</low>
+    <close>47.6923</close>
+    <adjusted_close>37.3432</adjusted_close>
+    <volume>90400535</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>48.0230</open>
+    <high>51.8692</high>
+    <low>47.1747</low>
+    <close>50.4026</close>
+    <adjusted_close>39.6666</adjusted_close>
+    <volume>119695412</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>50.3810</open>
+    <high>53.7383</high>
+    <low>47.9727</low>
+    <close>48.2243</close>
+    <adjusted_close>37.9523</adjusted_close>
+    <volume>104344056</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>48.2531</open>
+    <high>50.5751</high>
+    <low>45.3415</low>
+    <close>47.7354</close>
+    <adjusted_close>37.5676</adjusted_close>
+    <volume>131435592</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>48.5262</open>
+    <high>49.2092</high>
+    <low>45.4206</low>
+    <close>46.6858</close>
+    <adjusted_close>36.9317</adjusted_close>
+    <volume>155833313</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>46.8871</open>
+    <high>47.7930</high>
+    <low>42.9044</low>
+    <close>47.0740</close>
+    <adjusted_close>37.2388</adjusted_close>
+    <volume>165746413</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>46.6499</open>
+    <high>51.9123</high>
+    <low>46.2617</low>
+    <close>51.7182</close>
+    <adjusted_close>40.9127</adjusted_close>
+    <volume>96923909</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>51.7110</open>
+    <high>51.9914</high>
+    <low>45.4062</low>
+    <close>48.9720</close>
+    <adjusted_close>38.9355</adjusted_close>
+    <volume>153714125</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>48.7347</open>
+    <high>50.9921</high>
+    <low>48.3465</low>
+    <close>48.7060</close>
+    <adjusted_close>38.7240</adjusted_close>
+    <volume>79481322</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>48.7347</open>
+    <high>53.1201</high>
+    <low>48.2099</low>
+    <close>49.8490</close>
+    <adjusted_close>39.6328</adjusted_close>
+    <volume>86333530</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>50.0359</open>
+    <high>53.2135</high>
+    <low>49.7915</low>
+    <close>52.4227</close>
+    <adjusted_close>41.8712</adjusted_close>
+    <volume>83264983</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>52.8397</open>
+    <high>54.0115</high>
+    <low>50.0144</low>
+    <close>50.3379</close>
+    <adjusted_close>40.2060</adjusted_close>
+    <volume>67656987</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>50.8555</open>
+    <high>53.0266</high>
+    <low>49.4464</low>
+    <close>51.3228</close>
+    <adjusted_close>40.9927</adjusted_close>
+    <volume>63696117</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>51.4594</open>
+    <high>51.8188</high>
+    <low>46.0676</low>
+    <close>48.6125</close>
+    <adjusted_close>39.0294</adjusted_close>
+    <volume>149718476</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>48.6053</open>
+    <high>56.5636</high>
+    <low>48.5334</low>
+    <close>55.8447</close>
+    <adjusted_close>44.8359</adjusted_close>
+    <volume>99379022</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>55.7584</open>
+    <high>56.4845</high>
+    <low>51.2221</low>
+    <close>54.3566</close>
+    <adjusted_close>43.6411</adjusted_close>
+    <volume>73497660</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>54.1912</open>
+    <high>55.5931</high>
+    <low>47.3257</low>
+    <close>48.2746</close>
+    <adjusted_close>38.9550</adjusted_close>
+    <volume>110520932</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>48.4256</open>
+    <high>53.4436</high>
+    <low>47.3329</low>
+    <close>53.2566</close>
+    <adjusted_close>42.9752</adjusted_close>
+    <volume>95202961</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>52.7247</open>
+    <high>56.0388</high>
+    <low>51.9267</low>
+    <close>54.1984</close>
+    <adjusted_close>43.7351</adjusted_close>
+    <volume>81381429</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>54.2847</open>
+    <high>57.2969</high>
+    <low>53.3932</low>
+    <close>55.3487</close>
+    <adjusted_close>44.8809</adjusted_close>
+    <volume>96831821</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>55.2983</open>
+    <high>55.6434</high>
+    <low>53.2495</low>
+    <close>55.5787</close>
+    <adjusted_close>45.0675</adjusted_close>
+    <volume>64332497</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>55.3271</open>
+    <high>59.0439</high>
+    <low>55.3271</low>
+    <close>58.3753</close>
+    <adjusted_close>47.3351</adjusted_close>
+    <volume>56560703</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>58.6772</open>
+    <high>60.0863</high>
+    <low>48.9504</low>
+    <close>49.8922</close>
+    <adjusted_close>40.6391</adjusted_close>
+    <volume>138945461</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>49.9425</open>
+    <high>52.8181</high>
+    <low>49.8778</low>
+    <close>52.0705</close>
+    <adjusted_close>42.4134</adjusted_close>
+    <volume>98691593</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>51.7613</open>
+    <high>52.7318</high>
+    <low>50.0575</low>
+    <close>51.7469</close>
+    <adjusted_close>42.1499</adjusted_close>
+    <volume>73783510</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>51.7110</open>
+    <high>52.3580</high>
+    <low>47.3113</low>
+    <close>51.6391</close>
+    <adjusted_close>42.3179</adjusted_close>
+    <volume>105855380</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>51.5600</open>
+    <high>55.7656</high>
+    <low>51.1718</low>
+    <close>55.5356</close>
+    <adjusted_close>45.5110</adjusted_close>
+    <volume>70159815</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>54.3566</open>
+    <high>56.4845</high>
+    <low>49.6046</low>
+    <close>52.3724</close>
+    <adjusted_close>42.9188</adjusted_close>
+    <volume>117198567</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>52.7966</open>
+    <high>53.8749</high>
+    <low>49.8778</low>
+    <close>51.9626</close>
+    <adjusted_close>42.8248</adjusted_close>
+    <volume>89075190</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>52.0776</open>
+    <high>59.2883</high>
+    <low>50.6830</low>
+    <close>58.3106</close>
+    <adjusted_close>48.0564</adjusted_close>
+    <volume>98622736</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>58.2315</open>
+    <high>59.5471</high>
+    <low>54.9245</low>
+    <close>56.5924</close>
+    <adjusted_close>46.6404</adjusted_close>
+    <volume>108828503</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>56.5421</open>
+    <high>62.8469</high>
+    <low>56.0173</low>
+    <close>61.7973</close>
+    <adjusted_close>51.1981</adjusted_close>
+    <volume>117744256</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>62.1855</open>
+    <high>68.9432</high>
+    <low>62.1567</low>
+    <close>64.7807</close>
+    <adjusted_close>53.6698</adjusted_close>
+    <volume>131486361</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>64.6010</open>
+    <high>67.0956</high>
+    <low>64.1697</low>
+    <close>64.7592</close>
+    <adjusted_close>53.6520</adjusted_close>
+    <volume>69413682</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>65.4996</open>
+    <high>66.4414</high>
+    <low>61.2365</low>
+    <close>63.0913</close>
+    <adjusted_close>52.5042</adjusted_close>
+    <volume>116787806</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>63.2926</open>
+    <high>64.4644</high>
+    <low>51.3228</low>
+    <close>57.3472</close>
+    <adjusted_close>47.7240</adjusted_close>
+    <volume>155693934</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>55.7872</open>
+    <high>60.3163</high>
+    <low>54.0906</low>
+    <close>57.4766</close>
+    <adjusted_close>47.8317</adjusted_close>
+    <volume>97616903</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>57.5198</open>
+    <high>60.0575</high>
+    <low>47.6995</low>
+    <close>50.9777</close>
+    <adjusted_close>42.7040</adjusted_close>
+    <volume>232476580</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>51.3012</open>
+    <high>52.7247</high>
+    <low>47.9439</low>
+    <close>52.1280</close>
+    <adjusted_close>43.6676</adjusted_close>
+    <volume>98767259</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>52.6240</open>
+    <high>55.0971</high>
+    <low>50.6686</low>
+    <close>52.5162</close>
+    <adjusted_close>43.9928</adjusted_close>
+    <volume>116615737</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>51.2725</open>
+    <high>52.6240</high>
+    <low>47.7930</low>
+    <close>52.0273</close>
+    <adjusted_close>43.8734</adjusted_close>
+    <volume>121492168</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>51.7038</open>
+    <high>53.1057</high>
+    <low>46.4270</low>
+    <close>52.0992</close>
+    <adjusted_close>43.9340</adjusted_close>
+    <volume>151312840</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>52.4011</open>
+    <high>59.3961</high>
+    <low>52.3364</low>
+    <close>58.8426</close>
+    <adjusted_close>49.6205</adjusted_close>
+    <volume>98515630</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>58.1452</open>
+    <high>61.6751</high>
+    <low>56.8296</low>
+    <close>57.1963</close>
+    <adjusted_close>48.5042</adjusted_close>
+    <volume>92822264</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>57.6420</open>
+    <high>59.9712</high>
+    <low>56.3120</low>
+    <close>59.0151</close>
+    <adjusted_close>50.0466</adjusted_close>
+    <volume>75858881</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>58.6628</open>
+    <high>61.7685</high>
+    <low>56.8943</low>
+    <close>59.6118</close>
+    <adjusted_close>50.5526</adjusted_close>
+    <volume>87477484</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>59.6334</open>
+    <high>65.1330</high>
+    <low>59.3961</low>
+    <close>64.2847</close>
+    <adjusted_close>54.8078</adjusted_close>
+    <volume>100738306</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>64.1337</open>
+    <high>65.5284</high>
+    <low>63.0338</low>
+    <close>65.2121</close>
+    <adjusted_close>55.5984</adjusted_close>
+    <volume>67551553</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>65.1186</open>
+    <high>66.1323</high>
+    <low>62.0129</low>
+    <close>65.2840</close>
+    <adjusted_close>55.6597</adjusted_close>
+    <volume>92492041</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>65.2840</open>
+    <high>66.0676</high>
+    <low>61.1646</low>
+    <close>62.0273</close>
+    <adjusted_close>53.1873</adjusted_close>
+    <volume>130054050</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>62.2100</open>
+    <high>63.8800</high>
+    <low>59.5700</low>
+    <close>63.3900</close>
+    <adjusted_close>54.3558</adjusted_close>
+    <volume>100258900</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>63.4400</open>
+    <high>65.3200</high>
+    <low>62.3200</low>
+    <close>63.3300</close>
+    <adjusted_close>54.3044</adjusted_close>
+    <volume>44265500</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>63.5600</open>
+    <high>66.2100</high>
+    <low>62.3600</low>
+    <close>65.5300</close>
+    <adjusted_close>56.4515</adjusted_close>
+    <volume>47337900</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>65.4800</open>
+    <high>68.9800</high>
+    <low>64.6900</low>
+    <close>65.3200</close>
+    <adjusted_close>56.2705</adjusted_close>
+    <volume>49324500</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>65.9000</open>
+    <high>65.9500</high>
+    <low>62.8500</low>
+    <close>63.9000</close>
+    <adjusted_close>55.0473</adjusted_close>
+    <volume>65561000</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>63.7400</open>
+    <high>66.6900</high>
+    <low>63.1800</low>
+    <close>65.7500</close>
+    <adjusted_close>56.9072</adjusted_close>
+    <volume>49835500</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>65.7200</open>
+    <high>72.7500</high>
+    <low>65.5900</low>
+    <close>72.6400</close>
+    <adjusted_close>62.8705</adjusted_close>
+    <volume>57145400</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>72.6400</open>
+    <high>75.4500</high>
+    <low>70.9000</low>
+    <close>73.7600</close>
+    <adjusted_close>63.8399</adjusted_close>
+    <volume>44765900</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>73.6000</open>
+    <high>75.6800</high>
+    <low>72.3800</low>
+    <close>75.4800</close>
+    <adjusted_close>65.5946</adjusted_close>
+    <volume>37853600</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>75.8200</open>
+    <high>77.1300</high>
+    <low>73.7700</low>
+    <close>76.8200</close>
+    <adjusted_close>66.7591</adjusted_close>
+    <volume>39823600</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>76.9900</open>
+    <high>78.1400</high>
+    <low>72.6100</low>
+    <close>73.6100</close>
+    <adjusted_close>63.9695</adjusted_close>
+    <volume>41665000</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>73.3700</open>
+    <high>77.0300</high>
+    <low>73.3700</low>
+    <close>74.4500</close>
+    <adjusted_close>64.6995</adjusted_close>
+    <volume>38051700</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>74.5400</open>
+    <high>84.0600</high>
+    <low>74.2600</low>
+    <close>83.4700</close>
+    <adjusted_close>72.8121</adjusted_close>
+    <volume>40025900</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>83.4600</open>
+    <high>84.2900</high>
+    <low>81.5900</low>
+    <close>81.6100</close>
+    <adjusted_close>71.1896</adjusted_close>
+    <volume>32807200</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>82.1500</open>
+    <high>86.9300</high>
+    <low>81.1300</low>
+    <close>84.5900</close>
+    <adjusted_close>73.7891</adjusted_close>
+    <volume>34030800</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>84.2400</open>
+    <high>84.5900</high>
+    <low>75.8800</low>
+    <close>81.3800</close>
+    <adjusted_close>71.3178</adjusted_close>
+    <volume>54005600</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>80.9800</open>
+    <high>85.6700</high>
+    <low>78.1000</low>
+    <close>85.1300</close>
+    <adjusted_close>74.6042</adjusted_close>
+    <volume>45576700</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>85.2200</open>
+    <high>88.0700</high>
+    <low>82.8900</low>
+    <close>87.1000</close>
+    <adjusted_close>76.3306</adjusted_close>
+    <volume>42252300</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>87.1100</open>
+    <high>87.2600</high>
+    <low>80.0300</low>
+    <close>81.3300</close>
+    <adjusted_close>71.5823</adjusted_close>
+    <volume>56941800</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>81.6400</open>
+    <high>84.7100</high>
+    <low>77.4300</low>
+    <close>78.2200</close>
+    <adjusted_close>68.8450</adjusted_close>
+    <volume>55149000</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>77.5200</open>
+    <high>80.6100</high>
+    <low>77.0900</low>
+    <close>79.2900</close>
+    <adjusted_close>69.7868</adjusted_close>
+    <volume>28650200</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>78.9500</open>
+    <high>86.9600</high>
+    <low>78.2200</low>
+    <close>86.8900</close>
+    <adjusted_close>76.8043</adjusted_close>
+    <volume>39462700</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>86.7400</open>
+    <high>91.2600</high>
+    <low>86.5300</low>
+    <close>90.9100</close>
+    <adjusted_close>80.3577</adjusted_close>
+    <volume>31017500</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>91.0500</open>
+    <high>92.2100</high>
+    <low>84.5300</low>
+    <close>90.4100</close>
+    <adjusted_close>79.9157</adjusted_close>
+    <volume>45849000</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>90.4800</open>
+    <high>92.4500</high>
+    <low>85.8100</low>
+    <close>92.2200</close>
+    <adjusted_close>81.8542</adjusted_close>
+    <volume>48352200</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>93.2400</open>
+    <high>94.1300</high>
+    <low>86.4000</low>
+    <close>91.9200</close>
+    <adjusted_close>81.5879</adjusted_close>
+    <volume>52015500</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>91.0900</open>
+    <high>94.3000</high>
+    <low>88.7900</low>
+    <close>93.9800</close>
+    <adjusted_close>83.4164</adjusted_close>
+    <volume>41145600</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>94.4900</open>
+    <high>95.7000</high>
+    <low>88.5200</low>
+    <close>94.5000</close>
+    <adjusted_close>84.2542</adjusted_close>
+    <volume>37269600</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>95.0000</open>
+    <high>101.3900</high>
+    <low>94.7600</low>
+    <close>99.8100</close>
+    <adjusted_close>88.9884</adjusted_close>
+    <volume>38709200</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>100.4300</open>
+    <high>104.4700</high>
+    <low>98.9900</low>
+    <close>104.3900</close>
+    <adjusted_close>93.0718</adjusted_close>
+    <volume>25532900</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>101.5000</open>
+    <high>103.4800</high>
+    <low>98.9500</low>
+    <close>102.3500</close>
+    <adjusted_close>91.6353</adjusted_close>
+    <volume>35957100</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>102.2400</open>
+    <high>111.2900</high>
+    <low>101.8300</low>
+    <close>110.6700</close>
+    <adjusted_close>99.0843</adjusted_close>
+    <volume>31278300</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>110.4600</open>
+    <high>114.3700</high>
+    <low>108.7200</low>
+    <close>112.5200</close>
+    <adjusted_close>100.7406</adjusted_close>
+    <volume>26016300</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>116.1500</open>
+    <high>119.7200</high>
+    <low>113.6400</low>
+    <close>116.7800</close>
+    <adjusted_close>104.9333</adjusted_close>
+    <volume>33172100</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>116.8000</open>
+    <high>119.5900</high>
+    <low>110.1800</low>
+    <close>113.4300</close>
+    <adjusted_close>101.9232</adjusted_close>
+    <volume>36478400</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>113.4000</open>
+    <high>115.1700</high>
+    <low>97.7400</low>
+    <close>101.7100</close>
+    <adjusted_close>91.3921</adjusted_close>
+    <volume>42693600</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>101.9300</open>
+    <high>102.2300</high>
+    <low>96.9400</low>
+    <close>100.6700</close>
+    <adjusted_close>90.8466</adjusted_close>
+    <volume>50159100</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>100.7100</open>
+    <high>102.2000</high>
+    <low>98.0300</low>
+    <close>100.7300</close>
+    <adjusted_close>90.9007</adjusted_close>
+    <volume>34331700</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>100.9000</open>
+    <high>107.0000</high>
+    <low>99.9100</low>
+    <close>105.7700</close>
+    <adjusted_close>95.4489</adjusted_close>
+    <volume>39003200</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>105.8100</open>
+    <high>107.6200</high>
+    <low>87.5600</low>
+    <close>89.2500</close>
+    <adjusted_close>80.9019</adjusted_close>
+    <volume>40261700</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>89.2500</open>
+    <high>94.8900</high>
+    <low>54.9500</low>
+    <close>68.5300</close>
+    <adjusted_close>62.1200</adjusted_close>
+    <volume>88784600</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>65.0000</open>
+    <high>90.5300</high>
+    <low>62.1600</low>
+    <close>86.4300</close>
+    <adjusted_close>78.3457</adjusted_close>
+    <volume>58796100</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>84.3900</open>
+    <high>91.3100</high>
+    <low>77.5800</low>
+    <close>89.7300</close>
+    <adjusted_close>81.7629</adjusted_close>
+    <volume>63120800</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>89.8900</open>
+    <high>98.2800</high>
+    <low>84.1700</low>
+    <close>86.9100</close>
+    <adjusted_close>79.1933</adjusted_close>
+    <volume>52180000</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>87.1700</open>
+    <high>95.4400</high>
+    <low>85.5700</low>
+    <close>91.0500</close>
+    <adjusted_close>82.9657</adjusted_close>
+    <volume>40355100</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>91.2500</open>
+    <high>97.6000</high>
+    <low>90.0400</low>
+    <close>95.8500</close>
+    <adjusted_close>87.7667</adjusted_close>
+    <volume>27974800</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>95.5900</open>
+    <high>98.6500</high>
+    <low>88.0800</low>
+    <close>91.3000</close>
+    <adjusted_close>83.6004</adjusted_close>
+    <volume>34317500</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>92.1500</open>
+    <high>101.5100</high>
+    <low>90.3300</low>
+    <close>93.3300</close>
+    <adjusted_close>85.4592</adjusted_close>
+    <volume>31629600</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>94.4200</open>
+    <high>107.7000</high>
+    <low>93.7300</low>
+    <close>105.8000</close>
+    <adjusted_close>97.3132</adjusted_close>
+    <volume>31912700</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>106.8400</open>
+    <high>110.6600</high>
+    <low>104.3200</low>
+    <close>108.5600</close>
+    <adjusted_close>99.8518</adjusted_close>
+    <volume>36913400</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>109.0200</open>
+    <high>109.6600</high>
+    <low>101.1800</low>
+    <close>101.4900</close>
+    <adjusted_close>93.3489</adjusted_close>
+    <volume>29488700</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>102.2400</open>
+    <high>106.9200</high>
+    <low>101.6400</low>
+    <close>103.5300</close>
+    <adjusted_close>95.6817</adjusted_close>
+    <volume>35690900</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>104.0100</open>
+    <high>111.6800</high>
+    <low>101.9400</low>
+    <close>108.1800</close>
+    <adjusted_close>99.9792</adjusted_close>
+    <volume>43217400</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>108.6700</open>
+    <high>119.9200</high>
+    <low>107.9900</low>
+    <close>119.5200</close>
+    <adjusted_close>110.4595</adjusted_close>
+    <volume>28270800</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>120.0000</open>
+    <high>122.7300</high>
+    <low>116.9200</low>
+    <close>119.9700</close>
+    <adjusted_close>111.3374</adjusted_close>
+    <volume>31210000</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>121.0000</open>
+    <high>121.0000</high>
+    <low>114.5100</low>
+    <close>115.0300</close>
+    <adjusted_close>106.7529</adjusted_close>
+    <volume>39701000</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>115.4900</open>
+    <high>132.0200</high>
+    <low>112.1500</low>
+    <close>131.3900</close>
+    <adjusted_close>121.9357</adjusted_close>
+    <volume>32683500</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>132.0900</open>
+    <high>135.7700</high>
+    <low>130.4500</low>
+    <close>131.0300</close>
+    <adjusted_close>122.0555</adjusted_close>
+    <volume>25676900</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>131.4200</open>
+    <high>132.6100</high>
+    <low>121.6800</low>
+    <close>122.3100</close>
+    <adjusted_close>113.9328</adjusted_close>
+    <volume>37099500</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>123.3000</open>
+    <high>127.9600</high>
+    <low>121.2100</low>
+    <close>124.9400</close>
+    <adjusted_close>116.3826</adjusted_close>
+    <volume>31436400</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>125.5400</open>
+    <high>128.8700</high>
+    <low>122.3800</low>
+    <close>122.8400</close>
+    <adjusted_close>114.8802</adjusted_close>
+    <volume>24861100</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>124.3700</open>
+    <high>139.8500</high>
+    <low>123.0900</low>
+    <close>138.8600</close>
+    <adjusted_close>129.8622</adjusted_close>
+    <volume>29383400</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>138.3800</open>
+    <high>138.7700</high>
+    <low>118.4400</low>
+    <close>125.1700</close>
+    <adjusted_close>117.0592</adjusted_close>
+    <volume>39158000</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>125.0600</open>
+    <high>132.8700</high>
+    <low>118.5300</low>
+    <close>122.5800</close>
+    <adjusted_close>115.1693</adjusted_close>
+    <volume>42848600</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>121.5800</open>
+    <high>124.3400</high>
+    <low>111.6300</low>
+    <close>118.5300</close>
+    <adjusted_close>111.3641</adjusted_close>
+    <volume>46118300</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>118.9300</open>
+    <high>127.2800</high>
+    <low>115.5500</low>
+    <close>117.0100</close>
+    <adjusted_close>109.9360</adjusted_close>
+    <volume>40513200</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>116.9000</open>
+    <high>122.0500</high>
+    <low>108.5500</low>
+    <close>121.4700</close>
+    <adjusted_close>114.6919</adjusted_close>
+    <volume>37590400</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>121.9100</open>
+    <high>122.0000</high>
+    <low>108.3700</low>
+    <close>113.5100</close>
+    <adjusted_close>107.1761</adjusted_close>
+    <volume>28286200</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>113.8400</open>
+    <high>123.0100</high>
+    <low>113.4200</low>
+    <close>122.5400</close>
+    <adjusted_close>115.7022</adjusted_close>
+    <volume>27363700</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>121.7700</open>
+    <high>123.7900</high>
+    <low>110.5600</low>
+    <close>111.2400</close>
+    <adjusted_close>105.5478</adjusted_close>
+    <volume>38999900</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>110.7200</open>
+    <high>118.6500</high>
+    <low>106.3000</low>
+    <close>106.3400</close>
+    <adjusted_close>100.8985</adjusted_close>
+    <volume>35684700</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>107.4800</open>
+    <high>119.4600</high>
+    <low>103.9700</low>
+    <close>118.2500</close>
+    <adjusted_close>112.1991</adjusted_close>
+    <volume>36748100</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>119.0100</open>
+    <high>128.9600</high>
+    <low>116.1900</low>
+    <close>128.6600</close>
+    <adjusted_close>122.6359</adjusted_close>
+    <volume>42584000</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>129.0000</open>
+    <high>132.2400</high>
+    <low>126.9600</low>
+    <close>128.0800</close>
+    <adjusted_close>122.0830</adjusted_close>
+    <volume>36014700</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>128.4200</open>
+    <high>131.5800</high>
+    <low>125.8500</low>
+    <close>130.5100</close>
+    <adjusted_close>124.3992</adjusted_close>
+    <volume>28523700</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>130.1300</open>
+    <high>133.7700</high>
+    <low>126.0800</low>
+    <close>127.1600</close>
+    <adjusted_close>121.7640</adjusted_close>
+    <volume>36799000</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>126.6500</open>
+    <high>132.2700</high>
+    <low>123.7800</low>
+    <close>132.0800</close>
+    <adjusted_close>126.4752</adjusted_close>
+    <volume>30609400</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>132.0800</open>
+    <high>140.9300</high>
+    <low>130.6500</low>
+    <close>140.5800</close>
+    <adjusted_close>134.6145</adjusted_close>
+    <volume>26651900</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>140.5800</open>
+    <high>143.2500</high>
+    <low>126.9100</low>
+    <close>128.6900</close>
+    <adjusted_close>123.8041</adjusted_close>
+    <volume>40972100</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>128.3800</open>
+    <high>140.5400</high>
+    <low>127.9900</low>
+    <close>138.5500</close>
+    <adjusted_close>133.2897</adjusted_close>
+    <volume>41794400</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>137.5300</open>
+    <high>139.3900</high>
+    <low>132.0600</low>
+    <close>137.6700</close>
+    <adjusted_close>132.4432</adjusted_close>
+    <volume>27379100</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>137.9300</open>
+    <high>139.1600</high>
+    <low>128.2800</low>
+    <close>129.3800</close>
+    <adjusted_close>125.0510</adjusted_close>
+    <volume>33656200</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>129.9300</open>
+    <high>132.3500</high>
+    <low>121.1400</low>
+    <close>124.9400</close>
+    <adjusted_close>120.7596</adjusted_close>
+    <volume>29981700</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>124.5300</open>
+    <high>125.3800</high>
+    <low>115.5300</low>
+    <close>120.8600</close>
+    <adjusted_close>116.8161</adjusted_close>
+    <volume>36548000</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>121.8800</open>
+    <high>129.3500</high>
+    <low>119.5300</low>
+    <close>125.5500</close>
+    <adjusted_close>121.9232</adjusted_close>
+    <volume>29196800</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>125.5900</open>
+    <high>131.9700</high>
+    <low>123.7000</low>
+    <close>130.6600</close>
+    <adjusted_close>126.8856</adjusted_close>
+    <volume>32352000</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>129.7300</open>
+    <high>132.6400</high>
+    <low>127.0000</low>
+    <close>129.4900</close>
+    <adjusted_close>125.7494</adjusted_close>
+    <volume>32386500</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>129.3100</open>
+    <high>139.6500</high>
+    <low>125.7400</low>
+    <close>138.4200</close>
+    <adjusted_close>135.0941</adjusted_close>
+    <volume>44332800</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>137.4600</open>
+    <high>141.6400</high>
+    <low>134.4200</low>
+    <close>138.6500</close>
+    <adjusted_close>135.3186</adjusted_close>
+    <volume>41796900</volume>
+    <news>YUM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>138.5500</open>
+    <high>143.2000</high>
+    <low>134.5000</low>
+    <close>141.2500</close>
+    <adjusted_close>137.8561</adjusted_close>
+    <volume>44489300</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>136.5000</open>
+    <high>141.9200</high>
+    <low>133.9200</low>
+    <close>137.4300</close>
+    <adjusted_close>134.7870</adjusted_close>
+    <volume>42962100</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>137.1400</open>
+    <high>142.2300</high>
+    <low>131.2700</low>
+    <close>132.4600</close>
+    <adjusted_close>129.9126</adjusted_close>
+    <volume>41118900</volume>
+    <news>YUM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>132.5600</open>
+    <high>134.0300</high>
+    <low>124.7600</low>
+    <close>132.8300</close>
+    <adjusted_close>130.2755</adjusted_close>
+    <volume>41488400</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>133.4600</open>
+    <high>139.8700</high>
+    <low>131.6600</low>
+    <close>134.9200</close>
+    <adjusted_close>132.9855</adjusted_close>
+    <volume>41801000</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>134.6000</open>
+    <high>141.4800</high>
+    <low>128.7200</low>
+    <close>139.7100</close>
+    <adjusted_close>137.7069</adjusted_close>
+    <volume>43156200</volume>
+    <news>YUM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>139.7900</open>
+    <high>140.1400</high>
+    <low>131.0200</low>
+    <close>131.1600</close>
+    <adjusted_close>129.2795</adjusted_close>
+    <volume>33715400</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>132.2000</open>
+    <high>139.9800</high>
+    <low>131.1700</low>
+    <close>138.9400</close>
+    <adjusted_close>136.9479</adjusted_close>
+    <volume>40128200</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>137.9300</open>
+    <high>139.6000</high>
+    <low>130.1400</low>
+    <close>134.1600</close>
+    <adjusted_close>132.8772</adjusted_close>
+    <volume>32051500</volume>
+    <news>YUM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</yum_brands_stock_data>

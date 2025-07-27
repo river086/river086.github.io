@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<qualcomm_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>99.6250</open>
+    <high>100.0000</high>
+    <low>52.8125</low>
+    <close>63.5000</close>
+    <adjusted_close>39.7613</adjusted_close>
+    <volume>1098378800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>65.7500</open>
+    <high>74.0000</high>
+    <low>60.0312</low>
+    <close>71.2188</close>
+    <adjusted_close>44.5945</adjusted_close>
+    <volume>680639600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>70.2500</open>
+    <high>81.2812</high>
+    <low>61.0000</low>
+    <close>74.6562</close>
+    <adjusted_close>46.7469</adjusted_close>
+    <volume>743109200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>74.3438</open>
+    <high>76.3750</high>
+    <low>46.1250</low>
+    <close>54.2188</close>
+    <adjusted_close>33.9497</adjusted_close>
+    <volume>736248200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>54.8125</open>
+    <high>60.0000</high>
+    <low>30.0000</low>
+    <close>33.1875</close>
+    <adjusted_close>20.7807</adjusted_close>
+    <volume>939409400</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>35.6250</open>
+    <high>42.1562</high>
+    <low>28.7500</low>
+    <close>30.0000</close>
+    <adjusted_close>18.7849</adjusted_close>
+    <volume>1135084600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>29.9688</open>
+    <high>35.4688</high>
+    <low>25.7500</low>
+    <close>32.4688</close>
+    <adjusted_close>20.3307</adjusted_close>
+    <volume>625888800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>32.4688</open>
+    <high>33.9375</high>
+    <low>27.4062</low>
+    <close>29.9375</close>
+    <adjusted_close>18.7457</adjusted_close>
+    <volume>406286400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>30.4062</open>
+    <high>39.3750</high>
+    <low>29.0000</low>
+    <close>35.6250</close>
+    <adjusted_close>22.3070</adjusted_close>
+    <volume>749230000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>36.3125</open>
+    <high>43.5000</high>
+    <low>31.5625</low>
+    <close>32.5547</close>
+    <adjusted_close>20.3845</adjusted_close>
+    <volume>673523400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>31.6953</open>
+    <high>45.6875</high>
+    <low>30.5000</low>
+    <close>40.1250</close>
+    <adjusted_close>25.1247</adjusted_close>
+    <volume>645744000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>41.1875</open>
+    <high>53.9062</high>
+    <low>37.1250</low>
+    <close>41.0938</close>
+    <adjusted_close>25.7313</adjusted_close>
+    <volume>750039000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>40.9375</open>
+    <high>43.5000</high>
+    <low>33.8750</low>
+    <close>42.0312</close>
+    <adjusted_close>26.3184</adjusted_close>
+    <volume>657276600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>41.5625</open>
+    <high>44.6875</high>
+    <low>25.0625</low>
+    <close>27.4062</close>
+    <adjusted_close>17.1607</adjusted_close>
+    <volume>725867400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>27.5625</open>
+    <high>33.2344</high>
+    <low>23.6250</low>
+    <close>28.3125</close>
+    <adjusted_close>17.7282</adjusted_close>
+    <volume>878145000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>27.7500</open>
+    <high>33.2500</high>
+    <low>21.3750</low>
+    <close>28.6800</close>
+    <adjusted_close>17.9583</adjusted_close>
+    <volume>786441400</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>28.3600</open>
+    <high>35.5200</high>
+    <low>27.6000</low>
+    <close>30.3700</close>
+    <adjusted_close>19.0165</adjusted_close>
+    <volume>501794200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>30.6250</open>
+    <high>32.7650</high>
+    <low>23.9900</low>
+    <close>29.2400</close>
+    <adjusted_close>18.3090</adjusted_close>
+    <volume>448537800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>28.7700</open>
+    <high>33.9700</high>
+    <low>27.6100</low>
+    <close>31.6150</close>
+    <adjusted_close>19.7961</adjusted_close>
+    <volume>547380000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>32.1050</open>
+    <high>34.4350</high>
+    <low>29.0150</low>
+    <close>29.4250</close>
+    <adjusted_close>18.4248</adjusted_close>
+    <volume>479530800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>29.3750</open>
+    <high>29.5000</high>
+    <low>21.3000</low>
+    <close>23.7700</close>
+    <adjusted_close>14.8839</adjusted_close>
+    <volume>585614800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>23.6250</open>
+    <high>28.5000</high>
+    <low>19.1550</low>
+    <close>24.5600</close>
+    <adjusted_close>15.3785</adjusted_close>
+    <volume>970498800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>24.9700</open>
+    <high>31.2450</high>
+    <low>24.5000</low>
+    <close>29.3600</close>
+    <adjusted_close>18.3841</adjusted_close>
+    <volume>633468600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>29.0750</open>
+    <high>31.1250</high>
+    <low>24.6850</low>
+    <close>25.2500</close>
+    <adjusted_close>15.8106</adjusted_close>
+    <volume>442133000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>25.4850</open>
+    <high>26.6700</high>
+    <low>20.6300</low>
+    <close>22.0250</close>
+    <adjusted_close>13.7912</adjusted_close>
+    <volume>710850800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>21.9200</open>
+    <high>21.9950</high>
+    <low>15.5150</low>
+    <close>16.6250</close>
+    <adjusted_close>10.4099</adjusted_close>
+    <volume>744891200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>16.9000</open>
+    <high>22.3250</high>
+    <low>16.7400</low>
+    <close>18.8200</close>
+    <adjusted_close>11.7844</adjusted_close>
+    <volume>519217800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>18.5500</open>
+    <high>20.1750</high>
+    <low>14.2800</low>
+    <close>15.0800</close>
+    <adjusted_close>9.4425</adjusted_close>
+    <volume>603103000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>14.8800</open>
+    <high>16.9800</high>
+    <low>12.3150</low>
+    <close>15.8200</close>
+    <adjusted_close>9.9059</adjusted_close>
+    <volume>660463600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>16.2300</open>
+    <high>17.0000</high>
+    <low>12.2450</low>
+    <close>13.7450</close>
+    <adjusted_close>8.6066</adjusted_close>
+    <volume>762069600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>13.6250</open>
+    <high>15.6950</high>
+    <low>12.1200</low>
+    <close>13.7400</close>
+    <adjusted_close>8.6035</adjusted_close>
+    <volume>714083200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>12.8750</open>
+    <high>15.3400</high>
+    <low>11.6050</low>
+    <close>13.8550</close>
+    <adjusted_close>8.6755</adjusted_close>
+    <volume>532891800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>13.6950</open>
+    <high>15.5350</high>
+    <low>12.5500</low>
+    <close>13.8100</close>
+    <adjusted_close>8.6473</adjusted_close>
+    <volume>610756400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>14.1000</open>
+    <high>18.5500</high>
+    <low>13.6650</low>
+    <close>17.2600</close>
+    <adjusted_close>10.8075</adjusted_close>
+    <volume>834662800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>17.0250</open>
+    <high>21.0000</high>
+    <low>16.4500</low>
+    <close>20.6100</close>
+    <adjusted_close>12.9052</adjusted_close>
+    <volume>681686600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>21.0000</open>
+    <high>21.4450</high>
+    <low>17.9150</low>
+    <close>18.1950</close>
+    <adjusted_close>11.3930</adjusted_close>
+    <volume>502161800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>18.3100</open>
+    <high>19.9550</high>
+    <low>17.7000</low>
+    <close>18.8300</close>
+    <adjusted_close>11.7906</adjusted_close>
+    <volume>596698800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>18.8450</open>
+    <high>19.3800</high>
+    <low>16.3150</low>
+    <close>17.2900</close>
+    <adjusted_close>10.8263</adjusted_close>
+    <volume>596328400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>17.4600</open>
+    <high>19.9750</high>
+    <low>16.7200</low>
+    <close>18.0000</close>
+    <adjusted_close>11.2873</adjusted_close>
+    <volume>578553400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>18.2500</open>
+    <high>18.3200</high>
+    <low>15.3300</low>
+    <close>15.9400</close>
+    <adjusted_close>9.9955</adjusted_close>
+    <volume>689866600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>15.9700</open>
+    <high>16.9100</high>
+    <low>14.7900</low>
+    <close>16.7750</close>
+    <adjusted_close>10.5357</adjusted_close>
+    <volume>615555000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>16.9450</open>
+    <high>19.0900</high>
+    <low>16.2750</low>
+    <close>17.9700</close>
+    <adjusted_close>11.2862</adjusted_close>
+    <volume>550365000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>17.7250</open>
+    <high>19.9900</high>
+    <low>17.1650</low>
+    <close>18.7400</close>
+    <adjusted_close>11.7698</adjusted_close>
+    <volume>470635000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>18.7300</open>
+    <high>20.7950</high>
+    <low>17.5650</low>
+    <close>20.6650</close>
+    <adjusted_close>13.0018</adjusted_close>
+    <volume>425927600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>20.5950</open>
+    <high>23.0250</high>
+    <low>20.0800</low>
+    <close>20.8350</close>
+    <adjusted_close>13.1088</adjusted_close>
+    <volume>483666400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>20.9800</open>
+    <high>24.3000</high>
+    <low>20.5000</low>
+    <close>23.7450</close>
+    <adjusted_close>14.9397</adjusted_close>
+    <volume>386964800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>23.7450</open>
+    <high>24.3400</high>
+    <low>21.8050</low>
+    <close>22.2750</close>
+    <adjusted_close>14.0365</adjusted_close>
+    <volume>319140200</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>22.4550</open>
+    <high>27.4250</high>
+    <low>22.1350</low>
+    <close>26.9650</close>
+    <adjusted_close>16.9919</adjusted_close>
+    <volume>436479600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>27.0100</open>
+    <high>30.3650</high>
+    <low>26.6650</low>
+    <close>29.3050</close>
+    <adjusted_close>18.4664</adjusted_close>
+    <volume>385494600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>29.1850</open>
+    <high>32.0000</high>
+    <low>27.8050</low>
+    <close>31.5450</close>
+    <adjusted_close>19.9008</adjusted_close>
+    <volume>329524200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>31.7200</open>
+    <high>33.4850</high>
+    <low>30.6000</low>
+    <close>33.1450</close>
+    <adjusted_close>20.9102</adjusted_close>
+    <volume>460021200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>32.7500</open>
+    <high>34.6900</high>
+    <low>31.0350</low>
+    <close>31.2300</close>
+    <adjusted_close>19.7021</adjusted_close>
+    <volume>359217000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>31.2750</open>
+    <high>33.6250</high>
+    <low>30.9000</low>
+    <close>33.5350</close>
+    <adjusted_close>21.1879</adjusted_close>
+    <volume>357693400</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>33.2400</open>
+    <high>36.6650</high>
+    <low>32.3650</low>
+    <close>36.4900</close>
+    <adjusted_close>23.0549</adjusted_close>
+    <volume>394253600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>36.7050</open>
+    <high>36.7500</high>
+    <low>33.7000</low>
+    <close>34.6050</close>
+    <adjusted_close>21.8639</adjusted_close>
+    <volume>389683200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>34.9400</open>
+    <high>38.8500</high>
+    <low>33.6600</low>
+    <close>38.0500</close>
+    <adjusted_close>24.0849</adjusted_close>
+    <volume>322707400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>37.4100</open>
+    <high>41.1700</high>
+    <low>37.3600</low>
+    <close>39.0400</close>
+    <adjusted_close>24.7115</adjusted_close>
+    <volume>307109000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>39.4000</open>
+    <high>44.4100</high>
+    <low>38.6800</low>
+    <close>41.6000</close>
+    <adjusted_close>26.3319</adjusted_close>
+    <volume>263790100</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>41.0000</open>
+    <high>42.2800</high>
+    <low>37.7700</low>
+    <close>41.6200</close>
+    <adjusted_close>26.3446</adjusted_close>
+    <volume>301627900</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>41.6800</open>
+    <high>44.9900</high>
+    <low>41.6500</low>
+    <close>42.4000</close>
+    <adjusted_close>26.8816</adjusted_close>
+    <volume>274567700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>42.7000</open>
+    <high>43.7100</high>
+    <low>35.6400</low>
+    <close>37.2400</close>
+    <adjusted_close>23.6102</adjusted_close>
+    <volume>352095300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>37.1400</open>
+    <high>37.7200</high>
+    <low>33.9900</low>
+    <close>36.0500</close>
+    <adjusted_close>22.9021</adjusted_close>
+    <volume>293193600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>36.2100</open>
+    <high>38.5400</high>
+    <low>35.2200</low>
+    <close>36.6300</close>
+    <adjusted_close>23.2706</adjusted_close>
+    <volume>365073500</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>36.6300</open>
+    <high>36.7400</high>
+    <low>32.0800</low>
+    <close>34.8900</close>
+    <adjusted_close>22.1652</adjusted_close>
+    <volume>380708600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>34.8400</open>
+    <high>37.7500</high>
+    <low>34.5200</low>
+    <close>37.2700</close>
+    <adjusted_close>23.7347</adjusted_close>
+    <volume>233196600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>37.0100</open>
+    <high>38.5200</high>
+    <low>33.0000</low>
+    <close>33.0100</close>
+    <adjusted_close>21.0218</adjusted_close>
+    <volume>282365600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>33.2400</open>
+    <high>40.2700</high>
+    <low>32.9800</low>
+    <close>39.4800</close>
+    <adjusted_close>25.1421</adjusted_close>
+    <volume>299937200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>39.2400</open>
+    <high>41.7300</high>
+    <low>38.6100</low>
+    <close>39.7100</close>
+    <adjusted_close>25.3452</adjusted_close>
+    <volume>242949500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>39.4700</open>
+    <high>45.0500</high>
+    <low>39.4300</low>
+    <close>44.7500</close>
+    <adjusted_close>28.5620</adjusted_close>
+    <volume>289816200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>44.9800</open>
+    <high>46.2800</high>
+    <low>39.0200</low>
+    <close>39.7600</close>
+    <adjusted_close>25.3771</adjusted_close>
+    <volume>373917400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>39.8600</open>
+    <high>46.5100</high>
+    <low>39.0800</low>
+    <close>45.4700</close>
+    <adjusted_close>29.0216</adjusted_close>
+    <volume>324816000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>45.1700</open>
+    <high>46.6000</high>
+    <low>42.9800</low>
+    <close>43.0800</close>
+    <adjusted_close>27.5510</adjusted_close>
+    <volume>255558700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>43.2500</open>
+    <high>49.4500</high>
+    <low>42.9100</low>
+    <close>47.9600</close>
+    <adjusted_close>30.6719</adjusted_close>
+    <volume>308856200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>47.3300</open>
+    <high>48.8800</high>
+    <low>45.0800</low>
+    <close>47.1600</close>
+    <adjusted_close>30.2182</adjusted_close>
+    <volume>217107100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>47.2300</open>
+    <high>51.7500</high>
+    <low>46.7900</low>
+    <close>50.6100</close>
+    <adjusted_close>32.4288</adjusted_close>
+    <volume>328250200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>51.1400</open>
+    <high>52.5800</high>
+    <low>50.6300</low>
+    <close>51.3400</close>
+    <adjusted_close>32.8966</adjusted_close>
+    <volume>212823500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>51.4600</open>
+    <high>53.0100</high>
+    <low>44.1000</low>
+    <close>45.2100</close>
+    <adjusted_close>29.0456</adjusted_close>
+    <volume>324366300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>45.2000</open>
+    <high>47.7700</high>
+    <low>38.5400</low>
+    <close>40.0700</close>
+    <adjusted_close>25.7433</adjusted_close>
+    <volume>450339000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>39.4700</open>
+    <high>39.7200</high>
+    <low>33.9400</low>
+    <close>35.2600</close>
+    <adjusted_close>22.6531</adjusted_close>
+    <volume>354560800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>34.9200</open>
+    <high>38.5000</high>
+    <low>32.7600</low>
+    <close>37.6700</close>
+    <adjusted_close>24.2791</adjusted_close>
+    <volume>326611400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>38.3300</open>
+    <high>39.4900</high>
+    <low>35.9900</low>
+    <close>36.3500</close>
+    <adjusted_close>23.4283</adjusted_close>
+    <volume>358602600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>36.1100</open>
+    <high>40.0000</high>
+    <low>34.1000</low>
+    <close>36.3900</close>
+    <adjusted_close>23.4541</adjusted_close>
+    <volume>389409000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>36.8000</open>
+    <high>38.4000</high>
+    <low>34.3500</low>
+    <close>36.5900</close>
+    <adjusted_close>23.5830</adjusted_close>
+    <volume>387611200</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>36.5000</open>
+    <high>40.9900</high>
+    <low>35.8000</low>
+    <close>37.7900</close>
+    <adjusted_close>24.4346</adjusted_close>
+    <volume>344018000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>37.7600</open>
+    <high>39.9600</high>
+    <low>36.7900</low>
+    <close>37.6600</close>
+    <adjusted_close>24.3506</adjusted_close>
+    <volume>370903000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>37.8000</open>
+    <high>43.6100</high>
+    <low>37.0000</low>
+    <close>40.3000</close>
+    <adjusted_close>26.1355</adjusted_close>
+    <volume>460870300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>39.5600</open>
+    <high>44.1200</high>
+    <low>39.0400</low>
+    <close>42.6600</close>
+    <adjusted_close>27.6660</adjusted_close>
+    <volume>474542000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>42.6800</open>
+    <high>46.3300</high>
+    <low>41.6000</low>
+    <close>43.8000</close>
+    <adjusted_close>28.4053</adjusted_close>
+    <volume>324762400</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>44.0100</open>
+    <high>47.7200</high>
+    <low>42.1400</low>
+    <close>42.9500</close>
+    <adjusted_close>27.9424</adjusted_close>
+    <volume>424282800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>43.5300</open>
+    <high>43.9900</high>
+    <low>40.9800</low>
+    <close>43.3900</close>
+    <adjusted_close>28.2287</adjusted_close>
+    <volume>409815600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>43.6000</open>
+    <high>45.5800</high>
+    <low>41.2700</low>
+    <close>41.6500</close>
+    <adjusted_close>27.0967</adjusted_close>
+    <volume>405505600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>41.5200</open>
+    <high>42.3500</high>
+    <low>35.2300</low>
+    <close>39.8900</close>
+    <adjusted_close>26.0479</adjusted_close>
+    <volume>563697300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>39.9000</open>
+    <high>43.0600</high>
+    <low>36.6800</low>
+    <close>42.2600</close>
+    <adjusted_close>27.5955</adjusted_close>
+    <volume>364964300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>42.0500</open>
+    <high>43.4000</high>
+    <low>40.0500</low>
+    <close>42.7300</close>
+    <adjusted_close>27.9024</adjusted_close>
+    <volume>366864000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>42.2600</open>
+    <high>42.7000</high>
+    <low>36.6000</low>
+    <close>40.7800</close>
+    <adjusted_close>26.6291</adjusted_close>
+    <volume>464896700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>40.6200</open>
+    <high>41.5700</high>
+    <low>37.7500</low>
+    <close>39.3500</close>
+    <adjusted_close>25.7870</adjusted_close>
+    <volume>296516800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>38.2300</open>
+    <high>42.6600</high>
+    <low>35.1700</low>
+    <close>42.4200</close>
+    <adjusted_close>27.7989</adjusted_close>
+    <volume>558692000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>42.2700</open>
+    <high>44.8500</high>
+    <low>38.9500</low>
+    <close>42.3900</close>
+    <adjusted_close>27.8686</adjusted_close>
+    <volume>381698000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>42.0100</open>
+    <high>42.1200</high>
+    <low>36.9100</low>
+    <close>41.0000</close>
+    <adjusted_close>26.9548</adjusted_close>
+    <volume>411079300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>41.2500</open>
+    <high>44.0100</high>
+    <low>40.6500</low>
+    <close>43.1900</close>
+    <adjusted_close>28.3946</adjusted_close>
+    <volume>355046600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>43.2000</open>
+    <high>49.5000</high>
+    <low>42.8300</low>
+    <close>48.5400</close>
+    <adjusted_close>32.0167</adjusted_close>
+    <volume>375340100</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>48.6100</open>
+    <high>50.8200</high>
+    <low>44.3400</low>
+    <close>44.3700</close>
+    <adjusted_close>29.2662</adjusted_close>
+    <volume>510431500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>44.1500</open>
+    <high>56.0000</high>
+    <low>42.6900</low>
+    <close>55.3400</close>
+    <adjusted_close>36.5020</adjusted_close>
+    <volume>639374400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>55.4900</open>
+    <high>56.8800</high>
+    <low>52.2200</low>
+    <close>52.6500</close>
+    <adjusted_close>34.8318</adjusted_close>
+    <volume>335477400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>53.3100</open>
+    <high>53.5400</high>
+    <low>37.8200</low>
+    <close>42.9700</close>
+    <adjusted_close>28.4278</adjusted_close>
+    <volume>575805500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>42.7900</open>
+    <high>43.2400</high>
+    <low>32.2100</low>
+    <close>38.2600</close>
+    <adjusted_close>25.3118</adjusted_close>
+    <volume>696842500</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>38.2100</open>
+    <high>38.8800</high>
+    <low>28.1600</low>
+    <close>33.5700</close>
+    <adjusted_close>22.2090</adjusted_close>
+    <volume>493757600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>32.6700</open>
+    <high>36.3800</high>
+    <low>29.3400</low>
+    <close>35.8300</close>
+    <adjusted_close>23.8178</adjusted_close>
+    <volume>416690600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>35.6500</open>
+    <high>37.7100</high>
+    <low>33.2900</low>
+    <close>34.5500</close>
+    <adjusted_close>22.9669</adjusted_close>
+    <volume>427386600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>34.1600</open>
+    <high>36.9000</high>
+    <low>32.6700</low>
+    <close>33.4300</close>
+    <adjusted_close>22.3260</adjusted_close>
+    <volume>441853700</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>32.9300</open>
+    <high>39.7000</high>
+    <low>32.6400</low>
+    <close>38.9100</close>
+    <adjusted_close>25.9858</adjusted_close>
+    <volume>524996000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>38.2700</open>
+    <high>44.5900</high>
+    <low>38.0600</low>
+    <close>42.3200</close>
+    <adjusted_close>28.2631</adjusted_close>
+    <volume>426584500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>42.3100</open>
+    <high>44.2100</high>
+    <low>39.8500</low>
+    <close>43.5900</close>
+    <adjusted_close>29.2261</adjusted_close>
+    <volume>323523300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>44.1000</open>
+    <high>46.7300</high>
+    <low>42.8500</low>
+    <close>45.2000</close>
+    <adjusted_close>30.3055</adjusted_close>
+    <volume>404673800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>45.3700</open>
+    <high>48.7200</high>
+    <low>42.6700</low>
+    <close>46.2100</close>
+    <adjusted_close>30.9827</adjusted_close>
+    <volume>380797100</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>46.6700</open>
+    <high>48.2000</high>
+    <low>44.6400</low>
+    <close>46.4200</close>
+    <adjusted_close>31.2365</adjusted_close>
+    <volume>289107200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>46.0400</open>
+    <high>46.7500</high>
+    <low>44.0000</low>
+    <close>44.9800</close>
+    <adjusted_close>30.2675</adjusted_close>
+    <volume>378933300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>44.6100</open>
+    <high>44.6400</high>
+    <low>40.1500</low>
+    <close>41.3300</close>
+    <adjusted_close>27.8114</adjusted_close>
+    <volume>460557600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>41.3500</open>
+    <high>46.2500</high>
+    <low>41.0800</low>
+    <close>45.0000</close>
+    <adjusted_close>30.3956</adjusted_close>
+    <volume>297577100</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>45.0000</open>
+    <high>46.9900</high>
+    <low>44.0500</low>
+    <close>46.2600</close>
+    <adjusted_close>31.2466</adjusted_close>
+    <volume>242574100</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>46.7900</open>
+    <high>49.8000</high>
+    <low>38.4900</low>
+    <close>39.1900</close>
+    <adjusted_close>26.4712</adjusted_close>
+    <volume>573440200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>39.2500</open>
+    <high>39.9700</high>
+    <low>36.4700</low>
+    <close>36.6800</close>
+    <adjusted_close>24.8855</adjusted_close>
+    <volume>611008200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>36.8200</open>
+    <high>43.8400</high>
+    <low>35.4600</low>
+    <close>41.9600</close>
+    <adjusted_close>28.4677</adjusted_close>
+    <volume>656161500</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>42.1700</open>
+    <high>43.3900</high>
+    <low>37.7800</low>
+    <close>38.6800</close>
+    <adjusted_close>26.2424</adjusted_close>
+    <volume>515748800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>38.9100</open>
+    <high>39.0500</high>
+    <low>34.5200</low>
+    <close>35.5600</close>
+    <adjusted_close>24.2551</adjusted_close>
+    <volume>456356500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>35.4500</open>
+    <high>36.8100</high>
+    <low>32.7300</low>
+    <close>32.8400</close>
+    <adjusted_close>22.3998</adjusted_close>
+    <volume>436026500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>32.7900</open>
+    <high>39.6600</high>
+    <low>31.6300</low>
+    <close>38.0800</close>
+    <adjusted_close>25.9739</adjusted_close>
+    <volume>464414400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>38.3300</open>
+    <high>40.0000</high>
+    <low>37.4500</low>
+    <close>38.3000</close>
+    <adjusted_close>26.2551</adjusted_close>
+    <volume>351828600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>38.9600</open>
+    <high>45.7500</high>
+    <low>38.9200</low>
+    <close>45.1300</close>
+    <adjusted_close>30.9372</adjusted_close>
+    <volume>389606700</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>45.5100</open>
+    <high>45.6300</high>
+    <low>42.4500</low>
+    <close>45.1600</close>
+    <adjusted_close>30.9578</adjusted_close>
+    <volume>311684400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>45.5200</open>
+    <high>49.4500</high>
+    <low>44.6200</low>
+    <close>46.8200</close>
+    <adjusted_close>32.2234</adjusted_close>
+    <volume>382881200</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>47.3200</open>
+    <high>50.3100</high>
+    <low>47.3000</low>
+    <close>49.4900</close>
+    <adjusted_close>34.0610</adjusted_close>
+    <volume>226519300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>49.8900</open>
+    <high>55.0000</high>
+    <low>49.5900</low>
+    <close>54.1300</close>
+    <adjusted_close>37.2544</adjusted_close>
+    <volume>358451100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>54.3000</open>
+    <high>59.8000</high>
+    <low>53.8100</low>
+    <close>59.5800</close>
+    <adjusted_close>41.1395</adjusted_close>
+    <volume>281260100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>59.8400</open>
+    <high>59.8400</high>
+    <low>50.1000</low>
+    <close>54.8300</close>
+    <adjusted_close>37.8597</adjusted_close>
+    <volume>423496600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>55.0700</open>
+    <high>58.4600</high>
+    <low>51.4500</low>
+    <close>57.0900</close>
+    <adjusted_close>39.4202</adjusted_close>
+    <volume>294357800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>57.4400</open>
+    <high>58.5900</high>
+    <low>55.4200</low>
+    <close>58.5900</close>
+    <adjusted_close>40.6110</adjusted_close>
+    <volume>244854300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>58.4300</open>
+    <high>58.9500</high>
+    <low>52.1300</low>
+    <close>56.7900</close>
+    <adjusted_close>39.3633</adjusted_close>
+    <volume>285193300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>56.7900</open>
+    <high>59.4800</high>
+    <low>54.0600</low>
+    <close>54.7800</close>
+    <adjusted_close>37.9701</adjusted_close>
+    <volume>310773300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>55.3400</open>
+    <high>55.4400</high>
+    <low>45.9800</low>
+    <close>51.4600</close>
+    <adjusted_close>35.8292</adjusted_close>
+    <volume>459187100</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>51.9200</open>
+    <high>54.3000</high>
+    <low>47.6000</low>
+    <close>48.6300</close>
+    <adjusted_close>33.8588</adjusted_close>
+    <volume>355294800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>48.2100</open>
+    <high>55.0300</high>
+    <low>46.4000</low>
+    <close>51.6000</close>
+    <adjusted_close>35.9267</adjusted_close>
+    <volume>332568800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>49.9200</open>
+    <high>57.9700</high>
+    <low>49.7800</low>
+    <close>54.8000</close>
+    <adjusted_close>38.3026</adjusted_close>
+    <volume>368909400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>54.7000</open>
+    <high>55.7300</high>
+    <low>51.7600</low>
+    <close>54.7000</close>
+    <adjusted_close>38.2327</adjusted_close>
+    <volume>231717500</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>55.8800</open>
+    <high>59.5000</high>
+    <low>54.5600</low>
+    <close>58.8200</close>
+    <adjusted_close>41.1124</adjusted_close>
+    <volume>260814400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>59.4800</open>
+    <high>63.8100</high>
+    <low>58.7900</low>
+    <close>62.1800</close>
+    <adjusted_close>43.6105</adjusted_close>
+    <volume>267610000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>62.2100</open>
+    <high>68.8700</high>
+    <low>60.9300</low>
+    <close>68.0600</close>
+    <adjusted_close>47.7344</adjusted_close>
+    <volume>248342900</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>68.2500</open>
+    <high>68.8300</high>
+    <low>61.2600</low>
+    <close>63.8300</close>
+    <adjusted_close>44.7677</adjusted_close>
+    <volume>309262200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>63.8200</open>
+    <high>64.7200</high>
+    <low>55.7200</low>
+    <close>57.3100</close>
+    <adjusted_close>40.3677</adjusted_close>
+    <volume>287894400</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>55.9700</open>
+    <high>59.6900</high>
+    <low>53.4100</low>
+    <close>55.6800</close>
+    <adjusted_close>39.2196</adjusted_close>
+    <volume>302112200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>55.6500</open>
+    <high>60.1900</high>
+    <low>53.0900</low>
+    <close>59.6800</close>
+    <adjusted_close>42.0371</adjusted_close>
+    <volume>253532600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>60.0900</open>
+    <high>63.3400</high>
+    <low>58.1600</low>
+    <close>61.4600</close>
+    <adjusted_close>43.2908</adjusted_close>
+    <volume>192029200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>61.2000</open>
+    <high>65.4500</high>
+    <low>60.2800</low>
+    <close>62.4700</close>
+    <adjusted_close>44.1839</adjusted_close>
+    <volume>214726500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>62.7300</open>
+    <high>63.7500</high>
+    <low>57.2900</low>
+    <close>58.6100</close>
+    <adjusted_close>41.4538</adjusted_close>
+    <volume>231781400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>58.7100</open>
+    <high>63.8100</high>
+    <low>58.1100</low>
+    <close>63.6200</close>
+    <adjusted_close>44.9973</adjusted_close>
+    <volume>266322600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>63.9100</open>
+    <high>64.7200</high>
+    <low>59.4400</low>
+    <close>61.8600</close>
+    <adjusted_close>43.9255</adjusted_close>
+    <volume>249965500</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>63.5800</open>
+    <high>67.4400</high>
+    <low>62.3300</low>
+    <close>66.0200</close>
+    <adjusted_close>46.8794</adjusted_close>
+    <volume>267972300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>66.4000</open>
+    <high>67.4500</high>
+    <low>64.3200</low>
+    <close>65.6400</close>
+    <adjusted_close>46.6096</adjusted_close>
+    <volume>209187100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>65.3400</open>
+    <high>68.5000</high>
+    <low>63.4000</low>
+    <close>66.9400</close>
+    <adjusted_close>47.7082</adjusted_close>
+    <volume>218642700</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>66.7000</open>
+    <high>67.6500</high>
+    <low>61.2500</low>
+    <close>61.6000</close>
+    <adjusted_close>43.9023</adjusted_close>
+    <volume>327015000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>61.4300</open>
+    <high>66.6700</high>
+    <low>61.4300</low>
+    <close>63.4800</close>
+    <adjusted_close>45.2422</adjusted_close>
+    <volume>255376600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>63.3700</open>
+    <high>64.0400</high>
+    <low>59.4600</low>
+    <close>61.0900</close>
+    <adjusted_close>43.7802</adjusted_close>
+    <volume>301951000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>61.4900</open>
+    <high>65.1900</high>
+    <low>59.0200</low>
+    <close>64.5600</close>
+    <adjusted_close>46.2670</adjusted_close>
+    <volume>314058800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>64.7800</open>
+    <high>67.4500</high>
+    <low>64.3100</low>
+    <close>66.2800</close>
+    <adjusted_close>47.7502</adjusted_close>
+    <volume>221520500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>66.9200</open>
+    <high>70.3700</high>
+    <low>66.5200</low>
+    <close>67.3200</close>
+    <adjusted_close>48.4994</adjusted_close>
+    <volume>237329200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>67.4000</open>
+    <high>69.9800</high>
+    <low>65.4700</low>
+    <close>69.4900</close>
+    <adjusted_close>50.0628</adjusted_close>
+    <volume>189057500</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>69.5300</open>
+    <high>73.8900</high>
+    <low>66.2500</low>
+    <close>73.5800</close>
+    <adjusted_close>53.2625</adjusted_close>
+    <volume>263683800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>73.5300</open>
+    <high>74.3200</high>
+    <low>71.6800</low>
+    <close>74.2500</close>
+    <adjusted_close>53.7474</adjusted_close>
+    <volume>173783100</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>73.6100</open>
+    <high>75.9000</high>
+    <low>70.9800</low>
+    <close>74.2200</close>
+    <adjusted_close>53.7257</adjusted_close>
+    <volume>226240200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>73.6700</open>
+    <high>76.7500</high>
+    <low>72.0300</low>
+    <close>75.2900</close>
+    <adjusted_close>54.5003</adjusted_close>
+    <volume>174516600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>74.6200</open>
+    <high>79.7200</high>
+    <low>73.0400</low>
+    <close>78.8600</close>
+    <adjusted_close>57.3511</adjusted_close>
+    <volume>216723600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>79.4200</open>
+    <high>81.6600</high>
+    <low>76.7700</low>
+    <close>78.7100</close>
+    <adjusted_close>57.2420</adjusted_close>
+    <volume>211047700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>78.5300</open>
+    <high>80.9900</high>
+    <low>78.4300</low>
+    <close>80.4500</close>
+    <adjusted_close>58.5074</adjusted_close>
+    <volume>155682300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>80.6600</open>
+    <high>80.7900</high>
+    <low>77.9100</low>
+    <close>79.2000</close>
+    <adjusted_close>57.9006</adjusted_close>
+    <volume>165763200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>79.3500</open>
+    <high>81.9700</high>
+    <low>73.6500</low>
+    <close>73.7200</close>
+    <adjusted_close>53.8944</adjusted_close>
+    <volume>218582300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>73.6700</open>
+    <high>77.3100</high>
+    <low>71.8200</low>
+    <close>76.1000</close>
+    <adjusted_close>55.9421</adjusted_close>
+    <volume>174438100</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>75.9200</open>
+    <high>77.0000</high>
+    <low>74.1100</low>
+    <close>74.7700</close>
+    <adjusted_close>54.9644</adjusted_close>
+    <volume>169942600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>74.6400</open>
+    <high>78.5300</high>
+    <low>69.3600</low>
+    <close>78.5100</close>
+    <adjusted_close>57.7137</adjusted_close>
+    <volume>202994300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>78.3100</open>
+    <high>78.5300</high>
+    <low>67.6700</low>
+    <close>72.9000</close>
+    <adjusted_close>53.9030</adjusted_close>
+    <volume>276346900</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>72.4600</open>
+    <high>75.7200</high>
+    <low>69.5900</low>
+    <close>74.3300</close>
+    <adjusted_close>54.9604</adjusted_close>
+    <volume>200659800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>74.5100</open>
+    <high>75.3000</high>
+    <low>62.3900</low>
+    <close>62.4600</close>
+    <adjusted_close>46.1836</adjusted_close>
+    <volume>275059800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>62.4900</open>
+    <high>72.5700</high>
+    <low>62.2600</low>
+    <close>72.5100</close>
+    <adjusted_close>53.6146</adjusted_close>
+    <volume>243792600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>71.8000</open>
+    <high>74.0900</high>
+    <low>65.6800</low>
+    <close>69.3400</close>
+    <adjusted_close>51.5694</adjusted_close>
+    <volume>278695100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>68.4700</open>
+    <high>71.9000</high>
+    <low>66.1800</low>
+    <close>68.0000</close>
+    <adjusted_close>50.5728</adjusted_close>
+    <volume>265601600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>68.3100</open>
+    <high>71.3200</high>
+    <low>67.5000</low>
+    <close>69.6800</close>
+    <adjusted_close>51.8223</adjusted_close>
+    <volume>216503600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>69.5100</open>
+    <high>70.0500</high>
+    <low>62.4500</low>
+    <close>62.6300</close>
+    <adjusted_close>46.9022</adjusted_close>
+    <volume>251772700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>63.1000</open>
+    <high>66.0500</high>
+    <low>60.8300</low>
+    <close>64.3900</close>
+    <adjusted_close>48.2202</adjusted_close>
+    <volume>305330200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>64.3500</open>
+    <high>64.8200</high>
+    <low>52.5900</low>
+    <close>56.5800</close>
+    <adjusted_close>42.7284</adjusted_close>
+    <volume>304479200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>55.2500</open>
+    <high>56.7600</high>
+    <low>52.1700</low>
+    <close>53.7300</close>
+    <adjusted_close>40.5762</adjusted_close>
+    <volume>244619500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>53.6000</open>
+    <high>61.1900</high>
+    <low>53.0000</low>
+    <close>59.4200</close>
+    <adjusted_close>44.8732</adjusted_close>
+    <volume>206115300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>59.7000</open>
+    <high>61.1800</high>
+    <low>47.5200</low>
+    <close>48.7900</close>
+    <adjusted_close>37.2093</adjusted_close>
+    <volume>338781400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>48.7500</open>
+    <high>53.4400</high>
+    <low>45.9300</low>
+    <close>49.9900</close>
+    <adjusted_close>38.1245</adjusted_close>
+    <volume>350968200</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>49.4300</open>
+    <high>50.6000</high>
+    <low>43.4700</low>
+    <close>45.3400</close>
+    <adjusted_close>34.5782</adjusted_close>
+    <volume>292170300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>44.7100</open>
+    <high>52.0000</high>
+    <low>42.2400</low>
+    <close>50.7900</close>
+    <adjusted_close>39.0982</adjusted_close>
+    <volume>255057600</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>51.0800</open>
+    <high>53.5200</high>
+    <low>49.6700</low>
+    <close>51.1400</close>
+    <adjusted_close>39.3676</adjusted_close>
+    <volume>259198400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>51.0800</open>
+    <high>53.2800</high>
+    <low>49.7300</low>
+    <close>50.5200</close>
+    <adjusted_close>38.8903</adjusted_close>
+    <volume>190898700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>50.6900</open>
+    <high>56.2700</high>
+    <low>50.1300</low>
+    <close>54.9200</close>
+    <adjusted_close>42.6833</adjusted_close>
+    <volume>196181900</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>54.5000</open>
+    <high>55.5700</high>
+    <low>50.8400</low>
+    <close>53.5700</close>
+    <adjusted_close>41.6341</adjusted_close>
+    <volume>210703100</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>52.9900</open>
+    <high>62.8200</high>
+    <low>51.1600</low>
+    <close>62.5800</close>
+    <adjusted_close>48.6366</adjusted_close>
+    <volume>205890700</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>62.3700</open>
+    <high>63.6900</high>
+    <low>60.0200</low>
+    <close>63.0700</close>
+    <adjusted_close>49.4334</adjusted_close>
+    <volume>160486600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>62.8700</open>
+    <high>70.4000</high>
+    <low>59.9300</low>
+    <close>68.5000</close>
+    <adjusted_close>53.6894</adjusted_close>
+    <volume>221603700</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>68.0800</open>
+    <high>71.6200</high>
+    <low>64.3000</low>
+    <close>68.7200</close>
+    <adjusted_close>53.8618</adjusted_close>
+    <volume>218422000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>69.0000</open>
+    <high>69.3500</high>
+    <low>64.3200</low>
+    <close>68.1300</close>
+    <adjusted_close>53.8171</adjusted_close>
+    <volume>202069400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>67.7200</open>
+    <high>70.2400</high>
+    <low>63.7800</low>
+    <close>65.2000</close>
+    <adjusted_close>51.5026</adjusted_close>
+    <volume>157341000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>65.8600</open>
+    <high>67.0800</high>
+    <low>52.8300</low>
+    <close>53.4300</close>
+    <adjusted_close>42.2053</adjusted_close>
+    <volume>382359000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>53.6400</open>
+    <high>57.3100</high>
+    <low>52.3700</low>
+    <close>56.4800</close>
+    <adjusted_close>45.0316</adjusted_close>
+    <volume>213744100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>56.9300</open>
+    <high>59.0400</high>
+    <low>56.0000</low>
+    <close>57.3400</close>
+    <adjusted_close>45.7173</adjusted_close>
+    <volume>195223400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>57.2600</open>
+    <high>57.5300</high>
+    <low>51.0500</low>
+    <close>53.7400</close>
+    <adjusted_close>42.8470</adjusted_close>
+    <volume>246460200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>53.6500</open>
+    <high>59.8900</high>
+    <low>52.9000</low>
+    <close>57.2700</close>
+    <adjusted_close>46.1112</adjusted_close>
+    <volume>261377900</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>57.4500</open>
+    <high>59.0500</high>
+    <low>54.5500</low>
+    <close>55.2200</close>
+    <adjusted_close>44.4606</adjusted_close>
+    <volume>194828100</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>55.5300</open>
+    <high>56.9400</high>
+    <low>52.2300</low>
+    <close>53.1900</close>
+    <adjusted_close>42.8261</adjusted_close>
+    <volume>175178800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>53.3000</open>
+    <high>54.1000</high>
+    <low>51.2800</low>
+    <close>52.2700</close>
+    <adjusted_close>42.5516</adjusted_close>
+    <volume>180627700</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>52.5300</open>
+    <high>52.7700</high>
+    <low>48.9200</low>
+    <close>51.8400</close>
+    <adjusted_close>42.2015</adjusted_close>
+    <volume>168220900</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>52.0900</open>
+    <high>54.7700</high>
+    <low>50.0200</low>
+    <close>51.0100</close>
+    <adjusted_close>41.5258</adjusted_close>
+    <volume>176751700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>51.4700</open>
+    <high>69.2800</high>
+    <low>50.5100</low>
+    <close>66.3400</close>
+    <adjusted_close>54.4611</adjusted_close>
+    <volume>434567900</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>65.2000</open>
+    <high>66.1200</high>
+    <low>63.8000</low>
+    <close>64.0200</close>
+    <adjusted_close>52.5566</adjusted_close>
+    <volume>169187300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>64.3800</open>
+    <high>68.9000</high>
+    <low>64.1700</low>
+    <close>68.2500</close>
+    <adjusted_close>56.0291</adjusted_close>
+    <volume>181601100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>67.0000</open>
+    <high>68.3500</high>
+    <low>60.5000</low>
+    <close>65.0000</close>
+    <adjusted_close>53.8191</adjusted_close>
+    <volume>311057400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>65.0300</open>
+    <high>66.2400</high>
+    <low>53.6500</low>
+    <close>55.4100</close>
+    <adjusted_close>45.8787</adjusted_close>
+    <volume>320661200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>55.1000</open>
+    <high>56.7900</high>
+    <low>48.5600</low>
+    <close>51.0100</close>
+    <adjusted_close>42.2356</adjusted_close>
+    <volume>207468300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>50.7600</open>
+    <high>60.0000</high>
+    <low>49.3100</low>
+    <close>58.1200</close>
+    <adjusted_close>48.6253</adjusted_close>
+    <volume>237099800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>58.3400</open>
+    <high>62.6500</high>
+    <low>55.0900</low>
+    <close>56.1200</close>
+    <adjusted_close>46.9521</adjusted_close>
+    <volume>188075700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>55.4000</open>
+    <high>64.6600</high>
+    <low>55.1200</low>
+    <close>64.0900</close>
+    <adjusted_close>53.6201</adjusted_close>
+    <volume>208751100</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>63.5500</open>
+    <high>70.4900</high>
+    <low>63.5500</low>
+    <close>68.7100</close>
+    <adjusted_close>57.4853</adjusted_close>
+    <volume>265339500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>68.7400</open>
+    <high>76.5000</high>
+    <low>68.7100</low>
+    <close>72.0300</close>
+    <adjusted_close>60.8117</adjusted_close>
+    <volume>290784100</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>72.4600</open>
+    <high>73.9100</high>
+    <low>61.1800</low>
+    <close>62.8900</close>
+    <adjusted_close>53.0952</adjusted_close>
+    <volume>341624700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>63.2000</open>
+    <high>64.3400</high>
+    <low>53.5300</low>
+    <close>58.2600</close>
+    <adjusted_close>49.1863</adjusted_close>
+    <volume>396206800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>60.5100</open>
+    <high>60.5100</high>
+    <low>53.5100</low>
+    <close>56.9100</close>
+    <adjusted_close>48.5682</adjusted_close>
+    <volume>308069000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>56.2000</open>
+    <high>58.1700</high>
+    <low>49.1000</low>
+    <close>49.5200</close>
+    <adjusted_close>42.2614</adjusted_close>
+    <volume>381565000</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>49.5800</open>
+    <high>53.9700</high>
+    <low>49.4000</low>
+    <close>53.3900</close>
+    <adjusted_close>45.5641</adjusted_close>
+    <volume>242230300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>54.0000</open>
+    <high>58.3900</high>
+    <low>53.0300</low>
+    <close>57.0300</close>
+    <adjusted_close>49.2365</adjusted_close>
+    <volume>261437100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>57.6400</open>
+    <high>88.6300</high>
+    <low>55.7900</low>
+    <close>86.1300</close>
+    <adjusted_close>74.3598</adjusted_close>
+    <volume>618272400</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>87.1700</open>
+    <high>90.3400</high>
+    <low>64.7600</low>
+    <close>66.8200</close>
+    <adjusted_close>57.6886</adjusted_close>
+    <volume>492653200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>67.0900</open>
+    <high>76.4400</high>
+    <low>65.8300</low>
+    <close>76.0700</close>
+    <adjusted_close>66.2749</adjusted_close>
+    <volume>250977300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>80.6700</open>
+    <high>80.7600</high>
+    <low>72.7600</low>
+    <close>73.1600</close>
+    <adjusted_close>63.7396</adjusted_close>
+    <volume>241910800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>68.8800</open>
+    <high>79.1000</high>
+    <low>67.1200</low>
+    <close>77.7700</close>
+    <adjusted_close>67.7560</adjusted_close>
+    <volume>235386600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>76.7700</open>
+    <high>80.4400</high>
+    <low>74.6300</low>
+    <close>76.2800</close>
+    <adjusted_close>66.9855</adjusted_close>
+    <volume>127860300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>77.0600</open>
+    <high>83.1300</high>
+    <low>72.8100</low>
+    <close>80.4400</close>
+    <adjusted_close>70.6386</adjusted_close>
+    <volume>134509300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>81.5900</open>
+    <high>94.1100</high>
+    <low>81.2500</low>
+    <close>83.5500</close>
+    <adjusted_close>73.3696</adjusted_close>
+    <volume>232426900</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>83.9800</open>
+    <high>90.4600</high>
+    <low>79.8100</low>
+    <close>88.2300</close>
+    <adjusted_close>78.0802</adjusted_close>
+    <volume>170341600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>89.0500</open>
+    <high>96.1700</high>
+    <low>85.0400</low>
+    <close>85.3100</close>
+    <adjusted_close>75.4961</adjusted_close>
+    <volume>202806800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>85.5500</open>
+    <high>92.4400</high>
+    <low>73.3400</low>
+    <close>78.3000</close>
+    <adjusted_close>69.2925</adjusted_close>
+    <volume>220308800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>79.0200</open>
+    <high>82.6500</high>
+    <low>58.0000</low>
+    <close>67.6500</close>
+    <adjusted_close>60.3439</adjusted_close>
+    <volume>322085700</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>65.0000</open>
+    <high>80.8700</high>
+    <low>64.5500</low>
+    <close>78.6700</close>
+    <adjusted_close>70.1737</adjusted_close>
+    <volume>215838800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>76.8500</open>
+    <high>81.9600</high>
+    <low>74.0900</low>
+    <close>80.8800</close>
+    <adjusted_close>72.1451</adjusted_close>
+    <volume>198180200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>79.8900</open>
+    <high>92.1400</high>
+    <low>79.2400</low>
+    <close>91.2100</close>
+    <adjusted_close>81.9892</adjusted_close>
+    <volume>222750600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>91.0100</open>
+    <high>107.7500</high>
+    <low>87.5100</low>
+    <close>105.6100</close>
+    <adjusted_close>94.9334</adjusted_close>
+    <volume>200139000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>107.4000</open>
+    <high>121.0600</high>
+    <low>104.7400</low>
+    <close>119.1000</close>
+    <adjusted_close>107.0597</adjusted_close>
+    <volume>206050800</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>121.0800</open>
+    <high>123.9300</high>
+    <low>108.3000</low>
+    <close>117.6800</close>
+    <adjusted_close>106.3498</adjusted_close>
+    <volume>179875300</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>119.9300</open>
+    <high>132.4200</high>
+    <low>115.4300</low>
+    <close>123.3600</close>
+    <adjusted_close>111.4829</adjusted_close>
+    <volume>147892300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>124.5000</open>
+    <high>153.3300</high>
+    <low>122.4100</low>
+    <close>147.1700</close>
+    <adjusted_close>133.0005</adjusted_close>
+    <volume>188777000</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>148.7900</open>
+    <high>161.0700</high>
+    <low>141.8900</low>
+    <close>152.3400</close>
+    <adjusted_close>138.2669</adjusted_close>
+    <volume>176235500</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>153.0100</open>
+    <high>167.9400</high>
+    <low>147.1400</low>
+    <close>156.2800</close>
+    <adjusted_close>141.8429</adjusted_close>
+    <volume>140845500</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>157.3700</open>
+    <high>167.5800</high>
+    <low>134.4400</low>
+    <close>136.1900</close>
+    <adjusted_close>123.6088</adjusted_close>
+    <volume>261880200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>137.5000</open>
+    <high>140.1000</high>
+    <low>122.9900</low>
+    <close>132.5900</close>
+    <adjusted_close>120.9149</adjusted_close>
+    <volume>254633200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>134.5000</open>
+    <high>145.3000</high>
+    <low>132.4700</low>
+    <close>138.8000</close>
+    <adjusted_close>126.5781</adjusted_close>
+    <volume>207341500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>139.7000</open>
+    <high>139.7600</high>
+    <low>123.6800</low>
+    <close>134.5400</close>
+    <adjusted_close>122.6932</adjusted_close>
+    <volume>183636500</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>135.1000</open>
+    <high>143.6300</high>
+    <low>131.4200</low>
+    <close>142.9300</close>
+    <adjusted_close>131.0095</adjusted_close>
+    <volume>156382800</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>142.9100</open>
+    <high>151.5200</high>
+    <low>135.6000</low>
+    <close>149.8000</close>
+    <adjusted_close>137.3066</adjusted_close>
+    <volume>157524100</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>150.0000</open>
+    <high>152.2800</high>
+    <low>138.9600</low>
+    <close>146.6900</close>
+    <adjusted_close>134.4560</adjusted_close>
+    <volume>141352600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>146.8400</open>
+    <high>148.1000</high>
+    <low>128.7000</low>
+    <close>128.9800</close>
+    <adjusted_close>118.7736</adjusted_close>
+    <volume>144719000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>129.8000</open>
+    <high>133.8300</high>
+    <low>122.1700</low>
+    <close>133.0400</close>
+    <adjusted_close>122.5123</adjusted_close>
+    <volume>148721100</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>132.4400</open>
+    <high>188.7700</high>
+    <low>132.4400</low>
+    <close>180.5600</close>
+    <adjusted_close>166.2719</adjusted_close>
+    <volume>323236400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>180.8900</open>
+    <high>192.6800</high>
+    <low>171.2100</low>
+    <close>182.8700</close>
+    <adjusted_close>169.0358</adjusted_close>
+    <volume>190527600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>182.9100</open>
+    <high>193.5800</high>
+    <low>157.3800</low>
+    <close>175.7600</close>
+    <adjusted_close>162.4636</adjusted_close>
+    <volume>208913700</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>176.4400</open>
+    <high>192.1000</high>
+    <low>155.7900</low>
+    <close>171.9900</close>
+    <adjusted_close>158.9788</adjusted_close>
+    <volume>241774300</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>170.9600</open>
+    <high>171.8400</high>
+    <low>139.0500</low>
+    <close>152.8200</close>
+    <adjusted_close>141.8483</adjusted_close>
+    <volume>243057800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>151.9400</open>
+    <high>154.1300</high>
+    <low>130.6600</low>
+    <close>139.6900</close>
+    <adjusted_close>129.6609</adjusted_close>
+    <volume>250536000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>140.6000</open>
+    <high>149.5000</high>
+    <low>125.8600</low>
+    <close>143.2200</close>
+    <adjusted_close>132.9376</adjusted_close>
+    <volume>217951100</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>142.5500</open>
+    <high>146.2500</high>
+    <low>118.2300</low>
+    <close>127.7400</close>
+    <adjusted_close>119.1931</adjusted_close>
+    <volume>212613700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>125.7500</open>
+    <high>156.6600</high>
+    <low>120.3600</low>
+    <close>145.0600</close>
+    <adjusted_close>135.3542</adjusted_close>
+    <volume>175158600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>144.3100</open>
+    <high>152.9100</high>
+    <low>131.3000</low>
+    <close>132.2700</close>
+    <adjusted_close>124.1126</adjusted_close>
+    <volume>141858000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>129.9800</open>
+    <high>134.2200</high>
+    <low>112.9200</low>
+    <close>112.9800</close>
+    <adjusted_close>106.0122</adjusted_close>
+    <volume>166185200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>114.9900</open>
+    <high>127.2100</high>
+    <low>104.6600</low>
+    <close>117.6600</close>
+    <adjusted_close>110.4036</adjusted_close>
+    <volume>164692200</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>119.7400</open>
+    <high>128.1300</high>
+    <low>101.9300</low>
+    <close>126.4900</close>
+    <adjusted_close>119.4458</adjusted_close>
+    <volume>196716800</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>126.7200</open>
+    <high>128.2000</high>
+    <low>106.8200</low>
+    <close>109.9400</close>
+    <adjusted_close>103.8175</adjusted_close>
+    <volume>157121100</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>111.3500</open>
+    <high>134.8900</high>
+    <low>107.1300</low>
+    <close>133.2100</close>
+    <adjusted_close>125.7915</adjusted_close>
+    <volume>169127100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>132.6800</open>
+    <high>139.9400</high>
+    <low>122.9200</low>
+    <close>123.5300</close>
+    <adjusted_close>116.6506</adjusted_close>
+    <volume>142245100</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>123.7800</open>
+    <high>128.1900</high>
+    <low>113.1400</low>
+    <close>127.5800</close>
+    <adjusted_close>121.2110</adjusted_close>
+    <volume>169559400</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>126.9900</open>
+    <high>127.5700</high>
+    <low>112.1500</low>
+    <close>116.8000</close>
+    <adjusted_close>110.9691</adjusted_close>
+    <volume>108915700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>117.2100</open>
+    <high>117.5800</high>
+    <low>101.4700</low>
+    <close>113.4100</close>
+    <adjusted_close>108.4966</adjusted_close>
+    <volume>221713000</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>114.5600</open>
+    <high>125.4000</high>
+    <low>112.2400</low>
+    <close>119.0400</close>
+    <adjusted_close>113.8827</adjusted_close>
+    <volume>176529300</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>119.2700</open>
+    <high>132.9700</high>
+    <low>113.6200</low>
+    <close>132.1700</close>
+    <adjusted_close>126.4439</adjusted_close>
+    <volume>163250200</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>131.9200</open>
+    <high>132.3900</high>
+    <low>107.7600</low>
+    <close>114.5300</close>
+    <adjusted_close>110.3439</adjusted_close>
+    <volume>190511000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>115.7000</open>
+    <high>117.0600</high>
+    <low>105.5100</low>
+    <close>111.0600</close>
+    <adjusted_close>107.0008</adjusted_close>
+    <volume>165381600</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>110.4000</open>
+    <high>114.4000</high>
+    <low>104.3300</low>
+    <close>108.9900</close>
+    <adjusted_close>105.0064</adjusted_close>
+    <volume>154442600</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>109.1700</open>
+    <high>130.6000</high>
+    <low>108.7000</low>
+    <close>129.0500</close>
+    <adjusted_close>125.1240</adjusted_close>
+    <volume>207210200</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>129.0600</open>
+    <high>146.8900</high>
+    <low>128.0300</low>
+    <close>144.6300</close>
+    <adjusted_close>140.2300</adjusted_close>
+    <volume>159806700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>142.1900</open>
+    <high>157.9800</high>
+    <low>134.9400</low>
+    <close>148.5100</close>
+    <adjusted_close>143.9919</adjusted_close>
+    <volume>188135200</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>140.8700</open>
+    <high>159.2000</high>
+    <low>139.2600</low>
+    <close>157.7900</close>
+    <adjusted_close>153.7667</adjusted_close>
+    <volume>186391500</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>159.3900</open>
+    <high>177.5900</high>
+    <low>158.0700</low>
+    <close>169.3000</close>
+    <adjusted_close>164.9833</adjusted_close>
+    <volume>174920800</volume>
+    <news>QCOM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>168.2700</open>
+    <high>175.9900</high>
+    <low>156.3400</low>
+    <close>165.8500</close>
+    <adjusted_close>161.6212</adjusted_close>
+    <volume>154500600</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>164.5100</open>
+    <high>217.4300</high>
+    <low>163.7900</low>
+    <close>204.0500</close>
+    <adjusted_close>199.6621</adjusted_close>
+    <volume>232104200</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>209.5600</open>
+    <high>230.6300</high>
+    <low>193.8400</low>
+    <close>199.1800</close>
+    <adjusted_close>194.8969</adjusted_close>
+    <volume>225397700</volume>
+    <news>QCOM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>199.4700</open>
+    <high>211.0900</high>
+    <low>166.7700</low>
+    <close>180.9500</close>
+    <adjusted_close>177.0589</adjusted_close>
+    <volume>192314000</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>171.7600</open>
+    <high>176.9700</high>
+    <low>151.3900</low>
+    <close>175.3000</close>
+    <adjusted_close>171.5304</adjusted_close>
+    <volume>207080400</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>171.8900</open>
+    <high>176.8000</high>
+    <low>157.1300</low>
+    <close>170.0500</close>
+    <adjusted_close>167.2531</adjusted_close>
+    <volume>172127500</volume>
+    <news>QCOM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>169.8000</open>
+    <high>179.8300</high>
+    <low>162.0800</low>
+    <close>162.7700</close>
+    <adjusted_close>160.0929</adjusted_close>
+    <volume>159375300</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>163.0800</open>
+    <high>182.1000</high>
+    <low>152.9500</low>
+    <close>158.5300</close>
+    <adjusted_close>155.9226</adjusted_close>
+    <volume>185788700</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>158.3800</open>
+    <high>165.0000</high>
+    <low>149.4300</low>
+    <close>153.6200</close>
+    <adjusted_close>151.8838</adjusted_close>
+    <volume>166380400</volume>
+    <news>QCOM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</qualcomm_stock_data>

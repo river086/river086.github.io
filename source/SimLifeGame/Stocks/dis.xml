@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<disney_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>28.8551</open>
+    <high>37.4870</high>
+    <low>28.3619</low>
+    <close>35.8223</close>
+    <adjusted_close>27.6355</adjusted_close>
+    <volume>247072276</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>35.8223</open>
+    <high>38.4735</high>
+    <low>30.5815</low>
+    <close>33.5410</close>
+    <adjusted_close>25.8755</adjusted_close>
+    <volume>144199796</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>33.5410</open>
+    <high>41.9263</high>
+    <low>32.5545</low>
+    <close>40.6931</close>
+    <adjusted_close>31.3931</adjusted_close>
+    <volume>185073291</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>40.6931</open>
+    <high>43.0361</high>
+    <low>36.5622</low>
+    <close>43.0361</close>
+    <adjusted_close>33.2006</adjusted_close>
+    <volume>111137455</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>43.0361</open>
+    <high>43.2827</high>
+    <low>37.6720</low>
+    <close>41.6180</close>
+    <adjusted_close>32.1066</adjusted_close>
+    <volume>110547998</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>41.6180</open>
+    <high>41.9879</high>
+    <low>37.2404</low>
+    <close>38.2885</close>
+    <adjusted_close>29.5381</adjusted_close>
+    <volume>87972733</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>38.1652</open>
+    <high>38.7818</high>
+    <low>34.8974</low>
+    <close>38.0419</close>
+    <adjusted_close>29.3478</adjusted_close>
+    <volume>86322962</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>38.4735</open>
+    <high>42.4195</high>
+    <low>36.9321</low>
+    <close>38.4273</close>
+    <adjusted_close>29.6451</adjusted_close>
+    <volume>103293765</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>38.4273</open>
+    <high>40.9398</high>
+    <low>36.3155</low>
+    <close>37.7336</close>
+    <adjusted_close>29.1100</adjusted_close>
+    <volume>69094068</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>37.9803</open>
+    <high>41.3713</high>
+    <low>33.0477</low>
+    <close>35.3290</close>
+    <adjusted_close>27.2549</adjusted_close>
+    <volume>112362290</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>35.3290</open>
+    <high>37.7336</high>
+    <low>27.4987</low>
+    <close>28.5468</close>
+    <adjusted_close>22.0227</adjusted_close>
+    <volume>137911201</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>28.7318</open>
+    <high>31.5680</high>
+    <low>25.6490</low>
+    <close>28.5468</close>
+    <adjusted_close>22.1745</adjusted_close>
+    <volume>114907448</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>28.0536</open>
+    <high>33.5410</high>
+    <low>27.2521</low>
+    <close>30.0389</close>
+    <adjusted_close>23.3335</adjusted_close>
+    <volume>136978814</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>30.0389</open>
+    <high>32.5348</high>
+    <low>29.2004</low>
+    <close>30.5322</close>
+    <adjusted_close>23.7166</adjusted_close>
+    <volume>105872989</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>30.5322</open>
+    <high>30.5815</high>
+    <low>25.7082</low>
+    <close>28.2139</close>
+    <adjusted_close>21.9159</adjusted_close>
+    <volume>137164927</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>28.2139</open>
+    <high>31.5680</high>
+    <low>26.1127</low>
+    <close>29.8416</close>
+    <adjusted_close>23.1802</adjusted_close>
+    <volume>106079776</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>29.8712</open>
+    <high>34.3302</high>
+    <low>29.4470</low>
+    <close>31.1931</close>
+    <adjusted_close>24.2301</adjusted_close>
+    <volume>118274406</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>31.1931</open>
+    <high>31.9725</high>
+    <low>26.9808</low>
+    <close>28.5000</close>
+    <adjusted_close>22.1381</adjusted_close>
+    <volume>102690826</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>28.5000</open>
+    <high>28.6282</high>
+    <low>25.6786</low>
+    <close>25.9943</close>
+    <adjusted_close>20.1917</adjusted_close>
+    <volume>118252003</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>26.1916</open>
+    <high>27.6023</high>
+    <low>24.0903</low>
+    <close>25.0867</close>
+    <adjusted_close>19.4867</adjusted_close>
+    <volume>115701570</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>24.7612</open>
+    <high>25.6983</high>
+    <low>15.2907</low>
+    <close>18.3686</close>
+    <adjusted_close>14.2683</adjusted_close>
+    <volume>310772425</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>18.3686</open>
+    <high>20.2134</high>
+    <low>17.5696</low>
+    <close>18.3390</close>
+    <adjusted_close>14.2453</adjusted_close>
+    <volume>185160265</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>18.3884</open>
+    <high>21.6142</high>
+    <low>17.8063</low>
+    <close>20.1937</close>
+    <adjusted_close>15.6859</adjusted_close>
+    <volume>204302688</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>20.1937</open>
+    <high>22.5909</high>
+    <low>19.2367</low>
+    <close>20.4403</close>
+    <adjusted_close>16.0460</adjusted_close>
+    <volume>167536948</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>20.6178</open>
+    <high>23.2814</high>
+    <low>19.7497</low>
+    <close>20.7757</close>
+    <adjusted_close>16.3093</adjusted_close>
+    <volume>165680282</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>22.1469</open>
+    <high>24.2679</high>
+    <low>20.9138</low>
+    <close>22.6895</close>
+    <adjusted_close>17.8117</adjusted_close>
+    <volume>161980134</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>22.6402</open>
+    <high>24.6625</high>
+    <low>22.3442</low>
+    <close>22.7684</close>
+    <adjusted_close>17.8736</adjusted_close>
+    <volume>141964624</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>22.3442</open>
+    <high>24.8302</high>
+    <low>21.8016</low>
+    <close>22.8671</close>
+    <adjusted_close>17.9511</adjusted_close>
+    <volume>158859502</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>23.1137</open>
+    <high>24.6428</high>
+    <low>22.2949</low>
+    <close>22.6007</close>
+    <adjusted_close>17.7420</adjusted_close>
+    <volume>116814594</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>22.6895</open>
+    <high>23.0446</high>
+    <low>18.2009</low>
+    <close>18.6448</close>
+    <adjusted_close>14.6365</adjusted_close>
+    <volume>178855652</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>18.6448</open>
+    <high>19.7300</high>
+    <low>14.6988</low>
+    <close>17.4906</close>
+    <adjusted_close>13.7305</adjusted_close>
+    <volume>192060717</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>17.2046</open>
+    <high>17.3131</high>
+    <low>13.2980</low>
+    <close>15.4683</close>
+    <adjusted_close>12.1429</adjusted_close>
+    <volume>262814902</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>15.3697</open>
+    <high>16.4154</high>
+    <low>14.3437</low>
+    <close>14.9356</close>
+    <adjusted_close>11.7247</adjusted_close>
+    <volume>156123060</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>15.0441</open>
+    <high>17.9050</high>
+    <low>13.7123</low>
+    <close>16.4746</close>
+    <adjusted_close>12.9328</adjusted_close>
+    <volume>228564317</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>16.5239</open>
+    <high>19.9273</high>
+    <low>16.3068</low>
+    <close>19.5524</close>
+    <adjusted_close>15.3490</adjusted_close>
+    <volume>144298328</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>19.6313</open>
+    <high>19.9668</high>
+    <low>15.2907</low>
+    <close>16.0898</close>
+    <adjusted_close>12.7884</adjusted_close>
+    <volume>147783476</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>16.5732</open>
+    <high>18.2897</high>
+    <low>16.0306</low>
+    <close>17.2638</close>
+    <adjusted_close>13.7215</adjusted_close>
+    <volume>147870652</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>17.4216</open>
+    <high>17.5597</high>
+    <low>15.6656</low>
+    <close>16.8297</close>
+    <adjusted_close>13.3765</adjusted_close>
+    <volume>120868928</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>16.8692</open>
+    <high>18.4870</high>
+    <low>14.6397</low>
+    <close>16.7902</close>
+    <adjusted_close>13.3451</adjusted_close>
+    <volume>195078662</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>16.7902</open>
+    <high>19.0197</high>
+    <low>16.6916</low>
+    <close>18.4081</close>
+    <adjusted_close>14.6310</adjusted_close>
+    <volume>201008313</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>18.4475</open>
+    <high>19.5820</high>
+    <low>17.2144</low>
+    <close>19.3847</close>
+    <adjusted_close>15.4072</adjusted_close>
+    <volume>185501876</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>19.6313</open>
+    <high>21.2591</high>
+    <low>18.5955</low>
+    <close>19.4834</close>
+    <adjusted_close>15.4856</adjusted_close>
+    <volume>209445919</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>19.4932</open>
+    <high>21.9299</high>
+    <low>19.1381</low>
+    <close>21.6241</close>
+    <adjusted_close>17.1871</adjusted_close>
+    <volume>179229196</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>22.0779</open>
+    <high>23.4787</high>
+    <low>19.8780</low>
+    <close>20.2232</close>
+    <adjusted_close>16.0737</adjusted_close>
+    <volume>178924480</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>20.4501</open>
+    <high>21.2492</high>
+    <low>19.5130</low>
+    <close>19.8977</close>
+    <adjusted_close>15.8150</adjusted_close>
+    <volume>197219158</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>20.1443</open>
+    <high>22.6402</high>
+    <low>20.0851</low>
+    <close>22.3344</close>
+    <adjusted_close>17.7517</adjusted_close>
+    <volume>158181553</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>22.5415</open>
+    <high>23.4392</high>
+    <low>22.0779</low>
+    <close>22.7783</close>
+    <adjusted_close>18.1045</adjusted_close>
+    <volume>118907045</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>22.7783</open>
+    <high>23.2419</high>
+    <low>21.2689</low>
+    <close>23.0150</close>
+    <adjusted_close>18.4666</adjusted_close>
+    <volume>177671568</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>23.1729</open>
+    <high>24.7414</high>
+    <low>22.6698</low>
+    <close>23.6760</close>
+    <adjusted_close>18.9969</adjusted_close>
+    <volume>185083732</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>23.4787</open>
+    <high>28.0265</high>
+    <low>22.5909</low>
+    <close>26.1718</close>
+    <adjusted_close>20.9995</adjusted_close>
+    <volume>408998277</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>26.4382</open>
+    <high>26.6848</high>
+    <low>24.2186</low>
+    <close>24.6526</close>
+    <adjusted_close>19.7805</adjusted_close>
+    <volume>202174758</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>24.7612</open>
+    <high>26.2902</high>
+    <low>22.5909</low>
+    <close>22.7191</close>
+    <adjusted_close>18.2291</adjusted_close>
+    <volume>208253522</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>22.8671</open>
+    <high>23.6069</high>
+    <low>21.1012</low>
+    <close>23.1532</close>
+    <adjusted_close>18.5774</adjusted_close>
+    <volume>167274607</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>23.4787</open>
+    <high>25.2544</high>
+    <low>23.0644</low>
+    <close>25.1459</close>
+    <adjusted_close>20.1763</adjusted_close>
+    <volume>149132386</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>24.9979</open>
+    <high>25.1558</high>
+    <low>22.2653</low>
+    <close>22.7783</close>
+    <adjusted_close>18.2766</adjusted_close>
+    <volume>116480488</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>22.7882</open>
+    <high>22.8671</high>
+    <low>20.5981</low>
+    <close>22.1469</close>
+    <adjusted_close>17.7700</adjusted_close>
+    <volume>144089609</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>22.1568</open>
+    <high>23.3307</high>
+    <low>21.7030</low>
+    <close>22.2456</close>
+    <adjusted_close>17.8492</adjusted_close>
+    <volume>130669943</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>22.2554</open>
+    <high>24.9585</high>
+    <low>22.2061</low>
+    <close>24.8795</close>
+    <adjusted_close>19.9626</adjusted_close>
+    <volume>158001521</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>24.7907</open>
+    <high>27.0794</high>
+    <low>24.4553</low>
+    <close>26.5171</close>
+    <adjusted_close>21.2765</adjusted_close>
+    <volume>126134721</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>26.6059</open>
+    <high>27.6516</high>
+    <low>26.3198</low>
+    <close>27.4247</close>
+    <adjusted_close>22.2014</adjusted_close>
+    <volume>111568880</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>27.4346</open>
+    <high>28.5493</high>
+    <low>26.6848</low>
+    <close>28.2435</close>
+    <adjusted_close>22.8642</adjusted_close>
+    <volume>144731577</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>28.3619</open>
+    <high>29.5851</high>
+    <low>27.1386</low>
+    <close>27.5628</close>
+    <adjusted_close>22.3132</adjusted_close>
+    <volume>130209933</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>27.5924</open>
+    <high>28.6085</high>
+    <low>27.0992</low>
+    <close>28.3421</close>
+    <adjusted_close>22.9441</adjusted_close>
+    <volume>146519309</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>28.4013</open>
+    <high>28.6085</high>
+    <low>25.3629</low>
+    <close>26.0436</close>
+    <adjusted_close>21.0833</adjusted_close>
+    <volume>119469741</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>26.2113</open>
+    <high>27.6417</high>
+    <low>25.6687</low>
+    <close>27.0696</close>
+    <adjusted_close>21.9139</adjusted_close>
+    <volume>135338673</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>27.1386</open>
+    <high>27.6121</high>
+    <low>24.7809</low>
+    <close>24.8401</close>
+    <adjusted_close>20.1090</adjusted_close>
+    <volume>141308259</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>24.8795</open>
+    <high>26.1423</high>
+    <low>24.0213</low>
+    <close>25.2939</close>
+    <adjusted_close>20.4764</adjusted_close>
+    <volume>142032440</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>25.2939</open>
+    <high>26.1127</high>
+    <low>24.5836</low>
+    <close>24.8499</close>
+    <adjusted_close>20.1170</adjusted_close>
+    <volume>169210642</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>24.7513</open>
+    <high>24.9979</high>
+    <low>22.5909</low>
+    <close>23.8042</close>
+    <adjusted_close>19.2705</adjusted_close>
+    <volume>196732994</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>23.8042</open>
+    <high>24.6625</high>
+    <low>22.5810</low>
+    <close>24.0410</close>
+    <adjusted_close>19.4621</adjusted_close>
+    <volume>180919106</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>23.9522</open>
+    <high>25.8364</high>
+    <low>23.9522</low>
+    <close>24.5934</close>
+    <adjusted_close>19.9093</adjusted_close>
+    <volume>188757221</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>24.7118</open>
+    <high>25.3531</high>
+    <low>23.6267</low>
+    <close>23.6464</close>
+    <adjusted_close>19.3462</adjusted_close>
+    <volume>156320525</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>23.7549</open>
+    <high>26.1423</high>
+    <low>23.4491</low>
+    <close>24.9683</close>
+    <adjusted_close>20.4277</adjusted_close>
+    <volume>300629600</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>24.8105</open>
+    <high>28.1054</high>
+    <low>24.5639</low>
+    <close>27.6121</close>
+    <adjusted_close>22.5907</adjusted_close>
+    <volume>271810847</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>27.6220</open>
+    <high>28.4605</high>
+    <low>26.6947</low>
+    <close>27.5135</close>
+    <adjusted_close>22.5100</adjusted_close>
+    <volume>199002943</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>27.4938</open>
+    <high>27.8686</high>
+    <low>26.3889</low>
+    <close>27.5825</close>
+    <adjusted_close>22.5665</adjusted_close>
+    <volume>136266903</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>27.6319</open>
+    <high>30.1178</high>
+    <low>27.2570</low>
+    <close>30.0882</close>
+    <adjusted_close>24.6165</adjusted_close>
+    <volume>323007095</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>30.0882</open>
+    <high>30.6111</high>
+    <low>27.5727</low>
+    <close>29.5950</close>
+    <adjusted_close>24.2130</adjusted_close>
+    <volume>275016523</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>29.7824</open>
+    <high>30.0389</high>
+    <low>27.7700</low>
+    <close>29.2892</close>
+    <adjusted_close>23.9628</adjusted_close>
+    <volume>210974252</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>29.2497</open>
+    <high>29.7134</high>
+    <low>28.3027</low>
+    <close>29.2497</close>
+    <adjusted_close>23.9305</adjusted_close>
+    <volume>217466093</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>29.4174</open>
+    <high>31.0353</high>
+    <low>28.9044</low>
+    <close>30.4927</close>
+    <adjusted_close>24.9474</adjusted_close>
+    <volume>184667410</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>30.3743</open>
+    <high>31.5581</high>
+    <low>29.9896</low>
+    <close>31.0353</close>
+    <adjusted_close>25.3913</adjusted_close>
+    <volume>156080588</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>31.1241</open>
+    <high>33.3930</high>
+    <low>30.9662</low>
+    <close>32.6038</close>
+    <adjusted_close>26.6746</adjusted_close>
+    <volume>219950936</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>32.6038</open>
+    <high>34.4190</high>
+    <low>32.3177</low>
+    <close>33.8074</close>
+    <adjusted_close>27.9098</adjusted_close>
+    <volume>166303192</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>33.7482</open>
+    <high>35.4844</high>
+    <low>33.4917</low>
+    <close>34.6952</close>
+    <adjusted_close>28.6428</adjusted_close>
+    <volume>215006286</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>34.6163</open>
+    <high>35.6028</high>
+    <low>32.2092</low>
+    <close>33.7876</close>
+    <adjusted_close>27.8935</adjusted_close>
+    <volume>220200811</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>33.2746</open>
+    <high>34.9418</high>
+    <low>32.8307</low>
+    <close>33.9652</close>
+    <adjusted_close>28.0401</adjusted_close>
+    <volume>235214597</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>33.9356</open>
+    <high>34.9912</high>
+    <low>33.7778</low>
+    <close>34.5078</close>
+    <adjusted_close>28.4880</adjusted_close>
+    <volume>175110491</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>34.6163</open>
+    <high>36.2933</high>
+    <low>34.6163</low>
+    <close>34.9616</close>
+    <adjusted_close>28.8626</adjusted_close>
+    <volume>217667917</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>34.9320</open>
+    <high>35.4055</high>
+    <low>33.0000</low>
+    <close>34.1400</close>
+    <adjusted_close>28.1844</adjusted_close>
+    <volume>251947641</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>34.3800</open>
+    <high>35.3800</high>
+    <low>32.9900</low>
+    <close>33.0000</close>
+    <adjusted_close>27.2433</adjusted_close>
+    <volume>206024100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>32.8800</open>
+    <high>34.9300</high>
+    <low>31.2500</low>
+    <close>33.6000</close>
+    <adjusted_close>27.7386</adjusted_close>
+    <volume>268699200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>33.5100</open>
+    <high>34.9500</high>
+    <low>33.0000</low>
+    <close>34.3900</close>
+    <adjusted_close>28.3908</adjusted_close>
+    <volume>173298600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>34.3800</open>
+    <high>35.6900</high>
+    <low>33.5700</low>
+    <close>34.6300</close>
+    <adjusted_close>28.5889</adjusted_close>
+    <volume>174596000</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>34.5100</open>
+    <high>34.7100</high>
+    <low>30.6800</low>
+    <close>33.1500</close>
+    <adjusted_close>27.3671</adjusted_close>
+    <volume>219617300</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>33.0600</open>
+    <high>33.5000</high>
+    <low>31.7100</low>
+    <close>32.2800</close>
+    <adjusted_close>26.9367</adjusted_close>
+    <volume>193431800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>32.3200</open>
+    <high>32.6300</high>
+    <low>26.3000</low>
+    <close>29.8400</close>
+    <adjusted_close>24.9006</adjusted_close>
+    <volume>311584700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>30.7500</open>
+    <high>33.2300</high>
+    <low>30.0500</low>
+    <close>32.4100</close>
+    <adjusted_close>27.0452</adjusted_close>
+    <volume>273015700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>32.6100</open>
+    <high>32.7100</high>
+    <low>30.0500</low>
+    <close>31.3800</close>
+    <adjusted_close>26.1857</adjusted_close>
+    <volume>228129500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>31.5200</open>
+    <high>33.0300</high>
+    <low>29.5700</low>
+    <close>32.4300</close>
+    <adjusted_close>27.0619</adjusted_close>
+    <volume>253682300</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>32.4500</open>
+    <high>35.0200</high>
+    <low>32.4200</low>
+    <close>33.6000</close>
+    <adjusted_close>28.0382</adjusted_close>
+    <volume>265545100</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>33.5000</open>
+    <high>34.7100</high>
+    <low>31.1400</low>
+    <close>31.2000</close>
+    <adjusted_close>26.0355</adjusted_close>
+    <volume>304091100</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>30.9100</open>
+    <high>31.7700</high>
+    <low>28.5500</low>
+    <close>30.3500</close>
+    <adjusted_close>25.3262</adjusted_close>
+    <volume>346983800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>30.5000</open>
+    <high>33.4200</high>
+    <low>29.8300</low>
+    <close>32.3500</close>
+    <adjusted_close>26.9952</adjusted_close>
+    <volume>238231600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>32.7400</open>
+    <high>34.8500</high>
+    <low>29.2500</low>
+    <close>30.6900</close>
+    <adjusted_close>25.6099</adjusted_close>
+    <volume>335173700</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>30.3000</open>
+    <high>31.0600</high>
+    <low>21.2500</low>
+    <close>25.9100</close>
+    <adjusted_close>21.6212</adjusted_close>
+    <volume>462241800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>25.8500</open>
+    <high>26.2400</high>
+    <low>18.6000</low>
+    <close>22.5200</close>
+    <adjusted_close>18.7923</adjusted_close>
+    <volume>390996800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>22.0400</open>
+    <high>26.1000</high>
+    <low>20.2700</low>
+    <close>22.6900</close>
+    <adjusted_close>19.2180</adjusted_close>
+    <volume>341523600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>22.7600</open>
+    <high>24.8300</high>
+    <low>19.9500</low>
+    <close>20.6800</close>
+    <adjusted_close>17.5155</adjusted_close>
+    <volume>278390800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>20.0800</open>
+    <high>20.7900</high>
+    <low>16.4200</low>
+    <close>16.7700</close>
+    <adjusted_close>14.2038</adjusted_close>
+    <volume>399424800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>16.4800</open>
+    <high>19.1400</high>
+    <low>15.1400</low>
+    <close>18.1600</close>
+    <adjusted_close>15.3812</adjusted_close>
+    <volume>365733300</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>17.9200</open>
+    <high>22.5700</high>
+    <low>17.8400</low>
+    <close>21.9000</close>
+    <adjusted_close>18.5489</adjusted_close>
+    <volume>356457800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>21.7600</open>
+    <high>26.2900</high>
+    <low>21.1200</low>
+    <close>24.2200</close>
+    <adjusted_close>20.5138</adjusted_close>
+    <volume>329523500</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>24.8300</open>
+    <high>25.6400</high>
+    <low>22.5500</low>
+    <close>23.3300</close>
+    <adjusted_close>19.7600</adjusted_close>
+    <volume>230511000</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>23.5000</open>
+    <high>26.8400</high>
+    <low>22.0500</low>
+    <close>25.1200</close>
+    <adjusted_close>21.2761</adjusted_close>
+    <volume>281638600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>25.5200</open>
+    <high>27.3000</high>
+    <low>24.8900</low>
+    <close>26.0400</close>
+    <adjusted_close>22.0553</adjusted_close>
+    <volume>242643100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>25.8900</open>
+    <high>28.6800</high>
+    <low>25.2500</low>
+    <close>27.4600</close>
+    <adjusted_close>23.2581</adjusted_close>
+    <volume>284735300</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>27.7600</open>
+    <high>29.9800</high>
+    <low>26.8400</low>
+    <close>27.3700</close>
+    <adjusted_close>23.1818</adjusted_close>
+    <volume>237933500</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>27.3800</open>
+    <high>30.9300</high>
+    <low>27.0100</low>
+    <close>30.2200</close>
+    <adjusted_close>25.5957</adjusted_close>
+    <volume>241033300</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>30.4400</open>
+    <high>32.7500</high>
+    <low>30.3000</low>
+    <close>32.2500</close>
+    <adjusted_close>27.6301</adjusted_close>
+    <volume>237870600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>32.5000</open>
+    <high>32.7500</high>
+    <low>28.7100</low>
+    <close>29.5500</close>
+    <adjusted_close>25.3169</adjusted_close>
+    <volume>232174700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>29.6000</open>
+    <high>31.5200</high>
+    <low>28.9900</low>
+    <close>31.2400</close>
+    <adjusted_close>26.7648</adjusted_close>
+    <volume>230552400</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>31.4000</open>
+    <high>35.6000</high>
+    <low>31.3400</low>
+    <close>34.9100</close>
+    <adjusted_close>29.9090</adjusted_close>
+    <volume>306740800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>35.0700</open>
+    <high>37.4900</high>
+    <low>35.0100</low>
+    <close>36.8400</close>
+    <adjusted_close>31.5626</adjusted_close>
+    <volume>237911900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>36.9500</open>
+    <high>37.9800</high>
+    <low>31.0000</low>
+    <close>33.4200</close>
+    <adjusted_close>28.6325</adjusted_close>
+    <volume>381609800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>33.0600</open>
+    <high>35.8300</high>
+    <low>31.3600</low>
+    <close>31.5000</close>
+    <adjusted_close>26.9875</adjusted_close>
+    <volume>288582900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>31.4700</open>
+    <high>34.8000</high>
+    <low>30.7200</low>
+    <close>33.6900</close>
+    <adjusted_close>28.8638</adjusted_close>
+    <volume>227267000</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>34.1400</open>
+    <high>35.4100</high>
+    <low>31.5500</low>
+    <close>32.5400</close>
+    <adjusted_close>27.8785</adjusted_close>
+    <volume>225905800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>33.0000</open>
+    <high>34.9900</high>
+    <low>32.6800</low>
+    <close>33.1000</close>
+    <adjusted_close>28.3583</adjusted_close>
+    <volume>214082100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>33.3000</open>
+    <high>36.5200</high>
+    <low>33.0800</low>
+    <close>36.1300</close>
+    <adjusted_close>30.9543</adjusted_close>
+    <volume>235383500</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>36.2100</open>
+    <high>38.0000</high>
+    <low>35.1500</low>
+    <close>36.5100</close>
+    <adjusted_close>31.2798</adjusted_close>
+    <volume>277550300</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>37.1500</open>
+    <high>37.9900</high>
+    <low>36.5100</low>
+    <close>37.5100</close>
+    <adjusted_close>32.4881</adjusted_close>
+    <volume>157233100</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>37.7400</open>
+    <high>40.0000</high>
+    <low>37.6200</low>
+    <close>38.8700</close>
+    <adjusted_close>33.6660</adjusted_close>
+    <volume>196560600</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>39.0400</open>
+    <high>44.0500</high>
+    <low>39.0400</low>
+    <close>43.7400</close>
+    <adjusted_close>37.8840</adjusted_close>
+    <volume>248538800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>43.6300</open>
+    <high>44.3400</high>
+    <low>40.4200</low>
+    <close>43.0900</close>
+    <adjusted_close>37.3210</adjusted_close>
+    <volume>213021500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>43.2300</open>
+    <high>43.3800</high>
+    <low>40.4600</low>
+    <close>43.1000</close>
+    <adjusted_close>37.3297</adjusted_close>
+    <volume>147489900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>43.4700</open>
+    <high>44.1300</high>
+    <low>40.5500</low>
+    <close>41.6300</close>
+    <adjusted_close>36.0565</adjusted_close>
+    <volume>219206400</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>41.5300</open>
+    <high>41.5900</high>
+    <low>37.1900</low>
+    <close>39.0400</close>
+    <adjusted_close>33.8133</adjusted_close>
+    <volume>235019900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>39.1500</open>
+    <high>40.9700</high>
+    <low>38.4600</low>
+    <close>38.6200</close>
+    <adjusted_close>33.4495</adjusted_close>
+    <volume>217774800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>38.7300</open>
+    <high>38.7500</high>
+    <low>29.6000</low>
+    <close>34.0600</close>
+    <adjusted_close>29.5000</adjusted_close>
+    <volume>491399200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>34.0900</open>
+    <high>34.3300</high>
+    <low>29.0500</low>
+    <close>30.1600</close>
+    <adjusted_close>26.1221</adjusted_close>
+    <volume>278302800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>30.0300</open>
+    <high>36.6000</high>
+    <low>28.1900</low>
+    <close>34.8800</close>
+    <adjusted_close>30.2102</adjusted_close>
+    <volume>237605600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>34.4300</open>
+    <high>37.4200</high>
+    <low>33.2800</low>
+    <close>35.8500</close>
+    <adjusted_close>31.0503</adjusted_close>
+    <volume>302233800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>36.0300</open>
+    <high>37.8000</high>
+    <low>34.5100</low>
+    <close>37.5000</close>
+    <adjusted_close>33.0248</adjusted_close>
+    <volume>191766800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>37.9700</open>
+    <high>40.2500</high>
+    <low>37.9400</low>
+    <close>38.9000</close>
+    <adjusted_close>34.2578</adjusted_close>
+    <volume>211135700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>39.2500</open>
+    <high>42.3700</high>
+    <low>38.5600</low>
+    <close>41.9900</close>
+    <adjusted_close>36.9790</adjusted_close>
+    <volume>202164000</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>42.1300</open>
+    <high>44.5000</high>
+    <low>41.7000</low>
+    <close>43.7800</close>
+    <adjusted_close>38.5554</adjusted_close>
+    <volume>190630500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>43.5900</open>
+    <high>44.0000</high>
+    <low>40.8800</low>
+    <close>43.1100</close>
+    <adjusted_close>37.9653</adjusted_close>
+    <volume>136072000</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>43.1800</open>
+    <high>46.1000</high>
+    <low>42.8400</low>
+    <close>45.7100</close>
+    <adjusted_close>40.2551</adjusted_close>
+    <volume>235329800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>45.1500</open>
+    <high>48.9500</high>
+    <low>44.1400</low>
+    <close>48.5000</close>
+    <adjusted_close>42.7121</adjusted_close>
+    <volume>202963900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>48.6200</open>
+    <high>50.5400</high>
+    <low>46.8500</low>
+    <close>49.1400</close>
+    <adjusted_close>43.2758</adjusted_close>
+    <volume>177535700</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>49.3300</open>
+    <high>50.6500</high>
+    <low>48.1300</low>
+    <close>49.4700</close>
+    <adjusted_close>43.5664</adjusted_close>
+    <volume>175338200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>49.5200</open>
+    <high>53.4000</high>
+    <low>49.2300</low>
+    <close>52.2800</close>
+    <adjusted_close>46.0410</adjusted_close>
+    <volume>162824600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>52.3100</open>
+    <high>53.1500</high>
+    <low>48.8000</low>
+    <close>49.1200</close>
+    <adjusted_close>43.2581</adjusted_close>
+    <volume>159711500</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>49.2800</open>
+    <high>50.9900</high>
+    <low>46.5300</low>
+    <close>49.6600</close>
+    <adjusted_close>43.7337</adjusted_close>
+    <volume>218866700</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>49.7700</open>
+    <high>51.0600</high>
+    <low>48.5500</low>
+    <close>49.7900</close>
+    <adjusted_close>44.5215</adjusted_close>
+    <volume>159328600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>50.8000</open>
+    <high>54.8700</high>
+    <low>50.1800</low>
+    <close>53.8800</close>
+    <adjusted_close>48.1787</adjusted_close>
+    <volume>186436300</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>54.1800</open>
+    <high>55.9500</high>
+    <low>53.4100</low>
+    <close>54.5900</close>
+    <adjusted_close>48.8136</adjusted_close>
+    <volume>183387500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>54.3100</open>
+    <high>57.8200</high>
+    <low>54.3000</low>
+    <close>56.8000</close>
+    <adjusted_close>50.7898</adjusted_close>
+    <volume>135853800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>56.8900</open>
+    <high>63.2500</high>
+    <low>56.1500</low>
+    <close>62.8400</close>
+    <adjusted_close>56.1907</adjusted_close>
+    <volume>181634900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>62.8800</open>
+    <high>67.8900</high>
+    <low>62.8000</low>
+    <close>63.0800</close>
+    <adjusted_close>56.4053</adjusted_close>
+    <volume>202249600</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>63.0600</open>
+    <high>65.5500</high>
+    <low>61.8200</low>
+    <close>63.1500</close>
+    <adjusted_close>56.4679</adjusted_close>
+    <volume>151203100</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>63.8400</open>
+    <high>67.3600</high>
+    <low>62.5700</low>
+    <close>64.6500</close>
+    <adjusted_close>57.8091</adjusted_close>
+    <volume>132449900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>65.1600</open>
+    <high>67.1600</high>
+    <low>60.4100</low>
+    <close>60.8300</close>
+    <adjusted_close>54.3933</adjusted_close>
+    <volume>161728900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>61.4200</open>
+    <high>67.6500</high>
+    <low>60.5200</low>
+    <close>64.4900</close>
+    <adjusted_close>57.6661</adjusted_close>
+    <volume>207271000</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>64.3700</open>
+    <high>69.8700</high>
+    <low>63.1000</low>
+    <close>68.5900</close>
+    <adjusted_close>61.3322</adjusted_close>
+    <volume>149885600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>68.7100</open>
+    <high>71.6900</high>
+    <low>66.7200</low>
+    <close>70.5400</close>
+    <adjusted_close>63.0759</adjusted_close>
+    <volume>127300800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>70.7900</open>
+    <high>76.5400</high>
+    <low>68.8000</low>
+    <close>76.4000</close>
+    <adjusted_close>69.1592</adjusted_close>
+    <volume>139787700</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>76.0400</open>
+    <high>76.8400</high>
+    <low>71.1200</low>
+    <close>72.6100</close>
+    <adjusted_close>65.7284</adjusted_close>
+    <volume>144225600</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>72.6600</open>
+    <high>81.5900</high>
+    <low>69.8500</low>
+    <close>80.8100</close>
+    <adjusted_close>73.1513</adjusted_close>
+    <volume>159959800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>80.3000</open>
+    <high>83.6500</high>
+    <low>77.2800</low>
+    <close>80.0700</close>
+    <adjusted_close>72.4814</adjusted_close>
+    <volume>147818100</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>80.3900</open>
+    <high>82.8500</high>
+    <low>76.3100</low>
+    <close>79.3400</close>
+    <adjusted_close>71.8206</adjusted_close>
+    <volume>141470400</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>79.3500</open>
+    <high>84.3900</high>
+    <low>79.2100</low>
+    <close>84.0100</close>
+    <adjusted_close>76.0480</adjusted_close>
+    <volume>135289000</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>84.2700</open>
+    <high>86.0700</high>
+    <low>81.8000</low>
+    <close>85.7400</close>
+    <adjusted_close>77.6140</adjusted_close>
+    <volume>129981800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>85.8100</open>
+    <high>87.6300</high>
+    <low>84.8700</low>
+    <close>85.8800</close>
+    <adjusted_close>77.7408</adjusted_close>
+    <volume>120676600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>85.3900</open>
+    <high>91.1400</high>
+    <low>85.2100</low>
+    <close>89.8800</close>
+    <adjusted_close>81.3616</adjusted_close>
+    <volume>119719000</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>90.1800</open>
+    <high>91.2000</high>
+    <low>87.3600</low>
+    <close>89.0300</close>
+    <adjusted_close>80.5922</adjusted_close>
+    <volume>112146900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>89.0800</open>
+    <high>91.9800</high>
+    <low>78.5400</low>
+    <close>91.3800</close>
+    <adjusted_close>82.7195</adjusted_close>
+    <volume>196405200</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>91.2400</open>
+    <high>92.9600</high>
+    <low>88.6500</low>
+    <close>92.5100</close>
+    <adjusted_close>83.7424</adjusted_close>
+    <volume>129883200</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>92.6300</open>
+    <high>95.9300</high>
+    <low>90.1300</low>
+    <close>94.1900</close>
+    <adjusted_close>86.3469</adjusted_close>
+    <volume>145232700</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>94.9100</open>
+    <high>96.4300</high>
+    <low>90.8300</low>
+    <close>90.9600</close>
+    <adjusted_close>83.3858</adjusted_close>
+    <volume>139500600</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>91.3000</open>
+    <high>105.9800</high>
+    <low>90.0600</low>
+    <close>104.0800</close>
+    <adjusted_close>95.4134</adjusted_close>
+    <volume>150289300</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>104.3500</open>
+    <high>108.9400</high>
+    <low>102.8700</low>
+    <close>104.8900</close>
+    <adjusted_close>96.1559</adjusted_close>
+    <volume>127784500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>105.4300</open>
+    <high>111.6600</high>
+    <low>104.2500</low>
+    <close>108.7200</close>
+    <adjusted_close>99.6670</adjusted_close>
+    <volume>118683000</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>109.9500</open>
+    <high>113.3000</high>
+    <low>107.6700</low>
+    <close>110.3700</close>
+    <adjusted_close>101.1796</adjusted_close>
+    <volume>121219000</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>111.4800</open>
+    <high>115.2800</high>
+    <low>107.6500</low>
+    <close>114.1400</close>
+    <adjusted_close>104.6357</adjusted_close>
+    <volume>132415500</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>114.9500</open>
+    <high>120.7200</high>
+    <low>114.2700</low>
+    <close>120.0000</close>
+    <adjusted_close>110.6475</adjusted_close>
+    <volume>128648900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>120.8800</open>
+    <high>122.0800</high>
+    <low>90.0000</low>
+    <close>101.8800</close>
+    <adjusted_close>93.9397</adjusted_close>
+    <volume>409039800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>99.3100</open>
+    <high>105.9500</high>
+    <low>97.7700</low>
+    <close>102.2000</close>
+    <adjusted_close>94.2348</adjusted_close>
+    <volume>191307900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>102.9700</open>
+    <high>115.4000</high>
+    <low>99.8800</low>
+    <close>113.7400</close>
+    <adjusted_close>104.8754</adjusted_close>
+    <volume>160006200</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>114.4900</open>
+    <high>120.6500</high>
+    <low>110.8100</low>
+    <close>113.4700</close>
+    <adjusted_close>104.6264</adjusted_close>
+    <volume>193950600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>114.1500</open>
+    <high>115.4700</high>
+    <low>104.3000</low>
+    <close>105.0800</close>
+    <adjusted_close>97.5114</adjusted_close>
+    <volume>229165100</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>103.1200</open>
+    <high>103.4300</high>
+    <low>90.4200</low>
+    <close>95.8200</close>
+    <adjusted_close>88.9184</adjusted_close>
+    <volume>222765600</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>95.0800</open>
+    <high>97.0000</high>
+    <low>86.2500</low>
+    <close>95.5200</close>
+    <adjusted_close>88.6400</adjusted_close>
+    <volume>211432100</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>95.9000</open>
+    <high>100.3700</high>
+    <low>95.5300</low>
+    <close>99.3100</close>
+    <adjusted_close>92.1570</adjusted_close>
+    <volume>143110700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>98.8000</open>
+    <high>105.6000</high>
+    <low>95.8000</low>
+    <close>103.2600</close>
+    <adjusted_close>95.8225</adjusted_close>
+    <volume>149298100</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>103.3000</open>
+    <high>106.7500</high>
+    <low>97.5100</low>
+    <close>99.2200</close>
+    <adjusted_close>92.0735</adjusted_close>
+    <volume>179880700</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>98.6700</open>
+    <high>100.9600</high>
+    <low>94.0000</low>
+    <close>97.8200</close>
+    <adjusted_close>90.7743</adjusted_close>
+    <volume>154881400</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>97.7500</open>
+    <high>100.8000</high>
+    <low>95.8200</low>
+    <close>95.9500</close>
+    <adjusted_close>89.6858</adjusted_close>
+    <volume>129156600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>96.1500</open>
+    <high>99.2700</high>
+    <low>94.1600</low>
+    <close>94.4600</close>
+    <adjusted_close>88.2931</adjusted_close>
+    <volume>186980800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>94.7300</open>
+    <high>94.9600</high>
+    <low>91.1900</low>
+    <close>92.8600</close>
+    <adjusted_close>86.7976</adjusted_close>
+    <volume>164603500</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>92.4700</open>
+    <high>94.4000</high>
+    <low>90.3200</low>
+    <close>92.6900</close>
+    <adjusted_close>86.6386</adjusted_close>
+    <volume>139393400</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>92.7800</open>
+    <high>100.2900</high>
+    <low>91.6600</low>
+    <close>99.1200</close>
+    <adjusted_close>92.6489</adjusted_close>
+    <volume>187624400</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>99.1300</open>
+    <high>106.2600</high>
+    <low>98.2500</low>
+    <close>104.2200</close>
+    <adjusted_close>98.1667</adjusted_close>
+    <volume>178818000</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>105.3000</open>
+    <high>111.0500</high>
+    <low>105.2100</low>
+    <close>110.6500</close>
+    <adjusted_close>104.2232</adjusted_close>
+    <volume>146529700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>110.7100</open>
+    <high>111.9900</high>
+    <low>108.5800</low>
+    <close>110.0900</close>
+    <adjusted_close>103.6957</adjusted_close>
+    <volume>130198500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>110.6600</open>
+    <high>113.7100</high>
+    <low>110.0400</low>
+    <close>113.3900</close>
+    <adjusted_close>106.8041</adjusted_close>
+    <volume>128977500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>113.1800</open>
+    <high>116.1000</high>
+    <low>112.0400</low>
+    <close>115.6000</close>
+    <adjusted_close>108.8857</adjusted_close>
+    <volume>97240300</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>115.5900</open>
+    <high>115.6100</high>
+    <low>105.2300</low>
+    <close>107.9400</close>
+    <adjusted_close>101.6706</adjusted_close>
+    <volume>173480500</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>107.7300</open>
+    <high>108.6400</high>
+    <low>103.1700</low>
+    <close>106.2500</close>
+    <adjusted_close>100.0788</adjusted_close>
+    <volume>168401900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>106.7600</open>
+    <high>110.1900</high>
+    <low>102.7200</low>
+    <close>109.9300</close>
+    <adjusted_close>104.3153</adjusted_close>
+    <volume>114387900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>109.9800</open>
+    <high>110.8300</high>
+    <low>100.5000</low>
+    <close>101.2000</close>
+    <adjusted_close>96.0312</adjusted_close>
+    <volume>196946900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>101.6500</open>
+    <high>102.5500</high>
+    <low>96.2000</low>
+    <close>98.5700</close>
+    <adjusted_close>93.5355</adjusted_close>
+    <volume>192634400</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>99.3100</open>
+    <high>100.9800</high>
+    <low>96.8000</low>
+    <close>97.8100</close>
+    <adjusted_close>92.8143</adjusted_close>
+    <volume>136249500</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>98.1300</open>
+    <high>106.2600</high>
+    <low>97.9000</low>
+    <close>104.8200</close>
+    <adjusted_close>99.4663</adjusted_close>
+    <volume>172385900</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>104.5800</open>
+    <high>112.6700</high>
+    <low>103.8700</low>
+    <close>107.5100</close>
+    <adjusted_close>102.8396</adjusted_close>
+    <volume>204095500</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>108.9500</open>
+    <high>113.1900</high>
+    <low>108.4700</low>
+    <close>108.6700</close>
+    <adjusted_close>103.9492</adjusted_close>
+    <volume>161521100</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>108.6200</open>
+    <high>110.6500</high>
+    <low>100.2600</low>
+    <close>103.1600</close>
+    <adjusted_close>98.6786</adjusted_close>
+    <volume>187750900</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>103.2000</open>
+    <high>105.9400</high>
+    <low>98.1500</low>
+    <close>100.4400</close>
+    <adjusted_close>96.0767</adjusted_close>
+    <volume>154204900</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>100.1800</open>
+    <high>102.7100</high>
+    <low>97.7000</low>
+    <close>100.3300</close>
+    <adjusted_close>95.9715</adjusted_close>
+    <volume>159399600</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>100.1800</open>
+    <high>105.4900</high>
+    <low>97.6800</low>
+    <close>99.4700</close>
+    <adjusted_close>95.1489</adjusted_close>
+    <volume>195097400</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>99.6900</open>
+    <high>109.4900</high>
+    <low>99.2000</low>
+    <close>104.8100</close>
+    <adjusted_close>100.2569</adjusted_close>
+    <volume>205417800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>104.1500</open>
+    <high>114.6800</high>
+    <low>103.5000</low>
+    <close>113.5600</close>
+    <adjusted_close>109.4999</adjusted_close>
+    <volume>153023200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>113.6800</open>
+    <high>117.9000</high>
+    <low>111.4400</low>
+    <close>112.0200</close>
+    <adjusted_close>108.0150</adjusted_close>
+    <volume>135849100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>111.8000</open>
+    <high>117.4600</high>
+    <low>108.2300</low>
+    <close>116.9400</close>
+    <adjusted_close>112.7591</adjusted_close>
+    <volume>143771100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>117.2800</open>
+    <high>119.6900</high>
+    <low>110.3200</low>
+    <close>114.8300</close>
+    <adjusted_close>110.7245</adjusted_close>
+    <volume>178593100</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>115.2000</open>
+    <high>120.2000</high>
+    <low>111.5200</low>
+    <close>115.4900</close>
+    <adjusted_close>111.3609</adjusted_close>
+    <volume>179965100</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>116.6500</open>
+    <high>116.9200</high>
+    <low>100.3500</low>
+    <close>109.6500</close>
+    <adjusted_close>106.5499</adjusted_close>
+    <volume>163486600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>108.1000</open>
+    <high>113.1800</high>
+    <low>105.9400</low>
+    <close>111.5200</close>
+    <adjusted_close>108.3670</adjusted_close>
+    <volume>154319500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>111.9700</open>
+    <high>115.8000</high>
+    <low>109.1500</low>
+    <close>112.8400</close>
+    <adjusted_close>109.6497</adjusted_close>
+    <volume>162350800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>113.4500</open>
+    <high>115.4800</high>
+    <low>107.3200</low>
+    <close>111.0300</close>
+    <adjusted_close>107.8909</adjusted_close>
+    <volume>333771400</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>111.5900</open>
+    <high>142.3700</high>
+    <low>111.3800</low>
+    <close>136.9700</close>
+    <adjusted_close>133.0974</adjusted_close>
+    <volume>355199600</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>137.4900</open>
+    <high>138.1700</high>
+    <low>130.5500</low>
+    <close>132.0400</close>
+    <adjusted_close>128.3068</adjusted_close>
+    <volume>208497300</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>132.0200</open>
+    <high>143.5100</high>
+    <low>131.4900</low>
+    <close>139.6400</close>
+    <adjusted_close>135.6920</adjusted_close>
+    <volume>195325700</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>140.4500</open>
+    <high>147.1500</high>
+    <low>139.2200</low>
+    <close>143.0100</close>
+    <adjusted_close>139.8273</adjusted_close>
+    <volume>162259500</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>143.3400</open>
+    <high>144.5300</high>
+    <low>131.0200</low>
+    <close>137.2600</close>
+    <adjusted_close>134.2052</adjusted_close>
+    <volume>214762100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>136.3700</open>
+    <high>140.0800</high>
+    <low>128.9200</low>
+    <close>130.3200</close>
+    <adjusted_close>127.4197</adjusted_close>
+    <volume>161822400</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>130.8000</open>
+    <high>133.6800</high>
+    <low>127.5400</low>
+    <close>129.9200</close>
+    <adjusted_close>127.0286</adjusted_close>
+    <volume>164542300</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>130.9900</open>
+    <high>153.4100</high>
+    <low>130.5100</low>
+    <close>151.5800</close>
+    <adjusted_close>148.2065</adjusted_close>
+    <volume>291068300</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>152.9400</open>
+    <high>152.9700</high>
+    <low>143.2600</low>
+    <close>144.6300</close>
+    <adjusted_close>142.2585</adjusted_close>
+    <volume>170966600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>145.2900</open>
+    <high>148.2000</high>
+    <low>134.8300</low>
+    <close>138.3100</close>
+    <adjusted_close>136.0421</adjusted_close>
+    <volume>197463900</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>139.7900</open>
+    <high>147.3000</high>
+    <low>113.2100</low>
+    <close>117.6500</close>
+    <adjusted_close>115.7209</adjusted_close>
+    <volume>294996800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>119.1300</open>
+    <high>121.7800</high>
+    <low>79.0700</low>
+    <close>96.6000</close>
+    <adjusted_close>95.0160</adjusted_close>
+    <volume>619320800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>93.5000</open>
+    <high>112.7000</high>
+    <low>92.5600</low>
+    <close>108.1500</close>
+    <adjusted_close>106.3766</adjusted_close>
+    <volume>377797800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>106.3600</open>
+    <high>123.7800</high>
+    <low>98.8600</low>
+    <close>117.3000</close>
+    <adjusted_close>115.3766</adjusted_close>
+    <volume>455450700</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>117.2600</open>
+    <high>127.8200</high>
+    <low>108.0200</low>
+    <close>111.5100</close>
+    <adjusted_close>109.6815</adjusted_close>
+    <volume>315403500</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>112.8200</open>
+    <high>122.0900</high>
+    <low>112.0000</low>
+    <close>116.9400</close>
+    <adjusted_close>115.0225</adjusted_close>
+    <volume>235337900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>116.1700</open>
+    <high>136.8000</high>
+    <low>115.3500</low>
+    <close>131.8700</close>
+    <adjusted_close>129.7077</adjusted_close>
+    <volume>262120000</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>131.9200</open>
+    <high>137.2400</high>
+    <low>120.7800</low>
+    <close>124.0800</close>
+    <adjusted_close>122.0454</adjusted_close>
+    <volume>189275000</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>124.9400</open>
+    <high>131.3600</high>
+    <low>117.2300</low>
+    <close>121.2500</close>
+    <adjusted_close>119.2618</adjusted_close>
+    <volume>193047200</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>122.2400</open>
+    <high>151.8600</high>
+    <low>119.8100</low>
+    <close>148.0100</close>
+    <adjusted_close>145.5830</adjusted_close>
+    <volume>243644800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>149.5700</open>
+    <high>183.4000</high>
+    <low>148.3400</low>
+    <close>181.1800</close>
+    <adjusted_close>178.2091</adjusted_close>
+    <volume>316805800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>182.2600</open>
+    <high>182.5900</high>
+    <low>160.5200</low>
+    <close>168.1700</close>
+    <adjusted_close>165.4125</adjusted_close>
+    <volume>183217300</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>170.8400</open>
+    <high>200.6000</high>
+    <low>168.0300</low>
+    <close>189.0400</close>
+    <adjusted_close>185.9402</adjusted_close>
+    <volume>256093700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>193.2300</open>
+    <high>203.0200</high>
+    <low>181.0100</low>
+    <close>184.5200</close>
+    <adjusted_close>181.4944</adjusted_close>
+    <volume>285166300</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>186.4300</open>
+    <high>191.6700</high>
+    <low>178.8600</low>
+    <close>186.0200</close>
+    <adjusted_close>182.9698</adjusted_close>
+    <volume>152784600</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>187.6900</open>
+    <high>189.2200</high>
+    <low>167.1000</low>
+    <close>178.6500</close>
+    <adjusted_close>175.7206</adjusted_close>
+    <volume>205087900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>180.1800</open>
+    <high>181.0100</high>
+    <low>171.3100</low>
+    <close>175.7700</close>
+    <adjusted_close>172.8878</adjusted_close>
+    <volume>173576100</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>175.3500</open>
+    <high>186.2900</high>
+    <low>169.8100</low>
+    <close>176.0200</close>
+    <adjusted_close>173.1337</adjusted_close>
+    <volume>180949100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>177.2200</open>
+    <high>187.5800</high>
+    <low>170.9200</low>
+    <close>181.3000</close>
+    <adjusted_close>178.3272</adjusted_close>
+    <volume>180772600</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>181.9600</open>
+    <high>187.5800</high>
+    <low>169.0300</low>
+    <close>169.1700</close>
+    <adjusted_close>166.3961</adjusted_close>
+    <volume>183753100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>172.2800</open>
+    <high>179.6300</high>
+    <low>168.1500</low>
+    <close>169.0700</close>
+    <adjusted_close>166.2977</adjusted_close>
+    <volume>181076800</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>169.2100</open>
+    <high>179.2500</high>
+    <low>143.1100</low>
+    <close>144.9000</close>
+    <adjusted_close>142.5240</adjusted_close>
+    <volume>349411000</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>146.7000</open>
+    <high>157.0700</high>
+    <low>142.0400</low>
+    <close>154.8900</close>
+    <adjusted_close>152.3502</adjusted_close>
+    <volume>250556100</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>155.8300</open>
+    <high>160.3200</high>
+    <low>129.2600</low>
+    <close>142.9700</close>
+    <adjusted_close>140.6257</adjusted_close>
+    <volume>269830300</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>143.0200</open>
+    <high>157.5000</high>
+    <low>139.2500</low>
+    <close>148.4600</close>
+    <adjusted_close>146.0257</adjusted_close>
+    <volume>251467500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>147.8600</open>
+    <high>148.6500</high>
+    <low>128.3800</low>
+    <close>137.1600</close>
+    <adjusted_close>134.9109</adjusted_close>
+    <volume>225743700</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>137.3400</open>
+    <high>139.2600</high>
+    <low>111.3600</low>
+    <close>111.6300</close>
+    <adjusted_close>109.7996</adjusted_close>
+    <volume>274453400</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>111.7100</open>
+    <high>116.4400</high>
+    <low>99.4700</low>
+    <close>110.4400</close>
+    <adjusted_close>108.6291</adjusted_close>
+    <volume>323011400</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>112.0100</open>
+    <high>112.8500</high>
+    <low>92.0100</low>
+    <close>94.4000</close>
+    <adjusted_close>92.8521</adjusted_close>
+    <volume>241396000</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>94.2400</open>
+    <high>106.3400</high>
+    <low>90.2300</low>
+    <close>106.1000</close>
+    <adjusted_close>104.3602</adjusted_close>
+    <volume>196472800</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>104.8700</open>
+    <high>126.4800</high>
+    <low>103.8600</low>
+    <close>112.0800</close>
+    <adjusted_close>110.2422</adjusted_close>
+    <volume>294112900</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>111.7900</open>
+    <high>117.4900</high>
+    <low>94.2800</low>
+    <close>94.3300</close>
+    <adjusted_close>92.7832</adjusted_close>
+    <volume>209868200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>95.7300</open>
+    <high>107.4300</high>
+    <low>90.7100</low>
+    <close>106.5400</close>
+    <adjusted_close>104.7930</adjusted_close>
+    <volume>180462300</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>107.7000</open>
+    <high>108.8400</high>
+    <low>86.2800</low>
+    <close>97.8700</close>
+    <adjusted_close>96.2652</adjusted_close>
+    <volume>427693700</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>97.8700</open>
+    <high>99.6900</high>
+    <low>84.0700</low>
+    <close>86.8800</close>
+    <adjusted_close>85.4554</adjusted_close>
+    <volume>301451500</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>88.9800</open>
+    <high>110.5800</high>
+    <low>87.8300</low>
+    <close>108.4900</close>
+    <adjusted_close>106.7110</adjusted_close>
+    <volume>228917500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>108.5000</open>
+    <high>118.1800</high>
+    <low>98.9600</low>
+    <close>99.6100</close>
+    <adjusted_close>97.9767</adjusted_close>
+    <volume>252908500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>99.1900</open>
+    <high>102.7000</high>
+    <low>90.4600</low>
+    <close>100.1300</close>
+    <adjusted_close>98.4881</adjusted_close>
+    <volume>196622800</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>100.2100</open>
+    <high>102.5600</high>
+    <low>96.4600</low>
+    <close>102.5000</close>
+    <adjusted_close>100.8193</adjusted_close>
+    <volume>156611900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>102.4100</open>
+    <high>103.9100</high>
+    <low>87.0100</low>
+    <close>87.9600</close>
+    <adjusted_close>86.5177</adjusted_close>
+    <volume>335058800</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>88.4000</open>
+    <high>94.5200</high>
+    <low>87.1100</low>
+    <close>89.2800</close>
+    <adjusted_close>87.8160</adjusted_close>
+    <volume>282707900</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>89.1200</open>
+    <high>90.9500</high>
+    <low>85.1600</low>
+    <close>88.8900</close>
+    <adjusted_close>87.4324</adjusted_close>
+    <volume>320326200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>89.1200</open>
+    <high>92.5300</high>
+    <low>82.4600</low>
+    <close>83.6800</close>
+    <adjusted_close>82.3079</adjusted_close>
+    <volume>377336700</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>82.1100</open>
+    <high>86.1900</high>
+    <low>79.2200</low>
+    <close>81.0500</close>
+    <adjusted_close>79.7210</adjusted_close>
+    <volume>319918100</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>80.9200</open>
+    <high>86.2900</high>
+    <low>78.7300</low>
+    <close>81.5900</close>
+    <adjusted_close>80.2521</adjusted_close>
+    <volume>245120700</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>81.5300</open>
+    <high>96.5100</high>
+    <low>80.1800</low>
+    <close>92.6900</close>
+    <adjusted_close>91.1701</adjusted_close>
+    <volume>323010400</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>92.7400</open>
+    <high>94.8300</high>
+    <low>89.8600</low>
+    <close>90.2900</close>
+    <adjusted_close>89.0989</adjusted_close>
+    <volume>221582600</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>90.1000</open>
+    <high>97.5700</high>
+    <low>88.6900</low>
+    <close>96.0500</close>
+    <adjusted_close>94.7829</adjusted_close>
+    <volume>252980500</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>96.3700</open>
+    <high>112.9200</high>
+    <low>95.8200</low>
+    <close>111.5800</close>
+    <adjusted_close>110.1081</adjusted_close>
+    <volume>294971900</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>111.4400</open>
+    <high>123.7400</high>
+    <low>109.2000</low>
+    <close>122.3600</close>
+    <adjusted_close>120.7459</adjusted_close>
+    <volume>219267400</volume>
+    <news>DIS Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>122.0600</open>
+    <high>123.6900</high>
+    <low>110.3400</low>
+    <close>111.1000</close>
+    <adjusted_close>109.6344</adjusted_close>
+    <volume>202600300</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>111.2900</open>
+    <high>116.9400</high>
+    <low>100.2700</low>
+    <close>103.9100</close>
+    <adjusted_close>102.5393</adjusted_close>
+    <volume>273051300</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>104.1700</open>
+    <high>104.2200</high>
+    <low>98.3800</low>
+    <close>99.2900</close>
+    <adjusted_close>97.9802</adjusted_close>
+    <volume>181441700</volume>
+    <news>DIS Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>99.4000</open>
+    <high>99.7400</high>
+    <low>89.2100</low>
+    <close>93.6900</close>
+    <adjusted_close>92.8806</adjusted_close>
+    <volume>228451300</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>93.8600</open>
+    <high>93.9500</high>
+    <low>83.9100</low>
+    <close>90.3800</close>
+    <adjusted_close>89.5992</adjusted_close>
+    <volume>272165400</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>89.6100</open>
+    <high>97.5700</high>
+    <low>86.5900</low>
+    <close>96.1900</close>
+    <adjusted_close>95.3590</adjusted_close>
+    <volume>178935200</volume>
+    <news>DIS Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>95.1900</open>
+    <high>97.5400</high>
+    <low>91.4600</low>
+    <close>96.2000</close>
+    <adjusted_close>95.3689</adjusted_close>
+    <volume>175736000</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>95.7000</open>
+    <high>118.2000</high>
+    <low>94.8300</low>
+    <close>117.4700</close>
+    <adjusted_close>116.4552</adjusted_close>
+    <volume>249911200</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>117.7800</open>
+    <high>118.6300</high>
+    <low>109.8300</low>
+    <close>111.3500</close>
+    <adjusted_close>110.8772</adjusted_close>
+    <volume>167626000</volume>
+    <news>DIS Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</disney_stock_data>

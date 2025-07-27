@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<walmart_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>22.7917</open>
+    <high>23.0000</high>
+    <low>17.8333</low>
+    <close>18.2500</close>
+    <adjusted_close>11.6960</adjusted_close>
+    <volume>407253300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>18.3333</open>
+    <high>20.0417</high>
+    <low>14.4792</low>
+    <close>16.2500</close>
+    <adjusted_close>10.4143</adjusted_close>
+    <volume>690120900</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>16.6250</open>
+    <high>20.2500</high>
+    <low>15.2083</low>
+    <close>18.8333</close>
+    <adjusted_close>12.0850</adjusted_close>
+    <volume>695347500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>18.8750</open>
+    <high>21.6458</high>
+    <low>17.2500</low>
+    <close>18.4583</close>
+    <adjusted_close>11.8444</adjusted_close>
+    <volume>409172100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>18.7917</open>
+    <high>20.0000</high>
+    <low>16.5000</low>
+    <close>19.2083</close>
+    <adjusted_close>12.3257</adjusted_close>
+    <volume>433221900</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>19.0417</open>
+    <high>20.0208</high>
+    <low>17.2083</low>
+    <close>19.2083</close>
+    <adjusted_close>12.3391</adjusted_close>
+    <volume>388866000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>19.0833</open>
+    <high>20.9792</high>
+    <low>18.0833</low>
+    <close>18.4167</close>
+    <adjusted_close>11.8306</adjusted_close>
+    <volume>321880500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>18.0000</open>
+    <high>19.2083</high>
+    <low>15.7083</low>
+    <close>15.8750</close>
+    <adjusted_close>10.1979</adjusted_close>
+    <volume>577432800</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>15.8542</open>
+    <high>18.2500</high>
+    <low>15.6250</low>
+    <close>16.0417</close>
+    <adjusted_close>10.3164</adjusted_close>
+    <volume>452851500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>16.0625</open>
+    <high>16.2083</high>
+    <low>13.8125</low>
+    <close>15.1250</close>
+    <adjusted_close>9.7269</adjusted_close>
+    <volume>652001400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>15.5000</open>
+    <high>17.3958</high>
+    <low>14.1875</low>
+    <close>17.3958</close>
+    <adjusted_close>11.1873</adjusted_close>
+    <volume>589139700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>17.5417</open>
+    <high>18.6458</high>
+    <low>15.6458</low>
+    <close>17.7083</close>
+    <adjusted_close>11.4025</adjusted_close>
+    <volume>518363400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>17.7083</open>
+    <high>19.5833</high>
+    <low>16.8125</low>
+    <close>18.9333</close>
+    <adjusted_close>12.1912</adjusted_close>
+    <volume>539777100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>18.9333</open>
+    <high>18.9333</high>
+    <low>16.0167</low>
+    <close>16.6967</close>
+    <adjusted_close>10.7511</adjusted_close>
+    <volume>410850600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>16.4167</open>
+    <high>17.3000</high>
+    <low>15.0667</low>
+    <close>16.8333</close>
+    <adjusted_close>10.8549</adjusted_close>
+    <volume>508343100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>16.6667</open>
+    <high>17.7667</high>
+    <low>15.8033</low>
+    <close>17.2467</close>
+    <adjusted_close>11.1215</adjusted_close>
+    <volume>449230800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>17.2400</open>
+    <high>18.2500</high>
+    <low>17.0000</low>
+    <close>17.2500</close>
+    <adjusted_close>11.1236</adjusted_close>
+    <volume>439709700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>17.1800</open>
+    <high>17.4833</high>
+    <low>16.0000</low>
+    <close>16.2667</close>
+    <adjusted_close>10.5046</adjusted_close>
+    <volume>367112100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>16.3167</open>
+    <high>18.8333</high>
+    <low>15.5700</low>
+    <close>18.6333</close>
+    <adjusted_close>12.0329</adjusted_close>
+    <volume>462081300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>18.4667</open>
+    <high>18.9233</high>
+    <low>15.7467</low>
+    <close>16.0167</close>
+    <adjusted_close>10.3431</adjusted_close>
+    <volume>454365900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>16.0767</open>
+    <high>16.6500</high>
+    <low>14.0000</low>
+    <close>16.5000</close>
+    <adjusted_close>10.6717</adjusted_close>
+    <volume>522983100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>16.5000</open>
+    <high>18.2500</high>
+    <low>16.0467</low>
+    <close>17.1333</close>
+    <adjusted_close>11.0813</adjusted_close>
+    <volume>563800200</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>17.0667</open>
+    <high>18.7467</high>
+    <low>16.9533</low>
+    <close>18.3833</close>
+    <adjusted_close>11.8898</adjusted_close>
+    <volume>474203700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>18.3533</open>
+    <high>19.5800</high>
+    <low>17.6767</low>
+    <close>19.1833</close>
+    <adjusted_close>12.4228</adjusted_close>
+    <volume>406805700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>19.2167</open>
+    <high>19.9933</high>
+    <low>18.4367</low>
+    <close>19.9933</close>
+    <adjusted_close>12.9473</adjusted_close>
+    <volume>452494500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>19.9000</open>
+    <high>20.9600</high>
+    <low>19.3667</low>
+    <close>20.6700</close>
+    <adjusted_close>13.3855</adjusted_close>
+    <volume>455066700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>20.7333</open>
+    <high>21.3133</high>
+    <low>20.1000</low>
+    <close>20.4333</close>
+    <adjusted_close>13.2479</adjusted_close>
+    <volume>454030200</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>20.1167</open>
+    <high>20.6167</high>
+    <low>18.4867</low>
+    <close>18.6200</close>
+    <adjusted_close>12.0723</adjusted_close>
+    <volume>521707500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>18.5333</open>
+    <high>19.7667</high>
+    <low>17.8700</low>
+    <close>18.0333</close>
+    <adjusted_close>11.6919</adjusted_close>
+    <volume>522541200</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>18.0600</open>
+    <high>19.6267</high>
+    <low>17.3333</low>
+    <close>18.3367</close>
+    <adjusted_close>11.9038</adjusted_close>
+    <volume>594247500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>18.4333</open>
+    <high>18.9000</high>
+    <low>14.5733</low>
+    <close>16.3933</close>
+    <adjusted_close>10.6422</adjusted_close>
+    <volume>770620200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>16.3333</open>
+    <high>18.2633</high>
+    <low>15.0633</low>
+    <close>17.8267</close>
+    <adjusted_close>11.5727</adjusted_close>
+    <volume>648445800</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>17.6167</open>
+    <high>19.0000</high>
+    <low>16.0333</low>
+    <close>16.4133</close>
+    <adjusted_close>10.6700</adjusted_close>
+    <volume>567858300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>16.4133</open>
+    <high>19.3400</high>
+    <low>16.1833</low>
+    <close>17.8500</close>
+    <adjusted_close>11.6039</adjusted_close>
+    <volume>844116000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>17.8633</open>
+    <high>18.7333</high>
+    <low>17.5233</low>
+    <close>17.9667</close>
+    <adjusted_close>11.6798</adjusted_close>
+    <volume>518123400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>18.6533</open>
+    <high>18.9133</high>
+    <low>16.3167</low>
+    <close>16.8367</close>
+    <adjusted_close>10.9613</adjusted_close>
+    <volume>517866000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>16.8833</open>
+    <high>17.3933</high>
+    <low>15.6400</low>
+    <close>15.9333</close>
+    <adjusted_close>10.3732</adjusted_close>
+    <volume>531613200</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>15.9233</open>
+    <high>16.5967</high>
+    <low>15.4167</low>
+    <close>16.0200</close>
+    <adjusted_close>10.4296</adjusted_close>
+    <volume>441135900</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>16.2000</open>
+    <high>18.2867</high>
+    <low>15.5000</low>
+    <close>17.3433</close>
+    <adjusted_close>11.3106</adjusted_close>
+    <volume>533390400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>17.3667</open>
+    <high>19.1700</high>
+    <low>17.1733</low>
+    <close>18.7733</close>
+    <adjusted_close>12.2432</adjusted_close>
+    <volume>509019600</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>18.7733</open>
+    <high>18.9833</high>
+    <low>17.2100</low>
+    <close>17.5367</close>
+    <adjusted_close>11.4367</adjusted_close>
+    <volume>572232000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>17.6533</open>
+    <high>18.5300</high>
+    <low>17.3733</low>
+    <close>17.8900</close>
+    <adjusted_close>11.6863</adjusted_close>
+    <volume>499862700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>17.8333</open>
+    <high>19.2333</high>
+    <low>17.6667</low>
+    <close>18.6367</close>
+    <adjusted_close>12.1740</adjusted_close>
+    <volume>473967900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>18.5733</open>
+    <high>19.8267</high>
+    <low>18.2600</low>
+    <close>19.7233</close>
+    <adjusted_close>12.8839</adjusted_close>
+    <volume>410007900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>19.6533</open>
+    <high>20.0667</high>
+    <low>18.6000</low>
+    <close>18.6167</close>
+    <adjusted_close>12.1609</adjusted_close>
+    <volume>525302100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>18.6733</open>
+    <high>19.8800</high>
+    <low>18.6700</low>
+    <close>19.6500</close>
+    <adjusted_close>12.8562</adjusted_close>
+    <volume>456421800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>19.5900</open>
+    <high>19.9767</high>
+    <low>18.1200</low>
+    <close>18.5467</close>
+    <adjusted_close>12.1344</adjusted_close>
+    <volume>517154100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>18.5467</open>
+    <high>18.5533</high>
+    <low>16.8333</low>
+    <close>17.6833</close>
+    <adjusted_close>11.5898</adjusted_close>
+    <volume>840196800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>17.7833</open>
+    <high>18.3167</high>
+    <low>17.1933</low>
+    <close>17.9500</close>
+    <adjusted_close>11.7646</adjusted_close>
+    <volume>604991400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>18.0667</open>
+    <high>20.0500</high>
+    <low>18.0500</low>
+    <close>19.8533</close>
+    <adjusted_close>13.0121</adjusted_close>
+    <volume>676257600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>19.8900</open>
+    <high>20.4367</high>
+    <low>19.0900</low>
+    <close>19.8967</close>
+    <adjusted_close>13.0698</adjusted_close>
+    <volume>667011900</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>19.5833</open>
+    <high>20.0467</high>
+    <low>18.7167</low>
+    <close>19.0000</close>
+    <adjusted_close>12.4808</adjusted_close>
+    <volume>579843000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>19.0000</open>
+    <high>19.1733</high>
+    <low>17.8167</low>
+    <close>18.5767</close>
+    <adjusted_close>12.2315</adjusted_close>
+    <volume>616011300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>18.4833</open>
+    <high>19.2767</high>
+    <low>17.3100</low>
+    <close>17.5000</close>
+    <adjusted_close>11.5226</adjusted_close>
+    <volume>643453500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>17.7000</open>
+    <high>18.0633</high>
+    <low>17.1667</low>
+    <close>17.6700</close>
+    <adjusted_close>11.6345</adjusted_close>
+    <volume>630021000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>17.6733</open>
+    <high>18.3233</high>
+    <low>17.0267</low>
+    <close>17.5567</close>
+    <adjusted_close>11.5873</adjusted_close>
+    <volume>558774900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>17.4867</open>
+    <high>17.9867</high>
+    <low>17.0333</low>
+    <close>17.7333</close>
+    <adjusted_close>11.7039</adjusted_close>
+    <volume>619920900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>17.8333</open>
+    <high>18.1267</high>
+    <low>17.3033</low>
+    <close>17.9733</close>
+    <adjusted_close>11.8623</adjusted_close>
+    <volume>557516700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>17.9733</open>
+    <high>19.2967</high>
+    <low>17.3533</low>
+    <close>17.3533</close>
+    <adjusted_close>11.4531</adjusted_close>
+    <volume>714803100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>17.5000</open>
+    <high>17.8833</high>
+    <low>17.3333</low>
+    <close>17.6067</close>
+    <adjusted_close>11.6486</adjusted_close>
+    <volume>694931400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>17.9167</open>
+    <high>18.2000</high>
+    <low>17.4067</low>
+    <close>17.4667</close>
+    <adjusted_close>11.5560</adjusted_close>
+    <volume>551771100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>17.4667</open>
+    <high>17.9133</high>
+    <low>17.0333</low>
+    <close>17.2033</close>
+    <adjusted_close>11.3817</adjusted_close>
+    <volume>544680300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>17.3367</open>
+    <high>17.8300</high>
+    <low>16.6867</low>
+    <close>16.7033</close>
+    <adjusted_close>11.0835</adjusted_close>
+    <volume>1121437500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>16.7500</open>
+    <high>16.8333</high>
+    <low>15.4000</low>
+    <close>15.7133</close>
+    <adjusted_close>10.4266</adjusted_close>
+    <volume>1012191300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>15.8267</open>
+    <high>16.4867</high>
+    <low>15.5333</low>
+    <close>15.7433</close>
+    <adjusted_close>10.4799</adjusted_close>
+    <volume>765393600</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>15.7500</open>
+    <high>16.7667</high>
+    <low>15.7367</low>
+    <close>16.0667</close>
+    <adjusted_close>10.6952</adjusted_close>
+    <volume>715005600</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>16.0833</open>
+    <high>16.8967</high>
+    <low>16.0500</low>
+    <close>16.4500</close>
+    <adjusted_close>10.9504</adjusted_close>
+    <volume>550193700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>16.5400</open>
+    <high>16.6233</high>
+    <low>14.9000</low>
+    <close>14.9867</close>
+    <adjusted_close>10.0078</adjusted_close>
+    <volume>841203300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>14.9833</open>
+    <high>15.4933</high>
+    <low>14.1033</low>
+    <close>14.6067</close>
+    <adjusted_close>9.7541</adjusted_close>
+    <volume>1335088200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>14.7167</open>
+    <high>15.8500</high>
+    <low>14.4333</low>
+    <close>15.7700</close>
+    <adjusted_close>10.5309</adjusted_close>
+    <volume>927505500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>15.7067</open>
+    <high>16.9567</high>
+    <low>15.5367</low>
+    <close>16.1867</close>
+    <adjusted_close>10.8091</adjusted_close>
+    <volume>803315700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>16.1967</open>
+    <high>16.5800</high>
+    <low>15.5833</low>
+    <close>15.6000</close>
+    <adjusted_close>10.4491</adjusted_close>
+    <volume>775625700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>15.4533</open>
+    <high>15.6500</high>
+    <low>14.8467</low>
+    <close>15.3700</close>
+    <adjusted_close>10.2950</adjusted_close>
+    <volume>967556100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>15.3500</open>
+    <high>15.6733</high>
+    <low>14.8400</low>
+    <close>15.1200</close>
+    <adjusted_close>10.1276</adjusted_close>
+    <volume>709021800</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>15.1200</open>
+    <high>16.2900</high>
+    <low>14.9533</low>
+    <close>15.7467</close>
+    <adjusted_close>10.5864</adjusted_close>
+    <volume>803963700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>15.7567</open>
+    <high>15.7700</high>
+    <low>14.9967</low>
+    <close>15.0100</close>
+    <adjusted_close>10.0911</adjusted_close>
+    <volume>591321300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>15.3067</open>
+    <high>16.6667</high>
+    <low>15.1800</low>
+    <close>16.1500</close>
+    <adjusted_close>10.8956</adjusted_close>
+    <volume>906025200</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>16.0833</open>
+    <high>16.3967</high>
+    <low>15.5167</low>
+    <close>16.0567</close>
+    <adjusted_close>10.8326</adjusted_close>
+    <volume>737199000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>15.9167</open>
+    <high>16.0167</high>
+    <low>14.1033</low>
+    <close>14.8333</close>
+    <adjusted_close>10.0073</adjusted_close>
+    <volume>808769100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>14.7833</open>
+    <high>15.1500</high>
+    <low>14.4933</low>
+    <close>14.9067</close>
+    <adjusted_close>10.0949</adjusted_close>
+    <volume>711266100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>15.0000</open>
+    <high>16.6500</high>
+    <low>14.6733</low>
+    <close>16.4400</close>
+    <adjusted_close>11.1332</adjusted_close>
+    <volume>795631200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>16.2067</open>
+    <high>17.3833</high>
+    <low>15.8800</low>
+    <close>16.4267</close>
+    <adjusted_close>11.1242</adjusted_close>
+    <volume>1096482900</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>16.4600</open>
+    <high>16.5667</high>
+    <low>15.3233</low>
+    <close>15.3667</close>
+    <adjusted_close>10.4064</adjusted_close>
+    <volume>1115879700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>15.3333</open>
+    <high>15.6300</high>
+    <low>14.9333</low>
+    <close>15.3933</close>
+    <adjusted_close>10.4629</adjusted_close>
+    <volume>834138900</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>15.6967</open>
+    <high>16.2600</high>
+    <low>15.5033</low>
+    <close>15.8967</close>
+    <adjusted_close>10.8050</adjusted_close>
+    <volume>869763600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>15.8367</open>
+    <high>16.8067</high>
+    <low>15.8133</low>
+    <close>16.1033</close>
+    <adjusted_close>10.9455</adjusted_close>
+    <volume>834009900</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>15.9267</open>
+    <high>16.1067</high>
+    <low>15.0200</low>
+    <close>15.6500</close>
+    <adjusted_close>10.6883</adjusted_close>
+    <volume>1042108500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>15.6867</open>
+    <high>16.6500</high>
+    <low>15.6100</low>
+    <close>15.9733</close>
+    <adjusted_close>10.9091</adjusted_close>
+    <volume>771433500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>15.9733</open>
+    <high>16.2933</high>
+    <low>15.4400</low>
+    <close>15.8667</close>
+    <adjusted_close>10.8866</adjusted_close>
+    <volume>927599700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>15.9667</open>
+    <high>17.1467</high>
+    <low>15.8967</low>
+    <close>16.0367</close>
+    <adjusted_close>11.0032</adjusted_close>
+    <volume>1330694400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>16.0667</open>
+    <high>16.4200</high>
+    <low>15.2433</low>
+    <close>15.3167</close>
+    <adjusted_close>10.5092</adjusted_close>
+    <volume>1036144800</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>15.3500</open>
+    <high>16.1400</high>
+    <low>14.3067</low>
+    <close>14.5433</close>
+    <adjusted_close>10.0289</adjusted_close>
+    <volume>1684197600</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>14.5033</open>
+    <high>15.0167</high>
+    <low>14.0300</low>
+    <close>14.5500</close>
+    <adjusted_close>10.0335</adjusted_close>
+    <volume>1128462000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>14.6100</open>
+    <high>15.9000</high>
+    <low>14.4233</low>
+    <close>15.0700</close>
+    <adjusted_close>10.3921</adjusted_close>
+    <volume>1311084000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>14.9000</open>
+    <high>16.0767</high>
+    <low>14.1667</low>
+    <close>15.9667</close>
+    <adjusted_close>11.0105</adjusted_close>
+    <volume>1297021500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>15.9033</open>
+    <high>16.6833</high>
+    <low>15.6233</low>
+    <close>15.8433</close>
+    <adjusted_close>10.9747</adjusted_close>
+    <volume>913579500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>15.8033</open>
+    <high>17.1000</high>
+    <low>14.3700</low>
+    <close>16.9133</close>
+    <adjusted_close>11.7158</adjusted_close>
+    <volume>1783828500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>16.9667</open>
+    <high>17.1900</high>
+    <low>15.9467</low>
+    <close>16.5300</close>
+    <adjusted_close>11.4503</adjusted_close>
+    <volume>1429890600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>16.4767</open>
+    <high>18.0500</high>
+    <low>16.2133</low>
+    <close>17.5600</close>
+    <adjusted_close>12.2217</adjusted_close>
+    <volume>1470540000</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>17.7300</open>
+    <high>19.6800</high>
+    <low>17.6033</low>
+    <close>19.3267</close>
+    <adjusted_close>13.4513</adjusted_close>
+    <volume>1317696000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>19.4000</open>
+    <high>19.6967</high>
+    <low>18.3500</low>
+    <close>19.2467</close>
+    <adjusted_close>13.4521</adjusted_close>
+    <volume>1178973300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>19.1367</open>
+    <high>19.9833</high>
+    <low>18.6167</low>
+    <close>18.7333</close>
+    <adjusted_close>13.0933</adjusted_close>
+    <volume>1330044900</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>18.6667</open>
+    <high>19.8533</high>
+    <low>18.4467</low>
+    <close>19.5400</close>
+    <adjusted_close>13.6571</adjusted_close>
+    <volume>1486733700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>19.5833</open>
+    <high>20.3333</high>
+    <low>18.9367</low>
+    <close>19.6900</close>
+    <adjusted_close>13.8175</adjusted_close>
+    <volume>1187517300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>19.9667</open>
+    <high>21.2833</high>
+    <low>19.2467</low>
+    <close>19.9633</close>
+    <adjusted_close>14.0093</adjusted_close>
+    <volume>1680461700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>19.8367</open>
+    <high>20.1000</high>
+    <low>15.8000</low>
+    <close>18.6033</close>
+    <adjusted_close>13.0549</adjusted_close>
+    <volume>2245083900</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>18.9200</open>
+    <high>19.0833</high>
+    <low>16.7333</low>
+    <close>18.6267</close>
+    <adjusted_close>13.0713</adjusted_close>
+    <volume>1544394300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>18.4567</open>
+    <high>19.7433</high>
+    <low>17.4067</low>
+    <close>18.6867</close>
+    <adjusted_close>13.1701</adjusted_close>
+    <volume>1408234500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>18.6600</open>
+    <high>19.1700</high>
+    <low>15.6400</low>
+    <close>15.7067</close>
+    <adjusted_close>11.0698</adjusted_close>
+    <volume>1555641600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>15.5233</open>
+    <high>16.8900</high>
+    <low>15.4167</low>
+    <close>16.4133</close>
+    <adjusted_close>11.5679</adjusted_close>
+    <volume>1527099600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>16.2700</open>
+    <high>17.6667</high>
+    <low>15.6667</low>
+    <close>17.3667</close>
+    <adjusted_close>12.3088</adjusted_close>
+    <volume>1635886500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>17.1267</open>
+    <high>18.1900</high>
+    <low>15.8800</low>
+    <close>16.8000</close>
+    <adjusted_close>11.9072</adjusted_close>
+    <volume>1351566300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>16.8333</open>
+    <high>17.1267</high>
+    <low>16.0400</low>
+    <close>16.5800</close>
+    <adjusted_close>11.8146</adjusted_close>
+    <volume>1131146700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>16.7267</open>
+    <high>17.2500</high>
+    <low>16.0067</low>
+    <close>16.1467</close>
+    <adjusted_close>11.5059</adjusted_close>
+    <volume>1253095500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>16.1833</open>
+    <high>16.8100</high>
+    <low>15.7833</low>
+    <close>16.6267</close>
+    <adjusted_close>11.8479</adjusted_close>
+    <volume>1107206700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>16.7400</open>
+    <high>17.5200</high>
+    <low>16.2500</low>
+    <close>16.9567</close>
+    <adjusted_close>12.1493</adjusted_close>
+    <volume>1032756000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>16.9367</open>
+    <high>17.3667</high>
+    <low>16.2433</low>
+    <close>16.3633</close>
+    <adjusted_close>11.7242</adjusted_close>
+    <volume>1127019900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>16.3567</open>
+    <high>17.3333</high>
+    <low>16.2433</low>
+    <close>16.5600</close>
+    <adjusted_close>11.8651</adjusted_close>
+    <volume>1122053400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>16.6033</open>
+    <high>18.3633</high>
+    <low>16.5067</low>
+    <close>18.1833</close>
+    <adjusted_close>13.0282</adjusted_close>
+    <volume>918029100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>18.2833</open>
+    <high>18.3600</high>
+    <low>17.4367</low>
+    <close>17.8167</close>
+    <adjusted_close>12.8299</adjusted_close>
+    <volume>794043900</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>17.9133</open>
+    <high>18.4000</high>
+    <low>17.5033</low>
+    <close>17.8100</close>
+    <adjusted_close>12.8251</adjusted_close>
+    <volume>874774500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>17.8733</open>
+    <high>18.1667</high>
+    <low>17.5533</low>
+    <close>18.0233</close>
+    <adjusted_close>12.9787</adjusted_close>
+    <volume>835515000</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>18.0133</open>
+    <high>18.7567</high>
+    <low>17.7167</low>
+    <close>18.5333</close>
+    <adjusted_close>13.4212</adjusted_close>
+    <volume>812293200</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>18.5833</open>
+    <high>18.6333</high>
+    <low>17.8400</low>
+    <close>17.8800</close>
+    <adjusted_close>12.9481</adjusted_close>
+    <volume>848853300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>17.9600</open>
+    <high>18.3167</high>
+    <low>16.6667</low>
+    <close>16.8533</close>
+    <adjusted_close>12.2755</adjusted_close>
+    <volume>1194357000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>16.9333</open>
+    <high>17.3600</high>
+    <low>16.0033</low>
+    <close>16.0233</close>
+    <adjusted_close>11.6709</adjusted_close>
+    <volume>1171645500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>16.0333</open>
+    <high>17.2700</high>
+    <low>15.9233</low>
+    <close>17.0633</close>
+    <adjusted_close>12.4285</adjusted_close>
+    <volume>841022400</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>17.1833</open>
+    <high>17.4933</high>
+    <low>16.6667</low>
+    <close>16.7133</close>
+    <adjusted_close>12.2446</adjusted_close>
+    <volume>817677300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>16.8300</open>
+    <high>18.1300</high>
+    <low>16.8200</low>
+    <close>17.8400</close>
+    <adjusted_close>13.0700</adjusted_close>
+    <volume>648852000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>17.8667</open>
+    <high>18.2733</high>
+    <low>17.6433</low>
+    <close>18.0567</close>
+    <adjusted_close>13.2287</adjusted_close>
+    <volume>625335300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>18.0167</open>
+    <high>18.5733</high>
+    <low>17.8100</low>
+    <close>18.0300</close>
+    <adjusted_close>13.2092</adjusted_close>
+    <volume>725407200</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>18.1400</open>
+    <high>18.4467</high>
+    <low>17.7133</low>
+    <close>17.9767</close>
+    <adjusted_close>13.2430</adjusted_close>
+    <volume>738546300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>18.0767</open>
+    <high>19.3000</high>
+    <low>17.8467</low>
+    <close>18.6900</close>
+    <adjusted_close>13.7685</adjusted_close>
+    <volume>781969500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>18.7900</open>
+    <high>18.9100</high>
+    <low>17.1733</low>
+    <close>17.3267</close>
+    <adjusted_close>12.7641</adjusted_close>
+    <volume>830517600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>17.3867</open>
+    <high>17.9600</high>
+    <low>16.9900</low>
+    <close>17.3500</close>
+    <adjusted_close>12.8709</adjusted_close>
+    <volume>837741900</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>17.4167</open>
+    <high>18.3867</high>
+    <low>17.3067</low>
+    <close>18.3267</close>
+    <adjusted_close>13.5954</adjusted_close>
+    <volume>533978400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>18.3600</open>
+    <high>18.8233</high>
+    <low>18.0633</low>
+    <close>18.4067</close>
+    <adjusted_close>13.7451</adjusted_close>
+    <volume>587097000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>18.3267</open>
+    <high>18.3900</high>
+    <low>17.2633</low>
+    <close>17.7133</close>
+    <adjusted_close>13.2274</adjusted_close>
+    <volume>847694100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>17.7300</open>
+    <high>18.2700</high>
+    <low>17.5567</low>
+    <close>17.5700</close>
+    <adjusted_close>13.1203</adjusted_close>
+    <volume>594311700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>17.5967</open>
+    <high>17.8300</high>
+    <low>16.1033</low>
+    <close>17.7300</close>
+    <adjusted_close>13.3356</adjusted_close>
+    <volume>1273581300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>17.7333</open>
+    <high>17.8500</high>
+    <low>16.6467</low>
+    <close>17.3000</close>
+    <adjusted_close>13.0122</adjusted_close>
+    <volume>827598300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>17.2933</open>
+    <high>19.3200</high>
+    <low>17.2100</low>
+    <close>18.9067</close>
+    <adjusted_close>14.2206</adjusted_close>
+    <volume>806461500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>18.6067</open>
+    <high>19.8000</high>
+    <low>18.5600</low>
+    <close>19.6333</close>
+    <adjusted_close>14.7672</adjusted_close>
+    <volume>666339900</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>19.5467</open>
+    <high>20.0000</high>
+    <low>19.1400</low>
+    <close>19.9200</close>
+    <adjusted_close>15.0764</adjusted_close>
+    <volume>580820700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>19.9900</open>
+    <high>20.6667</high>
+    <low>19.4567</low>
+    <close>20.4533</close>
+    <adjusted_close>15.4801</adjusted_close>
+    <volume>490731000</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>20.5967</open>
+    <high>20.8767</high>
+    <low>19.4033</low>
+    <close>19.6933</close>
+    <adjusted_close>14.9049</adjusted_close>
+    <volume>597943500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>19.7867</open>
+    <high>20.5000</high>
+    <low>19.5467</low>
+    <close>20.4000</close>
+    <adjusted_close>15.5430</adjusted_close>
+    <volume>557466600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>20.3600</open>
+    <high>20.8300</high>
+    <low>19.0600</low>
+    <close>19.6367</close>
+    <adjusted_close>14.9615</adjusted_close>
+    <volume>755363700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>19.6500</open>
+    <high>22.2200</high>
+    <low>19.4233</low>
+    <close>21.9400</close>
+    <adjusted_close>16.8298</adjusted_close>
+    <volume>741294000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>21.8100</open>
+    <high>23.2400</high>
+    <low>21.7100</low>
+    <close>23.2400</close>
+    <adjusted_close>17.8270</adjusted_close>
+    <volume>687794400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>23.2000</open>
+    <high>25.0800</high>
+    <low>23.0500</low>
+    <close>24.8100</close>
+    <adjusted_close>19.0314</adjusted_close>
+    <volume>632059500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>24.9000</open>
+    <high>24.9867</high>
+    <low>23.7833</low>
+    <close>24.2000</close>
+    <adjusted_close>18.6638</adjusted_close>
+    <volume>490855500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>24.2567</open>
+    <high>25.0633</high>
+    <low>24.1900</low>
+    <close>24.6000</close>
+    <adjusted_close>18.9723</adjusted_close>
+    <volume>364815000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>24.6000</open>
+    <high>25.8667</high>
+    <low>24.5433</low>
+    <close>25.0067</close>
+    <adjusted_close>19.2860</adjusted_close>
+    <volume>434574600</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>25.0433</open>
+    <high>25.0533</high>
+    <low>22.5500</low>
+    <close>24.0067</close>
+    <adjusted_close>18.5147</adjusted_close>
+    <volume>581062500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>24.0367</open>
+    <high>24.2333</high>
+    <low>22.4567</low>
+    <close>22.7433</close>
+    <adjusted_close>17.6378</adjusted_close>
+    <volume>595301100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>22.9767</open>
+    <high>23.4800</high>
+    <low>22.5733</low>
+    <close>23.3167</close>
+    <adjusted_close>18.0824</adjusted_close>
+    <volume>456023700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>23.3700</open>
+    <high>23.9867</high>
+    <low>22.7100</low>
+    <close>23.5933</close>
+    <adjusted_close>18.2969</adjusted_close>
+    <volume>616367400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>23.5933</open>
+    <high>25.0367</high>
+    <low>23.5933</low>
+    <close>24.9433</close>
+    <adjusted_close>19.4687</adjusted_close>
+    <volume>454369500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>25.0000</open>
+    <high>26.5000</high>
+    <low>24.9667</low>
+    <close>25.9067</close>
+    <adjusted_close>20.2206</adjusted_close>
+    <volume>495257400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>25.9500</open>
+    <high>26.6533</high>
+    <low>24.9400</low>
+    <close>24.9467</close>
+    <adjusted_close>19.5881</adjusted_close>
+    <volume>486885300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>25.0200</open>
+    <high>25.6233</high>
+    <low>24.3000</low>
+    <close>24.8300</close>
+    <adjusted_close>19.4965</adjusted_close>
+    <volume>487825800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>24.9967</open>
+    <high>26.2300</high>
+    <low>24.6967</low>
+    <close>25.9800</close>
+    <adjusted_close>20.3994</adjusted_close>
+    <volume>339076200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>26.1400</open>
+    <high>26.3333</high>
+    <low>24.0767</low>
+    <close>24.3267</close>
+    <adjusted_close>19.2172</adjusted_close>
+    <volume>401546700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>24.4933</open>
+    <high>25.5767</high>
+    <low>24.0633</low>
+    <close>24.6533</close>
+    <adjusted_close>19.4753</adjusted_close>
+    <volume>372329100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>24.6233</open>
+    <high>25.8767</high>
+    <low>23.8367</low>
+    <close>25.5833</close>
+    <adjusted_close>20.2100</adjusted_close>
+    <volume>452987700</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>25.6567</open>
+    <high>27.1167</high>
+    <low>25.5300</low>
+    <close>27.0033</close>
+    <adjusted_close>21.3317</adjusted_close>
+    <volume>339430800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>26.9633</open>
+    <high>27.1233</high>
+    <low>25.6033</low>
+    <close>26.2300</close>
+    <adjusted_close>20.8414</adjusted_close>
+    <volume>353231400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>26.2400</open>
+    <high>26.4900</high>
+    <low>24.5467</low>
+    <close>24.8933</close>
+    <adjusted_close>19.7794</adjusted_close>
+    <volume>438146400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>24.7300</open>
+    <high>25.3300</high>
+    <low>24.0900</low>
+    <close>24.9000</close>
+    <adjusted_close>19.7846</adjusted_close>
+    <volume>422126400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>24.8300</open>
+    <high>25.8433</high>
+    <low>24.6100</low>
+    <close>25.4767</close>
+    <adjusted_close>20.3734</adjusted_close>
+    <volume>429950700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>25.5867</open>
+    <high>26.6633</high>
+    <low>25.4300</low>
+    <close>26.5700</close>
+    <adjusted_close>21.2478</adjusted_close>
+    <volume>400795800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>26.5767</open>
+    <high>26.5867</high>
+    <low>25.0800</low>
+    <close>25.5900</close>
+    <adjusted_close>20.5908</adjusted_close>
+    <volume>364793700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>25.5267</open>
+    <high>25.9200</high>
+    <low>24.8900</low>
+    <close>25.0233</close>
+    <adjusted_close>20.1348</adjusted_close>
+    <volume>377627100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>25.0900</open>
+    <high>25.8567</high>
+    <low>24.5133</low>
+    <close>24.5267</close>
+    <adjusted_close>19.7352</adjusted_close>
+    <volume>360496500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>24.4400</open>
+    <high>25.4000</high>
+    <low>24.2567</low>
+    <close>25.1667</close>
+    <adjusted_close>20.3836</adjusted_close>
+    <volume>344145300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>25.1400</open>
+    <high>25.9100</high>
+    <low>25.1367</low>
+    <close>25.4900</close>
+    <adjusted_close>20.6454</adjusted_close>
+    <volume>360964200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>25.5033</open>
+    <high>26.4567</high>
+    <low>24.2033</low>
+    <close>25.4233</close>
+    <adjusted_close>20.5914</adjusted_close>
+    <volume>532159800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>25.4500</open>
+    <high>29.3633</high>
+    <low>25.1967</low>
+    <close>29.1800</close>
+    <adjusted_close>23.6341</adjusted_close>
+    <volume>477759600</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>28.9067</open>
+    <high>29.1467</high>
+    <low>27.5500</low>
+    <close>28.6267</close>
+    <adjusted_close>23.3155</adjusted_close>
+    <volume>416837400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>28.7567</open>
+    <high>30.3233</high>
+    <low>28.3000</low>
+    <close>28.3267</close>
+    <adjusted_close>23.0711</adjusted_close>
+    <volume>476783100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>28.2633</open>
+    <high>29.3333</high>
+    <low>27.5167</low>
+    <close>27.9767</close>
+    <adjusted_close>22.7861</adjusted_close>
+    <volume>415621500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>27.9767</open>
+    <high>28.0000</high>
+    <low>26.8467</low>
+    <close>27.4167</close>
+    <adjusted_close>22.4641</adjusted_close>
+    <volume>427599000</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>27.4267</open>
+    <high>27.4267</high>
+    <low>25.8500</low>
+    <close>26.0167</close>
+    <adjusted_close>21.3170</adjusted_close>
+    <volume>431055300</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>26.0667</open>
+    <high>26.6467</high>
+    <low>24.7167</low>
+    <close>24.7567</close>
+    <adjusted_close>20.4126</adjusted_close>
+    <volume>453377100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>24.8967</open>
+    <high>25.0667</high>
+    <low>23.5933</low>
+    <close>23.6433</close>
+    <adjusted_close>19.4946</adjusted_close>
+    <volume>529697100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>23.8667</open>
+    <high>24.7133</high>
+    <low>23.4533</low>
+    <close>23.9933</close>
+    <adjusted_close>19.7832</adjusted_close>
+    <volume>451261200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>23.9467</open>
+    <high>24.5633</high>
+    <low>20.5000</low>
+    <close>21.5767</close>
+    <adjusted_close>17.9121</adjusted_close>
+    <volume>682083300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>21.2667</open>
+    <high>22.3367</high>
+    <low>20.9733</low>
+    <close>21.6133</close>
+    <adjusted_close>17.9425</adjusted_close>
+    <volume>572442000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>21.5867</open>
+    <high>22.6500</high>
+    <low>19.0533</low>
+    <close>19.0800</close>
+    <adjusted_close>15.8395</adjusted_close>
+    <volume>1041507000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>19.0967</open>
+    <high>20.4900</high>
+    <low>18.7667</low>
+    <close>19.6133</close>
+    <adjusted_close>16.2822</adjusted_close>
+    <volume>673888200</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>19.7100</open>
+    <high>20.6233</high>
+    <low>19.4400</low>
+    <close>20.4333</close>
+    <adjusted_close>17.1050</adjusted_close>
+    <volume>680925300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>20.1667</open>
+    <high>22.1767</high>
+    <low>20.0667</low>
+    <close>22.1200</close>
+    <adjusted_close>18.5170</adjusted_close>
+    <volume>793997400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>21.9700</open>
+    <high>22.7333</high>
+    <low>20.7833</low>
+    <close>22.1133</close>
+    <adjusted_close>18.5114</adjusted_close>
+    <volume>789308100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>22.2167</open>
+    <high>23.0633</high>
+    <low>21.6267</low>
+    <close>22.8300</close>
+    <adjusted_close>19.2528</adjusted_close>
+    <volume>609323700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>22.6733</open>
+    <high>23.3600</high>
+    <low>22.1200</low>
+    <close>22.2900</close>
+    <adjusted_close>18.7974</adjusted_close>
+    <volume>423760800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>22.2067</open>
+    <high>23.7933</high>
+    <low>20.9067</low>
+    <close>23.5933</close>
+    <adjusted_close>20.0422</adjusted_close>
+    <volume>698928600</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>23.5000</open>
+    <high>24.3967</high>
+    <low>23.3833</low>
+    <close>24.3400</close>
+    <adjusted_close>20.6765</adjusted_close>
+    <volume>557758800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>24.3767</open>
+    <high>24.7833</high>
+    <low>24.1400</low>
+    <close>24.3233</close>
+    <adjusted_close>20.6623</adjusted_close>
+    <volume>413170500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>24.2700</open>
+    <high>25.0633</high>
+    <low>23.6300</low>
+    <close>23.8133</close>
+    <adjusted_close>20.3676</adjusted_close>
+    <volume>637380000</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>23.8567</open>
+    <high>24.3967</high>
+    <low>23.4333</low>
+    <close>24.0400</close>
+    <adjusted_close>20.5614</adjusted_close>
+    <volume>530951700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>23.9433</open>
+    <high>24.1900</high>
+    <low>22.3567</low>
+    <close>23.3400</close>
+    <adjusted_close>19.9627</adjusted_close>
+    <volume>512148600</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>23.3267</open>
+    <high>24.0300</high>
+    <low>22.7067</low>
+    <close>23.4767</close>
+    <adjusted_close>20.0796</adjusted_close>
+    <volume>631111800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>23.4167</open>
+    <high>24.1600</high>
+    <low>22.9433</low>
+    <close>23.0400</close>
+    <adjusted_close>19.8472</adjusted_close>
+    <volume>487582500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>23.0800</open>
+    <high>23.2100</high>
+    <low>21.7600</low>
+    <close>22.2467</close>
+    <adjusted_close>19.1638</adjusted_close>
+    <volume>545484000</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>22.1533</open>
+    <high>24.2667</high>
+    <low>22.0133</low>
+    <close>23.6433</close>
+    <adjusted_close>20.3669</adjusted_close>
+    <volume>623902200</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>23.6567</open>
+    <high>24.1867</high>
+    <low>23.1100</low>
+    <close>24.0267</close>
+    <adjusted_close>20.8493</adjusted_close>
+    <volume>573309300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>24.0267</open>
+    <high>25.2567</high>
+    <low>23.7933</low>
+    <close>25.0600</close>
+    <adjusted_close>21.7460</adjusted_close>
+    <volume>382581600</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>25.0300</open>
+    <high>26.4800</high>
+    <low>24.9867</low>
+    <close>26.2000</close>
+    <adjusted_close>22.8874</adjusted_close>
+    <volume>547037400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>26.2133</open>
+    <high>26.8233</high>
+    <low>24.4300</low>
+    <close>25.2267</close>
+    <adjusted_close>22.0371</adjusted_close>
+    <volume>742562100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>25.2800</open>
+    <high>26.7800</high>
+    <low>24.3767</low>
+    <close>26.6633</close>
+    <adjusted_close>23.2921</adjusted_close>
+    <volume>430344300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>26.7500</open>
+    <high>27.3300</high>
+    <low>25.8333</low>
+    <close>26.0233</close>
+    <adjusted_close>22.8760</adjusted_close>
+    <volume>610958100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>26.1033</open>
+    <high>27.0400</high>
+    <low>25.9100</low>
+    <close>26.0467</close>
+    <adjusted_close>22.8965</adjusted_close>
+    <volume>483460800</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>25.9667</open>
+    <high>29.7033</high>
+    <low>25.8333</low>
+    <close>29.1033</close>
+    <adjusted_close>25.5835</adjusted_close>
+    <volume>596325300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>29.0233</open>
+    <high>33.3767</high>
+    <low>29.0000</low>
+    <close>32.4100</close>
+    <adjusted_close>28.4903</adjusted_close>
+    <volume>668109300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>32.5367</open>
+    <high>33.3033</high>
+    <low>32.0467</low>
+    <close>32.9167</close>
+    <adjusted_close>29.0882</adjusted_close>
+    <volume>500322300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>33.1000</open>
+    <high>36.6600</high>
+    <low>32.8400</low>
+    <close>35.5333</close>
+    <adjusted_close>31.4005</adjusted_close>
+    <volume>509083800</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>35.3200</open>
+    <high>35.5200</high>
+    <low>30.0000</low>
+    <close>30.0033</close>
+    <adjusted_close>26.5137</adjusted_close>
+    <volume>922598100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>30.0567</open>
+    <high>30.1667</high>
+    <low>28.4267</low>
+    <close>29.6567</close>
+    <adjusted_close>26.3636</adjusted_close>
+    <volume>768009000</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>29.3333</open>
+    <high>29.8867</high>
+    <low>28.2800</low>
+    <close>29.4867</close>
+    <adjusted_close>26.2125</adjusted_close>
+    <volume>490745400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>29.2233</open>
+    <high>29.3667</high>
+    <low>27.2600</low>
+    <close>27.5133</close>
+    <adjusted_close>24.6123</adjusted_close>
+    <volume>745449900</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>27.6800</open>
+    <high>29.1633</high>
+    <low>27.4567</low>
+    <close>28.5500</close>
+    <adjusted_close>25.5397</adjusted_close>
+    <volume>556858200</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>28.5500</open>
+    <high>29.8867</high>
+    <low>27.8000</low>
+    <close>29.7433</close>
+    <adjusted_close>26.6072</adjusted_close>
+    <volume>352790700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>29.6200</open>
+    <high>33.4033</high>
+    <low>29.2067</low>
+    <close>31.9533</close>
+    <adjusted_close>28.7502</adjusted_close>
+    <volume>616978500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>31.9333</open>
+    <high>32.5533</high>
+    <low>31.2300</low>
+    <close>31.3033</close>
+    <adjusted_close>28.1653</adjusted_close>
+    <volume>381637500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>31.4300</open>
+    <high>34.2000</high>
+    <low>30.9633</low>
+    <close>33.4267</close>
+    <adjusted_close>30.0758</adjusted_close>
+    <volume>649263000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>33.3200</open>
+    <high>35.4033</high>
+    <low>31.1033</low>
+    <close>32.5500</close>
+    <adjusted_close>29.2870</adjusted_close>
+    <volume>575809800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>32.6733</open>
+    <high>33.1967</high>
+    <low>28.5933</low>
+    <close>31.0500</close>
+    <adjusted_close>28.0899</adjusted_close>
+    <volume>558935400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>30.5467</open>
+    <high>33.1167</high>
+    <low>30.5467</low>
+    <close>31.9433</close>
+    <adjusted_close>28.8980</adjusted_close>
+    <volume>482219100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>31.9733</open>
+    <high>34.7267</high>
+    <low>31.0367</low>
+    <close>32.9967</close>
+    <adjusted_close>29.8509</adjusted_close>
+    <volume>500398500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>33.1567</open>
+    <high>33.4967</high>
+    <low>31.6667</low>
+    <close>32.5100</close>
+    <adjusted_close>29.5689</adjusted_close>
+    <volume>423441300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>32.6567</open>
+    <high>34.7167</high>
+    <low>32.2633</low>
+    <close>34.2800</close>
+    <adjusted_close>31.1788</adjusted_close>
+    <volume>331820700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>34.2567</open>
+    <high>34.6533</high>
+    <low>32.9500</low>
+    <close>33.8133</close>
+    <adjusted_close>30.9177</adjusted_close>
+    <volume>467294700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>33.8767</open>
+    <high>37.4067</high>
+    <low>33.8000</low>
+    <close>36.8300</close>
+    <adjusted_close>33.6761</adjusted_close>
+    <volume>364575000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>37.1000</open>
+    <high>38.4967</high>
+    <low>36.5433</low>
+    <close>36.7933</close>
+    <adjusted_close>33.6425</adjusted_close>
+    <volume>273860700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>36.7733</open>
+    <high>38.4600</high>
+    <low>34.9467</low>
+    <close>38.0867</close>
+    <adjusted_close>34.9965</adjusted_close>
+    <volume>473622600</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>37.8933</open>
+    <high>39.9533</high>
+    <low>37.8300</low>
+    <close>39.5600</close>
+    <adjusted_close>36.3503</adjusted_close>
+    <volume>316087500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>39.6167</open>
+    <high>40.2367</high>
+    <low>38.1933</low>
+    <close>39.0867</close>
+    <adjusted_close>35.9154</adjusted_close>
+    <volume>289222800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>39.3067</open>
+    <high>41.7933</high>
+    <low>39.0267</low>
+    <close>39.6967</close>
+    <adjusted_close>36.4759</adjusted_close>
+    <volume>349861800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>39.7167</open>
+    <high>40.7067</high>
+    <low>39.1400</low>
+    <close>39.6133</close>
+    <adjusted_close>36.5626</adjusted_close>
+    <volume>295268100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>39.6200</open>
+    <high>39.9633</high>
+    <low>37.5600</low>
+    <close>38.1633</close>
+    <adjusted_close>35.2243</adjusted_close>
+    <volume>383722500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>38.3000</open>
+    <high>39.9833</high>
+    <low>34.7900</low>
+    <close>35.8933</close>
+    <adjusted_close>33.1291</adjusted_close>
+    <volume>397242300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>35.8667</open>
+    <high>42.6933</high>
+    <low>34.0000</low>
+    <close>37.8733</close>
+    <adjusted_close>35.1113</adjusted_close>
+    <volume>956864400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>37.3833</open>
+    <high>44.4600</high>
+    <low>37.2667</low>
+    <close>40.5167</close>
+    <adjusted_close>37.5618</adjusted_close>
+    <volume>621479400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>40.4933</open>
+    <high>43.9967</high>
+    <low>40.2600</low>
+    <close>41.3533</close>
+    <adjusted_close>38.5061</adjusted_close>
+    <volume>560369100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>41.1467</open>
+    <high>41.4700</high>
+    <low>39.0033</low>
+    <close>39.9267</close>
+    <adjusted_close>37.1777</adjusted_close>
+    <volume>557556600</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>39.8167</open>
+    <high>44.7100</high>
+    <low>39.4067</low>
+    <close>43.1333</close>
+    <adjusted_close>40.1636</adjusted_close>
+    <volume>592356300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>43.3033</open>
+    <high>47.0233</high>
+    <low>42.7567</low>
+    <close>46.2833</close>
+    <adjusted_close>43.2739</adjusted_close>
+    <volume>690025200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>47.0667</open>
+    <high>50.4433</high>
+    <low>44.9167</low>
+    <close>46.6367</close>
+    <adjusted_close>43.6042</adjusted_close>
+    <volume>805971600</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>46.9333</open>
+    <high>48.8667</high>
+    <low>45.7900</low>
+    <close>46.2500</close>
+    <adjusted_close>43.2427</adjusted_close>
+    <volume>386985000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>46.8633</open>
+    <high>51.1333</high>
+    <low>46.3433</low>
+    <close>50.9300</close>
+    <adjusted_close>47.6184</adjusted_close>
+    <volume>413800500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>51.2000</open>
+    <high>51.2200</high>
+    <low>47.4333</low>
+    <close>48.0500</close>
+    <adjusted_close>45.0899</adjusted_close>
+    <volume>511105500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>48.1000</open>
+    <high>49.9767</high>
+    <low>46.7833</low>
+    <close>46.8300</close>
+    <adjusted_close>43.9450</adjusted_close>
+    <volume>450488700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>46.9700</open>
+    <high>49.1667</high>
+    <low>43.2867</low>
+    <close>43.3067</close>
+    <adjusted_close>40.6388</adjusted_close>
+    <volume>554999400</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>43.8600</open>
+    <high>45.8633</high>
+    <low>42.0933</low>
+    <close>45.2767</close>
+    <adjusted_close>42.6648</adjusted_close>
+    <volume>739644300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>45.3133</open>
+    <high>47.2567</high>
+    <low>45.1100</low>
+    <close>46.6367</close>
+    <adjusted_close>43.9463</adjusted_close>
+    <volume>459365700</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>46.5600</open>
+    <high>48.1933</high>
+    <low>45.2533</low>
+    <close>47.3433</close>
+    <adjusted_close>44.7874</adjusted_close>
+    <volume>524333400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>47.4033</open>
+    <high>47.6000</high>
+    <low>44.8000</low>
+    <close>47.0067</close>
+    <adjusted_close>44.4690</adjusted_close>
+    <volume>507321000</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>46.8033</open>
+    <high>47.9533</high>
+    <low>46.0733</low>
+    <close>47.5167</close>
+    <adjusted_close>44.9514</adjusted_close>
+    <volume>395649300</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>47.6100</open>
+    <high>50.8567</high>
+    <low>47.2233</low>
+    <close>49.3667</close>
+    <adjusted_close>46.8734</adjusted_close>
+    <volume>544199400</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>49.1867</open>
+    <high>49.8833</high>
+    <low>46.4167</low>
+    <close>46.4600</close>
+    <adjusted_close>44.1135</adjusted_close>
+    <volume>453765600</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>46.4200</open>
+    <high>50.1833</high>
+    <low>44.9033</low>
+    <close>49.8067</close>
+    <adjusted_close>47.2912</adjusted_close>
+    <volume>413998800</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>49.9933</open>
+    <high>50.6667</high>
+    <low>46.6700</low>
+    <close>46.8767</close>
+    <adjusted_close>44.5092</adjusted_close>
+    <volume>534258600</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>46.8367</open>
+    <high>48.8433</high>
+    <low>45.0800</low>
+    <close>48.2300</close>
+    <adjusted_close>45.9785</adjusted_close>
+    <volume>716247600</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>48.0000</open>
+    <high>48.8767</high>
+    <low>44.6500</low>
+    <close>46.6033</close>
+    <adjusted_close>44.4278</adjusted_close>
+    <volume>497216100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>46.4033</open>
+    <high>47.3300</high>
+    <low>44.0033</low>
+    <close>45.0533</close>
+    <adjusted_close>42.9502</adjusted_close>
+    <volume>487764300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>45.2900</open>
+    <high>50.1800</high>
+    <low>45.0067</low>
+    <close>49.6400</close>
+    <adjusted_close>47.5057</adjusted_close>
+    <volume>557647500</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>49.8867</open>
+    <high>53.5900</high>
+    <low>49.6133</low>
+    <close>50.9967</close>
+    <adjusted_close>48.8041</adjusted_close>
+    <volume>427213500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>51.6533</open>
+    <high>51.6633</high>
+    <low>39.0900</low>
+    <close>42.8767</close>
+    <adjusted_close>41.1823</adjusted_close>
+    <volume>816439800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>42.8333</open>
+    <high>42.9733</high>
+    <low>39.3000</low>
+    <close>40.5267</close>
+    <adjusted_close>38.9252</adjusted_close>
+    <volume>512761800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>40.6467</open>
+    <high>44.4633</high>
+    <low>40.0200</low>
+    <close>44.0167</close>
+    <adjusted_close>42.2773</adjusted_close>
+    <volume>472936800</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>43.6867</open>
+    <high>47.5733</high>
+    <low>41.7067</low>
+    <close>44.1833</close>
+    <adjusted_close>42.6222</adjusted_close>
+    <volume>623681700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>44.1800</open>
+    <high>46.0833</high>
+    <low>42.7567</low>
+    <close>43.2333</close>
+    <adjusted_close>41.7058</adjusted_close>
+    <volume>416526900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>43.4133</open>
+    <high>47.6900</high>
+    <low>42.6900</low>
+    <close>47.4433</close>
+    <adjusted_close>45.7670</adjusted_close>
+    <volume>350685000</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>47.6567</open>
+    <high>51.5467</high>
+    <low>46.0900</low>
+    <close>50.8067</close>
+    <adjusted_close>49.0115</adjusted_close>
+    <volume>454982100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>50.6833</open>
+    <high>51.2033</high>
+    <low>46.9367</low>
+    <close>47.2633</close>
+    <adjusted_close>45.7653</adjusted_close>
+    <volume>382125300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>47.5167</open>
+    <high>49.2867</high>
+    <low>46.0567</low>
+    <close>47.9567</close>
+    <adjusted_close>46.4366</adjusted_close>
+    <volume>324054600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>47.8867</open>
+    <high>49.4467</high>
+    <low>46.2300</low>
+    <close>47.3767</close>
+    <adjusted_close>45.8750</adjusted_close>
+    <volume>368553300</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>47.0200</open>
+    <high>49.4800</high>
+    <low>45.3633</low>
+    <close>49.1500</close>
+    <adjusted_close>47.7872</adjusted_close>
+    <volume>524648700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>49.2433</open>
+    <high>51.2500</high>
+    <low>49.0067</low>
+    <close>50.3233</close>
+    <adjusted_close>48.9280</adjusted_close>
+    <volume>301894800</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>50.3467</open>
+    <high>51.4500</high>
+    <low>48.3367</low>
+    <close>48.9567</close>
+    <adjusted_close>47.7800</adjusted_close>
+    <volume>406453500</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>48.7367</open>
+    <high>52.7433</high>
+    <low>48.6467</low>
+    <close>52.3933</close>
+    <adjusted_close>51.1341</adjusted_close>
+    <volume>390332400</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>52.2700</open>
+    <high>53.6467</high>
+    <low>51.1500</low>
+    <close>53.2867</close>
+    <adjusted_close>52.0060</adjusted_close>
+    <volume>272185500</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>53.3167</open>
+    <high>54.3300</high>
+    <low>51.6733</low>
+    <close>54.2033</close>
+    <adjusted_close>53.0886</adjusted_close>
+    <volume>391674900</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>54.2900</open>
+    <high>55.2833</high>
+    <low>53.0633</low>
+    <close>53.3100</close>
+    <adjusted_close>52.2137</adjusted_close>
+    <volume>331229700</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>53.1633</open>
+    <high>54.7767</high>
+    <low>50.5500</low>
+    <close>54.4700</close>
+    <adjusted_close>53.3498</adjusted_close>
+    <volume>344001900</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>54.7367</open>
+    <high>56.6467</high>
+    <low>51.3767</low>
+    <close>51.8967</close>
+    <adjusted_close>50.8294</adjusted_close>
+    <volume>536482200</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>51.7933</open>
+    <high>52.7767</high>
+    <low>49.8467</low>
+    <close>52.5500</close>
+    <adjusted_close>51.6605</adjusted_close>
+    <volume>543923100</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>52.4167</open>
+    <high>55.9333</high>
+    <low>51.8667</low>
+    <close>55.0833</close>
+    <adjusted_close>54.1509</adjusted_close>
+    <volume>385322100</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>55.2333</open>
+    <high>60.4500</high>
+    <low>55.0600</low>
+    <close>58.6100</close>
+    <adjusted_close>57.6179</adjusted_close>
+    <volume>523190700</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>58.8000</open>
+    <high>61.6600</high>
+    <low>58.2000</low>
+    <close>60.1700</close>
+    <adjusted_close>59.3529</adjusted_close>
+    <volume>339293600</volume>
+    <news>WMT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>60.3100</open>
+    <high>60.8900</high>
+    <low>58.5600</low>
+    <close>59.3500</close>
+    <adjusted_close>58.5441</adjusted_close>
+    <volume>304730200</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>59.3100</open>
+    <high>65.9000</high>
+    <low>58.5800</low>
+    <close>65.7600</close>
+    <adjusted_close>65.0916</adjusted_close>
+    <volume>401568100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>65.5100</open>
+    <high>69.0400</high>
+    <low>65.1600</low>
+    <close>67.7100</close>
+    <adjusted_close>67.0217</adjusted_close>
+    <volume>288503100</volume>
+    <news>WMT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>67.8900</open>
+    <high>71.3300</high>
+    <low>67.2500</low>
+    <close>68.6400</close>
+    <adjusted_close>67.9423</adjusted_close>
+    <volume>288053200</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>68.9100</open>
+    <high>77.4700</high>
+    <low>66.6700</low>
+    <close>77.2300</close>
+    <adjusted_close>76.6629</adjusted_close>
+    <volume>395298400</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>77.3300</open>
+    <high>81.6000</high>
+    <low>76.3000</low>
+    <close>80.7500</close>
+    <adjusted_close>80.1570</adjusted_close>
+    <volume>358154100</volume>
+    <news>WMT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>80.6800</open>
+    <high>83.3400</high>
+    <low>78.9800</low>
+    <close>81.9500</close>
+    <adjusted_close>81.3482</adjusted_close>
+    <volume>274951500</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>82.5300</open>
+    <high>92.6400</high>
+    <low>81.5400</low>
+    <close>92.5000</close>
+    <adjusted_close>91.8208</adjusted_close>
+    <volume>340242300</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>92.8200</open>
+    <high>96.1800</high>
+    <low>88.9100</low>
+    <close>90.3500</close>
+    <adjusted_close>89.8852</adjusted_close>
+    <volume>382128400</volume>
+    <news>WMT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</walmart_stock_data>

@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<apple_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>104.8768</open>
+    <high>121.4976</high>
+    <low>86.4976</low>
+    <close>103.7456</close>
+    <adjusted_close>0.7795</adjusted_close>
+    <volume>12555177600</volume>
+    <news>Steve Jobs becomes permanent CEO, drops interim title</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>104.0032</open>
+    <high>119.9408</high>
+    <low>97.0032</low>
+    <close>114.6208</close>
+    <adjusted_close>0.8612</adjusted_close>
+    <volume>7319782400</volume>
+    <news>Mac OS X public beta released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>118.5632</open>
+    <high>150.3712</high>
+    <low>114.0048</low>
+    <close>135.8112</close>
+    <adjusted_close>1.0204</adjusted_close>
+    <volume>8698356800</volume>
+    <news>Apple introduces G4 Cube at MacWorld</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>135.4976</open>
+    <high>139.4960</high>
+    <low>104.8768</low>
+    <close>124.0624</close>
+    <adjusted_close>0.9322</adjusted_close>
+    <volume>8662404800</volume>
+    <news>Apple reports strong Q2 earnings</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>124.8800</open>
+    <high>126.2464</high>
+    <low>81.7488</low>
+    <close>84.0000</close>
+    <adjusted_close>0.6311</adjusted_close>
+    <volume>9807750400</volume>
+    <news>Apple announces Mac OS X Server</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>81.7488</open>
+    <high>103.9360</high>
+    <low>50.3104</low>
+    <close>52.3768</close>
+    <adjusted_close>0.7871</adjusted_close>
+    <volume>8105204800</volume>
+    <news>Apple unveils new Power Mac G4</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>52.1248</open>
+    <high>60.6256</high>
+    <low>46.8776</low>
+    <close>50.8144</close>
+    <adjusted_close>0.7636</adjusted_close>
+    <volume>5746770400</volume>
+    <news>Apple stock splits 2-for-1</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>50.3104</open>
+    <high>61.4992</high>
+    <low>44.2512</low>
+    <close>60.9392</close>
+    <adjusted_close>0.9157</adjusted_close>
+    <volume>5636086400</volume>
+    <news>Apple announces G4 upgrades</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>61.3144</open>
+    <high>64.1256</high>
+    <low>25.3736</low>
+    <close>25.7488</close>
+    <adjusted_close>0.3869</adjusted_close>
+    <volume>14516930400</volume>
+    <news>Mac OS X Public Beta released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>26.6896</open>
+    <high>26.7512</high>
+    <low>17.5000</low>
+    <close>19.5608</close>
+    <adjusted_close>0.2939</adjusted_close>
+    <volume>21905788800</volume>
+    <news>Apple reports Q4 earnings beat</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>19.4376</open>
+    <high>22.9992</high>
+    <low>16.1224</low>
+    <close>16.4976</close>
+    <adjusted_close>0.2479</adjusted_close>
+    <volume>8488373600</volume>
+    <news>Mac OS X public beta launch</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>17.0016</open>
+    <high>17.5000</high>
+    <low>13.6248</low>
+    <close>14.8736</close>
+    <adjusted_close>0.2235</adjusted_close>
+    <volume>8858970400</volume>
+    <news>Apple holiday sales surge</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>14.8736</open>
+    <high>22.5008</high>
+    <low>14.4368</low>
+    <close>21.6272</close>
+    <adjusted_close>0.3250</adjusted_close>
+    <volume>13709460800</volume>
+    <news>iTunes launched at MacWorld San Francisco</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>20.6864</open>
+    <high>21.9352</high>
+    <low>17.9984</low>
+    <close>18.2504</close>
+    <adjusted_close>0.2743</adjusted_close>
+    <volume>7023766400</volume>
+    <news>Apple reports mixed Q1 results</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>17.8136</open>
+    <high>23.7496</high>
+    <low>17.1864</low>
+    <close>22.0696</close>
+    <adjusted_close>0.3316</adjusted_close>
+    <volume>10799062400</volume>
+    <news>Mac OS X officially released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>22.0920</open>
+    <high>27.1208</high>
+    <low>18.7488</low>
+    <close>25.4912</close>
+    <adjusted_close>0.3831</adjusted_close>
+    <volume>11158991200</volume>
+    <news>Apple opens first retail stores</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>25.4128</open>
+    <high>26.7008</high>
+    <low>19.2976</low>
+    <close>19.9472</close>
+    <adjusted_close>0.2997</adjusted_close>
+    <volume>7468434400</volume>
+    <news>Apple opens first retail stores in Virginia and California</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>20.1320</open>
+    <high>25.0992</high>
+    <low>19.3480</low>
+    <close>23.2512</close>
+    <adjusted_close>0.3494</adjusted_close>
+    <volume>7638265600</volume>
+    <news>Apple unveils Mac OS X 10.1</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>23.6376</open>
+    <high>25.2224</high>
+    <low>17.8472</low>
+    <close>18.7880</close>
+    <adjusted_close>0.2823</adjusted_close>
+    <volume>8655102400</volume>
+    <news>Apple stock continues decline</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>19.0120</open>
+    <high>19.9024</high>
+    <low>17.2816</low>
+    <close>18.5528</close>
+    <adjusted_close>0.2788</adjusted_close>
+    <volume>5129359200</volume>
+    <news>Apple announces Power Mac G4 updates</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>18.5024</open>
+    <high>19.0792</high>
+    <low>14.6776</low>
+    <close>15.5120</close>
+    <adjusted_close>0.2331</adjusted_close>
+    <volume>5531523200</volume>
+    <news>September 11 attacks impact tech stocks</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>15.4896</open>
+    <high>19.4208</high>
+    <low>14.8288</low>
+    <close>17.5616</close>
+    <adjusted_close>0.2639</adjusted_close>
+    <volume>7544247200</volume>
+    <news>Original iPod unveiled, revolutionizing portable music</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>17.6512</open>
+    <high>21.5488</high>
+    <low>17.2480</low>
+    <close>21.3024</close>
+    <adjusted_close>0.3201</adjusted_close>
+    <volume>5369744800</volume>
+    <news>iPod goes on sale for $399</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>21.0616</open>
+    <high>24.0296</high>
+    <low>20.0872</low>
+    <close>21.9016</close>
+    <adjusted_close>0.3291</adjusted_close>
+    <volume>4629839200</volume>
+    <news>Apple holiday sales disappointing</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>22.0528</open>
+    <high>24.7296</high>
+    <low>20.2496</low>
+    <close>24.7184</close>
+    <adjusted_close>0.3714</adjusted_close>
+    <volume>8515376800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>24.3376</open>
+    <high>25.9784</high>
+    <low>20.9384</low>
+    <close>21.7000</close>
+    <adjusted_close>0.3261</adjusted_close>
+    <volume>7837424000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>21.9296</open>
+    <high>25.3008</high>
+    <low>21.8176</low>
+    <close>23.6712</close>
+    <adjusted_close>0.3557</adjusted_close>
+    <volume>5318583200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>23.3800</open>
+    <high>26.1688</high>
+    <low>22.9992</low>
+    <close>24.2704</close>
+    <adjusted_close>0.3647</adjusted_close>
+    <volume>6422836000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>24.2928</open>
+    <high>25.9784</high>
+    <low>22.1424</low>
+    <close>23.3016</close>
+    <adjusted_close>0.3502</adjusted_close>
+    <volume>5976157600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>23.3912</open>
+    <high>23.4472</high>
+    <low>15.9824</low>
+    <close>17.7184</close>
+    <adjusted_close>0.2663</adjusted_close>
+    <volume>8708016800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>17.7072</open>
+    <high>18.7880</high>
+    <low>13.7984</low>
+    <close>15.2600</close>
+    <adjusted_close>0.2293</adjusted_close>
+    <volume>8118415200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>15.1088</open>
+    <high>16.2512</high>
+    <low>13.9720</low>
+    <close>14.7504</close>
+    <adjusted_close>0.2217</adjusted_close>
+    <volume>5151686400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>14.4872</open>
+    <high>15.1928</high>
+    <low>14.0504</low>
+    <close>14.4984</close>
+    <adjusted_close>0.2179</adjusted_close>
+    <volume>5291837600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>14.5880</open>
+    <high>16.4416</high>
+    <low>13.3616</low>
+    <close>16.0720</close>
+    <adjusted_close>0.2415</adjusted_close>
+    <volume>6611432800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>15.9376</open>
+    <high>17.3824</high>
+    <low>15.0080</low>
+    <close>15.5008</close>
+    <adjusted_close>0.2329</adjusted_close>
+    <volume>4531721600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>15.8984</open>
+    <high>16.1000</high>
+    <low>13.7816</low>
+    <close>14.3304</close>
+    <adjusted_close>0.2153</adjusted_close>
+    <volume>4530439200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>14.3584</open>
+    <high>15.3776</high>
+    <low>13.5576</low>
+    <close>14.3584</close>
+    <adjusted_close>0.2158</adjusted_close>
+    <volume>6045832800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>14.4088</open>
+    <high>15.2992</high>
+    <low>13.7984</low>
+    <close>15.0080</close>
+    <adjusted_close>0.2255</adjusted_close>
+    <volume>4114303200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>15.0080</open>
+    <high>15.1592</high>
+    <low>14.0392</low>
+    <close>14.1400</close>
+    <adjusted_close>0.2125</adjusted_close>
+    <volume>4028404800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>14.2016</open>
+    <high>14.9520</high>
+    <low>12.7176</low>
+    <close>14.2184</close>
+    <adjusted_close>0.2137</adjusted_close>
+    <volume>7775342400</volume>
+    <news>iTunes Store launches with 200,000 songs for 99 cents</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>14.2520</open>
+    <high>19.0120</high>
+    <low>14.0000</low>
+    <close>17.9480</close>
+    <adjusted_close>0.2697</adjusted_close>
+    <volume>10811544800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>18.0992</open>
+    <high>19.6896</high>
+    <low>16.6320</low>
+    <close>19.0624</close>
+    <adjusted_close>0.2865</adjusted_close>
+    <volume>6113335200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>18.8720</open>
+    <high>21.5712</high>
+    <low>18.5080</low>
+    <close>21.0784</close>
+    <adjusted_close>0.3167</adjusted_close>
+    <volume>5218270400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>21.0000</open>
+    <high>22.8480</high>
+    <low>19.4208</low>
+    <close>22.6128</close>
+    <adjusted_close>0.3398</adjusted_close>
+    <volume>4307564800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>22.6576</open>
+    <high>23.3184</high>
+    <low>20.1488</low>
+    <close>20.7200</close>
+    <adjusted_close>0.3114</adjusted_close>
+    <volume>5347484800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>20.7088</open>
+    <high>25.0096</high>
+    <low>20.1880</low>
+    <close>22.8872</close>
+    <adjusted_close>0.3439</adjusted_close>
+    <volume>7040191200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>22.8312</open>
+    <high>23.3016</high>
+    <low>19.8520</low>
+    <close>20.9104</close>
+    <adjusted_close>0.3142</adjusted_close>
+    <volume>4974104800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>21.0392</open>
+    <high>21.9016</high>
+    <low>19.2528</low>
+    <close>21.3696</close>
+    <adjusted_close>0.3211</adjusted_close>
+    <volume>5453873600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>21.5488</open>
+    <high>24.8416</high>
+    <low>21.1792</low>
+    <close>22.5624</close>
+    <adjusted_close>0.3390</adjusted_close>
+    <volume>7927802400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>22.4616</open>
+    <high>24.1024</high>
+    <low>21.7000</low>
+    <close>23.9176</close>
+    <adjusted_close>0.3594</adjusted_close>
+    <volume>4922030400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>24.1024</open>
+    <high>28.1400</high>
+    <low>23.5984</low>
+    <close>27.0424</close>
+    <adjusted_close>0.4064</adjusted_close>
+    <volume>11626115200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>26.8912</open>
+    <high>29.5792</high>
+    <low>25.4912</low>
+    <close>25.7824</close>
+    <adjusted_close>0.3874</adjusted_close>
+    <volume>8930174400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>26.0008</open>
+    <high>28.7784</high>
+    <low>25.5024</low>
+    <close>28.0616</close>
+    <adjusted_close>0.4217</adjusted_close>
+    <volume>5304275200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>27.7928</open>
+    <high>34.1880</high>
+    <low>27.6080</low>
+    <close>32.5416</close>
+    <adjusted_close>0.4890</adjusted_close>
+    <volume>8227234400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>32.0992</open>
+    <high>33.6280</high>
+    <low>28.7392</low>
+    <close>32.3400</close>
+    <adjusted_close>0.4860</adjusted_close>
+    <volume>9696579200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>31.1808</open>
+    <high>35.1792</high>
+    <low>29.7024</low>
+    <close>34.4904</close>
+    <adjusted_close>0.5183</adjusted_close>
+    <volume>8011365600</volume>
+    <news>Apple stock splits 2-for-1</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>34.3000</open>
+    <high>39.2728</high>
+    <low>34.1880</low>
+    <close>38.7520</close>
+    <adjusted_close>0.5823</adjusted_close>
+    <volume>7673506400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>39.1216</open>
+    <high>53.2000</high>
+    <low>37.6488</low>
+    <close>52.3992</close>
+    <adjusted_close>0.7874</adjusted_close>
+    <volume>16094366400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>52.5000</open>
+    <high>69.5688</high>
+    <low>52.0408</low>
+    <close>67.0488</close>
+    <adjusted_close>1.0076</adjusted_close>
+    <volume>17439604000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>67.7880</open>
+    <high>67.9504</high>
+    <low>61.6000</low>
+    <close>64.4000</close>
+    <adjusted_close>0.9677</adjusted_close>
+    <volume>15948615200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>64.7808</open>
+    <high>77.8904</high>
+    <low>62.6024</low>
+    <close>76.8992</close>
+    <adjusted_close>1.1556</adjusted_close>
+    <volume>25708244800</volume>
+    <news>Mac mini and iPod shuffle announced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>77.0504</open>
+    <high>90.8824</high>
+    <low>43.9600</low>
+    <close>44.8588</close>
+    <adjusted_close>1.3482</adjusted_close>
+    <volume>21448946400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>44.9904</open>
+    <high>45.1108</high>
+    <low>38.8304</low>
+    <close>41.6696</close>
+    <adjusted_close>1.2523</adjusted_close>
+    <volume>14675920000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>42.0896</open>
+    <high>44.4500</high>
+    <low>34.0004</low>
+    <close>36.0612</close>
+    <adjusted_close>1.0838</adjusted_close>
+    <volume>19375518400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>36.2096</open>
+    <high>40.9388</high>
+    <low>33.1100</low>
+    <close>39.7600</close>
+    <adjusted_close>1.1950</adjusted_close>
+    <volume>12858294400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>39.8888</open>
+    <high>40.7596</high>
+    <low>35.5208</low>
+    <close>36.8088</close>
+    <adjusted_close>1.1063</adjusted_close>
+    <volume>11327195600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>36.8312</open>
+    <high>44.3800</high>
+    <low>36.2908</low>
+    <close>42.6496</close>
+    <adjusted_close>1.2818</adjusted_close>
+    <volume>10094246400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>42.5712</open>
+    <high>48.3308</high>
+    <low>42.0196</low>
+    <close>46.8888</close>
+    <adjusted_close>1.4092</adjusted_close>
+    <volume>9400806800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>47.0008</open>
+    <high>54.5608</high>
+    <low>46.0908</low>
+    <close>53.6088</close>
+    <adjusted_close>1.6112</adjusted_close>
+    <volume>12347770400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>54.1604</open>
+    <high>57.9796</high>
+    <low>47.8688</low>
+    <close>57.5904</close>
+    <adjusted_close>1.7308</adjusted_close>
+    <volume>18643447200</volume>
+    <news>Video iPod and iTunes video store launched</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>57.2404</open>
+    <high>71.0696</high>
+    <low>56.8708</low>
+    <close>67.8188</close>
+    <adjusted_close>2.0382</adjusted_close>
+    <volume>13456427600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>68.9500</open>
+    <high>75.4600</high>
+    <low>68.8100</low>
+    <close>71.8900</close>
+    <adjusted_close>2.1606</adjusted_close>
+    <volume>13064164400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>72.3800</open>
+    <high>86.3996</high>
+    <low>70.8708</low>
+    <close>75.5104</close>
+    <adjusted_close>2.2694</adjusted_close>
+    <volume>21878371200</volume>
+    <news>MacBook Pro with Intel processors announced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>74.9504</open>
+    <high>76.4596</high>
+    <low>62.8992</low>
+    <close>68.4908</close>
+    <adjusted_close>2.0584</adjusted_close>
+    <volume>18760697200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>68.8408</open>
+    <high>69.9888</high>
+    <low>57.6688</low>
+    <close>62.7200</close>
+    <adjusted_close>1.8850</adjusted_close>
+    <volume>23192632400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>63.6692</open>
+    <high>72.0496</high>
+    <low>61.0512</low>
+    <close>70.3892</close>
+    <adjusted_close>2.1155</adjusted_close>
+    <volume>20119282400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>70.7700</open>
+    <high>73.7996</high>
+    <low>58.6908</low>
+    <close>59.7688</close>
+    <adjusted_close>1.7963</adjusted_close>
+    <volume>15608779200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>59.8500</open>
+    <high>63.1008</high>
+    <low>55.4092</low>
+    <close>57.2712</close>
+    <adjusted_close>1.7212</adjusted_close>
+    <volume>17936623600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>57.5204</open>
+    <high>68.6308</high>
+    <low>50.1592</low>
+    <close>67.9588</close>
+    <adjusted_close>2.0425</adjusted_close>
+    <volume>17479742000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>67.2196</open>
+    <high>70.0000</high>
+    <low>62.5800</low>
+    <close>67.8496</close>
+    <adjusted_close>2.0392</adjusted_close>
+    <volume>17887646000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>68.4796</open>
+    <high>77.7812</high>
+    <low>67.8188</low>
+    <close>76.9804</close>
+    <adjusted_close>2.3136</adjusted_close>
+    <volume>17721558400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>75.0988</open>
+    <high>82.6000</high>
+    <low>72.6012</low>
+    <close>81.0796</close>
+    <adjusted_close>2.4368</adjusted_close>
+    <volume>14387956800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>81.0992</open>
+    <high>93.1588</high>
+    <low>77.7896</low>
+    <close>91.6608</close>
+    <adjusted_close>2.7548</adjusted_close>
+    <volume>13834884000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>91.8008</open>
+    <high>92.3300</high>
+    <low>76.7704</low>
+    <close>84.8400</close>
+    <adjusted_close>2.5498</adjusted_close>
+    <volume>16890792800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>86.2904</open>
+    <high>97.8012</high>
+    <low>81.9000</low>
+    <close>85.7304</close>
+    <adjusted_close>2.5766</adjusted_close>
+    <volume>27209781200</volume>
+    <news>iPhone unveiled by Steve Jobs at MacWorld</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>86.2288</open>
+    <high>90.8096</high>
+    <low>82.8604</low>
+    <close>84.6104</close>
+    <adjusted_close>2.5429</adjusted_close>
+    <volume>13722354800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>84.0308</open>
+    <high>96.8296</high>
+    <low>83.7508</low>
+    <close>92.9096</close>
+    <adjusted_close>2.7923</adjusted_close>
+    <volume>15918644000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>94.1388</open>
+    <high>102.4996</high>
+    <low>89.6000</low>
+    <close>99.8004</close>
+    <adjusted_close>2.9994</adjusted_close>
+    <volume>13459740000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>99.5904</open>
+    <high>122.1696</high>
+    <low>98.5488</low>
+    <close>121.1896</close>
+    <adjusted_close>3.6423</adjusted_close>
+    <volume>17365068000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>121.1000</open>
+    <high>127.6100</high>
+    <low>115.3992</low>
+    <close>122.0408</close>
+    <adjusted_close>3.6678</adjusted_close>
+    <volume>23279541600</volume>
+    <news>iPhone launched, transforming smartphone industry</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>121.0496</open>
+    <high>148.9208</high>
+    <low>119.2996</low>
+    <close>131.7596</close>
+    <adjusted_close>3.9599</adjusted_close>
+    <volume>24018573600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>133.6412</open>
+    <high>139.6500</high>
+    <low>111.6192</low>
+    <close>138.4796</close>
+    <adjusted_close>4.1619</adjusted_close>
+    <volume>24360798000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>139.9412</open>
+    <high>154.9996</high>
+    <low>130.0012</low>
+    <close>153.4708</close>
+    <adjusted_close>4.6124</adjusted_close>
+    <volume>20931223600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>154.6300</open>
+    <high>190.1200</high>
+    <low>152.9304</low>
+    <close>189.9492</close>
+    <adjusted_close>5.7088</adjusted_close>
+    <volume>23277791600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>188.5996</open>
+    <high>192.6792</high>
+    <low>150.6288</low>
+    <close>182.2212</close>
+    <adjusted_close>5.4765</adjusted_close>
+    <volume>26199790400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>181.8600</open>
+    <high>202.9608</high>
+    <low>176.9908</low>
+    <close>198.0804</close>
+    <adjusted_close>5.9532</adjusted_close>
+    <volume>17252678800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>199.2704</open>
+    <high>200.2588</high>
+    <low>126.1400</low>
+    <close>135.3604</close>
+    <adjusted_close>4.0682</adjusted_close>
+    <volume>35173888400</volume>
+    <news>MacBook Air introduced as worlds thinnest laptop</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>136.2396</open>
+    <high>136.5896</high>
+    <low>115.4412</low>
+    <close>125.0200</close>
+    <adjusted_close>3.7574</adjusted_close>
+    <volume>24865954400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>124.4404</open>
+    <high>145.7400</high>
+    <low>118.0004</low>
+    <close>143.5000</close>
+    <adjusted_close>4.3128</adjusted_close>
+    <volume>22927273600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>146.3000</open>
+    <high>180.0008</high>
+    <low>143.6092</low>
+    <close>173.9500</close>
+    <adjusted_close>5.2279</adjusted_close>
+    <volume>22786982400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>174.9608</open>
+    <high>192.2396</high>
+    <low>172.0012</low>
+    <close>188.7508</close>
+    <adjusted_close>5.6728</adjusted_close>
+    <volume>18588214400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>188.5996</open>
+    <high>189.9492</high>
+    <low>164.1500</low>
+    <close>167.4400</close>
+    <adjusted_close>5.0323</adjusted_close>
+    <volume>19475794800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>164.2312</open>
+    <high>180.9108</high>
+    <low>146.5296</low>
+    <close>158.9504</close>
+    <adjusted_close>4.7771</adjusted_close>
+    <volume>19749760800</volume>
+    <news>App Store launches with iPhone 3G</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>159.8996</open>
+    <high>180.4488</high>
+    <low>152.9108</low>
+    <close>169.5288</close>
+    <adjusted_close>5.0951</adjusted_close>
+    <volume>13085755200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>172.3988</open>
+    <high>173.4992</high>
+    <low>100.5900</low>
+    <close>113.6604</close>
+    <adjusted_close>3.4160</adjusted_close>
+    <volume>24067562400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>111.9188</open>
+    <high>116.3988</high>
+    <low>84.9996</low>
+    <close>107.5900</close>
+    <adjusted_close>3.2335</adjusted_close>
+    <volume>41426711200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>105.9296</open>
+    <high>111.7900</high>
+    <low>79.1392</low>
+    <close>92.6688</close>
+    <adjusted_close>2.7851</adjusted_close>
+    <volume>23619461600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>91.2996</open>
+    <high>103.6000</high>
+    <low>84.5488</low>
+    <close>85.3496</close>
+    <adjusted_close>2.5651</adjusted_close>
+    <volume>20213846800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>85.8788</open>
+    <high>97.1712</high>
+    <low>78.2012</low>
+    <close>90.1292</close>
+    <adjusted_close>2.7088</adjusted_close>
+    <volume>18105740800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>89.0988</open>
+    <high>103.0008</high>
+    <low>86.5088</low>
+    <close>89.3088</close>
+    <adjusted_close>2.6841</adjusted_close>
+    <volume>13867450800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>88.1188</open>
+    <high>109.9812</high>
+    <low>82.3312</low>
+    <close>105.1204</close>
+    <adjusted_close>3.1593</adjusted_close>
+    <volume>15424598000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>104.0900</open>
+    <high>127.2012</high>
+    <low>103.8912</low>
+    <close>125.8292</close>
+    <adjusted_close>3.7817</adjusted_close>
+    <volume>11821681200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>125.8012</open>
+    <high>135.9008</high>
+    <low>119.3808</low>
+    <close>135.8112</close>
+    <adjusted_close>4.0817</adjusted_close>
+    <volume>9457142800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>136.4692</open>
+    <high>146.4008</high>
+    <low>132.8796</low>
+    <close>142.4304</close>
+    <adjusted_close>4.2806</adjusted_close>
+    <volume>12675572000</volume>
+    <news>iPhone 3GS released with video recording</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>143.5000</open>
+    <high>165.0012</high>
+    <low>134.4196</low>
+    <close>163.3912</close>
+    <adjusted_close>4.9106</adjusted_close>
+    <volume>10942136800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>165.2112</open>
+    <high>172.4912</high>
+    <low>159.4208</low>
+    <close>168.2100</close>
+    <adjusted_close>5.0554</adjusted_close>
+    <volume>8165124800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>167.9888</open>
+    <high>188.8992</high>
+    <low>164.1108</low>
+    <close>185.3488</close>
+    <adjusted_close>5.5705</adjusted_close>
+    <volume>9989319200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>185.3488</open>
+    <high>208.7092</high>
+    <low>180.7008</low>
+    <close>188.4988</close>
+    <adjusted_close>5.6652</adjusted_close>
+    <volume>12956176800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>189.8008</open>
+    <high>208.0008</high>
+    <low>185.5700</low>
+    <close>199.9088</close>
+    <adjusted_close>6.0081</adjusted_close>
+    <volume>8454784800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>202.2412</open>
+    <high>213.9508</high>
+    <low>188.6808</low>
+    <close>210.7308</close>
+    <adjusted_close>6.3334</adjusted_close>
+    <volume>11393958800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>213.4300</open>
+    <high>215.5888</high>
+    <low>190.2488</low>
+    <close>192.0604</close>
+    <adjusted_close>5.7722</adjusted_close>
+    <volume>15168994400</volume>
+    <news>iPad announced, creating tablet computer market</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>192.3712</open>
+    <high>205.1700</high>
+    <low>190.8508</low>
+    <close>204.6212</close>
+    <adjusted_close>6.1497</adjusted_close>
+    <volume>10776080000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>205.7496</open>
+    <high>237.4792</high>
+    <low>205.4500</low>
+    <close>235.0012</close>
+    <adjusted_close>7.0628</adjusted_close>
+    <volume>12154172800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>237.4092</open>
+    <high>272.4596</high>
+    <low>232.7500</low>
+    <close>261.0888</close>
+    <adjusted_close>7.8468</adjusted_close>
+    <volume>12367129600</volume>
+    <news>iPad launched, selling 1 million units in 28 days</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>263.8412</open>
+    <high>267.8788</high>
+    <low>199.2508</low>
+    <close>256.8804</close>
+    <adjusted_close>7.7203</adjusted_close>
+    <volume>18082654800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>259.6888</open>
+    <high>279.0088</high>
+    <low>242.2000</low>
+    <close>251.5296</close>
+    <adjusted_close>7.5595</adjusted_close>
+    <volume>16651252800</volume>
+    <news>iPhone 4 unveiled with Retina display</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>254.2988</open>
+    <high>265.9888</high>
+    <low>239.5988</low>
+    <close>257.2500</close>
+    <adjusted_close>7.7315</adjusted_close>
+    <volume>15669704400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>260.4392</open>
+    <high>264.2808</high>
+    <low>235.5612</low>
+    <close>243.0988</close>
+    <adjusted_close>7.3062</adjusted_close>
+    <volume>9589120800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>247.4696</open>
+    <high>294.7308</high>
+    <low>246.2796</low>
+    <close>283.7492</close>
+    <adjusted_close>8.5279</adjusted_close>
+    <volume>11849919200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>286.1488</open>
+    <high>319.0012</high>
+    <low>277.7712</low>
+    <close>300.9804</close>
+    <adjusted_close>9.0457</adjusted_close>
+    <volume>12234577600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>302.2208</open>
+    <high>321.3000</high>
+    <low>297.7604</low>
+    <close>311.1500</close>
+    <adjusted_close>9.3514</adjusted_close>
+    <volume>9508086000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>315.2688</open>
+    <high>326.6592</high>
+    <low>314.8908</low>
+    <close>322.5600</close>
+    <adjusted_close>9.6943</adjusted_close>
+    <volume>6973234800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>325.6400</open>
+    <high>348.6000</high>
+    <low>324.8392</low>
+    <close>339.3208</close>
+    <adjusted_close>10.1980</adjusted_close>
+    <volume>10841535600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>341.3004</open>
+    <high>364.8988</high>
+    <low>337.7192</low>
+    <close>353.2088</close>
+    <adjusted_close>10.6154</adjusted_close>
+    <volume>9295949600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>355.4712</open>
+    <high>361.6704</high>
+    <low>326.2588</low>
+    <close>348.5104</close>
+    <adjusted_close>10.4742</adjusted_close>
+    <volume>11306458800</volume>
+    <news>iPad 2 launched, Steve Jobs makes surprise appearance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>351.1088</open>
+    <high>355.1296</high>
+    <low>320.1604</low>
+    <close>350.1288</close>
+    <adjusted_close>10.5229</adjusted_close>
+    <volume>9253829200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>349.7396</open>
+    <high>351.8312</high>
+    <low>329.4200</low>
+    <close>347.8300</close>
+    <adjusted_close>10.4538</adjusted_close>
+    <volume>6912060400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>348.8688</open>
+    <high>352.1308</high>
+    <low>310.5004</low>
+    <close>335.6696</close>
+    <adjusted_close>10.0883</adjusted_close>
+    <volume>9263850400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>335.9496</open>
+    <high>404.4992</high>
+    <low>334.1996</low>
+    <close>390.4796</close>
+    <adjusted_close>11.7356</adjusted_close>
+    <volume>10653946800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>397.7792</open>
+    <high>399.5012</high>
+    <low>353.0212</low>
+    <close>384.8292</close>
+    <adjusted_close>11.5658</adjusted_close>
+    <volume>16142599200</volume>
+    <news>Steve Jobs resigns as CEO, Tim Cook becomes CEO</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>385.8204</open>
+    <high>422.8588</high>
+    <low>366.4808</low>
+    <close>381.3208</close>
+    <adjusted_close>11.4603</adjusted_close>
+    <volume>11977448000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>380.3688</open>
+    <high>426.7004</high>
+    <low>354.2392</low>
+    <close>404.7792</close>
+    <adjusted_close>12.1653</adjusted_close>
+    <volume>13141427600</volume>
+    <news>Steve Jobs passes away, Apple loses visionary leader</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>397.4096</open>
+    <high>407.9992</high>
+    <low>363.3196</low>
+    <close>382.2000</close>
+    <adjusted_close>11.4867</adjusted_close>
+    <volume>8963701600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>382.5388</open>
+    <high>409.0912</high>
+    <low>377.6808</low>
+    <close>405.0004</close>
+    <adjusted_close>12.1720</adjusted_close>
+    <volume>6306532400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>409.3992</open>
+    <high>458.2396</high>
+    <low>408.9988</low>
+    <close>456.4812</close>
+    <adjusted_close>13.7192</adjusted_close>
+    <volume>6859854400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>458.4104</open>
+    <high>547.6100</high>
+    <low>453.9808</low>
+    <close>542.4412</close>
+    <adjusted_close>16.3027</adjusted_close>
+    <volume>11368554400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>548.1700</open>
+    <high>621.4488</high>
+    <low>516.2192</low>
+    <close>599.5500</close>
+    <adjusted_close>18.0190</adjusted_close>
+    <volume>15584338000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>601.8292</open>
+    <high>644.0000</high>
+    <low>554.9992</low>
+    <close>583.9792</close>
+    <adjusted_close>17.5511</adjusted_close>
+    <volume>15598990400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>584.9004</open>
+    <high>596.7612</high>
+    <low>522.1804</low>
+    <close>577.7296</close>
+    <adjusted_close>17.3632</adjusted_close>
+    <volume>11106345600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>569.1588</open>
+    <high>589.9992</high>
+    <low>548.5004</low>
+    <close>583.9988</close>
+    <adjusted_close>17.5516</adjusted_close>
+    <volume>7855825600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>584.7296</open>
+    <high>619.8696</high>
+    <low>569.9988</low>
+    <close>610.7612</close>
+    <adjusted_close>18.3560</adjusted_close>
+    <volume>8909650400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>615.9104</open>
+    <high>680.8704</high>
+    <low>600.2500</low>
+    <close>665.2408</close>
+    <adjusted_close>20.0791</adjusted_close>
+    <volume>8276206400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>665.7588</open>
+    <high>705.0708</high>
+    <low>656.0008</low>
+    <close>667.1000</close>
+    <adjusted_close>20.1352</adjusted_close>
+    <volume>9199005200</volume>
+    <news>iPhone 5 launched with Lightning connector</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>671.1600</open>
+    <high>676.7488</high>
+    <low>587.7004</low>
+    <close>595.3192</close>
+    <adjusted_close>17.9687</adjusted_close>
+    <volume>12142830000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>598.2200</open>
+    <high>602.9996</high>
+    <low>505.7500</low>
+    <close>585.2812</close>
+    <adjusted_close>17.7464</adjusted_close>
+    <volume>12929851200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>593.6504</open>
+    <high>594.5912</high>
+    <low>501.2308</low>
+    <close>532.1708</close>
+    <adjusted_close>16.1360</adjusted_close>
+    <volume>12132752800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>553.8204</open>
+    <high>554.9992</high>
+    <low>434.9996</low>
+    <close>455.4900</close>
+    <adjusted_close>13.8109</adjusted_close>
+    <volume>13123423600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>459.1104</open>
+    <high>484.9404</high>
+    <low>437.6596</low>
+    <close>441.4004</close>
+    <adjusted_close>13.4617</adjusted_close>
+    <volume>9344034000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>438.0012</open>
+    <high>469.9492</high>
+    <low>419.0004</low>
+    <close>442.6604</close>
+    <adjusted_close>13.5002</adjusted_close>
+    <volume>9176876800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>441.8988</open>
+    <high>445.2504</high>
+    <low>385.1008</low>
+    <close>442.7808</close>
+    <adjusted_close>13.5038</adjusted_close>
+    <volume>10963489600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>444.4608</open>
+    <high>465.7492</high>
+    <low>418.8996</low>
+    <close>449.7304</close>
+    <adjusted_close>13.8066</adjusted_close>
+    <volume>9447530400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>450.7300</open>
+    <high>454.4288</high>
+    <low>388.8696</low>
+    <close>396.5304</close>
+    <adjusted_close>12.1733</adjusted_close>
+    <volume>7018536000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>402.6904</open>
+    <high>457.3408</high>
+    <low>401.2204</low>
+    <close>452.5304</close>
+    <adjusted_close>13.8925</adjusted_close>
+    <volume>6538114800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>455.7504</open>
+    <high>513.7412</high>
+    <low>453.2612</low>
+    <close>487.2196</close>
+    <adjusted_close>15.0562</adjusted_close>
+    <volume>8058338400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>493.0996</open>
+    <high>507.9200</high>
+    <low>447.2188</low>
+    <close>476.7504</close>
+    <adjusted_close>14.7327</adjusted_close>
+    <volume>8630941200</volume>
+    <news>iPhone 5c and 5s released, Touch ID introduced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>478.4500</open>
+    <high>539.2492</high>
+    <low>478.2792</low>
+    <close>522.7012</close>
+    <adjusted_close>16.1527</adjusted_close>
+    <volume>7837732000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>524.0200</open>
+    <high>558.3312</high>
+    <low>512.3804</low>
+    <close>556.0688</close>
+    <adjusted_close>17.2842</adjusted_close>
+    <volume>5225155600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>558.0008</open>
+    <high>575.1396</high>
+    <low>538.8012</low>
+    <close>561.0192</close>
+    <adjusted_close>17.4380</adjusted_close>
+    <volume>7057397200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>555.6796</open>
+    <high>560.1988</high>
+    <low>493.5504</low>
+    <close>500.6008</close>
+    <adjusted_close>15.5601</adjusted_close>
+    <volume>8765954400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>502.6112</open>
+    <high>551.1912</high>
+    <low>499.2988</low>
+    <close>526.2404</close>
+    <adjusted_close>16.4549</adjusted_close>
+    <volume>5880366800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>523.4208</open>
+    <high>548.9988</high>
+    <low>522.8104</low>
+    <close>536.7404</close>
+    <adjusted_close>16.7833</adjusted_close>
+    <volume>5001698800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>537.7596</open>
+    <high>599.4296</high>
+    <low>511.3304</low>
+    <close>590.0888</close>
+    <adjusted_close>18.4514</adjusted_close>
+    <volume>6435060800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>592.0012</open>
+    <high>644.1708</high>
+    <low>580.3308</low>
+    <close>632.9988</close>
+    <adjusted_close>19.9037</adjusted_close>
+    <volume>5735668400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>633.9592</open>
+    <high>651.2604</high>
+    <low>89.6500</low>
+    <close>92.9300</close>
+    <adjusted_close>20.4543</adjusted_close>
+    <volume>4827739200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>93.5200</open>
+    <high>99.4400</high>
+    <low>92.5700</low>
+    <close>95.6000</close>
+    <adjusted_close>21.0420</adjusted_close>
+    <volume>4140344000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>94.9000</open>
+    <high>102.9000</high>
+    <low>93.2800</low>
+    <close>102.5000</close>
+    <adjusted_close>22.6729</adjusted_close>
+    <volume>3748308000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>103.0600</open>
+    <high>103.7400</high>
+    <low>96.1400</low>
+    <close>100.7500</close>
+    <adjusted_close>22.2858</adjusted_close>
+    <volume>6105680000</volume>
+    <news>iPhone 6 and Apple Watch announced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>100.5900</open>
+    <high>108.0400</high>
+    <low>95.1800</low>
+    <close>108.0000</close>
+    <adjusted_close>23.8895</adjusted_close>
+    <volume>5441120800</volume>
+    <news>Apple Pay mobile payment service launches</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>108.2200</open>
+    <high>119.7500</high>
+    <low>107.7200</low>
+    <close>118.9300</close>
+    <adjusted_close>26.4213</adjusted_close>
+    <volume>3281632800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>118.8100</open>
+    <high>119.2500</high>
+    <low>106.2600</low>
+    <close>110.3800</close>
+    <adjusted_close>24.5218</adjusted_close>
+    <volume>4294378400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>111.3900</open>
+    <high>120.0000</high>
+    <low>104.6300</low>
+    <close>117.1600</close>
+    <adjusted_close>26.0281</adjusted_close>
+    <volume>5221053600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>118.0500</open>
+    <high>133.6000</high>
+    <low>116.0800</low>
+    <close>128.4600</close>
+    <adjusted_close>28.6511</adjusted_close>
+    <volume>4546140800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>129.2500</open>
+    <high>130.2800</high>
+    <low>121.6300</low>
+    <close>124.4300</close>
+    <adjusted_close>27.7523</adjusted_close>
+    <volume>4554568400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>124.8200</open>
+    <high>134.5400</high>
+    <low>123.1000</low>
+    <close>125.1500</close>
+    <adjusted_close>27.9129</adjusted_close>
+    <volume>3984542000</volume>
+    <news>Apple Watch officially goes on sale</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>126.1000</open>
+    <high>132.9700</high>
+    <low>123.3600</low>
+    <close>130.2800</close>
+    <adjusted_close>29.1784</adjusted_close>
+    <volume>3816608400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>130.2800</open>
+    <high>131.3900</high>
+    <low>124.4800</low>
+    <close>125.4300</close>
+    <adjusted_close>28.0922</adjusted_close>
+    <volume>3514426800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>126.9000</open>
+    <high>132.9700</high>
+    <low>119.2200</low>
+    <close>121.3000</close>
+    <adjusted_close>27.1672</adjusted_close>
+    <volume>4233122400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>121.5000</open>
+    <high>122.5700</high>
+    <low>92.0000</low>
+    <close>112.7600</close>
+    <adjusted_close>25.3688</adjusted_close>
+    <volume>6427276400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>110.1500</open>
+    <high>116.8900</high>
+    <low>107.3600</low>
+    <close>110.3000</close>
+    <adjusted_close>24.8154</adjusted_close>
+    <volume>4826189200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>109.0700</open>
+    <high>121.2200</high>
+    <low>107.3100</low>
+    <close>119.5000</close>
+    <adjusted_close>26.8852</adjusted_close>
+    <volume>4450048400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>120.8000</open>
+    <high>123.8200</high>
+    <low>111.0000</low>
+    <close>118.3000</close>
+    <adjusted_close>26.7291</adjusted_close>
+    <volume>3002562400</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>118.7500</open>
+    <high>119.8600</high>
+    <low>104.8200</low>
+    <close>105.2600</close>
+    <adjusted_close>23.7828</adjusted_close>
+    <volume>3687660800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>102.6100</open>
+    <high>105.8500</high>
+    <low>92.3900</low>
+    <close>97.3400</close>
+    <adjusted_close>21.9934</adjusted_close>
+    <volume>5087392000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>96.4700</open>
+    <high>98.8900</high>
+    <low>92.5900</low>
+    <close>96.6900</close>
+    <adjusted_close>21.9650</adjusted_close>
+    <volume>3243450400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>97.6500</open>
+    <high>110.4200</high>
+    <low>97.4200</low>
+    <close>108.9900</close>
+    <adjusted_close>24.7592</adjusted_close>
+    <volume>2984198400</volume>
+    <news>iPhone SE announced for smaller phone market</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>108.7800</open>
+    <high>112.3900</high>
+    <low>92.5100</low>
+    <close>93.7400</close>
+    <adjusted_close>21.2949</adjusted_close>
+    <volume>3489534800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>93.9700</open>
+    <high>100.7300</high>
+    <low>89.4700</low>
+    <close>99.8600</close>
+    <adjusted_close>22.8233</adjusted_close>
+    <volume>3602686000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>99.0200</open>
+    <high>101.8900</high>
+    <low>91.5000</low>
+    <close>95.6000</close>
+    <adjusted_close>21.8496</adjusted_close>
+    <volume>3117990800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>95.4900</open>
+    <high>104.5500</high>
+    <low>94.3700</low>
+    <close>104.2100</close>
+    <adjusted_close>23.8175</adjusted_close>
+    <volume>2743118400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>104.4100</open>
+    <high>110.2300</high>
+    <low>104.0000</low>
+    <close>106.1000</close>
+    <adjusted_close>24.3808</adjusted_close>
+    <volume>2520514000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>106.1400</open>
+    <high>116.1800</high>
+    <low>102.5300</low>
+    <close>113.0500</close>
+    <adjusted_close>25.9779</adjusted_close>
+    <volume>3872062400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>112.7100</open>
+    <high>118.6900</high>
+    <low>112.2800</low>
+    <close>113.5400</close>
+    <adjusted_close>26.0905</adjusted_close>
+    <volume>2747657200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>113.4600</open>
+    <high>113.7700</high>
+    <low>104.0800</low>
+    <close>110.5200</close>
+    <adjusted_close>25.5269</adjusted_close>
+    <volume>2886220000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>110.3700</open>
+    <high>118.0200</high>
+    <low>108.2500</low>
+    <close>115.8200</close>
+    <adjusted_close>26.7510</adjusted_close>
+    <volume>2435086800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>115.8000</open>
+    <high>122.4400</high>
+    <low>114.7600</low>
+    <close>121.3500</close>
+    <adjusted_close>28.0283</adjusted_close>
+    <volume>2252488000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>127.0300</open>
+    <high>137.4800</high>
+    <low>127.0100</low>
+    <close>136.9900</close>
+    <adjusted_close>31.7779</adjusted_close>
+    <volume>2299874400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>137.8900</open>
+    <high>144.5000</high>
+    <low>137.0500</low>
+    <close>143.6600</close>
+    <adjusted_close>33.3251</adjusted_close>
+    <volume>2246513600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>143.7100</open>
+    <high>145.4600</high>
+    <low>140.0600</low>
+    <close>143.6500</close>
+    <adjusted_close>33.3228</adjusted_close>
+    <volume>1493216400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>145.1000</open>
+    <high>156.6500</high>
+    <low>144.2700</low>
+    <close>152.7600</close>
+    <adjusted_close>35.5823</adjusted_close>
+    <volume>2615927200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>153.1700</open>
+    <high>155.9800</high>
+    <low>142.2000</low>
+    <close>144.0200</close>
+    <adjusted_close>33.5465</adjusted_close>
+    <volume>2736712400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>144.8800</open>
+    <high>153.9900</high>
+    <low>142.4100</low>
+    <close>148.7300</close>
+    <adjusted_close>34.6436</adjusted_close>
+    <volume>1688047600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>149.1000</open>
+    <high>164.5200</high>
+    <low>148.4100</low>
+    <close>164.0000</close>
+    <adjusted_close>38.3505</adjusted_close>
+    <volume>2644276000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>164.8000</open>
+    <high>164.9400</high>
+    <low>149.1600</low>
+    <close>154.1200</close>
+    <adjusted_close>36.0401</adjusted_close>
+    <volume>2721496400</volume>
+    <news>iPhone X unveiled with Face ID and edge-to-edge display</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>154.2600</open>
+    <high>169.6500</high>
+    <low>152.4600</low>
+    <close>169.0400</close>
+    <adjusted_close>39.5290</adjusted_close>
+    <volume>2017165200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>169.8700</open>
+    <high>176.2400</high>
+    <low>165.2800</low>
+    <close>171.8500</close>
+    <adjusted_close>40.3306</adjusted_close>
+    <volume>2402653600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>169.9500</open>
+    <high>177.2000</high>
+    <low>166.4600</low>
+    <close>169.2300</close>
+    <adjusted_close>39.7157</adjusted_close>
+    <volume>2124735200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>170.1600</open>
+    <high>180.1000</high>
+    <low>164.7000</low>
+    <close>167.4300</close>
+    <adjusted_close>39.2933</adjusted_close>
+    <volume>2638717600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>167.1700</open>
+    <high>180.6200</high>
+    <low>150.2400</low>
+    <close>178.1200</close>
+    <adjusted_close>41.9725</adjusted_close>
+    <volume>3711577200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>178.5400</open>
+    <high>183.5000</high>
+    <low>164.9400</low>
+    <close>167.7800</close>
+    <adjusted_close>39.5360</adjusted_close>
+    <volume>2854910800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>166.6400</open>
+    <high>178.9400</high>
+    <low>160.6300</low>
+    <close>165.2600</close>
+    <adjusted_close>38.9422</adjusted_close>
+    <volume>2664617200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>166.4100</open>
+    <high>190.3700</high>
+    <low>165.2700</low>
+    <close>186.8700</close>
+    <adjusted_close>44.2042</adjusted_close>
+    <volume>2483905200</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>187.9900</open>
+    <high>194.2000</high>
+    <low>180.7300</low>
+    <close>185.1100</close>
+    <adjusted_close>43.7878</adjusted_close>
+    <volume>2110498000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>183.8200</open>
+    <high>195.9600</high>
+    <low>183.4200</low>
+    <close>190.2900</close>
+    <adjusted_close>45.0132</adjusted_close>
+    <volume>1574765600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>199.1300</open>
+    <high>228.8700</high>
+    <low>197.3100</low>
+    <close>227.6300</close>
+    <adjusted_close>54.0348</adjusted_close>
+    <volume>2801275600</volume>
+    <news>Apple becomes first trillion-dollar company</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>228.4100</open>
+    <high>229.6700</high>
+    <low>215.3000</low>
+    <close>225.7400</close>
+    <adjusted_close>53.5862</adjusted_close>
+    <volume>2715888000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>227.9500</open>
+    <high>233.4700</high>
+    <low>206.0900</low>
+    <close>218.8600</close>
+    <adjusted_close>51.9530</adjusted_close>
+    <volume>3158994000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>219.0500</open>
+    <high>222.3600</high>
+    <low>170.2600</low>
+    <close>178.5800</close>
+    <adjusted_close>42.5392</adjusted_close>
+    <volume>3845305600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>184.4600</open>
+    <high>184.9400</high>
+    <low>146.5900</low>
+    <close>157.7400</close>
+    <adjusted_close>37.5750</adjusted_close>
+    <volume>3595690000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>154.8900</open>
+    <high>169.0000</high>
+    <low>142.0000</low>
+    <close>166.4400</close>
+    <adjusted_close>39.6474</adjusted_close>
+    <volume>3312349600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>166.9600</open>
+    <high>175.8700</high>
+    <low>165.9300</low>
+    <close>173.1500</close>
+    <adjusted_close>41.4227</adjusted_close>
+    <volume>1890162400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>174.2800</open>
+    <high>197.6900</high>
+    <low>169.5000</low>
+    <close>189.9500</close>
+    <adjusted_close>45.4417</adjusted_close>
+    <volume>2603925600</volume>
+    <news>Apple announces shift to services with TV+ and News+</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>191.6400</open>
+    <high>208.4800</high>
+    <low>188.3800</low>
+    <close>200.6700</close>
+    <adjusted_close>48.0063</adjusted_close>
+    <volume>2024470800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>209.8800</open>
+    <high>215.3100</high>
+    <low>174.9900</low>
+    <close>175.0700</close>
+    <adjusted_close>42.0433</adjusted_close>
+    <volume>2957826400</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>175.6000</open>
+    <high>201.5700</high>
+    <low>170.2700</low>
+    <close>197.9200</close>
+    <adjusted_close>47.5307</adjusted_close>
+    <volume>2060874800</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>203.1700</open>
+    <high>221.3700</high>
+    <low>198.4100</low>
+    <close>213.0400</close>
+    <adjusted_close>51.1618</adjusted_close>
+    <volume>1895406800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>213.9000</open>
+    <high>218.0300</high>
+    <low>192.5800</low>
+    <close>208.7400</close>
+    <adjusted_close>50.3196</adjusted_close>
+    <volume>2724326400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>206.4300</open>
+    <high>226.4200</high>
+    <low>204.2200</low>
+    <close>223.9700</close>
+    <adjusted_close>53.9910</adjusted_close>
+    <volume>2170268400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>225.0700</open>
+    <high>249.7500</high>
+    <low>215.1300</low>
+    <close>248.7600</close>
+    <adjusted_close>59.9670</adjusted_close>
+    <volume>2433210800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>249.5400</open>
+    <high>268.0000</high>
+    <low>249.1600</low>
+    <close>267.2500</close>
+    <adjusted_close>64.6177</adjusted_close>
+    <volume>1793326000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>267.2700</open>
+    <high>293.9700</high>
+    <low>256.2900</low>
+    <close>293.6500</close>
+    <adjusted_close>71.0009</adjusted_close>
+    <volume>2388794800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>296.2400</open>
+    <high>327.8500</high>
+    <low>292.7500</low>
+    <close>309.5100</close>
+    <adjusted_close>74.8356</adjusted_close>
+    <volume>2934370400</volume>
+    <news>COVID-19 begins impacting supply chains</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>304.3000</open>
+    <high>327.2200</high>
+    <low>256.3700</low>
+    <close>273.3600</close>
+    <adjusted_close>66.2519</adjusted_close>
+    <volume>3019279200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>282.2800</open>
+    <high>304.0000</high>
+    <low>212.6100</low>
+    <close>254.2900</close>
+    <adjusted_close>61.6300</adjusted_close>
+    <volume>6280072400</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>246.5000</open>
+    <high>294.5300</high>
+    <low>236.9000</low>
+    <close>293.8000</close>
+    <adjusted_close>71.2057</adjusted_close>
+    <volume>3265299200</volume>
+    <news>COVID-19 impacts supply chain and retail stores</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>286.2500</open>
+    <high>324.2400</high>
+    <low>285.8500</low>
+    <close>317.9400</close>
+    <adjusted_close>77.2649</adjusted_close>
+    <volume>2805936000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>317.7500</open>
+    <high>372.3800</high>
+    <low>317.2100</low>
+    <close>364.8000</close>
+    <adjusted_close>88.6527</adjusted_close>
+    <volume>3243375600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>365.1200</open>
+    <high>425.6600</high>
+    <low>356.5800</low>
+    <close>425.0400</close>
+    <adjusted_close>103.2921</adjusted_close>
+    <volume>3020283200</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>432.8000</open>
+    <high>515.1400</high>
+    <low>126.0000</low>
+    <close>129.0400</close>
+    <adjusted_close>125.6620</adjusted_close>
+    <volume>4070061100</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>132.7600</open>
+    <high>137.9800</high>
+    <low>103.1000</low>
+    <close>115.8100</close>
+    <adjusted_close>112.7783</adjusted_close>
+    <volume>3885245100</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>117.6400</open>
+    <high>125.3900</high>
+    <low>107.7200</low>
+    <close>108.8600</close>
+    <adjusted_close>106.0102</adjusted_close>
+    <volume>2894666500</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>109.1100</open>
+    <high>121.9900</high>
+    <low>107.3200</low>
+    <close>119.0500</close>
+    <adjusted_close>116.1335</adjusted_close>
+    <volume>2123077300</volume>
+    <news>Apple Silicon M1 chip announced, revolutionizing Macs</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>121.0100</open>
+    <high>138.7900</high>
+    <low>120.0100</low>
+    <close>132.6900</close>
+    <adjusted_close>129.4393</adjusted_close>
+    <volume>2322189600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>133.5200</open>
+    <high>145.0900</high>
+    <low>126.3800</low>
+    <close>131.9600</close>
+    <adjusted_close>128.7272</adjusted_close>
+    <volume>2240262000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>133.7500</open>
+    <high>137.8800</high>
+    <low>118.3900</low>
+    <close>121.2600</close>
+    <adjusted_close>118.4661</adjusted_close>
+    <volume>1833855600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>123.7500</open>
+    <high>128.7200</high>
+    <low>116.2100</low>
+    <close>122.1500</close>
+    <adjusted_close>119.3356</adjusted_close>
+    <volume>2650418200</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>123.6600</open>
+    <high>137.0700</high>
+    <low>122.4900</low>
+    <close>131.4600</close>
+    <adjusted_close>128.4311</adjusted_close>
+    <volume>1889857500</volume>
+    <news>Apple announces privacy changes affecting digital advertising</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>132.0400</open>
+    <high>134.0700</high>
+    <low>122.2500</low>
+    <close>124.6100</close>
+    <adjusted_close>121.9457</adjusted_close>
+    <volume>1711934900</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>125.0800</open>
+    <high>137.4100</high>
+    <low>123.1300</low>
+    <close>136.9600</close>
+    <adjusted_close>134.0317</adjusted_close>
+    <volume>1606590000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>136.6000</open>
+    <high>150.0000</high>
+    <low>135.7600</low>
+    <close>145.8600</close>
+    <adjusted_close>142.7414</adjusted_close>
+    <volume>1919035100</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>146.3600</open>
+    <high>153.4900</high>
+    <low>144.5000</low>
+    <close>151.8300</close>
+    <adjusted_close>148.8063</adjusted_close>
+    <volume>1461542800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>152.8300</open>
+    <high>157.2600</high>
+    <low>141.2700</low>
+    <close>141.5000</close>
+    <adjusted_close>138.6821</adjusted_close>
+    <volume>1797835100</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>141.9000</open>
+    <high>153.1700</high>
+    <low>138.2700</low>
+    <close>149.8000</close>
+    <adjusted_close>146.8168</adjusted_close>
+    <volume>1565079200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>148.9900</open>
+    <high>165.7000</high>
+    <low>147.4800</low>
+    <close>165.3000</close>
+    <adjusted_close>162.2445</adjusted_close>
+    <volume>1691029000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>167.4800</open>
+    <high>182.1300</high>
+    <low>157.8000</low>
+    <close>177.5700</close>
+    <adjusted_close>174.2877</adjusted_close>
+    <volume>2444766700</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>177.8300</open>
+    <high>182.9400</high>
+    <low>154.7000</low>
+    <close>174.7800</close>
+    <adjusted_close>171.5493</adjusted_close>
+    <volume>2108446000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>174.0100</open>
+    <high>176.6500</high>
+    <low>152.0000</low>
+    <close>165.1200</close>
+    <adjusted_close>162.2743</adjusted_close>
+    <volume>1627516300</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>164.7000</open>
+    <high>179.6100</high>
+    <low>150.1000</low>
+    <close>174.6100</close>
+    <adjusted_close>171.6008</adjusted_close>
+    <volume>2180800100</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>174.0300</open>
+    <high>178.4900</high>
+    <low>155.3800</low>
+    <close>157.6500</close>
+    <adjusted_close>154.9331</adjusted_close>
+    <volume>1687795600</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>156.7100</open>
+    <high>166.4800</high>
+    <low>132.6100</low>
+    <close>148.8400</close>
+    <adjusted_close>146.4898</adjusted_close>
+    <volume>2401040300</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>149.9000</open>
+    <high>151.7400</high>
+    <low>129.0400</low>
+    <close>136.7200</close>
+    <adjusted_close>134.5612</adjusted_close>
+    <volume>1749099800</volume>
+    <news>M2 chip announced at WWDC</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>136.0400</open>
+    <high>163.6300</high>
+    <low>135.6600</low>
+    <close>162.5100</close>
+    <adjusted_close>159.9440</adjusted_close>
+    <volume>1447125400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>161.0100</open>
+    <high>176.1500</high>
+    <low>157.1400</low>
+    <close>157.2200</close>
+    <adjusted_close>154.9524</adjusted_close>
+    <volume>1510239600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>156.6400</open>
+    <high>164.2600</high>
+    <low>138.0000</low>
+    <close>138.2000</close>
+    <adjusted_close>136.2068</adjusted_close>
+    <volume>2084722800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>138.2100</open>
+    <high>157.5000</high>
+    <low>134.3700</low>
+    <close>153.3400</close>
+    <adjusted_close>151.1284</adjusted_close>
+    <volume>1868139700</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>155.0800</open>
+    <high>155.4500</high>
+    <low>134.3800</low>
+    <close>148.0300</close>
+    <adjusted_close>146.1370</adjusted_close>
+    <volume>1724847700</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>148.2100</open>
+    <high>150.9200</high>
+    <low>125.8700</low>
+    <close>129.9300</close>
+    <adjusted_close>128.2685</adjusted_close>
+    <volume>1675731200</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>130.2800</open>
+    <high>147.2300</high>
+    <low>124.1700</low>
+    <close>144.2900</close>
+    <adjusted_close>142.4448</adjusted_close>
+    <volume>1443652500</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>143.9700</open>
+    <high>157.3800</high>
+    <low>141.3200</low>
+    <close>147.4100</close>
+    <adjusted_close>145.7471</adjusted_close>
+    <volume>1307198900</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>146.8300</open>
+    <high>165.0000</high>
+    <low>143.9000</low>
+    <close>164.9000</close>
+    <adjusted_close>163.0398</adjusted_close>
+    <volume>1520266600</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>164.2700</open>
+    <high>169.8500</high>
+    <low>159.7800</low>
+    <close>169.6800</close>
+    <adjusted_close>167.7659</adjusted_close>
+    <volume>969709700</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>169.2800</open>
+    <high>179.3500</high>
+    <low>164.3100</low>
+    <close>177.2500</close>
+    <adjusted_close>175.4929</adjusted_close>
+    <volume>1275155500</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>177.7000</open>
+    <high>194.4800</high>
+    <low>176.9300</low>
+    <close>193.9700</close>
+    <adjusted_close>192.0472</adjusted_close>
+    <volume>1297101100</volume>
+    <news>Apple Vision Pro mixed reality headset unveiled</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>193.7800</open>
+    <high>198.2300</high>
+    <low>186.6000</low>
+    <close>196.4500</close>
+    <adjusted_close>194.5026</adjusted_close>
+    <volume>996066400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>196.2400</open>
+    <high>196.7300</high>
+    <low>171.9600</low>
+    <close>187.8700</close>
+    <adjusted_close>186.2588</adjusted_close>
+    <volume>1322439400</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>189.4900</open>
+    <high>189.9800</high>
+    <low>167.6200</low>
+    <close>171.2100</close>
+    <adjusted_close>169.7417</adjusted_close>
+    <volume>1337586600</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>171.2200</open>
+    <high>182.3400</high>
+    <low>165.6700</low>
+    <close>170.7700</close>
+    <adjusted_close>169.3055</adjusted_close>
+    <volume>1172719600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>171.0000</open>
+    <high>192.9300</high>
+    <low>170.1200</low>
+    <close>189.9500</close>
+    <adjusted_close>188.5691</adjusted_close>
+    <volume>1099586100</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>190.3300</open>
+    <high>199.6200</high>
+    <low>187.4500</low>
+    <close>192.5300</close>
+    <adjusted_close>191.1303</adjusted_close>
+    <volume>1062774800</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>187.1500</open>
+    <high>196.3800</high>
+    <low>180.1700</low>
+    <close>184.4000</close>
+    <adjusted_close>183.0594</adjusted_close>
+    <volume>1187219300</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>183.9900</open>
+    <high>191.0500</high>
+    <low>179.2500</low>
+    <close>180.7500</close>
+    <adjusted_close>179.6649</adjusted_close>
+    <volume>1161627000</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>179.5500</open>
+    <high>180.5300</high>
+    <low>168.4900</low>
+    <close>171.4800</close>
+    <adjusted_close>170.4506</adjusted_close>
+    <volume>1432782800</volume>
+    <news>AAPL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>171.1900</open>
+    <high>178.3600</high>
+    <low>164.0800</low>
+    <close>170.3300</close>
+    <adjusted_close>169.3075</adjusted_close>
+    <volume>1245717000</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>169.5800</open>
+    <high>193.0000</high>
+    <low>169.1100</low>
+    <close>192.2500</close>
+    <adjusted_close>191.3551</adjusted_close>
+    <volume>1336537700</volume>
+    <news>AAPL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>192.9000</open>
+    <high>220.2000</high>
+    <low>192.1500</low>
+    <close>210.6200</close>
+    <adjusted_close>209.6396</adjusted_close>
+    <volume>1723984500</volume>
+    <news>Apple Intelligence AI features announced at WWDC</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>212.0900</open>
+    <high>237.2300</high>
+    <low>211.9200</low>
+    <close>222.0800</close>
+    <adjusted_close>221.0462</adjusted_close>
+    <volume>1153099800</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>224.3700</open>
+    <high>232.9200</high>
+    <low>196.0000</low>
+    <close>229.0000</close>
+    <adjusted_close>228.1979</adjusted_close>
+    <volume>1122667000</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>228.5500</open>
+    <high>233.0900</high>
+    <low>213.9200</low>
+    <close>233.0000</close>
+    <adjusted_close>232.1838</adjusted_close>
+    <volume>1232140300</volume>
+    <news>AAPL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>229.5200</open>
+    <high>237.4900</high>
+    <low>221.3300</low>
+    <close>225.9100</close>
+    <adjusted_close>225.1187</adjusted_close>
+    <volume>930736000</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>220.9700</open>
+    <high>237.8100</high>
+    <low>219.7100</low>
+    <close>237.3300</close>
+    <adjusted_close>236.7589</adjusted_close>
+    <volume>891640600</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>237.2700</open>
+    <high>260.1000</high>
+    <low>237.1600</low>
+    <close>250.4200</close>
+    <adjusted_close>249.8174</adjusted_close>
+    <volume>977916100</volume>
+    <news>AAPL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</apple_stock_data>

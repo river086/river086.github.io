@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<microsoft_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>117.3750</open>
+    <high>118.6250</high>
+    <low>94.8750</low>
+    <close>97.8750</close>
+    <adjusted_close>29.9706</adjusted_close>
+    <volume>1274875200</volume>
+    <news>Microsoft faces antitrust ruling</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>98.5000</open>
+    <high>110.0000</high>
+    <low>88.1250</low>
+    <close>89.3750</close>
+    <adjusted_close>27.3678</adjusted_close>
+    <volume>1334487600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>89.6250</open>
+    <high>115.0000</high>
+    <low>88.9376</low>
+    <close>106.2500</close>
+    <adjusted_close>32.5351</adjusted_close>
+    <volume>2028187600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>94.4376</open>
+    <high>96.5000</high>
+    <low>65.0000</low>
+    <close>69.7500</close>
+    <adjusted_close>21.3584</adjusted_close>
+    <volume>2258146600</volume>
+    <news>Federal judge rules Microsoft violated antitrust laws</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>72.8750</open>
+    <high>74.0000</high>
+    <low>60.3750</low>
+    <close>62.5626</close>
+    <adjusted_close>19.1575</adjusted_close>
+    <volume>1344430800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>64.3750</open>
+    <high>82.1876</high>
+    <low>63.8126</low>
+    <close>80.0000</close>
+    <adjusted_close>24.4970</adjusted_close>
+    <volume>1467050200</volume>
+    <news>Microsoft ordered to split into two companies</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>79.6876</open>
+    <high>82.8750</high>
+    <low>67.2500</low>
+    <close>69.8126</close>
+    <adjusted_close>21.3775</adjusted_close>
+    <volume>1234185800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>69.9376</open>
+    <high>74.8750</high>
+    <low>68.1250</low>
+    <close>69.8126</close>
+    <adjusted_close>21.3775</adjusted_close>
+    <volume>1219399800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>70.0000</open>
+    <high>72.0626</high>
+    <low>58.6250</low>
+    <close>60.3126</close>
+    <adjusted_close>18.4685</adjusted_close>
+    <volume>1425533800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>60.5000</open>
+    <high>70.1250</high>
+    <low>48.4376</low>
+    <close>68.8750</close>
+    <adjusted_close>21.0904</adjusted_close>
+    <volume>2469415600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>68.5000</open>
+    <high>72.3750</high>
+    <low>57.0000</low>
+    <close>57.3750</close>
+    <adjusted_close>17.5690</adjusted_close>
+    <volume>1983462600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>58.0626</open>
+    <high>60.6250</high>
+    <low>40.3126</low>
+    <close>43.3750</close>
+    <adjusted_close>13.2820</adjusted_close>
+    <volume>2056668200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>44.1250</open>
+    <high>64.7500</high>
+    <low>42.8750</low>
+    <close>61.0626</close>
+    <adjusted_close>18.6982</adjusted_close>
+    <volume>2005531200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>60.8126</open>
+    <high>65.0626</high>
+    <low>53.8750</low>
+    <close>59.0000</close>
+    <adjusted_close>18.0666</adjusted_close>
+    <volume>1536895600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>58.5626</open>
+    <high>61.1250</high>
+    <low>49.7500</low>
+    <close>54.6876</close>
+    <adjusted_close>16.7461</adjusted_close>
+    <volume>1895349800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>54.8126</open>
+    <high>71.1000</high>
+    <low>51.0626</low>
+    <close>67.7500</close>
+    <adjusted_close>20.7459</adjusted_close>
+    <volume>2075807000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>67.6600</open>
+    <high>72.1500</high>
+    <low>67.2500</low>
+    <close>69.1800</close>
+    <adjusted_close>21.1838</adjusted_close>
+    <volume>1777305800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>69.6000</open>
+    <high>76.1500</high>
+    <low>66.0100</low>
+    <close>73.0000</close>
+    <adjusted_close>22.3536</adjusted_close>
+    <volume>1449177800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>72.0500</open>
+    <high>73.1500</high>
+    <low>64.2000</low>
+    <close>66.1900</close>
+    <adjusted_close>20.2682</adjusted_close>
+    <volume>1455201000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>66.8000</open>
+    <high>67.5400</high>
+    <low>56.3000</low>
+    <close>57.0500</close>
+    <adjusted_close>17.4695</adjusted_close>
+    <volume>1153896400</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>57.1900</open>
+    <high>59.0800</high>
+    <low>47.5000</low>
+    <close>51.1700</close>
+    <adjusted_close>15.6689</adjusted_close>
+    <volume>1510824400</volume>
+    <news>Microsoft settles DOJ antitrust case</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>50.9400</open>
+    <high>63.6300</high>
+    <low>50.4100</low>
+    <close>58.1500</close>
+    <adjusted_close>17.8063</adjusted_close>
+    <volume>1750891000</volume>
+    <news>Windows XP launched with major security improvements</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>60.0800</open>
+    <high>68.3400</high>
+    <low>59.6000</low>
+    <close>64.2100</close>
+    <adjusted_close>19.6619</adjusted_close>
+    <volume>1330968600</volume>
+    <news>Xbox gaming console launched to compete with Sony</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>63.8300</open>
+    <high>69.8900</high>
+    <low>63.8000</low>
+    <close>66.2500</close>
+    <adjusted_close>20.2866</adjusted_close>
+    <volume>977089000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>66.6500</open>
+    <high>70.6200</high>
+    <low>61.3300</low>
+    <close>63.7100</close>
+    <adjusted_close>19.5088</adjusted_close>
+    <volume>1360115800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>64.1500</open>
+    <high>64.5000</high>
+    <low>57.1500</low>
+    <close>58.3400</close>
+    <adjusted_close>17.8645</adjusted_close>
+    <volume>1131159200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>59.0500</open>
+    <high>65.0000</high>
+    <low>58.3100</low>
+    <close>60.3100</close>
+    <adjusted_close>18.4677</adjusted_close>
+    <volume>1073244200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>59.8300</open>
+    <high>60.4000</high>
+    <low>51.4400</low>
+    <close>52.2600</close>
+    <adjusted_close>16.0027</adjusted_close>
+    <volume>1417479400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>52.1600</open>
+    <high>56.4400</high>
+    <low>48.3500</low>
+    <close>50.9100</close>
+    <adjusted_close>15.5893</adjusted_close>
+    <volume>1420266200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>50.9900</open>
+    <high>56.4400</high>
+    <low>49.1700</low>
+    <close>54.7000</close>
+    <adjusted_close>16.7499</adjusted_close>
+    <volume>1834073000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>54.1200</open>
+    <high>54.9300</high>
+    <low>41.4100</low>
+    <close>47.9800</close>
+    <adjusted_close>14.6921</adjusted_close>
+    <volume>2432188000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>47.5800</open>
+    <high>53.4500</high>
+    <low>43.8000</low>
+    <close>49.0800</close>
+    <adjusted_close>15.0289</adjusted_close>
+    <volume>1715757200</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>48.5200</open>
+    <high>51.1000</high>
+    <low>43.1100</low>
+    <close>43.7400</close>
+    <adjusted_close>13.3938</adjusted_close>
+    <volume>1695705800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>44.3200</open>
+    <high>54.0700</high>
+    <low>43.1900</low>
+    <close>53.4700</close>
+    <adjusted_close>16.3732</adjusted_close>
+    <volume>2475370600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>52.4300</open>
+    <high>58.6400</high>
+    <low>51.9000</low>
+    <close>57.6800</close>
+    <adjusted_close>17.6624</adjusted_close>
+    <volume>1555997200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>58.6500</open>
+    <high>58.9600</high>
+    <low>51.2600</low>
+    <close>51.7000</close>
+    <adjusted_close>15.8312</adjusted_close>
+    <volume>1268370200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>52.3000</open>
+    <high>57.3200</high>
+    <low>47.0300</low>
+    <close>47.4600</close>
+    <adjusted_close>14.5329</adjusted_close>
+    <volume>1718662200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>47.9300</open>
+    <high>49.1000</high>
+    <low>23.3000</low>
+    <close>23.7000</close>
+    <adjusted_close>14.5612</adjusted_close>
+    <volume>1346970800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>24.0200</open>
+    <high>26.8000</high>
+    <low>22.5500</low>
+    <close>24.2100</close>
+    <adjusted_close>14.8745</adjusted_close>
+    <volume>1371902600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>24.4600</open>
+    <high>26.4300</high>
+    <low>23.9500</low>
+    <close>25.5700</close>
+    <adjusted_close>15.7101</adjusted_close>
+    <volume>1249617700</volume>
+    <news>Windows Server 2003 released for enterprise market</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>25.5400</open>
+    <high>26.5000</high>
+    <low>23.8900</low>
+    <close>24.6100</close>
+    <adjusted_close>15.1203</adjusted_close>
+    <volume>1311003700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>24.9800</open>
+    <high>26.5100</high>
+    <low>23.6000</low>
+    <close>25.6400</close>
+    <adjusted_close>15.7531</adjusted_close>
+    <volume>1569995800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>25.5900</open>
+    <high>27.8100</high>
+    <low>25.3900</low>
+    <close>26.4100</close>
+    <adjusted_close>16.2262</adjusted_close>
+    <volume>1292011000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>26.3300</open>
+    <high>26.9500</high>
+    <low>25.4300</low>
+    <close>26.5200</close>
+    <adjusted_close>16.2938</adjusted_close>
+    <volume>966506900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>26.7000</open>
+    <high>30.0000</high>
+    <low>26.4700</low>
+    <close>27.8000</close>
+    <adjusted_close>17.0802</adjusted_close>
+    <volume>1253309100</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>28.0300</open>
+    <high>29.4600</high>
+    <low>25.9100</low>
+    <close>26.1400</close>
+    <adjusted_close>16.1504</adjusted_close>
+    <volume>1400032500</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>26.3500</open>
+    <high>26.7500</high>
+    <low>24.8400</low>
+    <close>25.7100</close>
+    <adjusted_close>15.8847</adjusted_close>
+    <volume>1442336700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>25.9000</open>
+    <high>27.5500</high>
+    <low>25.5000</low>
+    <close>27.3700</close>
+    <adjusted_close>16.9103</adjusted_close>
+    <volume>1476461300</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>27.5800</open>
+    <high>28.8300</high>
+    <low>27.2600</low>
+    <close>27.6500</close>
+    <adjusted_close>17.0833</adjusted_close>
+    <volume>1232189000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>27.6100</open>
+    <high>27.8000</high>
+    <low>26.3500</low>
+    <close>26.5300</close>
+    <adjusted_close>16.3914</adjusted_close>
+    <volume>1032065600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>26.6300</open>
+    <high>26.7200</high>
+    <low>24.0100</low>
+    <close>24.9300</close>
+    <adjusted_close>15.4028</adjusted_close>
+    <volume>1703041000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>24.9500</open>
+    <high>27.7200</high>
+    <low>24.8500</low>
+    <close>26.1300</close>
+    <adjusted_close>16.1442</adjusted_close>
+    <volume>1558947800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>26.1900</open>
+    <high>26.6000</high>
+    <low>25.4200</low>
+    <close>26.2300</close>
+    <adjusted_close>16.2060</adjusted_close>
+    <volume>1141456900</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>26.1300</open>
+    <high>28.8000</high>
+    <low>25.8600</low>
+    <close>28.5600</close>
+    <adjusted_close>17.6456</adjusted_close>
+    <volume>1534889700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>28.7000</open>
+    <high>29.8900</high>
+    <low>27.2500</low>
+    <close>28.4900</close>
+    <adjusted_close>17.6023</adjusted_close>
+    <volume>1550446900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>28.2700</open>
+    <high>28.5500</high>
+    <low>26.8500</low>
+    <close>27.3000</close>
+    <adjusted_close>16.9168</adjusted_close>
+    <volume>1094195300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>27.2300</open>
+    <high>27.7900</high>
+    <low>26.7400</low>
+    <close>27.6500</close>
+    <adjusted_close>17.1337</adjusted_close>
+    <volume>1141012300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>27.8200</open>
+    <high>28.8900</high>
+    <low>27.5500</low>
+    <close>27.9700</close>
+    <adjusted_close>17.3320</adjusted_close>
+    <volume>1300591200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>28.1600</open>
+    <high>30.2000</high>
+    <low>26.1000</low>
+    <close>26.8100</close>
+    <adjusted_close>18.5161</adjusted_close>
+    <volume>1739407300</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>26.9500</open>
+    <high>27.4400</high>
+    <low>26.6800</low>
+    <close>26.7200</close>
+    <adjusted_close>18.4539</adjusted_close>
+    <volume>1803777700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>26.8000</open>
+    <high>27.1000</high>
+    <low>25.6400</low>
+    <close>26.2800</close>
+    <adjusted_close>18.1501</adjusted_close>
+    <volume>1521414300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>26.2500</open>
+    <high>26.5000</high>
+    <low>25.1300</low>
+    <close>25.1600</close>
+    <adjusted_close>17.4302</adjusted_close>
+    <volume>1361126000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>25.1900</open>
+    <high>25.7900</high>
+    <low>23.8200</low>
+    <close>24.1700</close>
+    <adjusted_close>16.7443</adjusted_close>
+    <volume>1541411300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>24.2400</open>
+    <high>25.4500</high>
+    <low>23.9400</low>
+    <close>25.3000</close>
+    <adjusted_close>17.5271</adjusted_close>
+    <volume>1520253700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>25.2300</open>
+    <high>26.0900</high>
+    <low>24.6400</low>
+    <close>25.8000</close>
+    <adjusted_close>17.9302</adjusted_close>
+    <volume>1270563700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>25.7300</open>
+    <high>26.0000</high>
+    <low>24.8200</low>
+    <close>24.8400</close>
+    <adjusted_close>17.2631</adjusted_close>
+    <volume>1303029500</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>24.8500</open>
+    <high>26.4800</high>
+    <low>24.5000</low>
+    <close>25.6100</close>
+    <adjusted_close>17.7982</adjusted_close>
+    <volume>1321407700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>25.8100</open>
+    <high>27.9400</high>
+    <low>25.7600</low>
+    <close>27.3800</close>
+    <adjusted_close>19.0847</adjusted_close>
+    <volume>1441979300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>27.3800</open>
+    <high>27.3900</high>
+    <low>25.1200</low>
+    <close>25.7300</close>
+    <adjusted_close>17.9346</adjusted_close>
+    <volume>1348861500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>25.7100</open>
+    <high>25.8000</high>
+    <low>24.2500</low>
+    <close>25.7000</close>
+    <adjusted_close>17.9137</adjusted_close>
+    <volume>1439659900</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>25.6100</open>
+    <high>28.2500</high>
+    <low>25.6100</low>
+    <close>27.6800</close>
+    <adjusted_close>19.3504</adjusted_close>
+    <volume>1444948300</volume>
+    <news>Xbox 360 launches ahead of PlayStation 3</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>27.7300</open>
+    <high>28.1000</high>
+    <low>26.1000</low>
+    <close>26.1500</close>
+    <adjusted_close>18.2808</adjusted_close>
+    <volume>1271695500</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>26.2500</open>
+    <high>28.3800</high>
+    <low>26.1000</low>
+    <close>28.1500</close>
+    <adjusted_close>19.6790</adjusted_close>
+    <volume>1388622700</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>27.9600</open>
+    <high>28.0700</high>
+    <low>26.3400</low>
+    <close>26.8700</close>
+    <adjusted_close>18.8478</adjusted_close>
+    <volume>1047699000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>26.9800</open>
+    <high>28.2200</high>
+    <low>26.6200</low>
+    <close>27.2100</close>
+    <adjusted_close>19.0863</adjusted_close>
+    <volume>1437940900</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>27.6700</open>
+    <high>27.9400</high>
+    <low>24.0000</low>
+    <close>24.1500</close>
+    <adjusted_close>16.9399</adjusted_close>
+    <volume>1446126900</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>24.3200</open>
+    <high>25.0000</high>
+    <low>22.4500</low>
+    <close>22.6500</close>
+    <adjusted_close>15.9497</adjusted_close>
+    <volume>2309193400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>22.7400</open>
+    <high>23.6500</high>
+    <low>21.4600</low>
+    <close>23.3000</close>
+    <adjusted_close>16.4074</adjusted_close>
+    <volume>1971637200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>23.5300</open>
+    <high>24.6000</high>
+    <low>22.2300</low>
+    <close>24.0600</close>
+    <adjusted_close>16.9425</adjusted_close>
+    <volume>1332298100</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>24.0200</open>
+    <high>26.2500</high>
+    <low>23.8500</low>
+    <close>25.7000</close>
+    <adjusted_close>18.1640</adjusted_close>
+    <volume>1134188400</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>25.8900</open>
+    <high>27.5200</high>
+    <low>25.3900</low>
+    <close>27.3500</close>
+    <adjusted_close>19.3302</adjusted_close>
+    <volume>1097482600</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>27.3200</open>
+    <high>28.8500</high>
+    <low>27.1500</low>
+    <close>28.7100</close>
+    <adjusted_close>20.2914</adjusted_close>
+    <volume>1290967400</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>28.7800</open>
+    <high>30.0000</high>
+    <low>28.5800</low>
+    <close>29.3600</close>
+    <adjusted_close>20.8218</adjusted_close>
+    <volume>1239142000</volume>
+    <news>Windows Vista released to manufacturing</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>29.2300</open>
+    <high>30.2600</high>
+    <low>28.8000</low>
+    <close>29.8600</close>
+    <adjusted_close>21.1764</adjusted_close>
+    <volume>1137160900</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>29.9100</open>
+    <high>31.4800</high>
+    <low>29.4000</low>
+    <close>30.8600</close>
+    <adjusted_close>21.8856</adjusted_close>
+    <volume>1324518200</volume>
+    <news>Windows Vista officially launched to consumers</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>30.8400</open>
+    <high>30.9400</high>
+    <low>27.7900</low>
+    <close>28.1700</close>
+    <adjusted_close>20.0471</adjusted_close>
+    <volume>1290850900</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>27.8200</open>
+    <high>28.5500</high>
+    <low>26.6000</low>
+    <close>27.8700</close>
+    <adjusted_close>19.8336</adjusted_close>
+    <volume>1269506500</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>27.8900</open>
+    <high>30.7400</high>
+    <low>27.5600</low>
+    <close>29.9400</close>
+    <adjusted_close>21.3067</adjusted_close>
+    <volume>958964900</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>29.9400</open>
+    <high>31.1600</high>
+    <low>29.9000</low>
+    <close>30.6900</close>
+    <adjusted_close>21.9112</adjusted_close>
+    <volume>1327154700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>30.7900</open>
+    <high>30.9000</high>
+    <low>29.0400</low>
+    <close>29.4700</close>
+    <adjusted_close>21.0402</adjusted_close>
+    <volume>1181412800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>29.6700</open>
+    <high>31.8400</high>
+    <low>28.9500</low>
+    <close>28.9900</close>
+    <adjusted_close>20.6975</adjusted_close>
+    <volume>1295548000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>28.9500</open>
+    <high>30.1000</high>
+    <low>27.5100</low>
+    <close>28.7300</close>
+    <adjusted_close>20.5838</adjusted_close>
+    <volume>1228579500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>28.5000</open>
+    <high>29.8500</high>
+    <low>28.2700</low>
+    <close>29.4600</close>
+    <adjusted_close>21.1068</adjusted_close>
+    <volume>1117419500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>29.4600</open>
+    <high>37.0000</high>
+    <low>29.2900</low>
+    <close>36.8100</close>
+    <adjusted_close>26.3727</adjusted_close>
+    <volume>1772076700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>36.5300</open>
+    <high>37.5000</high>
+    <low>32.6800</low>
+    <close>33.6000</close>
+    <adjusted_close>24.1517</adjusted_close>
+    <volume>1830846800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>33.5000</open>
+    <high>36.7200</high>
+    <low>32.6300</low>
+    <close>35.6000</close>
+    <adjusted_close>25.5893</adjusted_close>
+    <volume>1064817100</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>35.7900</open>
+    <high>35.9600</high>
+    <low>31.0400</low>
+    <close>32.6000</close>
+    <adjusted_close>23.4329</adjusted_close>
+    <volume>1950301600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>31.0600</open>
+    <high>33.2500</high>
+    <low>27.0200</low>
+    <close>27.2000</close>
+    <adjusted_close>19.6273</adjusted_close>
+    <volume>2324580800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>27.2400</open>
+    <high>29.5900</high>
+    <low>26.8700</low>
+    <close>28.3800</close>
+    <adjusted_close>20.4788</adjusted_close>
+    <volume>1452390200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>28.8300</open>
+    <high>32.1000</high>
+    <low>27.9300</low>
+    <close>28.5200</close>
+    <adjusted_close>20.5798</adjusted_close>
+    <volume>1444720000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>28.5000</open>
+    <high>30.5300</high>
+    <low>27.9500</low>
+    <close>28.3200</close>
+    <adjusted_close>20.5107</adjusted_close>
+    <volume>1405170200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>28.2400</open>
+    <high>29.5700</high>
+    <low>27.1100</low>
+    <close>27.5100</close>
+    <adjusted_close>19.9241</adjusted_close>
+    <volume>1560439100</volume>
+    <news>Windows Mobile 6.1 released for smartphones</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>27.2700</open>
+    <high>27.9100</high>
+    <low>24.8700</low>
+    <close>25.7200</close>
+    <adjusted_close>18.6277</adjusted_close>
+    <volume>1637501300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>25.9200</open>
+    <high>28.5000</high>
+    <low>25.0700</low>
+    <close>27.2900</close>
+    <adjusted_close>19.8436</adjusted_close>
+    <volume>1206949700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>27.6700</open>
+    <high>27.7600</high>
+    <low>23.5000</low>
+    <close>26.6900</close>
+    <adjusted_close>19.4073</adjusted_close>
+    <volume>1927538700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>26.3800</open>
+    <high>27.4700</high>
+    <low>20.6500</low>
+    <close>22.3300</close>
+    <adjusted_close>16.2370</adjusted_close>
+    <volume>3044579400</volume>
+    <news>Windows 7 announced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>22.4800</open>
+    <high>23.6600</high>
+    <low>17.5000</low>
+    <close>20.2200</close>
+    <adjusted_close>14.8023</adjusted_close>
+    <volume>1794911800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>19.8800</open>
+    <high>21.2500</high>
+    <low>18.4700</low>
+    <close>19.4400</close>
+    <adjusted_close>14.2313</adjusted_close>
+    <volume>1546943400</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>19.5300</open>
+    <high>21.0000</high>
+    <low>16.7500</low>
+    <close>17.1000</close>
+    <adjusted_close>12.5183</adjusted_close>
+    <volume>1564043400</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>17.0300</open>
+    <high>19.9300</high>
+    <low>16.1000</low>
+    <close>16.1500</close>
+    <adjusted_close>11.9039</adjusted_close>
+    <volume>1456213400</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>15.9600</open>
+    <high>18.8800</high>
+    <low>14.8700</low>
+    <close>18.3700</close>
+    <adjusted_close>13.5402</adjusted_close>
+    <volume>1625752800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>18.2300</open>
+    <high>21.2000</high>
+    <low>18.1800</low>
+    <close>20.2600</close>
+    <adjusted_close>14.9333</adjusted_close>
+    <volume>1562400700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>20.1900</open>
+    <high>20.9400</high>
+    <low>19.0100</low>
+    <close>20.8900</close>
+    <adjusted_close>15.4954</adjusted_close>
+    <volume>1101122400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>21.0000</open>
+    <high>24.3400</high>
+    <low>20.8600</low>
+    <close>23.7700</close>
+    <adjusted_close>17.6317</adjusted_close>
+    <volume>1411144700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>24.0500</open>
+    <high>25.7200</high>
+    <low>22.0000</low>
+    <close>23.5200</close>
+    <adjusted_close>17.4463</adjusted_close>
+    <volume>1517459800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>23.8200</open>
+    <high>25.4900</high>
+    <low>23.0300</low>
+    <close>24.6500</close>
+    <adjusted_close>18.3873</adjusted_close>
+    <volume>993250400</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>24.3500</open>
+    <high>26.2500</high>
+    <low>23.7600</low>
+    <close>25.7200</close>
+    <adjusted_close>19.1854</adjusted_close>
+    <volume>1038979700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>25.4100</open>
+    <high>29.3500</high>
+    <low>24.4300</low>
+    <close>27.7300</close>
+    <adjusted_close>20.6848</adjusted_close>
+    <volume>1523430100</volume>
+    <news>Windows 7 launched, fixing Vista problems</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>27.7000</open>
+    <high>30.1400</high>
+    <low>27.4100</low>
+    <close>29.4100</close>
+    <adjusted_close>22.0349</adjusted_close>
+    <volume>1018256700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>29.5200</open>
+    <high>31.5000</high>
+    <low>29.2500</low>
+    <close>30.4800</close>
+    <adjusted_close>22.8366</adjusted_close>
+    <volume>920605500</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>30.6200</open>
+    <high>31.2400</high>
+    <low>27.6600</low>
+    <close>28.1800</close>
+    <adjusted_close>21.1133</adjusted_close>
+    <volume>1359650900</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>28.3900</open>
+    <high>29.0300</high>
+    <low>27.5700</low>
+    <close>28.6700</close>
+    <adjusted_close>21.5809</adjusted_close>
+    <volume>1074643300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>28.7700</open>
+    <high>30.5700</high>
+    <low>28.2400</low>
+    <close>29.2900</close>
+    <adjusted_close>22.0476</adjusted_close>
+    <volume>1110237200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>29.3500</open>
+    <high>31.5800</high>
+    <low>28.6200</low>
+    <close>30.5400</close>
+    <adjusted_close>22.9885</adjusted_close>
+    <volume>1319029500</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>30.6700</open>
+    <high>31.0600</high>
+    <low>24.5600</low>
+    <close>25.8000</close>
+    <adjusted_close>19.5082</adjusted_close>
+    <volume>1720130200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>25.5300</open>
+    <high>26.9300</high>
+    <low>22.9500</low>
+    <close>23.0100</close>
+    <adjusted_close>17.3986</adjusted_close>
+    <volume>1671811600</volume>
+    <news>Microsoft Kinect motion controller announced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>23.0900</open>
+    <high>26.4100</high>
+    <low>22.7300</low>
+    <close>25.8100</close>
+    <adjusted_close>19.5158</adjusted_close>
+    <volume>1408590600</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>25.9900</open>
+    <high>26.3800</high>
+    <low>23.3200</low>
+    <close>23.4700</close>
+    <adjusted_close>17.8411</adjusted_close>
+    <volume>1279372100</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>23.6700</open>
+    <high>25.5300</high>
+    <low>23.5400</low>
+    <close>24.4900</close>
+    <adjusted_close>18.6164</adjusted_close>
+    <volume>1273139500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>24.7700</open>
+    <high>27.2000</high>
+    <low>23.7800</low>
+    <close>26.6700</close>
+    <adjusted_close>20.2736</adjusted_close>
+    <volume>1281432800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>26.8800</open>
+    <high>28.8700</high>
+    <low>24.9300</low>
+    <close>25.2600</close>
+    <adjusted_close>19.3198</adjusted_close>
+    <volume>1361176300</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>25.5700</open>
+    <high>28.4000</high>
+    <low>25.5600</low>
+    <close>27.9100</close>
+    <adjusted_close>21.3466</adjusted_close>
+    <volume>1033710000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>28.0500</open>
+    <high>29.4600</high>
+    <low>27.4200</low>
+    <close>27.7300</close>
+    <adjusted_close>21.2089</adjusted_close>
+    <volume>1361258700</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>27.8000</open>
+    <high>28.3400</high>
+    <low>26.4300</low>
+    <close>26.5800</close>
+    <adjusted_close>20.4495</adjusted_close>
+    <volume>1114368500</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>26.6000</open>
+    <high>26.7800</high>
+    <low>24.6800</low>
+    <close>25.3900</close>
+    <adjusted_close>19.5340</adjusted_close>
+    <volume>1310885200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>25.5300</open>
+    <high>26.8700</high>
+    <low>24.7200</low>
+    <close>25.9200</close>
+    <adjusted_close>19.9417</adjusted_close>
+    <volume>1313844800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>25.9400</open>
+    <high>26.2500</high>
+    <low>24.0300</low>
+    <close>25.0100</close>
+    <adjusted_close>19.3677</adjusted_close>
+    <volume>1364062800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>24.9900</open>
+    <high>26.0000</high>
+    <low>23.6500</low>
+    <close>26.0000</close>
+    <adjusted_close>20.1344</adjusted_close>
+    <volume>1297757600</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>25.9300</open>
+    <high>28.1500</high>
+    <low>25.8400</low>
+    <close>27.4000</close>
+    <adjusted_close>21.2186</adjusted_close>
+    <volume>1259328200</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>27.5100</open>
+    <high>27.6900</high>
+    <low>23.7900</low>
+    <close>26.6000</close>
+    <adjusted_close>20.7290</adjusted_close>
+    <volume>1719339500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>26.4600</open>
+    <high>27.5000</high>
+    <low>24.6000</low>
+    <close>24.8900</close>
+    <adjusted_close>19.3965</adjusted_close>
+    <volume>1279920200</volume>
+    <news>Windows 8 with touch interface announced</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>24.7200</open>
+    <high>27.5000</high>
+    <low>24.2600</low>
+    <close>26.6300</close>
+    <adjusted_close>20.7524</adjusted_close>
+    <volume>1218142500</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>26.1900</open>
+    <high>27.2000</high>
+    <low>24.3000</low>
+    <close>25.5800</close>
+    <adjusted_close>20.0843</adjusted_close>
+    <volume>1046207400</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>25.5600</open>
+    <high>26.1900</high>
+    <low>25.1600</low>
+    <close>25.9600</close>
+    <adjusted_close>20.3826</adjusted_close>
+    <volume>1007166600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>26.5500</open>
+    <high>29.9500</high>
+    <low>26.3900</low>
+    <close>29.5300</close>
+    <adjusted_close>23.1856</adjusted_close>
+    <volume>1354858100</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>29.7900</open>
+    <high>32.0000</high>
+    <low>29.7100</low>
+    <close>31.7400</close>
+    <adjusted_close>25.0849</adjusted_close>
+    <volume>984332300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>31.9300</open>
+    <high>32.9500</high>
+    <low>31.4900</low>
+    <close>32.2600</close>
+    <adjusted_close>25.4959</adjusted_close>
+    <volume>942366500</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>32.2200</open>
+    <high>32.8900</high>
+    <low>30.2300</low>
+    <close>32.0200</close>
+    <adjusted_close>25.3062</adjusted_close>
+    <volume>940739700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>32.0500</open>
+    <high>32.3400</high>
+    <low>28.6400</low>
+    <close>29.1900</close>
+    <adjusted_close>23.2209</adjusted_close>
+    <volume>1014372600</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>28.7600</open>
+    <high>31.1400</high>
+    <low>28.3200</low>
+    <close>30.5900</close>
+    <adjusted_close>24.3347</adjusted_close>
+    <volume>973131400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>30.6200</open>
+    <high>31.0500</high>
+    <low>28.5400</low>
+    <close>29.4700</close>
+    <adjusted_close>23.4437</adjusted_close>
+    <volume>846604100</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>29.5900</open>
+    <high>30.9600</high>
+    <low>28.9700</low>
+    <close>30.8200</close>
+    <adjusted_close>24.6800</adjusted_close>
+    <volume>671748400</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>30.4500</open>
+    <high>31.6100</high>
+    <low>29.7400</low>
+    <close>29.7600</close>
+    <adjusted_close>23.8312</adjusted_close>
+    <volume>893107700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>29.8100</open>
+    <high>30.2500</high>
+    <low>27.7600</low>
+    <close>28.5400</close>
+    <adjusted_close>22.8543</adjusted_close>
+    <volume>1105402300</volume>
+    <news>Windows 8 and Surface tablet launched</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>28.8400</open>
+    <high>30.2000</high>
+    <low>26.3400</low>
+    <close>26.6200</close>
+    <adjusted_close>21.4882</adjusted_close>
+    <volume>1310516100</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>26.7800</open>
+    <high>27.7300</high>
+    <low>26.2600</low>
+    <close>26.7100</close>
+    <adjusted_close>21.5608</adjusted_close>
+    <volume>947310900</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>27.2500</open>
+    <high>28.2300</high>
+    <low>26.2800</low>
+    <close>27.4500</close>
+    <adjusted_close>22.1582</adjusted_close>
+    <volume>1145054400</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>27.6700</open>
+    <high>28.2000</high>
+    <low>27.1000</low>
+    <close>27.8000</close>
+    <adjusted_close>22.6265</adjusted_close>
+    <volume>780587000</volume>
+    <news>Steve Ballmer announces retirement as CEO</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>27.7200</open>
+    <high>28.6600</high>
+    <low>27.5200</low>
+    <close>28.6100</close>
+    <adjusted_close>23.2858</adjusted_close>
+    <volume>844946000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>28.6400</open>
+    <high>33.1100</high>
+    <low>28.1100</low>
+    <close>33.1000</close>
+    <adjusted_close>26.9402</adjusted_close>
+    <volume>1465757200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>32.9300</open>
+    <high>35.2800</high>
+    <low>32.3200</low>
+    <close>34.9000</close>
+    <adjusted_close>28.6044</adjusted_close>
+    <volume>1071860000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>34.9200</open>
+    <high>35.7800</high>
+    <low>32.5700</low>
+    <close>34.5400</close>
+    <adjusted_close>28.3094</adjusted_close>
+    <volume>945155500</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>34.7500</open>
+    <high>36.4300</high>
+    <low>31.0200</low>
+    <close>31.8400</close>
+    <adjusted_close>26.0964</adjusted_close>
+    <volume>1111130600</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>32.0600</open>
+    <high>35.2000</high>
+    <low>30.8400</low>
+    <close>33.4000</close>
+    <adjusted_close>27.5679</adjusted_close>
+    <volume>1051265000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>31.7500</open>
+    <high>33.7500</high>
+    <low>30.9500</low>
+    <close>33.2800</close>
+    <adjusted_close>27.4688</adjusted_close>
+    <volume>1242961500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>33.3500</open>
+    <high>36.2900</high>
+    <low>32.8000</low>
+    <close>35.4100</close>
+    <adjusted_close>29.2269</adjusted_close>
+    <volume>965331500</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>35.6700</open>
+    <high>38.2900</high>
+    <low>35.3900</low>
+    <close>38.1300</close>
+    <adjusted_close>31.7107</adjusted_close>
+    <volume>800431600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>38.0900</open>
+    <high>38.9800</high>
+    <low>35.5300</low>
+    <close>37.4100</close>
+    <adjusted_close>31.1119</adjusted_close>
+    <volume>826617700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>37.3500</open>
+    <high>37.8900</high>
+    <low>34.6300</low>
+    <close>37.8400</close>
+    <adjusted_close>31.4695</adjusted_close>
+    <volume>930226200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>37.7400</open>
+    <high>38.4600</high>
+    <low>35.6900</low>
+    <close>38.3100</close>
+    <adjusted_close>32.0993</adjusted_close>
+    <volume>705304500</volume>
+    <news>Satya Nadella becomes CEO, begins cloud transformation</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>37.9200</open>
+    <high>41.5000</high>
+    <low>37.4900</low>
+    <close>40.9900</close>
+    <adjusted_close>34.3448</adjusted_close>
+    <volume>778425700</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>41.1500</open>
+    <high>41.6600</high>
+    <low>38.9000</low>
+    <close>40.4000</close>
+    <adjusted_close>33.8504</adjusted_close>
+    <volume>746112500</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>40.2400</open>
+    <high>40.9700</high>
+    <low>38.5100</low>
+    <close>40.9400</close>
+    <adjusted_close>34.5449</adjusted_close>
+    <volume>574362900</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>40.9500</open>
+    <high>42.2900</high>
+    <low>39.8600</low>
+    <close>41.7000</close>
+    <adjusted_close>35.1862</adjusted_close>
+    <volume>555767300</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>41.8600</open>
+    <high>45.7100</high>
+    <low>41.0500</low>
+    <close>43.1600</close>
+    <adjusted_close>36.4181</adjusted_close>
+    <volume>731616500</volume>
+    <news>Microsoft announces largest layoffs in company history</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>43.2100</open>
+    <high>45.4700</high>
+    <low>42.2100</low>
+    <close>45.4300</close>
+    <adjusted_close>38.5729</adjusted_close>
+    <volume>513919700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>45.4300</open>
+    <high>47.5700</high>
+    <low>44.5300</low>
+    <close>46.3600</close>
+    <adjusted_close>39.3626</adjusted_close>
+    <volume>860827300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>46.2700</open>
+    <high>46.9700</high>
+    <low>42.1000</low>
+    <close>46.9500</close>
+    <adjusted_close>39.8635</adjusted_close>
+    <volume>853260900</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>46.8900</open>
+    <high>50.0500</high>
+    <low>46.7300</low>
+    <close>47.8100</close>
+    <adjusted_close>40.8497</adjusted_close>
+    <volume>523005900</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>47.8800</open>
+    <high>49.0600</high>
+    <low>44.9000</low>
+    <close>46.4500</close>
+    <adjusted_close>39.6877</adjusted_close>
+    <volume>626771200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>46.6600</open>
+    <high>47.9100</high>
+    <low>40.3500</low>
+    <close>40.4000</close>
+    <adjusted_close>34.5185</adjusted_close>
+    <volume>918966800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>40.5900</open>
+    <high>44.3000</high>
+    <low>40.2300</low>
+    <close>43.8500</close>
+    <adjusted_close>37.7329</adjusted_close>
+    <volume>656509700</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>43.6700</open>
+    <high>44.1900</high>
+    <low>40.5400</low>
+    <close>40.6600</close>
+    <adjusted_close>34.9879</adjusted_close>
+    <volume>824335300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>40.6000</open>
+    <high>49.5400</high>
+    <low>40.1200</low>
+    <close>48.6400</close>
+    <adjusted_close>41.8547</adjusted_close>
+    <volume>874535300</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>48.5800</open>
+    <high>48.9100</high>
+    <low>46.0200</low>
+    <close>46.8600</close>
+    <adjusted_close>40.5850</adjusted_close>
+    <volume>633072800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>47.0600</open>
+    <high>47.7700</high>
+    <low>43.9400</low>
+    <close>44.1500</close>
+    <adjusted_close>38.2379</adjusted_close>
+    <volume>664853400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>44.4600</open>
+    <high>47.4000</high>
+    <low>43.3200</low>
+    <close>46.7000</close>
+    <adjusted_close>40.4465</adjusted_close>
+    <volume>725458100</volume>
+    <news>Windows 10 released as free upgrade</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>46.9800</open>
+    <high>48.4100</high>
+    <low>39.7200</low>
+    <close>43.5200</close>
+    <adjusted_close>37.9408</adjusted_close>
+    <volume>776480300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>42.1700</open>
+    <high>45.0000</high>
+    <low>41.6600</low>
+    <close>44.2600</close>
+    <adjusted_close>38.5860</adjusted_close>
+    <volume>673079900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>44.7500</open>
+    <high>54.3700</high>
+    <low>43.7500</low>
+    <close>52.6400</close>
+    <adjusted_close>45.8917</adjusted_close>
+    <volume>856716800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>52.8500</open>
+    <high>54.9800</high>
+    <low>52.5300</low>
+    <close>54.3500</close>
+    <adjusted_close>47.7018</adjusted_close>
+    <volume>662626600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>54.4100</open>
+    <high>56.8500</high>
+    <low>53.6800</low>
+    <close>55.4800</close>
+    <adjusted_close>48.6936</adjusted_close>
+    <volume>792820900</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>54.3200</open>
+    <high>55.3900</high>
+    <low>49.1000</low>
+    <close>55.0900</close>
+    <adjusted_close>48.3513</adjusted_close>
+    <volume>927914700</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>54.8800</open>
+    <high>55.0900</high>
+    <low>48.1900</low>
+    <close>50.8800</close>
+    <adjusted_close>44.9769</adjusted_close>
+    <volume>814770900</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>50.9700</open>
+    <high>55.6400</high>
+    <low>50.5800</low>
+    <close>55.2300</close>
+    <adjusted_close>48.8222</adjusted_close>
+    <volume>641110900</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>55.0500</open>
+    <high>56.7700</high>
+    <low>49.3500</low>
+    <close>49.8700</close>
+    <adjusted_close>44.0841</adjusted_close>
+    <volume>699025700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>50.0000</open>
+    <high>53.0000</high>
+    <low>49.4600</low>
+    <close>53.0000</close>
+    <adjusted_close>47.1787</adjusted_close>
+    <volume>530704800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>52.4400</open>
+    <high>52.9500</high>
+    <low>48.0400</low>
+    <close>51.1700</close>
+    <adjusted_close>45.5497</adjusted_close>
+    <volume>823627000</volume>
+    <news>Microsoft acquires LinkedIn for $26.2 billion</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>51.1300</open>
+    <high>57.2900</high>
+    <low>50.3900</low>
+    <close>56.6800</close>
+    <adjusted_close>50.4545</adjusted_close>
+    <volume>647587800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>56.6000</open>
+    <high>58.7000</high>
+    <low>56.1400</low>
+    <close>57.4600</close>
+    <adjusted_close>51.4676</adjusted_close>
+    <volume>467078900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>57.0100</open>
+    <high>58.1900</high>
+    <low>55.6100</low>
+    <close>57.6000</close>
+    <adjusted_close>51.5930</adjusted_close>
+    <volume>526427800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>57.4100</open>
+    <high>61.3700</high>
+    <low>56.3200</low>
+    <close>59.9200</close>
+    <adjusted_close>53.6710</adjusted_close>
+    <volume>614841800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>59.9700</open>
+    <high>61.4100</high>
+    <low>57.2800</low>
+    <close>60.2600</close>
+    <adjusted_close>54.3402</adjusted_close>
+    <volume>613056800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>60.1100</open>
+    <high>64.1000</high>
+    <low>58.8000</low>
+    <close>62.1400</close>
+    <adjusted_close>56.0355</adjusted_close>
+    <volume>513579700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>62.7900</open>
+    <high>65.9100</high>
+    <low>61.9500</low>
+    <close>64.6500</close>
+    <adjusted_close>58.2989</adjusted_close>
+    <volume>493453500</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>64.3600</open>
+    <high>65.2400</high>
+    <low>62.7500</low>
+    <close>63.9800</close>
+    <adjusted_close>58.0445</adjusted_close>
+    <volume>440744000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>64.1300</open>
+    <high>66.1900</high>
+    <low>63.6200</low>
+    <close>65.8600</close>
+    <adjusted_close>59.7501</adjusted_close>
+    <volume>489169700</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>65.8100</open>
+    <high>69.1400</high>
+    <low>64.8500</low>
+    <close>68.4600</close>
+    <adjusted_close>62.1089</adjusted_close>
+    <volume>433191200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>68.6800</open>
+    <high>70.7400</high>
+    <low>67.1400</low>
+    <close>69.8400</close>
+    <adjusted_close>63.7241</adjusted_close>
+    <volume>517218500</volume>
+    <news>Microsoft reaches $500 billion market cap</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>70.2400</open>
+    <high>72.8900</high>
+    <low>68.0900</low>
+    <close>68.9300</close>
+    <adjusted_close>62.8938</adjusted_close>
+    <volume>629716800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>69.3300</open>
+    <high>74.4200</high>
+    <low>68.0200</low>
+    <close>72.7000</close>
+    <adjusted_close>66.3336</adjusted_close>
+    <volume>469851200</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>73.1000</open>
+    <high>74.9600</high>
+    <low>71.2800</low>
+    <close>74.7700</close>
+    <adjusted_close>68.5858</adjusted_close>
+    <volume>444070500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>74.7100</open>
+    <high>75.9700</high>
+    <low>72.9200</low>
+    <close>74.4900</close>
+    <adjusted_close>68.3290</adjusted_close>
+    <volume>375983900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>74.7100</open>
+    <high>86.2000</high>
+    <low>73.7100</low>
+    <close>83.1800</close>
+    <adjusted_close>76.3003</adjusted_close>
+    <volume>449950000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>83.6800</open>
+    <high>85.0600</high>
+    <low>82.2400</low>
+    <close>84.1700</close>
+    <adjusted_close>77.5961</adjusted_close>
+    <volume>421926000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>83.6000</open>
+    <high>87.5000</high>
+    <low>80.7000</low>
+    <close>85.5400</close>
+    <adjusted_close>78.8591</adjusted_close>
+    <volume>466203300</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>86.1300</open>
+    <high>95.4500</high>
+    <low>85.5000</low>
+    <close>95.0100</close>
+    <adjusted_close>87.5895</adjusted_close>
+    <volume>574258400</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>94.7900</open>
+    <high>96.0700</high>
+    <low>83.8300</low>
+    <close>93.7700</close>
+    <adjusted_close>86.8524</adjusted_close>
+    <volume>725663300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>93.9900</open>
+    <high>97.2400</high>
+    <low>87.0800</low>
+    <close>91.2700</close>
+    <adjusted_close>84.5368</adjusted_close>
+    <volume>750754800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>90.4700</open>
+    <high>97.9000</high>
+    <low>87.5100</low>
+    <close>93.5200</close>
+    <adjusted_close>86.6209</adjusted_close>
+    <volume>668130700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>93.2100</open>
+    <high>99.9900</high>
+    <low>92.4500</low>
+    <close>98.8400</close>
+    <adjusted_close>91.9452</adjusted_close>
+    <volume>509417900</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>99.2800</open>
+    <high>102.6900</high>
+    <low>97.2600</low>
+    <close>98.6100</close>
+    <adjusted_close>91.7312</adjusted_close>
+    <volume>602585200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>98.1000</open>
+    <high>111.1500</high>
+    <low>98.0000</low>
+    <close>106.0800</close>
+    <adjusted_close>98.6802</adjusted_close>
+    <volume>569352300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>106.0300</open>
+    <high>112.7800</high>
+    <low>104.8400</low>
+    <close>112.3300</close>
+    <adjusted_close>104.8963</adjusted_close>
+    <volume>456628100</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>110.8500</open>
+    <high>115.2900</high>
+    <low>107.2300</low>
+    <close>114.3700</close>
+    <adjusted_close>106.8013</adjusted_close>
+    <volume>480255500</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>114.7500</open>
+    <high>116.1800</high>
+    <low>100.1100</low>
+    <close>106.8100</close>
+    <adjusted_close>99.7416</adjusted_close>
+    <volume>927548000</volume>
+    <news>Microsoft briefly becomes most valuable company</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>107.0500</open>
+    <high>112.2400</high>
+    <low>99.3500</low>
+    <close>110.8900</close>
+    <adjusted_close>103.9989</adjusted_close>
+    <volume>720228600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>113.0000</open>
+    <high>113.4200</high>
+    <low>93.9600</low>
+    <close>101.5700</close>
+    <adjusted_close>95.2581</adjusted_close>
+    <volume>944314600</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>99.5500</open>
+    <high>107.9000</high>
+    <low>97.2000</low>
+    <close>104.4300</close>
+    <adjusted_close>98.0534</adjusted_close>
+    <volume>714212800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>103.7800</open>
+    <high>113.2400</high>
+    <low>102.3500</low>
+    <close>112.0300</close>
+    <adjusted_close>105.6386</adjusted_close>
+    <volume>469095900</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>112.8900</open>
+    <high>120.8200</high>
+    <low>108.8000</low>
+    <close>117.9400</close>
+    <adjusted_close>111.2114</adjusted_close>
+    <volume>589095800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>118.9500</open>
+    <high>131.3700</high>
+    <low>118.1000</low>
+    <close>130.6000</close>
+    <adjusted_close>123.1491</adjusted_close>
+    <volume>433157700</volume>
+    <news>Microsoft wins $10 billion Pentagon JEDI cloud contract</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>130.5300</open>
+    <high>130.6500</high>
+    <low>123.0400</low>
+    <close>123.6800</close>
+    <adjusted_close>117.0556</adjusted_close>
+    <volume>547218800</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>123.8500</open>
+    <high>138.4000</high>
+    <low>119.0100</low>
+    <close>133.9600</close>
+    <adjusted_close>126.7850</adjusted_close>
+    <volume>508324300</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>136.6300</open>
+    <high>141.6800</high>
+    <low>134.6700</low>
+    <close>136.2700</close>
+    <adjusted_close>128.9713</adjusted_close>
+    <volume>484079900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>137.0000</open>
+    <high>140.9400</high>
+    <low>130.7800</low>
+    <close>137.8600</close>
+    <adjusted_close>130.9106</adjusted_close>
+    <volume>584482000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>136.6100</open>
+    <high>142.3700</high>
+    <low>134.5100</low>
+    <close>139.0300</close>
+    <adjusted_close>132.0216</adjusted_close>
+    <volume>472544800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>139.6600</open>
+    <high>145.6700</high>
+    <low>133.2200</low>
+    <close>143.3700</close>
+    <adjusted_close>136.1429</adjusted_close>
+    <volume>549523400</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>144.2600</open>
+    <high>152.5000</high>
+    <low>142.9700</low>
+    <close>151.3800</close>
+    <adjusted_close>144.2382</adjusted_close>
+    <volume>392371800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>151.8100</open>
+    <high>159.5500</high>
+    <low>146.6500</low>
+    <close>157.7000</close>
+    <adjusted_close>150.2601</adjusted_close>
+    <volume>450303300</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>158.7800</open>
+    <high>174.0500</high>
+    <low>156.5100</low>
+    <close>170.2300</close>
+    <adjusted_close>162.1989</adjusted_close>
+    <volume>558530000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>170.4300</open>
+    <high>190.7000</high>
+    <low>152.0000</low>
+    <close>162.0100</close>
+    <adjusted_close>154.7884</adjusted_close>
+    <volume>887522300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>165.3100</open>
+    <high>175.0000</high>
+    <low>132.5200</low>
+    <close>157.7100</close>
+    <adjusted_close>150.6800</adjusted_close>
+    <volume>1612695500</volume>
+    <news>COVID-19 drives massive demand for Teams and cloud services</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>153.0000</open>
+    <high>180.4000</high>
+    <low>150.3600</low>
+    <close>179.2100</close>
+    <adjusted_close>171.2217</adjusted_close>
+    <volume>984705000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>175.8000</open>
+    <high>187.5100</high>
+    <low>173.8000</low>
+    <close>183.2500</close>
+    <adjusted_close>175.5692</adjusted_close>
+    <volume>688845000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>182.5400</open>
+    <high>204.4000</high>
+    <low>181.3500</low>
+    <close>203.5100</close>
+    <adjusted_close>194.9800</adjusted_close>
+    <volume>764965400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>203.1400</open>
+    <high>216.3800</high>
+    <low>197.5100</low>
+    <close>205.0100</close>
+    <adjusted_close>196.4172</adjusted_close>
+    <volume>770190800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>211.5200</open>
+    <high>231.1500</high>
+    <low>203.1400</low>
+    <close>225.5300</close>
+    <adjusted_close>216.5994</adjusted_close>
+    <volume>692423900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>225.5100</open>
+    <high>232.8600</high>
+    <low>196.2500</low>
+    <close>210.3300</close>
+    <adjusted_close>202.0013</adjusted_close>
+    <volume>768176300</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>213.4900</open>
+    <high>225.2100</high>
+    <low>199.6200</low>
+    <close>202.4700</close>
+    <adjusted_close>194.4525</adjusted_close>
+    <volume>631618000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>204.2900</open>
+    <high>228.1200</high>
+    <low>200.1200</low>
+    <close>214.0700</close>
+    <adjusted_close>206.1314</adjusted_close>
+    <volume>573443000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>214.5100</open>
+    <high>227.1800</high>
+    <low>209.1100</low>
+    <close>222.4200</close>
+    <adjusted_close>214.1718</adjusted_close>
+    <volume>594761700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>222.5300</open>
+    <high>242.6400</high>
+    <low>211.9400</low>
+    <close>231.9600</close>
+    <adjusted_close>223.3580</adjusted_close>
+    <volume>648076400</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>235.0600</open>
+    <high>246.1300</high>
+    <low>227.8800</low>
+    <close>232.3800</close>
+    <adjusted_close>224.2778</adjusted_close>
+    <volume>490962200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>235.9000</open>
+    <high>241.0500</high>
+    <low>224.2600</low>
+    <close>235.7700</close>
+    <adjusted_close>227.5496</adjusted_close>
+    <volume>724945800</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>238.4700</open>
+    <high>263.1900</high>
+    <low>238.0500</low>
+    <close>252.1800</close>
+    <adjusted_close>243.3875</adjusted_close>
+    <volume>568661600</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>253.4000</open>
+    <high>254.3500</high>
+    <low>238.0700</low>
+    <close>249.6800</close>
+    <adjusted_close>241.5310</adjusted_close>
+    <volume>495084900</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>251.2300</open>
+    <high>271.6500</high>
+    <low>243.0000</low>
+    <close>270.9000</close>
+    <adjusted_close>262.0585</adjusted_close>
+    <volume>508572200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>269.6100</open>
+    <high>290.1500</high>
+    <low>269.6000</low>
+    <close>284.9100</close>
+    <adjusted_close>275.6112</adjusted_close>
+    <volume>522672700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>286.3600</open>
+    <high>305.8400</high>
+    <low>283.7400</low>
+    <close>301.8800</close>
+    <adjusted_close>292.5864</adjusted_close>
+    <volume>441308900</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>302.8700</open>
+    <high>305.3200</high>
+    <low>281.6200</low>
+    <close>281.9200</close>
+    <adjusted_close>273.2409</adjusted_close>
+    <volume>502918700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>282.1200</open>
+    <high>332.0000</high>
+    <low>280.2500</low>
+    <close>331.6200</close>
+    <adjusted_close>321.4109</adjusted_close>
+    <volume>516515800</volume>
+    <news>Windows 11 announced with new design and features</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>331.3600</open>
+    <high>349.6700</high>
+    <low>326.3700</low>
+    <close>330.5900</close>
+    <adjusted_close>320.9988</adjusted_close>
+    <volume>509885200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>335.1300</open>
+    <high>344.3000</high>
+    <low>317.2500</low>
+    <close>336.3200</close>
+    <adjusted_close>326.5625</adjusted_close>
+    <volume>625674800</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>335.3500</open>
+    <high>338.0000</high>
+    <low>276.0500</low>
+    <close>310.9800</close>
+    <adjusted_close>301.9577</adjusted_close>
+    <volume>947531400</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>310.4100</open>
+    <high>315.1200</high>
+    <low>271.5200</low>
+    <close>298.7900</close>
+    <adjusted_close>290.7212</adjusted_close>
+    <volume>697050600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>296.4000</open>
+    <high>315.9500</high>
+    <low>270.0000</low>
+    <close>308.3100</close>
+    <adjusted_close>299.9842</adjusted_close>
+    <volume>734334200</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>309.3700</open>
+    <high>315.1100</high>
+    <low>270.0000</low>
+    <close>277.5200</close>
+    <adjusted_close>270.0256</adjusted_close>
+    <volume>627343400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>277.7100</open>
+    <high>290.8800</high>
+    <low>246.4400</low>
+    <close>271.8700</close>
+    <adjusted_close>265.1443</adjusted_close>
+    <volume>742902000</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>275.2000</open>
+    <high>277.6900</high>
+    <low>241.5100</low>
+    <close>256.8300</close>
+    <adjusted_close>250.4764</adjusted_close>
+    <volume>621372300</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>256.3900</open>
+    <high>282.0000</high>
+    <low>245.9400</low>
+    <close>280.7400</close>
+    <adjusted_close>273.7949</adjusted_close>
+    <volume>534891800</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>277.8200</open>
+    <high>294.1800</high>
+    <low>260.6600</low>
+    <close>261.4700</close>
+    <adjusted_close>255.5429</adjusted_close>
+    <volume>477157600</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>258.8700</open>
+    <high>267.4500</high>
+    <low>232.7300</low>
+    <close>232.9000</close>
+    <adjusted_close>227.6205</adjusted_close>
+    <volume>575586600</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>235.4100</open>
+    <high>251.0400</high>
+    <low>219.1300</low>
+    <close>232.1300</close>
+    <adjusted_close>226.8680</adjusted_close>
+    <volume>671225100</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>234.6000</open>
+    <high>255.3300</high>
+    <low>213.4300</low>
+    <close>255.1400</close>
+    <adjusted_close>250.0591</adjusted_close>
+    <volume>615296000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>253.8700</open>
+    <high>263.9200</high>
+    <low>233.8700</low>
+    <close>239.8200</close>
+    <adjusted_close>235.0442</adjusted_close>
+    <volume>591358700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>243.0800</open>
+    <high>249.8300</high>
+    <low>219.3500</low>
+    <close>247.8100</close>
+    <adjusted_close>242.8751</adjusted_close>
+    <volume>666168100</volume>
+    <news>Microsoft announces $10 billion investment in OpenAI</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>248.0000</open>
+    <high>276.7600</high>
+    <low>245.4700</low>
+    <close>249.4200</close>
+    <adjusted_close>245.0653</adjusted_close>
+    <volume>615501000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>250.7600</open>
+    <high>289.2700</high>
+    <low>245.6100</low>
+    <close>288.3000</close>
+    <adjusted_close>283.2665</adjusted_close>
+    <volume>747635000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>286.5200</open>
+    <high>308.9300</high>
+    <low>275.3700</low>
+    <close>307.2600</close>
+    <adjusted_close>301.8954</adjusted_close>
+    <volume>551497100</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>306.9700</open>
+    <high>335.9400</high>
+    <low>303.4000</low>
+    <close>328.3900</close>
+    <adjusted_close>323.3619</adjusted_close>
+    <volume>600807200</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>325.9300</open>
+    <high>351.4700</high>
+    <low>322.5000</low>
+    <close>340.5400</close>
+    <adjusted_close>335.3258</adjusted_close>
+    <volume>547588700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>339.1900</open>
+    <high>366.7800</high>
+    <low>327.0000</low>
+    <close>335.9200</close>
+    <adjusted_close>330.7766</adjusted_close>
+    <volume>666764400</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>335.1900</open>
+    <high>338.5400</high>
+    <low>311.5500</low>
+    <close>327.7600</close>
+    <adjusted_close>323.4248</adjusted_close>
+    <volume>479456700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>331.3100</open>
+    <high>340.8600</high>
+    <low>309.4500</low>
+    <close>315.7500</close>
+    <adjusted_close>311.5737</adjusted_close>
+    <volume>416680700</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>316.2800</open>
+    <high>346.2000</high>
+    <low>311.2100</low>
+    <close>338.1100</close>
+    <adjusted_close>333.6379</adjusted_close>
+    <volume>540907000</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>339.7900</open>
+    <high>384.3000</high>
+    <low>339.6500</low>
+    <close>378.9100</close>
+    <adjusted_close>374.6572</adjusted_close>
+    <volume>563880300</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>376.7600</open>
+    <high>378.1600</high>
+    <low>362.9000</low>
+    <close>376.0400</close>
+    <adjusted_close>371.8194</adjusted_close>
+    <volume>522003700</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>373.8600</open>
+    <high>415.3200</high>
+    <low>366.5000</low>
+    <close>397.5800</close>
+    <adjusted_close>393.1176</adjusted_close>
+    <volume>528399000</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>401.8300</open>
+    <high>420.8200</high>
+    <low>397.2200</low>
+    <close>413.6400</close>
+    <adjusted_close>409.7537</adjusted_close>
+    <volume>444176300</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>411.2700</open>
+    <high>430.8200</high>
+    <low>398.3900</low>
+    <close>420.7200</close>
+    <adjusted_close>416.7672</adjusted_close>
+    <volume>426349600</volume>
+    <news>MSFT Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>423.9500</open>
+    <high>429.3700</high>
+    <low>388.0300</low>
+    <close>389.3300</close>
+    <adjusted_close>385.6721</adjusted_close>
+    <volume>440777700</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>392.6100</open>
+    <high>433.6000</high>
+    <low>390.3100</low>
+    <close>415.1300</close>
+    <adjusted_close>411.9714</adjusted_close>
+    <volume>413800800</volume>
+    <news>Microsoft AI Copilot integration drives growth</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>415.5300</open>
+    <high>456.1700</high>
+    <low>408.9200</low>
+    <close>446.9500</close>
+    <adjusted_close>443.5493</adjusted_close>
+    <volume>342370400</volume>
+    <news>MSFT Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>448.6600</open>
+    <high>468.3500</high>
+    <low>412.2100</low>
+    <close>418.3500</close>
+    <adjusted_close>415.1669</adjusted_close>
+    <volume>440449200</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>420.7900</open>
+    <high>427.4600</high>
+    <low>385.5800</low>
+    <close>417.1400</close>
+    <adjusted_close>414.7123</adjusted_close>
+    <volume>451919000</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>417.9100</open>
+    <high>441.8500</high>
+    <low>400.8000</low>
+    <close>430.3000</close>
+    <adjusted_close>427.7957</adjusted_close>
+    <volume>376921200</volume>
+    <news>MSFT Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>428.4500</open>
+    <high>438.5000</high>
+    <low>406.3000</low>
+    <close>406.3500</close>
+    <adjusted_close>403.9851</adjusted_close>
+    <volume>440745500</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>409.0100</open>
+    <high>429.3300</high>
+    <low>405.5700</low>
+    <close>423.4600</close>
+    <adjusted_close>421.8382</adjusted_close>
+    <volume>442321200</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>421.5700</open>
+    <high>456.1600</high>
+    <low>420.6600</low>
+    <close>421.5000</close>
+    <adjusted_close>419.8857</adjusted_close>
+    <volume>439902400</volume>
+    <news>MSFT Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</microsoft_stock_data>

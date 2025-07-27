@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wells_fargo_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>20.1562</open>
+    <high>21.8750</high>
+    <low>17.7188</low>
+    <close>20.0000</close>
+    <adjusted_close>9.9748</adjusted_close>
+    <volume>214574800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>20.0000</open>
+    <high>20.3438</high>
+    <low>16.0000</low>
+    <close>16.5312</close>
+    <adjusted_close>8.2899</adjusted_close>
+    <volume>196807000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>16.5312</open>
+    <high>21.3125</high>
+    <low>15.5000</low>
+    <close>20.3750</close>
+    <adjusted_close>10.2174</adjusted_close>
+    <volume>254520800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>20.4688</open>
+    <high>22.7500</high>
+    <low>18.9375</low>
+    <close>20.5312</close>
+    <adjusted_close>10.2957</adjusted_close>
+    <volume>201296800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>20.5625</open>
+    <high>22.8125</high>
+    <low>19.6250</low>
+    <close>22.6250</close>
+    <adjusted_close>11.4063</adjusted_close>
+    <volume>152264400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>22.6250</open>
+    <high>23.8750</high>
+    <low>18.6562</low>
+    <close>19.3750</close>
+    <adjusted_close>9.7679</adjusted_close>
+    <volume>178503400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>20.1250</open>
+    <high>22.0312</high>
+    <low>19.9375</low>
+    <close>20.7500</close>
+    <adjusted_close>10.4611</adjusted_close>
+    <volume>114902000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>20.8750</open>
+    <high>22.9062</high>
+    <low>20.4688</low>
+    <close>21.6016</close>
+    <adjusted_close>10.9489</adjusted_close>
+    <volume>139260400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>22.0000</open>
+    <high>23.5625</high>
+    <low>21.3438</low>
+    <close>22.9688</close>
+    <adjusted_close>11.6418</adjusted_close>
+    <volume>140344800</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>23.0000</open>
+    <high>24.1562</high>
+    <low>19.8125</low>
+    <close>23.1562</close>
+    <adjusted_close>11.7368</adjusted_close>
+    <volume>164978800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>22.9062</open>
+    <high>24.0000</high>
+    <low>21.5000</low>
+    <close>23.7188</close>
+    <adjusted_close>12.0846</adjusted_close>
+    <volume>119929800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>23.9062</open>
+    <high>28.1875</high>
+    <low>23.1562</low>
+    <close>27.8438</close>
+    <adjusted_close>14.1862</adjusted_close>
+    <volume>208366600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>27.2188</open>
+    <high>27.4062</high>
+    <low>23.8438</low>
+    <close>25.7550</close>
+    <adjusted_close>13.1830</adjusted_close>
+    <volume>230240000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>25.5250</open>
+    <high>25.9400</high>
+    <low>23.2100</low>
+    <close>24.8200</close>
+    <adjusted_close>12.7044</adjusted_close>
+    <volume>124995400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>24.8200</open>
+    <high>25.8550</high>
+    <low>21.2750</low>
+    <close>24.7350</close>
+    <adjusted_close>12.6609</adjusted_close>
+    <volume>192580400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>24.7450</open>
+    <high>25.0800</high>
+    <low>22.4700</low>
+    <close>23.4850</close>
+    <adjusted_close>12.0211</adjusted_close>
+    <volume>223600600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>23.4950</open>
+    <high>24.1000</high>
+    <low>22.2750</low>
+    <close>23.5400</close>
+    <adjusted_close>12.1106</adjusted_close>
+    <volume>169162600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>23.4500</open>
+    <high>24.4500</high>
+    <low>21.3250</low>
+    <close>23.2150</close>
+    <adjusted_close>11.9434</adjusted_close>
+    <volume>201983200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>23.2400</open>
+    <high>23.7500</high>
+    <low>22.4500</low>
+    <close>23.0300</close>
+    <adjusted_close>11.8482</adjusted_close>
+    <volume>159811200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>23.1900</open>
+    <high>24.1500</high>
+    <low>22.6300</low>
+    <close>23.0050</close>
+    <adjusted_close>11.9024</adjusted_close>
+    <volume>162654800</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>22.9800</open>
+    <high>23.3800</high>
+    <low>20.2500</low>
+    <close>22.2250</close>
+    <adjusted_close>11.4989</adjusted_close>
+    <volume>174709600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>22.3000</open>
+    <high>22.5700</high>
+    <low>19.1250</low>
+    <close>19.7500</close>
+    <adjusted_close>10.2184</adjusted_close>
+    <volume>270448400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>19.7550</open>
+    <high>21.9200</high>
+    <low>19.6250</low>
+    <close>21.4000</close>
+    <adjusted_close>11.1404</adjusted_close>
+    <volume>168584400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>21.3000</open>
+    <high>22.0100</high>
+    <low>21.1700</low>
+    <close>21.7350</close>
+    <adjusted_close>11.3148</adjusted_close>
+    <volume>147254800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>21.6900</open>
+    <high>23.7250</high>
+    <low>21.4500</low>
+    <close>23.1950</close>
+    <adjusted_close>12.1438</adjusted_close>
+    <volume>242996400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>23.0700</open>
+    <high>23.6950</high>
+    <low>22.3750</low>
+    <close>23.4500</close>
+    <adjusted_close>12.2774</adjusted_close>
+    <volume>157619000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>23.5750</open>
+    <high>25.3750</high>
+    <low>23.5250</low>
+    <close>24.7000</close>
+    <adjusted_close>12.9318</adjusted_close>
+    <volume>165608800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>24.2600</open>
+    <high>25.9250</high>
+    <low>24.0600</low>
+    <close>25.5750</close>
+    <adjusted_close>13.3899</adjusted_close>
+    <volume>197661200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>25.6750</open>
+    <high>26.7200</high>
+    <low>25.0300</low>
+    <close>26.2000</close>
+    <adjusted_close>13.7924</adjusted_close>
+    <volume>156530200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>26.2050</open>
+    <high>26.4000</high>
+    <low>24.3750</low>
+    <close>25.0300</close>
+    <adjusted_close>13.1765</adjusted_close>
+    <volume>206046200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>24.9500</open>
+    <high>25.8600</high>
+    <low>20.7500</low>
+    <close>25.4300</close>
+    <adjusted_close>13.3871</adjusted_close>
+    <volume>309159400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>25.2500</open>
+    <high>26.4950</high>
+    <low>23.9050</low>
+    <close>26.0950</close>
+    <adjusted_close>13.8161</adjusted_close>
+    <volume>216517600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>25.9000</open>
+    <high>26.0500</high>
+    <low>23.0000</low>
+    <close>24.0800</close>
+    <adjusted_close>12.7493</adjusted_close>
+    <volume>222716000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>24.1250</open>
+    <high>25.8000</high>
+    <low>21.6500</low>
+    <close>25.2350</close>
+    <adjusted_close>13.3608</adjusted_close>
+    <volume>275422600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>24.9500</open>
+    <high>25.6500</high>
+    <low>22.3500</low>
+    <close>23.1050</close>
+    <adjusted_close>12.3020</adjusted_close>
+    <volume>215839600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>23.5000</open>
+    <high>23.8700</high>
+    <low>22.6350</low>
+    <close>23.4350</close>
+    <adjusted_close>12.4777</adjusted_close>
+    <volume>181407000</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>23.5750</open>
+    <high>24.5650</high>
+    <low>22.9500</low>
+    <close>23.6850</close>
+    <adjusted_close>12.6108</adjusted_close>
+    <volume>193027200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>23.6900</open>
+    <high>23.9950</high>
+    <low>22.1750</low>
+    <close>22.6750</close>
+    <adjusted_close>12.1505</adjusted_close>
+    <volume>192373600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>22.9300</open>
+    <high>23.6500</high>
+    <low>21.6350</low>
+    <close>22.4950</close>
+    <adjusted_close>12.0541</adjusted_close>
+    <volume>221714800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>22.5750</open>
+    <high>24.3450</high>
+    <low>22.5050</low>
+    <close>24.1300</close>
+    <adjusted_close>12.9302</adjusted_close>
+    <volume>200462000</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>24.1300</open>
+    <high>24.5500</high>
+    <low>23.4150</low>
+    <close>24.1500</close>
+    <adjusted_close>13.0216</adjusted_close>
+    <volume>179469400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>24.2600</open>
+    <high>26.4000</high>
+    <low>24.2600</low>
+    <close>25.2000</close>
+    <adjusted_close>13.5878</adjusted_close>
+    <volume>195187200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>25.2000</open>
+    <high>26.8550</high>
+    <low>24.8750</low>
+    <close>25.2650</close>
+    <adjusted_close>13.6228</adjusted_close>
+    <volume>239790600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>25.2650</open>
+    <high>25.3200</high>
+    <low>24.4500</low>
+    <close>25.0700</close>
+    <adjusted_close>13.6411</adjusted_close>
+    <volume>209909200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>25.5500</open>
+    <high>25.9150</high>
+    <low>24.8450</low>
+    <close>25.7500</close>
+    <adjusted_close>14.0111</adjusted_close>
+    <volume>196085000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>25.8400</open>
+    <high>28.3550</high>
+    <low>25.8400</low>
+    <close>28.1600</close>
+    <adjusted_close>15.3224</adjusted_close>
+    <volume>229689200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>28.1600</open>
+    <high>28.7500</high>
+    <low>27.3550</low>
+    <close>28.6650</close>
+    <adjusted_close>15.7236</adjusted_close>
+    <volume>155002400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>28.8850</open>
+    <high>29.5900</high>
+    <low>27.8550</low>
+    <close>29.4450</close>
+    <adjusted_close>16.1514</adjusted_close>
+    <volume>160662200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>29.2500</open>
+    <high>29.4450</high>
+    <low>27.9850</low>
+    <close>28.7050</close>
+    <adjusted_close>15.7455</adjusted_close>
+    <volume>191183800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>28.8200</open>
+    <high>29.1800</high>
+    <low>28.2000</low>
+    <close>28.6750</close>
+    <adjusted_close>15.8521</adjusted_close>
+    <volume>143936600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>28.8750</open>
+    <high>29.4900</high>
+    <low>28.1550</low>
+    <close>28.3350</close>
+    <adjusted_close>15.6642</adjusted_close>
+    <volume>173702000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>28.3600</open>
+    <high>28.7900</high>
+    <low>27.2950</low>
+    <close>28.2300</close>
+    <adjusted_close>15.6061</adjusted_close>
+    <volume>200005200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>28.2600</open>
+    <high>29.8600</high>
+    <low>27.1600</low>
+    <close>29.4000</close>
+    <adjusted_close>16.3821</adjusted_close>
+    <volume>210749200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>29.4200</open>
+    <high>29.5700</high>
+    <low>28.4050</low>
+    <close>28.6150</close>
+    <adjusted_close>15.9447</adjusted_close>
+    <volume>143060400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>28.5850</open>
+    <high>29.3750</high>
+    <low>28.2550</low>
+    <close>28.7050</close>
+    <adjusted_close>15.9949</adjusted_close>
+    <volume>142710400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>28.6750</open>
+    <high>29.5150</high>
+    <low>28.0600</low>
+    <close>29.3750</close>
+    <adjusted_close>16.5061</adjusted_close>
+    <volume>118806200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>29.3850</open>
+    <high>29.9300</high>
+    <low>29.0100</low>
+    <close>29.8150</close>
+    <adjusted_close>16.7533</adjusted_close>
+    <volume>130554600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>29.8350</open>
+    <high>30.3550</high>
+    <low>28.7750</low>
+    <close>29.8600</close>
+    <adjusted_close>16.7786</adjusted_close>
+    <volume>151169600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>29.9650</open>
+    <high>31.4150</high>
+    <low>29.7450</low>
+    <close>30.8850</close>
+    <adjusted_close>17.4950</adjusted_close>
+    <volume>140275400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>31.0750</open>
+    <high>32.0200</high>
+    <low>30.8900</low>
+    <close>31.0750</close>
+    <adjusted_close>17.6026</adjusted_close>
+    <volume>139788800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>31.1150</open>
+    <high>31.3750</high>
+    <low>29.9000</low>
+    <close>30.6500</close>
+    <adjusted_close>17.3618</adjusted_close>
+    <volume>159596600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>30.7750</open>
+    <high>31.0900</high>
+    <low>29.3900</low>
+    <close>29.6900</close>
+    <adjusted_close>16.9497</adjusted_close>
+    <volume>150427800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>29.8250</open>
+    <high>30.5600</high>
+    <low>29.0750</low>
+    <close>29.9000</close>
+    <adjusted_close>17.0696</adjusted_close>
+    <volume>175341200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>30.0750</open>
+    <high>30.4500</high>
+    <low>28.8850</low>
+    <close>29.9700</close>
+    <adjusted_close>17.1095</adjusted_close>
+    <volume>175679600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>30.0400</open>
+    <high>30.9000</high>
+    <low>29.5000</low>
+    <close>30.2050</close>
+    <adjusted_close>17.3821</adjusted_close>
+    <volume>140503200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>30.2750</open>
+    <high>31.1100</high>
+    <low>30.0000</low>
+    <close>30.7900</close>
+    <adjusted_close>17.7188</adjusted_close>
+    <volume>143138000</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>30.9000</open>
+    <high>31.4350</high>
+    <low>30.1250</low>
+    <close>30.6700</close>
+    <adjusted_close>17.6497</adjusted_close>
+    <volume>150539200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>30.7250</open>
+    <high>30.9550</high>
+    <low>29.1000</low>
+    <close>29.8100</close>
+    <adjusted_close>17.3005</adjusted_close>
+    <volume>162902400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>29.8100</open>
+    <high>30.1250</high>
+    <low>29.0000</low>
+    <close>29.2850</close>
+    <adjusted_close>16.9959</adjusted_close>
+    <volume>216083000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>29.2500</open>
+    <high>30.3300</high>
+    <low>28.8100</low>
+    <close>30.1000</close>
+    <adjusted_close>17.4688</adjusted_close>
+    <volume>201981600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>30.0100</open>
+    <high>32.3500</high>
+    <low>29.6350</low>
+    <close>31.4250</close>
+    <adjusted_close>18.3976</adjusted_close>
+    <volume>201465800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>31.7000</open>
+    <high>32.2400</high>
+    <low>30.9750</low>
+    <close>31.4150</close>
+    <adjusted_close>18.3917</adjusted_close>
+    <volume>143144200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>31.6000</open>
+    <high>31.9750</high>
+    <low>30.6600</low>
+    <close>31.1800</close>
+    <adjusted_close>18.2541</adjusted_close>
+    <volume>184370400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>30.9500</open>
+    <high>32.4700</high>
+    <low>30.3100</low>
+    <close>32.1000</close>
+    <adjusted_close>18.9508</adjusted_close>
+    <volume>146283200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>32.2250</open>
+    <high>32.7550</high>
+    <low>31.7050</low>
+    <close>31.9350</close>
+    <adjusted_close>18.8534</adjusted_close>
+    <volume>167321200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>31.9900</open>
+    <high>34.5550</high>
+    <low>31.9000</low>
+    <close>34.3450</close>
+    <adjusted_close>20.2761</adjusted_close>
+    <volume>146910400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>34.4250</open>
+    <high>34.6200</high>
+    <low>32.8350</low>
+    <close>33.1850</close>
+    <adjusted_close>19.7425</adjusted_close>
+    <volume>199376800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>33.2500</open>
+    <high>34.8550</high>
+    <low>32.5700</low>
+    <close>33.5400</close>
+    <adjusted_close>19.9537</adjusted_close>
+    <volume>231396200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>33.5550</open>
+    <high>36.2900</high>
+    <low>33.3550</low>
+    <close>36.1700</close>
+    <adjusted_close>21.5184</adjusted_close>
+    <volume>210154800</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>36.1550</open>
+    <high>36.8900</high>
+    <low>34.3000</low>
+    <close>34.7500</close>
+    <adjusted_close>20.8344</adjusted_close>
+    <volume>187720300</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>34.8800</open>
+    <high>36.4900</high>
+    <low>34.2100</low>
+    <close>36.1800</close>
+    <adjusted_close>21.6918</adjusted_close>
+    <volume>132945900</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>36.3200</open>
+    <high>36.9900</high>
+    <low>35.7500</low>
+    <close>36.2900</close>
+    <adjusted_close>21.7577</adjusted_close>
+    <volume>143373800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>36.3000</open>
+    <high>36.9500</high>
+    <low>34.9000</low>
+    <close>35.2400</close>
+    <adjusted_close>21.2925</adjusted_close>
+    <volume>152557700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>35.4300</open>
+    <high>36.1600</high>
+    <low>35.0100</low>
+    <close>35.5600</close>
+    <adjusted_close>21.4858</adjusted_close>
+    <volume>168467400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>35.9300</open>
+    <high>36.6400</high>
+    <low>35.3700</low>
+    <close>35.9200</close>
+    <adjusted_close>21.8740</adjusted_close>
+    <volume>211952100</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>35.9300</open>
+    <high>36.3600</high>
+    <low>33.8000</low>
+    <close>34.7000</close>
+    <adjusted_close>21.1310</adjusted_close>
+    <volume>212814000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>34.5000</open>
+    <high>35.5700</high>
+    <low>33.0100</low>
+    <close>34.4300</close>
+    <adjusted_close>20.9666</adjusted_close>
+    <volume>321594000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>34.4200</open>
+    <high>36.4900</high>
+    <low>33.9300</low>
+    <close>35.8900</close>
+    <adjusted_close>21.8557</adjusted_close>
+    <volume>272744000</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>36.0300</open>
+    <high>36.4900</high>
+    <low>35.2500</low>
+    <close>36.0900</close>
+    <adjusted_close>22.1496</adjusted_close>
+    <volume>240678600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>36.0900</open>
+    <high>36.4700</high>
+    <low>34.6900</low>
+    <close>35.1700</close>
+    <adjusted_close>21.5849</adjusted_close>
+    <volume>238282500</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>35.4200</open>
+    <high>36.0100</high>
+    <low>33.3400</low>
+    <close>33.7700</close>
+    <adjusted_close>20.7257</adjusted_close>
+    <volume>347010100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>33.7600</open>
+    <high>37.9900</high>
+    <low>32.6600</low>
+    <close>36.5400</close>
+    <adjusted_close>22.6268</adjusted_close>
+    <volume>574757900</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>36.4800</open>
+    <high>37.9900</high>
+    <low>34.7100</low>
+    <close>35.6200</close>
+    <adjusted_close>22.0571</adjusted_close>
+    <volume>299603100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>35.2000</open>
+    <high>37.7800</high>
+    <low>32.6600</low>
+    <close>34.0100</close>
+    <adjusted_close>21.0601</adjusted_close>
+    <volume>436520200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>33.1800</open>
+    <high>34.2900</high>
+    <low>29.2900</low>
+    <close>32.4300</close>
+    <adjusted_close>20.2725</adjusted_close>
+    <volume>725189100</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>32.7500</open>
+    <high>33.4300</high>
+    <low>29.5000</low>
+    <close>30.1900</close>
+    <adjusted_close>18.8722</adjusted_close>
+    <volume>438998200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>30.4800</open>
+    <high>34.2500</high>
+    <low>24.3800</low>
+    <close>34.0800</close>
+    <adjusted_close>21.3039</adjusted_close>
+    <volume>946469700</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>33.2600</open>
+    <high>34.5600</high>
+    <low>28.7500</low>
+    <close>29.2300</close>
+    <adjusted_close>18.4599</adjusted_close>
+    <volume>633972700</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>29.2400</open>
+    <high>33.5300</high>
+    <low>27.1000</low>
+    <close>29.1000</close>
+    <adjusted_close>18.3778</adjusted_close>
+    <volume>803046600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>30.3300</open>
+    <high>31.7700</high>
+    <low>27.0800</low>
+    <close>29.7500</close>
+    <adjusted_close>18.7883</adjusted_close>
+    <volume>682338000</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>29.7700</open>
+    <high>32.4000</high>
+    <low>26.6300</low>
+    <close>27.5700</close>
+    <adjusted_close>17.5859</adjusted_close>
+    <volume>547243800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>27.4700</open>
+    <high>27.5400</high>
+    <low>23.4600</low>
+    <close>23.7500</close>
+    <adjusted_close>15.1493</adjusted_close>
+    <volume>881900200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>23.4700</open>
+    <high>31.9700</high>
+    <low>20.4600</low>
+    <close>30.2700</close>
+    <adjusted_close>19.3081</adjusted_close>
+    <volume>1650558200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>30.2700</open>
+    <high>32.0700</high>
+    <low>27.1700</low>
+    <close>30.2700</close>
+    <adjusted_close>19.5185</adjusted_close>
+    <volume>900294300</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>31.2200</open>
+    <high>44.7500</high>
+    <low>28.7900</low>
+    <close>37.5300</close>
+    <adjusted_close>24.1999</adjusted_close>
+    <volume>1440024400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>36.9800</open>
+    <high>38.9500</high>
+    <low>25.0000</low>
+    <close>34.0500</close>
+    <adjusted_close>21.9559</adjusted_close>
+    <volume>1562646700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>34.1600</open>
+    <high>35.2500</high>
+    <low>19.8900</low>
+    <close>28.8900</close>
+    <adjusted_close>18.8108</adjusted_close>
+    <volume>1659766400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>28.0400</open>
+    <high>32.7600</high>
+    <low>22.5700</low>
+    <close>29.4800</close>
+    <adjusted_close>19.1950</adjusted_close>
+    <volume>1161129200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>29.1800</open>
+    <high>30.4700</high>
+    <low>13.7400</low>
+    <close>18.9000</close>
+    <adjusted_close>12.3062</adjusted_close>
+    <volume>1982060300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>18.4100</open>
+    <high>19.7400</high>
+    <low>8.8100</low>
+    <close>12.1000</close>
+    <adjusted_close>8.0258</adjusted_close>
+    <volume>2904697900</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>10.9800</open>
+    <high>17.6700</high>
+    <low>7.8000</low>
+    <close>14.2400</close>
+    <adjusted_close>9.4453</adjusted_close>
+    <volume>4175955300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>13.7200</open>
+    <high>21.9700</high>
+    <low>13.6500</low>
+    <close>20.0100</close>
+    <adjusted_close>13.2724</adjusted_close>
+    <volume>3466752800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>19.9800</open>
+    <high>28.4500</high>
+    <low>19.3500</low>
+    <close>25.5000</close>
+    <adjusted_close>16.9503</adjusted_close>
+    <volume>3207485400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>25.7600</open>
+    <high>26.0500</high>
+    <low>21.5700</low>
+    <close>24.2600</close>
+    <adjusted_close>16.1261</adjusted_close>
+    <volume>1694313800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>24.2500</open>
+    <high>25.9800</high>
+    <low>22.0800</low>
+    <close>24.4600</close>
+    <adjusted_close>16.2590</adjusted_close>
+    <volume>1571347200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>24.9000</open>
+    <high>29.3500</high>
+    <low>24.8700</low>
+    <close>27.5200</close>
+    <adjusted_close>18.3276</adjusted_close>
+    <volume>1135839100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>27.3400</open>
+    <high>29.5600</high>
+    <low>25.8100</low>
+    <close>28.1800</close>
+    <adjusted_close>18.7671</adjusted_close>
+    <volume>877493500</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>28.0600</open>
+    <high>31.5300</high>
+    <low>25.9900</low>
+    <close>27.5200</close>
+    <adjusted_close>18.3276</adjusted_close>
+    <volume>1179369400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>27.8600</open>
+    <high>29.1300</high>
+    <low>26.5000</low>
+    <close>28.0400</close>
+    <adjusted_close>18.7076</adjusted_close>
+    <volume>740587500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>28.1500</open>
+    <high>28.3900</high>
+    <low>25.0000</low>
+    <close>26.9900</close>
+    <adjusted_close>18.0071</adjusted_close>
+    <volume>1251545400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>27.0200</open>
+    <high>29.4300</high>
+    <low>26.8200</low>
+    <close>28.4300</close>
+    <adjusted_close>18.9678</adjusted_close>
+    <volume>1009905300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>28.6000</open>
+    <high>29.1300</high>
+    <low>26.3700</low>
+    <close>27.3400</close>
+    <adjusted_close>18.2723</adjusted_close>
+    <volume>840453900</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>27.4500</open>
+    <high>31.9900</high>
+    <low>27.1500</low>
+    <close>31.1200</close>
+    <adjusted_close>20.7986</adjusted_close>
+    <volume>817434600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>31.4000</open>
+    <high>34.2500</high>
+    <low>31.1300</low>
+    <close>33.1100</close>
+    <adjusted_close>22.1286</adjusted_close>
+    <volume>943549600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>33.2200</open>
+    <high>34.0900</high>
+    <low>27.4400</low>
+    <close>28.6900</close>
+    <adjusted_close>19.2037</adjusted_close>
+    <volume>1142687200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>28.6800</open>
+    <high>29.4800</high>
+    <low>25.5200</low>
+    <close>25.6000</close>
+    <adjusted_close>17.1354</adjusted_close>
+    <volume>916736600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>25.5400</open>
+    <high>28.7700</high>
+    <low>24.6000</low>
+    <close>27.7300</close>
+    <adjusted_close>18.5611</adjusted_close>
+    <volume>800299500</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>28.2900</open>
+    <high>28.5800</high>
+    <low>23.0200</low>
+    <close>23.5500</close>
+    <adjusted_close>15.7913</adjusted_close>
+    <volume>811768100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>23.9100</open>
+    <high>26.9600</high>
+    <low>23.7600</low>
+    <close>25.1200</close>
+    <adjusted_close>16.8441</adjusted_close>
+    <volume>745446900</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>25.3000</open>
+    <high>26.5800</high>
+    <low>23.3700</low>
+    <close>26.0600</close>
+    <adjusted_close>17.4744</adjusted_close>
+    <volume>1025608100</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>26.0300</open>
+    <high>29.3600</high>
+    <low>25.6000</low>
+    <close>27.2100</close>
+    <adjusted_close>18.2807</adjusted_close>
+    <volume>686309700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>27.5800</open>
+    <high>31.6100</high>
+    <low>27.2000</low>
+    <close>30.9900</close>
+    <adjusted_close>20.8202</adjusted_close>
+    <volume>614774500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>31.3000</open>
+    <high>32.9900</high>
+    <low>30.6400</low>
+    <close>32.4200</close>
+    <adjusted_close>21.7810</adjusted_close>
+    <volume>683995900</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>32.6100</open>
+    <high>34.2500</high>
+    <low>30.8000</low>
+    <close>32.2600</close>
+    <adjusted_close>21.7059</adjusted_close>
+    <volume>707641800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>32.3400</open>
+    <high>32.9700</high>
+    <low>29.8200</low>
+    <close>31.7100</close>
+    <adjusted_close>21.3835</adjusted_close>
+    <volume>711238900</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>32.0900</open>
+    <high>32.6300</high>
+    <low>28.2100</low>
+    <close>29.1100</close>
+    <adjusted_close>19.6302</adjusted_close>
+    <volume>828884300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>29.3400</open>
+    <high>29.5500</high>
+    <low>27.3800</low>
+    <close>28.3700</close>
+    <adjusted_close>19.2093</adjusted_close>
+    <volume>618422100</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>28.3600</open>
+    <high>28.3600</high>
+    <low>25.2600</low>
+    <close>28.0600</close>
+    <adjusted_close>18.9994</adjusted_close>
+    <volume>894779600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>28.0800</open>
+    <high>29.6300</high>
+    <low>26.3700</low>
+    <close>27.9400</close>
+    <adjusted_close>18.9181</adjusted_close>
+    <volume>674137600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>28.3700</open>
+    <high>28.4400</high>
+    <low>22.5800</low>
+    <close>26.1000</close>
+    <adjusted_close>17.7506</adjusted_close>
+    <volume>1181099400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>26.1100</open>
+    <high>26.2400</high>
+    <low>22.7000</low>
+    <close>24.1200</close>
+    <adjusted_close>16.4040</adjusted_close>
+    <volume>894820200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>24.0500</open>
+    <high>27.5400</high>
+    <low>22.6100</low>
+    <close>25.9100</close>
+    <adjusted_close>17.6214</adjusted_close>
+    <volume>988797700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>24.7800</open>
+    <high>26.6300</high>
+    <low>23.1900</low>
+    <close>25.8600</close>
+    <adjusted_close>17.6730</adjusted_close>
+    <volume>717310700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>25.6200</open>
+    <high>27.9700</high>
+    <low>25.1800</low>
+    <close>27.5600</close>
+    <adjusted_close>18.8348</adjusted_close>
+    <volume>600958300</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>27.9400</open>
+    <high>31.0400</high>
+    <low>27.9400</low>
+    <close>29.2100</close>
+    <adjusted_close>19.9625</adjusted_close>
+    <volume>707418200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>29.6300</open>
+    <high>31.9000</high>
+    <low>29.5500</low>
+    <close>31.2900</close>
+    <adjusted_close>21.4722</adjusted_close>
+    <volume>574647800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>31.5600</open>
+    <high>34.5900</high>
+    <low>29.9900</low>
+    <close>34.1400</close>
+    <adjusted_close>23.4970</adjusted_close>
+    <volume>697532800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>33.8300</open>
+    <high>34.5900</high>
+    <low>32.4300</low>
+    <close>33.4200</close>
+    <adjusted_close>23.0014</adjusted_close>
+    <volume>511250200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>33.5500</open>
+    <high>34.3000</high>
+    <low>30.5200</low>
+    <close>32.0500</close>
+    <adjusted_close>22.2018</adjusted_close>
+    <volume>636432600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>31.4000</open>
+    <high>33.4400</high>
+    <low>29.8000</low>
+    <close>33.4400</close>
+    <adjusted_close>23.1647</adjusted_close>
+    <volume>638521500</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>33.6700</open>
+    <high>34.4000</high>
+    <low>32.6200</low>
+    <close>33.8100</close>
+    <adjusted_close>23.4210</adjusted_close>
+    <volume>494208900</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>33.9200</open>
+    <high>34.8000</high>
+    <low>32.8400</low>
+    <close>34.0300</close>
+    <adjusted_close>23.7271</adjusted_close>
+    <volume>414112100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>34.0400</open>
+    <high>36.6000</high>
+    <low>33.7300</low>
+    <close>34.5300</close>
+    <adjusted_close>24.0757</adjusted_close>
+    <volume>528817300</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>34.7800</open>
+    <high>36.3400</high>
+    <low>33.5000</low>
+    <close>33.6900</close>
+    <adjusted_close>23.4901</adjusted_close>
+    <volume>605743100</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>33.7500</open>
+    <high>34.4100</high>
+    <low>31.2500</low>
+    <close>33.0100</close>
+    <adjusted_close>23.1644</adjusted_close>
+    <volume>444703800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>33.1800</open>
+    <high>35.1900</high>
+    <low>32.4100</low>
+    <close>34.1800</close>
+    <adjusted_close>23.9855</adjusted_close>
+    <volume>465866000</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>35.0300</open>
+    <high>35.4600</high>
+    <low>34.4300</low>
+    <close>34.8300</close>
+    <adjusted_close>24.6161</adjusted_close>
+    <volume>524971600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>35.0600</open>
+    <high>35.9500</high>
+    <low>34.5200</low>
+    <close>35.0800</close>
+    <adjusted_close>24.7928</adjusted_close>
+    <volume>461294400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>34.9400</open>
+    <high>38.2000</high>
+    <low>34.8500</low>
+    <close>36.9900</close>
+    <adjusted_close>26.1427</adjusted_close>
+    <volume>443204500</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>37.0200</open>
+    <high>38.0400</high>
+    <low>36.1900</low>
+    <close>37.9800</close>
+    <adjusted_close>26.8423</adjusted_close>
+    <volume>468022100</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>37.9000</open>
+    <high>41.5900</high>
+    <low>37.2900</low>
+    <close>40.5500</close>
+    <adjusted_close>28.8843</adjusted_close>
+    <volume>461672500</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>40.8300</open>
+    <high>41.7400</high>
+    <low>39.4000</low>
+    <close>41.2700</close>
+    <adjusted_close>29.3972</adjusted_close>
+    <volume>433603700</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>41.5600</open>
+    <high>44.7900</high>
+    <low>40.7900</low>
+    <close>43.5000</close>
+    <adjusted_close>30.9857</adjusted_close>
+    <volume>457853600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>44.1900</open>
+    <high>44.7400</high>
+    <low>40.9200</low>
+    <close>41.0800</close>
+    <adjusted_close>29.4626</adjusted_close>
+    <volume>321439400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>41.6500</open>
+    <high>43.8300</high>
+    <low>40.8900</low>
+    <close>41.3200</close>
+    <adjusted_close>29.6347</adjusted_close>
+    <volume>366625700</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>41.3700</open>
+    <high>43.4000</high>
+    <low>40.0700</low>
+    <close>42.6900</close>
+    <adjusted_close>30.6173</adjusted_close>
+    <volume>426027500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>42.7200</open>
+    <high>44.7500</high>
+    <low>41.7100</low>
+    <close>44.0200</close>
+    <adjusted_close>31.7949</adjusted_close>
+    <volume>315449500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>44.1100</open>
+    <high>45.6400</high>
+    <low>43.2100</low>
+    <close>45.4000</close>
+    <adjusted_close>32.7917</adjusted_close>
+    <volume>325412900</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>45.1500</open>
+    <high>46.8400</high>
+    <low>44.9100</low>
+    <close>45.3400</close>
+    <adjusted_close>32.7483</adjusted_close>
+    <volume>387760100</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>45.3100</open>
+    <high>46.6500</high>
+    <low>44.1700</low>
+    <close>46.4200</close>
+    <adjusted_close>33.7546</adjusted_close>
+    <volume>303124800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>46.1100</open>
+    <high>49.9700</high>
+    <low>45.9600</low>
+    <close>49.7400</close>
+    <adjusted_close>36.1688</adjusted_close>
+    <volume>367718800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>49.8800</open>
+    <high>50.4900</high>
+    <low>46.7200</low>
+    <close>49.6400</close>
+    <adjusted_close>36.0960</adjusted_close>
+    <volume>374101800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>49.7400</open>
+    <high>50.8200</high>
+    <low>48.6600</low>
+    <close>50.7800</close>
+    <adjusted_close>37.1902</adjusted_close>
+    <volume>283041300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>50.9400</open>
+    <high>53.0500</high>
+    <low>50.7500</low>
+    <close>52.5600</close>
+    <adjusted_close>38.4938</adjusted_close>
+    <volume>291434500</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>52.7300</open>
+    <high>53.0800</high>
+    <low>50.6100</low>
+    <close>50.9000</close>
+    <adjusted_close>37.2780</adjusted_close>
+    <volume>350004200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>50.5000</open>
+    <high>51.7500</high>
+    <low>49.4700</low>
+    <close>51.4400</close>
+    <adjusted_close>37.9370</adjusted_close>
+    <volume>243207400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>51.7100</open>
+    <high>53.8000</high>
+    <low>51.0000</low>
+    <close>51.8700</close>
+    <adjusted_close>38.2541</adjusted_close>
+    <volume>272704900</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>51.8400</open>
+    <high>53.1700</high>
+    <low>46.4400</low>
+    <close>53.0900</close>
+    <adjusted_close>39.1539</adjusted_close>
+    <volume>438607500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>53.2200</open>
+    <high>54.7400</high>
+    <low>52.8700</low>
+    <close>54.4800</close>
+    <adjusted_close>40.4447</adjusted_close>
+    <volume>238274700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>54.4200</open>
+    <high>55.9500</high>
+    <low>52.7300</low>
+    <close>54.8200</close>
+    <adjusted_close>40.6971</adjusted_close>
+    <volume>356501200</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>55.1100</open>
+    <high>55.1900</high>
+    <low>50.4200</low>
+    <close>51.9200</close>
+    <adjusted_close>38.5442</adjusted_close>
+    <volume>388756400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>52.1900</open>
+    <high>55.5800</high>
+    <low>51.9900</low>
+    <close>54.7900</close>
+    <adjusted_close>40.9429</adjusted_close>
+    <volume>278034600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>54.7900</open>
+    <high>56.2900</high>
+    <low>53.2900</low>
+    <close>54.4000</close>
+    <adjusted_close>40.6515</adjusted_close>
+    <volume>348820200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>54.4200</open>
+    <high>55.7600</high>
+    <low>53.5600</low>
+    <close>55.1000</close>
+    <adjusted_close>41.1746</adjusted_close>
+    <volume>309923300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>55.2600</open>
+    <high>56.7000</high>
+    <low>54.4500</low>
+    <close>55.9600</close>
+    <adjusted_close>42.1006</adjusted_close>
+    <volume>266599600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>56.2400</open>
+    <high>58.2600</high>
+    <low>55.7400</low>
+    <close>56.2400</close>
+    <adjusted_close>42.3112</adjusted_close>
+    <volume>362266300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>57.0900</open>
+    <high>58.7700</high>
+    <low>55.0800</low>
+    <close>57.8700</close>
+    <adjusted_close>43.5375</adjusted_close>
+    <volume>300870000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>58.0700</open>
+    <high>58.1600</high>
+    <low>47.7500</low>
+    <close>53.3300</close>
+    <adjusted_close>40.3839</adjusted_close>
+    <volume>383406500</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>52.1100</open>
+    <high>53.9100</high>
+    <low>49.8000</low>
+    <close>51.3500</close>
+    <adjusted_close>38.8845</adjusted_close>
+    <volume>409157600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>51.5100</open>
+    <high>55.5700</high>
+    <low>49.5100</low>
+    <close>54.1400</close>
+    <adjusted_close>40.9972</adjusted_close>
+    <volume>353524000</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>54.2100</open>
+    <high>56.3400</high>
+    <low>54.1300</low>
+    <close>55.1000</close>
+    <adjusted_close>42.0110</adjusted_close>
+    <volume>268235700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>55.5100</open>
+    <high>56.2400</high>
+    <low>52.7500</low>
+    <close>54.3600</close>
+    <adjusted_close>41.4468</adjusted_close>
+    <volume>340655400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>53.0900</open>
+    <high>53.2700</high>
+    <low>46.8800</low>
+    <close>50.2300</close>
+    <adjusted_close>38.2979</adjusted_close>
+    <volume>472033500</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>50.1200</open>
+    <high>50.1800</high>
+    <low>44.5000</low>
+    <close>46.9200</close>
+    <adjusted_close>36.0510</adjusted_close>
+    <volume>473024200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>47.1400</open>
+    <high>50.7500</high>
+    <low>47.1400</low>
+    <close>48.3600</close>
+    <adjusted_close>37.1574</adjusted_close>
+    <volume>395938300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>48.2300</open>
+    <high>51.4100</high>
+    <low>46.6200</low>
+    <close>49.9800</close>
+    <adjusted_close>38.4022</adjusted_close>
+    <volume>376851000</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>50.2800</open>
+    <high>51.1900</high>
+    <low>47.5500</low>
+    <close>50.7200</close>
+    <adjusted_close>39.2692</adjusted_close>
+    <volume>363734500</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>50.2600</open>
+    <high>51.1100</high>
+    <low>44.5000</low>
+    <close>47.3300</close>
+    <adjusted_close>36.6445</adjusted_close>
+    <volume>460863700</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>47.0800</open>
+    <high>49.1500</high>
+    <low>45.7000</low>
+    <close>47.9700</close>
+    <adjusted_close>37.1400</adjusted_close>
+    <volume>353764100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>47.9800</open>
+    <high>50.9200</high>
+    <low>47.3300</low>
+    <close>50.8000</close>
+    <adjusted_close>39.6470</adjusted_close>
+    <volume>356092400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>50.9200</open>
+    <high>51.0000</high>
+    <low>44.1000</low>
+    <close>44.2800</close>
+    <adjusted_close>34.5584</adjusted_close>
+    <volume>760596400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>44.1200</open>
+    <high>46.8100</high>
+    <low>43.5500</low>
+    <close>46.0100</close>
+    <adjusted_close>35.9086</adjusted_close>
+    <volume>586021900</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>46.1200</open>
+    <high>54.0600</high>
+    <low>44.4900</low>
+    <close>52.9200</close>
+    <adjusted_close>41.6456</adjusted_close>
+    <volume>672239000</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>53.1300</open>
+    <high>58.0200</high>
+    <low>53.0600</low>
+    <close>55.1100</close>
+    <adjusted_close>43.3691</adjusted_close>
+    <volume>514610900</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>55.6700</open>
+    <high>57.3300</high>
+    <low>53.3400</low>
+    <close>56.3300</close>
+    <adjusted_close>44.3291</adjusted_close>
+    <volume>433876600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>56.5400</open>
+    <high>59.0100</high>
+    <low>55.1700</low>
+    <close>57.8800</close>
+    <adjusted_close>45.8583</adjusted_close>
+    <volume>302405300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>59.1100</open>
+    <high>59.9900</high>
+    <low>54.2400</low>
+    <close>55.6600</close>
+    <adjusted_close>44.0994</adjusted_close>
+    <volume>395621300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>55.7000</open>
+    <high>56.2000</high>
+    <low>51.2600</low>
+    <close>53.8400</close>
+    <adjusted_close>42.6574</adjusted_close>
+    <volume>413088700</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>54.1000</open>
+    <high>55.6000</high>
+    <low>50.8300</low>
+    <close>51.1400</close>
+    <adjusted_close>40.8025</adjusted_close>
+    <volume>397353300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>51.5300</open>
+    <high>56.6000</high>
+    <low>51.0600</low>
+    <close>55.4100</close>
+    <adjusted_close>44.2093</adjusted_close>
+    <volume>407671900</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>55.8100</open>
+    <high>56.4500</high>
+    <low>53.1800</low>
+    <close>53.9400</close>
+    <adjusted_close>43.0365</adjusted_close>
+    <volume>323918200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>54.2300</open>
+    <high>54.3900</high>
+    <low>50.8700</low>
+    <close>51.0700</close>
+    <adjusted_close>41.0426</adjusted_close>
+    <volume>394552400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>51.0600</open>
+    <high>55.2300</high>
+    <low>49.2700</low>
+    <close>55.1500</close>
+    <adjusted_close>44.3215</adjusted_close>
+    <volume>375336300</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>55.1600</open>
+    <high>56.5200</high>
+    <low>52.8400</low>
+    <close>56.1400</close>
+    <adjusted_close>45.1171</adjusted_close>
+    <volume>375160400</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>56.3200</open>
+    <high>57.3300</high>
+    <low>53.2100</low>
+    <close>56.4700</close>
+    <adjusted_close>45.6994</adjusted_close>
+    <volume>368177900</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>56.5700</open>
+    <high>62.2400</high>
+    <low>55.4400</low>
+    <close>60.6700</close>
+    <adjusted_close>49.0983</adjusted_close>
+    <volume>422124100</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>61.0400</open>
+    <high>66.3100</high>
+    <low>60.7000</low>
+    <close>65.7800</close>
+    <adjusted_close>53.2337</adjusted_close>
+    <volume>362611700</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>65.3700</open>
+    <high>66.0900</high>
+    <low>54.7200</low>
+    <close>58.4100</close>
+    <adjusted_close>47.5513</adjusted_close>
+    <volume>601421000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>58.2500</open>
+    <high>58.9400</high>
+    <low>50.6900</low>
+    <close>52.4100</close>
+    <adjusted_close>42.6668</adjusted_close>
+    <volume>463858700</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>52.3700</open>
+    <high>53.9600</high>
+    <low>50.2600</low>
+    <close>51.9600</close>
+    <adjusted_close>42.3004</adjusted_close>
+    <volume>435118800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>51.7600</open>
+    <high>56.1800</high>
+    <low>50.8100</low>
+    <close>53.9900</close>
+    <adjusted_close>44.2839</adjusted_close>
+    <volume>402405200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>54.5600</open>
+    <high>57.1200</high>
+    <low>53.0200</low>
+    <close>55.4400</close>
+    <adjusted_close>45.4733</adjusted_close>
+    <volume>387613300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>55.2000</open>
+    <high>59.2700</high>
+    <low>53.6300</low>
+    <close>57.2900</close>
+    <adjusted_close>46.9907</adjusted_close>
+    <volume>413772800</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>57.9600</open>
+    <high>59.5300</high>
+    <low>57.0800</low>
+    <close>58.4800</close>
+    <adjusted_close>48.3178</adjusted_close>
+    <volume>374293600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>58.4500</open>
+    <high>59.2000</high>
+    <low>52.4100</low>
+    <close>52.5600</close>
+    <adjusted_close>43.4265</adjusted_close>
+    <volume>406124000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>52.7400</open>
+    <high>55.0100</high>
+    <low>50.0200</low>
+    <close>53.2300</close>
+    <adjusted_close>43.9801</adjusted_close>
+    <volume>546018500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>53.4300</open>
+    <high>54.6300</high>
+    <low>51.1600</low>
+    <close>54.2800</close>
+    <adjusted_close>45.2104</adjusted_close>
+    <volume>419240800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>54.7800</open>
+    <high>55.0400</high>
+    <low>43.0200</low>
+    <close>46.0800</close>
+    <adjusted_close>38.3806</adjusted_close>
+    <volume>597259600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>45.5300</open>
+    <high>50.5400</high>
+    <low>45.4100</low>
+    <close>48.9100</close>
+    <adjusted_close>41.1070</adjusted_close>
+    <volume>470423300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>49.0000</open>
+    <high>50.2300</high>
+    <low>47.0600</low>
+    <close>49.8900</close>
+    <adjusted_close>41.9307</adjusted_close>
+    <volume>331490100</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>50.2300</open>
+    <high>52.4200</high>
+    <low>47.8000</low>
+    <close>48.3200</close>
+    <adjusted_close>40.6111</adjusted_close>
+    <volume>463436000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>48.4300</open>
+    <high>49.6800</high>
+    <low>45.6600</low>
+    <close>48.4100</close>
+    <adjusted_close>40.6868</adjusted_close>
+    <volume>556953700</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>48.3200</open>
+    <high>48.8500</high>
+    <low>44.2200</low>
+    <close>44.3700</close>
+    <adjusted_close>37.6518</adjusted_close>
+    <volume>413827600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>44.2400</open>
+    <high>47.7000</high>
+    <low>44.2000</low>
+    <close>47.3200</close>
+    <adjusted_close>40.1551</adjusted_close>
+    <volume>382936800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>47.8800</open>
+    <high>49.5700</high>
+    <low>45.1400</low>
+    <close>48.4100</close>
+    <adjusted_close>41.0801</adjusted_close>
+    <volume>411656700</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>48.4100</open>
+    <high>48.6400</high>
+    <low>43.3400</low>
+    <close>46.5700</close>
+    <adjusted_close>39.9636</adjusted_close>
+    <volume>424863900</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>46.3100</open>
+    <high>51.4100</high>
+    <low>45.4800</low>
+    <close>50.4400</close>
+    <adjusted_close>43.2846</adjusted_close>
+    <volume>468177600</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>50.6500</open>
+    <high>52.3600</high>
+    <low>47.3200</low>
+    <close>51.6300</close>
+    <adjusted_close>44.3058</adjusted_close>
+    <volume>463966700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>52.1300</open>
+    <high>54.7500</high>
+    <low>51.9100</low>
+    <close>54.4600</close>
+    <adjusted_close>47.1816</adjusted_close>
+    <volume>328835000</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>54.3100</open>
+    <high>54.5600</high>
+    <low>52.1700</low>
+    <close>53.8000</close>
+    <adjusted_close>46.6098</adjusted_close>
+    <volume>390643100</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>53.8500</open>
+    <high>54.0400</high>
+    <low>46.7400</low>
+    <close>46.9400</close>
+    <adjusted_close>40.6666</adjusted_close>
+    <volume>484374600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>47.2400</open>
+    <high>48.5000</high>
+    <low>39.7500</low>
+    <close>40.8500</close>
+    <adjusted_close>35.7681</adjusted_close>
+    <volume>428717900</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>40.9800</open>
+    <high>42.9000</high>
+    <low>25.1100</low>
+    <close>28.7000</close>
+    <adjusted_close>25.1296</adjusted_close>
+    <volume>1116095800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>27.0200</open>
+    <high>33.9100</high>
+    <low>25.9100</low>
+    <close>29.0500</close>
+    <adjusted_close>25.4361</adjusted_close>
+    <volume>868161800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>28.5000</open>
+    <high>28.5300</high>
+    <low>22.0000</low>
+    <close>26.4700</close>
+    <adjusted_close>23.6480</adjusted_close>
+    <volume>1055454900</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>26.6100</open>
+    <high>33.8900</high>
+    <low>25.1700</low>
+    <close>25.6000</close>
+    <adjusted_close>22.8707</adjusted_close>
+    <volume>1222761300</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>25.7300</open>
+    <high>26.8500</high>
+    <low>23.3300</low>
+    <close>24.2600</close>
+    <adjusted_close>21.6736</adjusted_close>
+    <volume>1032529700</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>24.2500</open>
+    <high>26.1400</high>
+    <low>23.5200</low>
+    <close>24.1500</close>
+    <adjusted_close>21.6641</adjusted_close>
+    <volume>736133000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>24.0200</open>
+    <high>26.0000</high>
+    <low>22.5600</low>
+    <close>23.5100</close>
+    <adjusted_close>21.0900</adjusted_close>
+    <volume>997591200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>23.5700</open>
+    <high>25.7400</high>
+    <low>20.7600</low>
+    <close>21.4500</close>
+    <adjusted_close>19.2420</adjusted_close>
+    <volume>820494900</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>21.7000</open>
+    <high>28.7300</high>
+    <low>21.1700</low>
+    <close>27.3500</close>
+    <adjusted_close>24.6474</adjusted_close>
+    <volume>868248500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>28.1500</open>
+    <high>30.4900</high>
+    <low>27.8500</low>
+    <close>30.1800</close>
+    <adjusted_close>27.1977</adjusted_close>
+    <volume>737667600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>30.3200</open>
+    <high>35.1000</high>
+    <low>29.4000</low>
+    <close>29.8800</close>
+    <adjusted_close>26.9274</adjusted_close>
+    <volume>798079600</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>30.1400</open>
+    <high>38.6800</high>
+    <low>29.6800</low>
+    <close>36.1700</close>
+    <adjusted_close>32.6989</adjusted_close>
+    <volume>655506000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>37.1100</open>
+    <high>41.5400</high>
+    <low>36.3400</low>
+    <close>39.0700</close>
+    <adjusted_close>35.3207</adjusted_close>
+    <volume>781557400</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>38.9600</open>
+    <high>46.3900</high>
+    <low>38.9200</low>
+    <close>45.0500</close>
+    <adjusted_close>40.7268</adjusted_close>
+    <volume>634499100</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>45.4500</open>
+    <high>48.1300</high>
+    <low>44.6700</low>
+    <close>46.7200</close>
+    <adjusted_close>42.3287</adjusted_close>
+    <volume>526684700</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>47.1600</open>
+    <high>47.4600</high>
+    <low>41.4700</low>
+    <close>45.2900</close>
+    <adjusted_close>41.0331</adjusted_close>
+    <volume>607672400</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>45.4800</open>
+    <high>46.8500</high>
+    <low>41.9700</low>
+    <close>45.9400</close>
+    <adjusted_close>41.6220</adjusted_close>
+    <volume>560767400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>46.0400</open>
+    <high>51.4100</high>
+    <low>45.1100</low>
+    <close>45.7000</close>
+    <adjusted_close>41.5847</adjusted_close>
+    <volume>528672200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>45.7000</open>
+    <high>48.9400</high>
+    <low>43.2700</low>
+    <close>46.4100</close>
+    <adjusted_close>42.2308</adjusted_close>
+    <volume>651312400</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>46.5500</open>
+    <high>51.6400</high>
+    <low>44.8300</low>
+    <close>51.1600</close>
+    <adjusted_close>46.5531</adjusted_close>
+    <volume>516094300</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>51.5600</open>
+    <high>52.5700</high>
+    <low>47.3200</low>
+    <close>47.7800</close>
+    <adjusted_close>43.6453</adjusted_close>
+    <volume>501550700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>48.6900</open>
+    <high>50.8200</high>
+    <low>46.2500</low>
+    <close>47.9800</close>
+    <adjusted_close>43.8280</adjusted_close>
+    <volume>518911300</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>48.9300</open>
+    <high>58.8700</high>
+    <low>48.9200</low>
+    <close>53.8000</close>
+    <adjusted_close>49.1444</adjusted_close>
+    <volume>742893200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>54.7200</open>
+    <high>60.3000</high>
+    <low>50.6800</low>
+    <close>53.3700</close>
+    <adjusted_close>48.9705</adjusted_close>
+    <volume>569263200</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>52.4400</open>
+    <high>54.2000</high>
+    <low>45.7700</low>
+    <close>48.4600</close>
+    <adjusted_close>44.4652</adjusted_close>
+    <volume>754688700</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>49.2500</open>
+    <high>50.1900</high>
+    <low>43.5100</low>
+    <close>43.6300</close>
+    <adjusted_close>40.0334</adjusted_close>
+    <volume>521880200</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>43.8700</open>
+    <high>46.2700</high>
+    <low>40.7400</low>
+    <close>45.7700</close>
+    <adjusted_close>42.2266</adjusted_close>
+    <volume>548344800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>45.9600</open>
+    <high>46.0700</high>
+    <low>36.5400</low>
+    <close>39.1700</close>
+    <adjusted_close>36.1375</adjusted_close>
+    <volume>503139500</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>38.7200</open>
+    <high>44.3500</high>
+    <low>37.4300</low>
+    <close>43.8700</close>
+    <adjusted_close>40.4736</adjusted_close>
+    <volume>377913800</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>43.4400</open>
+    <high>46.3200</high>
+    <low>42.5300</low>
+    <close>43.7100</close>
+    <adjusted_close>40.6036</adjusted_close>
+    <volume>308752700</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>43.6600</open>
+    <high>46.1400</high>
+    <low>39.3400</low>
+    <close>40.2200</close>
+    <adjusted_close>37.3616</adjusted_close>
+    <volume>354330500</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>41.2900</open>
+    <high>46.5200</high>
+    <low>39.7500</low>
+    <close>45.9900</close>
+    <adjusted_close>42.7215</adjusted_close>
+    <volume>383039100</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>46.5800</open>
+    <high>48.3600</high>
+    <low>45.4100</low>
+    <close>47.9500</close>
+    <adjusted_close>44.8291</adjusted_close>
+    <volume>348895000</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>47.9300</open>
+    <high>48.1800</high>
+    <low>40.0200</low>
+    <close>41.2900</close>
+    <adjusted_close>38.6026</adjusted_close>
+    <volume>414604800</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>41.6100</open>
+    <high>46.8800</high>
+    <low>40.4600</low>
+    <close>46.8700</close>
+    <adjusted_close>43.8194</adjusted_close>
+    <volume>398335300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>46.6600</open>
+    <high>48.8400</high>
+    <low>45.6900</low>
+    <close>46.7700</close>
+    <adjusted_close>44.0048</adjusted_close>
+    <volume>314575300</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>46.5000</open>
+    <high>47.1800</high>
+    <low>35.2500</low>
+    <close>37.3800</close>
+    <adjusted_close>35.1700</adjusted_close>
+    <volume>730423100</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>37.5200</open>
+    <high>42.4100</high>
+    <low>36.2700</low>
+    <close>39.7500</close>
+    <adjusted_close>37.3999</adjusted_close>
+    <volume>450940100</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>40.4900</open>
+    <high>42.1200</high>
+    <low>36.4000</low>
+    <close>39.8100</close>
+    <adjusted_close>37.7493</adjusted_close>
+    <volume>538516100</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>40.2100</open>
+    <high>43.3400</high>
+    <low>39.6800</low>
+    <close>42.6800</close>
+    <adjusted_close>40.4708</adjusted_close>
+    <volume>363195000</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>42.8800</open>
+    <high>47.2400</high>
+    <low>42.0700</low>
+    <close>46.1600</close>
+    <adjusted_close>43.7706</adjusted_close>
+    <volume>340830500</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>46.0100</open>
+    <high>46.1600</high>
+    <low>40.7700</low>
+    <close>41.2900</close>
+    <adjusted_close>39.4590</adjusted_close>
+    <volume>284173100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>41.5500</open>
+    <high>43.7400</high>
+    <low>40.3000</low>
+    <close>40.8600</close>
+    <adjusted_close>39.0480</adjusted_close>
+    <volume>333548000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>40.7000</open>
+    <high>42.3700</high>
+    <low>38.3900</low>
+    <close>39.7700</close>
+    <adjusted_close>38.0064</adjusted_close>
+    <volume>341744500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>39.9600</open>
+    <high>44.7500</high>
+    <low>39.2800</low>
+    <close>44.5900</close>
+    <adjusted_close>42.9925</adjusted_close>
+    <volume>328148500</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>44.5100</open>
+    <high>50.7700</high>
+    <low>44.3800</low>
+    <close>49.2200</close>
+    <adjusted_close>47.4566</adjusted_close>
+    <volume>382836700</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>49.0500</open>
+    <high>51.4400</high>
+    <low>46.1200</low>
+    <close>50.1800</close>
+    <adjusted_close>48.3822</adjusted_close>
+    <volume>388441000</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>49.8200</open>
+    <high>55.7000</high>
+    <low>47.4500</low>
+    <close>55.5900</close>
+    <adjusted_close>53.9749</adjusted_close>
+    <volume>395337800</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>55.4000</open>
+    <high>58.4400</high>
+    <low>54.7300</low>
+    <close>57.9600</close>
+    <adjusted_close>56.2760</adjusted_close>
+    <volume>384218700</volume>
+    <news>WFC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>57.8800</open>
+    <high>61.7600</high>
+    <low>55.3400</low>
+    <close>59.3200</close>
+    <adjusted_close>57.5965</adjusted_close>
+    <volume>413690600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>59.5800</open>
+    <high>62.5500</high>
+    <low>58.4200</low>
+    <close>59.9200</close>
+    <adjusted_close>58.5135</adjusted_close>
+    <volume>342804600</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>60.2000</open>
+    <high>60.2000</high>
+    <low>56.3300</low>
+    <close>59.3900</close>
+    <adjusted_close>57.9960</adjusted_close>
+    <volume>377118800</volume>
+    <news>WFC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>59.6100</open>
+    <high>61.1800</high>
+    <low>55.6000</low>
+    <close>59.3400</close>
+    <adjusted_close>57.9472</adjusted_close>
+    <volume>343211000</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>59.2600</open>
+    <high>59.3400</high>
+    <low>50.1500</low>
+    <close>58.4700</close>
+    <adjusted_close>57.5338</adjusted_close>
+    <volume>348723100</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>58.6200</open>
+    <high>59.0000</high>
+    <low>50.2200</low>
+    <close>56.4900</close>
+    <adjusted_close>55.5855</adjusted_close>
+    <volume>420231200</volume>
+    <news>WFC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>56.0000</open>
+    <high>66.4000</high>
+    <low>54.4100</low>
+    <close>64.9200</close>
+    <adjusted_close>63.8805</adjusted_close>
+    <volume>387173600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>65.2200</open>
+    <high>78.1300</high>
+    <low>63.0500</low>
+    <close>76.1700</close>
+    <adjusted_close>75.3822</adjusted_close>
+    <volume>382978600</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>76.9500</open>
+    <high>76.9500</high>
+    <low>68.6100</low>
+    <close>70.2400</close>
+    <adjusted_close>69.5136</adjusted_close>
+    <volume>322967900</volume>
+    <news>WFC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</wells_fargo_stock_data>

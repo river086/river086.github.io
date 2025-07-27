@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<walgreens_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>28.5000</open>
+    <high>30.9375</high>
+    <low>26.3750</low>
+    <close>27.9375</close>
+    <adjusted_close>15.8325</adjusted_close>
+    <volume>44162400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>27.6875</open>
+    <high>30.6250</high>
+    <low>25.0000</low>
+    <close>25.8125</close>
+    <adjusted_close>14.6457</adjusted_close>
+    <volume>38014200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>25.8750</open>
+    <high>28.4375</high>
+    <low>22.0625</low>
+    <close>25.7500</close>
+    <adjusted_close>14.6102</adjusted_close>
+    <volume>69799400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>26.0000</open>
+    <high>29.5000</high>
+    <low>25.0000</low>
+    <close>28.1250</close>
+    <adjusted_close>15.9578</adjusted_close>
+    <volume>45936900</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>27.6875</open>
+    <high>29.5625</high>
+    <low>25.7500</low>
+    <close>28.3750</close>
+    <adjusted_close>16.1189</adjusted_close>
+    <volume>39431100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>28.3750</open>
+    <high>32.2969</high>
+    <low>26.7500</low>
+    <close>32.1875</close>
+    <adjusted_close>18.2846</adjusted_close>
+    <volume>36485400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>31.6875</open>
+    <high>33.5000</high>
+    <low>29.0000</low>
+    <close>31.1875</close>
+    <adjusted_close>17.7166</adjusted_close>
+    <volume>36772200</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>31.3125</open>
+    <high>36.0000</high>
+    <low>30.1875</low>
+    <close>32.8906</close>
+    <adjusted_close>18.7041</adjusted_close>
+    <volume>40396800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>32.9375</open>
+    <high>39.5625</high>
+    <low>32.7500</low>
+    <close>37.9375</close>
+    <adjusted_close>21.5741</adjusted_close>
+    <volume>44290700</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>37.4375</open>
+    <high>45.7500</high>
+    <low>36.7500</low>
+    <close>45.6250</close>
+    <adjusted_close>25.9459</adjusted_close>
+    <volume>51938100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>44.0625</open>
+    <high>45.6250</high>
+    <low>41.0000</low>
+    <close>44.5625</close>
+    <adjusted_close>25.3623</adjusted_close>
+    <volume>52519200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>44.1250</open>
+    <high>44.4375</high>
+    <low>37.2500</low>
+    <close>41.8125</close>
+    <adjusted_close>23.7972</adjusted_close>
+    <volume>49560100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>40.5000</open>
+    <high>40.9400</high>
+    <low>35.3750</low>
+    <close>40.9400</close>
+    <adjusted_close>23.3006</adjusted_close>
+    <volume>62512100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>41.1200</open>
+    <high>45.0000</high>
+    <low>40.6500</low>
+    <close>44.3200</close>
+    <adjusted_close>25.2454</adjusted_close>
+    <volume>46422200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>43.7500</open>
+    <high>45.2900</high>
+    <low>38.5600</low>
+    <close>40.8000</close>
+    <adjusted_close>23.2403</adjusted_close>
+    <volume>64884100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>40.7000</open>
+    <high>43.4400</high>
+    <low>37.1300</low>
+    <close>42.7800</close>
+    <adjusted_close>24.3682</adjusted_close>
+    <volume>47290600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>42.6500</open>
+    <high>44.3000</high>
+    <low>39.3600</low>
+    <close>40.1900</close>
+    <adjusted_close>22.9127</adjusted_close>
+    <volume>51211100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>39.9400</open>
+    <high>42.4000</high>
+    <low>34.1100</low>
+    <close>34.4600</close>
+    <adjusted_close>19.6460</adjusted_close>
+    <volume>77830000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>34.0500</open>
+    <high>35.0200</high>
+    <low>31.0000</low>
+    <close>33.7000</close>
+    <adjusted_close>19.2127</adjusted_close>
+    <volume>72757800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>33.5000</open>
+    <high>37.4900</high>
+    <low>33.0100</low>
+    <close>34.3500</close>
+    <adjusted_close>19.6023</adjusted_close>
+    <volume>55850400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>34.1000</open>
+    <high>35.9500</high>
+    <low>28.7000</low>
+    <close>34.4300</close>
+    <adjusted_close>19.6479</adjusted_close>
+    <volume>53994800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>34.4300</open>
+    <high>36.0000</high>
+    <low>31.2000</low>
+    <close>32.3800</close>
+    <adjusted_close>18.4781</adjusted_close>
+    <volume>53736800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>32.3900</open>
+    <high>35.3900</high>
+    <low>31.0000</low>
+    <close>33.0000</close>
+    <adjusted_close>18.8524</adjusted_close>
+    <volume>60162600</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>32.9600</open>
+    <high>34.3200</high>
+    <low>30.7200</low>
+    <close>33.6600</close>
+    <adjusted_close>19.2294</adjusted_close>
+    <volume>57640100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>33.6000</open>
+    <high>36.9400</high>
+    <low>32.5300</low>
+    <close>36.2800</close>
+    <adjusted_close>20.7262</adjusted_close>
+    <volume>62881300</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>36.3800</open>
+    <high>40.7000</high>
+    <low>35.5000</low>
+    <close>40.2400</close>
+    <adjusted_close>23.0103</adjusted_close>
+    <volume>55939100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>40.0000</open>
+    <high>40.2900</high>
+    <low>38.0700</low>
+    <close>39.1900</close>
+    <adjusted_close>22.4099</adjusted_close>
+    <volume>43746000</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>39.0400</open>
+    <high>40.0000</high>
+    <low>37.2100</low>
+    <close>37.7700</close>
+    <adjusted_close>21.5979</adjusted_close>
+    <volume>43935400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>37.6200</open>
+    <high>38.8700</high>
+    <low>36.1000</low>
+    <close>38.2600</close>
+    <adjusted_close>21.8990</adjusted_close>
+    <volume>41290300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>38.5000</open>
+    <high>39.4900</high>
+    <low>36.2600</low>
+    <close>38.6300</close>
+    <adjusted_close>22.1107</adjusted_close>
+    <volume>53405100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>38.6400</open>
+    <high>39.4500</high>
+    <low>30.2000</low>
+    <close>35.3300</close>
+    <adjusted_close>20.2219</adjusted_close>
+    <volume>79725800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>35.4500</open>
+    <high>37.7000</high>
+    <low>32.6000</low>
+    <close>34.7500</close>
+    <adjusted_close>19.9092</adjusted_close>
+    <volume>59971500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>34.7500</open>
+    <high>35.8800</high>
+    <low>29.0100</low>
+    <close>30.7600</close>
+    <adjusted_close>17.6232</adjusted_close>
+    <volume>65130300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>30.6100</open>
+    <high>36.2000</high>
+    <low>30.0000</low>
+    <close>33.7500</close>
+    <adjusted_close>19.3363</adjusted_close>
+    <volume>80823300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>33.2900</open>
+    <high>34.1000</high>
+    <low>28.0500</low>
+    <close>28.7900</close>
+    <adjusted_close>16.5143</adjusted_close>
+    <volume>78879400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>29.2900</open>
+    <high>30.4500</high>
+    <low>27.7000</low>
+    <close>29.1900</close>
+    <adjusted_close>16.7437</adjusted_close>
+    <volume>84075800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>29.6000</open>
+    <high>32.9900</high>
+    <low>28.6700</low>
+    <close>29.0000</close>
+    <adjusted_close>16.6347</adjusted_close>
+    <volume>77642800</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>29.0700</open>
+    <high>29.5700</high>
+    <low>26.9000</low>
+    <close>28.1400</close>
+    <adjusted_close>16.1635</adjusted_close>
+    <volume>53296600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>28.2000</open>
+    <high>31.9000</high>
+    <low>27.3300</low>
+    <close>29.4800</close>
+    <adjusted_close>16.9331</adjusted_close>
+    <volume>63609500</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>29.4800</open>
+    <high>32.7400</high>
+    <low>29.1500</low>
+    <close>30.8600</close>
+    <adjusted_close>17.7258</adjusted_close>
+    <volume>69177300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>30.8600</open>
+    <high>33.6600</high>
+    <low>29.9200</low>
+    <close>30.7900</close>
+    <adjusted_close>17.7067</adjusted_close>
+    <volume>75910200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>30.9000</open>
+    <high>33.2800</high>
+    <low>28.8000</low>
+    <close>30.1000</close>
+    <adjusted_close>17.3099</adjusted_close>
+    <volume>86845000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>30.5300</open>
+    <high>31.4500</high>
+    <low>28.9000</low>
+    <close>29.9200</close>
+    <adjusted_close>17.2064</adjusted_close>
+    <volume>90231900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>29.8000</open>
+    <high>32.6600</high>
+    <low>29.3100</low>
+    <close>32.5700</close>
+    <adjusted_close>18.7569</adjusted_close>
+    <volume>62116300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>32.7300</open>
+    <high>32.8900</high>
+    <low>30.1800</low>
+    <close>30.6400</close>
+    <adjusted_close>17.6455</adjusted_close>
+    <volume>75185900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>30.7500</open>
+    <high>35.6400</high>
+    <low>30.7200</low>
+    <close>34.8200</close>
+    <adjusted_close>20.0527</adjusted_close>
+    <volume>68690300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>34.7600</open>
+    <high>37.0000</high>
+    <low>34.7600</low>
+    <close>36.8100</close>
+    <adjusted_close>21.2239</adjusted_close>
+    <volume>43285000</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>36.9800</open>
+    <high>37.4200</high>
+    <low>34.4700</low>
+    <close>36.3800</close>
+    <adjusted_close>20.9760</adjusted_close>
+    <volume>65685200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>36.4300</open>
+    <high>36.7600</high>
+    <low>33.7300</low>
+    <close>34.5500</close>
+    <adjusted_close>19.9208</adjusted_close>
+    <volume>62757000</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>34.5100</open>
+    <high>35.9900</high>
+    <low>33.6300</low>
+    <close>35.6600</close>
+    <adjusted_close>20.5865</adjusted_close>
+    <volume>60493100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>35.5500</open>
+    <high>35.8000</high>
+    <low>32.0000</low>
+    <close>32.9500</close>
+    <adjusted_close>19.0220</adjusted_close>
+    <volume>74079600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>32.9400</open>
+    <high>34.6500</high>
+    <low>32.4000</low>
+    <close>34.4800</close>
+    <adjusted_close>19.9053</adjusted_close>
+    <volume>66011200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>34.8500</open>
+    <high>35.5400</high>
+    <low>33.2800</low>
+    <close>35.0100</close>
+    <adjusted_close>20.2369</adjusted_close>
+    <volume>60280600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>35.0500</open>
+    <high>36.6600</high>
+    <low>34.2600</low>
+    <close>36.2100</close>
+    <adjusted_close>20.9305</adjusted_close>
+    <volume>52943100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>36.0300</open>
+    <high>37.8200</high>
+    <low>35.3500</low>
+    <close>36.4000</close>
+    <adjusted_close>21.0403</adjusted_close>
+    <volume>58367800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>36.1700</open>
+    <high>37.7600</high>
+    <low>34.8900</low>
+    <close>36.4500</close>
+    <adjusted_close>21.0993</adjusted_close>
+    <volume>47953400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>36.4500</open>
+    <high>38.0700</high>
+    <low>35.7000</low>
+    <close>35.8300</close>
+    <adjusted_close>20.7404</adjusted_close>
+    <volume>52557500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>35.8700</open>
+    <high>37.2600</high>
+    <low>35.0500</low>
+    <close>35.8900</close>
+    <adjusted_close>20.7751</adjusted_close>
+    <volume>55444700</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>35.9500</open>
+    <high>39.5100</high>
+    <low>35.6300</low>
+    <close>38.1800</close>
+    <adjusted_close>22.1308</adjusted_close>
+    <volume>55392300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>38.2300</open>
+    <high>39.3700</high>
+    <low>38.1100</low>
+    <close>38.3700</close>
+    <adjusted_close>22.2409</adjusted_close>
+    <volume>48959200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>39.7500</open>
+    <high>43.2700</high>
+    <low>39.6600</low>
+    <close>42.6100</close>
+    <adjusted_close>24.6986</adjusted_close>
+    <volume>82671900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>42.6100</open>
+    <high>44.1900</high>
+    <low>41.3100</low>
+    <close>42.8300</close>
+    <adjusted_close>24.8572</adjusted_close>
+    <volume>55014900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>43.0100</open>
+    <high>46.7500</high>
+    <low>42.1100</low>
+    <close>44.4200</close>
+    <adjusted_close>25.7800</adjusted_close>
+    <volume>81015600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>44.5100</open>
+    <high>44.8500</high>
+    <low>41.5100</low>
+    <close>43.0600</close>
+    <adjusted_close>24.9907</adjusted_close>
+    <volume>62086400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>43.3000</open>
+    <high>46.7400</high>
+    <low>43.0400</low>
+    <close>45.3400</close>
+    <adjusted_close>26.3447</adjusted_close>
+    <volume>49324200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>45.3400</open>
+    <high>47.3900</high>
+    <low>44.0100</low>
+    <close>45.9900</close>
+    <adjusted_close>26.7223</adjusted_close>
+    <volume>61036300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>46.2400</open>
+    <high>48.1800</high>
+    <low>45.8100</low>
+    <close>47.8600</close>
+    <adjusted_close>27.8089</adjusted_close>
+    <volume>47466300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>48.3200</open>
+    <high>49.0100</high>
+    <low>45.1500</low>
+    <close>46.3300</close>
+    <adjusted_close>26.9569</adjusted_close>
+    <volume>56318800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>46.2200</open>
+    <high>46.7500</high>
+    <low>40.9800</low>
+    <close>43.4500</close>
+    <adjusted_close>25.2811</adjusted_close>
+    <volume>90252800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>43.4500</open>
+    <high>46.3000</high>
+    <low>42.6200</low>
+    <close>45.4300</close>
+    <adjusted_close>26.4332</adjusted_close>
+    <volume>82818500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>45.4300</open>
+    <high>48.2500</high>
+    <low>44.5300</low>
+    <close>45.6800</close>
+    <adjusted_close>26.6160</adjusted_close>
+    <volume>67959800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>45.7700</open>
+    <high>47.0500</high>
+    <low>43.8400</low>
+    <close>44.2600</close>
+    <adjusted_close>25.7886</adjusted_close>
+    <volume>57426100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>44.6300</open>
+    <high>45.5000</high>
+    <low>42.1300</low>
+    <close>43.2800</close>
+    <adjusted_close>25.2176</adjusted_close>
+    <volume>76671400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>43.1700</open>
+    <high>46.3900</high>
+    <low>42.6100</low>
+    <close>44.8600</close>
+    <adjusted_close>26.1762</adjusted_close>
+    <volume>55653400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>45.0300</open>
+    <high>46.0700</high>
+    <low>43.0300</low>
+    <close>43.1300</close>
+    <adjusted_close>25.1667</adjusted_close>
+    <volume>72657500</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>43.2600</open>
+    <high>44.6300</high>
+    <low>41.5300</low>
+    <close>41.9300</close>
+    <adjusted_close>24.4665</adjusted_close>
+    <volume>61791300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>42.6000</open>
+    <high>42.7800</high>
+    <low>39.5500</low>
+    <close>40.6000</close>
+    <adjusted_close>23.7290</adjusted_close>
+    <volume>92282100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>40.5500</open>
+    <high>45.3700</high>
+    <low>40.4500</low>
+    <close>44.8400</close>
+    <adjusted_close>26.2071</adjusted_close>
+    <volume>98835800</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>44.7500</open>
+    <high>48.1700</high>
+    <low>44.7100</low>
+    <close>46.7800</close>
+    <adjusted_close>27.3410</adjusted_close>
+    <volume>74832300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>46.5000</open>
+    <high>50.0000</high>
+    <low>45.8800</low>
+    <close>49.4600</close>
+    <adjusted_close>28.9528</adjusted_close>
+    <volume>66860300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>49.6000</open>
+    <high>51.6000</high>
+    <low>42.9500</low>
+    <close>44.3900</close>
+    <adjusted_close>25.9849</adjusted_close>
+    <volume>163727100</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>44.7800</open>
+    <high>45.1000</high>
+    <low>41.3600</low>
+    <close>43.6800</close>
+    <adjusted_close>25.5693</adjusted_close>
+    <volume>169771100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>43.2500</open>
+    <high>43.7800</high>
+    <low>39.9100</low>
+    <close>40.4900</close>
+    <adjusted_close>23.7447</adjusted_close>
+    <volume>151018400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>40.4500</open>
+    <high>47.2800</high>
+    <low>40.0500</low>
+    <close>45.8900</close>
+    <adjusted_close>26.9115</adjusted_close>
+    <volume>117791900</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>45.8900</open>
+    <high>46.6900</high>
+    <low>44.8000</low>
+    <close>45.3000</close>
+    <adjusted_close>26.5655</adjusted_close>
+    <volume>77275500</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>45.3200</open>
+    <high>46.4900</high>
+    <low>43.3900</low>
+    <close>44.7000</close>
+    <adjusted_close>26.2591</adjusted_close>
+    <volume>77867800</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>44.0200</open>
+    <high>49.1000</high>
+    <low>43.2300</low>
+    <close>45.8900</close>
+    <adjusted_close>26.9581</adjusted_close>
+    <volume>131356300</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>45.7400</open>
+    <high>46.7700</high>
+    <low>43.8700</low>
+    <close>43.9000</close>
+    <adjusted_close>25.7891</adjusted_close>
+    <volume>87681200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>44.1300</open>
+    <high>45.9200</high>
+    <low>43.5000</low>
+    <close>45.1300</close>
+    <adjusted_close>26.5583</adjusted_close>
+    <volume>97336600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>45.1300</open>
+    <high>45.5000</high>
+    <low>43.3100</low>
+    <close>43.5400</close>
+    <adjusted_close>25.6226</adjusted_close>
+    <volume>116007000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>43.8400</open>
+    <high>45.9000</high>
+    <low>43.5000</low>
+    <close>44.1800</close>
+    <adjusted_close>25.9992</adjusted_close>
+    <volume>132847600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>44.1700</open>
+    <high>47.7200</high>
+    <low>43.6000</low>
+    <close>45.0700</close>
+    <adjusted_close>26.5796</adjusted_close>
+    <volume>130650900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>45.0100</open>
+    <high>48.0900</high>
+    <low>43.7400</low>
+    <close>47.2400</close>
+    <adjusted_close>27.8593</adjusted_close>
+    <volume>88599600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>41.4400</open>
+    <high>47.2400</high>
+    <low>37.1000</low>
+    <close>39.6500</close>
+    <adjusted_close>23.3832</adjusted_close>
+    <volume>312786500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>39.6000</open>
+    <high>40.3500</high>
+    <low>36.5000</low>
+    <close>36.5900</close>
+    <adjusted_close>21.6318</adjusted_close>
+    <volume>172865500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>36.8200</open>
+    <high>39.2500</high>
+    <low>35.8000</low>
+    <close>38.0800</close>
+    <adjusted_close>22.5127</adjusted_close>
+    <volume>155455600</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>37.9900</open>
+    <high>38.6700</high>
+    <low>32.5000</low>
+    <close>35.0400</close>
+    <adjusted_close>20.7155</adjusted_close>
+    <volume>201483400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>35.1800</open>
+    <high>37.9800</high>
+    <low>34.2600</low>
+    <close>36.5100</close>
+    <adjusted_close>21.6413</adjusted_close>
+    <volume>120248100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>36.3900</open>
+    <high>38.8900</high>
+    <low>34.7600</low>
+    <close>38.0900</close>
+    <adjusted_close>22.5779</adjusted_close>
+    <volume>128183900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>38.1700</open>
+    <high>39.0000</high>
+    <low>34.7000</low>
+    <close>34.8500</close>
+    <adjusted_close>20.6574</adjusted_close>
+    <volume>112867000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>34.9300</open>
+    <high>36.7200</high>
+    <low>34.5900</low>
+    <close>36.0200</close>
+    <adjusted_close>21.4068</adjusted_close>
+    <volume>100061100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>35.9000</open>
+    <high>37.2000</high>
+    <low>32.4100</low>
+    <close>32.5100</close>
+    <adjusted_close>19.3208</adjusted_close>
+    <volume>145700000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>32.3700</open>
+    <high>35.3100</high>
+    <low>31.2500</low>
+    <close>34.3400</close>
+    <adjusted_close>20.4084</adjusted_close>
+    <volume>177528400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>34.5200</open>
+    <high>37.8500</high>
+    <low>33.5300</low>
+    <close>36.4300</close>
+    <adjusted_close>21.7163</adjusted_close>
+    <volume>115468900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>36.6600</open>
+    <high>37.2400</high>
+    <low>30.2600</low>
+    <close>30.9600</close>
+    <adjusted_close>18.4556</adjusted_close>
+    <volume>198209000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>30.8200</open>
+    <high>30.9600</high>
+    <low>21.2800</low>
+    <close>25.4600</close>
+    <adjusted_close>15.1770</adjusted_close>
+    <volume>278709600</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>25.4400</open>
+    <high>25.9400</high>
+    <low>21.5000</low>
+    <close>24.7400</close>
+    <adjusted_close>14.8206</adjusted_close>
+    <volume>148117900</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>24.4800</open>
+    <high>27.0100</high>
+    <low>22.7700</low>
+    <close>24.6700</close>
+    <adjusted_close>14.7786</adjusted_close>
+    <volume>159016500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>24.6500</open>
+    <high>28.3000</high>
+    <low>24.6100</low>
+    <close>27.4100</close>
+    <adjusted_close>16.4201</adjusted_close>
+    <volume>170645400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>27.1500</open>
+    <high>28.3900</high>
+    <low>23.0400</low>
+    <close>23.8600</close>
+    <adjusted_close>14.3535</adjusted_close>
+    <volume>178310700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>23.3800</open>
+    <high>27.5000</high>
+    <low>21.3900</low>
+    <close>25.9600</close>
+    <adjusted_close>15.6168</adjusted_close>
+    <volume>221494200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>25.5900</open>
+    <high>31.9000</high>
+    <low>25.5000</low>
+    <close>31.4300</close>
+    <adjusted_close>18.9074</adjusted_close>
+    <volume>190113400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>31.4300</open>
+    <high>32.2000</high>
+    <low>29.2600</low>
+    <close>29.7900</close>
+    <adjusted_close>17.9870</adjusted_close>
+    <volume>131480800</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>30.1900</open>
+    <high>32.0000</high>
+    <low>29.1200</low>
+    <close>29.4000</close>
+    <adjusted_close>17.7516</adjusted_close>
+    <volume>170818000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>29.4800</open>
+    <high>31.4200</high>
+    <low>27.8900</low>
+    <close>31.0500</close>
+    <adjusted_close>18.7478</adjusted_close>
+    <volume>151643500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>31.3400</open>
+    <high>34.3000</high>
+    <low>29.9500</low>
+    <close>33.8800</close>
+    <adjusted_close>20.5486</adjusted_close>
+    <volume>135122700</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>33.7100</open>
+    <high>38.4400</high>
+    <low>33.1000</low>
+    <close>37.4700</close>
+    <adjusted_close>22.7259</adjusted_close>
+    <volume>148584500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>37.5000</open>
+    <high>40.6900</high>
+    <low>36.9800</low>
+    <close>37.8300</close>
+    <adjusted_close>22.9443</adjusted_close>
+    <volume>183377700</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>38.1200</open>
+    <high>40.2600</high>
+    <low>37.8500</low>
+    <close>38.8900</close>
+    <adjusted_close>23.6702</adjusted_close>
+    <volume>134691400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>39.0000</open>
+    <high>39.4500</high>
+    <low>35.1000</low>
+    <close>36.7200</close>
+    <adjusted_close>22.3494</adjusted_close>
+    <volume>157844000</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>37.0100</open>
+    <high>37.3000</high>
+    <low>35.9200</low>
+    <close>36.0500</close>
+    <adjusted_close>21.9416</adjusted_close>
+    <volume>127590600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>36.2900</open>
+    <high>36.8400</high>
+    <low>33.0000</low>
+    <close>35.2400</close>
+    <adjusted_close>21.5374</adjusted_close>
+    <volume>167271400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>35.2300</open>
+    <high>37.6000</high>
+    <low>33.4400</low>
+    <close>37.0900</close>
+    <adjusted_close>22.6680</adjusted_close>
+    <volume>187541400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>37.1600</open>
+    <high>37.9500</high>
+    <low>34.7700</low>
+    <close>35.1500</close>
+    <adjusted_close>21.4824</adjusted_close>
+    <volume>119313500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>35.3300</open>
+    <high>36.7100</high>
+    <low>31.7800</low>
+    <close>32.0400</close>
+    <adjusted_close>19.6576</adjusted_close>
+    <volume>164956800</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>31.8400</open>
+    <high>33.1500</high>
+    <low>26.2600</low>
+    <close>26.7000</close>
+    <adjusted_close>16.3813</adjusted_close>
+    <volume>331481500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>26.6700</open>
+    <high>30.2600</high>
+    <low>26.2600</low>
+    <close>28.5500</close>
+    <adjusted_close>17.5164</adjusted_close>
+    <volume>241354300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>29.1100</open>
+    <high>29.3000</high>
+    <low>26.7700</low>
+    <close>26.8800</close>
+    <adjusted_close>16.5948</adjusted_close>
+    <volume>165303400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>27.0600</open>
+    <high>34.1200</high>
+    <low>27.0500</low>
+    <close>33.5000</close>
+    <adjusted_close>20.6818</adjusted_close>
+    <volume>167073800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>33.7400</open>
+    <high>35.1800</high>
+    <low>33.0400</low>
+    <close>33.8800</close>
+    <adjusted_close>20.9164</adjusted_close>
+    <volume>134963500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>33.9600</open>
+    <high>36.1500</high>
+    <low>33.3800</low>
+    <close>34.8500</close>
+    <adjusted_close>21.6226</adjusted_close>
+    <volume>135051500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>35.2800</open>
+    <high>40.2000</high>
+    <low>35.2400</low>
+    <close>38.9600</close>
+    <adjusted_close>24.1726</adjusted_close>
+    <volume>163209300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>39.1400</open>
+    <high>42.2000</high>
+    <low>39.0600</low>
+    <close>40.4400</close>
+    <adjusted_close>25.0909</adjusted_close>
+    <volume>132887700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>40.6300</open>
+    <high>43.7500</high>
+    <low>40.6000</low>
+    <close>43.3400</close>
+    <adjusted_close>27.0018</adjusted_close>
+    <volume>113041100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>43.5200</open>
+    <high>47.1100</high>
+    <low>38.4500</low>
+    <close>40.1400</close>
+    <adjusted_close>25.0081</adjusted_close>
+    <volume>188421300</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>40.3200</open>
+    <high>43.2100</high>
+    <low>40.2800</low>
+    <close>42.7200</close>
+    <adjusted_close>26.6155</adjusted_close>
+    <volume>100556700</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>42.9700</open>
+    <high>45.2400</high>
+    <low>42.0700</low>
+    <close>43.6300</close>
+    <adjusted_close>27.2903</adjusted_close>
+    <volume>122436200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>43.6600</open>
+    <high>45.3400</high>
+    <low>41.3200</low>
+    <close>42.4600</close>
+    <adjusted_close>26.5584</adjusted_close>
+    <volume>169413900</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>42.3000</open>
+    <high>44.2600</high>
+    <low>38.8000</low>
+    <close>39.0400</close>
+    <adjusted_close>24.4193</adjusted_close>
+    <volume>149371000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>39.4500</open>
+    <high>39.4500</high>
+    <low>33.4900</low>
+    <close>35.2100</close>
+    <adjusted_close>22.1574</adjusted_close>
+    <volume>226839900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>35.3200</open>
+    <high>37.6100</high>
+    <low>32.0000</low>
+    <close>32.8900</close>
+    <adjusted_close>20.6975</adjusted_close>
+    <volume>179846800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>32.9000</open>
+    <high>34.5000</high>
+    <low>31.6000</low>
+    <close>33.2000</close>
+    <adjusted_close>20.8925</adjusted_close>
+    <volume>158881200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>32.6500</open>
+    <high>33.7500</high>
+    <low>30.3400</low>
+    <close>33.7200</close>
+    <adjusted_close>21.3646</adjusted_close>
+    <volume>187116600</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>33.5800</open>
+    <high>35.3400</high>
+    <low>30.8000</low>
+    <close>33.0600</close>
+    <adjusted_close>20.9464</adjusted_close>
+    <volume>192823300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>33.4500</open>
+    <high>35.0000</high>
+    <low>32.3200</low>
+    <close>33.3600</close>
+    <adjusted_close>21.1365</adjusted_close>
+    <volume>163616600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>33.4800</open>
+    <high>35.3500</high>
+    <low>32.9400</low>
+    <close>33.1600</close>
+    <adjusted_close>21.1472</adjusted_close>
+    <volume>207246100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>32.7200</open>
+    <high>35.4900</high>
+    <low>32.5300</low>
+    <close>33.4900</close>
+    <adjusted_close>21.3577</adjusted_close>
+    <volume>191300200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>33.5600</open>
+    <high>36.0400</high>
+    <low>32.0700</low>
+    <close>35.0600</close>
+    <adjusted_close>22.3589</adjusted_close>
+    <volume>178099700</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>35.0700</open>
+    <high>35.4000</high>
+    <low>30.3400</low>
+    <close>30.5200</close>
+    <adjusted_close>19.5981</adjusted_close>
+    <volume>146982500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>30.5200</open>
+    <high>32.1800</high>
+    <low>28.5300</low>
+    <close>29.5800</close>
+    <adjusted_close>18.9945</adjusted_close>
+    <volume>244196100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>29.6900</open>
+    <high>36.4600</high>
+    <low>29.3500</low>
+    <close>36.3600</close>
+    <adjusted_close>23.3482</adjusted_close>
+    <volume>246251500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>36.5000</open>
+    <high>36.8500</high>
+    <low>35.0800</low>
+    <close>35.7600</close>
+    <adjusted_close>23.1411</adjusted_close>
+    <volume>139249300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>35.6400</open>
+    <high>36.9000</high>
+    <low>34.6300</low>
+    <close>36.4400</close>
+    <adjusted_close>23.5812</adjusted_close>
+    <volume>139205300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>36.4800</open>
+    <high>37.3500</high>
+    <low>35.0500</low>
+    <close>35.2300</close>
+    <adjusted_close>22.7982</adjusted_close>
+    <volume>132725000</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>35.2700</open>
+    <high>35.6900</high>
+    <low>31.8800</low>
+    <close>33.9100</close>
+    <adjusted_close>22.1232</adjusted_close>
+    <volume>125828800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>33.9400</open>
+    <high>37.7500</high>
+    <low>33.9400</low>
+    <close>37.0100</close>
+    <adjusted_close>24.1457</adjusted_close>
+    <volume>148423500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>37.8600</open>
+    <high>40.3100</high>
+    <low>37.0600</low>
+    <close>39.9600</close>
+    <adjusted_close>26.0703</adjusted_close>
+    <volume>145029200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>40.2300</open>
+    <high>42.0000</high>
+    <low>39.9300</low>
+    <close>40.9400</close>
+    <adjusted_close>26.8859</adjusted_close>
+    <volume>111699800</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>40.8700</open>
+    <high>47.7600</high>
+    <low>39.7400</low>
+    <close>47.6800</close>
+    <adjusted_close>31.3121</adjusted_close>
+    <volume>155458000</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>47.4000</open>
+    <high>50.3500</high>
+    <low>45.7900</low>
+    <close>49.5100</close>
+    <adjusted_close>32.5139</adjusted_close>
+    <volume>116457100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>49.5100</open>
+    <high>51.2500</high>
+    <low>47.7200</low>
+    <close>47.7600</close>
+    <adjusted_close>31.5413</adjusted_close>
+    <volume>122691300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>47.7200</open>
+    <high>51.2200</high>
+    <low>44.0400</low>
+    <close>44.2000</close>
+    <adjusted_close>29.1902</adjusted_close>
+    <volume>134406900</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>44.9700</open>
+    <high>51.6200</high>
+    <low>43.3100</low>
+    <close>50.2500</close>
+    <adjusted_close>33.1857</adjusted_close>
+    <volume>139526100</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>50.4400</open>
+    <high>51.2600</high>
+    <low>46.7500</low>
+    <close>48.0700</close>
+    <adjusted_close>31.9499</adjusted_close>
+    <volume>75677900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>48.2200</open>
+    <high>56.8400</high>
+    <low>48.1800</low>
+    <close>53.8000</close>
+    <adjusted_close>35.7584</adjusted_close>
+    <volume>128301000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>54.1100</open>
+    <high>60.8200</high>
+    <low>54.1100</low>
+    <close>59.2400</close>
+    <adjusted_close>39.3741</adjusted_close>
+    <volume>135465800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>59.6000</open>
+    <high>60.9300</high>
+    <low>58.4200</low>
+    <close>59.2000</close>
+    <adjusted_close>39.5532</adjusted_close>
+    <volume>88973800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>59.3300</open>
+    <high>59.6900</high>
+    <low>54.8600</low>
+    <close>57.4400</close>
+    <adjusted_close>38.3773</adjusted_close>
+    <volume>122663500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>57.2000</open>
+    <high>62.2400</high>
+    <low>56.3500</low>
+    <close>57.3500</close>
+    <adjusted_close>38.3171</adjusted_close>
+    <volume>132782000</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>57.3300</open>
+    <high>69.8400</high>
+    <low>55.2700</low>
+    <close>67.9500</close>
+    <adjusted_close>45.6189</adjusted_close>
+    <volume>158864700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>67.6000</open>
+    <high>69.4500</high>
+    <low>63.0700</low>
+    <close>66.0300</close>
+    <adjusted_close>44.3299</adjusted_close>
+    <volume>133808700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>65.6100</open>
+    <high>68.3100</high>
+    <low>62.8000</low>
+    <close>67.9000</close>
+    <adjusted_close>45.5854</adjusted_close>
+    <volume>134968000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>68.0300</open>
+    <high>71.9700</high>
+    <low>67.5000</low>
+    <close>71.9100</close>
+    <adjusted_close>48.5030</adjusted_close>
+    <volume>101024200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>71.6100</open>
+    <high>76.3900</high>
+    <low>71.2200</low>
+    <close>74.1300</close>
+    <adjusted_close>50.0004</adjusted_close>
+    <volume>127270600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>74.3000</open>
+    <high>74.3700</high>
+    <low>68.4800</low>
+    <close>68.7700</close>
+    <adjusted_close>46.3850</adjusted_close>
+    <volume>122578200</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>68.0000</open>
+    <high>72.9100</high>
+    <low>57.7500</low>
+    <close>60.5200</close>
+    <adjusted_close>41.0440</adjusted_close>
+    <volume>292876200</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>60.2300</open>
+    <high>65.1900</high>
+    <low>58.3900</low>
+    <close>59.2700</close>
+    <adjusted_close>40.1962</adjusted_close>
+    <volume>162409700</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>59.5800</open>
+    <high>64.3600</high>
+    <low>58.5200</low>
+    <close>64.2200</close>
+    <adjusted_close>43.5533</adjusted_close>
+    <volume>138860200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>64.3200</open>
+    <high>69.3700</high>
+    <low>64.0300</low>
+    <close>68.6100</close>
+    <adjusted_close>46.7649</adjusted_close>
+    <volume>79690200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>68.2900</open>
+    <high>77.9800</high>
+    <low>66.4600</low>
+    <close>76.2000</close>
+    <adjusted_close>51.9383</adjusted_close>
+    <volume>137961700</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>76.1100</open>
+    <high>77.9400</high>
+    <low>73.1600</low>
+    <close>73.7500</close>
+    <adjusted_close>50.2683</adjusted_close>
+    <volume>79092300</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>73.0600</open>
+    <high>83.7700</high>
+    <low>73.0000</low>
+    <close>83.0800</close>
+    <adjusted_close>56.8681</adjusted_close>
+    <volume>86465100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>83.2400</open>
+    <high>88.8100</high>
+    <low>81.0100</low>
+    <close>84.6800</close>
+    <adjusted_close>57.9633</adjusted_close>
+    <volume>139588200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>84.7200</open>
+    <high>93.4200</high>
+    <low>82.6400</low>
+    <close>82.9300</close>
+    <adjusted_close>56.7654</adjusted_close>
+    <volume>116619700</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>82.5300</open>
+    <high>87.1800</high>
+    <low>82.5300</low>
+    <close>85.8400</close>
+    <adjusted_close>58.9882</adjusted_close>
+    <volume>53140800</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>86.1700</open>
+    <high>89.3800</high>
+    <low>82.9200</low>
+    <close>84.4400</close>
+    <adjusted_close>58.0261</adjusted_close>
+    <volume>79501100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>85.0800</open>
+    <high>97.2700</high>
+    <low>84.7300</low>
+    <close>96.6300</close>
+    <adjusted_close>66.4029</adjusted_close>
+    <volume>84485400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>96.1200</open>
+    <high>97.3000</high>
+    <low>76.0100</low>
+    <close>86.5500</close>
+    <adjusted_close>59.7095</adjusted_close>
+    <volume>92104600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>84.3400</open>
+    <high>92.0700</high>
+    <low>81.4500</low>
+    <close>83.1000</close>
+    <adjusted_close>57.3294</adjusted_close>
+    <volume>92349100</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>83.5700</open>
+    <high>95.7400</high>
+    <low>82.5100</low>
+    <close>84.6800</close>
+    <adjusted_close>58.4194</adjusted_close>
+    <volume>125007100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>84.3000</open>
+    <high>89.1500</high>
+    <low>78.9000</low>
+    <close>84.0300</close>
+    <adjusted_close>58.2271</adjusted_close>
+    <volume>98712400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>84.4300</open>
+    <high>87.0500</high>
+    <low>81.0300</low>
+    <close>85.1600</close>
+    <adjusted_close>59.0102</adjusted_close>
+    <volume>87726300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>83.7000</open>
+    <high>83.7700</high>
+    <low>76.6200</low>
+    <close>79.7200</close>
+    <adjusted_close>55.2406</adjusted_close>
+    <volume>114179700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>78.8900</open>
+    <high>80.7100</high>
+    <low>71.5000</low>
+    <close>78.9400</close>
+    <adjusted_close>54.9568</adjusted_close>
+    <volume>94084900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>79.9200</open>
+    <high>84.5800</high>
+    <low>78.3300</low>
+    <close>84.2400</close>
+    <adjusted_close>58.6466</adjusted_close>
+    <volume>72773300</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>84.2400</open>
+    <high>86.8400</high>
+    <low>78.2800</low>
+    <close>79.2800</close>
+    <adjusted_close>55.1935</adjusted_close>
+    <volume>95970500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>79.1000</open>
+    <high>81.9200</high>
+    <low>75.7400</low>
+    <close>77.4000</close>
+    <adjusted_close>54.1326</adjusted_close>
+    <volume>100484200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>77.4200</open>
+    <high>85.0900</high>
+    <low>77.2200</low>
+    <close>83.2700</close>
+    <adjusted_close>58.2380</adjusted_close>
+    <volume>115031000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>83.7100</open>
+    <high>84.9700</high>
+    <low>78.8000</low>
+    <close>79.2500</close>
+    <adjusted_close>55.4265</adjusted_close>
+    <volume>104575500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>78.8800</open>
+    <high>83.8800</high>
+    <low>78.0500</low>
+    <close>80.7100</close>
+    <adjusted_close>56.7044</adjusted_close>
+    <volume>89235200</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>81.0400</open>
+    <high>85.0800</high>
+    <low>78.9000</low>
+    <close>80.6200</close>
+    <adjusted_close>56.6411</adjusted_close>
+    <volume>95708800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>80.2700</open>
+    <high>83.3400</high>
+    <low>76.2600</low>
+    <close>82.7300</close>
+    <adjusted_close>58.1236</adjusted_close>
+    <volume>87573500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>81.9500</open>
+    <high>86.2600</high>
+    <low>77.0200</low>
+    <close>84.7300</close>
+    <adjusted_close>59.8030</adjusted_close>
+    <volume>107808900</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>84.8300</open>
+    <high>88.0000</high>
+    <low>82.4200</low>
+    <close>82.7600</close>
+    <adjusted_close>58.4126</adjusted_close>
+    <volume>76330700</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>83.1000</open>
+    <high>85.2600</high>
+    <low>80.3100</low>
+    <close>81.9400</close>
+    <adjusted_close>57.8338</adjusted_close>
+    <volume>88136000</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>81.2000</open>
+    <high>88.0000</high>
+    <low>80.1600</low>
+    <close>86.3800</close>
+    <adjusted_close>61.2432</adjusted_close>
+    <volume>69704600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>86.8200</open>
+    <high>87.2300</high>
+    <low>82.5500</low>
+    <close>83.0500</close>
+    <adjusted_close>58.8823</adjusted_close>
+    <volume>73518300</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>83.3600</open>
+    <high>89.6900</high>
+    <low>80.3000</low>
+    <close>86.5400</close>
+    <adjusted_close>61.3567</adjusted_close>
+    <volume>82154100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>86.3600</open>
+    <high>86.8700</high>
+    <low>80.1300</low>
+    <close>81.0200</close>
+    <adjusted_close>57.6977</adjusted_close>
+    <volume>85844100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>81.2900</open>
+    <high>83.5000</high>
+    <low>75.1800</low>
+    <close>78.3100</close>
+    <adjusted_close>55.7678</adjusted_close>
+    <volume>140243500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>78.5200</open>
+    <high>80.9600</high>
+    <low>76.7900</low>
+    <close>80.6700</close>
+    <adjusted_close>57.4484</adjusted_close>
+    <volume>107617400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>80.4300</open>
+    <high>82.2400</high>
+    <low>79.2500</low>
+    <close>81.5000</close>
+    <adjusted_close>58.3271</adjusted_close>
+    <volume>100612500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>81.6300</open>
+    <high>83.8900</high>
+    <low>76.6200</low>
+    <close>77.2200</close>
+    <adjusted_close>55.2640</adjusted_close>
+    <volume>134366000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>77.3200</open>
+    <high>77.5000</high>
+    <low>63.8200</low>
+    <close>66.2700</close>
+    <adjusted_close>47.4274</adjusted_close>
+    <volume>207164500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>65.3400</open>
+    <high>73.8300</high>
+    <low>65.1700</low>
+    <close>72.7600</close>
+    <adjusted_close>52.3734</adjusted_close>
+    <volume>159406200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>71.9600</open>
+    <high>73.9600</high>
+    <low>69.5000</low>
+    <close>72.6200</close>
+    <adjusted_close>52.2726</adjusted_close>
+    <volume>120399300</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>73.2800</open>
+    <high>80.6800</high>
+    <low>70.7300</low>
+    <close>75.2600</close>
+    <adjusted_close>54.1729</adjusted_close>
+    <volume>127456900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>74.5300</open>
+    <high>76.3500</high>
+    <low>66.3400</low>
+    <close>68.8900</close>
+    <adjusted_close>49.8799</adjusted_close>
+    <volume>106097400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>69.0600</open>
+    <high>71.1800</high>
+    <low>64.7600</low>
+    <close>65.4700</close>
+    <adjusted_close>47.4036</adjusted_close>
+    <volume>122681400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>65.1000</open>
+    <high>68.1500</high>
+    <low>61.7400</low>
+    <close>66.4500</close>
+    <adjusted_close>48.1132</adjusted_close>
+    <volume>117097100</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>65.3700</open>
+    <high>66.2300</high>
+    <low>61.5600</low>
+    <close>62.3900</close>
+    <adjusted_close>45.4501</adjusted_close>
+    <volume>103151400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>62.5600</open>
+    <high>68.8700</high>
+    <low>59.0700</low>
+    <close>60.0200</close>
+    <adjusted_close>43.7236</adjusted_close>
+    <volume>190506800</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>59.6800</open>
+    <high>69.5300</high>
+    <low>59.5000</low>
+    <close>67.6200</close>
+    <adjusted_close>49.2601</adjusted_close>
+    <volume>180765300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>67.6100</open>
+    <high>70.9500</high>
+    <low>65.5400</low>
+    <close>68.5600</close>
+    <adjusted_close>50.2625</adjusted_close>
+    <volume>124995400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>68.5300</open>
+    <high>74.5700</high>
+    <low>67.4200</low>
+    <close>72.9000</close>
+    <adjusted_close>53.4442</adjusted_close>
+    <volume>90642700</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>72.8800</open>
+    <high>80.2500</high>
+    <low>69.6900</low>
+    <close>79.7700</close>
+    <adjusted_close>58.4807</adjusted_close>
+    <volume>168569400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>79.4800</open>
+    <high>85.3100</high>
+    <low>78.2800</low>
+    <close>84.6700</close>
+    <adjusted_close>62.4083</adjusted_close>
+    <volume>118463600</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>85.0300</open>
+    <high>86.3100</high>
+    <low>64.5100</low>
+    <close>68.3300</close>
+    <adjusted_close>50.3644</adjusted_close>
+    <volume>155700500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>67.2000</open>
+    <high>72.8800</high>
+    <low>66.6900</low>
+    <close>72.2600</close>
+    <adjusted_close>53.2611</adjusted_close>
+    <volume>110441200</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>72.3800</open>
+    <high>74.9400</high>
+    <low>69.5300</low>
+    <close>71.1900</close>
+    <adjusted_close>52.7932</adjusted_close>
+    <volume>93376800</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>70.8500</open>
+    <high>71.1800</high>
+    <low>59.3300</low>
+    <close>63.2700</close>
+    <adjusted_close>46.9199</adjusted_close>
+    <volume>151777400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>63.5500</open>
+    <high>64.1100</high>
+    <low>52.2500</low>
+    <close>53.5700</close>
+    <adjusted_close>39.7265</adjusted_close>
+    <volume>201758600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>53.5700</open>
+    <high>54.3300</high>
+    <low>49.3100</low>
+    <close>49.3400</close>
+    <adjusted_close>36.8989</adjusted_close>
+    <volume>111719500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>49.5200</open>
+    <high>55.1900</high>
+    <low>49.5200</low>
+    <close>54.6700</close>
+    <adjusted_close>40.8849</adjusted_close>
+    <volume>122039500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>55.3600</open>
+    <high>56.9500</high>
+    <low>53.6600</low>
+    <close>54.4900</close>
+    <adjusted_close>40.7503</adjusted_close>
+    <volume>93618000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>54.6000</open>
+    <high>55.7700</high>
+    <low>49.0300</low>
+    <close>51.1900</close>
+    <adjusted_close>38.6329</adjusted_close>
+    <volume>103203700</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>51.2500</open>
+    <high>58.1000</high>
+    <low>50.0400</low>
+    <close>55.3100</close>
+    <adjusted_close>41.7423</adjusted_close>
+    <volume>99636600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>55.2600</open>
+    <high>56.8100</high>
+    <low>51.5700</low>
+    <close>54.7800</close>
+    <adjusted_close>41.3423</adjusted_close>
+    <volume>103688400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>55.0800</open>
+    <high>64.5000</high>
+    <low>55.0100</low>
+    <close>59.6000</close>
+    <adjusted_close>45.3150</adjusted_close>
+    <volume>163083400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>59.3000</open>
+    <high>59.9200</high>
+    <low>56.7600</low>
+    <close>58.9600</close>
+    <adjusted_close>44.8284</adjusted_close>
+    <volume>88029800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>59.2800</open>
+    <high>59.7800</high>
+    <low>50.6600</low>
+    <close>50.8500</close>
+    <adjusted_close>38.6622</adjusted_close>
+    <volume>121820700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>51.0400</open>
+    <high>54.5300</high>
+    <low>44.6100</low>
+    <close>45.7600</close>
+    <adjusted_close>35.0963</adjusted_close>
+    <volume>104997400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>45.9200</open>
+    <high>54.2300</high>
+    <low>40.5200</low>
+    <close>45.7500</close>
+    <adjusted_close>35.0886</adjusted_close>
+    <volume>223206000</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>45.0700</open>
+    <high>46.4500</high>
+    <low>39.4100</low>
+    <close>43.2900</close>
+    <adjusted_close>33.2019</adjusted_close>
+    <volume>142649600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>42.7700</open>
+    <high>43.7000</high>
+    <low>36.6500</low>
+    <close>42.9400</close>
+    <adjusted_close>33.3068</adjusted_close>
+    <volume>152313500</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>42.7100</open>
+    <high>47.3800</high>
+    <low>39.8300</low>
+    <close>42.3900</close>
+    <adjusted_close>32.8802</adjusted_close>
+    <volume>130386300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>42.1500</open>
+    <high>43.8100</high>
+    <low>38.0500</low>
+    <close>40.7100</close>
+    <adjusted_close>31.5771</adjusted_close>
+    <volume>164680600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>40.5800</open>
+    <high>44.0500</high>
+    <low>38.0000</low>
+    <close>38.0200</close>
+    <adjusted_close>29.8296</adjusted_close>
+    <volume>117716500</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>37.8900</open>
+    <high>38.3300</high>
+    <low>33.8800</low>
+    <close>35.9200</close>
+    <adjusted_close>28.1820</adjusted_close>
+    <volume>160973600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>35.8400</open>
+    <high>38.2200</high>
+    <low>33.3600</low>
+    <close>34.0400</close>
+    <adjusted_close>26.7070</adjusted_close>
+    <volume>147627200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>34.5300</open>
+    <high>44.8700</high>
+    <low>34.3700</low>
+    <close>38.0100</close>
+    <adjusted_close>30.1761</adjusted_close>
+    <volume>196140400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>38.3800</open>
+    <high>43.6700</high>
+    <low>38.3100</low>
+    <close>39.8800</close>
+    <adjusted_close>31.6607</adjusted_close>
+    <volume>153052500</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>40.1700</open>
+    <high>55.4900</high>
+    <low>39.9400</low>
+    <close>50.2500</close>
+    <adjusted_close>39.8934</adjusted_close>
+    <volume>163004100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>49.8100</open>
+    <high>51.8000</high>
+    <low>47.5500</low>
+    <close>47.9300</close>
+    <adjusted_close>38.4143</adjusted_close>
+    <volume>97449400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>48.4200</open>
+    <high>56.7800</high>
+    <low>46.3100</low>
+    <close>54.9000</close>
+    <adjusted_close>44.0006</adjusted_close>
+    <volume>146081500</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>54.5700</open>
+    <high>57.0500</high>
+    <low>52.1200</low>
+    <close>53.1000</close>
+    <adjusted_close>42.5579</adjusted_close>
+    <volume>103269900</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>53.4400</open>
+    <high>55.9600</high>
+    <low>51.1200</low>
+    <close>52.6600</close>
+    <adjusted_close>42.5688</adjusted_close>
+    <volume>104457900</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>52.9900</open>
+    <high>55.8200</high>
+    <low>50.6500</low>
+    <close>52.6100</close>
+    <adjusted_close>42.5283</adjusted_close>
+    <volume>98038600</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>51.8200</open>
+    <high>52.0300</high>
+    <low>45.0900</low>
+    <close>47.1500</close>
+    <adjusted_close>38.1147</adjusted_close>
+    <volume>159839900</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>47.4200</open>
+    <high>50.8700</high>
+    <low>46.1900</low>
+    <close>50.7500</close>
+    <adjusted_close>41.4288</adjusted_close>
+    <volume>104164800</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>50.7300</open>
+    <high>51.9300</high>
+    <low>46.9200</low>
+    <close>47.0500</close>
+    <adjusted_close>38.4083</adjusted_close>
+    <volume>107812000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>47.1300</open>
+    <high>51.7800</high>
+    <low>45.2300</low>
+    <close>47.0200</close>
+    <adjusted_close>38.3839</adjusted_close>
+    <volume>137689800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>47.1000</open>
+    <high>50.9800</high>
+    <low>44.4100</low>
+    <close>44.8000</close>
+    <adjusted_close>36.9250</adjusted_close>
+    <volume>131031600</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>45.3000</open>
+    <high>52.9200</high>
+    <low>43.6200</low>
+    <close>52.1600</close>
+    <adjusted_close>42.9913</adjusted_close>
+    <volume>124681800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>52.2600</open>
+    <high>55.0000</high>
+    <low>49.0100</low>
+    <close>49.7600</close>
+    <adjusted_close>41.0131</adjusted_close>
+    <volume>143600900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>49.3300</open>
+    <high>50.9700</high>
+    <low>43.9300</low>
+    <close>46.0900</close>
+    <adjusted_close>38.3713</adjusted_close>
+    <volume>121279400</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>45.9100</open>
+    <high>48.9700</high>
+    <low>44.1700</low>
+    <close>44.7700</close>
+    <adjusted_close>37.2724</adjusted_close>
+    <volume>162304600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>44.5400</open>
+    <high>47.2800</high>
+    <low>42.3400</low>
+    <close>42.4000</close>
+    <adjusted_close>35.2993</adjusted_close>
+    <volume>154223200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>42.6300</open>
+    <high>45.3000</high>
+    <low>39.7200</low>
+    <close>43.8300</close>
+    <adjusted_close>36.9185</adjusted_close>
+    <volume>158874000</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>43.9000</open>
+    <high>43.9900</high>
+    <low>37.7100</low>
+    <close>37.9000</close>
+    <adjusted_close>31.9236</adjusted_close>
+    <volume>138086400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>37.6300</open>
+    <high>39.7900</high>
+    <low>36.5700</low>
+    <close>39.6200</close>
+    <adjusted_close>33.3723</adjusted_close>
+    <volume>121564400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>39.6200</open>
+    <high>42.1000</high>
+    <low>35.0300</low>
+    <close>35.0600</close>
+    <adjusted_close>29.8824</adjusted_close>
+    <volume>150091000</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>34.9600</open>
+    <high>37.2000</high>
+    <low>31.2300</low>
+    <close>31.4000</close>
+    <adjusted_close>26.7629</adjusted_close>
+    <volume>156117400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>31.8100</open>
+    <high>36.8100</high>
+    <low>30.3900</low>
+    <close>36.5000</close>
+    <adjusted_close>31.1097</adjusted_close>
+    <volume>190025400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>36.6600</open>
+    <high>41.9700</high>
+    <low>35.1400</low>
+    <close>41.5000</close>
+    <adjusted_close>35.7876</adjusted_close>
+    <volume>141330400</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>41.5100</open>
+    <high>42.2900</high>
+    <low>36.9700</low>
+    <close>37.3600</close>
+    <adjusted_close>32.2175</adjusted_close>
+    <volume>111968700</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>37.8500</open>
+    <high>37.9500</high>
+    <low>34.3000</low>
+    <close>36.8600</close>
+    <adjusted_close>31.7863</adjusted_close>
+    <volume>147716600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>36.8200</open>
+    <high>37.9600</high>
+    <low>35.2700</low>
+    <close>35.5300</close>
+    <adjusted_close>31.0449</adjusted_close>
+    <volume>110375100</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>35.2500</open>
+    <high>36.2100</high>
+    <low>31.8600</low>
+    <close>34.5800</close>
+    <adjusted_close>30.2148</adjusted_close>
+    <volume>179213600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>34.8900</open>
+    <high>36.5800</high>
+    <low>34.3700</low>
+    <close>35.2500</close>
+    <adjusted_close>30.8002</adjusted_close>
+    <volume>115406800</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>35.3000</open>
+    <high>35.3600</high>
+    <low>29.4800</low>
+    <close>30.3700</close>
+    <adjusted_close>26.9398</adjusted_close>
+    <volume>163327400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>30.2900</open>
+    <high>32.8900</high>
+    <low>28.1400</low>
+    <close>28.4900</close>
+    <adjusted_close>25.2722</adjusted_close>
+    <volume>237970200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>28.3900</open>
+    <high>31.3200</high>
+    <low>28.3100</low>
+    <close>29.9700</close>
+    <adjusted_close>26.5850</adjusted_close>
+    <volume>174173100</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>29.9700</open>
+    <high>30.7900</high>
+    <low>24.9700</low>
+    <close>25.3100</close>
+    <adjusted_close>22.8553</adjusted_close>
+    <volume>176674300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>25.1700</open>
+    <high>25.2600</high>
+    <low>20.5800</low>
+    <close>22.2400</close>
+    <adjusted_close>20.0830</adjusted_close>
+    <volume>309938600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>22.2400</open>
+    <high>24.6300</high>
+    <low>20.4800</low>
+    <close>21.0800</close>
+    <adjusted_close>19.0355</adjusted_close>
+    <volume>294294700</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>20.9700</open>
+    <high>22.2200</high>
+    <low>19.6800</low>
+    <close>19.9400</close>
+    <adjusted_close>18.4323</adjusted_close>
+    <volume>207187800</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>19.9500</open>
+    <high>27.0200</high>
+    <low>19.7500</low>
+    <close>26.1100</close>
+    <adjusted_close>24.1357</adjusted_close>
+    <volume>282925100</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>26.0700</open>
+    <high>27.0500</high>
+    <low>21.5800</low>
+    <close>22.5700</close>
+    <adjusted_close>20.8634</adjusted_close>
+    <volume>403847900</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>22.7100</open>
+    <high>23.7700</high>
+    <low>20.9600</low>
+    <close>21.2600</close>
+    <adjusted_close>19.8754</adjusted_close>
+    <volume>238269700</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>21.1900</open>
+    <high>22.0500</high>
+    <low>20.2900</low>
+    <close>21.6900</close>
+    <adjusted_close>20.2774</adjusted_close>
+    <volume>208884600</volume>
+    <news>WBA Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>21.5700</open>
+    <high>21.7400</high>
+    <low>17.4900</low>
+    <close>17.7300</close>
+    <adjusted_close>16.5753</adjusted_close>
+    <volume>283193200</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>17.4100</open>
+    <high>18.8300</high>
+    <low>14.6200</low>
+    <close>16.2200</close>
+    <adjusted_close>15.3750</adjusted_close>
+    <volume>273311300</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>16.2600</open>
+    <high>16.2700</high>
+    <low>11.6800</low>
+    <close>12.1000</close>
+    <adjusted_close>11.4697</adjusted_close>
+    <volume>377866400</volume>
+    <news>WBA Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>12.0900</open>
+    <high>12.2900</high>
+    <low>10.6900</low>
+    <close>11.8700</close>
+    <adjusted_close>11.2517</adjusted_close>
+    <volume>514647400</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>11.8600</open>
+    <high>11.9100</high>
+    <low>9.0300</low>
+    <close>9.2500</close>
+    <adjusted_close>8.9773</adjusted_close>
+    <volume>356635300</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>9.2100</open>
+    <high>9.3200</high>
+    <low>8.2200</low>
+    <close>8.9600</close>
+    <adjusted_close>8.6958</adjusted_close>
+    <volume>430381600</volume>
+    <news>WBA Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>8.9500</open>
+    <high>11.1100</high>
+    <low>8.5200</low>
+    <close>9.4600</close>
+    <adjusted_close>9.1811</adjusted_close>
+    <volume>563585000</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>9.5600</open>
+    <high>9.8500</high>
+    <low>8.0800</low>
+    <close>9.0200</close>
+    <adjusted_close>9.0200</adjusted_close>
+    <volume>390083000</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>9.0000</open>
+    <high>11.3000</high>
+    <low>8.3500</low>
+    <close>9.3300</close>
+    <adjusted_close>9.3300</adjusted_close>
+    <volume>533183200</volume>
+    <news>WBA Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</walgreens_stock_data>

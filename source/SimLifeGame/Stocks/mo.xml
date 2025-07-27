@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<altria_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>23.5625</open>
+    <high>24.6250</high>
+    <low>20.7500</low>
+    <close>20.8750</close>
+    <adjusted_close>1.0809</adjusted_close>
+    <volume>207991100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>21.1250</open>
+    <high>21.6875</high>
+    <low>18.6875</low>
+    <close>20.1875</close>
+    <adjusted_close>1.0453</adjusted_close>
+    <volume>309444300</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>20.1875</open>
+    <high>22.1250</high>
+    <low>19.0000</low>
+    <close>20.7500</close>
+    <adjusted_close>1.1007</adjusted_close>
+    <volume>332643900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>21.7500</open>
+    <high>23.7500</high>
+    <low>20.3750</low>
+    <close>21.8750</close>
+    <adjusted_close>1.1604</adjusted_close>
+    <volume>229636900</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>22.0000</open>
+    <high>28.7500</high>
+    <low>22.0000</low>
+    <close>26.1250</close>
+    <adjusted_close>1.3858</adjusted_close>
+    <volume>255686400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>26.1250</open>
+    <high>28.1250</high>
+    <low>23.0625</low>
+    <close>26.5625</close>
+    <adjusted_close>1.4340</adjusted_close>
+    <volume>202682100</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>26.8125</open>
+    <high>28.2500</high>
+    <low>23.0000</low>
+    <close>25.2500</close>
+    <adjusted_close>1.3631</adjusted_close>
+    <volume>151406600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>25.2500</open>
+    <high>34.0000</high>
+    <low>25.2500</low>
+    <close>29.7500</close>
+    <adjusted_close>1.6061</adjusted_close>
+    <volume>180341600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>29.9375</open>
+    <high>30.7500</high>
+    <low>26.0625</low>
+    <close>29.4375</close>
+    <adjusted_close>1.6181</adjusted_close>
+    <volume>143075500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>29.6250</open>
+    <high>38.6250</high>
+    <low>29.5625</low>
+    <close>36.6250</close>
+    <adjusted_close>2.0131</adjusted_close>
+    <volume>170385800</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>36.2500</open>
+    <high>39.5625</high>
+    <low>33.5000</low>
+    <close>38.1875</close>
+    <adjusted_close>2.0990</adjusted_close>
+    <volume>176355000</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>38.0000</open>
+    <high>45.5000</high>
+    <low>37.0000</low>
+    <close>44.0000</close>
+    <adjusted_close>2.4520</adjusted_close>
+    <volume>170519700</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>44.0000</open>
+    <high>46.5000</high>
+    <low>38.7500</low>
+    <close>44.0000</close>
+    <adjusted_close>2.4520</adjusted_close>
+    <volume>206361700</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>44.4500</open>
+    <high>49.0000</high>
+    <low>44.3700</low>
+    <close>48.1800</close>
+    <adjusted_close>2.6849</adjusted_close>
+    <volume>151053400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>48.8000</open>
+    <high>52.0400</high>
+    <low>41.4700</low>
+    <close>47.4500</close>
+    <adjusted_close>2.6728</adjusted_close>
+    <volume>203238100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>47.7000</open>
+    <high>51.9900</high>
+    <low>44.0000</low>
+    <close>50.1100</close>
+    <adjusted_close>2.8226</adjusted_close>
+    <volume>146748500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>50.5900</open>
+    <high>53.8800</high>
+    <low>49.2000</low>
+    <close>51.4100</close>
+    <adjusted_close>2.8958</adjusted_close>
+    <volume>134772400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>51.6000</open>
+    <high>51.6000</high>
+    <low>44.5000</low>
+    <close>49.5000</close>
+    <adjusted_close>2.8187</adjusted_close>
+    <volume>170550800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>49.7600</open>
+    <high>49.7600</high>
+    <low>43.0000</low>
+    <close>45.5000</close>
+    <adjusted_close>2.5909</adjusted_close>
+    <volume>122201400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>45.4000</open>
+    <high>48.4600</high>
+    <low>43.0500</low>
+    <close>47.4000</close>
+    <adjusted_close>2.6991</adjusted_close>
+    <volume>108709200</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>47.6600</open>
+    <high>49.5500</high>
+    <low>45.3300</low>
+    <close>48.2900</close>
+    <adjusted_close>2.7833</adjusted_close>
+    <volume>134058500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>48.2900</open>
+    <high>51.7200</high>
+    <low>46.7000</low>
+    <close>46.8000</close>
+    <adjusted_close>2.6974</adjusted_close>
+    <volume>146706500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>47.5000</open>
+    <high>48.7800</high>
+    <low>44.7000</low>
+    <close>47.1700</close>
+    <adjusted_close>2.7187</adjusted_close>
+    <volume>135335300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>47.1400</open>
+    <high>47.3000</high>
+    <low>44.9500</low>
+    <close>45.8500</close>
+    <adjusted_close>2.6760</adjusted_close>
+    <volume>121722600</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>45.8500</open>
+    <high>50.2300</high>
+    <low>45.4000</low>
+    <close>50.1100</close>
+    <adjusted_close>2.9246</adjusted_close>
+    <volume>118558900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>50.1900</open>
+    <high>53.9500</high>
+    <low>49.0500</low>
+    <close>52.6600</close>
+    <adjusted_close>3.0734</adjusted_close>
+    <volume>99823600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>52.5200</open>
+    <high>54.4800</high>
+    <low>51.2600</low>
+    <close>52.6700</close>
+    <adjusted_close>3.1082</adjusted_close>
+    <volume>121682100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>52.8700</open>
+    <high>55.4000</high>
+    <low>52.0000</low>
+    <close>54.4300</close>
+    <adjusted_close>3.2120</adjusted_close>
+    <volume>118764000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>54.5500</open>
+    <high>57.4700</high>
+    <low>53.4300</low>
+    <close>57.2500</close>
+    <adjusted_close>3.3784</adjusted_close>
+    <volume>121124400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>57.2500</open>
+    <high>57.7900</high>
+    <low>40.3500</low>
+    <close>43.6800</close>
+    <adjusted_close>2.6102</adjusted_close>
+    <volume>232516900</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>43.5500</open>
+    <high>47.6100</high>
+    <low>40.3000</low>
+    <close>46.0500</close>
+    <adjusted_close>2.7518</adjusted_close>
+    <volume>229667000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>46.0000</open>
+    <high>52.0000</high>
+    <low>44.7500</low>
+    <close>50.0000</close>
+    <adjusted_close>2.9878</adjusted_close>
+    <volume>164095300</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>50.0000</open>
+    <high>50.4000</high>
+    <low>37.5200</low>
+    <close>38.8000</close>
+    <adjusted_close>2.3500</adjusted_close>
+    <volume>225395300</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>39.2700</open>
+    <high>44.0900</high>
+    <low>35.4000</low>
+    <close>40.7500</close>
+    <adjusted_close>2.4681</adjusted_close>
+    <volume>233863100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>40.6700</open>
+    <high>43.6500</high>
+    <low>36.9000</low>
+    <close>37.7200</close>
+    <adjusted_close>2.2846</adjusted_close>
+    <volume>215923400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>38.2000</open>
+    <high>42.1600</high>
+    <low>37.7100</low>
+    <close>40.5300</close>
+    <adjusted_close>2.4934</adjusted_close>
+    <volume>183853400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>40.5400</open>
+    <high>42.0900</high>
+    <low>35.7000</low>
+    <close>37.8700</close>
+    <adjusted_close>2.3297</adjusted_close>
+    <volume>206910500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>38.0900</open>
+    <high>39.2300</high>
+    <low>36.8000</low>
+    <close>38.6500</close>
+    <adjusted_close>2.3777</adjusted_close>
+    <volume>110096500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>38.9400</open>
+    <high>39.3300</high>
+    <low>27.7000</low>
+    <close>29.9600</close>
+    <adjusted_close>1.8764</adjusted_close>
+    <volume>282676800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>28.3000</open>
+    <high>33.0000</high>
+    <low>27.7500</low>
+    <close>30.7600</close>
+    <adjusted_close>1.9265</adjusted_close>
+    <volume>340427000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>30.7600</open>
+    <high>42.4700</high>
+    <low>30.2000</low>
+    <close>41.3000</close>
+    <adjusted_close>2.5866</adjusted_close>
+    <volume>277001000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>41.8500</open>
+    <high>46.2000</high>
+    <low>41.0000</low>
+    <close>45.4400</close>
+    <adjusted_close>2.8881</adjusted_close>
+    <volume>182916800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>45.3400</open>
+    <high>47.0700</high>
+    <low>38.7800</low>
+    <close>40.0100</close>
+    <adjusted_close>2.5430</adjusted_close>
+    <volume>209809400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>40.4100</open>
+    <high>41.2500</high>
+    <low>38.7200</low>
+    <close>41.2200</close>
+    <adjusted_close>2.6199</adjusted_close>
+    <volume>115361100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>41.0600</open>
+    <high>45.3500</high>
+    <low>40.1500</low>
+    <close>43.8000</close>
+    <adjusted_close>2.8301</adjusted_close>
+    <volume>161893800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>43.9500</open>
+    <high>47.2000</high>
+    <low>43.8500</low>
+    <close>46.5000</close>
+    <adjusted_close>3.0046</adjusted_close>
+    <volume>115146500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>46.6500</open>
+    <high>52.0100</high>
+    <low>46.4200</low>
+    <close>52.0000</close>
+    <adjusted_close>3.3599</adjusted_close>
+    <volume>112875500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>52.1000</open>
+    <high>55.0300</high>
+    <low>51.2000</low>
+    <close>54.4200</close>
+    <adjusted_close>3.5611</adjusted_close>
+    <volume>132994100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>54.6700</open>
+    <high>56.1000</high>
+    <low>52.5100</low>
+    <close>55.5900</close>
+    <adjusted_close>3.6376</adjusted_close>
+    <volume>131367100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>55.5900</open>
+    <high>57.6500</high>
+    <low>54.1500</low>
+    <close>57.5500</close>
+    <adjusted_close>3.7659</adjusted_close>
+    <volume>96274500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>57.5200</open>
+    <high>58.9600</high>
+    <low>52.4900</low>
+    <close>54.4500</close>
+    <adjusted_close>3.6050</adjusted_close>
+    <volume>148383800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>54.6500</open>
+    <high>57.2000</high>
+    <low>54.2500</low>
+    <close>55.3800</close>
+    <adjusted_close>3.6665</adjusted_close>
+    <volume>106286000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>55.7000</open>
+    <high>56.6200</high>
+    <low>44.7500</low>
+    <close>47.9700</close>
+    <adjusted_close>3.1760</adjusted_close>
+    <volume>204743300</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>48.3000</open>
+    <high>51.4100</high>
+    <low>47.0300</low>
+    <close>50.0500</close>
+    <adjusted_close>3.3608</adjusted_close>
+    <volume>136399400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>50.2800</open>
+    <high>50.3000</high>
+    <low>46.4000</low>
+    <close>47.6000</close>
+    <adjusted_close>3.1963</adjusted_close>
+    <volume>113352400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>47.7500</open>
+    <high>49.2500</high>
+    <low>46.2900</low>
+    <close>48.9500</close>
+    <adjusted_close>3.2869</adjusted_close>
+    <volume>104034400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>49.1000</open>
+    <high>50.0000</high>
+    <low>44.5000</low>
+    <close>47.0400</close>
+    <adjusted_close>3.2055</adjusted_close>
+    <volume>144082400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>47.2000</open>
+    <high>48.9500</high>
+    <low>45.8800</low>
+    <close>48.4600</close>
+    <adjusted_close>3.3023</adjusted_close>
+    <volume>116107200</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>48.5600</open>
+    <high>59.6100</high>
+    <low>48.4000</low>
+    <close>57.4900</close>
+    <adjusted_close>3.9176</adjusted_close>
+    <volume>213270300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>57.7000</open>
+    <high>61.8800</high>
+    <low>56.5000</low>
+    <close>61.1000</close>
+    <adjusted_close>4.2140</adjusted_close>
+    <volume>135493400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>61.4600</open>
+    <high>64.0000</high>
+    <low>60.4000</low>
+    <close>63.8300</close>
+    <adjusted_close>4.4023</adjusted_close>
+    <volume>139362700</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>63.7900</open>
+    <high>68.5000</high>
+    <low>62.7500</low>
+    <close>65.6500</close>
+    <adjusted_close>4.5279</adjusted_close>
+    <volume>139066400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>65.9300</open>
+    <high>66.6600</high>
+    <low>63.2000</low>
+    <close>65.3900</close>
+    <adjusted_close>4.5608</adjusted_close>
+    <volume>128948100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>66.0000</open>
+    <high>66.3500</high>
+    <low>62.7000</low>
+    <close>64.9900</close>
+    <adjusted_close>4.5329</adjusted_close>
+    <volume>145719800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>65.6500</open>
+    <high>68.1700</high>
+    <low>64.4800</low>
+    <close>67.1400</close>
+    <adjusted_close>4.6828</adjusted_close>
+    <volume>114566300</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>67.2200</open>
+    <high>69.6800</high>
+    <low>64.5900</low>
+    <close>64.6600</close>
+    <adjusted_close>4.5579</adjusted_close>
+    <volume>141595900</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>65.1500</open>
+    <high>68.2600</high>
+    <low>63.6000</low>
+    <close>66.9600</close>
+    <adjusted_close>4.7201</adjusted_close>
+    <volume>109336400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>67.1500</open>
+    <high>71.1400</high>
+    <low>66.0400</low>
+    <close>70.7000</close>
+    <adjusted_close>4.9837</adjusted_close>
+    <volume>152867800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>70.7100</open>
+    <high>74.0400</high>
+    <low>69.8000</low>
+    <close>73.7100</close>
+    <adjusted_close>5.2538</adjusted_close>
+    <volume>174946100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>73.7200</open>
+    <high>75.6000</high>
+    <low>68.6000</low>
+    <close>75.0500</close>
+    <adjusted_close>5.3493</adjusted_close>
+    <volume>192945100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>75.2000</open>
+    <high>75.2000</high>
+    <low>70.2000</low>
+    <close>72.7900</close>
+    <adjusted_close>5.1882</adjusted_close>
+    <volume>147519900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>73.1600</open>
+    <high>78.6800</high>
+    <low>71.4600</low>
+    <close>74.7200</close>
+    <adjusted_close>5.3818</adjusted_close>
+    <volume>220996600</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>75.1500</open>
+    <high>77.3700</high>
+    <low>72.3400</low>
+    <close>72.3400</close>
+    <adjusted_close>5.2104</adjusted_close>
+    <volume>138751400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>72.5500</open>
+    <high>73.8000</high>
+    <low>70.5500</low>
+    <close>71.9000</close>
+    <adjusted_close>5.1787</adjusted_close>
+    <volume>129575900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>72.2000</open>
+    <high>74.5300</high>
+    <low>70.7600</low>
+    <close>70.8600</close>
+    <adjusted_close>5.1596</adjusted_close>
+    <volume>164633600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>71.0000</open>
+    <high>73.2400</high>
+    <low>68.3600</low>
+    <close>73.1600</close>
+    <adjusted_close>5.3271</adjusted_close>
+    <volume>144633000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>73.1000</open>
+    <high>74.3900</high>
+    <low>70.0500</low>
+    <close>72.3500</close>
+    <adjusted_close>5.2681</adjusted_close>
+    <volume>158336000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>72.5300</open>
+    <high>74.1800</high>
+    <low>69.3500</low>
+    <close>73.4300</close>
+    <adjusted_close>5.4076</adjusted_close>
+    <volume>173280500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>73.4300</open>
+    <high>80.9800</high>
+    <low>72.6100</low>
+    <close>79.9700</close>
+    <adjusted_close>5.8893</adjusted_close>
+    <volume>218674800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>79.9800</open>
+    <high>85.0000</high>
+    <low>78.9700</low>
+    <close>83.5300</close>
+    <adjusted_close>6.1514</adjusted_close>
+    <volume>160866900</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>84.0200</open>
+    <high>84.1700</high>
+    <low>75.0000</low>
+    <close>76.5500</close>
+    <adjusted_close>5.6964</adjusted_close>
+    <volume>279410700</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>76.9000</open>
+    <high>82.9400</high>
+    <low>75.4500</low>
+    <close>81.3300</close>
+    <adjusted_close>6.0521</adjusted_close>
+    <volume>257639400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>81.9800</open>
+    <high>85.5500</high>
+    <low>80.2000</low>
+    <close>84.2100</close>
+    <adjusted_close>6.2664</adjusted_close>
+    <volume>163175100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>84.2100</open>
+    <high>86.4500</high>
+    <low>83.4300</low>
+    <close>85.8200</close>
+    <adjusted_close>6.4509</adjusted_close>
+    <volume>151686300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>86.1000</open>
+    <high>90.5000</high>
+    <low>86.0000</low>
+    <close>87.3900</close>
+    <adjusted_close>6.5689</adjusted_close>
+    <volume>200533100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>87.4800</open>
+    <high>87.8500</high>
+    <low>81.1700</low>
+    <close>84.2800</close>
+    <adjusted_close>6.3352</adjusted_close>
+    <volume>178812900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>83.3400</open>
+    <high>87.8100</high>
+    <low>82.1900</low>
+    <close>87.8100</close>
+    <adjusted_close>6.6667</adjusted_close>
+    <volume>371444400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>67.1300</open>
+    <high>71.1000</high>
+    <low>66.9100</low>
+    <close>68.9200</close>
+    <adjusted_close>6.9721</adjusted_close>
+    <volume>269928400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>69.2500</open>
+    <high>72.2000</high>
+    <low>67.8500</low>
+    <close>71.1000</close>
+    <adjusted_close>7.1926</adjusted_close>
+    <volume>203329700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>71.1000</open>
+    <high>71.9100</high>
+    <low>67.9900</low>
+    <close>70.1400</close>
+    <adjusted_close>7.1660</adjusted_close>
+    <volume>258821200</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>70.2300</open>
+    <high>72.2000</high>
+    <low>63.1300</low>
+    <close>66.4700</close>
+    <adjusted_close>6.7910</adjusted_close>
+    <volume>224209900</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>66.2100</open>
+    <high>70.9900</high>
+    <low>64.7200</low>
+    <close>69.4100</close>
+    <adjusted_close>7.0914</adjusted_close>
+    <volume>298382700</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>69.4100</open>
+    <high>69.9500</high>
+    <low>66.6600</low>
+    <close>69.5300</close>
+    <adjusted_close>7.1832</adjusted_close>
+    <volume>210914900</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>69.6700</open>
+    <high>73.5000</high>
+    <low>69.0900</low>
+    <close>72.9300</close>
+    <adjusted_close>7.5344</adjusted_close>
+    <volume>208044600</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>72.8800</open>
+    <high>77.5600</high>
+    <low>71.3000</low>
+    <close>77.5600</close>
+    <adjusted_close>8.0128</adjusted_close>
+    <volume>244252100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>77.3200</open>
+    <high>78.5100</high>
+    <low>75.4000</low>
+    <close>75.5800</close>
+    <adjusted_close>7.8844</adjusted_close>
+    <volume>206260700</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>75.5000</open>
+    <high>79.5900</high>
+    <low>70.8800</low>
+    <close>75.7900</close>
+    <adjusted_close>7.9063</adjusted_close>
+    <volume>320595300</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>75.9900</open>
+    <high>76.3100</high>
+    <low>71.8900</low>
+    <close>73.1400</close>
+    <adjusted_close>7.6299</adjusted_close>
+    <volume>219270400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>72.8500</open>
+    <high>75.8000</high>
+    <low>21.9500</low>
+    <close>22.2000</close>
+    <adjusted_close>7.5883</adjusted_close>
+    <volume>340276800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>21.2400</open>
+    <high>22.7600</high>
+    <low>19.9900</low>
+    <close>20.0000</close>
+    <adjusted_close>6.8363</adjusted_close>
+    <volume>573215700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>20.1800</open>
+    <high>23.0200</high>
+    <low>19.9500</low>
+    <close>22.2600</close>
+    <adjusted_close>7.6088</adjusted_close>
+    <volume>351565800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>22.3200</open>
+    <high>22.3500</high>
+    <low>20.2500</low>
+    <close>20.5600</close>
+    <adjusted_close>7.1255</adjusted_close>
+    <volume>301590500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>20.3500</open>
+    <high>21.8600</high>
+    <low>19.8400</low>
+    <close>20.3500</close>
+    <adjusted_close>7.0528</adjusted_close>
+    <volume>304177600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>20.5400</open>
+    <high>21.8100</high>
+    <low>20.4600</low>
+    <close>21.0300</close>
+    <adjusted_close>7.2884</adjusted_close>
+    <volume>221844300</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>21.1300</open>
+    <high>21.8500</high>
+    <low>19.2600</low>
+    <close>19.8400</close>
+    <adjusted_close>6.9837</adjusted_close>
+    <volume>389403500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>19.8000</open>
+    <high>20.9100</high>
+    <low>16.2600</low>
+    <close>19.1900</close>
+    <adjusted_close>6.7549</adjusted_close>
+    <volume>605065400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>19.3900</open>
+    <high>19.5900</high>
+    <low>14.3400</low>
+    <close>16.0800</close>
+    <adjusted_close>5.6601</adjusted_close>
+    <volume>451692300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>16.0000</open>
+    <high>16.0300</high>
+    <low>14.4200</low>
+    <close>15.0600</close>
+    <adjusted_close>5.4145</adjusted_close>
+    <volume>524798100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>15.1800</open>
+    <high>17.6300</high>
+    <low>14.9600</low>
+    <close>16.5400</close>
+    <adjusted_close>5.9466</adjusted_close>
+    <volume>487989900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>16.4400</open>
+    <high>17.0300</high>
+    <low>14.8300</low>
+    <close>15.4400</close>
+    <adjusted_close>5.5511</adjusted_close>
+    <volume>391825900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>15.2400</open>
+    <high>17.4000</high>
+    <low>14.5000</low>
+    <close>16.0200</close>
+    <adjusted_close>5.8743</adjusted_close>
+    <volume>452071400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>15.8400</open>
+    <high>17.3400</high>
+    <low>15.7600</low>
+    <close>16.3300</close>
+    <adjusted_close>5.9880</adjusted_close>
+    <volume>323192400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>16.4000</open>
+    <high>17.6200</high>
+    <low>16.0600</low>
+    <close>17.0900</close>
+    <adjusted_close>6.2667</adjusted_close>
+    <volume>310534800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>17.1900</open>
+    <high>17.4900</high>
+    <low>16.1500</low>
+    <close>16.3900</close>
+    <adjusted_close>6.1248</adjusted_close>
+    <volume>379663100</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>16.4600</open>
+    <high>18.0000</high>
+    <low>16.1000</low>
+    <close>17.5300</close>
+    <adjusted_close>6.5508</adjusted_close>
+    <volume>336909500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>17.7300</open>
+    <high>18.4500</high>
+    <low>17.3600</low>
+    <close>18.2800</close>
+    <adjusted_close>6.8311</adjusted_close>
+    <volume>322484200</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>18.2700</open>
+    <high>18.7000</high>
+    <low>17.4600</low>
+    <close>17.8100</close>
+    <adjusted_close>6.7799</adjusted_close>
+    <volume>386628900</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>17.7700</open>
+    <high>18.7200</high>
+    <low>17.2800</low>
+    <close>18.1100</close>
+    <adjusted_close>6.8941</adjusted_close>
+    <volume>373294500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>18.1200</open>
+    <high>19.4800</high>
+    <low>18.0200</low>
+    <close>18.8100</close>
+    <adjusted_close>7.1606</adjusted_close>
+    <volume>322662100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>18.9600</open>
+    <high>20.4700</high>
+    <low>18.9100</low>
+    <close>19.6300</close>
+    <adjusted_close>7.5996</adjusted_close>
+    <volume>300136900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>19.7700</open>
+    <high>20.6400</high>
+    <low>19.5800</low>
+    <close>19.8600</close>
+    <adjusted_close>7.6886</adjusted_close>
+    <volume>277275700</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>19.9000</open>
+    <high>20.4800</high>
+    <low>19.1400</low>
+    <close>20.1200</close>
+    <adjusted_close>7.7893</adjusted_close>
+    <volume>273859600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>20.1700</open>
+    <high>20.8600</high>
+    <low>20.1100</low>
+    <close>20.5200</close>
+    <adjusted_close>8.0799</adjusted_close>
+    <volume>317859900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>20.5400</open>
+    <high>21.6100</high>
+    <low>20.5400</low>
+    <close>21.1900</close>
+    <adjusted_close>8.3438</adjusted_close>
+    <volume>264034100</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>21.2800</open>
+    <high>21.9100</high>
+    <low>19.2000</low>
+    <close>20.2900</close>
+    <adjusted_close>7.9894</adjusted_close>
+    <volume>433015500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>20.2500</open>
+    <high>20.8900</high>
+    <low>19.5300</low>
+    <close>20.0400</close>
+    <adjusted_close>8.0292</adjusted_close>
+    <volume>504253900</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>20.1500</open>
+    <high>22.2500</high>
+    <low>19.8900</low>
+    <close>22.1600</close>
+    <adjusted_close>8.8786</adjusted_close>
+    <volume>294492200</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>22.3800</open>
+    <high>22.9900</high>
+    <low>22.0700</low>
+    <close>22.3200</close>
+    <adjusted_close>8.9427</adjusted_close>
+    <volume>273876900</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>22.6000</open>
+    <high>24.3900</high>
+    <low>22.4500</low>
+    <close>24.0200</close>
+    <adjusted_close>9.7797</adjusted_close>
+    <volume>313424800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>24.0100</open>
+    <high>25.4200</high>
+    <low>23.6600</low>
+    <close>25.4200</close>
+    <adjusted_close>10.3498</adjusted_close>
+    <volume>253409400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>25.5400</open>
+    <high>26.2200</high>
+    <low>23.9800</low>
+    <close>24.0000</close>
+    <adjusted_close>9.7716</adjusted_close>
+    <volume>260029800</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>24.2200</open>
+    <high>25.3300</high>
+    <low>23.7000</low>
+    <close>24.6200</close>
+    <adjusted_close>10.1771</adjusted_close>
+    <volume>231529600</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>24.7100</open>
+    <high>24.7700</high>
+    <low>23.3400</low>
+    <close>23.5100</close>
+    <adjusted_close>9.7183</adjusted_close>
+    <volume>250137100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>23.6500</open>
+    <high>25.4000</high>
+    <low>23.4800</low>
+    <close>25.3700</close>
+    <adjusted_close>10.4872</adjusted_close>
+    <volume>214812400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>25.4800</open>
+    <high>26.2700</high>
+    <low>24.1900</low>
+    <close>26.0300</close>
+    <adjusted_close>10.9219</adjusted_close>
+    <volume>332070100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>25.8900</open>
+    <high>27.1500</high>
+    <low>25.8100</low>
+    <close>26.8400</close>
+    <adjusted_close>11.2617</adjusted_close>
+    <volume>209950700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>26.8200</open>
+    <high>28.0900</high>
+    <low>26.6200</low>
+    <close>28.0600</close>
+    <adjusted_close>11.7736</adjusted_close>
+    <volume>238278400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>28.0900</open>
+    <high>28.1300</high>
+    <low>25.9200</low>
+    <close>26.4100</close>
+    <adjusted_close>11.2394</adjusted_close>
+    <volume>286293700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>26.3500</open>
+    <high>27.0900</high>
+    <low>26.0100</low>
+    <close>26.3000</close>
+    <adjusted_close>11.1926</adjusted_close>
+    <volume>216211100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>26.5300</open>
+    <high>27.4100</high>
+    <low>23.2000</low>
+    <close>27.1900</close>
+    <adjusted_close>11.5714</adjusted_close>
+    <volume>434740800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>27.2600</open>
+    <high>27.3600</high>
+    <low>25.2700</low>
+    <close>26.8100</close>
+    <adjusted_close>11.5887</adjusted_close>
+    <volume>373892100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>26.7100</open>
+    <high>28.1400</high>
+    <low>25.9400</low>
+    <close>27.5500</close>
+    <adjusted_close>11.9085</adjusted_close>
+    <volume>280029000</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>27.1200</open>
+    <high>28.7200</high>
+    <low>26.9600</low>
+    <close>28.6900</close>
+    <adjusted_close>12.4013</adjusted_close>
+    <volume>244133200</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>28.5800</open>
+    <high>30.4000</high>
+    <low>28.1300</low>
+    <close>29.6500</close>
+    <adjusted_close>12.9920</adjusted_close>
+    <volume>322979000</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>28.6500</open>
+    <high>29.1900</high>
+    <low>28.0000</low>
+    <close>28.4000</close>
+    <adjusted_close>12.4443</adjusted_close>
+    <volume>247894500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>28.4900</open>
+    <high>30.2800</high>
+    <low>28.3300</low>
+    <close>30.1000</close>
+    <adjusted_close>13.1892</adjusted_close>
+    <volume>217806100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>30.1700</open>
+    <high>31.0000</high>
+    <low>29.7700</low>
+    <close>30.8700</close>
+    <adjusted_close>13.7113</adjusted_close>
+    <volume>263837800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>30.7400</open>
+    <high>32.2500</high>
+    <low>30.7400</low>
+    <close>32.2100</close>
+    <adjusted_close>14.3064</adjusted_close>
+    <volume>173930800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>32.2500</open>
+    <high>32.6200</high>
+    <low>31.4200</low>
+    <close>32.1900</close>
+    <adjusted_close>14.2976</adjusted_close>
+    <volume>204621000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>31.9500</open>
+    <high>34.6000</high>
+    <low>31.5400</low>
+    <close>34.5500</close>
+    <adjusted_close>15.5363</adjusted_close>
+    <volume>302997700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>34.5700</open>
+    <high>36.2500</high>
+    <low>34.5000</low>
+    <close>35.9700</close>
+    <adjusted_close>16.1749</adjusted_close>
+    <volume>183977900</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>36.1400</open>
+    <high>36.2900</high>
+    <low>33.0200</low>
+    <close>33.9600</close>
+    <adjusted_close>15.2710</adjusted_close>
+    <volume>271318500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>34.0200</open>
+    <high>34.6500</high>
+    <low>32.7200</low>
+    <close>33.3900</close>
+    <adjusted_close>15.2093</adjusted_close>
+    <volume>247822800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>33.3800</open>
+    <high>34.2500</high>
+    <low>31.5800</low>
+    <close>31.8000</close>
+    <adjusted_close>14.4850</adjusted_close>
+    <volume>217821100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>31.8500</open>
+    <high>33.9300</high>
+    <low>30.0100</low>
+    <close>33.8100</close>
+    <adjusted_close>15.4006</adjusted_close>
+    <volume>215373000</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>33.9300</open>
+    <high>33.9700</high>
+    <low>30.9400</low>
+    <close>31.4400</close>
+    <adjusted_close>14.5166</adjusted_close>
+    <volume>213926800</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>32.1200</open>
+    <high>33.9200</high>
+    <low>31.8500</low>
+    <close>33.6800</close>
+    <adjusted_close>15.5509</adjusted_close>
+    <volume>193119000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>33.9300</open>
+    <high>35.4700</high>
+    <low>33.5400</low>
+    <close>33.5500</close>
+    <adjusted_close>15.4909</adjusted_close>
+    <volume>179986000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>33.5300</open>
+    <high>34.5400</high>
+    <low>33.3400</low>
+    <close>34.3900</close>
+    <adjusted_close>16.0859</adjusted_close>
+    <volume>266306100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>34.1900</open>
+    <high>36.6100</high>
+    <low>34.0800</low>
+    <close>36.5100</close>
+    <adjusted_close>17.0775</adjusted_close>
+    <volume>193052600</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>36.5100</open>
+    <high>37.6100</high>
+    <low>36.0100</low>
+    <close>36.1000</close>
+    <adjusted_close>16.8858</adjusted_close>
+    <volume>172781000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>36.0600</open>
+    <high>36.6000</high>
+    <low>34.2500</low>
+    <close>34.9900</close>
+    <adjusted_close>16.5682</adjusted_close>
+    <volume>246418200</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>35.2200</open>
+    <high>37.4800</high>
+    <low>35.0100</low>
+    <close>35.0600</close>
+    <adjusted_close>16.6013</adjusted_close>
+    <volume>168870700</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>35.2700</open>
+    <high>35.6900</high>
+    <low>33.1200</low>
+    <close>33.8800</close>
+    <adjusted_close>16.0426</adjusted_close>
+    <volume>179015500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>34.0700</open>
+    <high>36.0000</high>
+    <low>33.7200</low>
+    <close>34.3500</close>
+    <adjusted_close>16.4886</adjusted_close>
+    <volume>200227000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>34.2700</open>
+    <high>37.5500</high>
+    <low>34.2300</low>
+    <close>37.2300</close>
+    <adjusted_close>17.8711</adjusted_close>
+    <volume>169071300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>37.2500</open>
+    <high>38.1000</high>
+    <low>36.6800</low>
+    <close>36.9800</close>
+    <adjusted_close>17.7511</adjusted_close>
+    <volume>127007100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>37.0100</open>
+    <high>38.5800</high>
+    <low>36.8400</low>
+    <close>38.3900</close>
+    <adjusted_close>18.6601</adjusted_close>
+    <volume>189047500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>38.2700</open>
+    <high>38.3800</high>
+    <low>34.3300</low>
+    <close>35.2200</close>
+    <adjusted_close>17.1193</adjusted_close>
+    <volume>200540900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>35.1700</open>
+    <high>36.4100</high>
+    <low>33.8000</low>
+    <close>36.2600</close>
+    <adjusted_close>17.6248</adjusted_close>
+    <volume>173222500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>36.0700</open>
+    <high>37.4900</high>
+    <low>35.8400</low>
+    <close>37.4300</close>
+    <adjusted_close>18.4342</adjusted_close>
+    <volume>164894300</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>37.4500</open>
+    <high>40.2400</high>
+    <low>37.1300</low>
+    <close>40.1100</close>
+    <adjusted_close>19.7541</adjusted_close>
+    <volume>173767600</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>40.1600</open>
+    <high>41.6200</high>
+    <low>39.6000</low>
+    <close>41.5600</close>
+    <adjusted_close>20.4682</adjusted_close>
+    <volume>143319700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>41.6300</open>
+    <high>43.3800</high>
+    <low>41.1000</low>
+    <close>41.9400</close>
+    <adjusted_close>20.8908</adjusted_close>
+    <volume>153820000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>41.8700</open>
+    <high>43.7000</high>
+    <low>40.5900</low>
+    <close>40.6000</close>
+    <adjusted_close>20.2234</adjusted_close>
+    <volume>159097000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>40.3700</open>
+    <high>43.1200</high>
+    <low>40.2600</low>
+    <close>43.0800</close>
+    <adjusted_close>21.4587</adjusted_close>
+    <volume>98058000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>43.1600</open>
+    <high>46.2000</high>
+    <low>42.9200</low>
+    <close>45.9400</close>
+    <adjusted_close>23.1578</adjusted_close>
+    <volume>141115600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>45.9800</open>
+    <high>48.3600</high>
+    <low>44.5900</low>
+    <close>48.3400</close>
+    <adjusted_close>24.3677</adjusted_close>
+    <volume>168909300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>48.2900</open>
+    <high>50.4500</high>
+    <low>48.2900</low>
+    <close>50.2600</close>
+    <adjusted_close>25.3355</adjusted_close>
+    <volume>118497500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>50.1300</open>
+    <high>51.6700</high>
+    <low>48.9100</low>
+    <close>49.2700</close>
+    <adjusted_close>25.0946</adjusted_close>
+    <volume>146217500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>49.3000</open>
+    <high>55.1800</high>
+    <low>48.5200</low>
+    <close>53.1000</close>
+    <adjusted_close>27.0453</adjusted_close>
+    <volume>135627100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>53.2500</open>
+    <high>56.6000</high>
+    <low>52.9100</low>
+    <close>56.2900</close>
+    <adjusted_close>28.6700</adjusted_close>
+    <volume>126046600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>56.2900</open>
+    <high>56.7000</high>
+    <low>49.0300</low>
+    <close>50.0200</close>
+    <adjusted_close>25.7328</adjusted_close>
+    <volume>181776500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>50.1600</open>
+    <high>52.9900</high>
+    <low>49.5500</low>
+    <close>50.0500</close>
+    <adjusted_close>25.7482</adjusted_close>
+    <volume>153869000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>50.1200</open>
+    <high>52.8800</high>
+    <low>50.1100</low>
+    <close>51.2000</close>
+    <adjusted_close>26.3398</adjusted_close>
+    <volume>110640300</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>51.2900</open>
+    <high>51.4800</high>
+    <low>47.3100</low>
+    <close>48.9100</close>
+    <adjusted_close>25.4304</adjusted_close>
+    <volume>149382800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>49.0900</open>
+    <high>55.7200</high>
+    <low>48.7000</low>
+    <close>54.3800</close>
+    <adjusted_close>28.2745</adjusted_close>
+    <volume>163127300</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>54.4300</open>
+    <high>56.3900</high>
+    <low>47.4100</low>
+    <close>53.5800</close>
+    <adjusted_close>27.8586</adjusted_close>
+    <volume>145675400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>52.7200</open>
+    <high>55.6600</high>
+    <low>51.7000</low>
+    <close>54.4000</close>
+    <adjusted_close>28.5881</adjusted_close>
+    <volume>149552000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>54.4600</open>
+    <high>61.7400</high>
+    <low>53.6800</low>
+    <close>60.4700</close>
+    <adjusted_close>31.7780</adjusted_close>
+    <volume>141034200</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>60.8200</open>
+    <high>60.8900</high>
+    <low>56.2500</low>
+    <close>57.6000</close>
+    <adjusted_close>30.2698</adjusted_close>
+    <volume>118008700</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>57.6600</open>
+    <high>59.1500</high>
+    <low>56.1700</low>
+    <close>58.2100</close>
+    <adjusted_close>30.8942</adjusted_close>
+    <volume>116561400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>57.5400</open>
+    <high>61.1800</high>
+    <low>56.1500</low>
+    <close>61.1100</close>
+    <adjusted_close>32.4334</adjusted_close>
+    <volume>144461700</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>60.7300</open>
+    <high>62.5300</high>
+    <low>58.8400</low>
+    <close>61.5700</close>
+    <adjusted_close>32.6775</adjusted_close>
+    <volume>121810100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>62.1300</open>
+    <high>63.1500</high>
+    <low>60.3300</low>
+    <close>62.6600</close>
+    <adjusted_close>33.5569</adjusted_close>
+    <volume>146578900</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>62.3500</open>
+    <high>64.1600</high>
+    <low>59.4800</low>
+    <close>62.7100</close>
+    <adjusted_close>33.5837</adjusted_close>
+    <volume>127811600</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>62.8300</open>
+    <high>65.5300</high>
+    <low>62.5700</low>
+    <close>63.6400</close>
+    <adjusted_close>34.0818</adjusted_close>
+    <volume>115118200</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>63.6800</open>
+    <high>69.2600</high>
+    <low>63.6600</low>
+    <close>68.9600</close>
+    <adjusted_close>37.2491</adjusted_close>
+    <volume>149053100</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>69.2800</open>
+    <high>70.1500</high>
+    <low>66.1200</low>
+    <close>67.7000</close>
+    <adjusted_close>36.5685</adjusted_close>
+    <volume>120818100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>67.6600</open>
+    <high>68.0000</high>
+    <low>65.7000</low>
+    <close>66.0900</close>
+    <adjusted_close>35.6989</adjusted_close>
+    <volume>97676700</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>65.9100</open>
+    <high>67.3200</high>
+    <low>62.4600</low>
+    <close>63.2300</close>
+    <adjusted_close>34.4792</adjusted_close>
+    <volume>117503500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>63.0400</open>
+    <high>66.2200</high>
+    <low>60.8200</low>
+    <close>66.1200</close>
+    <adjusted_close>36.0552</adjusted_close>
+    <volume>138434100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>66.1900</open>
+    <high>66.2500</high>
+    <low>60.9300</low>
+    <close>63.9300</close>
+    <adjusted_close>34.8610</adjusted_close>
+    <volume>155336100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>63.5100</open>
+    <high>68.0300</high>
+    <low>62.4000</low>
+    <close>67.6200</close>
+    <adjusted_close>37.2081</adjusted_close>
+    <volume>133296400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>67.7400</open>
+    <high>71.4400</high>
+    <low>67.2500</low>
+    <close>71.1800</close>
+    <adjusted_close>39.1670</adjusted_close>
+    <volume>137366000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>69.9600</open>
+    <high>75.1400</high>
+    <low>68.8000</low>
+    <close>74.9200</close>
+    <adjusted_close>41.2249</adjusted_close>
+    <volume>109930100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>74.9800</open>
+    <high>76.5500</high>
+    <low>71.4200</low>
+    <close>71.4200</close>
+    <adjusted_close>39.6151</adjusted_close>
+    <volume>163481700</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>71.6000</open>
+    <high>72.7500</high>
+    <low>70.7800</low>
+    <close>71.7800</close>
+    <adjusted_close>39.8148</adjusted_close>
+    <volume>105332500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>71.7500</open>
+    <high>75.4400</high>
+    <low>69.7900</low>
+    <close>75.4400</close>
+    <adjusted_close>41.8449</adjusted_close>
+    <volume>136177600</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>75.0800</open>
+    <high>77.7900</high>
+    <low>74.1200</low>
+    <close>74.4700</close>
+    <adjusted_close>41.6438</adjusted_close>
+    <volume>118923000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>74.7100</open>
+    <high>74.9800</high>
+    <low>60.0100</low>
+    <close>64.9700</close>
+    <adjusted_close>36.3314</adjusted_close>
+    <volume>172013300</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>65.2000</open>
+    <high>66.6300</high>
+    <low>63.3100</low>
+    <close>63.4000</close>
+    <adjusted_close>35.4534</adjusted_close>
+    <volume>172858000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>63.5000</open>
+    <high>65.1700</high>
+    <low>60.7800</low>
+    <close>63.4200</close>
+    <adjusted_close>35.8431</adjusted_close>
+    <volume>164443400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>63.3500</open>
+    <high>65.9400</high>
+    <low>62.3200</low>
+    <close>64.2200</close>
+    <adjusted_close>36.2952</adjusted_close>
+    <volume>149449500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>64.5600</open>
+    <high>68.3500</high>
+    <low>63.2500</low>
+    <close>67.8300</close>
+    <adjusted_close>38.3354</adjusted_close>
+    <volume>133012100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>67.9600</open>
+    <high>74.3800</high>
+    <low>66.7800</low>
+    <close>71.4100</close>
+    <adjusted_close>40.7224</adjusted_close>
+    <volume>148743100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>71.5100</open>
+    <high>71.8600</high>
+    <low>67.6500</low>
+    <close>70.3400</close>
+    <adjusted_close>40.1123</adjusted_close>
+    <volume>150783100</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>69.9000</open>
+    <high>70.6600</high>
+    <low>62.8300</low>
+    <close>62.9500</close>
+    <adjusted_close>35.8980</adjusted_close>
+    <volume>162390600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>62.7500</open>
+    <high>66.5300</high>
+    <low>59.0700</low>
+    <close>62.3200</close>
+    <adjusted_close>35.9190</adjusted_close>
+    <volume>189134600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>62.5200</open>
+    <high>64.8100</high>
+    <low>54.2300</low>
+    <close>56.1100</close>
+    <adjusted_close>32.3398</adjusted_close>
+    <volume>209462500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>55.7200</open>
+    <high>56.7900</high>
+    <low>53.9100</low>
+    <close>55.7400</close>
+    <adjusted_close>32.1265</adjusted_close>
+    <volume>170829900</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>55.9100</open>
+    <high>58.4600</high>
+    <low>55.5200</low>
+    <close>56.7900</close>
+    <adjusted_close>33.1355</adjusted_close>
+    <volume>158711400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>56.4000</open>
+    <high>59.1000</high>
+    <low>55.1800</low>
+    <close>58.6800</close>
+    <adjusted_close>34.2383</adjusted_close>
+    <volume>160065400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>58.5200</open>
+    <high>61.3200</high>
+    <low>58.0300</low>
+    <close>58.5200</close>
+    <adjusted_close>34.1450</adjusted_close>
+    <volume>130279500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>58.6400</open>
+    <high>64.0400</high>
+    <low>58.4500</low>
+    <close>60.3100</close>
+    <adjusted_close>35.6389</adjusted_close>
+    <volume>137743600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>60.3400</open>
+    <high>66.0000</high>
+    <low>59.5000</low>
+    <close>65.0400</close>
+    <adjusted_close>38.4340</adjusted_close>
+    <volume>179044200</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>64.7000</open>
+    <high>66.0400</high>
+    <low>52.9000</low>
+    <close>54.8300</close>
+    <adjusted_close>32.4006</adjusted_close>
+    <volume>216737300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>54.7000</open>
+    <high>56.2300</high>
+    <low>46.4900</low>
+    <close>49.3900</close>
+    <adjusted_close>29.6695</adjusted_close>
+    <volume>254997600</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>48.9100</open>
+    <high>50.3100</high>
+    <low>42.4000</low>
+    <close>49.3500</close>
+    <adjusted_close>29.6454</adjusted_close>
+    <volume>313556300</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>49.5300</open>
+    <high>52.7500</high>
+    <low>47.8300</low>
+    <close>52.4100</close>
+    <adjusted_close>31.4836</adjusted_close>
+    <volume>199276000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>52.6700</open>
+    <high>57.6800</high>
+    <low>51.9600</low>
+    <close>57.4300</close>
+    <adjusted_close>34.9909</adjusted_close>
+    <volume>252395200</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>57.3800</open>
+    <high>57.8800</high>
+    <low>50.6600</low>
+    <close>54.3300</close>
+    <adjusted_close>33.1022</adjusted_close>
+    <volume>189534800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>54.5200</open>
+    <high>54.7400</high>
+    <low>48.7000</low>
+    <close>49.0600</close>
+    <adjusted_close>29.8913</adjusted_close>
+    <volume>158366700</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>49.2500</open>
+    <high>52.4600</high>
+    <low>47.3100</low>
+    <close>47.3500</close>
+    <adjusted_close>29.3038</adjusted_close>
+    <volume>167470000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>47.7300</open>
+    <high>51.1200</high>
+    <low>46.7200</low>
+    <close>47.0700</close>
+    <adjusted_close>29.1305</adjusted_close>
+    <volume>142862700</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>47.5000</open>
+    <high>52.4500</high>
+    <low>43.5700</low>
+    <close>43.7400</close>
+    <adjusted_close>27.0697</adjusted_close>
+    <volume>258314400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>43.7000</open>
+    <high>44.9700</high>
+    <low>39.3000</low>
+    <close>40.9000</close>
+    <adjusted_close>25.7995</adjusted_close>
+    <volume>278639600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>41.0300</open>
+    <high>47.1600</high>
+    <low>40.1100</low>
+    <close>44.7900</close>
+    <adjusted_close>28.2533</adjusted_close>
+    <volume>223862100</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>44.6000</open>
+    <high>49.8600</high>
+    <low>44.5800</low>
+    <close>49.7000</close>
+    <adjusted_close>31.3505</adjusted_close>
+    <volume>165860000</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>50.0000</open>
+    <high>51.7300</high>
+    <low>49.6200</low>
+    <close>49.9100</close>
+    <adjusted_close>32.0045</adjusted_close>
+    <volume>169364500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>50.1900</open>
+    <high>51.7800</high>
+    <low>46.3300</low>
+    <close>47.5300</close>
+    <adjusted_close>30.4783</adjusted_close>
+    <volume>175654300</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>47.5200</open>
+    <high>47.7000</high>
+    <low>38.5700</low>
+    <close>40.3700</close>
+    <adjusted_close>25.8870</adjusted_close>
+    <volume>207589500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>40.4600</open>
+    <high>43.9500</high>
+    <low>30.9500</low>
+    <close>38.6700</close>
+    <adjusted_close>25.4789</adjusted_close>
+    <volume>382935800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>36.8500</open>
+    <high>42.3900</high>
+    <low>35.3400</low>
+    <close>39.2500</close>
+    <adjusted_close>25.8611</adjusted_close>
+    <volume>222288600</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>39.0300</open>
+    <high>40.3600</high>
+    <low>35.0200</low>
+    <close>39.0500</close>
+    <adjusted_close>25.7293</adjusted_close>
+    <volume>224626000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>39.1000</open>
+    <high>43.1500</high>
+    <low>38.0900</low>
+    <close>39.2500</close>
+    <adjusted_close>26.4260</adjusted_close>
+    <volume>205880500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>39.4300</open>
+    <high>43.2000</high>
+    <low>38.5300</low>
+    <close>41.1500</close>
+    <adjusted_close>27.7053</adjusted_close>
+    <volume>146701800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>41.1100</open>
+    <high>44.4600</high>
+    <low>40.6700</low>
+    <close>43.7400</close>
+    <adjusted_close>29.4490</adjusted_close>
+    <volume>139032800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>43.6500</open>
+    <high>44.7800</high>
+    <low>37.5900</low>
+    <close>38.6400</close>
+    <adjusted_close>26.5389</adjusted_close>
+    <volume>203606100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>38.6700</open>
+    <high>41.2600</high>
+    <low>35.8300</low>
+    <close>36.0800</close>
+    <adjusted_close>24.7807</adjusted_close>
+    <volume>162627600</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>36.4900</open>
+    <high>41.5400</high>
+    <low>36.1300</low>
+    <close>39.8300</close>
+    <adjusted_close>27.3563</adjusted_close>
+    <volume>181296900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>40.0800</open>
+    <high>43.8700</high>
+    <low>39.9100</low>
+    <close>41.0000</close>
+    <adjusted_close>28.7363</adjusted_close>
+    <volume>241746900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>41.0800</open>
+    <high>43.0400</high>
+    <low>40.0000</low>
+    <close>41.0800</close>
+    <adjusted_close>28.7924</adjusted_close>
+    <volume>154124600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>41.0800</open>
+    <high>45.3400</high>
+    <low>40.4600</low>
+    <close>43.6000</close>
+    <adjusted_close>30.5586</adjusted_close>
+    <volume>151464800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>44.1500</open>
+    <high>52.5900</high>
+    <low>44.0100</low>
+    <close>51.1600</close>
+    <adjusted_close>36.4784</adjusted_close>
+    <volume>269897800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>51.0000</open>
+    <high>52.5500</high>
+    <low>45.1600</low>
+    <close>47.7500</close>
+    <adjusted_close>34.0470</adjusted_close>
+    <volume>245325500</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>48.0700</open>
+    <high>51.1400</high>
+    <low>47.5900</low>
+    <close>49.2200</close>
+    <adjusted_close>35.0951</adjusted_close>
+    <volume>138286400</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>49.5800</open>
+    <high>50.5500</high>
+    <low>45.9400</low>
+    <close>47.6800</close>
+    <adjusted_close>34.5950</adjusted_close>
+    <volume>174430900</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>47.6700</open>
+    <high>49.0100</high>
+    <low>46.1300</low>
+    <close>48.0400</close>
+    <adjusted_close>34.8562</adjusted_close>
+    <volume>138294400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>48.2400</open>
+    <high>50.3300</high>
+    <low>46.8200</low>
+    <close>50.2300</close>
+    <adjusted_close>36.4452</adjusted_close>
+    <volume>115635800</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>50.4300</open>
+    <high>51.0800</high>
+    <low>45.3700</low>
+    <close>45.5200</close>
+    <adjusted_close>33.6322</adjusted_close>
+    <volume>157267400</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>45.4700</open>
+    <high>49.0000</high>
+    <low>44.1000</low>
+    <close>44.1100</close>
+    <adjusted_close>32.5904</adjusted_close>
+    <volume>157527000</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>44.2100</open>
+    <high>45.4300</high>
+    <low>42.5300</low>
+    <close>42.6400</close>
+    <adjusted_close>31.5043</adjusted_close>
+    <volume>151096900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>43.1800</open>
+    <high>48.8400</high>
+    <low>42.9700</low>
+    <close>47.3900</close>
+    <adjusted_close>35.6861</adjusted_close>
+    <volume>187391300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>47.3700</open>
+    <high>51.3700</high>
+    <low>47.1800</low>
+    <close>50.8800</close>
+    <adjusted_close>38.3142</adjusted_close>
+    <volume>208636800</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>50.9700</open>
+    <high>52.1700</high>
+    <low>48.6100</low>
+    <close>51.2900</close>
+    <adjusted_close>38.6230</adjusted_close>
+    <volume>156305600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>51.2600</open>
+    <high>53.9600</high>
+    <low>49.7900</low>
+    <close>52.2500</close>
+    <adjusted_close>40.0227</adjusted_close>
+    <volume>236142000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>52.5600</open>
+    <high>57.0500</high>
+    <low>52.0500</low>
+    <close>55.5700</close>
+    <adjusted_close>42.5658</adjusted_close>
+    <volume>159628300</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>56.0900</open>
+    <high>57.0300</high>
+    <low>50.3600</low>
+    <close>54.0900</close>
+    <adjusted_close>41.4321</adjusted_close>
+    <volume>238568200</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>54.2300</open>
+    <high>54.3700</high>
+    <low>41.0000</low>
+    <close>41.7700</close>
+    <adjusted_close>32.6176</adjusted_close>
+    <volume>353097000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>41.5600</open>
+    <high>44.5000</high>
+    <low>41.0100</low>
+    <close>43.8600</close>
+    <adjusted_close>34.2497</adjusted_close>
+    <volume>171859100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>43.7100</open>
+    <high>46.6100</high>
+    <low>43.2600</low>
+    <close>45.1200</close>
+    <adjusted_close>35.2336</adjusted_close>
+    <volume>141241600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>45.0000</open>
+    <high>45.9200</high>
+    <low>40.3500</low>
+    <close>40.3800</close>
+    <adjusted_close>32.2374</adjusted_close>
+    <volume>221405000</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>40.8500</open>
+    <high>46.7700</high>
+    <low>40.7400</low>
+    <close>46.2700</close>
+    <adjusted_close>36.9397</adjusted_close>
+    <volume>201135900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>46.4200</open>
+    <high>46.6700</high>
+    <low>43.1800</low>
+    <close>46.5800</close>
+    <adjusted_close>37.1872</adjusted_close>
+    <volume>159126300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>46.7200</open>
+    <high>47.9100</high>
+    <low>45.2300</low>
+    <close>45.7100</close>
+    <adjusted_close>37.2466</adjusted_close>
+    <volume>162845300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>45.7300</open>
+    <high>46.9900</high>
+    <low>42.7200</low>
+    <close>45.0400</close>
+    <adjusted_close>36.7006</adjusted_close>
+    <volume>151023000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>46.0500</open>
+    <high>48.1100</high>
+    <low>45.5100</low>
+    <close>46.4300</close>
+    <adjusted_close>37.8333</adjusted_close>
+    <volume>140438700</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>46.2900</open>
+    <high>47.4200</high>
+    <low>43.2500</low>
+    <close>44.6200</close>
+    <adjusted_close>37.1314</adjusted_close>
+    <volume>236093000</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>44.7200</open>
+    <high>47.7200</high>
+    <low>44.1900</low>
+    <close>47.5100</close>
+    <adjusted_close>39.5364</adjusted_close>
+    <volume>139627300</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>47.5500</open>
+    <high>48.0400</high>
+    <low>43.7100</low>
+    <close>44.4200</close>
+    <adjusted_close>36.9650</adjusted_close>
+    <volume>146743300</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>44.6300</open>
+    <high>45.9300</high>
+    <low>43.3400</low>
+    <close>45.3000</close>
+    <adjusted_close>38.4879</adjusted_close>
+    <volume>168029200</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>45.1900</open>
+    <high>46.3400</high>
+    <low>44.6900</low>
+    <close>45.4200</close>
+    <adjusted_close>38.5899</adjusted_close>
+    <volume>131872700</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>45.6800</open>
+    <high>46.2100</high>
+    <low>42.4600</low>
+    <close>44.2200</close>
+    <adjusted_close>37.5703</adjusted_close>
+    <volume>167770200</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>44.4400</open>
+    <high>45.0300</high>
+    <low>41.5900</low>
+    <close>42.0500</close>
+    <adjusted_close>36.5266</adjusted_close>
+    <volume>173856100</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>42.0200</open>
+    <high>43.5200</high>
+    <low>39.0700</low>
+    <close>40.1700</close>
+    <adjusted_close>34.8935</adjusted_close>
+    <volume>190426800</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>40.2900</open>
+    <high>42.0500</high>
+    <low>39.6300</low>
+    <close>42.0400</close>
+    <adjusted_close>36.5179</adjusted_close>
+    <volume>174023500</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>42.1500</open>
+    <high>42.9600</high>
+    <low>40.0300</low>
+    <close>40.3400</close>
+    <adjusted_close>35.8695</adjusted_close>
+    <volume>205403200</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>40.3600</open>
+    <high>42.0800</high>
+    <low>39.9100</low>
+    <close>40.1200</close>
+    <adjusted_close>35.6738</adjusted_close>
+    <volume>184108500</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>40.6000</open>
+    <high>41.7500</high>
+    <low>39.8500</low>
+    <close>40.9100</close>
+    <adjusted_close>36.3763</adjusted_close>
+    <volume>175315400</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>40.9000</open>
+    <high>45.0000</high>
+    <low>39.2500</low>
+    <close>43.6200</close>
+    <adjusted_close>39.6504</adjusted_close>
+    <volume>360928600</volume>
+    <news>MO Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>43.6200</open>
+    <high>44.1400</high>
+    <low>40.6500</low>
+    <close>43.8100</close>
+    <adjusted_close>39.8231</adjusted_close>
+    <volume>273620200</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>43.7000</open>
+    <high>46.6000</high>
+    <low>43.3700</low>
+    <close>46.2500</close>
+    <adjusted_close>42.0411</adjusted_close>
+    <volume>205887800</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>46.0400</open>
+    <high>47.1900</high>
+    <low>43.8300</low>
+    <close>45.5500</close>
+    <adjusted_close>42.3111</adjusted_close>
+    <volume>197122000</volume>
+    <news>MO Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>45.9000</open>
+    <high>50.8500</high>
+    <low>45.7300</low>
+    <close>49.0100</close>
+    <adjusted_close>45.5251</adjusted_close>
+    <volume>171939600</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>49.6100</open>
+    <high>53.8200</high>
+    <low>49.0100</low>
+    <close>53.7700</close>
+    <adjusted_close>49.9466</adjusted_close>
+    <volume>172040200</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>53.7800</open>
+    <high>54.9500</high>
+    <low>49.9200</low>
+    <close>51.0400</close>
+    <adjusted_close>48.3418</adjusted_close>
+    <volume>181631500</volume>
+    <news>MO Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>51.0600</open>
+    <high>54.8400</high>
+    <low>48.8600</low>
+    <close>54.4600</close>
+    <adjusted_close>51.5810</adjusted_close>
+    <volume>167932400</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>54.4600</open>
+    <high>58.0400</high>
+    <low>53.4300</low>
+    <close>57.7400</close>
+    <adjusted_close>54.6876</adjusted_close>
+    <volume>145693300</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>57.6200</open>
+    <high>58.0100</high>
+    <low>51.6300</low>
+    <close>52.2900</close>
+    <adjusted_close>50.4889</adjusted_close>
+    <volume>172943900</volume>
+    <news>MO Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</altria_stock_data>

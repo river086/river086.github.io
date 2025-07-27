@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<home_depot_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>68.6250</open>
+    <high>69.1875</high>
+    <low>54.8750</low>
+    <close>56.6250</close>
+    <adjusted_close>33.3391</adjusted_close>
+    <volume>134837200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>56.9375</open>
+    <high>62.0000</high>
+    <low>52.6250</low>
+    <close>57.5000</close>
+    <adjusted_close>33.8542</adjusted_close>
+    <volume>125200600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>57.8125</open>
+    <high>69.5625</high>
+    <low>51.0000</low>
+    <close>64.5000</close>
+    <adjusted_close>38.0038</adjusted_close>
+    <volume>147000700</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>65.5000</open>
+    <high>70.0000</high>
+    <low>55.3125</low>
+    <close>56.5000</close>
+    <adjusted_close>33.2902</adjusted_close>
+    <volume>108585200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>56.5000</open>
+    <high>57.9375</high>
+    <low>44.1250</low>
+    <close>49.0000</close>
+    <adjusted_close>28.8711</adjusted_close>
+    <volume>145181700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>49.0000</open>
+    <high>54.0000</high>
+    <low>45.0000</low>
+    <close>49.9375</close>
+    <adjusted_close>29.4491</adjusted_close>
+    <volume>131944300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>49.6875</open>
+    <high>58.7500</high>
+    <low>48.6250</low>
+    <close>51.7500</close>
+    <adjusted_close>30.5180</adjusted_close>
+    <volume>92784800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>51.9375</open>
+    <high>60.0000</high>
+    <low>48.0000</low>
+    <close>48.0625</close>
+    <adjusted_close>28.3661</adjusted_close>
+    <volume>145390600</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>49.0000</open>
+    <high>56.1875</high>
+    <low>48.0625</low>
+    <close>52.9375</close>
+    <adjusted_close>31.2432</adjusted_close>
+    <volume>105695500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>53.9375</open>
+    <high>56.8125</high>
+    <low>34.6875</low>
+    <close>43.0000</close>
+    <adjusted_close>25.3782</adjusted_close>
+    <volume>269631700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>43.0000</open>
+    <high>44.3125</high>
+    <low>35.4375</low>
+    <close>39.1875</close>
+    <adjusted_close>23.1520</adjusted_close>
+    <volume>159686700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>39.2500</open>
+    <high>47.4375</high>
+    <low>38.7500</low>
+    <close>45.6875</close>
+    <adjusted_close>26.9922</adjusted_close>
+    <volume>175587400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>45.6875</open>
+    <high>52.5000</high>
+    <low>40.9375</low>
+    <close>48.2000</close>
+    <adjusted_close>28.4766</adjusted_close>
+    <volume>224446800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>47.5200</open>
+    <high>48.9000</high>
+    <low>39.6200</low>
+    <close>42.5000</close>
+    <adjusted_close>25.1091</adjusted_close>
+    <volume>141499800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>42.4000</open>
+    <high>45.5000</high>
+    <low>38.1100</low>
+    <close>43.1000</close>
+    <adjusted_close>25.4881</adjusted_close>
+    <volume>179137300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>43.1000</open>
+    <high>48.5000</high>
+    <low>40.0500</low>
+    <close>47.1000</close>
+    <adjusted_close>27.8536</adjusted_close>
+    <volume>139696600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>47.0100</open>
+    <high>53.7300</high>
+    <low>46.7500</low>
+    <close>49.2900</close>
+    <adjusted_close>29.1487</adjusted_close>
+    <volume>143446900</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>49.0000</open>
+    <high>51.4500</high>
+    <low>46.5500</low>
+    <close>47.2400</close>
+    <adjusted_close>27.9585</adjusted_close>
+    <volume>118961200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>46.9900</open>
+    <high>50.9000</high>
+    <low>44.6000</low>
+    <close>50.3700</close>
+    <adjusted_close>29.8109</adjusted_close>
+    <volume>106056100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>50.3700</open>
+    <high>50.7000</high>
+    <low>45.2700</low>
+    <close>45.9500</close>
+    <adjusted_close>27.2172</adjusted_close>
+    <volume>124733500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>45.8200</open>
+    <high>48.0000</high>
+    <low>30.3000</low>
+    <close>38.3700</close>
+    <adjusted_close>22.7274</adjusted_close>
+    <volume>193174700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>38.1200</open>
+    <high>43.1200</high>
+    <low>37.1000</low>
+    <close>38.2300</close>
+    <adjusted_close>22.6445</adjusted_close>
+    <volume>173826200</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>38.2300</open>
+    <high>47.2300</high>
+    <low>37.4700</low>
+    <close>46.6500</close>
+    <adjusted_close>27.6942</adjusted_close>
+    <volume>172422800</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>46.6600</open>
+    <high>52.0400</high>
+    <low>46.2500</low>
+    <close>51.0100</close>
+    <adjusted_close>30.2825</adjusted_close>
+    <volume>134069300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>51.0100</open>
+    <high>51.6500</high>
+    <low>46.9000</low>
+    <close>50.0900</close>
+    <adjusted_close>29.7364</adjusted_close>
+    <volume>129964900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>50.0000</open>
+    <high>52.6000</high>
+    <low>48.3500</low>
+    <close>50.0000</close>
+    <adjusted_close>29.6829</adjusted_close>
+    <volume>129384000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>50.2800</open>
+    <high>50.5000</high>
+    <low>47.1000</low>
+    <close>48.6100</close>
+    <adjusted_close>28.8876</adjusted_close>
+    <volume>154230200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>48.1500</open>
+    <high>50.4600</high>
+    <low>46.0000</low>
+    <close>46.3700</close>
+    <adjusted_close>27.5565</adjusted_close>
+    <volume>131218600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>46.4400</open>
+    <high>49.5000</high>
+    <low>39.8500</low>
+    <close>41.6900</close>
+    <adjusted_close>24.7753</adjusted_close>
+    <volume>235069000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>41.1500</open>
+    <high>42.0500</high>
+    <low>34.9000</low>
+    <close>36.7300</close>
+    <adjusted_close>21.8550</adjusted_close>
+    <volume>204571300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>36.7500</open>
+    <high>38.5000</high>
+    <low>27.2500</low>
+    <close>30.8800</close>
+    <adjusted_close>18.3742</adjusted_close>
+    <volume>357101400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>30.7500</open>
+    <high>34.4800</high>
+    <low>26.1000</low>
+    <close>32.9300</close>
+    <adjusted_close>19.5940</adjusted_close>
+    <volume>357006500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>32.6300</open>
+    <high>34.9000</high>
+    <low>24.7500</low>
+    <close>26.1000</close>
+    <adjusted_close>15.5536</adjusted_close>
+    <volume>219699300</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>25.9500</open>
+    <high>31.3200</high>
+    <low>23.1800</low>
+    <close>28.8800</close>
+    <adjusted_close>17.2103</adjusted_close>
+    <volume>319117100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>28.8100</open>
+    <high>29.2500</high>
+    <low>23.8000</low>
+    <close>26.4000</close>
+    <adjusted_close>15.7324</adjusted_close>
+    <volume>356145400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>27.4800</open>
+    <high>27.6300</high>
+    <low>23.0100</low>
+    <close>24.0200</close>
+    <adjusted_close>14.3466</adjusted_close>
+    <volume>284287400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>24.2100</open>
+    <high>24.9100</high>
+    <low>20.1000</low>
+    <close>20.9000</close>
+    <adjusted_close>12.4831</adjusted_close>
+    <volume>393066300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>21.0000</open>
+    <high>23.5900</high>
+    <low>20.1800</low>
+    <close>23.4500</close>
+    <adjusted_close>14.0061</adjusted_close>
+    <volume>231128700</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>23.4900</open>
+    <high>25.8000</high>
+    <low>21.5100</low>
+    <close>24.3600</close>
+    <adjusted_close>14.5896</adjusted_close>
+    <volume>229009100</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>24.6100</open>
+    <high>28.7600</high>
+    <low>23.9800</low>
+    <close>28.1300</close>
+    <adjusted_close>16.8475</adjusted_close>
+    <volume>220136700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>28.1000</open>
+    <high>32.5700</high>
+    <low>27.3500</low>
+    <close>32.4900</close>
+    <adjusted_close>19.4588</adjusted_close>
+    <volume>250999800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>32.7500</open>
+    <high>34.7200</high>
+    <low>31.5800</low>
+    <close>33.1200</close>
+    <adjusted_close>19.8727</adjusted_close>
+    <volume>182886200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>33.1200</open>
+    <high>34.7000</high>
+    <low>30.5600</low>
+    <close>31.2000</close>
+    <adjusted_close>18.7207</adjusted_close>
+    <volume>197934200</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>31.2500</open>
+    <high>34.2300</high>
+    <low>30.1000</low>
+    <close>32.1600</close>
+    <adjusted_close>19.2967</adjusted_close>
+    <volume>200772100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>31.9300</open>
+    <high>34.2500</high>
+    <low>31.1100</low>
+    <close>31.8500</close>
+    <adjusted_close>19.1524</adjusted_close>
+    <volume>215459500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>32.1200</open>
+    <high>37.8400</high>
+    <low>32.0600</low>
+    <close>37.0700</close>
+    <adjusted_close>22.2914</adjusted_close>
+    <volume>173351900</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>37.4300</open>
+    <high>37.8900</high>
+    <low>34.8300</low>
+    <close>36.7600</close>
+    <adjusted_close>22.1049</adjusted_close>
+    <volume>129531900</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>36.8800</open>
+    <high>36.9800</high>
+    <low>31.9300</low>
+    <close>35.4900</close>
+    <adjusted_close>21.3820</adjusted_close>
+    <volume>193037700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>35.7500</open>
+    <high>36.4000</high>
+    <low>34.7000</low>
+    <close>35.4700</close>
+    <adjusted_close>21.3699</adjusted_close>
+    <volume>183718600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>35.4700</open>
+    <high>37.0800</high>
+    <low>35.0100</low>
+    <close>36.3100</close>
+    <adjusted_close>21.8760</adjusted_close>
+    <volume>144953600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>36.5800</open>
+    <high>37.6500</high>
+    <low>35.1200</low>
+    <close>37.3600</close>
+    <adjusted_close>22.5510</adjusted_close>
+    <volume>158885900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>37.3000</open>
+    <high>37.8400</high>
+    <low>35.1900</low>
+    <close>35.1900</close>
+    <adjusted_close>21.2412</adjusted_close>
+    <volume>133451400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>35.2500</open>
+    <high>36.3000</high>
+    <low>32.3400</low>
+    <close>35.9200</close>
+    <adjusted_close>21.6818</adjusted_close>
+    <volume>170501900</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>35.7700</open>
+    <high>36.1300</high>
+    <low>34.7500</low>
+    <close>35.2000</close>
+    <adjusted_close>21.2977</adjusted_close>
+    <volume>171113400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>35.2100</open>
+    <high>35.3500</high>
+    <low>32.5700</low>
+    <close>33.7200</close>
+    <adjusted_close>20.4022</adjusted_close>
+    <volume>129195800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>33.7200</open>
+    <high>36.8700</high>
+    <low>32.3900</low>
+    <close>36.5600</close>
+    <adjusted_close>22.1722</adjusted_close>
+    <volume>144180100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>36.5500</open>
+    <high>39.7300</high>
+    <low>36.3600</low>
+    <close>39.2000</close>
+    <adjusted_close>23.7732</adjusted_close>
+    <volume>140363500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>39.5900</open>
+    <high>41.5000</high>
+    <low>38.3100</low>
+    <close>41.0800</close>
+    <adjusted_close>24.9134</adjusted_close>
+    <volume>130066700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>41.0200</open>
+    <high>44.3000</high>
+    <low>40.8000</low>
+    <close>41.7500</close>
+    <adjusted_close>25.3698</adjusted_close>
+    <volume>156743400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>41.9500</open>
+    <high>43.0900</high>
+    <low>41.4900</low>
+    <close>42.7400</close>
+    <adjusted_close>25.9714</adjusted_close>
+    <volume>122581700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>42.9900</open>
+    <high>43.2700</high>
+    <low>40.2800</low>
+    <close>41.2600</close>
+    <adjusted_close>25.0720</adjusted_close>
+    <volume>125399300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>41.2000</open>
+    <high>42.9900</high>
+    <low>38.8800</low>
+    <close>40.0200</close>
+    <adjusted_close>24.3186</adjusted_close>
+    <volume>134241800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>40.0500</open>
+    <high>40.2700</high>
+    <low>37.4400</low>
+    <close>38.2400</close>
+    <adjusted_close>23.2953</adjusted_close>
+    <volume>171584800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>38.4000</open>
+    <high>38.7500</high>
+    <low>34.5600</low>
+    <close>35.3700</close>
+    <adjusted_close>21.5470</adjusted_close>
+    <volume>175448400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>35.6700</open>
+    <high>40.3400</high>
+    <low>35.5400</low>
+    <close>39.3500</close>
+    <adjusted_close>23.9715</adjusted_close>
+    <volume>165217800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>39.2000</open>
+    <high>40.9300</high>
+    <low>38.1500</low>
+    <close>38.9000</close>
+    <adjusted_close>23.7569</adjusted_close>
+    <volume>140214700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>39.1800</open>
+    <high>43.9800</high>
+    <low>38.6100</low>
+    <close>43.5100</close>
+    <adjusted_close>26.5723</adjusted_close>
+    <volume>148971100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>43.2100</open>
+    <high>43.3900</high>
+    <low>39.1400</low>
+    <close>40.3200</close>
+    <adjusted_close>24.6850</adjusted_close>
+    <volume>188347600</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>40.7000</open>
+    <high>42.0400</high>
+    <low>37.1400</low>
+    <close>38.1400</close>
+    <adjusted_close>23.3503</adjusted_close>
+    <volume>201857000</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>38.1500</open>
+    <high>41.4700</high>
+    <low>37.4800</low>
+    <close>41.0400</close>
+    <adjusted_close>25.1258</adjusted_close>
+    <volume>212047300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>41.0000</open>
+    <high>43.2700</high>
+    <low>40.3500</low>
+    <close>41.7800</close>
+    <adjusted_close>25.6404</adjusted_close>
+    <volume>188661700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>41.8400</open>
+    <high>42.7900</high>
+    <low>40.4200</low>
+    <close>40.4800</close>
+    <adjusted_close>24.8426</adjusted_close>
+    <volume>123216400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>40.3900</open>
+    <high>43.2000</high>
+    <low>39.6500</low>
+    <close>40.5500</close>
+    <adjusted_close>24.8855</adjusted_close>
+    <volume>190368300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>40.4500</open>
+    <high>43.0000</high>
+    <low>38.5000</low>
+    <close>42.1500</close>
+    <adjusted_close>25.8675</adjusted_close>
+    <volume>169723200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>42.1500</open>
+    <high>43.9500</high>
+    <low>40.2800</low>
+    <close>42.3000</close>
+    <adjusted_close>26.0530</adjusted_close>
+    <volume>192419800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>42.3800</open>
+    <high>42.9300</high>
+    <low>39.5000</low>
+    <close>39.9300</close>
+    <adjusted_close>24.5933</adjusted_close>
+    <volume>142636300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>40.1500</open>
+    <high>41.6100</high>
+    <low>37.3000</low>
+    <close>38.1200</close>
+    <adjusted_close>23.4785</adjusted_close>
+    <volume>264997600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>37.9500</open>
+    <high>38.8000</high>
+    <low>35.6300</low>
+    <close>35.7900</close>
+    <adjusted_close>22.1320</adjusted_close>
+    <volume>297879600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>35.8600</open>
+    <high>35.9800</high>
+    <low>32.8500</low>
+    <close>34.7100</close>
+    <adjusted_close>21.4642</adjusted_close>
+    <volume>294513800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>34.5000</open>
+    <high>35.2200</high>
+    <low>33.0700</low>
+    <close>34.2900</close>
+    <adjusted_close>21.2045</adjusted_close>
+    <volume>284655800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>34.3000</open>
+    <high>37.6500</high>
+    <low>33.7500</low>
+    <close>36.2700</close>
+    <adjusted_close>22.5264</adjusted_close>
+    <volume>245905100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>36.1800</open>
+    <high>38.2400</high>
+    <low>35.5500</low>
+    <close>37.3300</close>
+    <adjusted_close>23.1847</adjusted_close>
+    <volume>268215200</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>37.5000</open>
+    <high>38.8500</high>
+    <low>35.7700</low>
+    <close>37.9700</close>
+    <adjusted_close>23.7242</adjusted_close>
+    <volume>355710000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>39.1000</open>
+    <high>40.3700</high>
+    <low>38.1800</low>
+    <close>40.1600</close>
+    <adjusted_close>25.0926</adjusted_close>
+    <volume>323271600</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>41.3000</open>
+    <high>41.8400</high>
+    <low>39.0600</low>
+    <close>40.7400</close>
+    <adjusted_close>25.4550</adjusted_close>
+    <volume>316367900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>40.7700</open>
+    <high>42.0100</high>
+    <low>39.2900</low>
+    <close>39.5900</close>
+    <adjusted_close>24.7364</adjusted_close>
+    <volume>258092400</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>39.1700</open>
+    <high>39.6500</high>
+    <low>36.3500</low>
+    <close>36.7400</close>
+    <adjusted_close>23.0901</adjusted_close>
+    <volume>326396300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>36.6700</open>
+    <high>39.6900</high>
+    <low>36.6000</low>
+    <close>37.8700</close>
+    <adjusted_close>23.8002</adjusted_close>
+    <volume>250809800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>38.1500</open>
+    <high>39.6200</high>
+    <low>37.9000</low>
+    <close>38.8700</close>
+    <adjusted_close>24.4287</adjusted_close>
+    <volume>276299900</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>39.1000</open>
+    <high>41.1900</high>
+    <low>37.3500</low>
+    <close>39.3500</close>
+    <adjusted_close>24.8710</adjusted_close>
+    <volume>370787500</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>39.5500</open>
+    <high>41.0100</high>
+    <low>36.7200</low>
+    <close>37.1700</close>
+    <adjusted_close>23.4931</adjusted_close>
+    <volume>417546100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>36.9400</open>
+    <high>38.5400</high>
+    <low>31.8500</low>
+    <close>38.3100</close>
+    <adjusted_close>24.3692</adjusted_close>
+    <volume>769305600</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>37.2100</open>
+    <high>37.3700</high>
+    <low>32.3700</low>
+    <close>32.4400</close>
+    <adjusted_close>20.6353</adjusted_close>
+    <volume>515270200</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>32.5800</open>
+    <high>34.5500</high>
+    <low>30.2800</low>
+    <close>31.5100</close>
+    <adjusted_close>20.0437</adjusted_close>
+    <volume>400517900</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>31.4000</open>
+    <high>31.5800</high>
+    <low>26.7800</low>
+    <close>28.5600</close>
+    <adjusted_close>18.3171</adjusted_close>
+    <volume>406371300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>28.6200</open>
+    <high>29.8000</high>
+    <low>25.5700</low>
+    <close>26.9400</close>
+    <adjusted_close>17.2781</adjusted_close>
+    <volume>330175300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>27.1300</open>
+    <high>31.0800</high>
+    <low>23.7700</low>
+    <close>30.6400</close>
+    <adjusted_close>19.6511</adjusted_close>
+    <volume>482772200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>30.3000</open>
+    <high>30.6900</high>
+    <low>26.4100</low>
+    <close>26.5500</close>
+    <adjusted_close>17.0280</adjusted_close>
+    <volume>356434400</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>26.5000</open>
+    <high>30.0000</high>
+    <low>24.8700</low>
+    <close>27.9700</close>
+    <adjusted_close>18.1016</adjusted_close>
+    <volume>375945900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>28.2000</open>
+    <high>30.1600</high>
+    <low>27.4000</low>
+    <close>28.8000</close>
+    <adjusted_close>18.6388</adjusted_close>
+    <volume>315442200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>29.0900</open>
+    <high>30.5000</high>
+    <low>26.2800</low>
+    <close>27.3600</close>
+    <adjusted_close>17.7068</adjusted_close>
+    <volume>358885800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>27.4100</open>
+    <high>28.1300</high>
+    <low>23.3200</low>
+    <close>23.4200</close>
+    <adjusted_close>15.2836</adjusted_close>
+    <volume>367890700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>23.1100</open>
+    <high>25.8500</high>
+    <low>20.7600</low>
+    <close>23.8300</close>
+    <adjusted_close>15.5511</adjusted_close>
+    <volume>397904400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>24.0300</open>
+    <high>28.7500</high>
+    <low>22.8200</low>
+    <close>27.1200</close>
+    <adjusted_close>17.6981</adjusted_close>
+    <volume>407771000</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>27.6500</open>
+    <high>30.7400</high>
+    <low>24.4400</low>
+    <close>25.8900</close>
+    <adjusted_close>17.0368</adjusted_close>
+    <volume>621080800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>25.5200</open>
+    <high>26.0900</high>
+    <low>17.0500</low>
+    <close>23.5900</close>
+    <adjusted_close>15.5233</adjusted_close>
+    <volume>628648800</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>23.4800</open>
+    <high>23.7900</high>
+    <low>17.4600</low>
+    <close>23.1100</close>
+    <adjusted_close>15.2074</adjusted_close>
+    <volume>459693800</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>22.5500</open>
+    <high>25.1900</high>
+    <low>20.6500</low>
+    <close>23.0200</close>
+    <adjusted_close>15.3106</adjusted_close>
+    <volume>439676400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>23.0700</open>
+    <high>25.4900</high>
+    <low>21.3000</low>
+    <close>21.5300</close>
+    <adjusted_close>14.3196</adjusted_close>
+    <volume>431144100</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>21.2100</open>
+    <high>23.8500</high>
+    <low>18.2400</low>
+    <close>20.8900</close>
+    <adjusted_close>13.8940</adjusted_close>
+    <volume>454586800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>20.3500</open>
+    <high>24.3600</high>
+    <low>17.4900</low>
+    <close>23.5600</close>
+    <adjusted_close>15.8656</adjusted_close>
+    <volume>533962800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>23.1500</open>
+    <high>27.0700</high>
+    <low>22.9200</low>
+    <close>26.3200</close>
+    <adjusted_close>17.7242</adjusted_close>
+    <volume>398336600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>26.5800</open>
+    <high>26.7700</high>
+    <low>22.3300</low>
+    <close>23.1600</close>
+    <adjusted_close>15.5962</adjusted_close>
+    <volume>425707400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>23.5900</open>
+    <high>25.1200</high>
+    <low>22.5300</low>
+    <close>23.6300</close>
+    <adjusted_close>16.0599</adjusted_close>
+    <volume>350279000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>23.8000</open>
+    <high>26.1900</high>
+    <low>22.2700</low>
+    <close>25.9400</close>
+    <adjusted_close>17.6298</adjusted_close>
+    <volume>299152600</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>26.1800</open>
+    <high>27.9400</high>
+    <low>25.4300</low>
+    <close>27.2900</close>
+    <adjusted_close>18.5473</adjusted_close>
+    <volume>343157900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>27.0100</open>
+    <high>28.4400</high>
+    <low>26.3200</low>
+    <close>26.6400</close>
+    <adjusted_close>18.2561</adjusted_close>
+    <volume>255075500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>26.6500</open>
+    <high>28.0200</high>
+    <low>24.9600</low>
+    <close>25.0900</close>
+    <adjusted_close>17.1939</adjusted_close>
+    <volume>327855200</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>25.1400</open>
+    <high>27.9500</high>
+    <low>24.4700</low>
+    <close>27.3600</close>
+    <adjusted_close>18.7495</adjusted_close>
+    <volume>324108800</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>27.4900</open>
+    <high>29.4400</high>
+    <low>27.3500</low>
+    <close>28.9300</close>
+    <adjusted_close>19.9898</adjusted_close>
+    <volume>272428900</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>29.1500</open>
+    <high>29.2400</high>
+    <low>27.1900</low>
+    <close>28.0100</close>
+    <adjusted_close>19.3541</adjusted_close>
+    <volume>305927400</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>28.0100</open>
+    <high>31.4500</high>
+    <low>27.5300</low>
+    <close>31.2000</close>
+    <adjusted_close>21.5583</adjusted_close>
+    <volume>358199600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>31.2400</open>
+    <high>32.9800</high>
+    <low>31.0900</low>
+    <close>32.3500</close>
+    <adjusted_close>22.5192</adjusted_close>
+    <volume>311755400</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>32.4100</open>
+    <high>37.0300</high>
+    <low>32.1600</low>
+    <close>35.2300</close>
+    <adjusted_close>24.5240</adjusted_close>
+    <volume>371036400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>35.3900</open>
+    <high>36.3000</high>
+    <low>32.0700</low>
+    <close>33.8600</close>
+    <adjusted_close>23.5703</adjusted_close>
+    <volume>522063700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>33.4200</open>
+    <high>34.1700</high>
+    <low>27.9900</low>
+    <close>28.0700</close>
+    <adjusted_close>19.6770</adjusted_close>
+    <volume>445088000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>28.4100</open>
+    <high>29.3700</high>
+    <low>26.6200</low>
+    <close>28.5100</close>
+    <adjusted_close>19.9854</adjusted_close>
+    <volume>375351500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>28.8200</open>
+    <high>29.2400</high>
+    <low>27.1000</low>
+    <close>27.8200</close>
+    <adjusted_close>19.6676</adjusted_close>
+    <volume>279092800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>28.0800</open>
+    <high>32.2300</high>
+    <low>28.0600</low>
+    <close>31.6800</close>
+    <adjusted_close>22.3964</adjusted_close>
+    <volume>235029100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>31.8100</open>
+    <high>32.1400</high>
+    <low>30.1800</low>
+    <close>30.9000</close>
+    <adjusted_close>21.8450</adjusted_close>
+    <volume>248397600</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>31.0000</open>
+    <high>32.8200</high>
+    <low>29.9800</low>
+    <close>30.2100</close>
+    <adjusted_close>21.5227</adjusted_close>
+    <volume>285015300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>30.6000</open>
+    <high>35.4900</high>
+    <low>30.6000</low>
+    <close>35.0600</close>
+    <adjusted_close>24.9780</adjusted_close>
+    <volume>242106100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>35.2000</open>
+    <high>38.1200</high>
+    <low>34.0700</low>
+    <close>36.7700</close>
+    <adjusted_close>26.1963</adjusted_close>
+    <volume>229405900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>36.9400</open>
+    <high>39.3800</high>
+    <low>36.3800</low>
+    <close>37.4700</close>
+    <adjusted_close>26.6950</adjusted_close>
+    <volume>174726800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>37.1400</open>
+    <high>37.8600</high>
+    <low>35.4300</low>
+    <close>37.0600</close>
+    <adjusted_close>26.5831</adjusted_close>
+    <volume>225764900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>37.1200</open>
+    <high>38.5100</high>
+    <low>36.9400</low>
+    <close>37.1500</close>
+    <adjusted_close>26.6477</adjusted_close>
+    <volume>192754700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>37.4400</open>
+    <high>37.9400</high>
+    <low>35.9100</low>
+    <close>36.2800</close>
+    <adjusted_close>26.0236</adjusted_close>
+    <volume>205928600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>36.1200</open>
+    <high>36.3100</high>
+    <low>33.4100</low>
+    <close>36.2200</close>
+    <adjusted_close>26.1759</adjusted_close>
+    <volume>267621000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>36.2900</open>
+    <high>37.2500</high>
+    <low>34.6300</low>
+    <close>34.9300</close>
+    <adjusted_close>25.2436</adjusted_close>
+    <volume>200066500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>35.0700</open>
+    <high>35.0700</high>
+    <low>28.1300</low>
+    <close>33.3800</close>
+    <adjusted_close>24.3022</adjusted_close>
+    <volume>451102200</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>33.5300</open>
+    <high>35.3300</high>
+    <low>31.0800</low>
+    <close>32.8700</close>
+    <adjusted_close>23.9309</adjusted_close>
+    <volume>280603400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>32.8000</open>
+    <high>37.6500</high>
+    <low>31.0300</low>
+    <close>35.8000</close>
+    <adjusted_close>26.0641</adjusted_close>
+    <volume>242007200</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>34.7400</open>
+    <high>39.7900</high>
+    <low>34.5800</low>
+    <close>39.2200</close>
+    <adjusted_close>28.7777</adjusted_close>
+    <volume>231967000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>38.8600</open>
+    <high>42.4700</high>
+    <low>38.7900</low>
+    <close>42.0400</close>
+    <adjusted_close>30.8469</adjusted_close>
+    <volume>230611500</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>42.4100</open>
+    <high>45.5000</high>
+    <low>41.9200</low>
+    <close>44.3900</close>
+    <adjusted_close>32.5712</adjusted_close>
+    <volume>196659700</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>44.6900</open>
+    <high>48.0700</high>
+    <low>44.3000</low>
+    <close>47.5700</close>
+    <adjusted_close>34.9045</adjusted_close>
+    <volume>189647500</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>47.5300</open>
+    <high>50.4200</high>
+    <low>46.1200</low>
+    <close>50.3100</close>
+    <adjusted_close>37.1423</adjusted_close>
+    <volume>197964600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>50.1000</open>
+    <high>52.3900</high>
+    <low>49.3600</low>
+    <close>51.7900</close>
+    <adjusted_close>38.2349</adjusted_close>
+    <volume>176244800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>51.9300</open>
+    <high>52.8800</high>
+    <low>46.3700</low>
+    <close>49.3400</close>
+    <adjusted_close>36.6411</adjusted_close>
+    <volume>286227600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>48.8500</open>
+    <high>53.2800</high>
+    <low>47.7500</low>
+    <close>52.9900</close>
+    <adjusted_close>39.3517</adjusted_close>
+    <volume>287347600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>52.9600</open>
+    <high>54.2800</high>
+    <low>49.7700</low>
+    <close>52.1800</close>
+    <adjusted_close>38.7502</adjusted_close>
+    <volume>205145900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>52.3100</open>
+    <high>57.1800</high>
+    <low>51.2100</low>
+    <close>56.7500</close>
+    <adjusted_close>42.3607</adjusted_close>
+    <volume>188405400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>56.7900</open>
+    <high>60.5800</high>
+    <low>56.3700</low>
+    <close>60.3700</close>
+    <adjusted_close>45.0629</adjusted_close>
+    <volume>144599900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>60.7700</open>
+    <high>63.2000</high>
+    <low>58.7500</low>
+    <close>61.3800</close>
+    <adjusted_close>45.8168</adjusted_close>
+    <volume>197653000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>61.9500</open>
+    <high>65.2300</high>
+    <low>60.3100</low>
+    <close>65.0700</close>
+    <adjusted_close>48.7900</adjusted_close>
+    <volume>178244000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>65.0000</open>
+    <high>65.9200</high>
+    <low>60.2100</low>
+    <close>61.8500</close>
+    <adjusted_close>46.3756</adjusted_close>
+    <volume>143325700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>63.5700</open>
+    <high>68.1500</high>
+    <low>62.3800</low>
+    <close>66.9200</close>
+    <adjusted_close>50.1771</adjusted_close>
+    <volume>127826000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>67.6200</open>
+    <high>69.1900</high>
+    <low>63.8200</low>
+    <close>68.5000</close>
+    <adjusted_close>51.3618</adjusted_close>
+    <volume>143475800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>68.3800</open>
+    <high>71.4500</high>
+    <low>68.0900</low>
+    <close>69.7800</close>
+    <adjusted_close>52.6092</adjusted_close>
+    <volume>128165200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>69.5100</open>
+    <high>74.5900</high>
+    <low>69.5100</low>
+    <close>73.3500</close>
+    <adjusted_close>55.3008</adjusted_close>
+    <volume>155248500</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>73.1800</open>
+    <high>81.5600</high>
+    <low>72.5300</low>
+    <close>78.6600</close>
+    <adjusted_close>59.3041</adjusted_close>
+    <volume>158696200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>78.6500</open>
+    <high>79.6800</high>
+    <low>72.4100</low>
+    <close>77.4700</close>
+    <adjusted_close>58.6964</adjusted_close>
+    <volume>177557000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>77.6300</open>
+    <high>81.2300</high>
+    <low>76.6300</low>
+    <close>79.0300</close>
+    <adjusted_close>59.8784</adjusted_close>
+    <volume>125062100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>79.5200</open>
+    <high>80.5000</high>
+    <low>73.1100</low>
+    <close>74.4900</close>
+    <adjusted_close>56.4386</adjusted_close>
+    <volume>169108600</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>74.8300</open>
+    <high>78.8100</high>
+    <low>72.2100</low>
+    <close>75.8500</close>
+    <adjusted_close>57.7715</adjusted_close>
+    <volume>147410900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>75.8800</open>
+    <high>78.6000</high>
+    <low>73.7400</low>
+    <close>77.8900</close>
+    <adjusted_close>59.3252</adjusted_close>
+    <volume>164100100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>77.9800</open>
+    <high>82.2700</high>
+    <low>74.7800</low>
+    <close>80.6700</close>
+    <adjusted_close>61.4427</adjusted_close>
+    <volume>138731300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>80.4500</open>
+    <high>82.4700</high>
+    <low>77.7000</low>
+    <close>82.3400</close>
+    <adjusted_close>63.0227</adjusted_close>
+    <volume>128287300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>82.1100</open>
+    <high>82.5700</high>
+    <low>75.8500</low>
+    <close>76.8500</close>
+    <adjusted_close>58.8207</adjusted_close>
+    <volume>137041800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>76.6400</open>
+    <high>83.1000</high>
+    <low>73.9600</low>
+    <close>82.0300</close>
+    <adjusted_close>62.7855</adjusted_close>
+    <volume>147322300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>80.7300</open>
+    <high>83.2000</high>
+    <low>78.3700</low>
+    <close>79.1300</close>
+    <adjusted_close>60.9142</adjusted_close>
+    <volume>129832500</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>79.2400</open>
+    <high>81.1500</high>
+    <low>74.6100</low>
+    <close>79.5100</close>
+    <adjusted_close>61.2067</adjusted_close>
+    <volume>161862300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>79.5100</open>
+    <high>80.2700</high>
+    <low>75.3200</low>
+    <close>80.2300</close>
+    <adjusted_close>61.7610</adjusted_close>
+    <volume>120703800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>80.2500</open>
+    <high>81.4700</high>
+    <low>77.7500</low>
+    <close>80.9600</close>
+    <adjusted_close>62.6874</adjusted_close>
+    <volume>129672100</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>81.3200</open>
+    <high>82.3500</high>
+    <low>77.9500</low>
+    <close>80.8500</close>
+    <adjusted_close>62.6022</adjusted_close>
+    <volume>127291500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>80.5600</open>
+    <high>93.5200</high>
+    <low>79.6600</low>
+    <close>93.5000</close>
+    <adjusted_close>72.3971</adjusted_close>
+    <volume>148205800</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>93.0400</open>
+    <high>93.7500</high>
+    <low>88.3300</low>
+    <close>91.7400</close>
+    <adjusted_close>71.3932</adjusted_close>
+    <volume>153432100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>92.1400</open>
+    <high>99.2600</high>
+    <low>86.3500</low>
+    <close>97.5200</close>
+    <adjusted_close>75.8913</adjusted_close>
+    <volume>145336900</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>96.8100</open>
+    <high>99.8000</high>
+    <low>95.1500</low>
+    <close>99.4000</close>
+    <adjusted_close>77.3543</adjusted_close>
+    <volume>103033400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>99.4900</open>
+    <high>106.0200</high>
+    <low>96.9900</low>
+    <close>104.9700</close>
+    <adjusted_close>82.0791</adjusted_close>
+    <volume>118058000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>105.1600</open>
+    <high>107.7400</high>
+    <low>100.2400</low>
+    <close>104.4200</close>
+    <adjusted_close>81.6490</adjusted_close>
+    <volume>109808700</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>104.7800</open>
+    <high>117.9200</high>
+    <low>101.5700</low>
+    <close>114.7500</close>
+    <adjusted_close>89.7264</adjusted_close>
+    <volume>110415700</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>114.8600</open>
+    <high>117.9900</high>
+    <low>111.5800</low>
+    <close>113.6100</close>
+    <adjusted_close>89.2921</adjusted_close>
+    <volume>104110600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>113.8800</open>
+    <high>116.2500</high>
+    <low>106.6200</low>
+    <close>106.9800</close>
+    <adjusted_close>84.0812</adjusted_close>
+    <volume>95675500</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>106.9800</open>
+    <high>116.4800</high>
+    <low>106.8500</low>
+    <close>111.4200</close>
+    <adjusted_close>87.5708</adjusted_close>
+    <volume>100397400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>111.9700</open>
+    <high>113.7100</high>
+    <low>109.0300</low>
+    <close>111.1300</close>
+    <adjusted_close>87.8068</adjusted_close>
+    <volume>104809700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>112.4500</open>
+    <high>118.1300</high>
+    <low>110.1700</low>
+    <close>117.0300</close>
+    <adjusted_close>92.4686</adjusted_close>
+    <volume>97800100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>117.6200</open>
+    <high>123.8000</high>
+    <low>92.1700</low>
+    <close>116.4600</close>
+    <adjusted_close>92.0182</adjusted_close>
+    <volume>135234000</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>113.9900</open>
+    <high>119.8200</high>
+    <low>111.8000</low>
+    <close>115.4900</close>
+    <adjusted_close>91.7165</adjusted_close>
+    <volume>122128700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>116.2300</open>
+    <high>125.7500</high>
+    <low>114.7100</low>
+    <close>123.6400</close>
+    <adjusted_close>98.1888</adjusted_close>
+    <volume>97180400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>124.2400</open>
+    <high>135.4700</high>
+    <low>118.6100</low>
+    <close>133.8800</close>
+    <adjusted_close>106.3209</adjusted_close>
+    <volume>111416100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>133.5200</open>
+    <high>134.8300</high>
+    <low>130.0100</low>
+    <close>132.2500</close>
+    <adjusted_close>105.4913</adjusted_close>
+    <volume>99749700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>130.1100</open>
+    <high>131.9400</high>
+    <low>113.5900</low>
+    <close>125.7600</close>
+    <adjusted_close>100.3145</adjusted_close>
+    <volume>147050100</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>124.9200</open>
+    <high>127.7500</high>
+    <low>109.6200</low>
+    <close>124.1200</close>
+    <adjusted_close>99.0063</adjusted_close>
+    <volume>135914000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>124.7800</open>
+    <high>134.2900</high>
+    <low>123.9800</low>
+    <close>133.4300</close>
+    <adjusted_close>107.0178</adjusted_close>
+    <volume>94146700</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>133.1000</open>
+    <high>137.0000</high>
+    <low>131.7500</low>
+    <close>133.8900</close>
+    <adjusted_close>107.3867</adjusted_close>
+    <volume>82951100</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>134.3700</open>
+    <high>137.8200</high>
+    <low>130.0200</low>
+    <close>132.1200</close>
+    <adjusted_close>106.5158</adjusted_close>
+    <volume>112394600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>132.1200</open>
+    <high>132.7300</high>
+    <low>123.6200</low>
+    <close>127.6900</close>
+    <adjusted_close>102.9444</adjusted_close>
+    <volume>114046600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>128.2900</open>
+    <high>138.7200</high>
+    <low>128.1200</low>
+    <close>138.2400</close>
+    <adjusted_close>111.4498</adjusted_close>
+    <volume>78399700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>138.0600</open>
+    <high>139.0000</high>
+    <low>133.6000</low>
+    <close>134.1200</close>
+    <adjusted_close>108.6827</adjusted_close>
+    <volume>91331300</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>134.4800</open>
+    <high>135.8800</high>
+    <low>125.3500</low>
+    <close>128.6800</close>
+    <adjusted_close>104.2745</adjusted_close>
+    <volume>107739700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>128.2000</open>
+    <high>130.4500</high>
+    <low>121.6200</low>
+    <close>122.0100</close>
+    <adjusted_close>98.8695</adjusted_close>
+    <volume>97360300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>121.6900</open>
+    <high>132.1400</high>
+    <low>119.2000</low>
+    <close>129.4000</close>
+    <adjusted_close>105.4147</adjusted_close>
+    <volume>133565300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>129.3400</open>
+    <high>137.3200</high>
+    <low>128.6800</low>
+    <close>134.0800</close>
+    <adjusted_close>109.2272</adjusted_close>
+    <volume>99553700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>135.1000</open>
+    <high>139.3700</high>
+    <low>133.0500</low>
+    <close>137.5800</close>
+    <adjusted_close>112.0785</adjusted_close>
+    <volume>83138300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>137.6600</open>
+    <high>146.3300</high>
+    <low>136.3300</low>
+    <close>144.9100</close>
+    <adjusted_close>118.0498</adjusted_close>
+    <volume>75930200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>146.7200</open>
+    <high>150.1500</high>
+    <low>145.8300</low>
+    <close>146.8300</close>
+    <adjusted_close>120.3419</adjusted_close>
+    <volume>92996000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>146.9400</open>
+    <high>156.2700</high>
+    <low>145.7600</low>
+    <close>156.1000</close>
+    <adjusted_close>127.9396</adjusted_close>
+    <volume>75716700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>156.2200</open>
+    <high>160.8600</high>
+    <low>153.2800</low>
+    <close>153.5100</close>
+    <adjusted_close>126.5439</adjusted_close>
+    <volume>93676400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>153.5200</open>
+    <high>159.2200</high>
+    <low>150.7500</low>
+    <close>153.4000</close>
+    <adjusted_close>126.4532</adjusted_close>
+    <volume>100510600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>154.3900</open>
+    <high>154.7900</high>
+    <low>144.2500</low>
+    <close>149.6000</close>
+    <adjusted_close>123.3207</adjusted_close>
+    <volume>102500900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>150.2400</open>
+    <high>156.0500</high>
+    <low>146.8900</low>
+    <close>149.8700</close>
+    <adjusted_close>124.2739</adjusted_close>
+    <volume>114385100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>150.2600</open>
+    <high>163.6100</high>
+    <low>149.7600</low>
+    <close>163.5600</close>
+    <adjusted_close>135.6258</adjusted_close>
+    <volume>110280500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>164.2000</open>
+    <high>167.9400</high>
+    <low>161.5100</low>
+    <close>165.7800</close>
+    <adjusted_close>137.4667</adjusted_close>
+    <volume>71346000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>166.4200</open>
+    <high>180.6700</high>
+    <low>160.5300</low>
+    <close>179.8200</close>
+    <adjusted_close>149.8642</adjusted_close>
+    <volume>103227500</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>180.3200</open>
+    <high>191.4900</high>
+    <low>176.7000</low>
+    <close>189.5300</close>
+    <adjusted_close>157.9566</adjusted_close>
+    <volume>103713100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>190.2100</open>
+    <high>207.6100</high>
+    <low>187.8200</low>
+    <close>200.9000</close>
+    <adjusted_close>167.4325</adjusted_close>
+    <volume>92074000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>199.3400</open>
+    <high>202.2500</high>
+    <low>175.4200</low>
+    <close>182.2700</close>
+    <adjusted_close>151.9060</adjusted_close>
+    <volume>127014100</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>182.7500</open>
+    <high>184.4000</high>
+    <low>171.5600</low>
+    <close>178.2400</close>
+    <adjusted_close>149.3945</adjusted_close>
+    <volume>109321100</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>177.1500</open>
+    <high>187.8000</high>
+    <low>170.4200</low>
+    <close>184.8000</close>
+    <adjusted_close>154.8929</adjusted_close>
+    <volume>101369800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>184.7300</open>
+    <high>191.6500</high>
+    <low>181.2000</low>
+    <close>186.5500</close>
+    <adjusted_close>157.2351</adjusted_close>
+    <volume>103145700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>187.2100</open>
+    <high>201.6000</high>
+    <low>186.5200</low>
+    <close>195.1000</close>
+    <adjusted_close>164.4416</adjusted_close>
+    <volume>93713000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>193.8200</open>
+    <high>204.2500</high>
+    <low>192.1200</low>
+    <close>197.5200</close>
+    <adjusted_close>166.4812</adjusted_close>
+    <volume>67987900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>196.8600</open>
+    <high>203.5500</high>
+    <low>191.0900</low>
+    <close>200.7700</close>
+    <adjusted_close>170.0879</adjusted_close>
+    <volume>88542700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>200.6900</open>
+    <high>215.4300</high>
+    <low>200.5000</low>
+    <close>207.1500</close>
+    <adjusted_close>175.4929</adjusted_close>
+    <volume>83962700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>208.5200</open>
+    <high>209.7900</high>
+    <low>170.9100</low>
+    <close>175.8800</close>
+    <adjusted_close>149.0017</adjusted_close>
+    <volume>133142600</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>176.8400</open>
+    <high>188.6900</high>
+    <low>167.0000</low>
+    <close>180.3200</close>
+    <adjusted_close>153.6770</adjusted_close>
+    <volume>132549500</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>183.2900</open>
+    <high>183.5000</high>
+    <low>158.0900</low>
+    <close>171.8200</close>
+    <adjusted_close>146.4328</adjusted_close>
+    <volume>117667300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>169.7100</open>
+    <high>184.6700</high>
+    <low>168.2100</low>
+    <close>183.5300</close>
+    <adjusted_close>156.4126</adjusted_close>
+    <volume>98771800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>184.0300</open>
+    <high>193.4200</high>
+    <low>182.4500</low>
+    <close>185.1400</close>
+    <adjusted_close>157.7847</adjusted_close>
+    <volume>90471400</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>185.8200</open>
+    <high>192.1900</high>
+    <low>179.5200</low>
+    <close>191.8900</close>
+    <adjusted_close>164.7552</adjusted_close>
+    <volume>95115500</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>192.9900</open>
+    <high>208.3000</high>
+    <low>192.8500</low>
+    <close>203.7000</close>
+    <adjusted_close>174.8951</adjusted_close>
+    <volume>71203800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>203.2000</open>
+    <high>203.5200</high>
+    <low>186.2700</low>
+    <close>189.8500</close>
+    <adjusted_close>163.0036</adjusted_close>
+    <volume>94651500</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>189.5200</open>
+    <high>211.9900</high>
+    <low>188.7500</low>
+    <close>207.9700</close>
+    <adjusted_close>179.8138</adjusted_close>
+    <volume>90786400</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>209.7000</open>
+    <high>219.3000</high>
+    <low>208.1700</low>
+    <close>213.6900</close>
+    <adjusted_close>184.7594</adjusted_close>
+    <volume>64167400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>214.1400</open>
+    <high>229.2700</high>
+    <low>199.0500</low>
+    <close>227.9100</close>
+    <adjusted_close>197.0542</adjusted_close>
+    <volume>99184500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>226.4500</open>
+    <high>235.4900</high>
+    <low>220.6700</low>
+    <close>232.0200</close>
+    <adjusted_close>201.8328</adjusted_close>
+    <volume>75292900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>233.0100</open>
+    <high>238.9900</high>
+    <low>222.1200</low>
+    <close>234.5800</close>
+    <adjusted_close>204.0598</adjusted_close>
+    <volume>62599000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>236.0700</open>
+    <high>239.3100</high>
+    <low>216.8800</low>
+    <close>220.5100</close>
+    <adjusted_close>191.8203</adjusted_close>
+    <volume>102466800</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>220.9000</open>
+    <high>222.0000</high>
+    <low>210.6100</low>
+    <close>218.3800</close>
+    <adjusted_close>191.1825</adjusted_close>
+    <volume>111759300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>219.0800</open>
+    <high>236.5300</high>
+    <low>216.4000</low>
+    <close>228.1000</close>
+    <adjusted_close>199.6919</adjusted_close>
+    <volume>97265400</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>230.3000</open>
+    <high>247.3600</high>
+    <low>212.3300</low>
+    <close>217.8400</close>
+    <adjusted_close>190.7097</adjusted_close>
+    <volume>86009000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>219.9800</open>
+    <high>241.3200</high>
+    <low>140.6300</low>
+    <close>186.7100</close>
+    <adjusted_close>164.5503</adjusted_close>
+    <volume>221563200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>175.9100</open>
+    <high>224.2200</high>
+    <low>174.0000</low>
+    <close>219.8300</close>
+    <adjusted_close>193.7395</adjusted_close>
+    <volume>120713600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>216.7700</open>
+    <high>252.2300</high>
+    <low>215.2100</low>
+    <close>248.4800</close>
+    <adjusted_close>218.9891</adjusted_close>
+    <volume>115230300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>249.4100</open>
+    <high>259.2900</high>
+    <low>234.3100</low>
+    <close>250.5100</close>
+    <adjusted_close>222.0965</adjusted_close>
+    <volume>103047000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>249.6500</open>
+    <high>269.0700</high>
+    <low>246.2200</low>
+    <close>265.4900</close>
+    <adjusted_close>235.3774</adjusted_close>
+    <volume>66948200</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>266.7300</open>
+    <high>292.9500</high>
+    <low>263.8400</low>
+    <close>285.0400</close>
+    <adjusted_close>252.7100</adjusted_close>
+    <volume>74350500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>284.0300</open>
+    <high>288.0400</high>
+    <low>262.8100</low>
+    <close>277.7100</close>
+    <adjusted_close>247.5098</adjusted_close>
+    <volume>80493700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>279.4400</open>
+    <high>292.6500</high>
+    <low>262.0300</low>
+    <close>266.7100</close>
+    <adjusted_close>237.7060</adjusted_close>
+    <volume>59503400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>270.1500</open>
+    <high>289.0000</high>
+    <low>268.5200</low>
+    <close>277.4100</close>
+    <adjusted_close>247.2424</adjusted_close>
+    <volume>82679200</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>278.7300</open>
+    <high>278.9500</high>
+    <low>258.7300</low>
+    <close>265.6200</close>
+    <adjusted_close>238.0254</adjusted_close>
+    <volume>92268500</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>266.0100</open>
+    <high>285.7700</high>
+    <low>261.0600</low>
+    <close>270.8200</close>
+    <adjusted_close>242.6852</adjusted_close>
+    <volume>76246100</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>271.2300</open>
+    <high>284.6800</high>
+    <low>254.0300</low>
+    <close>258.3400</close>
+    <adjusted_close>231.5017</adjusted_close>
+    <volume>88427300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>258.8100</open>
+    <high>308.0200</high>
+    <low>246.5900</low>
+    <close>305.2500</close>
+    <adjusted_close>275.2524</adjusted_close>
+    <volume>124195800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>306.8800</open>
+    <high>328.8300</high>
+    <low>303.8900</low>
+    <close>323.6700</close>
+    <adjusted_close>291.8622</adjusted_close>
+    <volume>81662500</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>326.2800</open>
+    <high>345.6900</high>
+    <low>309.0700</low>
+    <close>318.9100</close>
+    <adjusted_close>287.5700</adjusted_close>
+    <volume>83404300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>320.6600</open>
+    <high>321.2600</high>
+    <low>298.4000</low>
+    <close>318.8900</close>
+    <adjusted_close>289.0598</adjusted_close>
+    <volume>89201700</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>319.9100</open>
+    <high>333.4500</high>
+    <low>314.8000</low>
+    <close>328.1900</close>
+    <adjusted_close>297.4899</adjusted_close>
+    <volume>60847700</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>330.0000</open>
+    <high>338.5500</high>
+    <low>316.6100</low>
+    <close>326.1800</close>
+    <adjusted_close>295.6679</adjusted_close>
+    <volume>67430900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>325.5600</open>
+    <high>343.7400</high>
+    <low>320.2800</low>
+    <close>328.2600</close>
+    <adjusted_close>299.0662</adjusted_close>
+    <volume>67432900</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>328.1500</open>
+    <high>375.1500</high>
+    <low>324.1600</low>
+    <close>371.7400</close>
+    <adjusted_close>338.6793</adjusted_close>
+    <volume>59686400</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>373.0000</open>
+    <high>416.5600</high>
+    <low>364.7000</low>
+    <close>400.6100</close>
+    <adjusted_close>364.9817</adjusted_close>
+    <volume>76047100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>402.0800</open>
+    <high>420.6100</high>
+    <low>380.9000</low>
+    <close>415.0100</close>
+    <adjusted_close>379.6648</adjusted_close>
+    <volume>84890300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>416.5700</open>
+    <high>417.8400</high>
+    <low>343.6100</low>
+    <close>366.9800</close>
+    <adjusted_close>335.7253</adjusted_close>
+    <volume>101082900</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>369.4700</open>
+    <high>374.6700</high>
+    <low>299.2900</low>
+    <close>315.8300</close>
+    <adjusted_close>288.9317</adjusted_close>
+    <volume>103092300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>314.5900</open>
+    <high>340.7400</high>
+    <low>298.8900</low>
+    <close>299.3300</close>
+    <adjusted_close>275.4894</adjusted_close>
+    <volume>115574300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>300.5000</open>
+    <high>318.4000</high>
+    <low>293.5900</low>
+    <close>300.4000</close>
+    <adjusted_close>276.4743</adjusted_close>
+    <volume>86697000</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>301.9900</open>
+    <high>315.7500</high>
+    <low>279.5900</low>
+    <close>302.7500</close>
+    <adjusted_close>278.6371</adjusted_close>
+    <volume>105314200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>301.7400</open>
+    <high>308.4600</high>
+    <low>264.5100</low>
+    <close>274.2700</close>
+    <adjusted_close>254.0196</adjusted_close>
+    <volume>95071800</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>275.7300</open>
+    <high>310.6700</high>
+    <low>274.5500</low>
+    <close>300.9400</close>
+    <adjusted_close>278.7204</adjusted_close>
+    <volume>54082200</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>300.6400</open>
+    <high>332.9800</high>
+    <low>288.2800</low>
+    <close>288.4200</close>
+    <adjusted_close>268.8678</adjusted_close>
+    <volume>76506500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>288.4000</open>
+    <high>302.8300</high>
+    <low>265.6100</low>
+    <close>275.9400</close>
+    <adjusted_close>257.2338</adjusted_close>
+    <volume>84362400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>281.0000</open>
+    <high>299.2800</high>
+    <low>267.8700</low>
+    <close>296.1300</close>
+    <adjusted_close>276.0551</adjusted_close>
+    <volume>65951000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>300.3700</open>
+    <high>329.0800</high>
+    <low>277.5000</low>
+    <close>323.9900</close>
+    <adjusted_close>303.8537</adjusted_close>
+    <volume>108646300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>326.3100</open>
+    <high>347.2500</high>
+    <low>310.7300</low>
+    <close>315.8600</close>
+    <adjusted_close>296.2289</adjusted_close>
+    <volume>77731000</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>317.4200</open>
+    <high>335.1600</high>
+    <low>307.3900</low>
+    <close>324.1700</close>
+    <adjusted_close>304.0224</adjusted_close>
+    <volume>63001800</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>322.3900</open>
+    <high>341.4700</high>
+    <low>292.0000</low>
+    <close>296.5400</close>
+    <adjusted_close>278.1097</adjusted_close>
+    <volume>74570300</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>291.9200</open>
+    <high>300.1100</high>
+    <low>279.9300</low>
+    <close>295.1200</close>
+    <adjusted_close>278.7823</adjusted_close>
+    <volume>104356200</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>294.8700</open>
+    <high>303.2000</high>
+    <low>284.2400</low>
+    <close>300.5400</close>
+    <adjusted_close>283.9022</adjusted_close>
+    <volume>62483200</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>298.9800</open>
+    <high>299.5600</high>
+    <low>277.0900</low>
+    <close>283.4500</close>
+    <adjusted_close>269.6859</adjusted_close>
+    <volume>116752100</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>284.0500</open>
+    <high>315.4600</high>
+    <low>279.9800</low>
+    <close>310.6400</close>
+    <adjusted_close>295.5556</adjusted_close>
+    <volume>92366600</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>309.7800</open>
+    <high>334.0700</high>
+    <low>300.8900</low>
+    <close>333.8400</close>
+    <adjusted_close>317.6290</adjusted_close>
+    <volume>58380600</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>331.7600</open>
+    <high>338.1700</high>
+    <low>321.2000</low>
+    <close>330.3000</close>
+    <adjusted_close>316.2677</adjusted_close>
+    <volume>69782400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>332.0000</open>
+    <high>333.4500</high>
+    <low>299.8200</low>
+    <close>302.1600</close>
+    <adjusted_close>289.3232</adjusted_close>
+    <volume>55807300</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>300.5200</open>
+    <high>303.4500</high>
+    <low>274.2600</low>
+    <close>284.6900</close>
+    <adjusted_close>272.5954</adjusted_close>
+    <volume>60467700</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>285.5900</open>
+    <high>314.5800</high>
+    <low>282.0200</low>
+    <close>313.4900</close>
+    <adjusted_close>302.1875</adjusted_close>
+    <volume>71800300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>313.8300</open>
+    <high>354.9200</high>
+    <low>313.0000</low>
+    <close>346.5500</close>
+    <adjusted_close>334.0556</adjusted_close>
+    <volume>85111800</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>344.2100</open>
+    <high>362.9600</high>
+    <low>336.5900</low>
+    <close>352.9600</close>
+    <adjusted_close>340.2344</adjusted_close>
+    <volume>65235600</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>353.4000</open>
+    <high>381.7800</high>
+    <low>350.0200</low>
+    <close>380.6100</close>
+    <adjusted_close>366.8876</adjusted_close>
+    <volume>61630000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>380.3600</open>
+    <high>396.8700</high>
+    <low>368.8700</low>
+    <close>383.6000</close>
+    <adjusted_close>371.9813</adjusted_close>
+    <volume>66832000</volume>
+    <news>HD Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>381.4700</open>
+    <high>383.1400</high>
+    <low>326.9000</low>
+    <close>334.2200</close>
+    <adjusted_close>324.0970</adjusted_close>
+    <volume>83566300</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>333.0100</open>
+    <high>350.4400</high>
+    <low>323.7700</low>
+    <close>334.8700</close>
+    <adjusted_close>326.9847</adjusted_close>
+    <volume>81271100</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>333.6500</open>
+    <high>357.6900</high>
+    <low>323.9300</low>
+    <close>344.2400</close>
+    <adjusted_close>336.1340</adjusted_close>
+    <volume>71073100</volume>
+    <news>HD Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>343.9200</open>
+    <high>375.7400</high>
+    <low>331.6400</low>
+    <close>368.1600</close>
+    <adjusted_close>359.4908</adjusted_close>
+    <volume>67270400</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>369.9900</open>
+    <high>378.5800</high>
+    <low>339.3700</low>
+    <close>368.5000</close>
+    <adjusted_close>362.0083</adjusted_close>
+    <volume>77006500</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>367.9000</open>
+    <high>405.3100</high>
+    <low>357.5800</low>
+    <close>405.2000</close>
+    <adjusted_close>398.0618</adjusted_close>
+    <volume>62996100</volume>
+    <news>HD Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>404.0200</open>
+    <high>421.5600</high>
+    <low>389.0500</low>
+    <close>393.7500</close>
+    <adjusted_close>386.8135</adjusted_close>
+    <volume>70786300</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>394.8000</open>
+    <high>439.3700</high>
+    <low>381.7200</low>
+    <close>429.1300</close>
+    <adjusted_close>423.7902</adjusted_close>
+    <volume>74404900</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>429.0000</open>
+    <high>436.3600</high>
+    <low>383.0500</low>
+    <close>388.9900</close>
+    <adjusted_close>384.1497</adjusted_close>
+    <volume>65467100</volume>
+    <news>HD Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</home_depot_stock_data>

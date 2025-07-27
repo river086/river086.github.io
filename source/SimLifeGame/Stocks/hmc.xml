@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<honda_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>19.0625</open>
+    <high>19.0625</high>
+    <low>16.2500</low>
+    <close>16.4062</close>
+    <adjusted_close>11.3938</adjusted_close>
+    <volume>2241200</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>16.7812</open>
+    <high>19.0000</high>
+    <low>16.5000</low>
+    <close>16.8750</close>
+    <adjusted_close>11.7193</adjusted_close>
+    <volume>1634800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>16.7812</open>
+    <high>20.3125</high>
+    <low>16.6250</low>
+    <close>20.3125</close>
+    <adjusted_close>14.1480</adjusted_close>
+    <volume>2239600</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>20.2500</open>
+    <high>22.2500</high>
+    <low>19.7500</low>
+    <close>22.1250</close>
+    <adjusted_close>15.4104</adjusted_close>
+    <volume>1664800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>22.3438</open>
+    <high>22.6875</high>
+    <low>16.7656</low>
+    <close>16.9531</close>
+    <adjusted_close>11.8081</adjusted_close>
+    <volume>2528400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>17.6250</open>
+    <high>18.0312</high>
+    <low>16.1250</low>
+    <close>17.1875</close>
+    <adjusted_close>11.9713</adjusted_close>
+    <volume>1422800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>16.7500</open>
+    <high>18.6094</high>
+    <low>16.7188</low>
+    <close>18.3438</close>
+    <adjusted_close>12.7767</adjusted_close>
+    <volume>953600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>17.9375</open>
+    <high>20.0312</high>
+    <low>16.8594</low>
+    <close>18.1250</close>
+    <adjusted_close>12.6243</adjusted_close>
+    <volume>1432000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>18.6250</open>
+    <high>19.4688</high>
+    <low>17.2500</low>
+    <close>18.2969</close>
+    <adjusted_close>12.7796</adjusted_close>
+    <volume>1053200</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>18.0312</open>
+    <high>18.3750</high>
+    <low>16.2500</low>
+    <close>17.2969</close>
+    <adjusted_close>12.0811</adjusted_close>
+    <volume>943200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>17.6875</open>
+    <high>18.5781</high>
+    <low>16.5625</low>
+    <close>17.2812</close>
+    <adjusted_close>12.0702</adjusted_close>
+    <volume>788000</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>17.5625</open>
+    <high>18.5312</high>
+    <low>16.8750</low>
+    <close>18.4688</close>
+    <adjusted_close>12.8996</adjusted_close>
+    <volume>1947600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>18.5312</open>
+    <high>20.0938</high>
+    <low>17.9531</low>
+    <close>19.1375</close>
+    <adjusted_close>13.3667</adjusted_close>
+    <volume>2170000</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>19.3750</open>
+    <high>20.5000</high>
+    <low>19.3750</low>
+    <close>19.7500</close>
+    <adjusted_close>13.7945</adjusted_close>
+    <volume>1688400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>19.0125</open>
+    <high>21.4000</high>
+    <low>18.2750</low>
+    <close>20.5250</close>
+    <adjusted_close>14.3689</adjusted_close>
+    <volume>3603200</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>20.0000</open>
+    <high>20.8000</high>
+    <low>19.0750</low>
+    <close>20.5775</close>
+    <adjusted_close>14.4057</adjusted_close>
+    <volume>2979600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>21.9000</open>
+    <high>22.8375</high>
+    <low>20.7875</low>
+    <close>20.9125</close>
+    <adjusted_close>14.6402</adjusted_close>
+    <volume>2693200</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>20.9125</open>
+    <high>22.4000</high>
+    <low>20.4250</low>
+    <close>21.9975</close>
+    <adjusted_close>15.3998</adjusted_close>
+    <volume>1670400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>22.4375</open>
+    <high>22.9800</high>
+    <low>21.1075</low>
+    <close>22.9750</close>
+    <adjusted_close>16.0841</adjusted_close>
+    <volume>2051600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>22.7400</open>
+    <high>23.0875</high>
+    <low>18.0375</low>
+    <close>18.2500</close>
+    <adjusted_close>12.7763</adjusted_close>
+    <volume>2058400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>17.7875</open>
+    <high>20.1750</high>
+    <low>13.6475</low>
+    <close>16.0625</close>
+    <adjusted_close>11.2849</adjusted_close>
+    <volume>4012800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>16.6500</open>
+    <high>18.9475</high>
+    <low>16.5100</low>
+    <close>18.1500</close>
+    <adjusted_close>12.7515</adjusted_close>
+    <volume>3451600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>18.4000</open>
+    <high>19.8975</high>
+    <low>17.8125</low>
+    <close>19.0000</close>
+    <adjusted_close>13.3486</adjusted_close>
+    <volume>3183600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>19.2500</open>
+    <high>20.5625</high>
+    <low>18.5625</low>
+    <close>20.3775</close>
+    <adjusted_close>14.3164</adjusted_close>
+    <volume>2200800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>20.4100</open>
+    <high>20.9500</high>
+    <low>18.8000</low>
+    <close>20.2400</close>
+    <adjusted_close>14.2198</adjusted_close>
+    <volume>4209500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>20.1000</open>
+    <high>20.2400</high>
+    <low>18.1200</low>
+    <close>19.9100</close>
+    <adjusted_close>13.9880</adjusted_close>
+    <volume>2279200</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>20.1500</open>
+    <high>22.8300</high>
+    <low>20.0000</low>
+    <close>21.1700</close>
+    <adjusted_close>14.9096</adjusted_close>
+    <volume>3051700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>20.6900</open>
+    <high>22.9100</high>
+    <low>20.0000</low>
+    <close>22.6900</close>
+    <adjusted_close>15.9800</adjusted_close>
+    <volume>3121300</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>23.2000</open>
+    <high>23.8500</high>
+    <low>21.5500</low>
+    <close>21.7200</close>
+    <adjusted_close>15.2969</adjusted_close>
+    <volume>5130900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>21.9700</open>
+    <high>21.9900</high>
+    <low>19.2000</low>
+    <close>20.7100</close>
+    <adjusted_close>14.5856</adjusted_close>
+    <volume>4107700</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>20.7800</open>
+    <high>23.1000</high>
+    <low>20.2000</low>
+    <close>21.0000</close>
+    <adjusted_close>14.7898</adjusted_close>
+    <volume>4751500</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>20.5900</open>
+    <high>22.1900</high>
+    <low>19.7000</low>
+    <close>21.2000</close>
+    <adjusted_close>14.9307</adjusted_close>
+    <volume>3177200</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>20.7200</open>
+    <high>21.5000</high>
+    <low>19.6500</low>
+    <close>19.8700</close>
+    <adjusted_close>14.0392</adjusted_close>
+    <volume>3872800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>19.9000</open>
+    <high>20.9900</high>
+    <low>17.5100</low>
+    <close>18.0800</close>
+    <adjusted_close>12.7745</adjusted_close>
+    <volume>5322100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>18.1000</open>
+    <high>19.2000</high>
+    <low>17.0100</low>
+    <close>19.0100</close>
+    <adjusted_close>13.4316</adjusted_close>
+    <volume>4098900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>18.9900</open>
+    <high>19.1400</high>
+    <low>17.7700</low>
+    <close>18.0600</close>
+    <adjusted_close>12.7603</adjusted_close>
+    <volume>3070600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>18.1500</open>
+    <high>18.7500</high>
+    <low>16.4000</low>
+    <close>16.7000</close>
+    <adjusted_close>11.7994</adjusted_close>
+    <volume>4287800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>17.5000</open>
+    <high>18.6200</high>
+    <low>16.8500</low>
+    <close>18.3700</close>
+    <adjusted_close>12.9794</adjusted_close>
+    <volume>2754800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>18.7800</open>
+    <high>18.8000</high>
+    <low>16.5900</low>
+    <close>16.6000</close>
+    <adjusted_close>11.7744</adjusted_close>
+    <volume>6314800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>16.7000</open>
+    <high>17.5000</high>
+    <low>15.4700</low>
+    <close>16.6800</close>
+    <adjusted_close>11.8312</adjusted_close>
+    <volume>10984600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>16.6800</open>
+    <high>17.9800</high>
+    <low>16.4200</low>
+    <close>17.9600</close>
+    <adjusted_close>12.7391</adjusted_close>
+    <volume>6921800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>18.0600</open>
+    <high>19.9500</high>
+    <low>17.8400</low>
+    <close>19.0500</close>
+    <adjusted_close>13.5122</adjusted_close>
+    <volume>6152400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>18.8000</open>
+    <high>21.4500</high>
+    <low>18.5400</low>
+    <close>19.7600</close>
+    <adjusted_close>14.0158</adjusted_close>
+    <volume>13670400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>19.7500</open>
+    <high>21.1000</high>
+    <low>19.1700</low>
+    <close>20.3600</close>
+    <adjusted_close>14.4414</adjusted_close>
+    <volume>6819300</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>20.4000</open>
+    <high>23.5900</high>
+    <low>20.0000</low>
+    <close>20.1600</close>
+    <adjusted_close>14.3551</adjusted_close>
+    <volume>8292000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>19.9600</open>
+    <high>21.1500</high>
+    <low>19.3000</low>
+    <close>20.0500</close>
+    <adjusted_close>14.2767</adjusted_close>
+    <volume>12112300</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>20.1500</open>
+    <high>20.8600</high>
+    <low>18.8100</low>
+    <close>20.2300</close>
+    <adjusted_close>14.4049</adjusted_close>
+    <volume>7565600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>20.3200</open>
+    <high>22.5300</high>
+    <low>20.1100</low>
+    <close>22.5000</close>
+    <adjusted_close>16.0213</adjusted_close>
+    <volume>7563200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>22.5000</open>
+    <high>23.4000</high>
+    <low>20.5500</low>
+    <close>21.3400</close>
+    <adjusted_close>15.1953</adjusted_close>
+    <volume>11419800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>21.3400</open>
+    <high>22.1500</high>
+    <low>20.6600</low>
+    <close>21.8100</close>
+    <adjusted_close>15.5300</adjusted_close>
+    <volume>7234400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>21.9500</open>
+    <high>23.4000</high>
+    <low>21.5000</low>
+    <close>23.1400</close>
+    <adjusted_close>16.5413</adjusted_close>
+    <volume>9050400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>22.6900</open>
+    <high>23.1500</high>
+    <low>20.1100</low>
+    <close>20.1500</close>
+    <adjusted_close>14.4039</adjusted_close>
+    <volume>13019200</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>19.7500</open>
+    <high>21.7900</high>
+    <low>19.2500</low>
+    <close>21.6000</close>
+    <adjusted_close>15.4404</adjusted_close>
+    <volume>10492300</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>21.7500</open>
+    <high>24.8500</high>
+    <low>21.3600</low>
+    <close>24.3200</close>
+    <adjusted_close>17.3848</adjusted_close>
+    <volume>6794000</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>24.4500</open>
+    <high>24.4800</high>
+    <low>22.5600</low>
+    <close>24.2700</close>
+    <adjusted_close>17.3490</adjusted_close>
+    <volume>5275900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>24.2000</open>
+    <high>24.9800</high>
+    <low>22.6500</low>
+    <close>24.9800</close>
+    <adjusted_close>17.8566</adjusted_close>
+    <volume>4189400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>24.8000</open>
+    <high>25.4000</high>
+    <low>23.6600</low>
+    <close>24.3600</close>
+    <adjusted_close>17.4878</adjusted_close>
+    <volume>5686300</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>24.7500</open>
+    <high>24.9500</high>
+    <low>23.5500</low>
+    <close>24.2900</close>
+    <adjusted_close>17.4375</adjusted_close>
+    <volume>4616700</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>24.2000</open>
+    <high>25.5000</high>
+    <low>23.9000</low>
+    <close>23.9500</close>
+    <adjusted_close>17.1935</adjusted_close>
+    <volume>6885800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>23.8200</open>
+    <high>26.1000</high>
+    <low>23.8200</low>
+    <close>26.0600</close>
+    <adjusted_close>18.7082</adjusted_close>
+    <volume>5740800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>26.1900</open>
+    <high>26.7400</high>
+    <low>25.2300</low>
+    <close>26.2500</close>
+    <adjusted_close>18.8446</adjusted_close>
+    <volume>5417900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>26.2500</open>
+    <high>26.9900</high>
+    <low>25.7000</low>
+    <close>26.8500</close>
+    <adjusted_close>19.2753</adjusted_close>
+    <volume>5923000</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>26.8500</open>
+    <high>27.3000</high>
+    <low>24.9200</low>
+    <close>25.0400</close>
+    <adjusted_close>18.0720</adjusted_close>
+    <volume>6875900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>25.2000</open>
+    <high>26.0000</high>
+    <low>23.7500</low>
+    <close>24.1000</close>
+    <adjusted_close>17.3936</adjusted_close>
+    <volume>4734800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>23.9800</open>
+    <high>24.9500</high>
+    <low>23.8000</low>
+    <close>24.7200</close>
+    <adjusted_close>17.8411</adjusted_close>
+    <volume>5634000</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>24.6700</open>
+    <high>25.4000</high>
+    <low>24.4500</low>
+    <close>24.6100</close>
+    <adjusted_close>17.7617</adjusted_close>
+    <volume>4714300</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>24.7500</open>
+    <high>25.7700</high>
+    <low>24.0600</low>
+    <close>25.7700</close>
+    <adjusted_close>18.5989</adjusted_close>
+    <volume>7037200</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>25.9000</open>
+    <high>26.9200</high>
+    <low>25.3800</low>
+    <close>26.9200</close>
+    <adjusted_close>19.4289</adjusted_close>
+    <volume>6027100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>26.6400</open>
+    <high>29.0800</high>
+    <low>26.3500</low>
+    <close>28.4000</close>
+    <adjusted_close>20.6260</adjusted_close>
+    <volume>7272600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>28.5100</open>
+    <high>29.5900</high>
+    <low>27.1000</low>
+    <close>27.8100</close>
+    <adjusted_close>20.1975</adjusted_close>
+    <volume>7269900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>27.7000</open>
+    <high>28.7000</high>
+    <low>26.5000</low>
+    <close>27.9600</close>
+    <adjusted_close>20.3064</adjusted_close>
+    <volume>9462000</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>28.4000</open>
+    <high>29.7000</high>
+    <low>28.2000</low>
+    <close>28.9700</close>
+    <adjusted_close>21.0399</adjusted_close>
+    <volume>9519700</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>29.1400</open>
+    <high>30.3600</high>
+    <low>27.1000</low>
+    <close>28.4500</close>
+    <adjusted_close>20.6623</adjusted_close>
+    <volume>13793800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>28.7100</open>
+    <high>30.2400</high>
+    <low>28.4400</low>
+    <close>29.3800</close>
+    <adjusted_close>21.3377</adjusted_close>
+    <volume>9238800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>29.9800</open>
+    <high>31.7400</high>
+    <low>28.5700</low>
+    <close>30.9600</close>
+    <adjusted_close>22.5995</adjusted_close>
+    <volume>9741900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>31.1000</open>
+    <high>35.9400</high>
+    <low>31.1000</low>
+    <close>35.4300</close>
+    <adjusted_close>25.8625</adjusted_close>
+    <volume>10268800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>35.6200</open>
+    <high>37.9500</high>
+    <low>32.5900</low>
+    <close>33.0300</close>
+    <adjusted_close>24.1106</adjusted_close>
+    <volume>11666200</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>32.9600</open>
+    <high>33.7700</high>
+    <low>29.1300</low>
+    <close>31.8200</close>
+    <adjusted_close>23.2273</adjusted_close>
+    <volume>14249400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>32.2000</open>
+    <high>33.5700</high>
+    <low>29.4300</low>
+    <close>32.9500</close>
+    <adjusted_close>24.0522</adjusted_close>
+    <volume>7486100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>32.9500</open>
+    <high>35.0000</high>
+    <low>32.5700</low>
+    <close>33.8800</close>
+    <adjusted_close>24.7310</adjusted_close>
+    <volume>8718500</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>33.9500</open>
+    <high>34.2500</high>
+    <low>32.0200</low>
+    <close>33.6300</close>
+    <adjusted_close>24.7402</adjusted_close>
+    <volume>11742700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>34.4500</open>
+    <high>36.2000</high>
+    <low>33.4900</low>
+    <close>35.3300</close>
+    <adjusted_close>25.9908</adjusted_close>
+    <volume>8231800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>35.9400</open>
+    <high>36.5900</high>
+    <low>34.0100</low>
+    <close>35.2900</close>
+    <adjusted_close>25.9614</adjusted_close>
+    <volume>8556700</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>35.0500</open>
+    <high>39.8700</high>
+    <low>34.5600</low>
+    <close>39.5400</close>
+    <adjusted_close>29.1971</adjusted_close>
+    <volume>8890400</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>39.8100</open>
+    <high>40.7000</high>
+    <low>37.6200</low>
+    <close>39.3300</close>
+    <adjusted_close>29.0420</adjusted_close>
+    <volume>13957300</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>39.4700</open>
+    <high>40.8200</high>
+    <low>36.3700</low>
+    <close>37.1500</close>
+    <adjusted_close>27.4323</adjusted_close>
+    <volume>14766300</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>35.5000</open>
+    <high>37.3600</high>
+    <low>34.6400</low>
+    <close>34.8700</close>
+    <adjusted_close>25.8498</adjusted_close>
+    <volume>13221900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>34.5900</open>
+    <high>36.1900</high>
+    <low>33.6200</low>
+    <close>34.4300</close>
+    <adjusted_close>25.5236</adjusted_close>
+    <volume>17524400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>34.0100</open>
+    <high>35.3900</high>
+    <low>33.3000</low>
+    <close>35.3300</close>
+    <adjusted_close>26.1908</adjusted_close>
+    <volume>16278300</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>35.4700</open>
+    <high>36.5900</high>
+    <low>34.1500</low>
+    <close>36.2900</close>
+    <adjusted_close>27.0284</adjusted_close>
+    <volume>13902000</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>37.0000</open>
+    <high>37.8000</high>
+    <low>35.0200</low>
+    <close>36.0200</close>
+    <adjusted_close>26.8273</adjusted_close>
+    <volume>17296600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>35.9000</open>
+    <high>36.0500</high>
+    <low>31.2900</low>
+    <close>32.9200</close>
+    <adjusted_close>24.5184</adjusted_close>
+    <volume>22184400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>33.3000</open>
+    <high>33.9400</high>
+    <low>32.3400</low>
+    <close>33.3600</close>
+    <adjusted_close>24.9994</adjusted_close>
+    <volume>11931900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>33.5000</open>
+    <high>37.6400</high>
+    <low>32.4500</low>
+    <close>37.4300</close>
+    <adjusted_close>28.0494</adjusted_close>
+    <volume>12353600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>37.4200</open>
+    <high>37.5400</high>
+    <low>32.6600</low>
+    <close>34.4100</close>
+    <adjusted_close>25.7862</adjusted_close>
+    <volume>12111800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>34.4000</open>
+    <high>35.2000</high>
+    <low>32.1400</low>
+    <close>33.1400</close>
+    <adjusted_close>24.9806</adjusted_close>
+    <volume>7819400</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>33.0300</open>
+    <high>33.6100</high>
+    <low>27.3500</low>
+    <close>31.5400</close>
+    <adjusted_close>23.7746</adjusted_close>
+    <volume>20258600</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>31.8300</open>
+    <high>32.4800</high>
+    <low>29.1200</low>
+    <close>30.6000</close>
+    <adjusted_close>23.0660</adjusted_close>
+    <volume>11253200</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>29.9500</open>
+    <high>30.8700</high>
+    <low>27.0100</low>
+    <close>28.8100</close>
+    <adjusted_close>21.7167</adjusted_close>
+    <volume>13431500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>29.5900</open>
+    <high>32.8800</high>
+    <low>27.6900</low>
+    <close>31.7500</close>
+    <adjusted_close>23.9329</adjusted_close>
+    <volume>14617400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>31.9600</open>
+    <high>33.5000</high>
+    <low>30.5500</low>
+    <close>33.2300</close>
+    <adjusted_close>25.0485</adjusted_close>
+    <volume>10470100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>33.8000</open>
+    <high>36.4000</high>
+    <low>33.1500</low>
+    <close>34.0300</close>
+    <adjusted_close>25.6515</adjusted_close>
+    <volume>24311400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>33.7000</open>
+    <high>35.6700</high>
+    <low>31.9000</low>
+    <close>31.9900</close>
+    <adjusted_close>24.1138</adjusted_close>
+    <volume>29430600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>32.7700</open>
+    <high>33.9900</high>
+    <low>30.0700</low>
+    <close>32.5600</close>
+    <adjusted_close>24.5434</adjusted_close>
+    <volume>14146700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>31.4700</open>
+    <high>34.2900</high>
+    <low>28.2000</low>
+    <close>30.1100</close>
+    <adjusted_close>22.6967</adjusted_close>
+    <volume>24265400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>29.9500</open>
+    <high>30.0800</high>
+    <low>18.9400</low>
+    <close>24.7700</close>
+    <adjusted_close>18.6714</adjusted_close>
+    <volume>35164800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>24.8500</open>
+    <high>27.6200</high>
+    <low>18.9100</low>
+    <close>22.0800</close>
+    <adjusted_close>16.6437</adjusted_close>
+    <volume>21824700</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>21.3100</open>
+    <high>23.7700</high>
+    <low>17.3500</low>
+    <close>21.3400</close>
+    <adjusted_close>16.1876</adjusted_close>
+    <volume>43978100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>21.4100</open>
+    <high>25.1500</high>
+    <low>20.2800</low>
+    <close>22.6600</close>
+    <adjusted_close>17.1889</adjusted_close>
+    <volume>30414300</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>22.1900</open>
+    <high>25.5800</high>
+    <low>21.9500</low>
+    <close>23.6300</close>
+    <adjusted_close>17.9247</adjusted_close>
+    <volume>31980700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>23.2200</open>
+    <high>25.0300</high>
+    <low>20.7200</low>
+    <close>23.7000</close>
+    <adjusted_close>17.9778</adjusted_close>
+    <volume>32149400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>24.8900</open>
+    <high>29.5900</high>
+    <low>24.8300</low>
+    <close>29.0600</close>
+    <adjusted_close>22.0437</adjusted_close>
+    <volume>27028800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>28.7200</open>
+    <high>31.0000</high>
+    <low>27.4500</low>
+    <close>29.0300</close>
+    <adjusted_close>22.0210</adjusted_close>
+    <volume>20042400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>29.2500</open>
+    <high>29.9600</high>
+    <low>26.2700</low>
+    <close>27.3700</close>
+    <adjusted_close>20.7617</adjusted_close>
+    <volume>17572200</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>27.3100</open>
+    <high>32.4900</high>
+    <low>25.0000</low>
+    <close>32.1300</close>
+    <adjusted_close>24.3725</adjusted_close>
+    <volume>15470000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>32.5000</open>
+    <high>32.9900</high>
+    <low>31.2200</low>
+    <close>31.3300</close>
+    <adjusted_close>23.7656</adjusted_close>
+    <volume>11520000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>31.6000</open>
+    <high>32.1700</high>
+    <low>29.8300</low>
+    <close>30.3100</close>
+    <adjusted_close>22.9919</adjusted_close>
+    <volume>11188900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>30.4200</open>
+    <high>32.8400</high>
+    <low>28.8200</low>
+    <close>30.9700</close>
+    <adjusted_close>23.4926</adjusted_close>
+    <volume>16028500</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>31.1900</open>
+    <high>32.6700</high>
+    <low>30.0500</low>
+    <close>30.9900</close>
+    <adjusted_close>23.5077</adjusted_close>
+    <volume>10840200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>32.0300</open>
+    <high>34.5200</high>
+    <low>31.9400</low>
+    <close>33.9000</close>
+    <adjusted_close>25.7151</adjusted_close>
+    <volume>9662200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>34.2500</open>
+    <high>37.2300</high>
+    <low>33.2900</low>
+    <close>33.9100</close>
+    <adjusted_close>25.7227</adjusted_close>
+    <volume>10288700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>33.8100</open>
+    <high>36.6400</high>
+    <low>33.2700</low>
+    <close>34.6100</close>
+    <adjusted_close>26.2537</adjusted_close>
+    <volume>14426900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>34.5600</open>
+    <high>36.7000</high>
+    <low>34.5100</low>
+    <close>35.2900</close>
+    <adjusted_close>26.7695</adjusted_close>
+    <volume>9312600</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>35.3700</open>
+    <high>36.1600</high>
+    <low>33.7300</low>
+    <close>33.7900</close>
+    <adjusted_close>25.6317</adjusted_close>
+    <volume>11084800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>33.8500</open>
+    <high>34.0000</high>
+    <low>30.1600</low>
+    <close>30.3900</close>
+    <adjusted_close>23.0526</adjusted_close>
+    <volume>17180900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>30.1100</open>
+    <high>30.9300</high>
+    <low>28.3300</low>
+    <close>28.7500</close>
+    <adjusted_close>21.8086</adjusted_close>
+    <volume>18331400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>28.8500</open>
+    <high>31.9200</high>
+    <low>28.4300</low>
+    <close>31.7700</close>
+    <adjusted_close>24.0994</adjusted_close>
+    <volume>11128000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>32.4400</open>
+    <high>33.9600</high>
+    <low>31.7700</low>
+    <close>32.9300</close>
+    <adjusted_close>24.9793</adjusted_close>
+    <volume>14421600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>33.2800</open>
+    <high>35.8900</high>
+    <low>32.8200</low>
+    <close>35.5900</close>
+    <adjusted_close>26.9971</adjusted_close>
+    <volume>8556400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>35.9500</open>
+    <high>37.0300</high>
+    <low>35.5000</low>
+    <close>36.0300</close>
+    <adjusted_close>27.3309</adjusted_close>
+    <volume>8744500</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>34.9200</open>
+    <high>38.0900</high>
+    <low>33.8200</low>
+    <close>36.2300</close>
+    <adjusted_close>27.4826</adjusted_close>
+    <volume>13607800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>37.0500</open>
+    <high>39.6900</high>
+    <low>36.8600</low>
+    <close>39.5000</close>
+    <adjusted_close>29.9631</adjusted_close>
+    <volume>7466700</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>39.8400</open>
+    <high>43.6100</high>
+    <low>38.6700</low>
+    <close>43.5400</close>
+    <adjusted_close>33.0277</adjusted_close>
+    <volume>12222300</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>43.6600</open>
+    <high>44.5600</high>
+    <low>42.2000</low>
+    <close>43.6900</close>
+    <adjusted_close>33.1414</adjusted_close>
+    <volume>11695400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>44.0100</open>
+    <high>44.0100</high>
+    <low>36.5100</low>
+    <close>37.5100</close>
+    <adjusted_close>28.4535</adjusted_close>
+    <volume>25671900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>36.8500</open>
+    <high>38.9000</high>
+    <low>33.7600</low>
+    <close>38.3500</close>
+    <adjusted_close>29.0907</adjusted_close>
+    <volume>26244100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>39.3000</open>
+    <high>39.5900</high>
+    <low>36.6300</low>
+    <close>38.0000</close>
+    <adjusted_close>28.8252</adjusted_close>
+    <volume>14199600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>38.2200</open>
+    <high>38.7400</high>
+    <low>35.7500</low>
+    <close>38.6100</close>
+    <adjusted_close>29.2879</adjusted_close>
+    <volume>11735100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>38.5400</open>
+    <high>41.2300</high>
+    <low>38.5400</low>
+    <close>39.7800</close>
+    <adjusted_close>30.1755</adjusted_close>
+    <volume>11065800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>40.6100</open>
+    <high>40.7200</high>
+    <low>30.3500</low>
+    <close>32.4700</close>
+    <adjusted_close>24.6304</adjusted_close>
+    <volume>25304100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>32.9800</open>
+    <high>33.2600</high>
+    <low>28.9000</low>
+    <close>29.1500</close>
+    <adjusted_close>22.1120</adjusted_close>
+    <volume>13264800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>29.3200</open>
+    <high>32.6500</high>
+    <low>28.0400</low>
+    <close>29.9000</close>
+    <adjusted_close>22.6809</adjusted_close>
+    <volume>19190800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>30.0600</open>
+    <high>31.7600</high>
+    <low>27.5200</low>
+    <close>31.6500</close>
+    <adjusted_close>24.0084</adjusted_close>
+    <volume>11900200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>31.6300</open>
+    <high>32.0000</high>
+    <low>28.6000</low>
+    <close>30.5500</close>
+    <adjusted_close>23.3049</adjusted_close>
+    <volume>18779400</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>31.1800</open>
+    <high>35.5900</high>
+    <low>31.1100</low>
+    <close>34.0500</close>
+    <adjusted_close>25.9748</adjusted_close>
+    <volume>11265800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>35.2400</open>
+    <high>38.8800</high>
+    <low>34.9800</low>
+    <close>38.1200</close>
+    <adjusted_close>29.0796</adjusted_close>
+    <volume>10337100</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>38.1200</open>
+    <high>39.3500</high>
+    <low>36.2300</low>
+    <close>38.4300</close>
+    <adjusted_close>29.4462</adjusted_close>
+    <volume>12667700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>38.4400</open>
+    <high>38.9600</high>
+    <low>34.6700</low>
+    <close>36.0400</close>
+    <adjusted_close>27.6149</adjusted_close>
+    <volume>7991900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>35.0700</open>
+    <high>35.3800</high>
+    <low>31.6400</low>
+    <close>31.7900</close>
+    <adjusted_close>24.3584</adjusted_close>
+    <volume>24758600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>31.0500</open>
+    <high>34.6700</high>
+    <low>30.3000</low>
+    <close>34.6600</close>
+    <adjusted_close>26.7367</adjusted_close>
+    <volume>8528100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>34.4700</open>
+    <high>34.6600</high>
+    <low>30.2900</low>
+    <close>31.5000</close>
+    <adjusted_close>24.2991</adjusted_close>
+    <volume>5936500</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>30.9200</open>
+    <high>33.7600</high>
+    <low>28.5000</low>
+    <close>31.8900</close>
+    <adjusted_close>24.5999</adjusted_close>
+    <volume>13316700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>31.5400</open>
+    <high>34.8100</high>
+    <low>30.7600</low>
+    <close>30.9000</close>
+    <adjusted_close>23.8362</adjusted_close>
+    <volume>8854300</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>30.8200</open>
+    <high>32.8300</high>
+    <low>29.5600</low>
+    <close>30.1600</close>
+    <adjusted_close>23.2654</adjusted_close>
+    <volume>9831000</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>29.9800</open>
+    <high>33.6100</high>
+    <low>29.2600</low>
+    <close>33.3000</close>
+    <adjusted_close>25.6876</adjusted_close>
+    <volume>11040000</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>32.8300</open>
+    <high>37.0000</high>
+    <low>32.5500</low>
+    <close>36.9400</close>
+    <adjusted_close>28.6458</adjusted_close>
+    <volume>9847900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>37.6900</open>
+    <high>38.7500</high>
+    <low>36.1800</low>
+    <close>37.6900</close>
+    <adjusted_close>29.2274</adjusted_close>
+    <volume>18041800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>38.0100</open>
+    <high>38.6600</high>
+    <low>36.2800</low>
+    <close>37.4400</close>
+    <adjusted_close>29.0335</adjusted_close>
+    <volume>11749000</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>37.3400</open>
+    <high>40.0000</high>
+    <low>37.1400</low>
+    <close>38.2600</close>
+    <adjusted_close>29.8086</adjusted_close>
+    <volume>7290500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>37.0700</open>
+    <high>41.0300</high>
+    <low>36.3700</low>
+    <close>39.9800</close>
+    <adjusted_close>31.1486</adjusted_close>
+    <volume>15023100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>39.3900</open>
+    <high>42.1300</high>
+    <low>37.5700</low>
+    <close>37.5700</close>
+    <adjusted_close>29.2710</adjusted_close>
+    <volume>14405800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>37.3200</open>
+    <high>37.9000</high>
+    <low>35.1500</low>
+    <close>37.2500</close>
+    <adjusted_close>29.1781</adjusted_close>
+    <volume>11632100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>37.3500</open>
+    <high>39.4400</high>
+    <low>37.0000</low>
+    <close>37.1400</close>
+    <adjusted_close>29.0919</adjusted_close>
+    <volume>8992300</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>37.0600</open>
+    <high>39.0900</high>
+    <low>35.8600</low>
+    <close>35.9400</close>
+    <adjusted_close>28.1520</adjusted_close>
+    <volume>6862700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>37.0400</open>
+    <high>39.8600</high>
+    <low>36.3200</low>
+    <close>38.1400</close>
+    <adjusted_close>30.0139</adjusted_close>
+    <volume>9313700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>38.4000</open>
+    <high>40.5900</high>
+    <low>37.7100</low>
+    <close>39.9600</close>
+    <adjusted_close>31.4461</adjusted_close>
+    <volume>6464900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>39.9700</open>
+    <high>42.9600</high>
+    <low>39.0900</low>
+    <close>42.3600</close>
+    <adjusted_close>33.3348</adjusted_close>
+    <volume>5438200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>42.3500</open>
+    <high>42.4700</high>
+    <low>39.8100</low>
+    <close>41.3500</close>
+    <adjusted_close>32.6755</adjusted_close>
+    <volume>5439600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>41.1000</open>
+    <high>41.3800</high>
+    <low>37.3700</low>
+    <close>37.5100</close>
+    <adjusted_close>29.6410</adjusted_close>
+    <volume>8304700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>37.1600</open>
+    <high>37.3700</high>
+    <low>35.4200</low>
+    <close>36.0500</close>
+    <adjusted_close>28.4873</adjusted_close>
+    <volume>11528900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>36.4600</open>
+    <high>37.4000</high>
+    <low>34.2400</low>
+    <close>35.3400</close>
+    <adjusted_close>27.9263</adjusted_close>
+    <volume>15640700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>35.2700</open>
+    <high>35.7000</high>
+    <low>32.4200</low>
+    <close>33.3000</close>
+    <adjusted_close>26.3142</adjusted_close>
+    <volume>24970900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>33.5600</open>
+    <high>35.2300</high>
+    <low>32.6800</low>
+    <close>35.1800</close>
+    <adjusted_close>27.7998</adjusted_close>
+    <volume>19037900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>35.2800</open>
+    <high>35.9200</high>
+    <low>34.4600</low>
+    <close>34.9900</close>
+    <adjusted_close>27.7932</adjusted_close>
+    <volume>10801500</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>35.0600</open>
+    <high>36.0200</high>
+    <low>34.6500</low>
+    <close>34.8800</close>
+    <adjusted_close>27.7058</adjusted_close>
+    <volume>12366300</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>34.9300</open>
+    <high>34.9800</high>
+    <low>33.5500</low>
+    <close>34.0500</close>
+    <adjusted_close>27.0465</adjusted_close>
+    <volume>15111800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>33.8200</open>
+    <high>34.8500</high>
+    <low>33.6800</low>
+    <close>34.2800</close>
+    <adjusted_close>27.3551</adjusted_close>
+    <volume>14444600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>34.1400</open>
+    <high>34.1600</high>
+    <low>29.3000</low>
+    <close>32.1200</close>
+    <adjusted_close>25.6315</adjusted_close>
+    <volume>38953400</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>32.1100</open>
+    <high>32.4300</high>
+    <low>30.2500</low>
+    <close>30.3200</close>
+    <adjusted_close>24.1951</adjusted_close>
+    <volume>21958600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>30.3900</open>
+    <high>31.2500</high>
+    <low>28.8300</low>
+    <close>29.5200</close>
+    <adjusted_close>23.6814</adjusted_close>
+    <volume>33897100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>29.6700</open>
+    <high>31.4000</high>
+    <low>28.6100</low>
+    <close>30.2200</close>
+    <adjusted_close>24.2430</adjusted_close>
+    <volume>24424100</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>31.3500</open>
+    <high>33.7200</high>
+    <low>30.9100</low>
+    <close>33.1400</close>
+    <adjusted_close>26.5855</adjusted_close>
+    <volume>17296100</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>33.0800</open>
+    <high>34.6200</high>
+    <low>32.6000</low>
+    <close>32.7600</close>
+    <adjusted_close>26.4052</adjusted_close>
+    <volume>18895900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>32.6900</open>
+    <high>36.4400</high>
+    <low>32.4200</low>
+    <close>33.5300</close>
+    <adjusted_close>27.0259</adjusted_close>
+    <volume>17554600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>34.1000</open>
+    <high>35.4000</high>
+    <low>33.6000</low>
+    <close>34.2200</close>
+    <adjusted_close>27.5820</adjusted_close>
+    <volume>16429800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>34.3400</open>
+    <high>34.6100</high>
+    <low>32.0000</low>
+    <close>32.4000</close>
+    <adjusted_close>26.1151</adjusted_close>
+    <volume>11551700</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>32.0700</open>
+    <high>34.4200</high>
+    <low>30.8900</low>
+    <close>33.9600</close>
+    <adjusted_close>27.3724</adjusted_close>
+    <volume>11631900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>34.8000</open>
+    <high>35.9900</high>
+    <low>29.0000</low>
+    <close>31.4800</close>
+    <adjusted_close>25.3735</adjusted_close>
+    <volume>17805100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>30.2300</open>
+    <high>32.3100</high>
+    <low>29.2800</low>
+    <close>29.9000</close>
+    <adjusted_close>24.2263</adjusted_close>
+    <volume>9779700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>30.0000</open>
+    <high>33.8700</high>
+    <low>29.7500</low>
+    <close>33.1300</close>
+    <adjusted_close>26.8433</adjusted_close>
+    <volume>10127900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>33.0300</open>
+    <high>33.4700</high>
+    <low>32.0200</low>
+    <close>32.6800</close>
+    <adjusted_close>26.4787</adjusted_close>
+    <volume>9309300</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>33.1800</open>
+    <high>33.4200</high>
+    <low>31.1800</low>
+    <close>31.9300</close>
+    <adjusted_close>25.8711</adjusted_close>
+    <volume>10744900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>30.8600</open>
+    <high>31.0000</high>
+    <low>26.4100</low>
+    <close>27.0200</close>
+    <adjusted_close>21.8928</adjusted_close>
+    <volume>17342400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>27.6200</open>
+    <high>27.9300</high>
+    <low>24.5600</low>
+    <close>25.7100</close>
+    <adjusted_close>20.8313</adjusted_close>
+    <volume>15811300</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>26.0400</open>
+    <high>28.2600</high>
+    <low>25.9900</low>
+    <close>27.3400</close>
+    <adjusted_close>22.3024</adjusted_close>
+    <volume>12791500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>26.3400</open>
+    <high>28.7400</high>
+    <low>25.5300</low>
+    <close>26.9600</close>
+    <adjusted_close>21.9925</adjusted_close>
+    <volume>15621900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>27.1000</open>
+    <high>28.2600</high>
+    <low>26.2300</low>
+    <close>27.9800</close>
+    <adjusted_close>22.8245</adjusted_close>
+    <volume>19336800</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>27.8100</open>
+    <high>27.8100</high>
+    <low>24.5200</low>
+    <close>25.3300</close>
+    <adjusted_close>20.8193</adjusted_close>
+    <volume>20263100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>25.1100</open>
+    <high>27.3600</high>
+    <low>24.0300</low>
+    <close>27.1200</close>
+    <adjusted_close>22.2906</adjusted_close>
+    <volume>17499800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>27.1200</open>
+    <high>31.0600</high>
+    <low>27.1200</low>
+    <close>30.8100</close>
+    <adjusted_close>25.3235</adjusted_close>
+    <volume>14550000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>30.9700</open>
+    <high>31.1800</high>
+    <low>28.6200</low>
+    <close>28.9200</close>
+    <adjusted_close>23.9101</adjusted_close>
+    <volume>16753900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>28.9600</open>
+    <high>30.5000</high>
+    <low>28.9000</low>
+    <close>29.8300</close>
+    <adjusted_close>24.6624</adjusted_close>
+    <volume>14958100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>29.4000</open>
+    <high>29.8000</high>
+    <low>27.5100</low>
+    <close>29.7400</close>
+    <adjusted_close>24.5880</adjusted_close>
+    <volume>13477200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>29.6100</open>
+    <high>30.6600</high>
+    <low>29.0900</low>
+    <close>29.1900</close>
+    <adjusted_close>24.2860</adjusted_close>
+    <volume>13247600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>29.4800</open>
+    <high>30.9700</high>
+    <low>29.4200</low>
+    <close>29.7200</close>
+    <adjusted_close>24.7270</adjusted_close>
+    <volume>14255500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>30.2300</open>
+    <high>32.1700</high>
+    <low>29.8900</low>
+    <close>30.9700</close>
+    <adjusted_close>25.7670</adjusted_close>
+    <volume>18722500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>31.2600</open>
+    <high>31.4400</high>
+    <low>30.1800</low>
+    <close>30.2600</close>
+    <adjusted_close>25.3325</adjusted_close>
+    <volume>11365800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>30.2000</open>
+    <high>30.2100</high>
+    <low>28.1600</low>
+    <close>29.1000</close>
+    <adjusted_close>24.3614</adjusted_close>
+    <volume>15320900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>28.9800</open>
+    <high>29.1700</high>
+    <low>27.3600</low>
+    <close>27.9300</close>
+    <adjusted_close>23.3819</adjusted_close>
+    <volume>20997500</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>28.0400</open>
+    <high>28.7300</high>
+    <low>27.0700</low>
+    <close>27.3900</close>
+    <adjusted_close>22.9298</adjusted_close>
+    <volume>16937900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>27.4800</open>
+    <high>28.1300</high>
+    <low>27.0500</low>
+    <close>28.0200</close>
+    <adjusted_close>23.4573</adjusted_close>
+    <volume>10190400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>28.8000</open>
+    <high>28.9500</high>
+    <low>27.3600</low>
+    <close>28.1000</close>
+    <adjusted_close>23.5242</adjusted_close>
+    <volume>11269100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>28.1900</open>
+    <high>30.0400</high>
+    <low>27.9100</low>
+    <close>29.5600</close>
+    <adjusted_close>24.7465</adjusted_close>
+    <volume>7893100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>29.5600</open>
+    <high>31.1500</high>
+    <low>29.5600</low>
+    <close>31.0900</close>
+    <adjusted_close>26.0273</adjusted_close>
+    <volume>9730200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>31.7100</open>
+    <high>33.7500</high>
+    <low>31.5800</low>
+    <close>33.3400</close>
+    <adjusted_close>27.9109</adjusted_close>
+    <volume>18351600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>33.4000</open>
+    <high>34.4500</high>
+    <low>33.0400</low>
+    <close>34.0800</close>
+    <adjusted_close>28.6889</adjusted_close>
+    <volume>8991200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>34.3100</open>
+    <high>36.5200</high>
+    <low>34.0900</low>
+    <close>35.2900</close>
+    <adjusted_close>29.7075</adjusted_close>
+    <volume>11352200</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>35.1000</open>
+    <high>37.2900</high>
+    <low>33.8500</low>
+    <close>36.0900</close>
+    <adjusted_close>30.3810</adjusted_close>
+    <volume>20936900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>35.9400</open>
+    <high>36.0100</high>
+    <low>32.8600</low>
+    <close>34.7300</close>
+    <adjusted_close>29.4105</adjusted_close>
+    <volume>15582600</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>34.3800</open>
+    <high>35.4400</high>
+    <low>33.7800</low>
+    <close>34.3600</close>
+    <adjusted_close>29.0971</adjusted_close>
+    <volume>12147900</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>34.0000</open>
+    <high>34.0500</high>
+    <low>31.3700</low>
+    <close>31.7600</close>
+    <adjusted_close>26.8954</adjusted_close>
+    <volume>13992200</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>31.8900</open>
+    <high>32.7600</high>
+    <low>29.1100</low>
+    <close>29.2700</close>
+    <adjusted_close>24.7868</adjusted_close>
+    <volume>10029400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>28.8600</open>
+    <high>30.8900</high>
+    <low>28.7700</low>
+    <close>30.6600</close>
+    <adjusted_close>25.9639</adjusted_close>
+    <volume>10811400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>30.8500</open>
+    <high>30.9500</high>
+    <low>29.2000</low>
+    <close>29.6300</close>
+    <adjusted_close>25.0916</adjusted_close>
+    <volume>12236100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>29.1000</open>
+    <high>31.0400</high>
+    <low>28.0000</low>
+    <close>30.0800</close>
+    <adjusted_close>25.6396</adjusted_close>
+    <volume>10456200</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>30.3800</open>
+    <high>30.5700</high>
+    <low>26.0400</low>
+    <close>28.5000</close>
+    <adjusted_close>24.2928</adjusted_close>
+    <volume>22223800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>28.6500</open>
+    <high>29.3200</high>
+    <low>27.5200</low>
+    <close>28.1700</close>
+    <adjusted_close>24.0115</adjusted_close>
+    <volume>16307900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>28.7200</open>
+    <high>28.7800</high>
+    <low>25.3000</low>
+    <close>26.4500</close>
+    <adjusted_close>22.7201</adjusted_close>
+    <volume>18690300</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>26.1100</open>
+    <high>30.1200</high>
+    <low>26.0100</low>
+    <close>30.0700</close>
+    <adjusted_close>25.8297</adjusted_close>
+    <volume>15281400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>29.3400</open>
+    <high>29.7000</high>
+    <low>26.4800</low>
+    <close>28.2700</close>
+    <adjusted_close>24.2835</adjusted_close>
+    <volume>13247200</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>28.4100</open>
+    <high>28.4600</high>
+    <low>26.8100</low>
+    <close>27.1700</close>
+    <adjusted_close>23.5184</adjusted_close>
+    <volume>9268500</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>27.7000</open>
+    <high>28.9800</high>
+    <low>27.5700</low>
+    <close>27.8900</close>
+    <adjusted_close>24.1416</adjusted_close>
+    <volume>8638100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>27.9500</open>
+    <high>28.0200</high>
+    <low>24.4300</low>
+    <close>24.6100</close>
+    <adjusted_close>21.3025</adjusted_close>
+    <volume>15120400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>24.6400</open>
+    <high>26.0900</high>
+    <low>24.6400</low>
+    <close>25.8400</close>
+    <adjusted_close>22.5511</adjusted_close>
+    <volume>11482400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>26.2900</open>
+    <high>26.6000</high>
+    <low>24.7700</low>
+    <close>24.8800</close>
+    <adjusted_close>21.7132</adjusted_close>
+    <volume>10937100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>25.1200</open>
+    <high>25.2300</high>
+    <low>22.8700</low>
+    <close>23.6600</close>
+    <adjusted_close>20.6485</adjusted_close>
+    <volume>15816900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>24.0200</open>
+    <high>27.1400</high>
+    <low>23.9700</low>
+    <close>26.0800</close>
+    <adjusted_close>22.9336</adjusted_close>
+    <volume>16286800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>26.5500</open>
+    <high>27.5300</high>
+    <low>25.1500</low>
+    <close>26.9700</close>
+    <adjusted_close>23.7162</adjusted_close>
+    <volume>16926100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>27.3400</open>
+    <high>29.4400</high>
+    <low>27.3300</low>
+    <close>28.1200</close>
+    <adjusted_close>24.7275</adjusted_close>
+    <volume>12442600</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>28.2300</open>
+    <high>29.3900</high>
+    <low>27.8600</low>
+    <close>28.3100</close>
+    <adjusted_close>25.0689</adjusted_close>
+    <volume>9814400</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>28.6000</open>
+    <high>28.6500</high>
+    <low>25.5200</low>
+    <close>25.6000</close>
+    <adjusted_close>22.6691</adjusted_close>
+    <volume>10221700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>25.8600</open>
+    <high>27.3800</high>
+    <low>25.0600</low>
+    <close>25.6600</close>
+    <adjusted_close>22.7223</adjusted_close>
+    <volume>13175400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>25.5500</open>
+    <high>26.2700</high>
+    <low>19.3800</low>
+    <close>22.4600</close>
+    <adjusted_close>20.0666</adjusted_close>
+    <volume>31533600</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>21.1900</open>
+    <high>24.4200</high>
+    <low>19.7500</low>
+    <close>24.0500</close>
+    <adjusted_close>21.4872</adjusted_close>
+    <volume>20998600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>22.9200</open>
+    <high>27.0800</high>
+    <low>22.0400</low>
+    <close>26.0500</close>
+    <adjusted_close>23.2740</adjusted_close>
+    <volume>23644500</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>26.0000</open>
+    <high>28.3800</high>
+    <low>25.2000</low>
+    <close>25.5600</close>
+    <adjusted_close>22.9060</adjusted_close>
+    <volume>17587100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>25.1800</open>
+    <high>26.6300</high>
+    <low>24.1500</low>
+    <close>24.3500</close>
+    <adjusted_close>21.8217</adjusted_close>
+    <volume>13222800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>24.6200</open>
+    <high>26.1700</high>
+    <low>24.1400</low>
+    <close>25.5800</close>
+    <adjusted_close>22.9240</adjusted_close>
+    <volume>14964700</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>25.4100</open>
+    <high>26.1100</high>
+    <low>23.1000</low>
+    <close>23.7000</close>
+    <adjusted_close>21.3760</adjusted_close>
+    <volume>14906400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>23.6400</open>
+    <high>24.9500</high>
+    <low>23.2300</low>
+    <close>23.6200</close>
+    <adjusted_close>21.3038</adjusted_close>
+    <volume>10863000</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>24.2600</open>
+    <high>29.8000</high>
+    <low>24.1700</low>
+    <close>27.7200</close>
+    <adjusted_close>25.0018</adjusted_close>
+    <volume>14575300</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>27.8800</open>
+    <high>30.2100</high>
+    <low>27.8600</low>
+    <close>28.2500</close>
+    <adjusted_close>25.6514</adjusted_close>
+    <volume>12919100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>28.0000</open>
+    <high>28.5300</high>
+    <low>26.3300</low>
+    <close>26.4800</close>
+    <adjusted_close>24.0442</adjusted_close>
+    <volume>14143700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>26.6100</open>
+    <high>29.9900</high>
+    <low>26.4000</low>
+    <close>27.6700</close>
+    <adjusted_close>25.1248</adjusted_close>
+    <volume>18544100</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>28.3000</open>
+    <high>31.9200</high>
+    <low>28.1900</low>
+    <close>30.2000</close>
+    <adjusted_close>27.7778</adjusted_close>
+    <volume>21133900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>30.1400</open>
+    <high>30.9200</high>
+    <low>29.1400</low>
+    <close>29.8200</close>
+    <adjusted_close>27.4283</adjusted_close>
+    <volume>19911700</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>30.0200</open>
+    <high>31.5300</high>
+    <low>29.4600</low>
+    <close>31.2600</close>
+    <adjusted_close>28.7528</adjusted_close>
+    <volume>21143700</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>30.9000</open>
+    <high>33.3200</high>
+    <low>30.9000</low>
+    <close>32.1800</close>
+    <adjusted_close>29.5990</adjusted_close>
+    <volume>16281600</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>32.1800</open>
+    <high>32.6900</high>
+    <low>30.7800</low>
+    <close>32.1000</close>
+    <adjusted_close>29.5254</adjusted_close>
+    <volume>11262500</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>32.5000</open>
+    <high>33.4200</high>
+    <low>29.3500</low>
+    <close>30.2600</close>
+    <adjusted_close>27.8330</adjusted_close>
+    <volume>13463800</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>30.4400</open>
+    <high>31.8400</high>
+    <low>29.9900</low>
+    <close>30.6700</close>
+    <adjusted_close>28.5641</adjusted_close>
+    <volume>14303200</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>30.7500</open>
+    <high>30.9700</high>
+    <low>29.1800</low>
+    <close>29.5800</close>
+    <adjusted_close>27.5489</adjusted_close>
+    <volume>16893200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>30.0800</open>
+    <high>30.7700</high>
+    <low>27.1100</low>
+    <close>27.3700</close>
+    <adjusted_close>25.4907</adjusted_close>
+    <volume>23737800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>28.1900</open>
+    <high>28.9600</high>
+    <low>27.1200</low>
+    <close>28.4500</close>
+    <adjusted_close>26.4965</adjusted_close>
+    <volume>19008500</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>28.6200</open>
+    <high>31.1200</high>
+    <low>28.5000</low>
+    <close>29.5500</close>
+    <adjusted_close>27.5210</adjusted_close>
+    <volume>24637900</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>28.9100</open>
+    <high>32.1500</high>
+    <low>28.8500</low>
+    <close>30.5600</close>
+    <adjusted_close>28.4617</adjusted_close>
+    <volume>22804400</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>30.4200</open>
+    <high>30.4900</high>
+    <low>26.1600</low>
+    <close>28.2600</close>
+    <adjusted_close>26.7908</adjusted_close>
+    <volume>26778800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>28.2500</open>
+    <high>28.5000</high>
+    <low>25.5700</low>
+    <close>26.2500</close>
+    <adjusted_close>24.8853</adjusted_close>
+    <volume>24048400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>26.2300</open>
+    <high>27.1300</high>
+    <low>24.3700</low>
+    <close>24.9000</close>
+    <adjusted_close>23.6055</adjusted_close>
+    <volume>28796000</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>25.7500</open>
+    <high>25.8400</high>
+    <low>23.8500</low>
+    <close>24.1500</close>
+    <adjusted_close>22.8945</adjusted_close>
+    <volume>27615000</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>23.7500</open>
+    <high>25.8800</high>
+    <low>23.2100</low>
+    <close>25.7200</close>
+    <adjusted_close>24.3828</adjusted_close>
+    <volume>24570100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>25.9600</open>
+    <high>27.4000</high>
+    <low>24.9100</low>
+    <close>26.5200</close>
+    <adjusted_close>25.1413</adjusted_close>
+    <volume>23118500</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>26.2600</open>
+    <high>26.6200</high>
+    <low>21.5300</low>
+    <close>21.5900</close>
+    <adjusted_close>20.8724</adjusted_close>
+    <volume>26326900</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>22.1700</open>
+    <high>22.9600</high>
+    <low>21.4400</low>
+    <close>22.8200</close>
+    <adjusted_close>22.0615</adjusted_close>
+    <volume>28512100</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>23.1000</open>
+    <high>24.5300</high>
+    <low>22.2000</low>
+    <close>24.5000</close>
+    <adjusted_close>23.6857</adjusted_close>
+    <volume>20631500</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>24.5000</open>
+    <high>24.7400</high>
+    <low>22.3500</low>
+    <close>22.8600</close>
+    <adjusted_close>22.1002</adjusted_close>
+    <volume>23541200</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>23.0900</open>
+    <high>24.8200</high>
+    <low>22.9600</low>
+    <close>24.8200</close>
+    <adjusted_close>23.9950</adjusted_close>
+    <volume>22864700</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>24.9500</open>
+    <high>26.3600</high>
+    <low>24.3300</low>
+    <close>25.9700</close>
+    <adjusted_close>25.1068</adjusted_close>
+    <volume>20177800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>26.2800</open>
+    <high>26.8300</high>
+    <low>24.6000</low>
+    <close>26.4900</close>
+    <adjusted_close>26.0426</adjusted_close>
+    <volume>24196600</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>26.6700</open>
+    <high>27.0800</high>
+    <low>25.7500</low>
+    <close>26.5800</close>
+    <adjusted_close>26.1311</adjusted_close>
+    <volume>17875700</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>26.6000</open>
+    <high>29.1200</high>
+    <low>25.9300</low>
+    <close>28.4100</close>
+    <adjusted_close>27.9301</adjusted_close>
+    <volume>23425400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>28.5900</open>
+    <high>32.6200</high>
+    <low>28.4900</low>
+    <close>30.3100</close>
+    <adjusted_close>29.7980</adjusted_close>
+    <volume>28873700</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>30.7300</open>
+    <high>31.9300</high>
+    <low>29.6600</low>
+    <close>31.9200</close>
+    <adjusted_close>31.3809</adjusted_close>
+    <volume>17820000</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>31.9600</open>
+    <high>32.5700</high>
+    <low>30.1300</low>
+    <close>32.3300</close>
+    <adjusted_close>31.7839</adjusted_close>
+    <volume>20063600</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>32.5600</open>
+    <high>36.8200</high>
+    <low>32.2300</low>
+    <close>33.6400</close>
+    <adjusted_close>33.6400</adjusted_close>
+    <volume>21335300</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>33.5000</open>
+    <high>34.4000</high>
+    <low>30.3400</low>
+    <close>30.7500</close>
+    <adjusted_close>30.7500</adjusted_close>
+    <volume>22656900</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>31.1300</open>
+    <high>32.5700</high>
+    <low>30.5600</low>
+    <close>30.6600</close>
+    <adjusted_close>30.6600</adjusted_close>
+    <volume>25025800</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>30.8800</open>
+    <high>31.1700</high>
+    <low>29.0500</low>
+    <close>30.9100</close>
+    <adjusted_close>30.9100</adjusted_close>
+    <volume>21608000</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>30.6900</open>
+    <high>33.8700</high>
+    <low>30.5700</low>
+    <close>33.4900</close>
+    <adjusted_close>33.4900</adjusted_close>
+    <volume>20822800</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>33.6700</open>
+    <high>36.0300</high>
+    <low>33.2800</low>
+    <close>35.5900</close>
+    <adjusted_close>35.5900</adjusted_close>
+    <volume>18292100</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>35.8800</open>
+    <high>37.9000</high>
+    <low>34.6000</low>
+    <close>37.2300</close>
+    <adjusted_close>37.2300</adjusted_close>
+    <volume>27195300</volume>
+    <news>HMC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>36.9200</open>
+    <high>37.3400</high>
+    <low>33.3100</low>
+    <close>33.9900</close>
+    <adjusted_close>33.9900</adjusted_close>
+    <volume>20539100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>33.9200</open>
+    <high>34.9900</high>
+    <low>32.6500</low>
+    <close>33.9200</close>
+    <adjusted_close>33.9200</adjusted_close>
+    <volume>18823100</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>33.6400</open>
+    <high>33.7300</high>
+    <low>31.2300</low>
+    <close>32.2400</close>
+    <adjusted_close>32.2400</adjusted_close>
+    <volume>12864400</volume>
+    <news>HMC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>32.9700</open>
+    <high>33.1000</high>
+    <low>30.7100</low>
+    <close>32.3000</close>
+    <adjusted_close>32.3000</adjusted_close>
+    <volume>18816400</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>31.3700</open>
+    <high>33.1400</high>
+    <low>27.6900</low>
+    <close>32.9500</close>
+    <adjusted_close>32.9500</adjusted_close>
+    <volume>20575200</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>32.8600</open>
+    <high>33.7200</high>
+    <low>30.3000</low>
+    <close>31.7300</close>
+    <adjusted_close>31.7300</adjusted_close>
+    <volume>14253100</volume>
+    <news>HMC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>32.0400</open>
+    <high>32.6200</high>
+    <low>30.1600</low>
+    <close>30.3100</close>
+    <adjusted_close>30.3100</adjusted_close>
+    <volume>14058300</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>30.3200</open>
+    <high>30.5600</high>
+    <low>25.5600</low>
+    <close>25.9000</close>
+    <adjusted_close>25.9000</adjusted_close>
+    <volume>24154400</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>25.9500</open>
+    <high>29.1000</high>
+    <low>23.4100</low>
+    <close>28.5500</close>
+    <adjusted_close>28.5500</adjusted_close>
+    <volume>45307300</volume>
+    <news>HMC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</honda_stock_data>

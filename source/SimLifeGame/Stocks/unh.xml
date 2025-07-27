@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<unitedhealth_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>6.6406</open>
+    <high>7.8516</high>
+    <low>6.5312</low>
+    <close>6.6250</close>
+    <adjusted_close>5.2045</adjusted_close>
+    <volume>181327200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>6.6875</open>
+    <high>8.0859</high>
+    <low>6.3125</low>
+    <close>6.3906</close>
+    <adjusted_close>5.0203</adjusted_close>
+    <volume>221531200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>6.3906</open>
+    <high>7.4609</high>
+    <low>5.7969</low>
+    <close>7.4531</close>
+    <adjusted_close>5.8582</adjusted_close>
+    <volume>158871200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>7.4219</open>
+    <high>8.7188</high>
+    <low>7.2188</low>
+    <close>8.3359</close>
+    <adjusted_close>6.5521</adjusted_close>
+    <volume>142981600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>8.2578</open>
+    <high>9.9062</high>
+    <low>7.5312</low>
+    <close>9.3203</close>
+    <adjusted_close>7.3258</adjusted_close>
+    <volume>250012000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>9.3047</open>
+    <high>11.1250</high>
+    <low>9.0625</low>
+    <close>10.7188</close>
+    <adjusted_close>8.4250</adjusted_close>
+    <volume>194465600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>10.6797</open>
+    <high>11.4922</high>
+    <low>9.7656</low>
+    <close>10.2266</close>
+    <adjusted_close>8.0381</adjusted_close>
+    <volume>175766400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>10.1641</open>
+    <high>11.9844</high>
+    <low>10.1641</low>
+    <close>11.8145</close>
+    <adjusted_close>9.2862</adjusted_close>
+    <volume>148653600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>11.8750</open>
+    <high>12.6406</high>
+    <low>11.2109</low>
+    <close>12.3438</close>
+    <adjusted_close>9.7022</adjusted_close>
+    <volume>142048800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>12.3750</open>
+    <high>14.6250</high>
+    <low>12.1562</low>
+    <close>13.6719</close>
+    <adjusted_close>10.7461</adjusted_close>
+    <volume>240513600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>13.6797</open>
+    <high>15.0547</high>
+    <low>13.0312</low>
+    <close>14.6641</close>
+    <adjusted_close>11.5260</adjusted_close>
+    <volume>244269600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>14.6484</open>
+    <high>15.8594</high>
+    <low>14.2266</low>
+    <close>15.3438</close>
+    <adjusted_close>12.0602</adjusted_close>
+    <volume>167978800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>15.3750</open>
+    <high>15.5469</high>
+    <low>12.6250</low>
+    <close>14.1025</close>
+    <adjusted_close>11.0846</adjusted_close>
+    <volume>185183600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>14.2000</open>
+    <high>16.0900</high>
+    <low>13.2425</low>
+    <close>14.8075</close>
+    <adjusted_close>11.6387</adjusted_close>
+    <volume>170886400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>15.0000</open>
+    <high>15.5000</high>
+    <low>12.6375</low>
+    <close>14.8150</close>
+    <adjusted_close>11.6509</adjusted_close>
+    <volume>180980800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>14.8150</open>
+    <high>16.8500</high>
+    <low>14.1250</low>
+    <close>16.3700</close>
+    <adjusted_close>12.8738</adjusted_close>
+    <volume>184212000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>16.1375</open>
+    <high>16.5750</high>
+    <low>13.1250</low>
+    <close>14.3750</close>
+    <adjusted_close>11.3048</adjusted_close>
+    <volume>287207600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>14.3125</open>
+    <high>15.8725</high>
+    <low>13.8750</low>
+    <close>15.4375</close>
+    <adjusted_close>12.1404</adjusted_close>
+    <volume>153806400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>15.4950</open>
+    <high>17.0000</high>
+    <low>15.2500</low>
+    <close>16.8550</close>
+    <adjusted_close>13.2552</adjusted_close>
+    <volume>135149600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>16.5000</open>
+    <high>17.5000</high>
+    <low>15.6875</low>
+    <close>17.0150</close>
+    <adjusted_close>13.3810</adjusted_close>
+    <volume>125608800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>17.0150</open>
+    <high>17.2500</high>
+    <low>14.7000</low>
+    <close>16.6250</close>
+    <adjusted_close>13.0743</adjusted_close>
+    <volume>156604800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>16.6300</open>
+    <high>17.4350</high>
+    <low>16.3775</low>
+    <close>16.4375</close>
+    <adjusted_close>12.9268</adjusted_close>
+    <volume>173462400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>16.6125</open>
+    <high>18.0500</high>
+    <low>15.6050</low>
+    <close>17.8625</close>
+    <adjusted_close>14.0475</adjusted_close>
+    <volume>151762000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>17.6325</open>
+    <high>18.2000</high>
+    <low>16.9525</low>
+    <close>17.6925</close>
+    <adjusted_close>13.9138</adjusted_close>
+    <volume>133357200</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>17.5000</open>
+    <high>18.7000</high>
+    <low>17.1300</low>
+    <close>18.5875</close>
+    <adjusted_close>14.6177</adjusted_close>
+    <volume>137879600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>18.5900</open>
+    <high>18.9375</high>
+    <low>17.9500</low>
+    <close>18.1225</close>
+    <adjusted_close>14.2520</adjusted_close>
+    <volume>114906800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>18.1500</open>
+    <high>19.2000</high>
+    <low>16.9625</low>
+    <close>19.1050</close>
+    <adjusted_close>15.0307</adjusted_close>
+    <volume>148961200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>19.0000</open>
+    <high>22.4200</high>
+    <low>18.7825</low>
+    <close>21.9525</close>
+    <adjusted_close>17.2709</adjusted_close>
+    <volume>199468000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>22.2250</open>
+    <high>22.9350</high>
+    <low>21.3750</low>
+    <close>22.7000</close>
+    <adjusted_close>17.8590</adjusted_close>
+    <volume>164766000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>22.5000</open>
+    <high>24.4725</high>
+    <low>21.9000</low>
+    <close>22.8875</close>
+    <adjusted_close>18.0065</adjusted_close>
+    <volume>212839600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>23.2000</open>
+    <high>24.0750</high>
+    <low>20.3700</low>
+    <close>21.9150</close>
+    <adjusted_close>17.2414</adjusted_close>
+    <volume>304143600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>21.8375</open>
+    <high>23.1875</high>
+    <low>20.5125</low>
+    <close>22.0875</close>
+    <adjusted_close>17.3771</adjusted_close>
+    <volume>164990800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>21.9925</open>
+    <high>23.3525</high>
+    <low>21.0075</low>
+    <close>21.8050</close>
+    <adjusted_close>17.1549</adjusted_close>
+    <volume>156849600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>21.8875</open>
+    <high>25.2500</high>
+    <low>21.8000</low>
+    <close>22.7375</close>
+    <adjusted_close>17.8885</adjusted_close>
+    <volume>254152000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>22.7375</open>
+    <high>24.0250</high>
+    <low>18.7600</low>
+    <close>20.3625</close>
+    <adjusted_close>16.0200</adjusted_close>
+    <volume>337833600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>20.4625</open>
+    <high>21.1800</high>
+    <low>19.0675</low>
+    <close>20.8750</close>
+    <adjusted_close>16.4232</adjusted_close>
+    <volume>196893200</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>20.8775</open>
+    <high>21.9775</high>
+    <low>20.2500</low>
+    <close>21.9750</close>
+    <adjusted_close>17.2886</adjusted_close>
+    <volume>190502400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>21.9775</open>
+    <high>22.1875</high>
+    <low>19.6000</low>
+    <close>20.7250</close>
+    <adjusted_close>16.3052</adjusted_close>
+    <volume>184301200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>20.8250</open>
+    <high>23.1725</high>
+    <low>20.5475</low>
+    <close>22.9175</close>
+    <adjusted_close>18.0362</adjusted_close>
+    <volume>166294800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>22.9175</open>
+    <high>23.7775</high>
+    <low>22.0500</low>
+    <close>23.0325</close>
+    <adjusted_close>18.1267</adjusted_close>
+    <volume>225303200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>23.0325</open>
+    <high>24.5550</high>
+    <low>22.3625</low>
+    <close>23.9850</close>
+    <adjusted_close>18.8763</adjusted_close>
+    <volume>169499200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>24.0175</open>
+    <high>26.3350</high>
+    <low>23.4250</low>
+    <close>25.1250</close>
+    <adjusted_close>19.7735</adjusted_close>
+    <volume>147963600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>25.1250</open>
+    <high>28.1250</high>
+    <low>23.6250</low>
+    <close>26.0450</close>
+    <adjusted_close>20.4975</adjusted_close>
+    <volume>151816600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>26.0500</open>
+    <high>26.7000</high>
+    <low>23.7550</low>
+    <close>24.7150</close>
+    <adjusted_close>19.4508</adjusted_close>
+    <volume>119972400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>24.7500</open>
+    <high>25.4900</high>
+    <low>23.9500</low>
+    <close>25.1600</close>
+    <adjusted_close>19.8010</adjusted_close>
+    <volume>103746800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>25.1600</open>
+    <high>27.8200</high>
+    <low>24.7500</low>
+    <close>25.4400</close>
+    <adjusted_close>20.0214</adjusted_close>
+    <volume>150185600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>25.6500</open>
+    <high>27.4500</high>
+    <low>23.7900</low>
+    <close>26.9500</close>
+    <adjusted_close>21.2098</adjusted_close>
+    <volume>128575800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>27.0250</open>
+    <high>29.3350</high>
+    <low>26.2750</low>
+    <close>29.0900</close>
+    <adjusted_close>22.8940</adjusted_close>
+    <volume>96614000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>29.5250</open>
+    <high>30.5000</high>
+    <low>27.7250</low>
+    <close>30.4400</close>
+    <adjusted_close>23.9564</adjusted_close>
+    <volume>118582000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>30.4050</open>
+    <high>31.1500</high>
+    <low>29.0600</low>
+    <close>31.0000</close>
+    <adjusted_close>24.3971</adjusted_close>
+    <volume>114910800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>31.0000</open>
+    <high>32.2500</high>
+    <low>30.3000</low>
+    <close>32.2200</close>
+    <adjusted_close>25.3693</adjusted_close>
+    <volume>113328600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>32.1750</open>
+    <high>34.2500</high>
+    <low>30.5000</low>
+    <close>30.7400</close>
+    <adjusted_close>24.2040</adjusted_close>
+    <volume>157399800</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>30.7500</open>
+    <high>32.6600</high>
+    <low>29.3050</low>
+    <close>32.6250</close>
+    <adjusted_close>25.6882</adjusted_close>
+    <volume>141764400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>32.7500</open>
+    <high>33.0000</high>
+    <low>30.1500</low>
+    <close>31.1250</close>
+    <adjusted_close>24.5071</adjusted_close>
+    <volume>116741200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>30.6500</open>
+    <high>33.0500</high>
+    <low>29.6700</low>
+    <close>31.4500</close>
+    <adjusted_close>24.7630</adjusted_close>
+    <volume>181691400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>31.0550</open>
+    <high>33.0800</high>
+    <low>30.3550</low>
+    <close>33.0650</close>
+    <adjusted_close>26.0346</adjusted_close>
+    <volume>99419800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>32.9900</open>
+    <high>37.3750</high>
+    <low>32.9250</low>
+    <close>36.8700</close>
+    <adjusted_close>29.0306</adjusted_close>
+    <volume>111911000</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>37.0500</open>
+    <high>37.5950</high>
+    <low>32.3050</low>
+    <close>36.2000</close>
+    <adjusted_close>28.5031</adjusted_close>
+    <volume>215193400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>36.1000</open>
+    <high>42.1750</high>
+    <low>35.7900</low>
+    <close>41.4250</close>
+    <adjusted_close>32.6171</adjusted_close>
+    <volume>138783800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>41.0000</open>
+    <high>44.3800</high>
+    <low>39.6300</low>
+    <close>44.0150</close>
+    <adjusted_close>34.6564</adjusted_close>
+    <volume>128600000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>43.6000</open>
+    <high>44.9700</high>
+    <low>42.6250</low>
+    <close>44.4500</close>
+    <adjusted_close>34.9990</adjusted_close>
+    <volume>114778400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>44.4750</open>
+    <high>45.9450</high>
+    <low>43.3250</low>
+    <close>45.5800</close>
+    <adjusted_close>35.8887</adjusted_close>
+    <volume>100686000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>45.3450</open>
+    <high>48.3250</high>
+    <low>44.6000</low>
+    <close>47.6900</close>
+    <adjusted_close>37.5622</adjusted_close>
+    <volume>109183000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>47.8750</open>
+    <high>49.8750</high>
+    <low>44.3000</low>
+    <close>47.2550</close>
+    <adjusted_close>37.2195</adjusted_close>
+    <volume>160957400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>47.0300</open>
+    <high>49.5750</high>
+    <low>46.9050</low>
+    <close>48.5800</close>
+    <adjusted_close>38.2632</adjusted_close>
+    <volume>130097300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>48.7000</open>
+    <high>53.6400</high>
+    <low>48.5100</low>
+    <close>52.1400</close>
+    <adjusted_close>41.0671</adjusted_close>
+    <volume>107510900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>53.0000</open>
+    <high>54.5000</high>
+    <low>47.7500</low>
+    <close>52.3000</close>
+    <adjusted_close>41.1932</adjusted_close>
+    <volume>157451800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>52.3400</open>
+    <high>53.3800</high>
+    <low>50.0900</low>
+    <close>51.5000</close>
+    <adjusted_close>40.5630</adjusted_close>
+    <volume>90521300</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>51.5000</open>
+    <high>56.6600</high>
+    <low>51.5000</low>
+    <close>56.2000</close>
+    <adjusted_close>44.2649</adjusted_close>
+    <volume>111785700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>56.2100</open>
+    <high>58.4000</high>
+    <low>53.8400</low>
+    <close>57.8900</close>
+    <adjusted_close>45.5960</adjusted_close>
+    <volume>118202500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>58.1200</open>
+    <high>61.6500</high>
+    <low>57.1000</low>
+    <close>59.8600</close>
+    <adjusted_close>47.1476</adjusted_close>
+    <volume>119218600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>60.4200</open>
+    <high>64.6100</high>
+    <low>60.3600</low>
+    <close>62.1400</close>
+    <adjusted_close>48.9434</adjusted_close>
+    <volume>115006400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>62.6000</open>
+    <high>62.9300</high>
+    <low>57.1200</low>
+    <close>59.4200</close>
+    <adjusted_close>46.8011</adjusted_close>
+    <volume>156880900</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>59.3000</open>
+    <high>59.8900</high>
+    <low>55.2500</low>
+    <close>58.2300</close>
+    <adjusted_close>45.8638</adjusted_close>
+    <volume>99779000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>58.0500</open>
+    <high>58.4600</high>
+    <low>53.2000</low>
+    <close>55.8600</close>
+    <adjusted_close>44.0207</adjusted_close>
+    <volume>163508300</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>56.6000</open>
+    <high>56.6000</high>
+    <low>46.5600</low>
+    <close>49.7400</close>
+    <adjusted_close>39.1978</adjusted_close>
+    <volume>293812400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>49.3000</open>
+    <high>50.2200</high>
+    <low>41.4400</low>
+    <close>43.9600</close>
+    <adjusted_close>34.6429</adjusted_close>
+    <volume>346572100</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>44.1400</open>
+    <high>47.3700</high>
+    <low>42.9000</low>
+    <close>44.7800</close>
+    <adjusted_close>35.2891</adjusted_close>
+    <volume>146019700</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>44.8500</open>
+    <high>51.9400</high>
+    <low>44.2900</low>
+    <close>47.8300</close>
+    <adjusted_close>37.6926</adjusted_close>
+    <volume>156986800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>47.5000</open>
+    <high>52.0800</high>
+    <low>46.5000</low>
+    <close>51.9500</close>
+    <adjusted_close>40.9394</adjusted_close>
+    <volume>104044700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>51.9500</open>
+    <high>52.8400</high>
+    <low>47.9100</low>
+    <close>49.2000</close>
+    <adjusted_close>38.7722</adjusted_close>
+    <volume>94159600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>49.1100</open>
+    <high>52.6100</high>
+    <low>46.6100</low>
+    <close>48.7800</close>
+    <adjusted_close>38.4413</adjusted_close>
+    <volume>200568400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>49.3400</open>
+    <high>50.0000</high>
+    <low>45.1200</low>
+    <close>49.0800</close>
+    <adjusted_close>38.6777</adjusted_close>
+    <volume>171779800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>49.4400</open>
+    <high>54.4600</high>
+    <low>48.4900</low>
+    <close>53.7300</close>
+    <adjusted_close>42.3421</adjusted_close>
+    <volume>136069000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>54.3200</open>
+    <high>56.2900</high>
+    <low>50.7600</low>
+    <close>52.2600</close>
+    <adjusted_close>41.1837</adjusted_close>
+    <volume>133529600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>52.2700</open>
+    <high>54.9500</high>
+    <low>50.5100</low>
+    <close>52.1800</close>
+    <adjusted_close>41.1207</adjusted_close>
+    <volume>110885100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>52.0600</open>
+    <high>57.1000</high>
+    <low>51.2400</low>
+    <close>52.9700</close>
+    <adjusted_close>41.7661</adjusted_close>
+    <volume>230468300</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>53.4000</open>
+    <high>55.9000</high>
+    <low>51.2500</low>
+    <close>53.0600</close>
+    <adjusted_close>41.8371</adjusted_close>
+    <volume>193938900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>52.9200</open>
+    <high>55.3200</high>
+    <low>52.0000</low>
+    <close>54.7700</close>
+    <adjusted_close>43.1854</adjusted_close>
+    <volume>146371700</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>54.9400</open>
+    <high>55.4700</high>
+    <low>50.7000</low>
+    <close>51.1400</close>
+    <adjusted_close>40.3232</adjusted_close>
+    <volume>133693700</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>51.5900</open>
+    <high>54.1000</high>
+    <low>48.1300</low>
+    <close>48.4300</close>
+    <adjusted_close>38.1864</adjusted_close>
+    <volume>174827500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>48.2400</open>
+    <high>50.4700</high>
+    <low>45.8200</low>
+    <close>50.0100</close>
+    <adjusted_close>39.4322</adjusted_close>
+    <volume>203350500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>50.1100</open>
+    <high>50.7500</high>
+    <low>48.0000</low>
+    <close>48.4300</close>
+    <adjusted_close>38.1864</adjusted_close>
+    <volume>139846900</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>48.8700</open>
+    <high>49.9800</high>
+    <low>46.5900</low>
+    <close>49.1500</close>
+    <adjusted_close>38.7541</adjusted_close>
+    <volume>195434000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>48.8200</open>
+    <high>55.0000</high>
+    <low>48.1200</low>
+    <close>55.0000</close>
+    <adjusted_close>43.3667</adjusted_close>
+    <volume>170775100</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>54.3000</open>
+    <high>59.4600</high>
+    <low>53.9000</low>
+    <close>58.2000</close>
+    <adjusted_close>45.8899</adjusted_close>
+    <volume>146016500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>57.1900</open>
+    <high>57.8600</high>
+    <low>48.1200</low>
+    <close>50.8400</close>
+    <adjusted_close>40.0866</adjusted_close>
+    <volume>191989500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>50.8500</open>
+    <high>51.0300</high>
+    <low>44.0000</low>
+    <close>46.4800</close>
+    <adjusted_close>36.6488</adjusted_close>
+    <volume>156703700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>46.2300</open>
+    <high>47.3700</high>
+    <low>33.5700</low>
+    <close>34.3600</close>
+    <adjusted_close>27.1160</adjusted_close>
+    <volume>293239400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>34.8500</open>
+    <high>38.3300</high>
+    <low>32.5000</low>
+    <close>32.6300</close>
+    <adjusted_close>25.7507</adjusted_close>
+    <volume>226787000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>32.7200</open>
+    <high>35.7700</high>
+    <low>31.4900</low>
+    <close>34.2100</close>
+    <adjusted_close>26.9976</adjusted_close>
+    <volume>257294200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>34.2200</open>
+    <high>34.4200</high>
+    <low>25.5000</low>
+    <close>26.2500</close>
+    <adjusted_close>20.7158</adjusted_close>
+    <volume>309936900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>26.1200</open>
+    <high>28.9700</high>
+    <low>21.2000</low>
+    <close>28.0800</close>
+    <adjusted_close>22.1600</adjusted_close>
+    <volume>357437500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>27.9900</open>
+    <high>33.4900</high>
+    <low>27.4400</low>
+    <close>30.4500</close>
+    <adjusted_close>24.0303</adjusted_close>
+    <volume>174608600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>30.4900</open>
+    <high>31.3900</high>
+    <low>21.0000</low>
+    <close>25.3900</close>
+    <adjusted_close>20.0371</adjusted_close>
+    <volume>203281600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>25.9700</open>
+    <high>25.9900</high>
+    <low>14.5100</low>
+    <close>23.7300</close>
+    <adjusted_close>18.7271</adjusted_close>
+    <volume>305228000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>23.6800</open>
+    <high>24.4900</high>
+    <low>15.1900</low>
+    <close>21.0100</close>
+    <adjusted_close>16.5805</adjusted_close>
+    <volume>196076300</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>21.6700</open>
+    <high>27.3100</high>
+    <low>19.0500</low>
+    <close>26.6000</close>
+    <adjusted_close>20.9920</adjusted_close>
+    <volume>182675600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>26.7000</open>
+    <high>30.2500</high>
+    <low>23.7700</low>
+    <close>28.3300</close>
+    <adjusted_close>22.3573</adjusted_close>
+    <volume>197849000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>28.0000</open>
+    <high>30.2500</high>
+    <low>19.4200</low>
+    <close>19.6500</close>
+    <adjusted_close>15.5073</adjusted_close>
+    <volume>289614500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>19.1900</open>
+    <high>22.8900</high>
+    <low>16.1800</low>
+    <close>20.9300</close>
+    <adjusted_close>16.5416</adjusted_close>
+    <volume>343674000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>20.6100</open>
+    <high>26.1000</high>
+    <low>19.8500</low>
+    <close>23.5200</close>
+    <adjusted_close>18.5885</adjusted_close>
+    <volume>289077700</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>23.5600</open>
+    <high>29.6900</high>
+    <low>22.7400</low>
+    <close>26.6000</close>
+    <adjusted_close>21.0227</adjusted_close>
+    <volume>205106600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>26.9000</open>
+    <high>28.4300</high>
+    <low>23.2300</low>
+    <close>24.9800</close>
+    <adjusted_close>19.7424</adjusted_close>
+    <volume>278463500</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>25.0900</open>
+    <high>29.7100</high>
+    <low>23.6900</low>
+    <close>28.0600</close>
+    <adjusted_close>22.1766</adjusted_close>
+    <volume>234371800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>28.3400</open>
+    <high>30.0000</high>
+    <low>25.4200</low>
+    <close>28.0000</close>
+    <adjusted_close>22.1292</adjusted_close>
+    <volume>193463900</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>27.9400</open>
+    <high>29.8800</high>
+    <low>24.5200</low>
+    <close>25.0400</close>
+    <adjusted_close>19.7898</adjusted_close>
+    <volume>264571800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>24.8900</open>
+    <high>26.8000</high>
+    <low>23.5000</low>
+    <close>25.9500</close>
+    <adjusted_close>20.5090</adjusted_close>
+    <volume>308267500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>26.0200</open>
+    <high>29.7400</high>
+    <low>25.6400</low>
+    <close>28.6700</close>
+    <adjusted_close>22.6587</adjusted_close>
+    <volume>189972900</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>29.0000</open>
+    <high>33.2500</high>
+    <low>27.3000</low>
+    <close>30.4800</close>
+    <adjusted_close>24.0892</adjusted_close>
+    <volume>333531300</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>31.3800</open>
+    <high>36.0700</high>
+    <low>30.9700</low>
+    <close>33.0000</close>
+    <adjusted_close>26.0808</adjusted_close>
+    <volume>278076300</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>33.0300</open>
+    <high>34.3000</high>
+    <low>31.3900</low>
+    <close>33.8600</close>
+    <adjusted_close>26.7605</adjusted_close>
+    <volume>218638400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>34.0000</open>
+    <high>35.1600</high>
+    <low>31.9300</low>
+    <close>32.6700</close>
+    <adjusted_close>25.8200</adjusted_close>
+    <volume>262189500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>32.8000</open>
+    <high>34.0000</high>
+    <low>29.6200</low>
+    <close>30.3100</close>
+    <adjusted_close>23.9769</adjusted_close>
+    <volume>290275300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>30.5000</open>
+    <high>30.7400</high>
+    <low>27.9700</low>
+    <close>29.0700</close>
+    <adjusted_close>22.9960</adjusted_close>
+    <volume>200376300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>29.1800</open>
+    <high>31.8000</high>
+    <low>28.3100</low>
+    <close>28.4000</close>
+    <adjusted_close>22.5602</adjusted_close>
+    <volume>235428300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>28.3100</open>
+    <high>31.7200</high>
+    <low>27.1300</low>
+    <close>30.4500</close>
+    <adjusted_close>24.1887</adjusted_close>
+    <volume>184052600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>30.8900</open>
+    <high>33.7900</high>
+    <low>30.8200</low>
+    <close>31.7200</close>
+    <adjusted_close>25.1976</adjusted_close>
+    <volume>175165600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>32.0100</open>
+    <high>35.9400</high>
+    <low>31.8400</low>
+    <close>35.1100</close>
+    <adjusted_close>27.9933</adjusted_close>
+    <volume>160229900</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>35.0700</open>
+    <high>37.9500</high>
+    <low>33.9400</low>
+    <close>36.0500</close>
+    <adjusted_close>28.7428</adjusted_close>
+    <volume>171901700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>36.2700</open>
+    <high>37.5000</high>
+    <low>34.5000</low>
+    <close>36.5200</close>
+    <adjusted_close>29.1175</adjusted_close>
+    <volume>180833400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>37.1400</open>
+    <high>38.0600</high>
+    <low>34.9400</low>
+    <close>36.1100</close>
+    <adjusted_close>28.8855</adjusted_close>
+    <volume>159579700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>36.3800</open>
+    <high>42.4400</high>
+    <low>36.3700</low>
+    <close>41.0500</close>
+    <adjusted_close>32.8372</adjusted_close>
+    <volume>162433900</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>41.3600</open>
+    <high>44.3300</high>
+    <low>40.9000</low>
+    <close>42.5800</close>
+    <adjusted_close>34.0611</adjusted_close>
+    <volume>125298200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>42.5600</open>
+    <high>45.7500</high>
+    <low>41.4600</low>
+    <close>45.2000</close>
+    <adjusted_close>36.2610</adjusted_close>
+    <volume>121843800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>45.5000</open>
+    <high>49.4000</high>
+    <low>43.3000</low>
+    <close>49.2300</close>
+    <adjusted_close>39.4940</adjusted_close>
+    <volume>136937300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>49.4000</open>
+    <high>51.4600</high>
+    <low>46.9700</low>
+    <close>48.9500</close>
+    <adjusted_close>39.2694</adjusted_close>
+    <volume>158332700</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>48.7000</open>
+    <high>52.6400</high>
+    <low>47.5700</low>
+    <close>51.5800</close>
+    <adjusted_close>41.5163</adjusted_close>
+    <volume>165969400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>51.8400</open>
+    <high>53.5000</high>
+    <low>48.1100</low>
+    <close>49.6300</close>
+    <adjusted_close>39.9467</adjusted_close>
+    <volume>148267000</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>50.2800</open>
+    <high>50.3600</high>
+    <low>41.2700</low>
+    <close>47.5200</close>
+    <adjusted_close>38.2484</adjusted_close>
+    <volume>231912900</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>47.5800</open>
+    <high>51.2400</high>
+    <low>44.0900</low>
+    <close>46.1200</close>
+    <adjusted_close>37.2502</adjusted_close>
+    <volume>178852800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>45.7700</open>
+    <high>50.0000</high>
+    <low>41.3200</low>
+    <close>47.9900</close>
+    <adjusted_close>38.7606</adjusted_close>
+    <volume>181413500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>46.8100</open>
+    <high>48.8800</high>
+    <low>43.4200</low>
+    <close>48.7700</close>
+    <adjusted_close>39.3906</adjusted_close>
+    <volume>144450500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>48.5900</open>
+    <high>51.7100</high>
+    <low>47.6300</low>
+    <close>50.6800</close>
+    <adjusted_close>41.0721</adjusted_close>
+    <volume>132044300</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>51.2400</open>
+    <high>54.1800</high>
+    <low>49.8200</low>
+    <close>51.7900</close>
+    <adjusted_close>41.9716</adjusted_close>
+    <volume>156819300</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>52.1600</open>
+    <high>56.1600</high>
+    <low>50.6800</low>
+    <close>55.7500</close>
+    <adjusted_close>45.1809</adjusted_close>
+    <volume>132436700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>55.7500</open>
+    <high>59.4300</high>
+    <low>53.4000</low>
+    <close>58.9400</close>
+    <adjusted_close>47.9062</adjusted_close>
+    <volume>139862700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>58.9400</open>
+    <high>59.7100</high>
+    <low>55.4800</low>
+    <close>56.1500</close>
+    <adjusted_close>45.6385</adjusted_close>
+    <volume>134294800</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>56.2700</open>
+    <high>57.4200</high>
+    <low>53.7800</low>
+    <close>55.7700</close>
+    <adjusted_close>45.3296</adjusted_close>
+    <volume>115177500</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>55.2200</open>
+    <high>60.7500</high>
+    <low>54.6900</low>
+    <close>58.5000</close>
+    <adjusted_close>47.7243</adjusted_close>
+    <volume>165413900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>58.8900</open>
+    <high>59.3100</high>
+    <low>50.8900</low>
+    <close>51.0900</close>
+    <adjusted_close>41.6792</adjusted_close>
+    <volume>165278500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>51.2100</open>
+    <high>55.0300</high>
+    <low>50.3200</low>
+    <close>54.3000</close>
+    <adjusted_close>44.2980</adjusted_close>
+    <volume>120000500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>54.4000</open>
+    <high>56.7500</high>
+    <low>52.5800</low>
+    <close>55.4100</close>
+    <adjusted_close>45.3866</adjusted_close>
+    <volume>133898300</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>55.7200</open>
+    <high>58.2900</high>
+    <low>55.3400</low>
+    <close>56.0000</close>
+    <adjusted_close>45.8699</adjusted_close>
+    <volume>107598600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>55.8600</open>
+    <high>57.2400</high>
+    <low>51.0900</low>
+    <close>54.3900</close>
+    <adjusted_close>44.5511</adjusted_close>
+    <volume>137959500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>54.5600</open>
+    <high>55.8200</high>
+    <low>53.2800</low>
+    <close>54.2400</close>
+    <adjusted_close>44.6053</adjusted_close>
+    <volume>94058200</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>54.8800</open>
+    <high>56.6900</high>
+    <low>51.3600</low>
+    <close>55.2100</close>
+    <adjusted_close>45.4030</adjusted_close>
+    <volume>161036700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>55.7400</open>
+    <high>58.2600</high>
+    <low>52.5100</low>
+    <close>53.4500</close>
+    <adjusted_close>43.9557</adjusted_close>
+    <volume>120496500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>53.3400</open>
+    <high>57.3100</high>
+    <low>52.8800</low>
+    <close>57.2100</close>
+    <adjusted_close>47.2304</adjusted_close>
+    <volume>109815200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>57.1600</open>
+    <high>63.9500</high>
+    <low>57.0100</low>
+    <close>59.9300</close>
+    <adjusted_close>49.4759</adjusted_close>
+    <volume>157336600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>59.9600</open>
+    <high>64.9000</high>
+    <low>58.8700</low>
+    <close>62.6300</close>
+    <adjusted_close>51.7049</adjusted_close>
+    <volume>119800600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>62.8900</open>
+    <high>66.1900</high>
+    <low>60.9500</low>
+    <close>65.4800</close>
+    <adjusted_close>54.2960</adjusted_close>
+    <volume>103889300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>65.8900</open>
+    <high>73.6600</high>
+    <low>64.6500</low>
+    <close>72.8500</close>
+    <adjusted_close>60.4072</adjusted_close>
+    <volume>116538400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>73.2300</open>
+    <high>73.6700</high>
+    <low>71.0000</low>
+    <close>71.7400</close>
+    <adjusted_close>59.4867</adjusted_close>
+    <volume>70393400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>71.8100</open>
+    <high>75.8800</high>
+    <low>70.4000</low>
+    <close>71.6100</close>
+    <adjusted_close>59.6026</adjusted_close>
+    <volume>88995300</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>71.7400</open>
+    <high>75.4900</high>
+    <low>66.7200</low>
+    <close>68.2600</close>
+    <adjusted_close>56.8143</adjusted_close>
+    <volume>154282100</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>68.2700</open>
+    <high>74.9900</high>
+    <low>67.9500</low>
+    <close>74.4800</close>
+    <adjusted_close>61.9913</adjusted_close>
+    <volume>77403500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>73.6400</open>
+    <high>75.5400</high>
+    <low>70.2000</low>
+    <close>75.3000</close>
+    <adjusted_close>62.9128</adjusted_close>
+    <volume>87821400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>74.9100</open>
+    <high>77.3300</high>
+    <low>70.8400</low>
+    <close>72.2800</close>
+    <adjusted_close>60.3896</adjusted_close>
+    <volume>111391100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>72.1400</open>
+    <high>77.7100</high>
+    <low>69.5700</low>
+    <close>77.2700</close>
+    <adjusted_close>64.5587</adjusted_close>
+    <volume>100618500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>76.7000</open>
+    <high>83.3200</high>
+    <low>75.6500</low>
+    <close>81.9900</close>
+    <adjusted_close>68.7497</adjusted_close>
+    <volume>104454400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>82.3500</open>
+    <high>83.0500</high>
+    <low>73.6100</low>
+    <close>75.0400</close>
+    <adjusted_close>62.9220</adjusted_close>
+    <volume>112712300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>75.0500</open>
+    <high>79.7400</high>
+    <low>74.2600</low>
+    <close>79.6300</close>
+    <adjusted_close>66.7708</adjusted_close>
+    <volume>73562500</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>79.7700</open>
+    <high>82.5400</high>
+    <low>77.5300</low>
+    <close>81.7500</close>
+    <adjusted_close>68.8706</adjusted_close>
+    <volume>75611400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>81.7400</open>
+    <high>87.2400</high>
+    <low>80.5500</low>
+    <close>81.0500</close>
+    <adjusted_close>68.2809</adjusted_close>
+    <volume>87663600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>81.1400</open>
+    <high>87.2300</high>
+    <low>78.7400</low>
+    <close>86.6800</close>
+    <adjusted_close>73.0239</adjusted_close>
+    <volume>69078600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>87.1200</open>
+    <high>88.8500</high>
+    <low>85.5800</low>
+    <close>86.2500</close>
+    <adjusted_close>72.9706</adjusted_close>
+    <volume>67055400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>86.0000</open>
+    <high>95.6700</high>
+    <low>80.7200</low>
+    <close>95.0100</close>
+    <adjusted_close>80.3819</adjusted_close>
+    <volume>108326400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>95.4500</open>
+    <high>99.4200</high>
+    <low>93.0100</low>
+    <close>98.6300</close>
+    <adjusted_close>83.4446</adjusted_close>
+    <volume>68331900</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>98.7500</open>
+    <high>104.0000</high>
+    <low>95.7500</low>
+    <close>101.0900</close>
+    <adjusted_close>85.8483</adjusted_close>
+    <volume>82445400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>101.5000</open>
+    <high>114.3200</high>
+    <low>98.4600</low>
+    <close>106.2500</close>
+    <adjusted_close>90.2303</adjusted_close>
+    <volume>100742400</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>106.7300</open>
+    <high>116.5800</high>
+    <low>105.0700</low>
+    <close>113.6300</close>
+    <adjusted_close>96.4976</adjusted_close>
+    <volume>76172000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>113.6300</open>
+    <high>123.7600</high>
+    <low>111.6500</low>
+    <close>118.2900</close>
+    <adjusted_close>100.7911</adjusted_close>
+    <volume>83244700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>119.5200</open>
+    <high>122.3200</high>
+    <low>111.1200</low>
+    <close>111.4000</close>
+    <adjusted_close>94.9204</adjusted_close>
+    <volume>86883100</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>112.2900</open>
+    <high>121.8500</high>
+    <low>111.7400</low>
+    <close>120.2100</close>
+    <adjusted_close>102.4271</adjusted_close>
+    <volume>72260800</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>120.5400</open>
+    <high>124.1100</high>
+    <low>115.3600</low>
+    <close>122.0000</close>
+    <adjusted_close>104.3926</adjusted_close>
+    <volume>106449200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>122.9500</open>
+    <high>126.0500</high>
+    <low>116.6600</low>
+    <close>121.4000</close>
+    <adjusted_close>103.8791</adjusted_close>
+    <volume>95034600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>121.6100</open>
+    <high>126.2100</high>
+    <low>95.0000</low>
+    <close>115.7000</close>
+    <adjusted_close>99.0018</adjusted_close>
+    <volume>84232500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>113.3600</open>
+    <high>125.1200</high>
+    <low>111.0100</low>
+    <close>116.0100</close>
+    <adjusted_close>99.6964</adjusted_close>
+    <volume>94372800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>115.9400</open>
+    <high>125.9900</high>
+    <low>110.0700</low>
+    <close>117.7800</close>
+    <adjusted_close>101.2175</adjusted_close>
+    <volume>105913800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>118.6400</open>
+    <high>119.9500</high>
+    <low>109.6100</low>
+    <close>112.7100</close>
+    <adjusted_close>96.8605</adjusted_close>
+    <volume>82097600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>113.5300</open>
+    <high>121.0900</high>
+    <low>113.0500</low>
+    <close>117.6400</close>
+    <adjusted_close>101.5339</adjusted_close>
+    <volume>76147300</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>116.9100</open>
+    <high>117.8900</high>
+    <low>107.5100</low>
+    <close>115.1600</close>
+    <adjusted_close>99.3934</adjusted_close>
+    <volume>88345100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>114.8300</open>
+    <high>122.2600</high>
+    <low>108.8300</low>
+    <close>119.1000</close>
+    <adjusted_close>102.7940</adjusted_close>
+    <volume>72337900</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>119.4900</open>
+    <high>131.1000</high>
+    <low>119.3700</low>
+    <close>128.9000</close>
+    <adjusted_close>111.7114</adjusted_close>
+    <volume>70857500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>128.6900</open>
+    <high>135.1100</high>
+    <low>125.2600</low>
+    <close>131.6800</close>
+    <adjusted_close>114.1207</adjusted_close>
+    <volume>71253100</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>132.6100</open>
+    <high>134.7500</high>
+    <low>128.5300</low>
+    <close>133.6700</close>
+    <adjusted_close>115.8454</adjusted_close>
+    <volume>55534400</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>133.5800</open>
+    <high>141.3100</high>
+    <low>133.0200</low>
+    <close>141.2000</close>
+    <adjusted_close>122.9285</adjusted_close>
+    <volume>76424000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>141.1600</open>
+    <high>144.4800</high>
+    <low>139.3200</low>
+    <close>143.2000</close>
+    <adjusted_close>124.6697</adjusted_close>
+    <volume>71163700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>143.4200</open>
+    <high>144.1600</high>
+    <low>135.5500</low>
+    <close>136.0500</close>
+    <adjusted_close>118.4449</adjusted_close>
+    <volume>50523900</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>136.8200</open>
+    <high>141.7800</high>
+    <low>132.3900</low>
+    <close>140.0000</close>
+    <adjusted_close>122.4466</adjusted_close>
+    <volume>67502400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>139.3500</open>
+    <high>146.3600</high>
+    <low>133.0300</low>
+    <close>141.3300</close>
+    <adjusted_close>123.6098</adjusted_close>
+    <volume>82024500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>141.5100</open>
+    <high>159.7600</high>
+    <low>136.2200</low>
+    <close>158.3200</close>
+    <adjusted_close>139.0210</adjusted_close>
+    <volume>96049600</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>159.1200</open>
+    <high>164.0000</high>
+    <low>156.2300</low>
+    <close>160.0400</close>
+    <adjusted_close>140.5313</adjusted_close>
+    <volume>76784500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>161.1300</open>
+    <high>163.8000</high>
+    <low>156.0900</low>
+    <close>162.1000</close>
+    <adjusted_close>142.3402</adjusted_close>
+    <volume>72828900</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>162.7500</open>
+    <high>166.7600</high>
+    <low>156.4900</low>
+    <close>165.3800</close>
+    <adjusted_close>145.2204</adjusted_close>
+    <volume>72701100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>166.7200</open>
+    <high>172.1400</high>
+    <low>162.7400</low>
+    <close>164.0100</close>
+    <adjusted_close>144.5541</adjusted_close>
+    <volume>84728500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>164.6200</open>
+    <high>176.0700</high>
+    <low>164.2500</low>
+    <close>174.8800</close>
+    <adjusted_close>154.1347</adjusted_close>
+    <volume>61871600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>175.0000</open>
+    <high>178.8900</high>
+    <low>166.6500</low>
+    <close>175.1800</close>
+    <adjusted_close>154.3991</adjusted_close>
+    <volume>63390800</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>175.7800</open>
+    <high>188.6600</high>
+    <low>175.1900</low>
+    <close>185.4200</close>
+    <adjusted_close>164.0993</adjusted_close>
+    <volume>65419100</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>186.2900</open>
+    <high>193.0000</high>
+    <low>183.8600</low>
+    <close>191.8100</close>
+    <adjusted_close>169.7545</adjusted_close>
+    <volume>55903600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>193.4000</open>
+    <high>199.4900</high>
+    <low>190.6300</low>
+    <close>198.9000</close>
+    <adjusted_close>176.0292</adjusted_close>
+    <volume>50905300</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>199.7900</open>
+    <high>200.7600</high>
+    <low>188.2500</low>
+    <close>195.8500</close>
+    <adjusted_close>173.9878</adjusted_close>
+    <volume>57668800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>196.5900</open>
+    <high>212.7700</high>
+    <low>186.0000</low>
+    <close>210.2200</close>
+    <adjusted_close>186.7537</adjusted_close>
+    <volume>81206400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>211.6200</open>
+    <high>228.7500</high>
+    <low>208.9200</low>
+    <close>228.1700</close>
+    <adjusted_close>203.3844</adjusted_close>
+    <volume>51055200</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>228.8900</open>
+    <high>231.7700</high>
+    <low>218.1900</low>
+    <close>220.4600</close>
+    <adjusted_close>196.5119</adjusted_close>
+    <volume>55743700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>221.0200</open>
+    <high>250.7900</high>
+    <low>220.0000</low>
+    <close>236.7800</close>
+    <adjusted_close>211.0591</adjusted_close>
+    <volume>82310600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>235.2600</open>
+    <high>237.8200</high>
+    <low>208.4800</low>
+    <close>226.1600</close>
+    <adjusted_close>201.5927</adjusted_close>
+    <volume>80192600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>225.7000</open>
+    <high>231.2700</high>
+    <low>212.5000</low>
+    <close>214.0000</close>
+    <adjusted_close>191.3852</adjusted_close>
+    <volume>79400300</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>218.4600</open>
+    <high>241.6700</high>
+    <low>214.6300</low>
+    <close>236.4000</close>
+    <adjusted_close>211.4180</adjusted_close>
+    <volume>72689800</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>237.0000</open>
+    <high>249.1700</high>
+    <low>228.2300</low>
+    <close>241.5100</close>
+    <adjusted_close>215.9880</adjusted_close>
+    <volume>59234200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>243.7400</open>
+    <high>256.7300</high>
+    <low>241.2900</low>
+    <close>245.3400</close>
+    <adjusted_close>220.1895</adjusted_close>
+    <volume>55299900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>245.0000</open>
+    <high>259.0100</high>
+    <low>244.1200</low>
+    <close>253.2200</close>
+    <adjusted_close>227.2616</adjusted_close>
+    <volume>49156400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>256.1000</open>
+    <high>270.1700</high>
+    <low>252.2300</low>
+    <close>268.4600</close>
+    <adjusted_close>240.9394</adjusted_close>
+    <volume>47631000</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>268.0000</open>
+    <high>271.1600</high>
+    <low>257.4800</low>
+    <close>266.0400</close>
+    <adjusted_close>239.5730</adjusted_close>
+    <volume>53229200</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>267.2500</open>
+    <high>272.8100</high>
+    <low>253.3200</low>
+    <close>261.3500</close>
+    <adjusted_close>235.3496</adjusted_close>
+    <volume>84593100</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>262.9200</open>
+    <high>285.4500</high>
+    <low>258.2800</low>
+    <close>281.3600</close>
+    <adjusted_close>254.1785</adjusted_close>
+    <volume>74853800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>283.0000</open>
+    <high>287.9400</high>
+    <low>231.8100</low>
+    <close>249.1200</close>
+    <adjusted_close>225.0532</adjusted_close>
+    <volume>88902900</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>245.0000</open>
+    <high>272.4400</high>
+    <low>236.1300</low>
+    <close>270.2000</close>
+    <adjusted_close>244.0967</adjusted_close>
+    <volume>82836100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>268.4700</open>
+    <high>272.4900</high>
+    <low>239.1500</low>
+    <close>242.2200</close>
+    <adjusted_close>218.8197</adjusted_close>
+    <volume>77371500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>243.5600</open>
+    <high>259.2500</high>
+    <low>234.5100</low>
+    <close>247.2600</close>
+    <adjusted_close>224.2254</adjusted_close>
+    <volume>101319700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>249.7100</open>
+    <high>250.2000</high>
+    <low>208.0700</low>
+    <close>233.0700</close>
+    <adjusted_close>211.3574</adjusted_close>
+    <volume>173459600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>233.0700</open>
+    <high>251.1800</high>
+    <low>227.1800</low>
+    <close>241.8000</close>
+    <adjusted_close>219.2741</adjusted_close>
+    <volume>101175300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>241.4900</open>
+    <high>253.4900</high>
+    <low>234.8300</low>
+    <close>244.0100</close>
+    <adjusted_close>222.2581</adjusted_close>
+    <volume>72927300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>245.9500</open>
+    <high>268.6900</high>
+    <low>239.5400</low>
+    <close>249.0100</close>
+    <adjusted_close>226.8124</adjusted_close>
+    <volume>82522700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>249.1900</open>
+    <high>251.5800</high>
+    <low>220.7800</low>
+    <close>234.0000</close>
+    <adjusted_close>213.1404</adjusted_close>
+    <volume>76577600</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>231.7400</open>
+    <high>236.5600</high>
+    <low>213.1200</low>
+    <close>217.3200</close>
+    <adjusted_close>198.8808</adjusted_close>
+    <volume>87632100</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>219.1900</open>
+    <high>255.7200</high>
+    <low>212.0800</low>
+    <close>252.7000</close>
+    <adjusted_close>231.2589</adjusted_close>
+    <volume>107377700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>253.9900</open>
+    <high>283.0000</high>
+    <low>249.0900</low>
+    <close>279.8700</close>
+    <adjusted_close>256.1236</adjusted_close>
+    <volume>72368100</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>281.7800</open>
+    <high>300.0000</high>
+    <low>273.8500</low>
+    <close>293.9800</close>
+    <adjusted_close>270.0706</adjusted_close>
+    <volume>60550900</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>293.9800</open>
+    <high>302.5400</high>
+    <low>271.1800</low>
+    <close>272.4500</close>
+    <adjusted_close>250.2917</adjusted_close>
+    <volume>84374200</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>275.1300</open>
+    <high>306.7100</high>
+    <low>245.3000</low>
+    <close>254.9600</close>
+    <adjusted_close>234.2242</adjusted_close>
+    <volume>94529600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>257.3400</open>
+    <high>295.8400</high>
+    <low>187.7200</low>
+    <close>249.3800</close>
+    <adjusted_close>230.0904</adjusted_close>
+    <volume>189875500</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>238.6900</open>
+    <high>304.0000</high>
+    <low>226.0300</low>
+    <close>292.4700</close>
+    <adjusted_close>269.8473</adjusted_close>
+    <volume>104539500</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>288.3900</open>
+    <high>309.6600</high>
+    <low>275.5600</low>
+    <close>304.8500</close>
+    <adjusted_close>281.2697</adjusted_close>
+    <volume>86558300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>304.0200</open>
+    <high>315.8400</high>
+    <low>273.7100</low>
+    <close>294.9500</close>
+    <adjusted_close>273.3076</adjusted_close>
+    <volume>85408300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>295.8300</open>
+    <high>310.9700</high>
+    <low>287.1000</low>
+    <close>302.7800</close>
+    <adjusted_close>280.5630</adjusted_close>
+    <volume>61207300</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>303.5900</open>
+    <high>324.5700</high>
+    <low>299.2000</low>
+    <close>312.5500</close>
+    <adjusted_close>289.6162</adjusted_close>
+    <volume>57175800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>310.1600</open>
+    <high>323.8200</high>
+    <low>289.6400</low>
+    <close>311.7700</close>
+    <adjusted_close>290.0838</adjusted_close>
+    <volume>59489700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>312.9100</open>
+    <high>335.6500</high>
+    <low>299.6000</low>
+    <close>305.1400</close>
+    <adjusted_close>283.9149</adjusted_close>
+    <volume>57916400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>312.6400</open>
+    <high>367.9500</high>
+    <low>307.3600</low>
+    <close>336.3400</close>
+    <adjusted_close>312.9448</adjusted_close>
+    <volume>74427900</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>344.7700</open>
+    <high>354.1000</high>
+    <low>329.4000</low>
+    <close>350.6800</close>
+    <adjusted_close>327.4612</adjusted_close>
+    <volume>63965400</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>351.4500</open>
+    <high>367.4900</high>
+    <low>329.0100</low>
+    <close>333.5800</close>
+    <adjusted_close>311.4934</adjusted_close>
+    <volume>63126000</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>335.0300</open>
+    <high>344.6400</high>
+    <low>320.3500</low>
+    <close>332.2200</close>
+    <adjusted_close>310.2234</adjusted_close>
+    <volume>69067300</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>334.3600</open>
+    <high>380.5000</high>
+    <low>332.6700</low>
+    <close>372.0700</close>
+    <adjusted_close>348.6693</adjusted_close>
+    <volume>79603700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>372.2000</open>
+    <high>402.1600</high>
+    <low>360.5500</low>
+    <close>398.8000</close>
+    <adjusted_close>373.7181</adjusted_close>
+    <volume>56370900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>401.0000</open>
+    <high>425.9800</high>
+    <low>400.5300</low>
+    <close>411.9200</close>
+    <adjusted_close>386.0129</adjusted_close>
+    <volume>50540600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>413.7300</open>
+    <high>413.7300</high>
+    <low>387.2500</low>
+    <close>400.4400</close>
+    <adjusted_close>376.6294</adjusted_close>
+    <volume>82579900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>402.0300</open>
+    <high>422.5300</high>
+    <low>401.8100</low>
+    <close>412.2200</close>
+    <adjusted_close>387.7089</adjusted_close>
+    <volume>51586100</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>413.5700</open>
+    <high>431.3600</high>
+    <low>404.3000</low>
+    <close>416.2700</close>
+    <adjusted_close>391.5180</adjusted_close>
+    <volume>47566300</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>416.5400</open>
+    <high>424.4000</high>
+    <low>390.4600</low>
+    <close>390.7400</close>
+    <adjusted_close>368.7961</adjusted_close>
+    <volume>59612800</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>391.6000</open>
+    <high>461.3900</high>
+    <low>383.1200</low>
+    <close>460.4700</close>
+    <adjusted_close>434.6101</adjusted_close>
+    <volume>60241500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>461.8200</open>
+    <high>466.0000</high>
+    <low>436.0000</low>
+    <close>444.2200</close>
+    <adjusted_close>419.2726</adjusted_close>
+    <volume>61100800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>452.8900</open>
+    <high>509.2300</high>
+    <low>439.2200</low>
+    <close>502.1400</close>
+    <adjusted_close>475.4857</adjusted_close>
+    <volume>64926200</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>500.0000</open>
+    <high>503.7500</high>
+    <low>447.2700</low>
+    <close>472.5700</close>
+    <adjusted_close>447.4853</adjusted_close>
+    <volume>80739800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>475.0000</open>
+    <high>500.9300</high>
+    <low>445.7400</low>
+    <close>475.8700</close>
+    <adjusted_close>450.6102</adjusted_close>
+    <volume>58656100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>470.8900</open>
+    <high>521.8900</high>
+    <low>467.7300</low>
+    <close>509.9700</close>
+    <adjusted_close>484.3290</adjusted_close>
+    <volume>73714100</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>510.6800</open>
+    <high>553.2900</high>
+    <low>504.5300</low>
+    <close>508.5500</close>
+    <adjusted_close>482.9804</adjusted_close>
+    <volume>61462000</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>510.8100</open>
+    <high>513.5100</high>
+    <low>463.3300</low>
+    <close>496.7800</close>
+    <adjusted_close>471.8022</adjusted_close>
+    <volume>68003600</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>498.3200</open>
+    <high>518.7000</high>
+    <low>449.7000</low>
+    <close>513.6300</close>
+    <adjusted_close>489.5446</adjusted_close>
+    <volume>84913200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>512.3200</open>
+    <high>544.3400</high>
+    <low>492.2500</low>
+    <close>542.3400</close>
+    <adjusted_close>516.9083</adjusted_close>
+    <volume>58410400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>542.2700</open>
+    <high>553.1300</high>
+    <low>519.1600</low>
+    <close>519.3300</close>
+    <adjusted_close>494.9773</adjusted_close>
+    <volume>46357000</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>519.3300</open>
+    <high>535.0200</high>
+    <low>499.0000</low>
+    <close>505.0400</close>
+    <adjusted_close>482.8678</adjusted_close>
+    <volume>54740000</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>507.0800</open>
+    <high>558.1000</high>
+    <low>487.7400</low>
+    <close>555.1500</close>
+    <adjusted_close>530.7780</adjusted_close>
+    <volume>59743500</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>555.0000</open>
+    <high>555.6900</high>
+    <low>500.7700</low>
+    <close>547.7600</close>
+    <adjusted_close>523.7123</adjusted_close>
+    <volume>77563700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>552.3600</open>
+    <high>553.0000</high>
+    <low>515.7200</low>
+    <close>530.1800</close>
+    <adjusted_close>508.4668</adjusted_close>
+    <volume>53391900</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>525.1300</open>
+    <high>525.6300</high>
+    <low>474.7500</low>
+    <close>499.1900</close>
+    <adjusted_close>478.7459</adjusted_close>
+    <volume>81009900</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>499.9500</open>
+    <high>504.3800</high>
+    <low>463.8900</low>
+    <close>475.9400</close>
+    <adjusted_close>456.4481</adjusted_close>
+    <volume>69806800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>473.6100</open>
+    <high>486.2900</high>
+    <low>457.5900</low>
+    <close>472.5900</close>
+    <adjusted_close>454.8496</adjusted_close>
+    <volume>72714700</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>485.2000</open>
+    <high>530.4500</high>
+    <low>478.3600</low>
+    <close>492.0900</close>
+    <adjusted_close>473.6176</adjusted_close>
+    <volume>66301900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>494.5900</open>
+    <high>500.8500</high>
+    <low>472.5400</low>
+    <close>487.2400</close>
+    <adjusted_close>468.9496</adjusted_close>
+    <volume>53963700</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>487.7900</open>
+    <high>502.9000</high>
+    <low>445.6800</low>
+    <close>480.6400</close>
+    <adjusted_close>464.4964</adjusted_close>
+    <volume>92429200</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>478.1000</open>
+    <high>515.8600</high>
+    <low>447.1800</low>
+    <close>506.3700</close>
+    <adjusted_close>489.3622</adjusted_close>
+    <volume>89695700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>507.5000</open>
+    <high>513.6500</high>
+    <low>476.2900</low>
+    <close>476.5800</close>
+    <adjusted_close>460.5727</adjusted_close>
+    <volume>52516400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>479.0000</open>
+    <high>514.1500</high>
+    <low>472.1200</low>
+    <close>504.1900</close>
+    <adjusted_close>489.1523</adjusted_close>
+    <volume>60028500</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>505.5300</open>
+    <high>546.7800</high>
+    <low>503.1400</low>
+    <close>535.5600</close>
+    <adjusted_close>519.5867</adjusted_close>
+    <volume>62296800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>529.9800</open>
+    <high>553.9400</high>
+    <low>526.8000</low>
+    <close>552.9700</close>
+    <adjusted_close>536.4773</adjusted_close>
+    <volume>55879800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>550.4200</open>
+    <high>554.7000</high>
+    <low>515.8700</low>
+    <close>526.4700</close>
+    <adjusted_close>512.5102</adjusted_close>
+    <volume>61591700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>526.8400</open>
+    <high>549.0000</high>
+    <low>479.0000</low>
+    <close>511.7400</close>
+    <adjusted_close>498.1707</adjusted_close>
+    <volume>97043800</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>508.8300</open>
+    <high>532.8100</high>
+    <low>484.3900</low>
+    <close>493.6000</close>
+    <adjusted_close>480.5117</adjusted_close>
+    <volume>70448600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>489.4200</open>
+    <high>496.2000</high>
+    <low>468.1900</low>
+    <close>494.7000</close>
+    <adjusted_close>483.4810</adjusted_close>
+    <volume>82472600</volume>
+    <news>UNH Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>494.4700</open>
+    <high>507.3000</high>
+    <low>436.3800</low>
+    <close>483.7000</close>
+    <adjusted_close>472.7305</adjusted_close>
+    <volume>120759500</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>479.2600</open>
+    <high>528.1600</high>
+    <low>473.2700</low>
+    <close>495.3700</close>
+    <adjusted_close>484.1358</adjusted_close>
+    <volume>72643900</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>494.1300</open>
+    <high>509.4000</high>
+    <low>478.1100</low>
+    <close>509.2600</close>
+    <adjusted_close>499.8223</adjusted_close>
+    <volume>89056300</volume>
+    <news>UNH Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>506.7500</open>
+    <high>581.5000</high>
+    <low>484.5000</low>
+    <close>576.1600</close>
+    <adjusted_close>565.4824</adjusted_close>
+    <volume>95463400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>577.2000</open>
+    <high>593.2600</high>
+    <low>557.0300</low>
+    <close>590.2000</close>
+    <adjusted_close>579.2623</adjusted_close>
+    <volume>60428700</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>592.5200</open>
+    <high>607.9400</high>
+    <low>566.0000</low>
+    <close>584.6800</close>
+    <adjusted_close>575.8793</adjusted_close>
+    <volume>60936400</volume>
+    <news>UNH Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>585.0000</open>
+    <high>608.6300</high>
+    <low>543.0000</low>
+    <close>564.5000</close>
+    <adjusted_close>556.0031</adjusted_close>
+    <volume>74141000</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>565.1200</open>
+    <high>630.7300</high>
+    <low>554.4000</low>
+    <close>610.2000</close>
+    <adjusted_close>601.0153</adjusted_close>
+    <volume>67004700</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>614.0000</open>
+    <high>622.8300</high>
+    <low>475.8200</low>
+    <close>505.8600</close>
+    <adjusted_close>500.1568</adjusted_close>
+    <volume>143931800</volume>
+    <news>UNH Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</unitedhealth_stock_data>

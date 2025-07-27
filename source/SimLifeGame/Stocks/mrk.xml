@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<merck_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>65.4819</open>
+    <high>75.3817</high>
+    <low>61.7844</low>
+    <close>75.0239</close>
+    <adjusted_close>29.8556</adjusted_close>
+    <volume>133540246</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>73.8311</open>
+    <high>74.7853</high>
+    <low>56.4766</low>
+    <close>58.7428</close>
+    <adjusted_close>23.3766</adjusted_close>
+    <volume>139516887</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>58.6832</open>
+    <high>62.9175</high>
+    <low>49.6183</low>
+    <close>59.2796</close>
+    <adjusted_close>23.7019</adjusted_close>
+    <volume>195283064</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>59.5181</open>
+    <high>69.4776</high>
+    <low>59.0410</low>
+    <close>66.3168</close>
+    <adjusted_close>26.5156</adjusted_close>
+    <volume>126573458</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>66.3168</open>
+    <high>71.9227</high>
+    <low>63.6927</low>
+    <close>71.2071</close>
+    <adjusted_close>28.5814</adjusted_close>
+    <volume>99492821</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>70.6703</open>
+    <high>73.2198</high>
+    <low>65.5415</low>
+    <close>73.1155</close>
+    <adjusted_close>29.3474</adjusted_close>
+    <volume>102618376</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>72.5787</open>
+    <high>73.8311</high>
+    <low>60.1145</low>
+    <close>68.3743</close>
+    <adjusted_close>27.4444</adjusted_close>
+    <volume>129540345</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>67.8674</open>
+    <high>71.9823</high>
+    <low>66.6746</low>
+    <close>66.6895</close>
+    <adjusted_close>26.8966</adjusted_close>
+    <volume>83428871</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>65.8993</open>
+    <high>71.4456</high>
+    <low>62.0229</low>
+    <close>71.0282</close>
+    <adjusted_close>28.6464</adjusted_close>
+    <volume>88991757</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>70.9089</open>
+    <high>85.8779</high>
+    <low>69.5372</low>
+    <close>85.8182</close>
+    <adjusted_close>34.6114</adjusted_close>
+    <volume>150364839</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>85.8779</open>
+    <high>92.2591</high>
+    <low>82.3593</low>
+    <close>88.4423</close>
+    <adjusted_close>35.6697</adjusted_close>
+    <volume>153782367</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>87.3092</open>
+    <high>91.5434</high>
+    <low>84.0887</low>
+    <close>89.3368</close>
+    <adjusted_close>36.1671</adjusted_close>
+    <volume>124080159</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>89.0983</open>
+    <high>90.8874</high>
+    <low>74.9642</low>
+    <close>78.4160</close>
+    <adjusted_close>31.7459</adjusted_close>
+    <volume>152510409</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>78.9599</open>
+    <high>81.6317</high>
+    <low>72.9008</low>
+    <close>76.5267</close>
+    <adjusted_close>30.9811</adjusted_close>
+    <volume>102871680</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>76.8130</open>
+    <high>77.3187</high>
+    <low>62.9771</low>
+    <close>72.4237</close>
+    <adjusted_close>29.4493</adjusted_close>
+    <volume>137992781</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>71.9466</open>
+    <high>77.1469</high>
+    <low>68.7023</low>
+    <close>72.4905</close>
+    <adjusted_close>29.4764</adjusted_close>
+    <volume>117901150</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>71.7080</open>
+    <high>75.5343</high>
+    <low>68.4733</low>
+    <close>69.6469</close>
+    <adjusted_close>28.4522</adjusted_close>
+    <volume>104959298</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>68.7023</open>
+    <high>72.3760</high>
+    <low>60.7347</low>
+    <close>60.9828</close>
+    <adjusted_close>24.9127</adjusted_close>
+    <volume>128002930</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>61.1164</open>
+    <high>65.8397</high>
+    <low>57.5859</low>
+    <close>64.8664</close>
+    <adjusted_close>26.4993</adjusted_close>
+    <volume>144199039</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>64.4179</open>
+    <high>68.2252</high>
+    <low>61.7939</low>
+    <close>62.1183</close>
+    <adjusted_close>25.5096</adjusted_close>
+    <volume>103959294</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>62.2137</open>
+    <high>66.0687</high>
+    <low>58.0630</low>
+    <close>63.5496</close>
+    <adjusted_close>26.0973</adjusted_close>
+    <volume>123527236</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>63.7882</open>
+    <high>67.3664</high>
+    <low>60.8779</low>
+    <close>60.8874</close>
+    <adjusted_close>25.0041</adjusted_close>
+    <volume>115977130</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>60.8874</open>
+    <high>65.0095</high>
+    <low>60.5153</low>
+    <close>64.6469</close>
+    <adjusted_close>26.5480</adjusted_close>
+    <volume>105494825</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>64.0744</open>
+    <high>65.4294</high>
+    <low>54.1985</low>
+    <close>56.1069</close>
+    <adjusted_close>23.1608</adjusted_close>
+    <volume>185340793</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>56.4408</open>
+    <high>57.1374</high>
+    <low>54.1126</low>
+    <close>56.4695</close>
+    <adjusted_close>23.3105</adjusted_close>
+    <volume>144305618</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>56.3168</open>
+    <high>59.6183</high>
+    <low>55.0573</low>
+    <close>58.5210</close>
+    <adjusted_close>24.1573</adjusted_close>
+    <volume>107589356</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>58.5496</open>
+    <high>61.5458</high>
+    <low>54.3702</low>
+    <close>54.9427</close>
+    <adjusted_close>22.8094</adjusted_close>
+    <volume>149346706</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>54.9905</open>
+    <high>55.1527</high>
+    <low>48.6641</low>
+    <close>51.8511</close>
+    <adjusted_close>21.5259</adjusted_close>
+    <volume>191963837</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>51.5744</open>
+    <high>56.1546</high>
+    <low>51.5363</low>
+    <close>54.4847</close>
+    <adjusted_close>22.6192</adjusted_close>
+    <volume>124708121</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>54.4370</open>
+    <high>54.5706</high>
+    <low>45.4198</low>
+    <close>48.3206</close>
+    <adjusted_close>20.1895</adjusted_close>
+    <volume>156146132</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>48.5592</open>
+    <high>48.7500</high>
+    <low>36.7366</low>
+    <close>47.3282</close>
+    <adjusted_close>19.7749</adjusted_close>
+    <volume>255476515</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>47.0992</open>
+    <high>51.5267</high>
+    <low>43.2729</low>
+    <close>48.2061</close>
+    <adjusted_close>20.1417</adjusted_close>
+    <volume>126515712</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>47.1851</open>
+    <high>48.0248</high>
+    <low>42.4046</low>
+    <close>43.6164</close>
+    <adjusted_close>18.3621</adjusted_close>
+    <volume>121154460</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>44.1794</open>
+    <high>52.7099</high>
+    <low>41.3645</low>
+    <close>51.7557</close>
+    <adjusted_close>21.7887</adjusted_close>
+    <volume>183649948</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>51.0496</open>
+    <high>57.7099</high>
+    <low>49.4275</low>
+    <close>56.6889</close>
+    <adjusted_close>23.8655</adjusted_close>
+    <volume>163578128</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>57.6813</open>
+    <high>57.6813</high>
+    <low>52.6336</low>
+    <close>54.0172</close>
+    <adjusted_close>22.8807</adjusted_close>
+    <volume>144109852</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>54.9427</open>
+    <high>57.4809</high>
+    <low>49.1412</low>
+    <close>52.8531</close>
+    <adjusted_close>22.3876</adjusted_close>
+    <volume>132743662</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>52.8626</open>
+    <high>53.7309</high>
+    <low>49.2366</low>
+    <close>50.3340</close>
+    <adjusted_close>21.3206</adjusted_close>
+    <volume>99788150</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>50.9065</open>
+    <high>54.2462</high>
+    <low>47.6145</low>
+    <close>52.2710</close>
+    <adjusted_close>22.2966</adjusted_close>
+    <volume>127317225</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>52.5763</open>
+    <high>56.8225</high>
+    <low>52.1469</low>
+    <close>55.5153</close>
+    <adjusted_close>23.6805</adjusted_close>
+    <volume>134546852</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>55.5153</open>
+    <high>57.1374</high>
+    <low>51.6221</low>
+    <close>53.0344</close>
+    <adjusted_close>22.6222</adjusted_close>
+    <volume>139936926</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>53.2443</open>
+    <high>60.5916</high>
+    <low>53.0821</low>
+    <close>57.7767</close>
+    <adjusted_close>24.8037</adjusted_close>
+    <volume>144980529</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>57.7290</open>
+    <high>59.8187</high>
+    <low>52.5095</low>
+    <close>52.7481</close>
+    <adjusted_close>22.6449</adjusted_close>
+    <volume>143907379</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>52.4905</open>
+    <high>53.4828</high>
+    <low>47.2137</low>
+    <close>48.0153</close>
+    <adjusted_close>21.7791</adjusted_close>
+    <volume>143204483</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>47.8531</open>
+    <high>51.8130</high>
+    <low>47.8149</low>
+    <close>48.3015</close>
+    <adjusted_close>22.0688</adjusted_close>
+    <volume>133678268</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>48.4351</open>
+    <high>49.5706</high>
+    <low>41.8702</low>
+    <close>42.2233</close>
+    <adjusted_close>19.2917</adjusted_close>
+    <volume>213539642</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>42.2233</open>
+    <high>44.9905</high>
+    <low>38.7118</low>
+    <close>38.7405</close>
+    <adjusted_close>17.7004</adjusted_close>
+    <volume>254947591</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>39.3607</open>
+    <high>44.1794</high>
+    <low>39.2844</low>
+    <close>44.0840</close>
+    <adjusted_close>20.3187</adjusted_close>
+    <volume>202494872</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>46.6412</open>
+    <high>46.6412</high>
+    <low>43.4160</low>
+    <close>45.4198</close>
+    <adjusted_close>20.9344</adjusted_close>
+    <volume>185838171</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>45.6870</open>
+    <high>47.0706</high>
+    <low>45.1908</low>
+    <close>45.8779</close>
+    <adjusted_close>21.1455</adjusted_close>
+    <volume>136783913</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>46.2023</open>
+    <high>46.3740</high>
+    <low>40.8874</low>
+    <close>42.1660</close>
+    <adjusted_close>19.5865</adjusted_close>
+    <volume>178316570</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>42.5095</open>
+    <high>45.4198</high>
+    <low>42.2519</low>
+    <close>44.8473</close>
+    <adjusted_close>20.8320</adjusted_close>
+    <volume>132718615</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>44.8569</open>
+    <high>46.1927</high>
+    <low>43.7309</low>
+    <close>45.1336</close>
+    <adjusted_close>20.9650</adjusted_close>
+    <volume>107255359</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>45.2290</open>
+    <high>46.5458</high>
+    <low>44.7328</low>
+    <close>45.3244</close>
+    <adjusted_close>21.2159</adjusted_close>
+    <volume>117018842</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>45.4676</open>
+    <high>45.5439</high>
+    <low>42.2233</low>
+    <close>43.2729</close>
+    <adjusted_close>20.2556</adjusted_close>
+    <volume>119341104</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>43.2252</open>
+    <high>44.8473</high>
+    <low>41.4695</low>
+    <close>42.9103</close>
+    <adjusted_close>20.0859</adjusted_close>
+    <volume>113876310</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>42.5477</open>
+    <high>43.8836</high>
+    <low>30.9733</low>
+    <close>31.4886</close>
+    <adjusted_close>14.8651</adjusted_close>
+    <volume>266746286</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>32.1469</open>
+    <high>32.7481</high>
+    <low>28.3874</low>
+    <close>29.8760</close>
+    <adjusted_close>14.1038</adjusted_close>
+    <volume>487217925</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>27.9962</open>
+    <high>28.4351</high>
+    <low>24.4275</low>
+    <close>26.7366</close>
+    <adjusted_close>12.6218</adjusted_close>
+    <volume>602344706</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>26.5744</open>
+    <high>31.1641</high>
+    <low>26.0687</low>
+    <close>30.6679</close>
+    <adjusted_close>14.6767</adjusted_close>
+    <volume>368736180</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>30.5248</open>
+    <high>30.7538</high>
+    <low>26.2214</low>
+    <close>26.7653</close>
+    <adjusted_close>12.8090</adjusted_close>
+    <volume>272666858</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>26.7748</open>
+    <high>31.1164</high>
+    <low>26.5076</low>
+    <close>30.2481</close>
+    <adjusted_close>14.4758</adjusted_close>
+    <volume>277326895</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>30.5916</open>
+    <high>31.1069</high>
+    <low>29.6756</low>
+    <close>30.8874</close>
+    <adjusted_close>14.9587</adjusted_close>
+    <volume>173106335</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>31.1737</open>
+    <high>34.5992</high>
+    <low>30.5153</low>
+    <close>32.3473</close>
+    <adjusted_close>15.6657</adjusted_close>
+    <volume>224062818</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>32.5095</open>
+    <high>33.5878</high>
+    <low>30.7443</low>
+    <close>30.9542</close>
+    <adjusted_close>14.9910</adjusted_close>
+    <volume>167818231</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>30.7252</open>
+    <high>31.0114</high>
+    <low>29.0076</low>
+    <close>29.3893</close>
+    <adjusted_close>14.4019</adjusted_close>
+    <volume>161250729</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>29.3893</open>
+    <high>30.8588</high>
+    <low>28.5305</low>
+    <close>29.6374</close>
+    <adjusted_close>14.5235</adjusted_close>
+    <volume>154421123</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>29.8092</open>
+    <high>30.0191</high>
+    <low>25.9065</low>
+    <close>26.9370</close>
+    <adjusted_close>13.3799</adjusted_close>
+    <volume>272780148</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>27.0229</open>
+    <high>28.1107</high>
+    <low>25.7347</low>
+    <close>25.9637</close>
+    <adjusted_close>12.8964</adjusted_close>
+    <volume>185154665</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>26.1641</open>
+    <high>26.9656</high>
+    <low>24.3321</low>
+    <close>26.9275</close>
+    <adjusted_close>13.3751</adjusted_close>
+    <volume>216904457</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>27.1469</open>
+    <high>29.5897</high>
+    <low>26.5267</low>
+    <close>28.0534</close>
+    <adjusted_close>14.1131</adjusted_close>
+    <volume>241382593</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>28.3302</open>
+    <high>31.0496</high>
+    <low>26.7080</low>
+    <close>30.3531</close>
+    <adjusted_close>15.2699</adjusted_close>
+    <volume>276741797</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>31.0305</open>
+    <high>33.2824</high>
+    <low>30.3531</low>
+    <close>32.9198</close>
+    <adjusted_close>16.5612</adjusted_close>
+    <volume>217306887</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>32.7004</open>
+    <high>34.9714</high>
+    <low>32.0229</low>
+    <close>33.2634</close>
+    <adjusted_close>16.7340</adjusted_close>
+    <volume>181535815</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>33.4447</open>
+    <high>34.8282</high>
+    <low>32.7672</low>
+    <close>33.6164</close>
+    <adjusted_close>17.0978</adjusted_close>
+    <volume>161585567</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>33.8454</open>
+    <high>34.4370</high>
+    <low>32.0134</low>
+    <close>32.8435</close>
+    <adjusted_close>16.7047</adjusted_close>
+    <volume>176108541</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>33.0821</open>
+    <high>33.8836</high>
+    <low>31.2500</low>
+    <close>31.7653</close>
+    <adjusted_close>16.3437</adjusted_close>
+    <volume>233152751</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>31.9752</open>
+    <high>35.1527</high>
+    <low>31.6031</low>
+    <close>34.7615</close>
+    <adjusted_close>17.8853</adjusted_close>
+    <volume>204750697</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>35.2099</open>
+    <high>39.8473</high>
+    <low>33.3969</low>
+    <close>38.4256</close>
+    <adjusted_close>19.7706</adjusted_close>
+    <volume>243658113</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>38.5305</open>
+    <high>39.8664</high>
+    <low>36.2595</low>
+    <close>38.6927</close>
+    <adjusted_close>20.0930</adjusted_close>
+    <volume>259841226</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>38.6641</open>
+    <high>40.5630</high>
+    <low>38.0725</low>
+    <close>39.9809</close>
+    <adjusted_close>20.7620</adjusted_close>
+    <volume>174047546</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>40.2195</open>
+    <high>44.2462</high>
+    <low>39.3511</low>
+    <close>43.3397</close>
+    <adjusted_close>22.5062</adjusted_close>
+    <volume>232618271</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>43.8836</open>
+    <high>44.1985</high>
+    <low>40.3531</low>
+    <close>42.4714</close>
+    <adjusted_close>22.0552</adjusted_close>
+    <volume>275837162</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>42.6050</open>
+    <high>43.7977</high>
+    <low>40.6775</low>
+    <close>41.6031</close>
+    <adjusted_close>21.7867</adjusted_close>
+    <volume>209208361</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>42.0134</open>
+    <high>44.4179</high>
+    <low>41.1832</low>
+    <close>42.7004</close>
+    <adjusted_close>22.3614</adjusted_close>
+    <volume>188671441</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>42.8435</open>
+    <high>43.3588</high>
+    <low>40.4103</low>
+    <close>42.1279</close>
+    <adjusted_close>22.0616</adjusted_close>
+    <volume>214045826</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>41.9370</open>
+    <high>42.9008</high>
+    <low>40.8015</low>
+    <close>42.1469</close>
+    <adjusted_close>22.2609</adjusted_close>
+    <volume>238422202</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>42.5477</open>
+    <high>50.2195</high>
+    <low>42.4809</low>
+    <close>49.0840</close>
+    <adjusted_close>25.9249</adjusted_close>
+    <volume>266933566</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>49.2844</open>
+    <high>52.6145</high>
+    <low>48.2252</low>
+    <close>50.0477</close>
+    <adjusted_close>26.4339</adjusted_close>
+    <volume>246245729</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>50.1145</open>
+    <high>50.4771</high>
+    <low>45.8015</low>
+    <close>47.5191</close>
+    <adjusted_close>25.2851</adjusted_close>
+    <volume>279706904</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>47.6240</open>
+    <high>51.3454</high>
+    <low>46.2118</low>
+    <close>47.3760</close>
+    <adjusted_close>25.2090</adjusted_close>
+    <volume>304024906</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>47.3473</open>
+    <high>50.3244</high>
+    <low>45.9065</low>
+    <close>47.8721</close>
+    <adjusted_close>25.4730</adjusted_close>
+    <volume>264851712</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>48.1775</open>
+    <high>50.4103</high>
+    <low>46.5649</low>
+    <close>49.3225</close>
+    <adjusted_close>26.4456</adjusted_close>
+    <volume>199852658</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>49.6183</open>
+    <high>55.5916</high>
+    <low>49.0840</low>
+    <close>55.5916</close>
+    <adjusted_close>29.8069</adjusted_close>
+    <volume>253093257</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>55.2290</open>
+    <high>57.7195</high>
+    <low>51.5840</low>
+    <close>56.6412</close>
+    <adjusted_close>30.3697</adjusted_close>
+    <volume>318599233</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>56.0687</open>
+    <high>58.7977</high>
+    <low>53.9695</low>
+    <close>55.4485</close>
+    <adjusted_close>29.9249</adjusted_close>
+    <volume>235971976</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>55.4866</open>
+    <high>58.3779</high>
+    <low>40.3817</low>
+    <close>43.9885</close>
+    <adjusted_close>23.7401</adjusted_close>
+    <volume>491239205</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>44.0840</open>
+    <high>46.0210</high>
+    <low>42.1088</low>
+    <close>42.2710</close>
+    <adjusted_close>22.8132</adjusted_close>
+    <volume>315575016</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>42.6431</open>
+    <high>43.6355</high>
+    <low>35.1336</low>
+    <close>36.2118</close>
+    <adjusted_close>19.7143</adjusted_close>
+    <volume>399745241</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>36.6317</open>
+    <high>40.3053</high>
+    <low>35.1145</low>
+    <close>36.2977</close>
+    <adjusted_close>19.7611</adjusted_close>
+    <volume>604474033</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>36.0782</open>
+    <high>38.5973</high>
+    <low>36.0687</low>
+    <close>37.1756</close>
+    <adjusted_close>20.2390</adjusted_close>
+    <volume>298097103</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>37.1756</open>
+    <high>37.2042</high>
+    <low>32.9103</low>
+    <close>35.9637</close>
+    <adjusted_close>19.7752</adjusted_close>
+    <volume>442794883</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>35.6966</open>
+    <high>37.1183</high>
+    <low>29.7233</low>
+    <close>31.3931</close>
+    <adjusted_close>17.2620</adjusted_close>
+    <volume>534285699</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>31.5744</open>
+    <high>35.0477</high>
+    <low>31.2405</low>
+    <close>34.0363</close>
+    <adjusted_close>18.7153</adjusted_close>
+    <volume>271642440</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>33.9885</open>
+    <high>34.4275</high>
+    <low>28.9504</low>
+    <close>30.1145</close>
+    <adjusted_close>16.7416</adjusted_close>
+    <volume>361473227</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>29.9809</open>
+    <high>30.9733</high>
+    <low>22.5573</low>
+    <close>29.5324</close>
+    <adjusted_close>16.4180</adjusted_close>
+    <volume>494648245</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>29.5134</open>
+    <high>29.8664</high>
+    <low>21.7748</low>
+    <close>25.4962</close>
+    <adjusted_close>14.1741</adjusted_close>
+    <volume>302179902</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>25.1622</open>
+    <high>29.1698</high>
+    <low>23.0248</low>
+    <close>29.0076</close>
+    <adjusted_close>16.3592</adjusted_close>
+    <volume>345237294</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>29.0649</open>
+    <high>30.2099</high>
+    <low>25.6393</low>
+    <close>27.2424</close>
+    <adjusted_close>15.3637</adjusted_close>
+    <volume>276759508</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>26.8034</open>
+    <high>29.5134</high>
+    <low>23.0630</low>
+    <close>23.0916</close>
+    <adjusted_close>13.0228</adjusted_close>
+    <volume>316873384</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>22.7290</open>
+    <high>26.8321</high>
+    <low>19.1317</low>
+    <close>25.5248</close>
+    <adjusted_close>14.6363</adjusted_close>
+    <volume>611926780</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>25.2767</open>
+    <high>26.3359</high>
+    <low>21.3073</low>
+    <close>23.1298</close>
+    <adjusted_close>13.2630</adjusted_close>
+    <volume>460521279</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>23.1202</open>
+    <high>26.3454</high>
+    <low>22.7195</low>
+    <close>26.3168</close>
+    <adjusted_close>15.0905</adjusted_close>
+    <volume>431728106</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>26.4408</open>
+    <high>26.7653</high>
+    <low>23.2538</low>
+    <close>26.6794</close>
+    <adjusted_close>15.5120</adjusted_close>
+    <volume>471241166</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>26.8130</open>
+    <high>29.7519</high>
+    <low>23.9027</low>
+    <close>28.6355</close>
+    <adjusted_close>16.6494</adjusted_close>
+    <volume>440316781</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>29.0553</open>
+    <high>31.5363</high>
+    <low>27.3760</low>
+    <close>30.9447</close>
+    <adjusted_close>17.9920</adjusted_close>
+    <volume>318338802</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>30.8111</open>
+    <high>31.4218</high>
+    <low>28.5687</low>
+    <close>30.1813</close>
+    <adjusted_close>17.7604</adjusted_close>
+    <volume>346861698</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>30.2863</open>
+    <high>32.6145</high>
+    <low>29.4179</low>
+    <close>29.5134</close>
+    <adjusted_close>17.3674</adjusted_close>
+    <volume>493542397</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>29.6947</open>
+    <high>35.2672</high>
+    <low>28.9027</low>
+    <close>34.5515</close>
+    <adjusted_close>20.3321</adjusted_close>
+    <volume>494592070</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>34.6279</open>
+    <high>36.6603</high>
+    <low>34.4466</low>
+    <close>34.8664</close>
+    <adjusted_close>20.7272</adjusted_close>
+    <volume>311958055</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>35.1336</open>
+    <high>39.6565</high>
+    <low>34.8760</low>
+    <close>36.4313</close>
+    <adjusted_close>21.6575</adjusted_close>
+    <volume>336790520</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>36.7939</open>
+    <high>37.9008</high>
+    <low>34.1221</low>
+    <close>35.1908</close>
+    <adjusted_close>20.9201</adjusted_close>
+    <volume>319581623</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>35.3340</open>
+    <high>37.2519</high>
+    <low>34.4466</low>
+    <close>35.6393</close>
+    <adjusted_close>21.4085</adjusted_close>
+    <volume>344258463</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>35.9160</open>
+    <high>36.2309</high>
+    <low>32.0038</low>
+    <close>33.4351</close>
+    <adjusted_close>20.0845</adjusted_close>
+    <volume>412910113</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>33.6737</open>
+    <high>34.6947</high>
+    <low>29.2939</low>
+    <close>32.1469</close>
+    <adjusted_close>19.3107</adjusted_close>
+    <volume>468790101</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>31.8989</open>
+    <high>34.5897</high>
+    <low>31.4790</low>
+    <close>33.3683</close>
+    <adjusted_close>20.2666</adjusted_close>
+    <volume>409840313</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>33.2347</open>
+    <high>35.1145</high>
+    <low>32.1088</low>
+    <close>32.8817</close>
+    <adjusted_close>19.9710</adjusted_close>
+    <volume>317441926</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>33.2634</open>
+    <high>34.3416</high>
+    <low>32.4618</low>
+    <close>33.5496</close>
+    <adjusted_close>20.3767</adjusted_close>
+    <volume>249116098</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>33.7595</open>
+    <high>35.8588</high>
+    <low>32.9389</low>
+    <close>35.1240</close>
+    <adjusted_close>21.5565</adjusted_close>
+    <volume>284522463</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>35.0763</open>
+    <high>35.9542</high>
+    <low>34.3702</low>
+    <close>34.6469</close>
+    <adjusted_close>21.2637</adjusted_close>
+    <volume>225362337</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>34.7710</open>
+    <high>35.2576</high>
+    <low>32.3855</low>
+    <close>32.8912</close>
+    <adjusted_close>20.1861</adjusted_close>
+    <volume>361153902</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>33.1584</open>
+    <high>35.2958</high>
+    <low>33.0821</low>
+    <close>34.3893</close>
+    <adjusted_close>21.3308</adjusted_close>
+    <volume>294559684</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>34.6279</open>
+    <high>35.8969</high>
+    <low>31.4886</low>
+    <close>31.6508</close>
+    <adjusted_close>19.6321</adjusted_close>
+    <volume>500896000</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>31.8130</open>
+    <high>32.4809</high>
+    <low>30.3912</low>
+    <close>31.0782</close>
+    <adjusted_close>19.2770</adjusted_close>
+    <volume>323076706</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>31.1069</open>
+    <high>31.9466</high>
+    <low>29.6374</low>
+    <close>31.4981</close>
+    <adjusted_close>19.7657</adjusted_close>
+    <volume>423197595</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>31.5363</open>
+    <high>34.5897</high>
+    <low>31.4886</low>
+    <close>34.3034</close>
+    <adjusted_close>21.5261</adjusted_close>
+    <volume>323438477</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>34.7710</open>
+    <high>35.9256</high>
+    <low>34.4179</low>
+    <close>35.0668</close>
+    <adjusted_close>22.0052</adjusted_close>
+    <volume>309103408</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>34.9237</open>
+    <high>35.0668</high>
+    <low>32.7958</low>
+    <close>33.6737</close>
+    <adjusted_close>21.3599</adjusted_close>
+    <volume>268813993</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>33.5592</open>
+    <high>34.8855</high>
+    <low>32.4905</low>
+    <close>32.5668</close>
+    <adjusted_close>20.6578</adjusted_close>
+    <volume>252327063</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>32.6813</open>
+    <high>32.7195</high>
+    <low>28.1202</low>
+    <close>31.5840</close>
+    <adjusted_close>20.0344</adjusted_close>
+    <volume>534371321</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>31.5363</open>
+    <high>31.9561</high>
+    <low>29.3034</low>
+    <close>31.2023</close>
+    <adjusted_close>20.0301</adjusted_close>
+    <volume>386997266</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>31.0973</open>
+    <high>33.8740</high>
+    <low>29.1412</low>
+    <close>32.9198</close>
+    <adjusted_close>21.1327</adjusted_close>
+    <volume>383999986</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>32.2615</open>
+    <high>34.5897</high>
+    <low>31.6126</low>
+    <close>34.1126</close>
+    <adjusted_close>21.8984</adjusted_close>
+    <volume>346333922</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>34.0935</open>
+    <high>36.1641</high>
+    <low>33.2634</low>
+    <close>35.9733</close>
+    <adjusted_close>23.3700</adjusted_close>
+    <volume>392325717</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>36.1450</open>
+    <high>37.6240</high>
+    <low>36.0782</low>
+    <close>36.5172</close>
+    <adjusted_close>23.7234</adjusted_close>
+    <volume>297105485</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>36.7844</open>
+    <high>37.2233</high>
+    <low>36.0496</low>
+    <close>36.4218</close>
+    <adjusted_close>23.6614</adjusted_close>
+    <volume>261358415</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>36.4027</open>
+    <high>37.2137</high>
+    <low>35.2195</low>
+    <close>36.6412</close>
+    <adjusted_close>24.0693</adjusted_close>
+    <volume>388435017</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>36.5458</open>
+    <high>37.6527</high>
+    <low>36.0401</low>
+    <close>37.4427</close>
+    <adjusted_close>24.5958</adjusted_close>
+    <volume>274052942</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>37.1565</open>
+    <high>37.6908</high>
+    <low>35.3244</low>
+    <close>35.8588</close>
+    <adjusted_close>23.5553</adjusted_close>
+    <volume>269742102</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>35.4771</open>
+    <high>39.8378</high>
+    <low>35.3244</low>
+    <close>39.8378</close>
+    <adjusted_close>26.4551</adjusted_close>
+    <volume>417890838</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>39.3607</open>
+    <high>43.1011</high>
+    <low>39.1794</low>
+    <close>42.1469</close>
+    <adjusted_close>27.9885</adjusted_close>
+    <volume>367707252</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>42.4141</open>
+    <high>42.7385</high>
+    <low>40.6584</low>
+    <close>41.0782</close>
+    <adjusted_close>27.2788</adjusted_close>
+    <volume>245745940</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>41.1641</open>
+    <high>43.6069</high>
+    <low>40.9065</low>
+    <close>43.0344</close>
+    <adjusted_close>28.8499</adjusted_close>
+    <volume>233081800</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>42.9103</open>
+    <high>45.8015</high>
+    <low>42.9103</low>
+    <close>43.5401</close>
+    <adjusted_close>29.1890</adjusted_close>
+    <volume>224938423</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>43.6546</open>
+    <high>44.4179</high>
+    <low>40.4198</low>
+    <close>42.2710</close>
+    <adjusted_close>28.3382</adjusted_close>
+    <volume>252236728</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>42.4332</open>
+    <high>43.4065</high>
+    <low>38.1870</low>
+    <close>39.0649</close>
+    <adjusted_close>26.4400</adjusted_close>
+    <volume>275753953</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>39.9427</open>
+    <high>41.7653</high>
+    <low>39.0649</low>
+    <close>41.2691</close>
+    <adjusted_close>27.9319</adjusted_close>
+    <volume>303990949</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>40.3053</open>
+    <high>41.4599</high>
+    <low>38.9599</low>
+    <close>40.7729</close>
+    <adjusted_close>27.5961</adjusted_close>
+    <volume>339039316</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>40.3912</open>
+    <high>43.3397</high>
+    <low>40.3912</low>
+    <close>42.1756</close>
+    <adjusted_close>28.8206</adjusted_close>
+    <volume>404148416</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>41.9847</open>
+    <high>46.5553</high>
+    <low>41.7653</low>
+    <close>44.8473</close>
+    <adjusted_close>30.6463</adjusted_close>
+    <volume>323446546</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>42.7481</open>
+    <high>46.4122</high>
+    <low>42.5573</low>
+    <close>44.5611</close>
+    <adjusted_close>30.4507</adjusted_close>
+    <volume>448377578</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>46.6889</open>
+    <high>47.8626</high>
+    <low>43.9504</low>
+    <close>44.3225</close>
+    <adjusted_close>30.5658</adjusted_close>
+    <volume>494799156</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>44.1412</open>
+    <high>46.8321</high>
+    <low>43.9218</low>
+    <close>45.9637</close>
+    <adjusted_close>31.6977</adjusted_close>
+    <volume>265456935</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>46.2214</open>
+    <high>46.6126</high>
+    <low>44.3416</low>
+    <close>45.1240</close>
+    <adjusted_close>31.1186</adjusted_close>
+    <volume>225140686</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>45.3435</open>
+    <high>46.4790</high>
+    <low>44.8569</low>
+    <close>45.4294</close>
+    <adjusted_close>31.6115</adjusted_close>
+    <volume>307167963</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>46.6794</open>
+    <high>46.9752</high>
+    <low>43.0153</low>
+    <close>43.0248</close>
+    <adjusted_close>29.9383</adjusted_close>
+    <volume>373849163</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>42.8149</open>
+    <high>47.6622</high>
+    <low>42.5763</low>
+    <close>47.5477</close>
+    <adjusted_close>33.0855</adjusted_close>
+    <volume>271311164</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>47.4618</open>
+    <high>48.1107</high>
+    <low>45.4294</low>
+    <close>47.7576</close>
+    <adjusted_close>33.5330</adjusted_close>
+    <volume>221217079</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>47.5954</open>
+    <high>51.6221</high>
+    <low>47.0420</low>
+    <close>50.5439</close>
+    <adjusted_close>35.4894</adjusted_close>
+    <volume>328889752</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>50.4866</open>
+    <high>54.8282</high>
+    <low>49.5420</low>
+    <close>54.3798</close>
+    <adjusted_close>38.1828</adjusted_close>
+    <volume>248734836</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>53.5305</open>
+    <high>55.0095</high>
+    <low>51.1164</low>
+    <close>54.1698</close>
+    <adjusted_close>38.3323</adjusted_close>
+    <volume>247930074</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>54.0553</open>
+    <high>56.2977</high>
+    <low>52.1947</low>
+    <close>55.8779</close>
+    <adjusted_close>39.5409</adjusted_close>
+    <volume>242484249</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>55.8683</open>
+    <high>57.0992</high>
+    <low>51.9084</low>
+    <close>55.2099</close>
+    <adjusted_close>39.0682</adjusted_close>
+    <volume>217669703</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>55.2576</open>
+    <high>56.6031</high>
+    <low>54.6183</low>
+    <close>55.2004</close>
+    <adjusted_close>39.3559</adjusted_close>
+    <volume>192978615</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>55.0573</open>
+    <high>56.9179</high>
+    <low>54.1221</low>
+    <close>54.1412</close>
+    <adjusted_close>38.6008</adjusted_close>
+    <volume>177306198</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>53.9885</open>
+    <high>57.8053</high>
+    <low>53.0248</low>
+    <close>57.3569</close>
+    <adjusted_close>40.8934</adjusted_close>
+    <volume>171107169</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>56.9943</open>
+    <high>58.5210</high>
+    <low>55.8683</low>
+    <close>56.5649</close>
+    <adjusted_close>40.6230</adjusted_close>
+    <volume>201604600</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>56.3836</open>
+    <high>57.7385</high>
+    <low>50.0859</low>
+    <close>55.2863</close>
+    <adjusted_close>39.7047</adjusted_close>
+    <volume>315705704</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>55.2958</open>
+    <high>58.0821</high>
+    <low>54.9332</low>
+    <close>57.6336</close>
+    <adjusted_close>41.3905</adjusted_close>
+    <volume>187973890</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>57.6336</open>
+    <high>59.3511</high>
+    <low>53.9695</low>
+    <close>54.1889</close>
+    <adjusted_close>39.2108</adjusted_close>
+    <volume>239998917</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>54.5992</open>
+    <high>60.7061</high>
+    <low>54.4179</low>
+    <close>57.5191</close>
+    <adjusted_close>41.6205</adjusted_close>
+    <volume>242878508</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>57.7290</open>
+    <high>58.2634</high>
+    <low>55.0859</low>
+    <close>55.8588</close>
+    <adjusted_close>40.4191</adjusted_close>
+    <volume>208899098</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>55.8588</open>
+    <high>56.9752</high>
+    <low>53.0916</low>
+    <close>54.8473</close>
+    <adjusted_close>40.0084</adjusted_close>
+    <volume>282485150</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>54.6374</open>
+    <high>57.7099</high>
+    <low>53.6450</low>
+    <close>56.8321</close>
+    <adjusted_close>41.4561</adjusted_close>
+    <volume>269849835</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>57.0229</open>
+    <high>58.5687</high>
+    <low>56.1546</low>
+    <close>58.1011</close>
+    <adjusted_close>42.3819</adjusted_close>
+    <volume>204091188</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>58.0630</open>
+    <high>58.8740</high>
+    <low>54.1126</low>
+    <close>54.3225</close>
+    <adjusted_close>39.9270</adjusted_close>
+    <volume>227956452</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>54.3225</open>
+    <high>56.6126</high>
+    <low>53.2729</low>
+    <close>56.2595</close>
+    <adjusted_close>41.3507</adjusted_close>
+    <volume>199836203</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>56.5840</open>
+    <high>57.3187</high>
+    <low>43.5973</low>
+    <close>51.3836</close>
+    <adjusted_close>37.7668</adjusted_close>
+    <volume>262954413</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>50.2481</open>
+    <high>52.0038</high>
+    <low>45.8874</low>
+    <close>47.1279</close>
+    <adjusted_close>34.9371</adjusted_close>
+    <volume>314791217</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>47.0897</open>
+    <high>53.0916</high>
+    <low>46.1355</low>
+    <close>52.1565</close>
+    <adjusted_close>38.6650</adjusted_close>
+    <volume>312136529</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>52.1851</open>
+    <high>53.2156</high>
+    <low>49.7424</low>
+    <close>50.5821</close>
+    <adjusted_close>37.4978</adjusted_close>
+    <volume>183033935</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>51.3073</open>
+    <high>52.4714</high>
+    <low>48.8550</low>
+    <close>50.4008</close>
+    <adjusted_close>37.6863</adjusted_close>
+    <volume>238222136</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>49.6279</open>
+    <high>51.0210</high>
+    <low>46.7366</low>
+    <close>48.3492</close>
+    <adjusted_close>36.1523</adjusted_close>
+    <volume>267179950</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>48.0821</open>
+    <high>48.7882</high>
+    <low>45.7729</low>
+    <close>47.9103</close>
+    <adjusted_close>35.8241</adjusted_close>
+    <volume>247853154</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>48.0821</open>
+    <high>51.1450</high>
+    <low>47.7958</low>
+    <close>50.4866</close>
+    <adjusted_close>38.0808</adjusted_close>
+    <volume>217840737</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>50.0954</open>
+    <high>54.7710</high>
+    <low>50.0382</low>
+    <close>52.3282</close>
+    <adjusted_close>39.4698</adjusted_close>
+    <volume>191296995</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>52.3378</open>
+    <high>54.2366</high>
+    <low>50.6298</low>
+    <close>53.6832</close>
+    <adjusted_close>40.4918</adjusted_close>
+    <volume>178699092</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>53.6260</open>
+    <high>55.2195</high>
+    <low>52.5763</low>
+    <close>54.9714</close>
+    <adjusted_close>41.8020</adjusted_close>
+    <volume>228322311</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>54.9046</open>
+    <high>57.2042</high>
+    <low>54.7901</low>
+    <close>55.9733</close>
+    <adjusted_close>42.5638</adjusted_close>
+    <volume>169526158</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>56.1355</open>
+    <high>61.0687</high>
+    <low>54.5611</low>
+    <close>59.9141</close>
+    <adjusted_close>45.5606</adjusted_close>
+    <volume>270981149</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>59.8282</open>
+    <high>60.5821</high>
+    <low>58.3206</low>
+    <close>59.5515</close>
+    <adjusted_close>45.6169</adjusted_close>
+    <volume>209323011</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>59.3702</open>
+    <high>61.8893</high>
+    <low>55.6966</low>
+    <close>56.0305</close>
+    <adjusted_close>42.9198</adjusted_close>
+    <volume>250547456</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>56.2977</open>
+    <high>62.4618</high>
+    <low>55.6202</low>
+    <close>58.3874</close>
+    <adjusted_close>44.7252</adjusted_close>
+    <volume>240258926</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>58.4924</open>
+    <high>60.1431</high>
+    <low>55.8779</low>
+    <close>56.1737</close>
+    <adjusted_close>43.3596</adjusted_close>
+    <volume>217747260</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>56.4408</open>
+    <high>60.3435</high>
+    <low>56.3454</low>
+    <close>59.1508</close>
+    <adjusted_close>45.6576</adjusted_close>
+    <volume>274558396</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>59.2176</open>
+    <high>63.1298</high>
+    <low>58.7405</low>
+    <close>62.8531</close>
+    <adjusted_close>48.5154</adjusted_close>
+    <volume>192287352</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>63.0439</open>
+    <high>63.7405</high>
+    <low>59.9332</low>
+    <close>60.6298</close>
+    <adjusted_close>47.1370</adjusted_close>
+    <volume>226113862</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>60.5248</open>
+    <high>61.2118</high>
+    <low>59.0363</low>
+    <close>59.4752</close>
+    <adjusted_close>46.2393</adjusted_close>
+    <volume>159517442</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>59.3989</open>
+    <high>62.4905</high>
+    <low>59.2557</low>
+    <close>62.1279</close>
+    <adjusted_close>48.3017</adjusted_close>
+    <volume>209816726</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>62.1088</open>
+    <high>63.3588</high>
+    <low>59.8187</low>
+    <close>61.1546</close>
+    <adjusted_close>47.8946</adjusted_close>
+    <volume>225971749</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>60.9256</open>
+    <high>61.8321</high>
+    <low>58.8931</low>
+    <close>60.9542</close>
+    <adjusted_close>47.7376</adjusted_close>
+    <volume>175189024</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>61.1069</open>
+    <high>61.3263</high>
+    <low>58.3588</low>
+    <close>60.9351</close>
+    <adjusted_close>47.7227</adjusted_close>
+    <volume>167940010</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>60.8683</open>
+    <high>63.3683</high>
+    <low>60.4294</low>
+    <close>61.0973</close>
+    <adjusted_close>48.1958</adjusted_close>
+    <volume>168584006</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>61.2691</open>
+    <high>61.9275</high>
+    <low>51.9179</low>
+    <close>52.5668</close>
+    <adjusted_close>41.4666</adjusted_close>
+    <volume>255252348</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>52.9962</open>
+    <high>54.1221</high>
+    <low>51.1737</low>
+    <close>52.7385</close>
+    <adjusted_close>41.6021</adjusted_close>
+    <volume>271246083</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>52.8626</open>
+    <high>54.7424</high>
+    <low>51.7080</low>
+    <close>53.6927</close>
+    <adjusted_close>42.7151</adjusted_close>
+    <volume>245142186</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>53.9981</open>
+    <high>60.8588</high>
+    <low>53.3969</low>
+    <close>56.5363</close>
+    <adjusted_close>44.9773</adjusted_close>
+    <volume>305010129</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>56.4599</open>
+    <high>57.5763</high>
+    <low>50.9160</low>
+    <close>51.7366</close>
+    <adjusted_close>41.1589</adjusted_close>
+    <volume>282049184</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>51.7748</open>
+    <high>53.5592</high>
+    <low>50.5439</low>
+    <close>51.9752</close>
+    <adjusted_close>41.7103</adjusted_close>
+    <volume>251789755</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>51.9084</open>
+    <high>58.2061</high>
+    <low>50.4103</low>
+    <close>56.1737</close>
+    <adjusted_close>45.0796</adjusted_close>
+    <volume>286904672</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>56.2977</open>
+    <high>57.3282</high>
+    <low>53.6832</low>
+    <close>56.8034</close>
+    <adjusted_close>45.5850</adjusted_close>
+    <volume>218463459</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>57.1469</open>
+    <high>60.0763</high>
+    <low>56.8893</low>
+    <close>57.9198</close>
+    <adjusted_close>46.8401</adjusted_close>
+    <volume>242228851</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>57.7767</open>
+    <high>63.0916</high>
+    <low>57.1756</low>
+    <close>62.8531</close>
+    <adjusted_close>50.8296</adjusted_close>
+    <volume>181420646</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>62.7004</open>
+    <high>67.0324</high>
+    <low>61.8989</low>
+    <close>65.4485</close>
+    <adjusted_close>52.9286</adjusted_close>
+    <volume>184270048</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>65.2385</open>
+    <high>68.3015</high>
+    <low>64.7996</low>
+    <close>67.6908</close>
+    <adjusted_close>55.1155</adjusted_close>
+    <volume>152406343</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>67.8149</open>
+    <high>71.0782</high>
+    <low>63.0725</low>
+    <close>70.2385</close>
+    <adjusted_close>57.1899</adjusted_close>
+    <volume>293399233</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>70.4198</open>
+    <high>75.8492</high>
+    <low>66.9084</low>
+    <close>75.7061</close>
+    <adjusted_close>61.6417</adjusted_close>
+    <volume>286181868</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>75.8779</open>
+    <high>76.5172</high>
+    <low>67.6431</low>
+    <close>72.9103</close>
+    <adjusted_close>59.7814</adjusted_close>
+    <volume>297732082</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>71.8416</open>
+    <high>72.9962</high>
+    <low>68.7500</low>
+    <close>71.0210</close>
+    <adjusted_close>58.2323</adjusted_close>
+    <volume>305459199</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>72.4905</open>
+    <high>78.0153</high>
+    <low>71.8798</low>
+    <close>77.5668</close>
+    <adjusted_close>63.5994</adjusted_close>
+    <volume>198784642</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>78.0153</open>
+    <high>79.6469</high>
+    <low>75.4294</low>
+    <close>79.3607</close>
+    <adjusted_close>65.5119</adjusted_close>
+    <volume>212014067</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>79.8950</open>
+    <high>80.0095</high>
+    <low>68.9218</low>
+    <close>75.1050</close>
+    <adjusted_close>61.9988</adjusted_close>
+    <volume>272128500</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>75.0859</open>
+    <high>78.1870</high>
+    <low>73.2824</low>
+    <close>75.5821</close>
+    <adjusted_close>62.3926</adjusted_close>
+    <volume>214386425</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>76.0019</open>
+    <high>82.5382</high>
+    <low>75.8779</low>
+    <close>80.0095</close>
+    <adjusted_close>66.4886</adjusted_close>
+    <volume>236621737</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>80.4676</open>
+    <high>83.0821</high>
+    <low>75.0286</low>
+    <close>79.1889</close>
+    <adjusted_close>65.8067</adjusted_close>
+    <volume>232492199</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>79.2557</open>
+    <high>83.3492</high>
+    <low>78.3969</low>
+    <close>82.5095</close>
+    <adjusted_close>68.5661</adjusted_close>
+    <volume>190199213</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>82.2901</open>
+    <high>83.1775</high>
+    <low>75.2385</low>
+    <close>80.3244</close>
+    <adjusted_close>67.1939</adjusted_close>
+    <volume>188186218</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>80.3244</open>
+    <high>83.0057</high>
+    <low>76.5744</low>
+    <close>82.6908</close>
+    <adjusted_close>69.1735</adjusted_close>
+    <volume>192515924</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>83.0821</open>
+    <high>83.8454</high>
+    <low>78.8836</low>
+    <close>83.1870</close>
+    <adjusted_close>69.5885</adjusted_close>
+    <volume>172973658</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>83.5305</open>
+    <high>88.3969</high>
+    <low>82.5382</low>
+    <close>86.7843</close>
+    <adjusted_close>73.0956</adjusted_close>
+    <volume>158628003</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>86.9084</open>
+    <high>87.9198</high>
+    <low>80.8302</low>
+    <close>81.5267</close>
+    <adjusted_close>68.6673</adjusted_close>
+    <volume>205024641</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>82.0992</open>
+    <high>85.1145</high>
+    <low>70.7824</low>
+    <close>73.0534</close>
+    <adjusted_close>61.5305</adjusted_close>
+    <volume>276068458</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>73.5973</open>
+    <high>79.2653</high>
+    <low>62.2615</low>
+    <close>73.4160</close>
+    <adjusted_close>62.3468</adjusted_close>
+    <volume>409400885</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>71.2405</open>
+    <high>80.7920</high>
+    <low>69.6469</low>
+    <close>75.7061</close>
+    <adjusted_close>64.2915</adjusted_close>
+    <volume>255839226</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>75.2481</open>
+    <high>77.2901</high>
+    <low>71.9752</low>
+    <close>77.0229</close>
+    <adjusted_close>65.4098</adjusted_close>
+    <volume>219659334</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>76.5076</open>
+    <high>79.6851</high>
+    <low>70.2004</low>
+    <close>73.7882</close>
+    <adjusted_close>63.1609</adjusted_close>
+    <volume>252810718</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>73.8836</open>
+    <high>77.9389</high>
+    <low>72.5573</low>
+    <close>76.5649</close>
+    <adjusted_close>65.5377</adjusted_close>
+    <volume>184079523</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>78.3874</open>
+    <high>82.3378</high>
+    <low>76.3645</low>
+    <close>81.3645</close>
+    <adjusted_close>69.6461</adjusted_close>
+    <volume>155790860</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>81.4408</open>
+    <high>83.7786</high>
+    <low>77.9580</low>
+    <close>79.1508</close>
+    <adjusted_close>68.2439</adjusted_close>
+    <volume>187841320</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>79.3702</open>
+    <high>79.5229</high>
+    <low>70.5534</low>
+    <close>71.7653</close>
+    <adjusted_close>61.8761</adjusted_close>
+    <volume>194987945</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>72.9485</open>
+    <high>81.2691</high>
+    <low>72.1756</low>
+    <close>76.7080</close>
+    <adjusted_close>66.1378</adjusted_close>
+    <volume>179074590</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>77.2424</open>
+    <high>80.0954</high>
+    <low>74.1794</low>
+    <close>78.0534</close>
+    <adjusted_close>67.8292</adjusted_close>
+    <volume>201809903</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>78.2443</open>
+    <high>81.6794</high>
+    <low>72.8912</low>
+    <close>73.5401</close>
+    <adjusted_close>63.9071</adjusted_close>
+    <volume>202897832</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>74.4179</open>
+    <high>75.3053</high>
+    <low>69.2176</low>
+    <close>69.2939</close>
+    <adjusted_close>60.2171</adjusted_close>
+    <volume>222246635</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>69.8569</open>
+    <high>74.9523</high>
+    <low>68.4351</low>
+    <close>73.5592</close>
+    <adjusted_close>64.4853</adjusted_close>
+    <volume>350037133</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>73.6260</open>
+    <high>75.8492</high>
+    <low>69.5134</low>
+    <close>71.0878</close>
+    <adjusted_close>62.3188</adjusted_close>
+    <volume>246074489</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>70.8588</open>
+    <high>76.6603</high>
+    <low>70.8206</low>
+    <close>72.4141</close>
+    <adjusted_close>63.4815</adjusted_close>
+    <volume>232655894</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>72.5763</open>
+    <high>78.0900</high>
+    <low>71.5935</low>
+    <close>77.7700</close>
+    <adjusted_close>68.7627</adjusted_close>
+    <volume>323966467</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>77.6500</open>
+    <high>78.7700</high>
+    <low>75.6400</low>
+    <close>76.8700</close>
+    <adjusted_close>67.9670</adjusted_close>
+    <volume>178669300</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>76.9300</open>
+    <high>79.2300</high>
+    <low>74.8200</low>
+    <close>76.2900</close>
+    <adjusted_close>67.4542</adjusted_close>
+    <volume>181716100</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>76.2200</open>
+    <high>77.3800</high>
+    <low>70.8900</low>
+    <close>75.1100</close>
+    <adjusted_close>67.0060</adjusted_close>
+    <volume>284853600</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>81.5600</open>
+    <high>88.4600</high>
+    <low>77.1100</low>
+    <close>88.0500</close>
+    <adjusted_close>78.5498</adjusted_close>
+    <volume>420382400</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>88.0500</open>
+    <high>91.4000</high>
+    <low>73.8400</low>
+    <close>74.9100</close>
+    <adjusted_close>66.8276</adjusted_close>
+    <volume>315951400</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>75.5300</open>
+    <high>77.7400</high>
+    <low>71.5000</low>
+    <close>76.6400</close>
+    <adjusted_close>69.0195</adjusted_close>
+    <volume>291225700</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>76.5800</open>
+    <high>82.5600</high>
+    <low>75.3500</low>
+    <close>81.4800</close>
+    <adjusted_close>73.3783</adjusted_close>
+    <volume>276485100</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>81.9600</open>
+    <high>82.3000</high>
+    <low>72.8800</low>
+    <close>76.5800</close>
+    <adjusted_close>68.9655</adjusted_close>
+    <volume>249350900</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>76.5000</open>
+    <high>83.3800</high>
+    <low>75.9500</low>
+    <close>82.0500</close>
+    <adjusted_close>74.5489</adjusted_close>
+    <volume>235983900</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>82.1900</open>
+    <high>90.0100</high>
+    <low>81.6400</low>
+    <close>88.6900</close>
+    <adjusted_close>80.5819</adjusted_close>
+    <volume>240425400</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>88.7200</open>
+    <high>94.9200</high>
+    <low>86.3600</low>
+    <close>92.0300</close>
+    <adjusted_close>83.6165</adjusted_close>
+    <volume>264575000</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>91.6700</open>
+    <high>95.7200</high>
+    <low>83.0500</low>
+    <close>91.1700</close>
+    <adjusted_close>83.5130</adjusted_close>
+    <volume>270575200</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>91.3000</open>
+    <high>95.3500</high>
+    <low>87.4200</low>
+    <close>89.3400</close>
+    <adjusted_close>81.8368</adjusted_close>
+    <volume>178373900</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>89.3400</open>
+    <high>93.0200</high>
+    <low>85.1600</low>
+    <close>85.3600</close>
+    <adjusted_close>78.1910</adjusted_close>
+    <volume>177615400</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>85.6400</open>
+    <high>89.1700</high>
+    <low>84.5200</low>
+    <close>86.1200</close>
+    <adjusted_close>79.5232</adjusted_close>
+    <volume>170363300</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>86.7200</open>
+    <high>101.5000</high>
+    <low>86.0200</low>
+    <close>101.2000</close>
+    <adjusted_close>93.4480</adjusted_close>
+    <volume>204666700</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>100.6500</open>
+    <high>110.3300</high>
+    <low>97.3300</low>
+    <close>110.1200</close>
+    <adjusted_close>101.6848</adjusted_close>
+    <volume>201119100</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>109.7500</open>
+    <high>112.8900</high>
+    <low>107.3200</low>
+    <close>110.9500</close>
+    <adjusted_close>103.1300</adjusted_close>
+    <volume>188419700</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>110.4100</open>
+    <high>115.4900</high>
+    <low>105.1100</low>
+    <close>107.4100</close>
+    <adjusted_close>99.8395</adjusted_close>
+    <volume>172747100</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>106.9700</open>
+    <high>111.2400</high>
+    <low>101.7500</low>
+    <close>106.2400</close>
+    <adjusted_close>98.7519</adjusted_close>
+    <volume>157434100</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>105.9600</open>
+    <high>112.1800</high>
+    <low>102.4400</low>
+    <close>106.3900</close>
+    <adjusted_close>99.5789</adjusted_close>
+    <volume>216566200</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>105.9500</open>
+    <high>116.8600</high>
+    <low>105.5700</low>
+    <close>115.4700</close>
+    <adjusted_close>108.0776</adjusted_close>
+    <volume>121054600</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>115.8000</open>
+    <high>119.6500</high>
+    <low>108.4700</low>
+    <close>110.4100</close>
+    <adjusted_close>103.3415</adjusted_close>
+    <volume>142570000</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>110.6600</open>
+    <high>115.6100</high>
+    <low>106.8700</low>
+    <close>115.3900</close>
+    <adjusted_close>108.7243</adjusted_close>
+    <volume>172469900</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>114.4700</open>
+    <high>114.6200</high>
+    <low>105.1700</low>
+    <close>106.6500</close>
+    <adjusted_close>100.4892</adjusted_close>
+    <volume>146107100</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>109.6000</open>
+    <high>112.0200</high>
+    <low>104.4200</low>
+    <close>108.9800</close>
+    <adjusted_close>102.6846</adjusted_close>
+    <volume>160950700</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>109.6500</open>
+    <high>110.3700</high>
+    <low>102.7100</low>
+    <close>102.9500</close>
+    <adjusted_close>97.6642</adjusted_close>
+    <volume>121821700</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>102.8300</open>
+    <high>107.2300</high>
+    <low>99.1400</low>
+    <close>102.7000</close>
+    <adjusted_close>97.4271</adjusted_close>
+    <volume>158503000</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>103.5500</open>
+    <high>105.1700</high>
+    <low>99.8000</low>
+    <close>102.4800</close>
+    <adjusted_close>97.2184</adjusted_close>
+    <volume>167245700</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>102.8500</open>
+    <high>109.2400</high>
+    <low>102.6500</low>
+    <close>109.0200</close>
+    <adjusted_close>104.1714</adjusted_close>
+    <volume>181156900</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>109.1600</open>
+    <high>122.8500</high>
+    <low>109.1600</low>
+    <close>120.7800</close>
+    <adjusted_close>115.4084</adjusted_close>
+    <volume>171796200</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>123.6500</open>
+    <high>130.2400</high>
+    <low>122.7700</low>
+    <close>127.1500</close>
+    <adjusted_close>121.4951</adjusted_close>
+    <volume>138504700</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>126.8700</open>
+    <high>133.1000</high>
+    <low>119.2300</low>
+    <close>131.9500</close>
+    <adjusted_close>126.8814</adjusted_close>
+    <volume>226952700</volume>
+    <news>MRK Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>131.6800</open>
+    <high>132.8000</high>
+    <low>124.5000</low>
+    <close>129.2200</close>
+    <adjusted_close>124.2563</adjusted_close>
+    <volume>151740800</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>128.6100</open>
+    <high>132.7900</high>
+    <low>122.7000</low>
+    <close>125.5400</close>
+    <adjusted_close>120.7176</adjusted_close>
+    <volume>166952900</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>125.7700</open>
+    <high>134.6300</high>
+    <low>120.8700</low>
+    <close>123.8000</close>
+    <adjusted_close>119.7567</adjusted_close>
+    <volume>203192900</volume>
+    <news>MRK Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>125.3800</open>
+    <high>129.9300</high>
+    <low>112.2200</low>
+    <close>113.1300</close>
+    <adjusted_close>109.4351</adjusted_close>
+    <volume>193972000</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>113.1300</open>
+    <high>118.7500</high>
+    <low>110.7200</low>
+    <close>118.4500</close>
+    <adjusted_close>114.5814</adjusted_close>
+    <volume>193904400</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>118.2600</open>
+    <high>120.3000</high>
+    <low>112.4100</low>
+    <close>113.5600</close>
+    <adjusted_close>110.5860</adjusted_close>
+    <volume>202870100</volume>
+    <news>MRK Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>113.9600</open>
+    <high>114.7900</high>
+    <low>98.6000</low>
+    <close>102.3200</close>
+    <adjusted_close>99.6404</adjusted_close>
+    <volume>218266300</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>101.7800</open>
+    <high>103.4500</high>
+    <low>94.4800</low>
+    <close>101.6400</close>
+    <adjusted_close>98.9782</adjusted_close>
+    <volume>238874800</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>101.7300</open>
+    <high>105.0700</high>
+    <low>97.8200</low>
+    <close>99.4800</close>
+    <adjusted_close>97.6502</adjusted_close>
+    <volume>246379500</volume>
+    <news>MRK Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</merck_stock_data>

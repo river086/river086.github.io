@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<intel_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>41.6328</open>
+    <high>53.3125</high>
+    <low>38.6875</low>
+    <close>49.4688</close>
+    <adjusted_close>28.1013</adjusted_close>
+    <volume>1406932200</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>49.1875</open>
+    <high>58.2500</high>
+    <low>48.3125</low>
+    <close>56.5000</close>
+    <adjusted_close>32.1051</adjusted_close>
+    <volume>965312200</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>56.4375</open>
+    <high>72.6875</high>
+    <low>56.0000</low>
+    <close>65.9688</close>
+    <adjusted_close>37.4855</adjusted_close>
+    <volume>1131350200</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>65.6875</open>
+    <high>69.5312</high>
+    <low>54.1875</low>
+    <close>63.4062</close>
+    <adjusted_close>36.0294</adjusted_close>
+    <volume>1209578800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>63.9688</open>
+    <high>65.5000</high>
+    <low>52.5625</low>
+    <close>62.3438</close>
+    <adjusted_close>35.4344</adjusted_close>
+    <volume>1145907800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>63.0938</open>
+    <high>70.1250</high>
+    <low>62.0625</low>
+    <close>66.8438</close>
+    <adjusted_close>37.9921</adjusted_close>
+    <volume>851667400</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>67.0625</open>
+    <high>73.7500</high>
+    <low>64.3750</low>
+    <close>66.7500</close>
+    <adjusted_close>37.9388</adjusted_close>
+    <volume>829139100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>67.0625</open>
+    <high>75.8281</high>
+    <low>60.4375</low>
+    <close>74.8750</close>
+    <adjusted_close>42.5703</adjusted_close>
+    <volume>688110000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>75.6250</open>
+    <high>75.6875</high>
+    <low>41.3750</low>
+    <close>41.5625</close>
+    <adjusted_close>23.6304</adjusted_close>
+    <volume>1467990100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>42.9375</open>
+    <high>47.0000</high>
+    <low>35.0000</low>
+    <close>45.0000</close>
+    <adjusted_close>25.5848</adjusted_close>
+    <volume>1423595100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>44.3125</open>
+    <high>47.8750</high>
+    <low>36.0000</low>
+    <close>38.0625</close>
+    <adjusted_close>21.6498</adjusted_close>
+    <volume>998090900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>38.5000</open>
+    <high>38.5000</high>
+    <low>29.8125</low>
+    <close>30.0625</close>
+    <adjusted_close>17.0994</adjusted_close>
+    <volume>1120692200</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>30.6875</open>
+    <high>38.5938</high>
+    <low>30.0000</low>
+    <close>37.0000</close>
+    <adjusted_close>21.0454</adjusted_close>
+    <volume>1211434900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>37.0625</open>
+    <high>38.2344</high>
+    <low>28.0000</low>
+    <close>28.5625</close>
+    <adjusted_close>16.2553</adjusted_close>
+    <volume>909408600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>28.2500</open>
+    <high>33.6875</high>
+    <low>24.5625</low>
+    <close>26.3125</close>
+    <adjusted_close>14.9748</adjusted_close>
+    <volume>1421494900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>26.0625</open>
+    <high>32.5700</high>
+    <low>22.2500</low>
+    <close>30.9100</close>
+    <adjusted_close>17.5913</adjusted_close>
+    <volume>1232602500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>30.7700</open>
+    <high>32.5000</high>
+    <low>26.4000</low>
+    <close>27.0100</close>
+    <adjusted_close>15.3814</adjusted_close>
+    <volume>966714700</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>27.2600</open>
+    <high>31.9300</high>
+    <low>26.1400</low>
+    <close>29.2500</close>
+    <adjusted_close>16.6570</adjusted_close>
+    <volume>1008249200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>29.5800</open>
+    <high>31.0000</high>
+    <low>27.0000</low>
+    <close>29.8100</close>
+    <adjusted_close>16.9759</adjusted_close>
+    <volume>965577600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>30.6200</open>
+    <high>32.2300</high>
+    <low>26.8800</low>
+    <close>27.9600</close>
+    <adjusted_close>15.9323</adjusted_close>
+    <volume>951559900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>27.5600</open>
+    <high>28.0900</high>
+    <low>18.9600</low>
+    <close>20.4400</close>
+    <adjusted_close>11.6472</adjusted_close>
+    <volume>1066764600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>20.2100</open>
+    <high>26.5000</high>
+    <low>19.0800</low>
+    <close>24.4200</close>
+    <adjusted_close>13.9151</adjusted_close>
+    <volume>1237428800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>24.5300</open>
+    <high>32.9900</high>
+    <low>24.2500</low>
+    <close>32.6600</close>
+    <adjusted_close>18.6247</adjusted_close>
+    <volume>1113379500</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>32.2900</open>
+    <high>34.8500</high>
+    <low>31.4100</low>
+    <close>31.4500</close>
+    <adjusted_close>17.9347</adjusted_close>
+    <volume>851932500</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>31.9000</open>
+    <high>36.7800</high>
+    <low>31.5600</low>
+    <close>35.0400</close>
+    <adjusted_close>19.9819</adjusted_close>
+    <volume>1104847100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>34.8200</open>
+    <high>35.0700</high>
+    <low>28.5000</low>
+    <close>28.5500</close>
+    <adjusted_close>16.2905</adjusted_close>
+    <volume>958632000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>29.0900</open>
+    <high>34.2500</high>
+    <low>28.9900</low>
+    <close>30.4100</close>
+    <adjusted_close>17.3518</adjusted_close>
+    <volume>923979300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>30.1400</open>
+    <high>31.4500</high>
+    <low>27.5100</low>
+    <close>28.6100</close>
+    <adjusted_close>16.3247</adjusted_close>
+    <volume>977552800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>28.5700</open>
+    <high>31.3600</high>
+    <low>25.5600</low>
+    <close>27.6200</close>
+    <adjusted_close>15.7712</adjusted_close>
+    <volume>976795600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>27.4300</open>
+    <high>28.2000</high>
+    <low>17.4500</low>
+    <close>18.2700</close>
+    <adjusted_close>10.4323</adjusted_close>
+    <volume>1334010600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>18.3500</open>
+    <high>19.8800</high>
+    <low>16.2600</low>
+    <close>18.7900</close>
+    <adjusted_close>10.7292</adjusted_close>
+    <volume>1507029200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>18.7200</open>
+    <high>19.6700</high>
+    <low>15.8200</low>
+    <close>16.6700</close>
+    <adjusted_close>9.5301</adjusted_close>
+    <volume>1182004600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>16.4700</open>
+    <high>17.0400</high>
+    <low>13.6700</low>
+    <close>13.8900</close>
+    <adjusted_close>7.9408</adjusted_close>
+    <volume>1253168200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>14.0500</open>
+    <high>17.5100</high>
+    <low>12.9500</low>
+    <close>17.3000</close>
+    <adjusted_close>9.8902</adjusted_close>
+    <volume>1881026700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>17.1000</open>
+    <high>21.3000</high>
+    <low>16.9100</low>
+    <close>20.8800</close>
+    <adjusted_close>11.9496</adjusted_close>
+    <volume>1250526600</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>21.8800</open>
+    <high>22.0900</high>
+    <low>15.4200</low>
+    <close>15.5700</close>
+    <adjusted_close>8.9107</adjusted_close>
+    <volume>1176184400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>16.0200</open>
+    <high>18.0100</high>
+    <low>15.1400</low>
+    <close>15.6600</close>
+    <adjusted_close>8.9622</adjusted_close>
+    <volume>1296861600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>15.6500</open>
+    <high>17.2900</high>
+    <low>14.8800</low>
+    <close>17.2500</close>
+    <adjusted_close>9.8848</adjusted_close>
+    <volume>972981900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>17.1300</open>
+    <high>19.0100</high>
+    <low>15.5900</low>
+    <close>16.2800</close>
+    <adjusted_close>9.3290</adjusted_close>
+    <volume>1292712700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>16.3800</open>
+    <high>19.5600</high>
+    <low>16.2800</low>
+    <close>18.4000</close>
+    <adjusted_close>10.5438</adjusted_close>
+    <volume>1222054300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>18.3700</open>
+    <high>21.0100</high>
+    <low>18.3000</low>
+    <close>20.8200</close>
+    <adjusted_close>11.9431</adjusted_close>
+    <volume>1286127600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>21.0000</open>
+    <high>22.9200</high>
+    <low>19.9900</low>
+    <close>20.8100</close>
+    <adjusted_close>11.9373</adjusted_close>
+    <volume>1356186800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>20.8700</open>
+    <high>25.5000</high>
+    <low>20.5100</low>
+    <close>24.8900</close>
+    <adjusted_close>14.2778</adjusted_close>
+    <volume>1431224400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>24.7800</open>
+    <high>29.0400</high>
+    <low>23.3300</low>
+    <close>28.5900</close>
+    <adjusted_close>16.4133</adjusted_close>
+    <volume>1148633000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>28.7700</open>
+    <high>29.3800</high>
+    <low>27.2200</low>
+    <close>27.5200</close>
+    <adjusted_close>15.7990</adjusted_close>
+    <volume>1165832900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>27.8200</open>
+    <high>33.2800</high>
+    <low>27.8100</low>
+    <close>32.9500</close>
+    <adjusted_close>18.9163</adjusted_close>
+    <volume>1220535000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>33.3300</open>
+    <high>34.5100</high>
+    <low>31.6600</low>
+    <close>33.5400</close>
+    <adjusted_close>19.2665</adjusted_close>
+    <volume>904543000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>33.8200</open>
+    <high>34.4000</high>
+    <low>29.6600</low>
+    <close>32.0500</close>
+    <adjusted_close>18.4106</adjusted_close>
+    <volume>1082622400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>32.3600</open>
+    <high>34.6000</high>
+    <low>30.3500</low>
+    <close>30.5200</close>
+    <adjusted_close>17.5317</adjusted_close>
+    <volume>1125545500</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>30.9000</open>
+    <high>31.4300</high>
+    <low>28.6500</low>
+    <close>29.2000</close>
+    <adjusted_close>16.7948</adjusted_close>
+    <volume>1096668000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>29.0400</open>
+    <high>30.1400</high>
+    <low>26.0300</low>
+    <close>27.2000</close>
+    <adjusted_close>15.6445</adjusted_close>
+    <volume>1699989600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>27.3700</open>
+    <high>28.5600</high>
+    <low>25.7200</low>
+    <close>25.7300</close>
+    <adjusted_close>14.7990</adjusted_close>
+    <volume>1377614900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>26.0500</open>
+    <high>28.9800</high>
+    <low>25.6100</low>
+    <close>28.5500</close>
+    <adjusted_close>16.4460</adjusted_close>
+    <volume>1195945600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>28.3700</open>
+    <high>29.0100</high>
+    <low>27.1300</low>
+    <close>27.6000</close>
+    <adjusted_close>15.8988</adjusted_close>
+    <volume>1025083900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>27.3900</open>
+    <high>27.4800</high>
+    <low>22.4600</low>
+    <close>24.3800</close>
+    <adjusted_close>14.0439</adjusted_close>
+    <volume>1685420600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>24.0400</open>
+    <high>24.9900</high>
+    <low>20.8600</low>
+    <close>21.2900</close>
+    <adjusted_close>12.2843</adjusted_close>
+    <volume>1268945500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>21.1000</open>
+    <high>21.7200</high>
+    <low>19.6400</low>
+    <close>20.0600</close>
+    <adjusted_close>11.5746</adjusted_close>
+    <volume>1564929800</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>20.3000</open>
+    <high>22.6100</high>
+    <low>20.2200</low>
+    <close>22.2600</close>
+    <adjusted_close>12.8440</adjusted_close>
+    <volume>1523801700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>22.1900</open>
+    <high>24.9900</high>
+    <low>22.1500</low>
+    <close>22.3800</close>
+    <adjusted_close>12.9361</adjusted_close>
+    <volume>1424847200</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>22.5000</open>
+    <high>24.5000</high>
+    <low>22.4400</low>
+    <close>23.3900</close>
+    <adjusted_close>13.5199</adjusted_close>
+    <volume>1490134800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>23.6400</open>
+    <high>23.7900</high>
+    <low>21.8900</low>
+    <close>22.4500</close>
+    <adjusted_close>12.9765</adjusted_close>
+    <volume>1589091300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>22.4900</open>
+    <high>24.6300</high>
+    <low>22.1700</low>
+    <close>23.9900</close>
+    <adjusted_close>13.9160</adjusted_close>
+    <volume>1420647100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>24.3600</open>
+    <high>25.4700</high>
+    <low>22.9600</low>
+    <close>23.2300</close>
+    <adjusted_close>13.4751</adjusted_close>
+    <volume>1362583000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>23.3400</open>
+    <high>23.9000</high>
+    <low>21.9400</low>
+    <close>23.5200</close>
+    <adjusted_close>13.6434</adjusted_close>
+    <volume>1365595400</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>23.5000</open>
+    <high>27.4000</high>
+    <low>23.3500</low>
+    <close>26.9600</close>
+    <adjusted_close>15.6915</adjusted_close>
+    <volume>1293616200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>26.8000</open>
+    <high>27.7500</high>
+    <low>25.7300</low>
+    <close>26.0200</close>
+    <adjusted_close>15.1444</adjusted_close>
+    <volume>1169082600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>26.2300</open>
+    <high>28.8400</high>
+    <low>26.0800</low>
+    <close>27.1400</close>
+    <adjusted_close>15.7963</adjusted_close>
+    <volume>1067827200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>27.2400</open>
+    <high>27.6600</high>
+    <low>25.3100</low>
+    <close>25.7200</close>
+    <adjusted_close>15.0134</adjusted_close>
+    <volume>994634900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>25.5800</open>
+    <high>26.1200</high>
+    <low>23.8000</low>
+    <close>24.6500</close>
+    <adjusted_close>14.3888</adjusted_close>
+    <volume>1085852500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>24.7400</open>
+    <high>24.9600</high>
+    <low>22.7500</low>
+    <close>23.5000</close>
+    <adjusted_close>13.7175</adjusted_close>
+    <volume>1165374500</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>23.1800</open>
+    <high>27.1500</high>
+    <low>22.5300</low>
+    <close>26.6800</close>
+    <adjusted_close>15.6272</adjusted_close>
+    <volume>1130819800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>26.9400</open>
+    <high>27.4900</high>
+    <low>24.8700</low>
+    <close>24.9600</close>
+    <adjusted_close>14.6198</adjusted_close>
+    <volume>1104580800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>25.1900</open>
+    <high>26.6300</high>
+    <low>21.1000</low>
+    <close>21.2600</close>
+    <adjusted_close>12.4526</adjusted_close>
+    <volume>1852525400</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>21.2400</open>
+    <high>21.6800</high>
+    <low>19.8800</low>
+    <close>20.6000</close>
+    <adjusted_close>12.1232</adjusted_close>
+    <volume>1590202000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>20.7300</open>
+    <high>21.0000</high>
+    <low>19.3100</low>
+    <close>19.4600</close>
+    <adjusted_close>11.4523</adjusted_close>
+    <volume>1935500400</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>19.6800</open>
+    <high>20.2700</high>
+    <low>18.6000</low>
+    <close>19.9800</close>
+    <adjusted_close>11.7583</adjusted_close>
+    <volume>1498496500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>20.0600</open>
+    <high>20.2200</high>
+    <low>17.7400</low>
+    <close>18.0200</close>
+    <adjusted_close>10.6593</adjusted_close>
+    <volume>1676106300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>18.0500</open>
+    <high>19.3600</high>
+    <low>16.7500</low>
+    <close>19.0000</close>
+    <adjusted_close>11.2389</adjusted_close>
+    <volume>1609055300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>19.2700</open>
+    <high>19.3900</high>
+    <low>16.8400</low>
+    <close>18.0000</close>
+    <adjusted_close>10.6474</adjusted_close>
+    <volume>1271383700</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>17.8900</open>
+    <high>20.0000</high>
+    <low>17.2200</low>
+    <close>19.5700</close>
+    <adjusted_close>11.6423</adjusted_close>
+    <volume>1287884000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>19.9000</open>
+    <high>20.9500</high>
+    <low>19.0300</low>
+    <close>20.5700</close>
+    <adjusted_close>12.2372</adjusted_close>
+    <volume>1396655300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>20.5600</open>
+    <high>22.0300</high>
+    <low>20.1700</low>
+    <close>21.3400</close>
+    <adjusted_close>12.6953</adjusted_close>
+    <volume>1587909000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>21.3700</open>
+    <high>22.5000</high>
+    <low>20.3200</low>
+    <close>21.4000</close>
+    <adjusted_close>12.7929</adjusted_close>
+    <volume>1182225800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>21.3200</open>
+    <high>21.4500</high>
+    <low>20.0300</low>
+    <close>20.2500</close>
+    <adjusted_close>12.1054</adjusted_close>
+    <volume>909179000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>20.4500</open>
+    <high>22.3000</high>
+    <low>20.1400</low>
+    <close>20.9600</close>
+    <adjusted_close>12.5298</adjusted_close>
+    <volume>1614851100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>20.9800</open>
+    <high>21.6700</high>
+    <low>19.8000</low>
+    <close>19.8600</close>
+    <adjusted_close>11.9358</adjusted_close>
+    <volume>1175995900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>19.5200</open>
+    <high>19.8000</high>
+    <low>18.7500</low>
+    <close>19.1300</close>
+    <adjusted_close>11.4970</adjusted_close>
+    <volume>1380681800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>19.1500</open>
+    <high>22.3000</high>
+    <low>19.0300</low>
+    <close>21.5000</close>
+    <adjusted_close>12.9214</adjusted_close>
+    <volume>1477884000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>21.5600</open>
+    <high>23.1400</high>
+    <low>21.4500</low>
+    <close>22.1800</close>
+    <adjusted_close>13.3991</adjusted_close>
+    <volume>1282004400</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>22.3400</open>
+    <high>24.4500</high>
+    <low>21.2900</low>
+    <close>23.7400</close>
+    <adjusted_close>14.3415</adjusted_close>
+    <volume>1332613900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>23.8800</open>
+    <high>26.5200</high>
+    <low>23.5300</low>
+    <close>23.6200</close>
+    <adjusted_close>14.2690</adjusted_close>
+    <volume>1499628800</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>23.5600</open>
+    <high>25.8000</high>
+    <low>22.0900</low>
+    <close>25.7500</close>
+    <adjusted_close>15.6285</adjusted_close>
+    <volume>1533784300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>25.8200</open>
+    <high>26.4300</high>
+    <low>24.6000</low>
+    <close>25.8600</close>
+    <adjusted_close>15.6952</adjusted_close>
+    <volume>1186023200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>26.0400</open>
+    <high>26.9800</high>
+    <low>25.1600</low>
+    <close>26.9000</close>
+    <adjusted_close>16.3264</adjusted_close>
+    <volume>1566472800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>26.7000</open>
+    <high>27.5400</high>
+    <low>24.3200</low>
+    <close>26.0800</close>
+    <adjusted_close>15.8958</adjusted_close>
+    <volume>1368224000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>26.0300</open>
+    <high>27.9900</high>
+    <low>25.3800</low>
+    <close>26.6600</close>
+    <adjusted_close>16.2493</adjusted_close>
+    <volume>943306700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>26.2800</open>
+    <high>26.3400</high>
+    <low>18.0500</low>
+    <close>21.1000</close>
+    <adjusted_close>12.8605</adjusted_close>
+    <volume>2466431600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>21.4000</open>
+    <high>21.8200</high>
+    <low>19.5000</low>
+    <close>19.9700</close>
+    <adjusted_close>12.2457</adjusted_close>
+    <volume>1461654100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>20.0600</open>
+    <high>22.4500</high>
+    <low>19.4400</low>
+    <close>21.1800</close>
+    <adjusted_close>12.9876</adjusted_close>
+    <volume>1355904700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>21.5100</open>
+    <high>23.0200</high>
+    <low>20.5000</low>
+    <close>22.2600</close>
+    <adjusted_close>13.6499</adjusted_close>
+    <volume>1281765800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>22.3600</open>
+    <high>25.2900</high>
+    <low>22.3600</low>
+    <close>23.1800</close>
+    <adjusted_close>14.2989</adjusted_close>
+    <volume>1143725900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>23.0500</open>
+    <high>24.0000</high>
+    <low>21.2200</low>
+    <close>21.4800</close>
+    <adjusted_close>13.2503</adjusted_close>
+    <volume>1135974600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>21.2900</open>
+    <high>22.6200</high>
+    <low>19.7100</low>
+    <close>22.1900</close>
+    <adjusted_close>13.6882</adjusted_close>
+    <volume>1379893000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>22.4200</open>
+    <high>24.7500</high>
+    <low>21.9800</low>
+    <close>22.8700</close>
+    <adjusted_close>14.1960</adjusted_close>
+    <volume>1085887300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>23.2700</open>
+    <high>23.4800</high>
+    <low>17.2700</low>
+    <close>18.7300</close>
+    <adjusted_close>11.6262</adjusted_close>
+    <volume>1623820500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>18.5000</open>
+    <high>18.6900</high>
+    <low>13.3700</low>
+    <close>16.0300</close>
+    <adjusted_close>9.9502</adjusted_close>
+    <volume>2340996600</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>16.1300</open>
+    <high>16.3900</high>
+    <low>12.0600</low>
+    <close>13.8000</close>
+    <adjusted_close>8.6404</adjusted_close>
+    <volume>1534106100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>13.4600</open>
+    <high>15.6800</high>
+    <low>12.3800</low>
+    <close>14.6600</close>
+    <adjusted_close>9.1789</adjusted_close>
+    <volume>1330676100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>14.6900</open>
+    <high>15.5100</high>
+    <low>12.5000</low>
+    <close>12.9000</close>
+    <adjusted_close>8.0769</adjusted_close>
+    <volume>1272188700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>12.8200</open>
+    <high>15.1500</high>
+    <low>12.0500</low>
+    <close>12.7400</close>
+    <adjusted_close>8.0589</adjusted_close>
+    <volume>1328263700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>12.5100</open>
+    <high>15.8900</high>
+    <low>12.0700</low>
+    <close>15.0300</close>
+    <adjusted_close>9.5075</adjusted_close>
+    <volume>1633445000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>14.7700</open>
+    <high>16.3900</high>
+    <low>14.6200</low>
+    <close>15.7800</close>
+    <adjusted_close>9.9819</adjusted_close>
+    <volume>1505340900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>15.7600</open>
+    <high>16.7400</high>
+    <low>15.0000</low>
+    <close>15.7200</close>
+    <adjusted_close>10.0282</adjusted_close>
+    <volume>1338935300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>16.0300</open>
+    <high>16.7000</high>
+    <low>15.6100</low>
+    <close>16.5500</close>
+    <adjusted_close>10.5577</adjusted_close>
+    <volume>1304048600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>16.6700</open>
+    <high>19.8000</high>
+    <low>15.7800</low>
+    <close>19.2500</close>
+    <adjusted_close>12.2801</adjusted_close>
+    <volume>1726189600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>19.4800</open>
+    <high>20.6500</high>
+    <low>18.4100</low>
+    <close>20.3200</close>
+    <adjusted_close>13.0573</adjusted_close>
+    <volume>1109221900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>20.2200</open>
+    <high>20.5800</high>
+    <low>19.2200</low>
+    <close>19.5700</close>
+    <adjusted_close>12.5753</adjusted_close>
+    <volume>1065272900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>19.4900</open>
+    <high>21.2700</high>
+    <low>18.7400</low>
+    <close>19.1100</close>
+    <adjusted_close>12.2797</adjusted_close>
+    <volume>1704082000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>19.0500</open>
+    <high>20.5000</high>
+    <low>18.3100</low>
+    <close>19.2000</close>
+    <adjusted_close>12.4317</adjusted_close>
+    <volume>1184437600</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>19.4600</open>
+    <high>20.7200</high>
+    <low>19.0000</low>
+    <close>20.4000</close>
+    <adjusted_close>13.2086</adjusted_close>
+    <volume>1038055000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>20.7900</open>
+    <high>21.5500</high>
+    <low>19.3000</low>
+    <close>19.4000</close>
+    <adjusted_close>12.5612</adjusted_close>
+    <volume>1509082400</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>19.4700</open>
+    <high>20.9700</high>
+    <low>18.9500</low>
+    <close>20.5300</close>
+    <adjusted_close>13.3991</adjusted_close>
+    <volume>1125494400</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>20.6800</open>
+    <high>22.7500</high>
+    <low>20.2600</low>
+    <close>22.2900</close>
+    <adjusted_close>14.5478</adjusted_close>
+    <volume>1290896200</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>22.4000</open>
+    <high>24.3700</high>
+    <low>22.1600</low>
+    <close>22.8400</close>
+    <adjusted_close>14.9068</adjusted_close>
+    <volume>1550379100</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>22.9800</open>
+    <high>23.4400</high>
+    <low>19.9000</low>
+    <close>21.4200</close>
+    <adjusted_close>14.0786</adjusted_close>
+    <volume>1830571300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>21.3000</open>
+    <high>22.0000</high>
+    <low>19.4000</low>
+    <close>19.4500</close>
+    <adjusted_close>12.7838</adjusted_close>
+    <volume>1364086200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>19.4300</open>
+    <high>22.2800</high>
+    <low>18.9600</low>
+    <close>20.6000</close>
+    <adjusted_close>13.5396</adjusted_close>
+    <volume>1607900800</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>20.9000</open>
+    <high>21.2800</high>
+    <low>17.6000</low>
+    <close>17.6700</close>
+    <adjusted_close>11.7025</adjusted_close>
+    <volume>1741791400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>17.9400</open>
+    <high>19.6200</high>
+    <low>17.7500</low>
+    <close>19.2000</close>
+    <adjusted_close>12.7157</adjusted_close>
+    <volume>1347521700</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>19.4700</open>
+    <high>20.5600</high>
+    <low>18.7700</low>
+    <close>20.0500</close>
+    <adjusted_close>13.2787</adjusted_close>
+    <volume>1399157800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>20.3500</open>
+    <high>21.8100</high>
+    <low>20.2200</low>
+    <close>21.1600</close>
+    <adjusted_close>14.1235</adjusted_close>
+    <volume>1126956500</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>21.4600</open>
+    <high>22.0700</high>
+    <low>20.6500</low>
+    <close>21.0300</close>
+    <adjusted_close>14.0367</adjusted_close>
+    <volume>920821000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>21.0100</open>
+    <high>21.9400</high>
+    <low>20.2700</low>
+    <close>21.4600</close>
+    <adjusted_close>14.3238</adjusted_close>
+    <volume>1449438700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>21.4900</open>
+    <high>22.2100</high>
+    <low>21.0100</low>
+    <close>21.4700</close>
+    <adjusted_close>14.4518</adjusted_close>
+    <volume>1002697600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>21.6100</open>
+    <high>22.0800</high>
+    <low>19.7100</low>
+    <close>20.1800</close>
+    <adjusted_close>13.5834</adjusted_close>
+    <volume>1330377500</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>20.3800</open>
+    <high>23.1900</high>
+    <low>19.3600</low>
+    <close>23.1500</close>
+    <adjusted_close>15.5826</adjusted_close>
+    <volume>1446913800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>23.0200</open>
+    <high>23.9600</high>
+    <low>22.1100</low>
+    <close>22.5100</close>
+    <adjusted_close>15.2708</adjusted_close>
+    <volume>1583498800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>22.4500</open>
+    <high>22.4800</high>
+    <low>21.0000</low>
+    <close>22.1600</close>
+    <adjusted_close>15.0333</adjusted_close>
+    <volume>1183643100</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>22.2100</open>
+    <high>23.3900</high>
+    <low>22.0800</low>
+    <close>22.3300</close>
+    <adjusted_close>15.1487</adjusted_close>
+    <volume>945313300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>22.5700</open>
+    <high>22.6900</high>
+    <low>19.1600</low>
+    <close>20.1300</close>
+    <adjusted_close>13.7895</adjusted_close>
+    <volume>1552667100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>20.2800</open>
+    <high>22.9800</high>
+    <low>19.1600</low>
+    <close>21.3400</close>
+    <adjusted_close>14.6184</adjusted_close>
+    <volume>1336431600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>21.1800</open>
+    <high>25.2000</high>
+    <low>20.4000</low>
+    <close>24.5400</close>
+    <adjusted_close>16.8105</adjusted_close>
+    <volume>1523540600</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>24.1100</open>
+    <high>25.5000</high>
+    <low>22.5100</low>
+    <close>24.9100</close>
+    <adjusted_close>17.2155</adjusted_close>
+    <volume>1137108100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>24.8700</open>
+    <high>25.7800</high>
+    <low>23.0500</low>
+    <close>24.2500</close>
+    <adjusted_close>16.7594</adjusted_close>
+    <volume>987696800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>24.6200</open>
+    <high>27.0000</high>
+    <low>24.3900</low>
+    <close>26.4200</close>
+    <adjusted_close>18.2591</adjusted_close>
+    <volume>1119898300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>26.7400</open>
+    <high>27.5000</high>
+    <low>26.3500</low>
+    <close>26.8800</close>
+    <adjusted_close>18.7255</adjusted_close>
+    <volume>782982800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>27.0600</open>
+    <high>28.4500</high>
+    <low>26.2000</low>
+    <close>28.1200</close>
+    <adjusted_close>19.5893</adjusted_close>
+    <volume>726544100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>28.0400</open>
+    <high>28.7800</high>
+    <low>27.2400</low>
+    <close>28.4000</close>
+    <adjusted_close>19.7843</adjusted_close>
+    <volume>747858300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>28.4700</open>
+    <high>29.2700</high>
+    <low>24.9200</low>
+    <close>25.8400</close>
+    <adjusted_close>18.1314</adjusted_close>
+    <volume>872560200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>25.4000</open>
+    <high>27.7500</high>
+    <low>24.8400</low>
+    <close>26.6500</close>
+    <adjusted_close>18.6998</adjusted_close>
+    <volume>789493000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>26.5100</open>
+    <high>26.8600</high>
+    <low>24.6800</low>
+    <close>25.7000</close>
+    <adjusted_close>18.0332</adjusted_close>
+    <volume>767755500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>25.8300</open>
+    <high>26.9000</high>
+    <low>24.1500</low>
+    <close>24.8300</close>
+    <adjusted_close>17.5754</adjusted_close>
+    <volume>753682300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>25.0300</open>
+    <high>25.1000</high>
+    <low>22.4800</low>
+    <close>22.6600</close>
+    <adjusted_close>16.0394</adjusted_close>
+    <volume>933236400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>22.7500</open>
+    <high>23.1700</high>
+    <low>21.2200</low>
+    <close>21.6300</close>
+    <adjusted_close>15.3103</adjusted_close>
+    <volume>1116041800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>21.7600</open>
+    <high>22.5400</high>
+    <low>19.2300</low>
+    <close>19.5700</close>
+    <adjusted_close>13.9949</adjusted_close>
+    <volume>1158066100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>19.8800</open>
+    <high>21.3100</high>
+    <low>19.5000</low>
+    <close>20.6200</close>
+    <adjusted_close>14.7458</adjusted_close>
+    <volume>805637100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>21.1500</open>
+    <high>23.0600</high>
+    <low>20.8800</low>
+    <close>21.0400</close>
+    <adjusted_close>15.0462</adjusted_close>
+    <volume>1220335600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>21.1900</open>
+    <high>21.3800</high>
+    <low>20.1000</low>
+    <close>20.8800</close>
+    <adjusted_close>15.0922</adjusted_close>
+    <volume>702460600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>20.7900</open>
+    <high>22.0400</high>
+    <low>20.6600</low>
+    <close>21.8400</close>
+    <adjusted_close>15.7861</adjusted_close>
+    <volume>755792900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>21.6700</open>
+    <high>24.0000</high>
+    <low>20.7500</low>
+    <close>23.9500</close>
+    <adjusted_close>17.3112</adjusted_close>
+    <volume>1251872500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>23.8200</open>
+    <high>24.7100</high>
+    <low>23.5800</low>
+    <close>24.2800</close>
+    <adjusted_close>17.7151</adjusted_close>
+    <volume>740062700</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>24.8800</open>
+    <high>25.9800</high>
+    <low>23.4100</low>
+    <close>24.2300</close>
+    <adjusted_close>17.6786</adjusted_close>
+    <volume>870588100</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>24.3500</open>
+    <high>24.4300</high>
+    <low>22.6300</low>
+    <close>23.3400</close>
+    <adjusted_close>17.0292</adjusted_close>
+    <volume>1016381600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>23.4100</open>
+    <high>23.4900</high>
+    <low>21.8900</low>
+    <close>21.9800</close>
+    <adjusted_close>16.1939</adjusted_close>
+    <volume>648993400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>22.2100</open>
+    <high>24.0900</high>
+    <low>21.9700</low>
+    <close>22.9200</close>
+    <adjusted_close>16.8864</adjusted_close>
+    <volume>645551600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>22.9400</open>
+    <high>24.7300</high>
+    <low>22.4800</low>
+    <close>24.4700</close>
+    <adjusted_close>18.0284</adjusted_close>
+    <volume>797993300</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>24.5100</open>
+    <high>25.2900</high>
+    <low>23.5000</low>
+    <close>23.8400</close>
+    <adjusted_close>17.7287</adjusted_close>
+    <volume>591599400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>24.0000</open>
+    <high>26.0400</high>
+    <low>23.4000</low>
+    <close>25.9600</close>
+    <adjusted_close>19.3052</adjusted_close>
+    <volume>614535900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>25.7800</open>
+    <high>27.1200</high>
+    <low>24.4000</low>
+    <close>24.5400</close>
+    <adjusted_close>18.2492</adjusted_close>
+    <volume>834053300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>24.5000</open>
+    <high>24.9800</high>
+    <low>23.5000</low>
+    <close>24.7600</close>
+    <adjusted_close>18.5884</adjusted_close>
+    <volume>510845400</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>24.5500</open>
+    <high>26.0600</high>
+    <low>24.3000</low>
+    <close>25.8100</close>
+    <adjusted_close>19.3767</adjusted_close>
+    <volume>587134100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>25.8000</open>
+    <high>27.2400</high>
+    <low>25.6400</low>
+    <close>26.6900</close>
+    <adjusted_close>20.0373</adjusted_close>
+    <volume>735615600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>26.5100</open>
+    <high>27.3200</high>
+    <low>25.7400</low>
+    <close>27.3200</close>
+    <adjusted_close>20.6866</adjusted_close>
+    <volume>491940100</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>27.3100</open>
+    <high>31.0000</high>
+    <low>27.1200</low>
+    <close>30.9000</close>
+    <adjusted_close>23.3973</adjusted_close>
+    <volume>761349300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>30.9900</open>
+    <high>34.8300</high>
+    <low>30.4400</low>
+    <close>33.8900</close>
+    <adjusted_close>25.6613</adjusted_close>
+    <volume>835570200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>33.7500</open>
+    <high>35.2000</high>
+    <low>32.3900</low>
+    <close>34.9200</close>
+    <adjusted_close>26.6171</adjusted_close>
+    <volume>593322200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>34.7600</open>
+    <high>35.5600</high>
+    <low>33.6300</low>
+    <close>34.8200</close>
+    <adjusted_close>26.5409</adjusted_close>
+    <volume>558097600</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>34.6100</open>
+    <high>34.7800</high>
+    <low>29.6500</low>
+    <close>34.0100</close>
+    <adjusted_close>25.9235</adjusted_close>
+    <volume>894696800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>33.8100</open>
+    <high>37.6900</high>
+    <low>33.0000</low>
+    <close>37.2500</close>
+    <adjusted_close>28.5793</adjusted_close>
+    <volume>562628200</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>37.2100</open>
+    <high>37.9000</high>
+    <low>35.3300</low>
+    <close>36.2900</close>
+    <adjusted_close>27.8427</adjusted_close>
+    <volume>600051700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>36.6700</open>
+    <high>37.4900</high>
+    <low>33.0000</low>
+    <close>33.0400</close>
+    <adjusted_close>25.3493</adjusted_close>
+    <volume>689892600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>33.0600</open>
+    <high>34.7500</high>
+    <low>32.6100</low>
+    <close>33.2500</close>
+    <adjusted_close>25.6934</adjusted_close>
+    <volume>456578100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>33.2900</open>
+    <high>34.5000</high>
+    <low>29.3100</low>
+    <close>31.2700</close>
+    <adjusted_close>24.1633</adjusted_close>
+    <volume>910690800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>31.1300</open>
+    <high>33.0400</high>
+    <low>30.4500</low>
+    <close>32.5500</close>
+    <adjusted_close>25.1524</adjusted_close>
+    <volume>568144200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>32.6300</open>
+    <high>34.7500</high>
+    <low>31.9300</low>
+    <close>34.4600</close>
+    <adjusted_close>26.8209</adjusted_close>
+    <volume>498672700</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>34.3700</open>
+    <high>34.5900</high>
+    <low>30.1500</low>
+    <close>30.4200</close>
+    <adjusted_close>23.6765</adjusted_close>
+    <volume>701953000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>30.4900</open>
+    <high>30.9200</high>
+    <low>27.6200</low>
+    <close>28.9500</close>
+    <adjusted_close>22.5324</adjusted_close>
+    <volume>829691000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>29.0000</open>
+    <high>29.6800</high>
+    <low>24.8700</low>
+    <close>28.5400</close>
+    <adjusted_close>22.3978</adjusted_close>
+    <volume>706404700</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>27.9100</open>
+    <high>30.3200</high>
+    <low>27.6600</low>
+    <close>30.1400</close>
+    <adjusted_close>23.6534</adjusted_close>
+    <volume>680884100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>30.2100</open>
+    <high>35.0300</high>
+    <low>29.4600</low>
+    <close>33.8600</close>
+    <adjusted_close>26.5729</adjusted_close>
+    <volume>703298300</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>33.7300</open>
+    <high>35.2900</high>
+    <low>31.9300</low>
+    <close>34.7700</close>
+    <adjusted_close>27.4792</adjusted_close>
+    <volume>459871400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>35.0000</open>
+    <high>35.5900</high>
+    <low>33.8200</low>
+    <close>34.4500</close>
+    <adjusted_close>27.2263</adjusted_close>
+    <volume>427664700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>33.8800</open>
+    <high>34.0100</high>
+    <low>29.2100</low>
+    <close>31.0200</close>
+    <adjusted_close>24.5155</adjusted_close>
+    <volume>615464900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>30.7200</open>
+    <high>31.1200</high>
+    <low>27.6800</low>
+    <close>29.5900</close>
+    <adjusted_close>23.5912</adjusted_close>
+    <volume>526508800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>29.9300</open>
+    <high>32.7500</high>
+    <low>29.7500</low>
+    <close>32.3500</close>
+    <adjusted_close>25.7917</adjusted_close>
+    <volume>471958200</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>32.2700</open>
+    <high>32.4700</high>
+    <low>30.1000</low>
+    <close>30.2800</close>
+    <adjusted_close>24.1413</adjusted_close>
+    <volume>515836800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>30.4500</open>
+    <high>31.6500</high>
+    <low>29.5000</low>
+    <close>31.5900</close>
+    <adjusted_close>25.4033</adjusted_close>
+    <volume>431523200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>31.6200</open>
+    <high>33.0000</high>
+    <low>30.4400</low>
+    <close>32.8000</close>
+    <adjusted_close>26.3763</adjusted_close>
+    <volume>484891000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>32.6400</open>
+    <high>35.9300</high>
+    <low>32.3800</low>
+    <close>34.8600</close>
+    <adjusted_close>28.0329</adjusted_close>
+    <volume>530528900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>34.8200</open>
+    <high>35.9000</high>
+    <low>33.9900</low>
+    <close>35.8900</close>
+    <adjusted_close>29.0800</adjusted_close>
+    <volume>390892300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>35.9900</open>
+    <high>38.0500</high>
+    <low>35.0600</low>
+    <close>37.7500</close>
+    <adjusted_close>30.5870</adjusted_close>
+    <volume>505600300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>37.6900</open>
+    <high>38.3600</high>
+    <low>34.7100</low>
+    <close>34.8700</close>
+    <adjusted_close>28.2535</adjusted_close>
+    <volume>471649900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>34.9000</open>
+    <high>35.6600</high>
+    <low>33.4200</low>
+    <close>34.7000</close>
+    <adjusted_close>28.3286</adjusted_close>
+    <volume>412448100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>34.8600</open>
+    <high>37.3500</high>
+    <low>33.5600</low>
+    <close>36.2700</close>
+    <adjusted_close>29.6104</adjusted_close>
+    <volume>405906200</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>36.6100</open>
+    <high>38.4500</high>
+    <low>36.1900</low>
+    <close>36.8200</close>
+    <adjusted_close>30.0594</adjusted_close>
+    <volume>456335100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>36.8200</open>
+    <high>36.9500</high>
+    <low>34.8400</low>
+    <close>36.2000</close>
+    <adjusted_close>29.7642</adjusted_close>
+    <volume>477551300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>35.8500</open>
+    <high>36.3000</high>
+    <low>34.6600</low>
+    <close>36.0700</close>
+    <adjusted_close>29.6573</adjusted_close>
+    <volume>546151800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>36.1900</open>
+    <high>37.5000</high>
+    <low>35.2100</low>
+    <close>36.1500</close>
+    <adjusted_close>29.7231</adjusted_close>
+    <volume>444122200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>36.1100</open>
+    <high>37.1700</high>
+    <low>35.0200</low>
+    <close>36.1100</close>
+    <adjusted_close>29.9111</adjusted_close>
+    <volume>432927300</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>36.1200</open>
+    <high>36.5700</high>
+    <low>33.3400</low>
+    <close>33.7400</close>
+    <adjusted_close>27.9479</adjusted_close>
+    <volume>499455600</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>33.5100</open>
+    <high>35.8600</high>
+    <low>33.2300</low>
+    <close>35.4700</close>
+    <adjusted_close>29.3810</adjusted_close>
+    <volume>440860400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>35.6600</open>
+    <high>36.7000</high>
+    <low>34.3800</low>
+    <close>35.0700</close>
+    <adjusted_close>29.2677</adjusted_close>
+    <volume>497303200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>35.2400</open>
+    <high>38.1500</high>
+    <low>34.9300</low>
+    <close>38.0800</close>
+    <adjusted_close>31.7797</adjusted_close>
+    <volume>431948900</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>38.1200</open>
+    <high>45.8000</high>
+    <low>38.0800</low>
+    <close>45.4900</close>
+    <adjusted_close>37.9637</adjusted_close>
+    <volume>633392500</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>45.9700</open>
+    <high>47.3000</high>
+    <low>43.7700</low>
+    <close>44.8400</close>
+    <adjusted_close>37.6430</adjusted_close>
+    <volume>579910400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>44.7300</open>
+    <high>47.6400</high>
+    <low>42.6700</low>
+    <close>46.1600</close>
+    <adjusted_close>38.7511</adjusted_close>
+    <volume>559756900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>46.3800</open>
+    <high>50.8500</high>
+    <low>42.4400</low>
+    <close>48.1400</close>
+    <adjusted_close>40.4133</adjusted_close>
+    <volume>910041000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>47.7000</open>
+    <high>50.9000</high>
+    <low>42.0400</low>
+    <close>49.2900</close>
+    <adjusted_close>41.6595</adjusted_close>
+    <volume>608494100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>49.5000</open>
+    <high>53.7800</high>
+    <low>46.9600</low>
+    <close>52.0800</close>
+    <adjusted_close>44.0176</adjusted_close>
+    <volume>710899300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>51.6900</open>
+    <high>55.7900</high>
+    <low>47.2900</low>
+    <close>51.6200</close>
+    <adjusted_close>43.6288</adjusted_close>
+    <volume>666315000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>51.6400</open>
+    <high>56.2000</high>
+    <low>51.0000</low>
+    <close>55.2000</close>
+    <adjusted_close>46.9238</adjusted_close>
+    <volume>486323900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>55.8400</open>
+    <high>57.6000</high>
+    <low>48.5000</low>
+    <close>49.7100</close>
+    <adjusted_close>42.2569</adjusted_close>
+    <volume>638342400</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>49.0400</open>
+    <high>53.3000</high>
+    <low>46.4300</low>
+    <close>48.1000</close>
+    <adjusted_close>40.8883</adjusted_close>
+    <volume>479303100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>48.0600</open>
+    <high>50.6000</high>
+    <low>46.1900</low>
+    <close>48.4300</close>
+    <adjusted_close>41.4192</adjusted_close>
+    <volume>516977100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>48.3800</open>
+    <high>48.4300</high>
+    <low>44.0600</low>
+    <close>47.2900</close>
+    <adjusted_close>40.4442</adjusted_close>
+    <volume>462762400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>46.7900</open>
+    <high>49.7200</high>
+    <low>42.3600</low>
+    <close>46.8800</close>
+    <adjusted_close>40.0936</adjusted_close>
+    <volume>782226900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>46.9500</open>
+    <high>49.3200</high>
+    <low>46.5200</low>
+    <close>49.3100</close>
+    <adjusted_close>42.4372</adjusted_close>
+    <volume>552786700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>50.0000</open>
+    <high>50.5000</high>
+    <low>43.5100</low>
+    <close>46.9300</close>
+    <adjusted_close>40.3890</adjusted_close>
+    <volume>565278100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>45.9600</open>
+    <high>50.0400</high>
+    <low>44.3900</low>
+    <close>47.1200</close>
+    <adjusted_close>40.5525</adjusted_close>
+    <volume>620374700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>47.0600</open>
+    <high>53.6100</high>
+    <low>47.0100</low>
+    <close>52.9600</close>
+    <adjusted_close>45.8674</adjusted_close>
+    <volume>410236000</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>53.4400</open>
+    <high>54.9900</high>
+    <low>51.7000</low>
+    <close>53.7000</close>
+    <adjusted_close>46.5083</adjusted_close>
+    <volume>435022900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>54.3400</open>
+    <high>59.5900</high>
+    <low>50.8700</low>
+    <close>51.0400</close>
+    <adjusted_close>44.2045</adjusted_close>
+    <volume>472425200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>51.1000</open>
+    <high>51.8200</high>
+    <low>42.8600</low>
+    <close>44.0400</close>
+    <adjusted_close>38.3756</adjusted_close>
+    <volume>637861500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>44.2500</open>
+    <high>48.4800</high>
+    <low>43.2000</low>
+    <close>47.8700</close>
+    <adjusted_close>41.7130</adjusted_close>
+    <volume>416046000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>49.2900</open>
+    <high>53.5000</high>
+    <low>47.0700</low>
+    <close>50.5500</close>
+    <adjusted_close>44.0483</adjusted_close>
+    <volume>431034400</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>50.5200</open>
+    <high>51.8900</high>
+    <low>44.8000</low>
+    <close>47.4100</close>
+    <adjusted_close>41.5911</adjusted_close>
+    <volume>531370100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>47.1200</open>
+    <high>53.3300</high>
+    <low>46.5000</low>
+    <close>51.5300</close>
+    <adjusted_close>45.2054</adjusted_close>
+    <volume>387955800</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>51.9700</open>
+    <high>57.2400</high>
+    <low>48.5300</low>
+    <close>56.5300</close>
+    <adjusted_close>49.5917</adjusted_close>
+    <volume>438267300</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>55.9400</open>
+    <high>59.1300</high>
+    <low>55.6200</low>
+    <close>58.0500</close>
+    <adjusted_close>51.2054</adjusted_close>
+    <volume>319751400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>58.5500</open>
+    <high>60.4800</high>
+    <low>55.7500</low>
+    <close>59.8500</close>
+    <adjusted_close>52.7932</adjusted_close>
+    <volume>419629000</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>60.2400</open>
+    <high>69.2900</high>
+    <low>58.5200</low>
+    <close>63.9300</close>
+    <adjusted_close>56.3921</adjusted_close>
+    <volume>534150100</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>64.4600</open>
+    <high>68.0900</high>
+    <low>53.6000</low>
+    <close>55.5200</close>
+    <adjusted_close>49.2149</adjusted_close>
+    <volume>441506700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>55.7900</open>
+    <high>59.0200</high>
+    <low>43.6300</low>
+    <close>54.1200</close>
+    <adjusted_close>47.9739</adjusted_close>
+    <volume>961035400</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>52.5000</open>
+    <high>62.1300</high>
+    <low>51.2200</low>
+    <close>59.9800</close>
+    <adjusted_close>53.1684</adjusted_close>
+    <volume>617557900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>58.8300</open>
+    <high>64.1400</high>
+    <low>56.1000</low>
+    <close>62.9300</close>
+    <adjusted_close>56.0985</adjusted_close>
+    <volume>409253500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>62.4900</open>
+    <high>65.1100</high>
+    <low>56.7600</low>
+    <close>59.8300</close>
+    <adjusted_close>53.3351</adjusted_close>
+    <volume>570572500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>59.9100</open>
+    <high>61.9300</high>
+    <low>46.9700</low>
+    <close>47.7300</close>
+    <adjusted_close>42.5486</adjusted_close>
+    <volume>808654500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>48.2700</open>
+    <high>51.5000</high>
+    <low>47.7000</low>
+    <close>50.9500</close>
+    <adjusted_close>45.7275</adjusted_close>
+    <volume>667321500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>50.9100</open>
+    <high>52.6800</high>
+    <low>48.4200</low>
+    <close>51.7800</close>
+    <adjusted_close>46.4724</adjusted_close>
+    <volume>680429800</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>52.4000</open>
+    <high>56.2300</high>
+    <low>43.6100</low>
+    <close>44.2800</close>
+    <adjusted_close>39.7412</adjusted_close>
+    <volume>738437500</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>44.9600</open>
+    <high>48.5000</high>
+    <low>44.2400</low>
+    <close>48.3500</close>
+    <adjusted_close>43.7096</adjusted_close>
+    <volume>676942800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>48.7500</open>
+    <high>52.6500</high>
+    <low>45.2400</low>
+    <close>49.8200</close>
+    <adjusted_close>45.0385</adjusted_close>
+    <volume>883810300</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>49.8900</open>
+    <high>63.9500</high>
+    <low>49.3300</low>
+    <close>55.5100</close>
+    <adjusted_close>50.1824</adjusted_close>
+    <volume>962555600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>55.9500</open>
+    <high>63.5400</high>
+    <low>55.7100</low>
+    <close>60.7800</close>
+    <adjusted_close>55.2802</adjusted_close>
+    <volume>511339300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>61.7200</open>
+    <high>67.4400</high>
+    <low>57.9100</low>
+    <close>64.0000</close>
+    <adjusted_close>58.2088</adjusted_close>
+    <volume>770803800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>64.7200</open>
+    <high>68.4900</high>
+    <low>57.0700</low>
+    <close>57.5300</close>
+    <adjusted_close>52.3243</adjusted_close>
+    <volume>654934800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>57.8600</open>
+    <high>58.0100</high>
+    <low>53.4200</low>
+    <close>57.1200</close>
+    <adjusted_close>52.2713</adjusted_close>
+    <volume>495384200</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>57.6100</open>
+    <high>58.4200</high>
+    <low>55.1000</low>
+    <close>56.1400</close>
+    <adjusted_close>51.3745</adjusted_close>
+    <volume>511873100</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>56.1300</open>
+    <high>57.4600</high>
+    <low>52.3100</low>
+    <close>53.7200</close>
+    <adjusted_close>49.1599</adjusted_close>
+    <volume>516953700</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>53.9900</open>
+    <high>54.8700</high>
+    <low>51.4200</low>
+    <close>54.0600</close>
+    <adjusted_close>49.7926</adjusted_close>
+    <volume>402375000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>54.1100</open>
+    <high>55.4900</high>
+    <low>52.3200</low>
+    <close>53.2800</close>
+    <adjusted_close>49.0741</adjusted_close>
+    <volume>413346700</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>53.6500</open>
+    <high>56.0700</high>
+    <low>47.8700</low>
+    <close>49.0000</close>
+    <adjusted_close>45.1320</adjusted_close>
+    <volume>672042200</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>49.4000</open>
+    <high>51.9900</high>
+    <low>48.1200</low>
+    <close>49.2000</close>
+    <adjusted_close>45.6313</adjusted_close>
+    <volume>617076700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>49.8400</open>
+    <high>55.0000</high>
+    <low>48.3300</low>
+    <close>51.5000</close>
+    <adjusted_close>47.7645</adjusted_close>
+    <volume>714651800</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>51.6500</open>
+    <high>56.2800</high>
+    <low>46.3000</low>
+    <close>48.8200</close>
+    <adjusted_close>45.2789</adjusted_close>
+    <volume>890542800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>48.7800</open>
+    <high>49.9700</high>
+    <low>43.6300</low>
+    <close>47.7000</close>
+    <adjusted_close>44.5772</adjusted_close>
+    <volume>756814900</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>47.5400</open>
+    <high>52.5100</high>
+    <low>44.0700</low>
+    <close>49.5600</close>
+    <adjusted_close>46.3154</adjusted_close>
+    <volume>849288700</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>49.8300</open>
+    <high>49.9000</high>
+    <low>43.5000</low>
+    <close>43.5900</close>
+    <adjusted_close>40.7362</adjusted_close>
+    <volume>639472500</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>43.7200</open>
+    <high>46.6400</high>
+    <low>40.3100</low>
+    <close>44.4200</close>
+    <adjusted_close>41.8400</adjusted_close>
+    <volume>773236800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>44.7700</open>
+    <high>44.9300</high>
+    <low>36.6000</low>
+    <close>37.4100</close>
+    <adjusted_close>35.2372</adjusted_close>
+    <volume>783353000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>37.0900</open>
+    <high>40.7300</high>
+    <low>35.2400</low>
+    <close>36.3100</close>
+    <adjusted_close>34.2011</adjusted_close>
+    <volume>792918100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>36.0500</open>
+    <high>37.6900</high>
+    <low>31.7700</low>
+    <close>31.9200</close>
+    <adjusted_close>30.3696</adjusted_close>
+    <volume>899717100</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>31.5700</open>
+    <high>32.3800</high>
+    <low>25.7400</low>
+    <close>25.7700</close>
+    <adjusted_close>24.5183</adjusted_close>
+    <volume>889075300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>26.3300</open>
+    <high>29.2200</high>
+    <low>24.5900</low>
+    <close>28.4300</close>
+    <adjusted_close>27.0491</adjusted_close>
+    <volume>981043600</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>28.8000</open>
+    <high>31.3400</high>
+    <low>27.1700</low>
+    <close>30.0700</close>
+    <adjusted_close>28.9958</adjusted_close>
+    <volume>788916300</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>30.2400</open>
+    <high>30.4800</high>
+    <low>25.3500</low>
+    <close>26.4300</close>
+    <adjusted_close>25.4859</adjusted_close>
+    <volume>758549700</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>27.0500</open>
+    <high>30.4900</high>
+    <low>26.3700</low>
+    <close>28.2600</close>
+    <adjusted_close>27.2505</adjusted_close>
+    <volume>840843300</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>27.8900</open>
+    <high>31.1700</high>
+    <low>24.7300</low>
+    <close>24.9300</close>
+    <adjusted_close>24.3324</adjusted_close>
+    <volume>880323200</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>25.0300</open>
+    <high>32.9000</high>
+    <low>24.9700</low>
+    <close>32.6700</close>
+    <adjusted_close>31.8868</adjusted_close>
+    <volume>1193573500</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>32.9400</open>
+    <high>33.8400</high>
+    <low>28.5100</low>
+    <close>31.0600</close>
+    <adjusted_close>30.3154</adjusted_close>
+    <volume>728910000</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>31.1100</open>
+    <high>32.2900</high>
+    <low>26.8600</low>
+    <close>31.4400</close>
+    <adjusted_close>30.8120</adjusted_close>
+    <volume>968066700</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>31.8000</open>
+    <high>37.1100</high>
+    <low>29.7000</low>
+    <close>33.4400</close>
+    <adjusted_close>32.7720</adjusted_close>
+    <volume>1065468900</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>33.5400</open>
+    <high>37.1900</high>
+    <low>31.3800</low>
+    <close>35.7700</close>
+    <adjusted_close>35.0555</adjusted_close>
+    <volume>791768500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>35.8200</open>
+    <high>36.0200</high>
+    <low>32.0200</low>
+    <close>35.1400</close>
+    <adjusted_close>34.5619</adjusted_close>
+    <volume>716076000</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>35.7900</open>
+    <high>40.0700</high>
+    <low>33.6400</low>
+    <close>35.5500</close>
+    <adjusted_close>34.9652</adjusted_close>
+    <volume>841397800</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>35.6100</open>
+    <high>37.2200</high>
+    <low>32.1500</low>
+    <close>36.5000</close>
+    <adjusted_close>35.8996</adjusted_close>
+    <volume>795476300</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>36.5000</open>
+    <high>45.3400</high>
+    <low>36.2800</low>
+    <close>44.7000</close>
+    <adjusted_close>44.1093</adjusted_close>
+    <volume>807901900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>44.3600</open>
+    <high>51.2800</high>
+    <low>41.1700</low>
+    <close>50.2500</close>
+    <adjusted_close>49.5859</adjusted_close>
+    <volume>829551100</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>49.2000</open>
+    <high>50.3000</high>
+    <low>42.3600</low>
+    <close>43.0800</close>
+    <adjusted_close>42.5107</adjusted_close>
+    <volume>1002867500</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>43.1500</open>
+    <high>45.2700</high>
+    <low>41.6000</low>
+    <close>43.0500</close>
+    <adjusted_close>42.6056</adjusted_close>
+    <volume>815630800</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>43.4100</open>
+    <high>46.6300</high>
+    <low>40.5700</low>
+    <close>44.1700</close>
+    <adjusted_close>43.7140</adjusted_close>
+    <volume>949239600</volume>
+    <news>INTC Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>44.2900</open>
+    <high>45.4100</high>
+    <low>30.4200</low>
+    <close>30.4700</close>
+    <adjusted_close>30.1554</adjusted_close>
+    <volume>1262774700</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>30.1700</open>
+    <high>32.4200</high>
+    <low>29.7300</low>
+    <close>30.8500</close>
+    <adjusted_close>30.6555</adjusted_close>
+    <volume>1024217800</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>31.0300</open>
+    <high>31.4800</high>
+    <low>29.9400</low>
+    <close>30.9700</close>
+    <adjusted_close>30.7748</adjusted_close>
+    <volume>751509700</volume>
+    <news>INTC Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>30.9100</open>
+    <high>37.1600</high>
+    <low>30.0100</low>
+    <close>30.7400</close>
+    <adjusted_close>30.5462</adjusted_close>
+    <volume>1187303500</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>30.4300</open>
+    <high>30.7100</high>
+    <low>18.8400</low>
+    <close>22.0400</close>
+    <adjusted_close>22.0400</adjusted_close>
+    <volume>2013019200</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>21.5400</open>
+    <high>24.6600</high>
+    <low>18.5100</low>
+    <close>23.4600</close>
+    <adjusted_close>23.4600</adjusted_close>
+    <volume>2132943300</volume>
+    <news>INTC Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>23.4600</open>
+    <high>23.8200</high>
+    <low>21.4700</low>
+    <close>21.5200</close>
+    <adjusted_close>21.5200</adjusted_close>
+    <volume>1274330900</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>23.0000</open>
+    <high>26.4300</high>
+    <low>21.9100</low>
+    <close>24.0500</close>
+    <adjusted_close>24.0500</adjusted_close>
+    <volume>1435238600</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>24.8400</open>
+    <high>25.4800</high>
+    <low>18.9000</low>
+    <close>20.0500</close>
+    <adjusted_close>20.0500</adjusted_close>
+    <volume>1681318400</volume>
+    <news>INTC Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</intel_stock_data>

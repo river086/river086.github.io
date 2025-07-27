@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ibm_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>107.4928</open>
+    <high>119.2639</high>
+    <low>104.8040</low>
+    <close>107.3136</close>
+    <adjusted_close>56.2416</adjusted_close>
+    <volume>183321540</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>107.4331</open>
+    <high>114.4837</high>
+    <low>96.4986</low>
+    <close>98.2314</close>
+    <adjusted_close>51.5359</adjusted_close>
+    <volume>139666521</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>97.5143</open>
+    <high>122.6099</high>
+    <low>95.1243</low>
+    <close>113.1692</close>
+    <adjusted_close>59.3729</adjusted_close>
+    <volume>203268134</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>114.7228</open>
+    <high>122.3709</high>
+    <low>96.7973</low>
+    <close>106.5966</close>
+    <adjusted_close>55.9246</adjusted_close>
+    <volume>176214181</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>107.5526</open>
+    <high>108.6281</high>
+    <low>97.5143</low>
+    <close>102.5932</close>
+    <adjusted_close>53.8892</adjusted_close>
+    <volume>129498146</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>102.8322</open>
+    <high>116.9336</high>
+    <low>100.8604</low>
+    <close>104.7443</close>
+    <adjusted_close>55.0191</adjusted_close>
+    <volume>142482251</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>103.9675</open>
+    <high>112.6315</high>
+    <low>95.6023</low>
+    <close>107.3136</close>
+    <adjusted_close>56.3687</adjusted_close>
+    <volume>157036395</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>107.0746</open>
+    <high>128.3461</high>
+    <low>105.4015</low>
+    <close>126.2100</close>
+    <adjusted_close>66.3686</adjusted_close>
+    <volume>127609906</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>127.2108</open>
+    <high>129.0033</high>
+    <low>105.4015</low>
+    <close>107.6721</close>
+    <adjusted_close>56.6203</adjusted_close>
+    <volume>112411947</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>107.6721</open>
+    <high>114.3642</high>
+    <low>83.1142</low>
+    <close>94.1683</close>
+    <adjusted_close>49.5192</adjusted_close>
+    <volume>233791458</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>94.1085</open>
+    <high>99.7849</high>
+    <low>87.5956</low>
+    <close>89.3881</close>
+    <adjusted_close>47.0653</adjusted_close>
+    <volume>136410847</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>90.2844</open>
+    <high>100.1434</high>
+    <low>76.5416</low>
+    <close>81.2619</close>
+    <adjusted_close>42.7867</adjusted_close>
+    <volume>175509074</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>80.7839</open>
+    <high>111.6157</high>
+    <low>80.0669</low>
+    <close>107.0746</close>
+    <adjusted_close>56.3777</adjusted_close>
+    <volume>208114878</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>107.4570</open>
+    <high>113.4226</high>
+    <low>94.7419</low>
+    <close>95.5067</close>
+    <adjusted_close>50.3442</adjusted_close>
+    <volume>163635088</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>94.9331</open>
+    <high>103.6329</high>
+    <low>83.7954</low>
+    <close>91.9503</close>
+    <adjusted_close>48.4696</adjusted_close>
+    <volume>266259300</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>93.1644</open>
+    <high>112.8585</high>
+    <low>86.0899</low>
+    <close>110.0765</close>
+    <adjusted_close>58.0244</adjusted_close>
+    <volume>236616603</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>110.7553</open>
+    <high>114.6272</high>
+    <low>106.0803</low>
+    <close>106.8834</close>
+    <adjusted_close>56.4093</adjusted_close>
+    <volume>166686584</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>107.5526</open>
+    <high>113.7667</high>
+    <low>106.2141</low>
+    <close>108.5086</close>
+    <adjusted_close>57.2671</adjusted_close>
+    <volume>149504465</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>108.5086</open>
+    <high>110.3251</high>
+    <low>97.0937</low>
+    <close>100.5832</close>
+    <adjusted_close>53.0843</adjusted_close>
+    <volume>168423156</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>100.7170</open>
+    <high>105.2486</high>
+    <low>94.5124</low>
+    <close>95.5545</close>
+    <adjusted_close>50.4969</adjusted_close>
+    <volume>149997969</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>95.7457</open>
+    <high>98.5946</high>
+    <low>83.6424</low>
+    <close>87.6864</close>
+    <adjusted_close>46.3389</adjusted_close>
+    <volume>198020876</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>87.6864</open>
+    <high>107.1702</high>
+    <low>87.3231</low>
+    <close>103.3174</close>
+    <adjusted_close>54.5993</adjusted_close>
+    <volume>234671667</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>102.5335</open>
+    <high>111.8547</high>
+    <low>102.1989</low>
+    <close>110.5067</close>
+    <adjusted_close>58.4706</adjusted_close>
+    <volume>141352568</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>109.7514</open>
+    <high>119.2161</high>
+    <low>108.2314</low>
+    <close>115.6405</close>
+    <adjusted_close>61.1870</adjusted_close>
+    <volume>139529912</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>115.2964</open>
+    <high>120.8317</high>
+    <low>96.5583</low>
+    <close>103.1453</close>
+    <adjusted_close>54.5756</adjusted_close>
+    <volume>202466792</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>102.9063</open>
+    <high>104.4933</high>
+    <low>91.5488</low>
+    <close>93.8050</close>
+    <adjusted_close>49.6989</adjusted_close>
+    <volume>180247765</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>94.2639</open>
+    <high>104.0631</high>
+    <low>94.1683</low>
+    <close>99.4264</close>
+    <adjusted_close>52.6772</adjusted_close>
+    <volume>158226850</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>99.4264</open>
+    <high>99.4264</high>
+    <low>79.6749</low>
+    <close>80.0765</close>
+    <adjusted_close>42.4254</adjusted_close>
+    <volume>257842453</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>80.1625</open>
+    <high>82.6864</high>
+    <low>72.5813</low>
+    <close>76.9120</close>
+    <adjusted_close>40.8289</adjusted_close>
+    <volume>180684368</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>77.1989</open>
+    <high>77.3901</high>
+    <low>63.1931</low>
+    <close>68.8336</close>
+    <adjusted_close>36.5405</adjusted_close>
+    <volume>199765814</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>68.8432</open>
+    <high>70.9369</high>
+    <low>62.8107</low>
+    <close>67.3040</close>
+    <adjusted_close>35.7285</adjusted_close>
+    <volume>257584716</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>67.3040</open>
+    <high>79.2065</high>
+    <low>62.9541</low>
+    <close>72.0650</close>
+    <adjusted_close>38.3406</adjusted_close>
+    <volume>173973126</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>70.9369</open>
+    <high>74.0918</high>
+    <low>55.4398</low>
+    <close>55.7457</close>
+    <adjusted_close>29.6583</adjusted_close>
+    <volume>194204963</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>56.5966</open>
+    <high>76.2811</high>
+    <low>51.6348</low>
+    <close>75.4685</close>
+    <adjusted_close>40.1513</adjusted_close>
+    <volume>298765110</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>75.4302</open>
+    <high>84.2352</high>
+    <low>73.3270</low>
+    <close>83.0975</close>
+    <adjusted_close>44.2915</adjusted_close>
+    <volume>192922252</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>84.7036</open>
+    <high>85.5258</high>
+    <low>72.2753</low>
+    <close>74.0918</close>
+    <adjusted_close>39.4914</adjusted_close>
+    <volume>158535421</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>75.3346</open>
+    <high>85.0382</high>
+    <low>73.6329</low>
+    <close>74.7610</close>
+    <adjusted_close>39.8481</adjusted_close>
+    <volume>202854441</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>74.7610</open>
+    <high>76.5296</high>
+    <low>71.0421</low>
+    <close>74.5220</close>
+    <adjusted_close>39.7980</adjusted_close>
+    <volume>152373642</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>75.4302</open>
+    <high>81.1664</high>
+    <low>69.9522</low>
+    <close>74.9809</close>
+    <adjusted_close>40.0430</adjusted_close>
+    <volume>200766311</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>75.0478</open>
+    <high>82.6864</high>
+    <low>74.6845</low>
+    <close>81.1664</close>
+    <adjusted_close>43.3464</adjusted_close>
+    <volume>186056518</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>81.5488</open>
+    <high>86.4245</high>
+    <low>80.7361</low>
+    <close>84.1683</close>
+    <adjusted_close>45.0318</adjusted_close>
+    <volume>156427206</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>85.0860</open>
+    <high>85.1625</high>
+    <low>76.3002</low>
+    <close>78.8719</close>
+    <adjusted_close>42.1982</adjusted_close>
+    <volume>192974761</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>77.8203</open>
+    <high>83.2027</high>
+    <low>77.0363</low>
+    <close>77.6769</close>
+    <adjusted_close>41.5588</adjusted_close>
+    <volume>160995717</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>77.5813</open>
+    <high>80.9943</high>
+    <low>75.2677</low>
+    <close>78.4034</close>
+    <adjusted_close>42.0318</adjusted_close>
+    <volume>119134378</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>78.7763</open>
+    <high>89.3595</high>
+    <low>78.6807</low>
+    <close>84.4455</close>
+    <adjusted_close>45.2709</adjusted_close>
+    <volume>179852483</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>84.8470</open>
+    <high>90.3824</high>
+    <low>83.6807</low>
+    <close>85.5449</close>
+    <adjusted_close>45.8603</adjusted_close>
+    <volume>163328087</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>85.9465</open>
+    <high>87.4570</high>
+    <low>83.8623</low>
+    <close>86.5583</close>
+    <adjusted_close>46.4876</adjusted_close>
+    <volume>102472540</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>86.9025</open>
+    <high>89.9809</high>
+    <low>86.0707</low>
+    <close>88.6042</close>
+    <adjusted_close>47.5864</adjusted_close>
+    <volume>121444365</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>88.7763</open>
+    <high>95.4589</high>
+    <low>85.0956</low>
+    <close>94.8662</close>
+    <adjusted_close>50.9495</adjusted_close>
+    <volume>145779452</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>94.7897</open>
+    <high>96.0134</high>
+    <low>91.0134</low>
+    <close>92.2562</close>
+    <adjusted_close>49.6281</adjusted_close>
+    <volume>102238026</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>92.2562</open>
+    <high>93.3078</high>
+    <low>86.3098</low>
+    <close>87.8011</close>
+    <adjusted_close>47.2315</adjusted_close>
+    <volume>130209950</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>87.6386</open>
+    <high>90.3920</high>
+    <low>84.1396</low>
+    <close>84.2925</close>
+    <adjusted_close>45.3441</adjusted_close>
+    <volume>115721072</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>84.2543</open>
+    <high>85.8031</high>
+    <low>81.3767</low>
+    <close>84.6941</close>
+    <adjusted_close>45.6525</adjusted_close>
+    <volume>109523838</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>84.1300</open>
+    <high>87.1989</high>
+    <low>83.4608</low>
+    <close>84.2734</close>
+    <adjusted_close>45.4257</adjusted_close>
+    <volume>96199154</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>84.3977</open>
+    <high>84.5507</high>
+    <low>79.7514</low>
+    <close>83.2409</close>
+    <adjusted_close>44.8692</adjusted_close>
+    <volume>126567046</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>83.0497</open>
+    <high>83.5468</high>
+    <low>78.2983</low>
+    <close>80.9656</close>
+    <adjusted_close>43.7351</adjusted_close>
+    <volume>95363504</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>80.3537</open>
+    <high>83.4417</high>
+    <low>79.5794</low>
+    <close>81.9694</close>
+    <adjusted_close>44.2774</adjusted_close>
+    <volume>98225988</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>82.1702</open>
+    <high>86.3002</high>
+    <low>80.5832</low>
+    <close>85.8031</close>
+    <adjusted_close>46.3482</adjusted_close>
+    <volume>123549440</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>85.4015</open>
+    <high>92.3805</high>
+    <low>85.3059</low>
+    <close>90.0956</close>
+    <adjusted_close>48.7610</adjusted_close>
+    <volume>120271278</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>90.3442</open>
+    <high>94.6463</high>
+    <low>90.3155</low>
+    <close>94.2447</close>
+    <adjusted_close>51.0066</adjusted_close>
+    <volume>113146239</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>94.6176</open>
+    <high>94.7419</high>
+    <low>87.4187</low>
+    <close>89.3117</close>
+    <adjusted_close>48.3367</adjusted_close>
+    <volume>119724114</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>89.5507</open>
+    <high>90.7935</high>
+    <low>87.5239</low>
+    <close>88.5086</close>
+    <adjusted_close>47.9935</adjusted_close>
+    <volume>83374255</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>88.5660</open>
+    <high>89.6080</high>
+    <low>85.1721</low>
+    <close>87.3614</close>
+    <adjusted_close>47.3714</adjusted_close>
+    <volume>111027879</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>87.4665</open>
+    <high>87.7247</high>
+    <low>68.6902</low>
+    <close>73.0210</close>
+    <adjusted_close>39.5954</adjusted_close>
+    <volume>226715790</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>73.4990</open>
+    <high>74.6749</high>
+    <low>69.3117</low>
+    <close>72.2275</close>
+    <adjusted_close>39.2691</adjusted_close>
+    <volume>144783136</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>72.2467</open>
+    <high>74.3117</high>
+    <low>70.2199</low>
+    <close>70.9369</close>
+    <adjusted_close>38.5675</adjusted_close>
+    <volume>141777772</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>71.0325</open>
+    <high>81.3671</high>
+    <low>70.8987</low>
+    <close>79.7897</close>
+    <adjusted_close>43.3806</adjusted_close>
+    <volume>164014369</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>79.3499</open>
+    <high>80.4971</high>
+    <low>76.3576</low>
+    <close>77.0746</close>
+    <adjusted_close>42.0052</adjusted_close>
+    <volume>109862531</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>76.6348</open>
+    <high>78.4990</high>
+    <low>73.5468</low>
+    <close>76.6922</close>
+    <adjusted_close>41.7968</adjusted_close>
+    <volume>121002745</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>76.6922</open>
+    <high>80.8795</high>
+    <low>75.2390</low>
+    <close>78.2792</close>
+    <adjusted_close>42.6617</adjusted_close>
+    <volume>146316365</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>78.2505</open>
+    <high>85.9847</high>
+    <low>77.0937</low>
+    <close>84.9904</close>
+    <adjusted_close>46.4304</adjusted_close>
+    <volume>115755068</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>85.2294</open>
+    <high>85.9656</high>
+    <low>77.9732</low>
+    <close>78.5851</close>
+    <adjusted_close>42.9311</adjusted_close>
+    <volume>125574811</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>78.8241</open>
+    <high>81.2906</high>
+    <low>76.6826</low>
+    <close>77.7247</close>
+    <adjusted_close>42.4611</adjusted_close>
+    <volume>153230215</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>77.3423</open>
+    <high>78.6233</high>
+    <low>75.4589</low>
+    <close>76.7113</close>
+    <adjusted_close>42.0127</adjusted_close>
+    <volume>116160600</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>76.6730</open>
+    <high>81.2524</high>
+    <low>76.0134</low>
+    <close>78.8432</close>
+    <adjusted_close>43.1803</adjusted_close>
+    <volume>116644586</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>79.0822</open>
+    <high>80.7361</high>
+    <low>77.0841</low>
+    <close>78.7189</close>
+    <adjusted_close>43.1122</adjusted_close>
+    <volume>119251322</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>78.9579</open>
+    <high>80.0096</high>
+    <low>75.5832</low>
+    <close>76.3862</close>
+    <adjusted_close>41.9859</adjusted_close>
+    <volume>118351239</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>76.3767</open>
+    <high>77.3136</high>
+    <low>72.7151</low>
+    <close>73.4417</close>
+    <adjusted_close>40.3674</adjusted_close>
+    <volume>145872860</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>74.1300</open>
+    <high>75.0765</high>
+    <low>69.5315</low>
+    <close>74.0057</close>
+    <adjusted_close>40.6774</adjusted_close>
+    <volume>143498963</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>73.2792</open>
+    <high>78.0880</high>
+    <low>71.7495</low>
+    <close>77.4092</close>
+    <adjusted_close>42.7179</adjusted_close>
+    <volume>105520791</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>77.5621</open>
+    <high>80.1052</high>
+    <low>75.8222</low>
+    <close>78.3365</close>
+    <adjusted_close>43.2296</adjusted_close>
+    <volume>107503803</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>78.1644</open>
+    <high>88.6042</high>
+    <low>77.9732</low>
+    <close>88.2696</close>
+    <adjusted_close>48.7112</adjusted_close>
+    <volume>178204197</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>88.4321</open>
+    <high>89.9140</high>
+    <low>86.4532</low>
+    <close>87.8776</close>
+    <adjusted_close>48.6522</adjusted_close>
+    <volume>109233781</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>87.8585</open>
+    <high>93.5755</high>
+    <low>86.5679</low>
+    <close>92.8776</close>
+    <adjusted_close>51.4204</adjusted_close>
+    <volume>109275829</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>92.9063</open>
+    <high>96.4627</high>
+    <low>90.3920</low>
+    <close>94.7897</close>
+    <adjusted_close>52.4789</adjusted_close>
+    <volume>201566293</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>94.6176</open>
+    <high>96.0229</high>
+    <low>88.4034</low>
+    <close>88.8528</close>
+    <adjusted_close>49.3403</adjusted_close>
+    <volume>131561906</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>86.2811</open>
+    <high>91.5966</high>
+    <low>84.8662</low>
+    <close>90.1147</close>
+    <adjusted_close>50.0411</adjusted_close>
+    <volume>170701447</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>90.3537</open>
+    <high>98.4704</high>
+    <low>89.7801</low>
+    <close>97.7151</close>
+    <adjusted_close>54.2616</adjusted_close>
+    <volume>174480331</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>97.5717</open>
+    <high>103.2983</high>
+    <low>96.8929</low>
+    <close>101.9120</close>
+    <adjusted_close>56.8125</adjusted_close>
+    <volume>153177706</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>101.9312</open>
+    <high>102.5239</high>
+    <low>97.0937</low>
+    <close>100.6214</close>
+    <adjusted_close>56.0930</adjusted_close>
+    <volume>177403692</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>100.7553</open>
+    <high>113.5946</high>
+    <low>99.9809</low>
+    <close>105.7839</close>
+    <adjusted_close>58.9709</adjusted_close>
+    <volume>222544450</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>105.5354</open>
+    <high>112.1893</high>
+    <low>99.1396</low>
+    <close>111.5583</close>
+    <adjusted_close>62.4098</adjusted_close>
+    <volume>212203590</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>111.2237</open>
+    <high>113.6616</high>
+    <low>109.2734</low>
+    <close>112.6195</close>
+    <adjusted_close>63.0035</adjusted_close>
+    <volume>138316553</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>112.4379</open>
+    <high>116.1185</high>
+    <low>106.0803</low>
+    <close>111.0134</close>
+    <adjusted_close>62.1050</adjusted_close>
+    <volume>179565774</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>110.4206</open>
+    <high>110.9847</high>
+    <low>94.9044</low>
+    <close>100.5545</close>
+    <adjusted_close>56.4534</adjusted_close>
+    <volume>210162947</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>100.9082</open>
+    <high>107.2562</high>
+    <low>99.4264</low>
+    <close>103.3461</close>
+    <adjusted_close>58.0207</adjusted_close>
+    <volume>140322574</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>104.1969</open>
+    <high>104.1969</high>
+    <low>92.7725</low>
+    <close>102.3996</close>
+    <adjusted_close>57.4893</adjusted_close>
+    <volume>258909998</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>102.4474</open>
+    <high>111.5010</high>
+    <low>96.1759</low>
+    <close>108.8528</close>
+    <adjusted_close>61.3459</adjusted_close>
+    <volume>176021717</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>108.8528</open>
+    <high>114.5220</high>
+    <low>106.8834</low>
+    <close>110.0765</close>
+    <adjusted_close>62.0356</adjusted_close>
+    <volume>187531272</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>110.1338</open>
+    <high>119.5029</high>
+    <low>108.8528</low>
+    <close>115.3920</close>
+    <adjusted_close>65.0312</adjusted_close>
+    <volume>200923212</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>115.7361</open>
+    <high>124.2734</high>
+    <low>115.4685</low>
+    <close>123.7381</close>
+    <adjusted_close>70.0198</adjusted_close>
+    <volume>166855304</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>122.8394</open>
+    <high>123.6807</high>
+    <low>112.9541</low>
+    <close>113.3174</close>
+    <adjusted_close>64.1231</adjusted_close>
+    <volume>159334564</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>112.3327</open>
+    <high>125.1721</high>
+    <low>111.4723</low>
+    <close>122.3518</close>
+    <adjusted_close>69.2354</adjusted_close>
+    <volume>210116820</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>122.8681</open>
+    <high>124.2543</high>
+    <low>116.1568</low>
+    <close>116.3767</close>
+    <adjusted_close>66.1107</adjusted_close>
+    <volume>143332124</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>117.4665</open>
+    <high>118.5468</high>
+    <low>105.1147</low>
+    <close>111.8164</close>
+    <adjusted_close>63.5202</adjusted_close>
+    <volume>228458639</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>110.4302</open>
+    <high>111.6635</high>
+    <low>75.3537</low>
+    <close>88.8815</close>
+    <adjusted_close>50.4914</adjusted_close>
+    <volume>329460712</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>88.5660</open>
+    <high>90.5927</high>
+    <low>66.4436</low>
+    <close>78.0115</close>
+    <adjusted_close>44.5641</adjusted_close>
+    <volume>228355399</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>77.3901</open>
+    <high>83.4321</high>
+    <low>71.9981</low>
+    <close>80.4589</close>
+    <adjusted_close>45.9622</adjusted_close>
+    <volume>197533020</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>80.2008</open>
+    <high>90.7648</high>
+    <low>78.1644</low>
+    <close>87.6195</close>
+    <adjusted_close>50.0527</adjusted_close>
+    <volume>218571533</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>86.6157</open>
+    <high>92.8298</high>
+    <low>79.2065</low>
+    <close>87.9828</close>
+    <adjusted_close>50.5337</adjusted_close>
+    <volume>233276408</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>87.1606</open>
+    <high>95.4685</high>
+    <low>79.3690</low>
+    <close>92.6291</close>
+    <adjusted_close>53.2023</adjusted_close>
+    <volume>299275766</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>91.9025</open>
+    <high>101.3862</high>
+    <low>91.4914</low>
+    <close>98.6711</close>
+    <adjusted_close>56.6726</adjusted_close>
+    <volume>223449759</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>99.2161</open>
+    <high>102.1224</high>
+    <low>95.4398</low>
+    <close>101.6061</close>
+    <adjusted_close>58.6632</adjusted_close>
+    <volume>160126596</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>102.2371</open>
+    <high>105.7744</high>
+    <low>98.9579</low>
+    <close>99.8279</close>
+    <adjusted_close>57.6365</adjusted_close>
+    <volume>167885197</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>100.3824</open>
+    <high>114.1205</high>
+    <low>95.1243</low>
+    <close>112.7438</close>
+    <adjusted_close>65.0936</adjusted_close>
+    <volume>184275283</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>113.6520</open>
+    <high>115.5641</high>
+    <low>111.0134</low>
+    <close>112.8585</close>
+    <adjusted_close>65.4638</adjusted_close>
+    <volume>117654287</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>112.4952</open>
+    <high>117.4761</high>
+    <low>110.0860</low>
+    <close>114.3499</close>
+    <adjusted_close>66.3288</adjusted_close>
+    <volume>137572223</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>114.1396</open>
+    <high>122.9541</high>
+    <low>112.1032</low>
+    <close>115.3059</close>
+    <adjusted_close>66.8834</adjusted_close>
+    <volume>191973530</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>115.4589</open>
+    <high>123.2696</high>
+    <low>114.2447</low>
+    <close>120.7935</close>
+    <adjusted_close>70.3809</adjusted_close>
+    <volume>115842617</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>121.6922</open>
+    <high>127.0076</high>
+    <low>120.4589</low>
+    <close>125.1434</close>
+    <adjusted_close>72.9154</adjusted_close>
+    <volume>130201791</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>125.4111</open>
+    <high>128.3461</high>
+    <low>116.5392</low>
+    <close>117.0076</close>
+    <adjusted_close>68.1750</adjusted_close>
+    <volume>163291687</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>117.8107</open>
+    <high>122.6291</high>
+    <low>116.2619</low>
+    <close>121.5679</close>
+    <adjusted_close>71.1489</adjusted_close>
+    <volume>118418914</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>121.8929</open>
+    <high>124.9809</high>
+    <low>119.6941</low>
+    <close>122.6099</close>
+    <adjusted_close>71.7588</adjusted_close>
+    <volume>146437175</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>123.2792</open>
+    <high>126.4627</high>
+    <low>121.5296</low>
+    <close>123.3270</close>
+    <adjusted_close>72.1784</adjusted_close>
+    <volume>153162014</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>123.6998</open>
+    <high>127.2467</high>
+    <low>110.8987</low>
+    <close>119.7514</close>
+    <adjusted_close>70.4451</adjusted_close>
+    <volume>197112633</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>119.2065</open>
+    <high>126.1377</high>
+    <low>117.4187</low>
+    <close>118.0497</close>
+    <adjusted_close>69.4440</adjusted_close>
+    <volume>169471977</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>118.1166</open>
+    <high>125.8126</high>
+    <low>115.3059</low>
+    <close>122.7533</close>
+    <adjusted_close>72.2110</adjusted_close>
+    <volume>150707679</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>123.5660</open>
+    <high>126.6635</high>
+    <low>116.9025</low>
+    <close>117.7151</close>
+    <adjusted_close>69.5903</adjusted_close>
+    <volume>122794123</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>119.7992</open>
+    <high>130.1243</high>
+    <low>119.0440</low>
+    <close>128.2409</close>
+    <adjusted_close>75.8129</adjusted_close>
+    <volume>121433172</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>129.5507</open>
+    <high>137.6673</high>
+    <low>128.4799</low>
+    <close>137.2849</close>
+    <adjusted_close>81.1595</adjusted_close>
+    <volume>143599798</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>137.3231</open>
+    <high>141.0421</high>
+    <low>134.9713</low>
+    <close>135.2390</close>
+    <adjusted_close>80.3053</adjusted_close>
+    <volume>108885149</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>137.2944</open>
+    <high>141.0134</high>
+    <low>137.1989</low>
+    <close>140.3059</close>
+    <adjusted_close>83.3140</adjusted_close>
+    <volume>97688872</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>140.7361</open>
+    <high>157.1224</high>
+    <low>140.1912</low>
+    <close>154.8757</close>
+    <adjusted_close>91.9656</adjusted_close>
+    <volume>124297854</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>154.9809</open>
+    <high>158.9388</high>
+    <low>152.0363</low>
+    <close>154.7610</close>
+    <adjusted_close>92.2613</adjusted_close>
+    <volume>93164606</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>155.9751</open>
+    <high>160.3442</high>
+    <low>145.0382</low>
+    <close>155.8987</close>
+    <adjusted_close>92.9396</adjusted_close>
+    <volume>135681159</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>156.5010</open>
+    <high>165.3920</high>
+    <low>155.0574</low>
+    <close>163.0784</close>
+    <adjusted_close>97.2198</adjusted_close>
+    <volume>105404897</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>164.5411</open>
+    <high>165.9082</high>
+    <low>158.6042</low>
+    <close>161.5010</close>
+    <adjusted_close>96.7100</adjusted_close>
+    <volume>115901193</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>161.4723</open>
+    <high>164.8661</high>
+    <low>154.4168</low>
+    <close>164.0057</close>
+    <adjusted_close>98.2099</adjusted_close>
+    <volume>110292753</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>164.0631</open>
+    <high>177.4665</high>
+    <low>163.9484</low>
+    <close>173.8528</close>
+    <adjusted_close>104.1065</adjusted_close>
+    <volume>118818489</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>174.5698</open>
+    <high>175.6119</high>
+    <low>150.2199</low>
+    <close>164.3499</close>
+    <adjusted_close>98.8445</adjusted_close>
+    <volume>204026589</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>165.1147</open>
+    <high>172.9541</high>
+    <low>151.7782</low>
+    <close>167.1797</close>
+    <adjusted_close>100.5465</adjusted_close>
+    <volume>144238171</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>166.6922</open>
+    <high>182.1510</high>
+    <low>161.4532</low>
+    <close>176.5105</close>
+    <adjusted_close>106.1582</adjusted_close>
+    <volume>151213631</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>173.5660</open>
+    <high>181.6157</high>
+    <low>169.2734</low>
+    <close>179.7323</close>
+    <adjusted_close>108.5305</adjusted_close>
+    <volume>101476752</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>178.7859</open>
+    <high>186.3289</high>
+    <low>171.1664</low>
+    <close>175.7935</close>
+    <adjusted_close>106.1520</adjusted_close>
+    <volume>108194577</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>178.5182</open>
+    <high>184.6080</high>
+    <low>169.5507</low>
+    <close>184.1300</close>
+    <adjusted_close>111.1860</adjusted_close>
+    <volume>115075689</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>184.7132</open>
+    <high>190.4684</high>
+    <low>182.4379</low>
+    <close>188.0784</close>
+    <adjusted_close>114.0125</adjusted_close>
+    <volume>82435156</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>188.5564</open>
+    <high>199.9235</high>
+    <low>188.1549</low>
+    <close>199.4742</close>
+    <adjusted_close>120.9205</adjusted_close>
+    <volume>92149356</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>199.7706</open>
+    <high>201.4245</high>
+    <low>188.1358</low>
+    <close>197.9732</close>
+    <adjusted_close>120.0107</adjusted_close>
+    <volume>90586736</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>198.0688</open>
+    <high>199.7419</high>
+    <low>183.5564</low>
+    <close>184.4168</close>
+    <adjusted_close>112.2612</adjusted_close>
+    <volume>89961544</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>181.7591</open>
+    <high>191.1950</high>
+    <low>178.7763</low>
+    <close>186.9790</close>
+    <adjusted_close>113.8208</adjusted_close>
+    <volume>88448819</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>187.7247</open>
+    <high>189.1396</high>
+    <low>173.8528</low>
+    <close>187.3614</close>
+    <adjusted_close>114.0536</adjusted_close>
+    <volume>95726259</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>188.2983</open>
+    <high>193.1166</high>
+    <low>184.5316</low>
+    <close>186.2811</close>
+    <adjusted_close>113.8801</adjusted_close>
+    <volume>63443772</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>187.9637</open>
+    <high>199.1587</high>
+    <low>184.7514</low>
+    <close>198.3270</close>
+    <adjusted_close>121.2443</adjusted_close>
+    <volume>80899106</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>198.8623</open>
+    <high>202.4761</high>
+    <low>182.1797</low>
+    <close>185.9751</close>
+    <adjusted_close>113.6931</adjusted_close>
+    <volume>100578129</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>186.1185</open>
+    <high>189.2925</high>
+    <low>176.6539</low>
+    <close>181.7113</close>
+    <adjusted_close>111.5727</adjusted_close>
+    <volume>85659554</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>182.3709</open>
+    <high>187.8107</high>
+    <low>178.7189</low>
+    <close>183.1262</close>
+    <adjusted_close>112.4414</adjusted_close>
+    <volume>82968929</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>185.5545</open>
+    <high>199.4073</high>
+    <low>182.0172</low>
+    <close>194.1396</close>
+    <adjusted_close>119.2037</adjusted_close>
+    <volume>91667883</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>195.6501</open>
+    <high>196.3193</high>
+    <low>188.8241</low>
+    <close>191.9981</close>
+    <adjusted_close>118.3851</adjusted_close>
+    <volume>67094728</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>191.8260</open>
+    <high>206.4053</high>
+    <low>190.5927</low>
+    <close>203.9197</close>
+    <adjusted_close>125.7359</adjusted_close>
+    <volume>79520894</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>203.4417</open>
+    <high>205.4398</high>
+    <low>179.4264</low>
+    <close>193.6329</close>
+    <adjusted_close>119.3931</adjusted_close>
+    <volume>113665263</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>192.9924</open>
+    <high>202.6577</high>
+    <low>190.4398</low>
+    <close>198.8719</close>
+    <adjusted_close>123.1982</adjusted_close>
+    <volume>94855046</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>199.0918</open>
+    <high>200.8126</high>
+    <low>180.1243</low>
+    <close>182.7056</close>
+    <adjusted_close>113.1834</adjusted_close>
+    <volume>83904889</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>183.6998</open>
+    <high>192.1033</high>
+    <low>181.8929</low>
+    <close>186.4627</close>
+    <adjusted_close>115.5109</adjusted_close>
+    <volume>92131051</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>188.0019</open>
+    <high>188.4990</high>
+    <low>173.1358</low>
+    <close>174.2543</close>
+    <adjusted_close>108.4876</adjusted_close>
+    <volume>76438958</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>175.5545</open>
+    <high>186.3193</high>
+    <low>174.2925</low>
+    <close>177.0363</close>
+    <adjusted_close>110.2196</adjusted_close>
+    <volume>74776552</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>177.1893</open>
+    <high>178.7667</high>
+    <low>164.9809</low>
+    <close>171.3289</close>
+    <adjusted_close>106.6663</adjusted_close>
+    <volume>136991588</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>171.9025</open>
+    <high>178.0497</high>
+    <low>169.5124</low>
+    <close>171.7782</close>
+    <adjusted_close>107.5203</adjusted_close>
+    <volume>105630205</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>171.5679</open>
+    <high>179.5316</high>
+    <low>165.1339</low>
+    <close>179.3212</close>
+    <adjusted_close>112.2417</adjusted_close>
+    <volume>102500782</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>178.9771</open>
+    <high>182.4187</high>
+    <low>167.6291</low>
+    <close>168.9101</close>
+    <adjusted_close>105.7251</adjusted_close>
+    <volume>129169808</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>168.2792</open>
+    <high>177.9350</high>
+    <low>164.6176</low>
+    <close>177.0268</close>
+    <adjusted_close>111.4130</adjusted_close>
+    <volume>91059320</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>175.2677</open>
+    <high>187.0268</high>
+    <low>174.1969</low>
+    <close>184.0249</close>
+    <adjusted_close>115.8173</adjusted_close>
+    <volume>124457264</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>184.6272</open>
+    <high>190.4493</high>
+    <low>178.7859</low>
+    <close>187.8298</close>
+    <adjusted_close>118.2120</adjusted_close>
+    <volume>123889498</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>187.6769</open>
+    <high>188.0880</high>
+    <low>174.3117</low>
+    <close>176.2524</close>
+    <adjusted_close>111.5715</adjusted_close>
+    <volume>73239141</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>176.6348</open>
+    <high>179.3977</high>
+    <low>171.3862</low>
+    <close>173.2983</close>
+    <adjusted_close>109.7015</adjusted_close>
+    <volume>82112778</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>173.7094</open>
+    <high>187.7629</high>
+    <low>173.7094</low>
+    <close>183.2409</close>
+    <adjusted_close>115.9953</adjusted_close>
+    <volume>102087299</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>182.1224</open>
+    <high>185.5927</high>
+    <low>175.5067</low>
+    <close>183.8432</close>
+    <adjusted_close>117.0649</adjusted_close>
+    <volume>55912990</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>184.2065</open>
+    <high>186.4245</high>
+    <low>179.8470</low>
+    <close>181.4818</close>
+    <adjusted_close>115.5612</adjusted_close>
+    <volume>67131862</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>181.5583</open>
+    <high>182.4952</high>
+    <low>154.0153</low>
+    <close>157.1702</close>
+    <adjusted_close>100.0804</adjusted_close>
+    <volume>152983045</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>157.0268</open>
+    <high>157.7151</high>
+    <low>152.7725</low>
+    <close>155.0382</close>
+    <adjusted_close>99.3986</adjusted_close>
+    <volume>83696316</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>154.5316</open>
+    <high>157.2849</high>
+    <low>143.8815</low>
+    <close>153.3843</close>
+    <adjusted_close>98.3382</adjusted_close>
+    <volume>106256131</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>154.2161</open>
+    <high>156.1281</high>
+    <low>142.9445</low>
+    <close>146.5679</close>
+    <adjusted_close>93.9680</adjusted_close>
+    <volume>122813059</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>147.2275</open>
+    <high>157.7342</high>
+    <low>144.8470</low>
+    <close>154.8184</close>
+    <adjusted_close>99.9539</adjusted_close>
+    <volume>81229117</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>154.8184</open>
+    <high>158.0784</high>
+    <low>146.6539</low>
+    <close>153.4417</close>
+    <adjusted_close>99.0650</adjusted_close>
+    <volume>109737428</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>153.1836</open>
+    <high>167.4283</high>
+    <low>151.4245</low>
+    <close>163.7572</close>
+    <adjusted_close>105.7249</adjusted_close>
+    <volume>98152560</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>165.5832</open>
+    <high>168.5468</high>
+    <low>161.4149</low>
+    <close>162.1893</close>
+    <adjusted_close>105.5051</adjusted_close>
+    <volume>60593422</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>162.7247</open>
+    <high>164.0153</high>
+    <low>154.9904</low>
+    <close>155.5067</close>
+    <adjusted_close>101.1581</adjusted_close>
+    <volume>84566694</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>156.7591</open>
+    <high>166.1377</high>
+    <low>151.5296</low>
+    <close>154.8661</close>
+    <adjusted_close>100.7414</adjusted_close>
+    <volume>98171910</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>154.5889</open>
+    <high>154.7323</high>
+    <low>134.4359</low>
+    <close>141.3862</close>
+    <adjusted_close>92.7361</adjusted_close>
+    <volume>98039489</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>138.5373</open>
+    <high>143.0975</high>
+    <low>134.9426</low>
+    <close>138.5947</close>
+    <adjusted_close>90.9051</adjusted_close>
+    <volume>85576713</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>138.9197</open>
+    <high>146.4149</high>
+    <low>131.2906</low>
+    <close>133.9197</close>
+    <adjusted_close>87.8388</adjusted_close>
+    <volume>126017790</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>134.3212</open>
+    <high>136.5201</high>
+    <low>125.8604</low>
+    <close>133.2887</close>
+    <adjusted_close>88.2450</adjusted_close>
+    <volume>89367101</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>133.4417</open>
+    <high>135.1816</high>
+    <low>128.0210</low>
+    <close>131.5679</close>
+    <adjusted_close>87.1057</adjusted_close>
+    <volume>102174117</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>129.6367</open>
+    <high>130.8700</high>
+    <low>112.8107</low>
+    <close>119.3021</close>
+    <adjusted_close>78.9850</adjusted_close>
+    <volume>132039823</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>118.9293</open>
+    <high>128.9866</high>
+    <low>111.7591</low>
+    <close>125.2677</close>
+    <adjusted_close>83.7817</adjusted_close>
+    <volume>111624727</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>126.4245</open>
+    <high>146.3671</high>
+    <low>126.2237</low>
+    <close>144.7897</close>
+    <adjusted_close>96.8385</adjusted_close>
+    <volume>110611048</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>143.8910</open>
+    <high>146.7686</high>
+    <low>136.3384</low>
+    <close>139.5220</close>
+    <adjusted_close>93.3153</adjusted_close>
+    <volume>98828695</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>140.1147</open>
+    <high>147.0459</high>
+    <low>136.6157</low>
+    <close>146.9790</close>
+    <adjusted_close>99.2514</adjusted_close>
+    <volume>78710456</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>146.2715</open>
+    <high>148.6424</high>
+    <low>136.2333</low>
+    <close>145.1052</close>
+    <adjusted_close>97.9860</adjusted_close>
+    <volume>80514490</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>145.1052</open>
+    <high>156.4053</high>
+    <low>143.3270</low>
+    <close>153.5564</close>
+    <adjusted_close>103.6929</adjusted_close>
+    <volume>72618550</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>153.5851</open>
+    <high>157.6960</high>
+    <low>150.9082</low>
+    <close>151.8929</close>
+    <adjusted_close>103.4555</adjusted_close>
+    <volume>72912999</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>151.3576</open>
+    <high>157.7438</high>
+    <low>146.4723</low>
+    <close>151.8642</close>
+    <adjusted_close>103.4359</adjusted_close>
+    <volume>73154103</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>151.1090</open>
+    <high>151.5583</high>
+    <low>141.2906</low>
+    <close>146.9312</close>
+    <adjusted_close>100.0760</adjusted_close>
+    <volume>81930251</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>146.7495</open>
+    <high>157.4187</high>
+    <low>144.3595</low>
+    <close>155.0860</close>
+    <adjusted_close>106.5887</adjusted_close>
+    <volume>79850384</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>154.8279</open>
+    <high>162.4761</high>
+    <low>151.3384</low>
+    <close>158.6902</close>
+    <adjusted_close>109.0658</adjusted_close>
+    <volume>72666039</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>159.6558</open>
+    <high>171.3671</high>
+    <low>158.0688</low>
+    <close>166.8451</close>
+    <adjusted_close>114.6705</adjusted_close>
+    <volume>92847665</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>167.3040</open>
+    <high>174.7514</high>
+    <low>165.2868</low>
+    <close>171.9120</close>
+    <adjusted_close>119.0872</adjusted_close>
+    <volume>62572348</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>172.5430</open>
+    <high>174.5220</high>
+    <low>164.5220</low>
+    <close>166.4818</close>
+    <adjusted_close>115.3255</adjusted_close>
+    <volume>83132942</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>166.1759</open>
+    <high>168.5755</high>
+    <low>152.5813</low>
+    <close>153.2409</close>
+    <adjusted_close>106.1532</adjusted_close>
+    <volume>104654705</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>153.0115</open>
+    <high>153.3652</high>
+    <low>143.2027</low>
+    <close>145.9178</close>
+    <adjusted_close>102.0678</adjusted_close>
+    <volume>108082238</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>146.0803</open>
+    <high>150.2868</high>
+    <low>144.1683</low>
+    <close>147.0650</close>
+    <adjusted_close>102.8703</adjusted_close>
+    <volume>87839942</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>146.8260</open>
+    <high>149.1683</high>
+    <low>137.3231</low>
+    <close>138.3078</close>
+    <adjusted_close>96.7447</adjusted_close>
+    <volume>97585001</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>138.6233</open>
+    <high>139.2639</high>
+    <low>133.0115</low>
+    <close>136.7400</close>
+    <adjusted_close>96.6586</adjusted_close>
+    <volume>83937837</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>136.6922</open>
+    <high>140.9369</high>
+    <low>135.4111</low>
+    <close>138.6998</close>
+    <adjusted_close>98.0440</adjusted_close>
+    <volume>81898348</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>138.9579</open>
+    <high>155.3633</high>
+    <low>138.8241</low>
+    <close>147.2849</close>
+    <adjusted_close>104.1126</adjusted_close>
+    <volume>131111497</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>147.3231</open>
+    <high>148.0880</high>
+    <low>139.7801</low>
+    <close>147.1989</close>
+    <adjusted_close>105.0918</adjusted_close>
+    <volume>93905278</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>147.6099</open>
+    <high>150.9082</high>
+    <low>144.8279</low>
+    <close>146.6730</close>
+    <adjusted_close>104.7164</adjusted_close>
+    <volume>92872353</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>147.7056</open>
+    <high>163.6042</high>
+    <low>146.7878</low>
+    <close>156.5010</close>
+    <adjusted_close>111.7330</adjusted_close>
+    <volume>151760375</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>156.0134</open>
+    <high>156.9120</high>
+    <low>138.0497</low>
+    <close>148.9771</close>
+    <adjusted_close>107.4085</adjusted_close>
+    <volume>107073687</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>148.6902</open>
+    <high>154.9809</high>
+    <low>142.0076</low>
+    <close>146.6826</close>
+    <adjusted_close>105.7543</adjusted_close>
+    <volume>98655478</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>146.5966</open>
+    <high>154.8757</high>
+    <low>137.7725</low>
+    <close>138.5851</close>
+    <adjusted_close>99.9162</adjusted_close>
+    <volume>128391583</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>138.2887</open>
+    <high>139.7706</high>
+    <low>133.7476</low>
+    <close>135.0956</close>
+    <adjusted_close>98.4816</adjusted_close>
+    <volume>92898293</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>136.1664</open>
+    <high>141.0325</high>
+    <low>131.4053</low>
+    <close>133.5564</close>
+    <adjusted_close>97.3596</adjusted_close>
+    <volume>93932265</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>132.1989</open>
+    <high>143.9197</high>
+    <low>132.1224</low>
+    <close>138.5564</close>
+    <adjusted_close>101.0045</adjusted_close>
+    <volume>99321884</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>138.3939</open>
+    <high>141.4245</high>
+    <low>135.7553</low>
+    <close>140.0382</close>
+    <adjusted_close>103.1876</adjusted_close>
+    <volume>82838075</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>139.5602</open>
+    <high>146.6061</high>
+    <low>138.4417</low>
+    <close>144.5602</close>
+    <adjusted_close>106.5196</adjusted_close>
+    <volume>100277823</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>145.0382</open>
+    <high>147.5717</high>
+    <low>109.0727</low>
+    <close>110.3537</close>
+    <adjusted_close>81.3145</adjusted_close>
+    <volume>207205277</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>110.4206</open>
+    <high>119.5602</high>
+    <low>109.5029</low>
+    <close>118.8050</close>
+    <adjusted_close>88.6567</adjusted_close>
+    <volume>148237970</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>120.1434</open>
+    <high>121.0229</high>
+    <low>101.2811</low>
+    <close>108.6711</close>
+    <adjusted_close>81.0945</adjusted_close>
+    <volume>120921889</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>107.0841</open>
+    <high>129.4551</high>
+    <low>106.7782</low>
+    <close>128.5086</close>
+    <adjusted_close>95.8979</adjusted_close>
+    <volume>125924904</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>129.0344</open>
+    <high>134.3117</high>
+    <low>126.3098</low>
+    <close>132.0555</close>
+    <adjusted_close>99.6929</adjusted_close>
+    <volume>71610414</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>133.1836</open>
+    <high>135.8700</high>
+    <low>127.7055</low>
+    <close>134.8948</close>
+    <adjusted_close>101.8364</adjusted_close>
+    <volume>78122915</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>135.2868</open>
+    <high>138.9962</high>
+    <low>130.2677</low>
+    <close>134.1013</close>
+    <adjusted_close>101.2374</adjusted_close>
+    <volume>83886585</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>134.3690</open>
+    <high>135.5736</high>
+    <low>121.2715</low>
+    <close>121.4054</close>
+    <adjusted_close>92.7415</adjusted_close>
+    <volume>79011074</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>121.5105</open>
+    <high>133.9866</high>
+    <low>121.4723</low>
+    <close>131.8356</close>
+    <adjusted_close>100.7092</adjusted_close>
+    <volume>64163313</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>133.4608</open>
+    <high>145.2581</high>
+    <low>133.0115</low>
+    <close>141.7208</close>
+    <adjusted_close>108.2605</adjusted_close>
+    <volume>83848718</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>142.3518</open>
+    <high>146.2237</high>
+    <low>123.1644</low>
+    <close>129.5698</close>
+    <adjusted_close>100.1446</adjusted_close>
+    <volume>100678127</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>128.9197</open>
+    <high>140.1243</high>
+    <low>127.4665</low>
+    <close>139.0249</close>
+    <adjusted_close>107.4524</adjusted_close>
+    <volume>64655351</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>139.1874</open>
+    <high>140.8700</high>
+    <low>125.1434</low>
+    <close>127.8489</close>
+    <adjusted_close>98.8145</adjusted_close>
+    <volume>95625532</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>128.5851</open>
+    <high>133.0210</high>
+    <low>126.9120</low>
+    <close>128.5373</close>
+    <adjusted_close>100.5199</adjusted_close>
+    <volume>67751825</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>128.5373</open>
+    <high>130.4207</high>
+    <low>124.9426</low>
+    <close>128.1453</close>
+    <adjusted_close>100.2134</adjusted_close>
+    <volume>75159179</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>129.0631</open>
+    <high>139.3786</high>
+    <low>127.3423</low>
+    <close>137.4092</close>
+    <adjusted_close>107.4580</adjusted_close>
+    <volume>118459187</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>137.9063</open>
+    <high>151.7686</high>
+    <low>120.8031</low>
+    <close>124.4264</close>
+    <adjusted_close>98.3212</adjusted_close>
+    <volume>123581342</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>125.0000</open>
+    <high>130.1147</high>
+    <low>86.5774</low>
+    <close>106.0516</close>
+    <adjusted_close>83.8015</adjusted_close>
+    <volume>198819809</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>101.6826</open>
+    <high>123.6233</high>
+    <low>99.9235</low>
+    <close>120.0382</close>
+    <adjusted_close>94.8536</adjusted_close>
+    <volume>136705925</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>117.7725</open>
+    <high>121.3862</high>
+    <low>106.8929</low>
+    <close>119.4073</close>
+    <adjusted_close>95.6205</adjusted_close>
+    <volume>97154572</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>119.1587</open>
+    <high>129.9044</high>
+    <low>110.7839</low>
+    <close>115.4589</close>
+    <adjusted_close>92.4587</adjusted_close>
+    <volume>126567676</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>114.9809</open>
+    <high>126.3576</high>
+    <low>110.1338</low>
+    <close>117.5335</close>
+    <adjusted_close>94.1199</adjusted_close>
+    <volume>119434686</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>118.0688</open>
+    <high>124.7323</high>
+    <low>116.7782</low>
+    <close>117.8872</close>
+    <adjusted_close>95.6393</adjusted_close>
+    <volume>77439042</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>117.4474</open>
+    <high>124.2352</high>
+    <low>111.3576</low>
+    <close>116.3193</close>
+    <adjusted_close>94.3673</adjusted_close>
+    <volume>88369845</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>116.9790</open>
+    <high>129.5411</high>
+    <low>101.2619</low>
+    <close>106.7495</close>
+    <adjusted_close>86.6035</adjusted_close>
+    <volume>166434813</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>107.6960</open>
+    <high>119.7992</high>
+    <low>106.2715</low>
+    <close>118.0880</close>
+    <adjusted_close>97.1913</adjusted_close>
+    <volume>108438088</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>118.4512</open>
+    <high>122.0746</high>
+    <low>116.3671</low>
+    <close>120.3442</close>
+    <adjusted_close>99.0483</adjusted_close>
+    <volume>107553067</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>120.3155</open>
+    <high>126.4245</high>
+    <low>112.1989</low>
+    <close>113.8719</close>
+    <adjusted_close>93.7213</adjusted_close>
+    <volume>183999975</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>114.6272</open>
+    <high>118.8815</high>
+    <low>112.9254</low>
+    <close>113.6998</close>
+    <adjusted_close>94.8302</adjusted_close>
+    <volume>111617824</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>115.0574</open>
+    <high>131.0421</high>
+    <low>113.5373</low>
+    <close>127.3996</close>
+    <adjusted_close>106.2564</adjusted_close>
+    <volume>133852331</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>127.8776</open>
+    <high>142.1989</high>
+    <low>124.6463</low>
+    <close>135.6405</close>
+    <adjusted_close>113.1296</adjusted_close>
+    <volume>128573588</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>137.4857</open>
+    <high>141.9790</high>
+    <low>134.7227</low>
+    <close>137.4187</close>
+    <adjusted_close>115.8933</adjusted_close>
+    <volume>102542414</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>138.6233</open>
+    <high>146.1185</high>
+    <low>136.7495</low>
+    <close>140.1434</close>
+    <adjusted_close>118.1912</adjusted_close>
+    <volume>88332817</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>140.4971</open>
+    <high>141.0134</high>
+    <low>130.2199</low>
+    <close>134.7610</close>
+    <adjusted_close>113.6519</adjusted_close>
+    <volume>115710194</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>135.2294</open>
+    <high>138.3365</high>
+    <low>131.1759</low>
+    <close>134.1683</close>
+    <adjusted_close>114.4547</adjusted_close>
+    <volume>72891244</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>133.8241</open>
+    <high>134.3881</high>
+    <low>126.9407</low>
+    <close>132.8203</close>
+    <adjusted_close>113.3048</adjusted_close>
+    <volume>80160627</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>134.7992</open>
+    <high>139.5793</high>
+    <low>119.1396</low>
+    <close>119.5985</close>
+    <adjusted_close>102.0257</adjusted_close>
+    <volume>150725359</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>119.5507</open>
+    <high>124.7800</high>
+    <low>114.5600</low>
+    <close>117.1000</close>
+    <adjusted_close>101.2273</adjusted_close>
+    <volume>120104799</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>118.2500</open>
+    <high>134.9900</high>
+    <low>116.5600</low>
+    <close>133.6600</close>
+    <adjusted_close>115.5426</adjusted_close>
+    <volume>113968900</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>134.0700</open>
+    <high>142.2000</high>
+    <low>124.1900</low>
+    <close>133.5700</close>
+    <adjusted_close>115.4649</adjusted_close>
+    <volume>146976800</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>133.7600</open>
+    <high>138.8200</high>
+    <low>118.8100</low>
+    <close>122.5100</close>
+    <adjusted_close>107.1797</adjusted_close>
+    <volume>98534100</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>122.6700</open>
+    <high>133.0800</high>
+    <low>120.7000</low>
+    <close>130.0200</close>
+    <adjusted_close>113.7499</adjusted_close>
+    <volume>96571700</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>129.6600</open>
+    <high>141.8800</high>
+    <low>124.9100</low>
+    <close>132.2100</close>
+    <adjusted_close>115.6659</adjusted_close>
+    <volume>107684000</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>133.0000</open>
+    <high>139.8300</high>
+    <low>125.8000</low>
+    <close>138.8400</close>
+    <adjusted_close>122.9396</adjusted_close>
+    <volume>113226200</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>139.6700</open>
+    <high>144.7300</high>
+    <low>132.8500</low>
+    <close>141.1900</close>
+    <adjusted_close>125.0205</adjusted_close>
+    <volume>105811300</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>141.0000</open>
+    <high>141.8700</high>
+    <low>125.1300</low>
+    <close>130.7900</close>
+    <adjusted_close>115.8115</adjusted_close>
+    <volume>129791800</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>130.7500</open>
+    <high>139.3400</high>
+    <low>128.4000</low>
+    <close>128.4500</close>
+    <adjusted_close>115.1726</adjusted_close>
+    <volume>77419800</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>128.4000</open>
+    <high>130.9900</high>
+    <low>118.6100</low>
+    <close>118.8100</close>
+    <adjusted_close>106.5290</adjusted_close>
+    <volume>87265100</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>120.1600</open>
+    <high>138.8600</high>
+    <low>115.5500</low>
+    <close>138.2900</close>
+    <adjusted_close>123.9955</adjusted_close>
+    <volume>113478200</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>138.2500</open>
+    <high>150.4600</high>
+    <low>133.9700</low>
+    <close>148.9000</close>
+    <adjusted_close>135.1005</adjusted_close>
+    <volume>93661300</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>149.9800</open>
+    <high>153.2100</high>
+    <low>137.2000</low>
+    <close>140.8900</close>
+    <adjusted_close>127.8329</adjusted_close>
+    <volume>86424100</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>141.1000</open>
+    <high>147.1800</high>
+    <low>132.9800</low>
+    <close>134.7300</close>
+    <adjusted_close>122.2438</adjusted_close>
+    <volume>105575000</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>134.4900</open>
+    <high>137.3900</high>
+    <low>128.8600</low>
+    <close>129.3000</close>
+    <adjusted_close>118.7580</adjusted_close>
+    <volume>76080200</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>128.9000</open>
+    <high>131.4800</high>
+    <low>121.7100</low>
+    <close>131.0900</close>
+    <adjusted_close>120.4021</adjusted_close>
+    <volume>138239000</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>130.9700</open>
+    <high>132.6100</high>
+    <low>124.5600</low>
+    <close>126.4100</close>
+    <adjusted_close>116.1037</adjusted_close>
+    <volume>83680100</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>126.3500</open>
+    <high>130.0700</high>
+    <low>120.5500</low>
+    <close>128.5900</close>
+    <adjusted_close>119.7164</adjusted_close>
+    <volume>96214100</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>128.4400</open>
+    <high>139.4700</high>
+    <low>127.7800</low>
+    <close>133.8100</close>
+    <adjusted_close>124.5761</adjusted_close>
+    <volume>100714300</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>133.4200</open>
+    <high>144.6000</high>
+    <low>131.5500</low>
+    <close>144.1800</close>
+    <adjusted_close>134.2305</adjusted_close>
+    <volume>85773800</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>144.2500</open>
+    <high>147.7300</high>
+    <low>139.7600</low>
+    <close>146.8300</close>
+    <adjusted_close>138.2708</adjusted_close>
+    <volume>84269600</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>147.2600</open>
+    <high>151.9300</high>
+    <low>139.6100</low>
+    <close>140.3000</close>
+    <adjusted_close>132.1214</adjusted_close>
+    <volume>82801600</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>140.0400</open>
+    <high>144.7600</high>
+    <low>135.8700</low>
+    <close>144.6400</close>
+    <adjusted_close>136.2084</adjusted_close>
+    <volume>94385300</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>145.0000</open>
+    <high>158.6000</high>
+    <low>144.4500</low>
+    <close>158.5600</close>
+    <adjusted_close>151.0104</adjusted_close>
+    <volume>78458700</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>158.4100</open>
+    <high>166.3400</high>
+    <low>158.0000</low>
+    <close>163.5500</close>
+    <adjusted_close>155.7628</adjusted_close>
+    <volume>87834600</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>162.8300</open>
+    <high>196.9000</high>
+    <low>157.8900</low>
+    <close>183.6600</close>
+    <adjusted_close>174.9153</adjusted_close>
+    <volume>129888400</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>183.6300</open>
+    <high>188.9500</high>
+    <low>178.7500</low>
+    <close>185.0300</close>
+    <adjusted_close>177.8266</adjusted_close>
+    <volume>88674100</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>185.4900</open>
+    <high>199.1800</high>
+    <low>185.1800</low>
+    <close>190.9600</close>
+    <adjusted_close>183.5258</adjusted_close>
+    <volume>99991800</volume>
+    <news>IBM Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>190.0000</open>
+    <high>193.2800</high>
+    <low>165.2600</low>
+    <close>166.2000</close>
+    <adjusted_close>159.7297</adjusted_close>
+    <volume>98358100</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>165.6900</open>
+    <high>175.4600</high>
+    <low>162.6200</low>
+    <close>166.8500</close>
+    <adjusted_close>161.9462</adjusted_close>
+    <volume>78608400</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>166.5400</open>
+    <high>178.4600</high>
+    <low>163.5300</low>
+    <close>172.9500</close>
+    <adjusted_close>167.8669</adjusted_close>
+    <volume>70651300</volume>
+    <news>IBM Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>173.4500</open>
+    <high>196.2600</high>
+    <low>173.3800</low>
+    <close>192.1400</close>
+    <adjusted_close>186.4929</adjusted_close>
+    <volume>81257600</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>192.8100</open>
+    <high>202.1700</high>
+    <low>181.8100</low>
+    <close>202.1300</close>
+    <adjusted_close>197.9052</adjusted_close>
+    <volume>65453400</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>201.9100</open>
+    <high>224.1500</high>
+    <low>199.3400</low>
+    <close>221.0800</close>
+    <adjusted_close>216.4592</adjusted_close>
+    <volume>83444300</volume>
+    <news>IBM Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>220.6300</open>
+    <high>237.3700</high>
+    <low>203.5100</low>
+    <close>206.7200</close>
+    <adjusted_close>202.3993</adjusted_close>
+    <volume>105623600</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>207.7700</open>
+    <high>230.3600</high>
+    <low>204.0700</low>
+    <close>227.4100</close>
+    <adjusted_close>224.4116</adjusted_close>
+    <volume>77279500</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>227.5000</open>
+    <high>239.3500</high>
+    <low>217.6500</low>
+    <close>219.8300</close>
+    <adjusted_close>216.9316</adjusted_close>
+    <volume>81531000</volume>
+    <news>IBM Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</ibm_stock_data>

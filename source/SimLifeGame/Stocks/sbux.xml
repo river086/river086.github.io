@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<starbucks_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>2.9844</open>
+    <high>4.0000</high>
+    <low>2.8906</low>
+    <close>4.0000</close>
+    <adjusted_close>3.0287</adjusted_close>
+    <volume>600080000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>3.9688</open>
+    <high>4.5234</high>
+    <low>3.7969</low>
+    <close>4.3906</close>
+    <adjusted_close>3.3245</adjusted_close>
+    <volume>400636000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>4.3906</open>
+    <high>5.6562</high>
+    <low>4.0781</low>
+    <close>5.6016</close>
+    <adjusted_close>4.2414</adjusted_close>
+    <volume>400131200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>5.0234</open>
+    <high>5.4375</high>
+    <low>3.7500</low>
+    <close>3.7793</close>
+    <adjusted_close>2.8616</adjusted_close>
+    <volume>498413600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>3.8750</open>
+    <high>4.3750</high>
+    <low>3.5000</low>
+    <close>4.2500</close>
+    <adjusted_close>3.2180</adjusted_close>
+    <volume>396386400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>4.2656</open>
+    <high>4.9375</high>
+    <low>4.0000</low>
+    <close>4.7734</close>
+    <adjusted_close>3.6143</adjusted_close>
+    <volume>659726400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>4.7500</open>
+    <high>5.3438</high>
+    <low>4.4922</low>
+    <close>4.6875</close>
+    <adjusted_close>3.5492</adjusted_close>
+    <volume>336964000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>4.6836</open>
+    <high>5.5156</high>
+    <low>4.3203</low>
+    <close>4.5781</close>
+    <adjusted_close>3.4664</adjusted_close>
+    <volume>397544800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>4.7812</open>
+    <high>5.2188</high>
+    <low>4.4844</low>
+    <close>5.0078</close>
+    <adjusted_close>3.7918</adjusted_close>
+    <volume>216478400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>5.0156</open>
+    <high>5.6094</high>
+    <low>4.5938</low>
+    <close>5.5859</close>
+    <adjusted_close>4.2295</adjusted_close>
+    <volume>315918400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>5.5391</open>
+    <high>6.3516</high>
+    <low>5.3750</low>
+    <close>5.6953</close>
+    <adjusted_close>4.3123</adjusted_close>
+    <volume>487753600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>5.7812</open>
+    <high>5.8750</high>
+    <low>5.1719</low>
+    <close>5.5312</close>
+    <adjusted_close>4.1881</adjusted_close>
+    <volume>348287200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>5.4902</open>
+    <high>6.2578</high>
+    <low>5.0469</low>
+    <close>6.2422</close>
+    <adjusted_close>4.7264</adjusted_close>
+    <volume>403068800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>6.1719</open>
+    <high>6.4141</high>
+    <low>5.7812</low>
+    <close>5.9531</close>
+    <adjusted_close>4.5075</adjusted_close>
+    <volume>326197600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>5.9375</open>
+    <high>6.1328</high>
+    <low>4.8203</low>
+    <close>5.3047</close>
+    <adjusted_close>4.0166</adjusted_close>
+    <volume>470802400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>5.3203</open>
+    <high>5.4453</high>
+    <low>4.5391</low>
+    <close>4.8375</close>
+    <adjusted_close>3.6628</adjusted_close>
+    <volume>596036800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>4.8375</open>
+    <high>5.3825</high>
+    <low>4.5000</low>
+    <close>4.8800</close>
+    <adjusted_close>3.6950</adjusted_close>
+    <volume>376932400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>5.0000</open>
+    <high>5.8275</high>
+    <low>4.7325</low>
+    <close>5.7500</close>
+    <adjusted_close>4.3537</adjusted_close>
+    <volume>295074400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>5.6225</open>
+    <high>5.7250</high>
+    <low>4.4750</low>
+    <close>4.5100</close>
+    <adjusted_close>3.4149</adjusted_close>
+    <volume>376518400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>4.5325</open>
+    <high>4.7725</high>
+    <low>4.2000</low>
+    <close>4.2175</close>
+    <adjusted_close>3.1934</adjusted_close>
+    <volume>348419200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>4.2150</open>
+    <high>4.3300</high>
+    <low>3.3650</low>
+    <close>3.7350</close>
+    <adjusted_close>2.8280</adjusted_close>
+    <volume>339334800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>3.7000</open>
+    <high>4.4875</high>
+    <low>3.5400</low>
+    <close>4.2800</close>
+    <adjusted_close>3.2407</adjusted_close>
+    <volume>388806000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>4.2875</open>
+    <high>4.8875</high>
+    <low>4.1700</low>
+    <close>4.4300</close>
+    <adjusted_close>3.3543</adjusted_close>
+    <volume>377239600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>4.4075</open>
+    <high>4.9925</high>
+    <low>4.4000</low>
+    <close>4.7625</close>
+    <adjusted_close>3.6060</adjusted_close>
+    <volume>283647200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>4.7775</open>
+    <high>5.9700</high>
+    <low>4.7500</low>
+    <close>5.9425</close>
+    <adjusted_close>4.4995</adjusted_close>
+    <volume>421235200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>5.9625</open>
+    <high>5.9625</high>
+    <low>5.2050</low>
+    <close>5.7525</close>
+    <adjusted_close>4.3556</adjusted_close>
+    <volume>223217600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>5.8900</open>
+    <high>6.1325</high>
+    <low>5.5875</low>
+    <close>5.7825</close>
+    <adjusted_close>4.3784</adjusted_close>
+    <volume>259958400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>5.7675</open>
+    <high>6.4250</high>
+    <low>5.6600</low>
+    <close>5.7050</close>
+    <adjusted_close>4.3197</adjusted_close>
+    <volume>315412800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>5.7125</open>
+    <high>6.1250</high>
+    <low>5.4825</low>
+    <close>6.0700</close>
+    <adjusted_close>4.5960</adjusted_close>
+    <volume>348659600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>6.0750</open>
+    <high>6.3250</high>
+    <low>5.6100</low>
+    <close>6.2125</close>
+    <adjusted_close>4.7039</adjusted_close>
+    <volume>354891600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>6.1050</open>
+    <high>6.2400</high>
+    <low>4.6100</low>
+    <close>4.9075</close>
+    <adjusted_close>3.7158</adjusted_close>
+    <volume>478584000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>4.8800</open>
+    <high>5.4550</high>
+    <low>4.6175</low>
+    <close>5.0250</close>
+    <adjusted_close>3.8048</adjusted_close>
+    <volume>324012000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>4.9975</open>
+    <high>5.3925</high>
+    <low>4.9000</low>
+    <close>5.1650</close>
+    <adjusted_close>3.9108</adjusted_close>
+    <volume>283456400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>5.1650</open>
+    <high>6.0250</high>
+    <low>5.1650</low>
+    <close>5.9600</close>
+    <adjusted_close>4.5128</adjusted_close>
+    <volume>430960400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>6.0125</open>
+    <high>6.0400</high>
+    <low>5.2125</low>
+    <close>5.4350</close>
+    <adjusted_close>4.1152</adjusted_close>
+    <volume>301813600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>5.5000</open>
+    <high>5.5225</high>
+    <low>5.0450</low>
+    <close>5.0950</close>
+    <adjusted_close>3.8578</adjusted_close>
+    <volume>283226400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>5.1175</open>
+    <high>5.8250</high>
+    <low>4.9050</low>
+    <close>5.6800</close>
+    <adjusted_close>4.3007</adjusted_close>
+    <volume>360126400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>5.6675</open>
+    <high>5.8800</high>
+    <low>5.4000</low>
+    <close>5.8625</close>
+    <adjusted_close>4.4389</adjusted_close>
+    <volume>293963200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>5.9050</open>
+    <high>6.6300</high>
+    <low>5.5500</low>
+    <close>6.4400</close>
+    <adjusted_close>4.8762</adjusted_close>
+    <volume>375890800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>6.4525</open>
+    <high>6.7175</high>
+    <low>5.8375</low>
+    <close>5.8775</close>
+    <adjusted_close>4.4503</adjusted_close>
+    <volume>426204800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>5.8550</open>
+    <high>6.2075</high>
+    <low>5.7000</low>
+    <close>6.1675</close>
+    <adjusted_close>4.6699</adjusted_close>
+    <volume>381653200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>6.1400</open>
+    <high>6.3650</high>
+    <low>5.9375</low>
+    <close>6.1375</close>
+    <adjusted_close>4.6471</adjusted_close>
+    <volume>279097200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>6.2375</open>
+    <high>6.9425</high>
+    <low>6.1950</low>
+    <close>6.8325</close>
+    <adjusted_close>5.1734</adjusted_close>
+    <volume>336760800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>6.8500</open>
+    <high>7.1325</high>
+    <low>6.5000</low>
+    <close>7.0975</close>
+    <adjusted_close>5.3740</adjusted_close>
+    <volume>196262000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>7.0225</open>
+    <high>7.7375</high>
+    <low>7.0150</low>
+    <close>7.2000</close>
+    <adjusted_close>5.4516</adjusted_close>
+    <volume>314559200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>7.2600</open>
+    <high>8.0000</high>
+    <low>7.2000</low>
+    <close>7.9000</close>
+    <adjusted_close>5.9817</adjusted_close>
+    <volume>224384800</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>7.8400</open>
+    <high>8.2625</high>
+    <low>7.5000</low>
+    <close>8.0425</close>
+    <adjusted_close>6.0896</adjusted_close>
+    <volume>217008800</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>8.0200</open>
+    <high>8.3575</high>
+    <low>7.8550</low>
+    <close>8.2900</close>
+    <adjusted_close>6.2770</adjusted_close>
+    <volume>201372000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>8.3625</open>
+    <high>9.2025</high>
+    <low>8.2250</low>
+    <close>9.1525</close>
+    <adjusted_close>6.9300</adjusted_close>
+    <volume>269614800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>9.2050</open>
+    <high>9.9200</high>
+    <low>9.0000</low>
+    <close>9.3500</close>
+    <adjusted_close>7.0796</adjusted_close>
+    <volume>271877600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>9.4725</open>
+    <high>9.6850</high>
+    <low>9.1275</low>
+    <close>9.4675</close>
+    <adjusted_close>7.1685</adjusted_close>
+    <volume>288346400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>9.5350</open>
+    <high>9.9775</high>
+    <low>9.1850</low>
+    <close>9.7300</close>
+    <adjusted_close>7.3673</adjusted_close>
+    <volume>240294000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>9.7050</open>
+    <high>10.3000</high>
+    <low>9.2575</low>
+    <close>10.1500</close>
+    <adjusted_close>7.6853</adjusted_close>
+    <volume>230995600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>10.1750</open>
+    <high>11.1000</high>
+    <low>10.1550</low>
+    <close>10.8725</close>
+    <adjusted_close>8.2324</adjusted_close>
+    <volume>243623600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>11.1625</open>
+    <high>12.1000</high>
+    <low>11.0050</low>
+    <close>11.7475</close>
+    <adjusted_close>8.8949</adjusted_close>
+    <volume>308100400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>11.7175</open>
+    <high>11.7825</high>
+    <low>10.5125</low>
+    <close>10.8100</close>
+    <adjusted_close>8.1850</adjusted_close>
+    <volume>326506000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>10.7475</open>
+    <high>11.5725</high>
+    <low>10.6975</low>
+    <close>11.3650</close>
+    <adjusted_close>8.6053</adjusted_close>
+    <volume>207210400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>11.4925</open>
+    <high>13.3125</high>
+    <low>11.3225</low>
+    <close>13.2200</close>
+    <adjusted_close>10.0098</adjusted_close>
+    <volume>292142000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>13.2300</open>
+    <high>14.2500</high>
+    <low>13.1500</low>
+    <close>14.0650</close>
+    <adjusted_close>10.6496</adjusted_close>
+    <volume>245271600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>14.0825</open>
+    <high>16.0650</high>
+    <low>14.0725</low>
+    <close>15.5900</close>
+    <adjusted_close>11.8043</adjusted_close>
+    <volume>253791600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>15.8225</open>
+    <high>15.8350</high>
+    <low>13.0250</low>
+    <close>13.5000</close>
+    <adjusted_close>10.2218</adjusted_close>
+    <volume>466645200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>13.5400</open>
+    <high>13.7450</high>
+    <low>12.2850</low>
+    <close>12.9525</close>
+    <adjusted_close>9.8073</adjusted_close>
+    <volume>316263600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>12.9725</open>
+    <high>13.8975</high>
+    <low>12.6800</low>
+    <close>12.9150</close>
+    <adjusted_close>9.7789</adjusted_close>
+    <volume>269286000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>13.0575</open>
+    <high>13.0950</high>
+    <low>11.1450</low>
+    <close>12.3800</close>
+    <adjusted_close>9.3738</adjusted_close>
+    <volume>425663200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>12.4750</open>
+    <high>13.9300</high>
+    <low>12.3000</low>
+    <close>13.6975</close>
+    <adjusted_close>10.3714</adjusted_close>
+    <volume>263134400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>13.7300</open>
+    <high>14.2250</high>
+    <low>12.8800</low>
+    <close>12.9150</close>
+    <adjusted_close>9.7789</adjusted_close>
+    <volume>228436400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>12.9325</open>
+    <high>13.5975</high>
+    <low>12.3200</low>
+    <close>13.1375</close>
+    <adjusted_close>9.9474</adjusted_close>
+    <volume>272621600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>13.1375</open>
+    <high>13.1925</high>
+    <low>12.0000</low>
+    <close>12.2575</close>
+    <adjusted_close>9.2810</adjusted_close>
+    <volume>216531200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>12.4500</open>
+    <high>12.5400</high>
+    <low>11.5025</low>
+    <close>12.5250</close>
+    <adjusted_close>9.4836</adjusted_close>
+    <volume>266210400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>12.5775</open>
+    <high>14.2450</high>
+    <low>12.4300</low>
+    <close>14.1400</close>
+    <adjusted_close>10.7064</adjusted_close>
+    <volume>280288200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>14.1500</open>
+    <high>16.0000</high>
+    <low>14.0350</low>
+    <close>15.2250</close>
+    <adjusted_close>11.5280</adjusted_close>
+    <volume>232694200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>15.1700</open>
+    <high>16.2300</high>
+    <low>14.9700</low>
+    <close>15.0050</close>
+    <adjusted_close>11.3614</adjusted_close>
+    <volume>181387400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>15.2850</open>
+    <high>16.1600</high>
+    <low>14.9500</low>
+    <close>15.8500</close>
+    <adjusted_close>12.0012</adjusted_close>
+    <volume>167365600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>15.6400</open>
+    <high>18.4350</high>
+    <low>15.5700</low>
+    <close>18.1600</close>
+    <adjusted_close>13.7503</adjusted_close>
+    <volume>248202600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>18.1650</open>
+    <high>19.0550</high>
+    <low>17.3650</low>
+    <close>18.8150</close>
+    <adjusted_close>14.2462</adjusted_close>
+    <volume>225956600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>18.9900</open>
+    <high>19.7500</high>
+    <low>18.3850</low>
+    <close>18.6350</close>
+    <adjusted_close>14.1099</adjusted_close>
+    <volume>196322200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>18.8150</open>
+    <high>19.9400</high>
+    <low>17.3000</low>
+    <close>17.8250</close>
+    <adjusted_close>13.4966</adjusted_close>
+    <volume>335908200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>17.7450</open>
+    <high>19.0100</high>
+    <low>17.4550</low>
+    <close>18.8800</close>
+    <adjusted_close>14.2954</adjusted_close>
+    <volume>254581400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>18.9800</open>
+    <high>19.1650</high>
+    <low>16.4650</low>
+    <close>17.1150</close>
+    <adjusted_close>12.9590</adjusted_close>
+    <volume>310443000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>16.9950</open>
+    <high>16.9950</high>
+    <low>14.3600</low>
+    <close>15.5050</close>
+    <adjusted_close>11.7400</adjusted_close>
+    <volume>529827200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>15.8050</open>
+    <high>17.5200</high>
+    <low>15.2650</low>
+    <close>17.0250</close>
+    <adjusted_close>12.8909</adjusted_close>
+    <volume>318108400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>17.0750</open>
+    <high>19.7500</high>
+    <low>16.8050</low>
+    <close>18.8750</close>
+    <adjusted_close>14.2916</adjusted_close>
+    <volume>369074600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>18.9950</open>
+    <high>20.0050</high>
+    <low>17.5800</low>
+    <close>17.6450</close>
+    <adjusted_close>13.3603</adjusted_close>
+    <volume>329611600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>17.6250</open>
+    <high>18.5700</high>
+    <low>17.4500</low>
+    <close>17.7100</close>
+    <adjusted_close>13.4095</adjusted_close>
+    <volume>209947800</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>17.8000</open>
+    <high>18.3050</high>
+    <low>16.7450</low>
+    <close>17.4700</close>
+    <adjusted_close>13.2278</adjusted_close>
+    <volume>323527400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>17.5650</open>
+    <high>17.7100</high>
+    <low>15.1200</low>
+    <close>15.4500</close>
+    <adjusted_close>11.6983</adjusted_close>
+    <volume>389013200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>15.1000</open>
+    <high>16.2250</high>
+    <low>14.4300</low>
+    <close>15.6800</close>
+    <adjusted_close>11.8725</adjusted_close>
+    <volume>555995600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>15.7700</open>
+    <high>16.1500</high>
+    <low>15.1500</low>
+    <close>15.5100</close>
+    <adjusted_close>11.7438</adjusted_close>
+    <volume>353030400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>15.5800</open>
+    <high>15.9500</high>
+    <low>14.0150</low>
+    <close>14.4050</close>
+    <adjusted_close>10.9071</adjusted_close>
+    <volume>649586200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>14.4000</open>
+    <high>14.5750</high>
+    <low>12.6100</low>
+    <close>13.1200</close>
+    <adjusted_close>9.9341</adjusted_close>
+    <volume>698635800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>13.2000</open>
+    <high>14.2500</high>
+    <low>12.8150</low>
+    <close>13.3400</close>
+    <adjusted_close>10.1007</adjusted_close>
+    <volume>659410600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>13.2550</open>
+    <high>14.3000</high>
+    <low>13.0150</low>
+    <close>13.7750</close>
+    <adjusted_close>10.4301</adjusted_close>
+    <volume>553500800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>13.8350</open>
+    <high>14.0950</high>
+    <low>12.9750</low>
+    <close>13.1000</close>
+    <adjusted_close>9.9190</adjusted_close>
+    <volume>380038600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>13.1350</open>
+    <high>13.4600</high>
+    <low>12.8150</low>
+    <close>13.3400</close>
+    <adjusted_close>10.1007</adjusted_close>
+    <volume>406501200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>13.2000</open>
+    <high>13.3400</high>
+    <low>10.8850</low>
+    <close>11.6950</close>
+    <adjusted_close>8.8551</adjusted_close>
+    <volume>822870400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>11.6150</open>
+    <high>11.7150</high>
+    <low>9.9450</low>
+    <close>10.2350</close>
+    <adjusted_close>7.7497</adjusted_close>
+    <volume>462595000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>10.0700</open>
+    <high>10.5050</high>
+    <low>8.8300</low>
+    <close>9.4550</close>
+    <adjusted_close>7.1591</adjusted_close>
+    <volume>942918800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>9.4850</open>
+    <high>9.6750</high>
+    <low>8.8750</low>
+    <close>8.9900</close>
+    <adjusted_close>6.8070</adjusted_close>
+    <volume>503130400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>9.0100</open>
+    <high>9.2500</high>
+    <low>8.3850</low>
+    <close>8.7500</close>
+    <adjusted_close>6.6253</adjusted_close>
+    <volume>594697400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>8.9150</open>
+    <high>9.4450</high>
+    <low>7.6950</low>
+    <close>8.1150</close>
+    <adjusted_close>6.1445</adjusted_close>
+    <volume>671062600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>7.9800</open>
+    <high>9.2050</high>
+    <low>7.8400</low>
+    <close>9.0950</close>
+    <adjusted_close>6.8865</adjusted_close>
+    <volume>631945400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>9.0850</open>
+    <high>9.2800</high>
+    <low>7.8650</low>
+    <close>7.8700</close>
+    <adjusted_close>5.9590</adjusted_close>
+    <volume>510214200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>7.7800</open>
+    <high>8.0250</high>
+    <low>6.6650</low>
+    <close>7.3450</close>
+    <adjusted_close>5.5614</adjusted_close>
+    <volume>691960600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>7.4500</open>
+    <high>8.5900</high>
+    <low>7.0050</low>
+    <close>7.7800</close>
+    <adjusted_close>5.8908</adjusted_close>
+    <volume>518177000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>7.9800</open>
+    <high>8.4100</high>
+    <low>7.0650</low>
+    <close>7.4350</close>
+    <adjusted_close>5.6296</adjusted_close>
+    <volume>553293600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>7.2800</open>
+    <high>7.5300</high>
+    <low>4.5800</low>
+    <close>6.5650</close>
+    <adjusted_close>4.9708</adjusted_close>
+    <volume>774586000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>6.3350</open>
+    <high>6.5750</high>
+    <low>3.5300</low>
+    <close>4.4650</close>
+    <adjusted_close>3.3808</adjusted_close>
+    <volume>657481200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>4.3150</open>
+    <high>5.1850</high>
+    <low>3.9650</low>
+    <close>4.7300</close>
+    <adjusted_close>3.5814</adjusted_close>
+    <volume>463529600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>4.7050</open>
+    <high>5.1800</high>
+    <low>4.2500</low>
+    <close>4.7200</close>
+    <adjusted_close>3.5739</adjusted_close>
+    <volume>459950800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>4.6300</open>
+    <high>5.3850</high>
+    <low>4.4500</low>
+    <close>4.5750</close>
+    <adjusted_close>3.4641</adjusted_close>
+    <volume>487465600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>4.4900</open>
+    <high>6.2150</high>
+    <low>4.0600</low>
+    <close>5.5550</close>
+    <adjusted_close>4.2061</adjusted_close>
+    <volume>574769000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>5.4950</open>
+    <high>7.7200</high>
+    <low>5.4050</low>
+    <close>7.2300</close>
+    <adjusted_close>5.4744</adjusted_close>
+    <volume>656683400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>7.2100</open>
+    <high>7.2500</high>
+    <low>6.2600</low>
+    <close>7.1950</close>
+    <adjusted_close>5.4479</adjusted_close>
+    <volume>555559800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>7.2850</open>
+    <high>7.7000</high>
+    <low>6.7700</low>
+    <close>6.9450</close>
+    <adjusted_close>5.2586</adjusted_close>
+    <volume>521311000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>6.9900</open>
+    <high>8.9500</high>
+    <low>6.3800</low>
+    <close>8.8500</close>
+    <adjusted_close>6.7010</adjusted_close>
+    <volume>673380800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>8.9900</open>
+    <high>9.9250</high>
+    <low>8.8350</low>
+    <close>9.4950</close>
+    <adjusted_close>7.1894</adjusted_close>
+    <volume>493708000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>9.4900</open>
+    <high>10.4700</high>
+    <low>9.1050</low>
+    <close>10.3250</close>
+    <adjusted_close>7.8178</adjusted_close>
+    <volume>498955800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>10.2700</open>
+    <high>10.5550</high>
+    <low>9.3450</low>
+    <close>9.4900</close>
+    <adjusted_close>7.1856</adjusted_close>
+    <volume>424346200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>9.4900</open>
+    <high>11.0500</high>
+    <low>9.4250</low>
+    <close>10.9500</close>
+    <adjusted_close>8.2910</adjusted_close>
+    <volume>436812000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>10.9750</open>
+    <high>11.9750</high>
+    <low>10.4750</low>
+    <close>11.5300</close>
+    <adjusted_close>8.7302</adjusted_close>
+    <volume>394275400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>11.6600</open>
+    <high>12.2250</high>
+    <low>10.8750</low>
+    <close>10.8950</close>
+    <adjusted_close>8.2494</adjusted_close>
+    <volume>407390000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>10.9950</open>
+    <high>11.7300</high>
+    <low>10.6300</low>
+    <close>11.4550</close>
+    <adjusted_close>8.6734</adjusted_close>
+    <volume>302432200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>11.4650</open>
+    <high>13.0000</high>
+    <low>11.4350</low>
+    <close>12.1350</close>
+    <adjusted_close>9.1883</adjusted_close>
+    <volume>412470400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>12.2700</open>
+    <high>13.7950</high>
+    <low>11.9750</low>
+    <close>12.9900</close>
+    <adjusted_close>9.8764</adjusted_close>
+    <volume>399500000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>13.0100</open>
+    <high>13.9650</high>
+    <low>12.0350</low>
+    <close>12.9450</close>
+    <adjusted_close>9.8422</adjusted_close>
+    <volume>474235000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>12.8750</open>
+    <high>14.2500</high>
+    <low>12.1350</low>
+    <close>12.1500</close>
+    <adjusted_close>9.2378</adjusted_close>
+    <volume>433620000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>12.2150</open>
+    <high>13.2200</high>
+    <low>11.7350</low>
+    <close>12.4250</close>
+    <adjusted_close>9.4468</adjusted_close>
+    <volume>395435600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>12.5100</open>
+    <high>12.8600</high>
+    <low>11.2500</low>
+    <close>11.4900</close>
+    <adjusted_close>8.7819</adjusted_close>
+    <volume>330390800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>11.5900</open>
+    <high>13.2850</high>
+    <low>11.5150</low>
+    <close>12.7750</close>
+    <adjusted_close>9.7640</adjusted_close>
+    <volume>301178400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>12.9450</open>
+    <high>14.4000</high>
+    <low>12.6850</low>
+    <close>14.2800</close>
+    <adjusted_close>10.9143</adjusted_close>
+    <volume>283694400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>14.3400</open>
+    <high>15.7550</high>
+    <low>14.2200</low>
+    <close>15.3000</close>
+    <adjusted_close>11.7435</adjusted_close>
+    <volume>328044800</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>15.5050</open>
+    <high>16.5750</high>
+    <low>15.5050</low>
+    <close>16.0650</close>
+    <adjusted_close>12.3307</adjusted_close>
+    <volume>234405800</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>16.2450</open>
+    <high>16.8900</high>
+    <low>15.3750</low>
+    <close>15.7650</close>
+    <adjusted_close>12.1004</adjusted_close>
+    <volume>364016200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>15.8800</open>
+    <high>17.0150</high>
+    <low>15.5850</low>
+    <close>16.4900</close>
+    <adjusted_close>12.7076</adjusted_close>
+    <volume>277619400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>16.6150</open>
+    <high>19.1050</high>
+    <low>15.8600</low>
+    <close>18.4750</close>
+    <adjusted_close>14.2373</adjusted_close>
+    <volume>469021400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>18.6250</open>
+    <high>18.8300</high>
+    <low>17.5000</low>
+    <close>18.1000</close>
+    <adjusted_close>13.9483</adjusted_close>
+    <volume>266349600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>18.2400</open>
+    <high>18.8350</high>
+    <low>17.4200</low>
+    <close>18.3950</close>
+    <adjusted_close>14.2262</adjusted_close>
+    <volume>253114800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>18.2700</open>
+    <high>19.8950</high>
+    <low>17.3050</low>
+    <close>19.7450</close>
+    <adjusted_close>15.2703</adjusted_close>
+    <volume>286897200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>19.8100</open>
+    <high>20.5550</high>
+    <low>19.4500</low>
+    <close>20.0450</close>
+    <adjusted_close>15.5023</adjusted_close>
+    <volume>280018000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>20.2200</open>
+    <high>20.3850</high>
+    <low>16.8600</low>
+    <close>19.3100</close>
+    <adjusted_close>14.9869</adjusted_close>
+    <volume>460331200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>19.4200</open>
+    <high>21.0000</high>
+    <low>18.2100</low>
+    <close>18.6450</close>
+    <adjusted_close>14.4708</adjusted_close>
+    <volume>344016600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>18.4250</open>
+    <high>21.7150</high>
+    <low>17.5600</low>
+    <close>21.1800</close>
+    <adjusted_close>16.4383</adjusted_close>
+    <volume>299915200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>20.6650</open>
+    <high>22.3500</high>
+    <low>20.2750</low>
+    <close>21.7400</close>
+    <adjusted_close>16.9389</adjusted_close>
+    <volume>288323400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>21.6000</open>
+    <high>23.2500</high>
+    <low>21.3350</low>
+    <close>23.0050</close>
+    <adjusted_close>17.9245</adjusted_close>
+    <volume>204133600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>23.4250</open>
+    <high>24.3100</high>
+    <low>22.6400</low>
+    <close>23.9600</close>
+    <adjusted_close>18.6686</adjusted_close>
+    <volume>245264200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>24.1700</open>
+    <high>24.6800</high>
+    <low>23.7050</low>
+    <close>24.2800</close>
+    <adjusted_close>18.9848</adjusted_close>
+    <volume>178910200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>24.3450</open>
+    <high>28.2750</high>
+    <low>24.0500</low>
+    <close>27.9450</close>
+    <adjusted_close>21.8505</adjusted_close>
+    <volume>302610600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>28.0150</open>
+    <high>31.0000</high>
+    <low>27.9800</low>
+    <close>28.6850</close>
+    <adjusted_close>22.4291</adjusted_close>
+    <volume>423761600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>28.7550</open>
+    <high>29.2150</high>
+    <low>25.7150</low>
+    <close>27.4450</close>
+    <adjusted_close>21.5254</adjusted_close>
+    <volume>353944600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>26.5550</open>
+    <high>27.9850</high>
+    <low>25.5150</low>
+    <close>26.6600</close>
+    <adjusted_close>20.9097</adjusted_close>
+    <volume>327233200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>26.7200</open>
+    <high>27.1400</high>
+    <low>22.5450</low>
+    <close>22.6400</close>
+    <adjusted_close>17.7568</adjusted_close>
+    <volume>333250400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>22.7350</open>
+    <high>25.0300</high>
+    <low>21.5200</low>
+    <close>24.8050</close>
+    <adjusted_close>19.5304</adjusted_close>
+    <volume>417867400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>24.7250</open>
+    <high>26.0000</high>
+    <low>24.4950</low>
+    <close>25.3550</close>
+    <adjusted_close>19.9635</adjusted_close>
+    <volume>274167200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>25.4650</open>
+    <high>25.6500</high>
+    <low>22.1350</low>
+    <close>22.9500</close>
+    <adjusted_close>18.0699</adjusted_close>
+    <volume>412758000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>22.8700</open>
+    <high>26.1550</high>
+    <low>22.6950</low>
+    <close>25.9350</close>
+    <adjusted_close>20.5051</adjusted_close>
+    <volume>332715600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>26.0700</open>
+    <high>27.4500</high>
+    <low>24.7800</low>
+    <close>26.8150</close>
+    <adjusted_close>21.2008</adjusted_close>
+    <volume>309576800</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>27.2950</open>
+    <high>28.6350</high>
+    <low>26.8400</low>
+    <close>28.0600</close>
+    <adjusted_close>22.1852</adjusted_close>
+    <volume>283483800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>28.2850</open>
+    <high>28.5500</high>
+    <low>26.2600</low>
+    <close>27.4250</close>
+    <adjusted_close>21.7646</adjusted_close>
+    <volume>192701000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>27.3150</open>
+    <high>29.4850</high>
+    <low>27.0000</low>
+    <close>28.4750</close>
+    <adjusted_close>22.5979</adjusted_close>
+    <volume>220112400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>28.5650</open>
+    <high>30.4600</high>
+    <low>28.3250</low>
+    <close>30.4200</close>
+    <adjusted_close>24.1415</adjusted_close>
+    <volume>212049200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>30.2750</open>
+    <high>32.4650</high>
+    <low>29.8000</low>
+    <close>31.5700</close>
+    <adjusted_close>25.1386</adjusted_close>
+    <volume>168382200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>31.6300</open>
+    <high>33.7400</high>
+    <low>31.1550</low>
+    <close>32.7550</close>
+    <adjusted_close>26.0822</adjusted_close>
+    <volume>201953000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>33.0450</open>
+    <high>36.7600</high>
+    <low>32.9100</low>
+    <close>35.6450</close>
+    <adjusted_close>28.3834</adjusted_close>
+    <volume>217257800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>36.1350</open>
+    <high>37.1350</high>
+    <low>34.9300</low>
+    <close>35.2600</close>
+    <adjusted_close>28.1568</adjusted_close>
+    <volume>147060600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>35.8500</open>
+    <high>38.9200</high>
+    <low>35.4650</low>
+    <close>38.4850</close>
+    <adjusted_close>30.7321</adjusted_close>
+    <volume>149488400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>38.4900</open>
+    <high>40.8100</high>
+    <low>37.2250</low>
+    <close>40.5250</close>
+    <adjusted_close>32.3612</adjusted_close>
+    <volume>204986200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>40.7700</open>
+    <high>41.2500</high>
+    <low>39.5000</low>
+    <close>40.7300</close>
+    <adjusted_close>32.6296</adjusted_close>
+    <volume>175806400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>40.7450</open>
+    <high>40.8450</high>
+    <low>37.9550</low>
+    <close>39.1950</close>
+    <adjusted_close>31.3999</adjusted_close>
+    <volume>186721400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>39.0350</open>
+    <high>39.1350</high>
+    <low>35.4350</low>
+    <close>35.5600</close>
+    <adjusted_close>28.4878</adjusted_close>
+    <volume>291179000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>35.5000</open>
+    <high>37.5950</high>
+    <low>34.3350</low>
+    <close>35.4800</close>
+    <adjusted_close>28.5313</adjusted_close>
+    <volume>259867000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>35.0050</open>
+    <high>39.3200</high>
+    <low>35.0000</low>
+    <close>36.6900</close>
+    <adjusted_close>29.5043</adjusted_close>
+    <volume>243879800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>36.8200</open>
+    <high>37.4900</high>
+    <low>33.9650</low>
+    <close>35.3100</close>
+    <adjusted_close>28.3946</adjusted_close>
+    <volume>229999800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>35.3750</open>
+    <high>36.8900</high>
+    <low>34.5700</low>
+    <close>36.6200</close>
+    <adjusted_close>29.5564</adjusted_close>
+    <volume>165484600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>36.6100</open>
+    <high>39.1750</high>
+    <low>36.5800</low>
+    <close>38.6900</close>
+    <adjusted_close>31.2271</adjusted_close>
+    <volume>157418200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>38.9450</open>
+    <high>40.3200</high>
+    <low>38.5600</low>
+    <close>38.8400</close>
+    <adjusted_close>31.3482</adjusted_close>
+    <volume>174198400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>38.7500</open>
+    <high>39.2350</high>
+    <low>38.0800</low>
+    <close>38.9050</close>
+    <adjusted_close>31.5063</adjusted_close>
+    <volume>123725400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>38.8500</open>
+    <high>38.9900</high>
+    <low>36.8900</low>
+    <close>37.7300</close>
+    <adjusted_close>30.5548</adjusted_close>
+    <volume>166706200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>37.8400</open>
+    <high>38.8350</high>
+    <low>35.3850</low>
+    <close>37.7800</close>
+    <adjusted_close>30.5952</adjusted_close>
+    <volume>232344600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>37.9850</open>
+    <high>40.8200</high>
+    <low>37.7350</low>
+    <close>40.6050</close>
+    <adjusted_close>33.0188</adjusted_close>
+    <volume>140502400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>40.5000</open>
+    <high>42.1000</high>
+    <low>39.2200</low>
+    <close>41.0250</close>
+    <adjusted_close>33.3604</adjusted_close>
+    <volume>222092000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>41.0650</open>
+    <high>44.7950</high>
+    <low>39.2800</low>
+    <close>43.7650</close>
+    <adjusted_close>35.5884</adjusted_close>
+    <volume>267338600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>43.8400</open>
+    <high>47.4150</high>
+    <low>42.9300</low>
+    <close>46.7450</close>
+    <adjusted_close>38.1504</adjusted_close>
+    <volume>150263600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>46.6650</open>
+    <high>49.6000</high>
+    <low>45.6100</low>
+    <close>47.3500</close>
+    <adjusted_close>38.6442</adjusted_close>
+    <volume>195931000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>47.1400</open>
+    <high>52.0900</high>
+    <low>46.2800</low>
+    <close>49.5800</close>
+    <adjusted_close>40.4642</adjusted_close>
+    <volume>179360700</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>49.9500</open>
+    <high>52.2300</high>
+    <low>48.5700</low>
+    <close>51.9600</close>
+    <adjusted_close>42.5415</adjusted_close>
+    <volume>134474400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>51.9600</open>
+    <high>54.7500</high>
+    <low>51.1000</low>
+    <close>53.6200</close>
+    <adjusted_close>43.9006</adjusted_close>
+    <volume>150831700</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>53.8600</open>
+    <high>59.3100</high>
+    <low>53.3100</low>
+    <close>57.9300</close>
+    <adjusted_close>47.4294</adjusted_close>
+    <volume>177930600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>58.6200</open>
+    <high>59.3200</high>
+    <low>42.0500</low>
+    <close>54.7100</close>
+    <adjusted_close>44.9166</adjusted_close>
+    <volume>223614000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>53.0000</open>
+    <high>58.9600</high>
+    <low>52.7400</low>
+    <close>56.8400</close>
+    <adjusted_close>46.6653</adjusted_close>
+    <volume>187645900</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>56.9900</open>
+    <high>64.0000</high>
+    <low>55.8900</low>
+    <close>62.5700</close>
+    <adjusted_close>51.3696</adjusted_close>
+    <volume>195542500</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>63.0100</open>
+    <high>63.1900</high>
+    <low>59.5000</low>
+    <close>61.3900</close>
+    <adjusted_close>50.5640</adjusted_close>
+    <volume>141548700</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>61.0800</open>
+    <high>62.5400</high>
+    <low>58.2700</low>
+    <close>60.0300</close>
+    <adjusted_close>49.4438</adjusted_close>
+    <volume>174904100</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>58.7700</open>
+    <high>60.8800</high>
+    <low>54.9400</low>
+    <close>60.7700</close>
+    <adjusted_close>50.0533</adjusted_close>
+    <volume>262885000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>60.6600</open>
+    <high>61.7900</high>
+    <low>52.6300</low>
+    <close>58.2100</close>
+    <adjusted_close>48.1014</adjusted_close>
+    <volume>223871600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>58.7700</open>
+    <high>60.4500</high>
+    <low>56.5700</low>
+    <close>59.7000</close>
+    <adjusted_close>49.3327</adjusted_close>
+    <volume>180465500</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>59.6100</open>
+    <high>61.6400</high>
+    <low>55.2900</low>
+    <close>56.2300</close>
+    <adjusted_close>46.4653</adjusted_close>
+    <volume>197552300</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>56.2900</open>
+    <high>57.6000</high>
+    <low>54.1900</low>
+    <close>54.8900</close>
+    <adjusted_close>45.5167</adjusted_close>
+    <volume>164813800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>54.7600</open>
+    <high>57.1900</high>
+    <low>53.4100</low>
+    <close>57.1200</close>
+    <adjusted_close>47.3659</adjusted_close>
+    <volume>186865200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>57.0400</open>
+    <high>58.8400</high>
+    <low>56.0600</low>
+    <close>58.0500</close>
+    <adjusted_close>48.1371</adjusted_close>
+    <volume>203692900</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>58.0000</open>
+    <high>58.0500</high>
+    <low>54.8500</low>
+    <close>56.2300</close>
+    <adjusted_close>46.7903</adjusted_close>
+    <volume>179342000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>56.3000</open>
+    <high>56.6500</high>
+    <low>52.9000</low>
+    <close>54.1400</close>
+    <adjusted_close>45.0511</adjusted_close>
+    <volume>192723100</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>54.1000</open>
+    <high>54.4600</high>
+    <low>52.5900</low>
+    <close>53.0700</close>
+    <adjusted_close>44.1607</adjusted_close>
+    <volume>148546100</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>53.1400</open>
+    <high>58.2500</high>
+    <low>50.8400</low>
+    <close>57.9700</close>
+    <adjusted_close>48.4616</adjusted_close>
+    <volume>237025700</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>57.3400</open>
+    <high>59.5400</high>
+    <low>55.4000</low>
+    <close>55.5200</close>
+    <adjusted_close>46.4134</adjusted_close>
+    <volume>165872700</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>55.9100</open>
+    <high>59.0000</high>
+    <low>54.8800</low>
+    <close>55.2200</close>
+    <adjusted_close>46.1627</adjusted_close>
+    <volume>188760500</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>55.4900</open>
+    <high>57.8500</high>
+    <low>53.8100</low>
+    <close>56.8700</close>
+    <adjusted_close>47.7562</adjusted_close>
+    <volume>196153900</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>57.2700</open>
+    <high>58.6600</high>
+    <low>54.0900</low>
+    <close>58.3900</close>
+    <adjusted_close>49.0326</adjusted_close>
+    <volume>225544200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>58.2800</open>
+    <high>61.9400</high>
+    <low>57.3800</low>
+    <close>60.0600</close>
+    <adjusted_close>50.4350</adjusted_close>
+    <volume>181381100</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>60.0000</open>
+    <high>63.6100</high>
+    <low>58.8700</low>
+    <close>63.6100</close>
+    <adjusted_close>53.6362</adjusted_close>
+    <volume>160468800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>63.5100</open>
+    <high>64.8700</high>
+    <low>57.9600</low>
+    <close>58.3100</close>
+    <adjusted_close>49.1672</adjusted_close>
+    <volume>170396300</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>58.9000</open>
+    <high>59.6600</high>
+    <low>53.4100</low>
+    <close>53.9800</close>
+    <adjusted_close>45.5161</adjusted_close>
+    <volume>221103700</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>54.5700</open>
+    <high>56.1200</high>
+    <low>52.5800</low>
+    <close>54.8600</close>
+    <adjusted_close>46.4669</adjusted_close>
+    <volume>235679800</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>54.9000</open>
+    <high>55.6000</high>
+    <low>53.0500</low>
+    <close>53.7100</close>
+    <adjusted_close>45.4929</adjusted_close>
+    <volume>184484300</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>53.8600</open>
+    <high>56.4300</high>
+    <low>53.6600</low>
+    <close>54.8400</close>
+    <adjusted_close>46.4500</adjusted_close>
+    <volume>178855400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>55.1000</open>
+    <high>58.1400</high>
+    <low>54.0500</low>
+    <close>57.8200</close>
+    <adjusted_close>49.2335</adjusted_close>
+    <volume>215270200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>57.5000</open>
+    <high>60.0500</high>
+    <low>56.4600</low>
+    <close>57.4300</close>
+    <adjusted_close>48.9015</adjusted_close>
+    <volume>175171000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>57.9500</open>
+    <high>61.9400</high>
+    <low>56.5500</low>
+    <close>56.8100</close>
+    <adjusted_close>48.3735</adjusted_close>
+    <volume>242647700</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>56.2800</open>
+    <high>57.9200</high>
+    <low>53.5600</low>
+    <close>57.1000</close>
+    <adjusted_close>48.8842</adjusted_close>
+    <volume>238536700</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>57.0000</open>
+    <high>60.7000</high>
+    <low>55.6800</low>
+    <close>57.8900</close>
+    <adjusted_close>49.5605</adjusted_close>
+    <volume>185897700</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>57.5200</open>
+    <high>60.1800</high>
+    <low>55.3800</low>
+    <close>57.5700</close>
+    <adjusted_close>49.2866</adjusted_close>
+    <volume>178446500</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>57.6700</open>
+    <high>59.0400</high>
+    <low>55.5400</low>
+    <close>56.6700</close>
+    <adjusted_close>48.7698</adjusted_close>
+    <volume>150516400</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>56.8400</open>
+    <high>57.9400</high>
+    <low>47.3700</low>
+    <close>48.8500</close>
+    <adjusted_close>42.0399</adjusted_close>
+    <volume>338561600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>48.6400</open>
+    <high>52.8500</high>
+    <low>48.4000</low>
+    <close>52.3900</close>
+    <adjusted_close>45.0864</adjusted_close>
+    <volume>244824000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>52.2400</open>
+    <high>54.4400</high>
+    <low>51.2000</low>
+    <close>53.4500</close>
+    <adjusted_close>46.3189</adjusted_close>
+    <volume>198190200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>53.4400</open>
+    <high>57.8400</high>
+    <low>53.2100</low>
+    <close>56.8400</close>
+    <adjusted_close>49.2566</adjusted_close>
+    <volume>177505500</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>56.9100</open>
+    <high>59.7000</high>
+    <low>54.7100</low>
+    <close>58.2700</close>
+    <adjusted_close>50.4958</adjusted_close>
+    <volume>285962000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>58.3000</open>
+    <high>68.9800</high>
+    <low>58.0700</low>
+    <close>66.7200</close>
+    <adjusted_close>58.1289</adjusted_close>
+    <volume>326988900</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>67.3700</open>
+    <high>68.1500</high>
+    <low>60.4200</low>
+    <close>64.4000</close>
+    <adjusted_close>56.1076</adjusted_close>
+    <volume>250212000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>63.6800</open>
+    <high>69.4900</high>
+    <low>61.4000</low>
+    <close>68.1400</close>
+    <adjusted_close>59.3660</adjusted_close>
+    <volume>276732200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>68.5900</open>
+    <high>72.0700</high>
+    <low>67.0800</low>
+    <close>70.2600</close>
+    <adjusted_close>61.5325</adjusted_close>
+    <volume>215346400</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>70.6300</open>
+    <high>74.4800</high>
+    <low>69.0300</low>
+    <close>74.3400</close>
+    <adjusted_close>65.1057</adjusted_close>
+    <volume>192665200</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>74.7600</open>
+    <high>77.7900</high>
+    <low>73.7300</low>
+    <close>77.6800</close>
+    <adjusted_close>68.0308</adjusted_close>
+    <volume>146496900</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>77.6700</open>
+    <high>79.6500</high>
+    <low>74.3300</low>
+    <close>76.0600</close>
+    <adjusted_close>66.9211</adjusted_close>
+    <volume>168825900</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>76.1200</open>
+    <high>85.2000</high>
+    <low>75.6500</low>
+    <close>83.8300</close>
+    <adjusted_close>73.7575</adjusted_close>
+    <volume>163305800</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>84.6200</open>
+    <high>99.7200</high>
+    <low>84.0300</low>
+    <close>94.6900</close>
+    <adjusted_close>83.3126</adjusted_close>
+    <volume>166015600</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>95.0000</open>
+    <high>98.1400</high>
+    <low>93.0300</low>
+    <close>96.5600</close>
+    <adjusted_close>85.2800</adjusted_close>
+    <volume>142069000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>96.4200</open>
+    <high>97.2100</high>
+    <low>87.6100</low>
+    <close>88.4200</close>
+    <adjusted_close>78.0909</adjusted_close>
+    <volume>134511100</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>88.6300</open>
+    <high>88.8900</high>
+    <low>82.1300</low>
+    <close>84.5600</close>
+    <adjusted_close>74.6818</adjusted_close>
+    <volume>137892400</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>84.7900</open>
+    <high>86.7300</high>
+    <low>81.0300</low>
+    <close>85.4300</close>
+    <adjusted_close>75.8273</adjusted_close>
+    <volume>138762700</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>85.3800</open>
+    <high>89.3000</high>
+    <low>83.8200</low>
+    <close>87.9200</close>
+    <adjusted_close>78.0374</adjusted_close>
+    <volume>132545100</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>88.1200</open>
+    <high>94.1300</high>
+    <low>84.5200</low>
+    <close>84.8300</close>
+    <adjusted_close>75.2947</adjusted_close>
+    <volume>170390700</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>85.0700</open>
+    <high>90.5100</high>
+    <low>75.7200</low>
+    <close>78.4300</close>
+    <adjusted_close>69.9386</adjusted_close>
+    <volume>167202600</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>77.9200</open>
+    <high>82.6200</high>
+    <low>50.0200</low>
+    <close>65.7400</close>
+    <adjusted_close>58.6225</adjusted_close>
+    <volume>445364500</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>63.0000</open>
+    <high>79.6100</high>
+    <low>60.9000</low>
+    <close>76.7300</close>
+    <adjusted_close>68.4227</adjusted_close>
+    <volume>282837600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>74.9000</open>
+    <high>80.0600</high>
+    <low>70.6500</low>
+    <close>77.9900</close>
+    <adjusted_close>69.9392</adjusted_close>
+    <volume>201828600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>77.6600</open>
+    <high>83.6200</high>
+    <low>71.0600</low>
+    <close>73.5900</close>
+    <adjusted_close>65.9935</adjusted_close>
+    <volume>258280600</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>74.0000</open>
+    <high>78.4900</high>
+    <low>71.8200</low>
+    <close>76.5300</close>
+    <adjusted_close>68.6300</adjusted_close>
+    <volume>185587300</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>76.4800</open>
+    <high>85.3600</high>
+    <low>74.7600</low>
+    <close>84.4700</close>
+    <adjusted_close>76.1624</adjusted_close>
+    <volume>155854300</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>84.7000</open>
+    <high>89.4300</high>
+    <low>81.7500</low>
+    <close>85.9200</close>
+    <adjusted_close>77.4698</adjusted_close>
+    <volume>161248300</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>87.0400</open>
+    <high>91.1300</high>
+    <low>85.0900</low>
+    <close>86.9600</close>
+    <adjusted_close>78.4075</adjusted_close>
+    <volume>145178700</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>87.5400</open>
+    <high>99.3300</high>
+    <low>85.4500</low>
+    <close>98.0200</close>
+    <adjusted_close>88.7965</adjusted_close>
+    <volume>142204300</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>99.0000</open>
+    <high>107.1400</high>
+    <low>98.2100</low>
+    <close>106.9800</close>
+    <adjusted_close>96.9134</adjusted_close>
+    <volume>121635500</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>107.6600</open>
+    <high>107.7500</high>
+    <low>95.9200</low>
+    <close>96.8100</close>
+    <adjusted_close>87.7004</adjusted_close>
+    <volume>123895000</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>96.9900</open>
+    <high>109.4800</high>
+    <low>96.9200</low>
+    <close>108.0300</close>
+    <adjusted_close>98.2812</adjusted_close>
+    <volume>115469700</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>108.6000</open>
+    <high>112.3400</high>
+    <low>102.7500</low>
+    <close>109.2700</close>
+    <adjusted_close>99.4093</adjusted_close>
+    <volume>163152800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>110.0600</open>
+    <high>118.9800</high>
+    <low>108.2000</low>
+    <close>114.4900</close>
+    <adjusted_close>104.1583</adjusted_close>
+    <volume>127018100</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>115.1800</open>
+    <high>116.7400</high>
+    <low>108.8800</low>
+    <close>113.8800</close>
+    <adjusted_close>104.0155</adjusted_close>
+    <volume>113824900</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>114.5600</open>
+    <high>114.6200</high>
+    <low>109.2600</low>
+    <close>111.8100</close>
+    <adjusted_close>102.1248</adjusted_close>
+    <volume>106401000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>111.9500</open>
+    <high>126.3200</high>
+    <low>111.8100</low>
+    <close>121.4300</close>
+    <adjusted_close>110.9115</adjusted_close>
+    <volume>123985300</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>122.0300</open>
+    <high>122.9800</high>
+    <low>113.6100</low>
+    <close>117.4900</close>
+    <adjusted_close>107.7294</adjusted_close>
+    <volume>114457400</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>118.0100</open>
+    <high>120.7600</high>
+    <low>110.3100</low>
+    <close>110.3100</close>
+    <adjusted_close>101.1458</adjusted_close>
+    <volume>115995300</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>110.8900</open>
+    <high>115.5700</high>
+    <low>104.0200</low>
+    <close>106.0700</close>
+    <adjusted_close>97.2581</adjusted_close>
+    <volume>133499300</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>107.2300</open>
+    <high>117.4700</high>
+    <low>107.2000</low>
+    <close>109.6400</close>
+    <adjusted_close>100.9650</adjusted_close>
+    <volume>161726300</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>110.9600</open>
+    <high>117.4800</high>
+    <low>106.6100</low>
+    <close>116.9700</close>
+    <adjusted_close>107.7150</adjusted_close>
+    <volume>136705300</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>116.4700</open>
+    <high>117.8000</high>
+    <low>93.7900</low>
+    <close>98.3200</close>
+    <adjusted_close>90.5406</adjusted_close>
+    <volume>218687500</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>98.4200</open>
+    <high>99.1500</high>
+    <low>87.2500</low>
+    <close>91.7900</close>
+    <adjusted_close>84.9559</adjusted_close>
+    <volume>161930700</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>91.4900</open>
+    <high>93.5000</high>
+    <low>78.9200</low>
+    <close>90.9700</close>
+    <adjusted_close>84.1969</adjusted_close>
+    <volume>250082300</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>91.5000</open>
+    <high>91.8900</high>
+    <low>74.4800</low>
+    <close>74.6400</close>
+    <adjusted_close>69.0828</adjusted_close>
+    <volume>195076200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>75.2500</open>
+    <high>82.8700</high>
+    <low>68.3900</low>
+    <close>78.5000</close>
+    <adjusted_close>73.1671</adjusted_close>
+    <volume>291830700</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>78.7500</open>
+    <high>81.3000</high>
+    <low>70.3500</low>
+    <close>76.3900</close>
+    <adjusted_close>71.2005</adjusted_close>
+    <volume>181502100</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>76.7300</open>
+    <high>84.9800</high>
+    <low>75.7300</low>
+    <close>84.7800</close>
+    <adjusted_close>79.0205</adjusted_close>
+    <volume>118099000</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>84.1900</open>
+    <high>89.9300</high>
+    <low>82.6900</low>
+    <close>84.0700</close>
+    <adjusted_close>78.8052</adjusted_close>
+    <volume>129834700</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>83.7000</open>
+    <high>93.4800</high>
+    <low>81.6700</low>
+    <close>84.2600</close>
+    <adjusted_close>78.9833</adjusted_close>
+    <volume>203634100</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>84.7500</open>
+    <high>90.9000</high>
+    <low>82.4300</low>
+    <close>86.5900</close>
+    <adjusted_close>81.1674</adjusted_close>
+    <volume>158234200</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>88.0600</open>
+    <high>102.5600</high>
+    <low>82.9700</low>
+    <close>102.2000</close>
+    <adjusted_close>96.3504</adjusted_close>
+    <volume>162097000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>102.3300</open>
+    <high>105.5400</high>
+    <low>96.1700</low>
+    <close>99.2000</close>
+    <adjusted_close>93.5221</adjusted_close>
+    <volume>130721000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>100.5600</open>
+    <high>109.7600</high>
+    <low>99.4700</low>
+    <close>109.1400</close>
+    <adjusted_close>102.8932</adjusted_close>
+    <volume>128337100</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>108.9700</open>
+    <high>110.8300</high>
+    <low>100.8200</low>
+    <close>102.0900</close>
+    <adjusted_close>96.7290</adjusted_close>
+    <volume>123053800</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>102.1900</open>
+    <high>105.9400</high>
+    <low>97.1900</low>
+    <close>104.1300</close>
+    <adjusted_close>98.6618</adjusted_close>
+    <volume>132244900</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>104.0600</open>
+    <high>114.3100</high>
+    <low>103.0700</low>
+    <close>114.2900</close>
+    <adjusted_close>108.2883</adjusted_close>
+    <volume>96631700</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>114.2500</open>
+    <high>115.4800</high>
+    <low>96.9800</low>
+    <close>97.6400</close>
+    <adjusted_close>92.9733</adjusted_close>
+    <volume>157243200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>97.5900</open>
+    <high>102.5100</high>
+    <low>96.5200</low>
+    <close>99.0600</close>
+    <adjusted_close>94.3254</adjusted_close>
+    <volume>151101200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>98.7300</open>
+    <high>103.7700</high>
+    <low>95.5500</low>
+    <close>101.5700</close>
+    <adjusted_close>96.7154</adjusted_close>
+    <volume>131321200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>101.4700</open>
+    <high>104.4600</high>
+    <low>93.7100</low>
+    <close>97.4400</close>
+    <adjusted_close>93.2776</adjusted_close>
+    <volume>127064200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>98.4000</open>
+    <high>98.7500</high>
+    <low>90.2100</low>
+    <close>91.2700</close>
+    <adjusted_close>87.3712</adjusted_close>
+    <volume>113124900</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>91.0500</open>
+    <high>95.6600</high>
+    <low>89.2100</low>
+    <close>92.2400</close>
+    <adjusted_close>88.2997</adjusted_close>
+    <volume>127989000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>91.8300</open>
+    <high>107.6600</high>
+    <low>90.5500</low>
+    <close>99.3000</close>
+    <adjusted_close>95.5805</adjusted_close>
+    <volume>186213900</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>98.5000</open>
+    <high>99.2800</high>
+    <low>94.3400</low>
+    <close>96.0100</close>
+    <adjusted_close>92.4137</adjusted_close>
+    <volume>166013000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>95.4500</open>
+    <high>98.3600</high>
+    <low>91.4000</low>
+    <close>93.0300</close>
+    <adjusted_close>89.5454</adjusted_close>
+    <volume>199106100</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>93.1000</open>
+    <high>97.9900</high>
+    <low>91.6700</low>
+    <close>94.9000</close>
+    <adjusted_close>91.8949</adjusted_close>
+    <volume>172418500</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>94.4500</open>
+    <high>94.5700</high>
+    <low>90.0600</low>
+    <close>91.3900</close>
+    <adjusted_close>88.4960</adjusted_close>
+    <volume>152273300</volume>
+    <news>SBUX Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>91.8200</open>
+    <high>92.0700</high>
+    <low>84.2900</low>
+    <close>88.4900</close>
+    <adjusted_close>85.6879</adjusted_close>
+    <volume>177987900</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>75.8200</open>
+    <high>81.0200</high>
+    <low>71.8000</low>
+    <close>80.2200</close>
+    <adjusted_close>78.2691</adjusted_close>
+    <volume>376779000</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>79.6800</open>
+    <high>83.4300</high>
+    <low>77.6100</low>
+    <close>77.8500</close>
+    <adjusted_close>75.9567</adjusted_close>
+    <volume>216681200</volume>
+    <news>SBUX Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>77.9900</open>
+    <high>81.2400</high>
+    <low>71.5500</low>
+    <close>77.9500</close>
+    <adjusted_close>76.0543</adjusted_close>
+    <volume>280367200</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>77.8900</open>
+    <high>98.7200</high>
+    <low>72.7200</low>
+    <close>94.5700</close>
+    <adjusted_close>92.8278</adjusted_close>
+    <volume>446264900</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>94.1300</open>
+    <high>99.5100</high>
+    <low>90.1800</low>
+    <close>97.4900</close>
+    <adjusted_close>95.6940</adjusted_close>
+    <volume>198215700</volume>
+    <news>SBUX Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>97.4900</open>
+    <high>99.4200</high>
+    <low>93.6900</low>
+    <close>97.7000</close>
+    <adjusted_close>95.9001</adjusted_close>
+    <volume>167959600</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>97.6000</open>
+    <high>103.3200</high>
+    <low>94.7800</low>
+    <close>102.4600</close>
+    <adjusted_close>101.1945</adjusted_close>
+    <volume>147154000</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>102.0000</open>
+    <high>102.2100</high>
+    <low>86.3000</low>
+    <close>91.2500</close>
+    <adjusted_close>90.1230</adjusted_close>
+    <volume>186520300</volume>
+    <news>SBUX Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</starbucks_stock_data>

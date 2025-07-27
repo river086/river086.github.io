@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<oracle_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>31.1562</open>
+    <high>31.2969</high>
+    <low>23.3125</low>
+    <close>24.9766</close>
+    <adjusted_close>20.0573</adjusted_close>
+    <volume>1544676200</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>25.6250</open>
+    <high>38.2500</high>
+    <low>25.0000</low>
+    <close>37.1250</close>
+    <adjusted_close>29.8130</adjusted_close>
+    <volume>1192036000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>36.8750</open>
+    <high>45.0000</high>
+    <low>33.9375</low>
+    <close>39.0312</close>
+    <adjusted_close>31.3438</adjusted_close>
+    <volume>1381303800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>39.3125</open>
+    <high>43.8125</high>
+    <low>30.0859</low>
+    <close>39.9688</close>
+    <adjusted_close>32.0967</adjusted_close>
+    <volume>1299359400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>39.9375</open>
+    <high>40.9375</high>
+    <low>29.0625</low>
+    <close>35.9375</close>
+    <adjusted_close>28.8594</adjusted_close>
+    <volume>1081648800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>36.9688</open>
+    <high>43.8125</high>
+    <low>36.7500</low>
+    <close>42.0312</close>
+    <adjusted_close>33.7529</adjusted_close>
+    <volume>949581800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>40.5625</open>
+    <high>40.8750</high>
+    <low>35.5312</low>
+    <close>37.5938</close>
+    <adjusted_close>30.1894</adjusted_close>
+    <volume>769943400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>37.5938</open>
+    <high>45.5000</high>
+    <low>35.8125</low>
+    <close>45.4688</close>
+    <adjusted_close>36.5134</adjusted_close>
+    <volume>735063400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>46.1016</open>
+    <high>46.4688</high>
+    <low>37.3750</low>
+    <close>39.3750</close>
+    <adjusted_close>31.6199</adjusted_close>
+    <volume>953280400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>39.8750</open>
+    <high>41.0625</high>
+    <low>30.2500</low>
+    <close>33.0000</close>
+    <adjusted_close>26.5005</adjusted_close>
+    <volume>1160272000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>32.8125</open>
+    <high>33.1875</high>
+    <low>21.5000</low>
+    <close>26.5000</close>
+    <adjusted_close>21.2807</adjusted_close>
+    <volume>1357050400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>26.3750</open>
+    <high>33.1250</high>
+    <low>25.5000</low>
+    <close>29.0625</close>
+    <adjusted_close>23.3385</adjusted_close>
+    <volume>913793000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>29.5625</open>
+    <high>35.0000</high>
+    <low>25.2500</low>
+    <close>29.1250</close>
+    <adjusted_close>23.3887</adjusted_close>
+    <volume>1023181800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>29.2500</open>
+    <high>30.6875</high>
+    <low>18.8125</low>
+    <close>19.0000</close>
+    <adjusted_close>15.2578</adjusted_close>
+    <volume>915545800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>19.0000</open>
+    <high>21.5000</high>
+    <low>13.5000</low>
+    <close>14.6300</close>
+    <adjusted_close>11.7485</adjusted_close>
+    <volume>1424631300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>15.1000</open>
+    <high>20.8400</high>
+    <low>13.0000</low>
+    <close>16.1600</close>
+    <adjusted_close>12.9772</adjusted_close>
+    <volume>1124158500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>16.3200</open>
+    <high>18.5200</high>
+    <low>14.4500</low>
+    <close>15.3000</close>
+    <adjusted_close>12.2866</adjusted_close>
+    <volume>1040007600</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>15.5000</open>
+    <high>20.0200</high>
+    <low>14.6200</low>
+    <close>19.0000</close>
+    <adjusted_close>15.2578</adjusted_close>
+    <volume>999939500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>19.2400</open>
+    <high>20.0000</high>
+    <low>17.4600</low>
+    <close>18.0800</close>
+    <adjusted_close>14.5190</adjusted_close>
+    <volume>663335400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>18.3600</open>
+    <high>18.8500</high>
+    <low>11.8200</low>
+    <close>12.2100</close>
+    <adjusted_close>9.8052</adjusted_close>
+    <volume>862836000</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>12.5300</open>
+    <high>13.0600</high>
+    <low>10.1600</low>
+    <close>12.5800</close>
+    <adjusted_close>10.1023</adjusted_close>
+    <volume>885814600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>12.4700</open>
+    <high>15.4800</high>
+    <low>12.1800</low>
+    <close>13.5600</close>
+    <adjusted_close>10.8893</adjusted_close>
+    <volume>1010548100</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>13.5900</open>
+    <high>16.2800</high>
+    <low>13.4200</low>
+    <close>14.0300</close>
+    <adjusted_close>11.2667</adjusted_close>
+    <volume>835801200</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>13.8200</open>
+    <high>16.0300</high>
+    <low>13.3200</low>
+    <close>13.8100</close>
+    <adjusted_close>11.0900</adjusted_close>
+    <volume>902651800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>13.9800</open>
+    <high>17.5000</high>
+    <low>13.8000</low>
+    <close>17.2600</close>
+    <adjusted_close>13.8605</adjusted_close>
+    <volume>982482000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>16.7800</open>
+    <high>17.0300</high>
+    <low>14.5100</low>
+    <close>16.6200</close>
+    <adjusted_close>13.3466</adjusted_close>
+    <volume>717495900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>16.6600</open>
+    <high>16.7200</high>
+    <low>12.4400</low>
+    <close>12.8000</close>
+    <adjusted_close>10.2790</adjusted_close>
+    <volume>1084341000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>12.6000</open>
+    <high>12.8900</high>
+    <low>10.0000</low>
+    <close>10.0400</close>
+    <adjusted_close>8.0626</adjusted_close>
+    <volume>858987300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>9.9300</open>
+    <high>10.0000</high>
+    <low>7.5000</low>
+    <close>7.9200</close>
+    <adjusted_close>6.3601</adjusted_close>
+    <volume>1338384000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>7.8000</open>
+    <high>9.9200</high>
+    <low>7.2500</low>
+    <close>9.4700</close>
+    <adjusted_close>7.6048</adjusted_close>
+    <volume>1288408900</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>9.3000</open>
+    <high>10.5500</high>
+    <low>8.3600</low>
+    <close>10.0100</close>
+    <adjusted_close>8.0385</adjusted_close>
+    <volume>1228460500</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>9.9000</open>
+    <high>11.2200</high>
+    <low>9.0000</low>
+    <close>9.5900</close>
+    <adjusted_close>7.7012</adjusted_close>
+    <volume>970463800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>9.5100</open>
+    <high>10.2000</high>
+    <low>7.3000</low>
+    <close>7.8600</close>
+    <adjusted_close>6.3119</adjusted_close>
+    <volume>1080104500</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>7.8300</open>
+    <high>10.4200</high>
+    <low>7.6500</low>
+    <close>10.1900</close>
+    <adjusted_close>8.1830</adjusted_close>
+    <volume>1105851100</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>10.0400</open>
+    <high>12.2500</high>
+    <low>8.9700</low>
+    <close>12.1500</close>
+    <adjusted_close>9.7570</adjusted_close>
+    <volume>953049800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>12.3600</open>
+    <high>12.7300</high>
+    <low>10.4100</low>
+    <close>10.8000</close>
+    <adjusted_close>8.6729</adjusted_close>
+    <volume>867381300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>10.9400</open>
+    <high>13.3600</high>
+    <low>10.8000</low>
+    <close>12.0300</close>
+    <adjusted_close>9.6606</adjusted_close>
+    <volume>962179400</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>12.0100</open>
+    <high>12.4700</high>
+    <low>11.2600</low>
+    <close>11.9600</close>
+    <adjusted_close>9.6044</adjusted_close>
+    <volume>754891100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>12.2000</open>
+    <high>12.4500</high>
+    <low>10.6400</low>
+    <close>10.8500</close>
+    <adjusted_close>8.7130</adjusted_close>
+    <volume>1020072200</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>10.8800</open>
+    <high>12.5100</high>
+    <low>10.6500</low>
+    <close>11.8800</close>
+    <adjusted_close>9.5402</adjusted_close>
+    <volume>748240300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>11.8500</open>
+    <high>13.4000</high>
+    <low>11.7400</low>
+    <close>13.0100</close>
+    <adjusted_close>10.4476</adjusted_close>
+    <volume>799044400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>13.2100</open>
+    <high>14.0000</high>
+    <low>12.0000</low>
+    <close>12.0100</close>
+    <adjusted_close>9.6446</adjusted_close>
+    <volume>924177800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>12.0400</open>
+    <high>13.0900</high>
+    <low>11.5900</low>
+    <close>11.9900</close>
+    <adjusted_close>9.6285</adjusted_close>
+    <volume>735875700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>11.9000</open>
+    <high>12.8900</high>
+    <low>11.1700</low>
+    <close>12.8300</close>
+    <adjusted_close>10.3031</adjusted_close>
+    <volume>761576900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>12.9600</open>
+    <high>14.0300</high>
+    <low>11.2100</low>
+    <close>11.2500</close>
+    <adjusted_close>9.0342</adjusted_close>
+    <volume>1226583000</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>11.3800</open>
+    <high>12.8900</high>
+    <low>11.3500</low>
+    <close>11.9700</close>
+    <adjusted_close>9.6124</adjusted_close>
+    <volume>1032259700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>12.0600</open>
+    <high>12.8800</high>
+    <low>11.7500</low>
+    <close>12.0200</close>
+    <adjusted_close>9.6526</adjusted_close>
+    <volume>740531700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>12.1700</open>
+    <high>13.4300</high>
+    <low>12.1600</low>
+    <close>13.2300</close>
+    <adjusted_close>10.6243</adjusted_close>
+    <volume>962339900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>13.2500</open>
+    <high>15.5100</high>
+    <low>13.1100</low>
+    <close>13.8600</close>
+    <adjusted_close>11.1302</adjusted_close>
+    <volume>869138900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>13.7600</open>
+    <high>14.2100</high>
+    <low>12.8600</low>
+    <close>12.8700</close>
+    <adjusted_close>10.3352</adjusted_close>
+    <volume>706526000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>13.1100</open>
+    <high>13.2800</high>
+    <low>11.1500</low>
+    <close>12.0000</close>
+    <adjusted_close>9.6365</adjusted_close>
+    <volume>1329489200</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>11.9900</open>
+    <high>12.8600</high>
+    <low>11.2200</low>
+    <close>11.2500</close>
+    <adjusted_close>9.0342</adjusted_close>
+    <volume>930484900</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>11.3600</open>
+    <high>11.8500</high>
+    <low>11.1500</low>
+    <close>11.4000</close>
+    <adjusted_close>9.1547</adjusted_close>
+    <volume>777086800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>11.2400</open>
+    <high>12.0700</high>
+    <low>10.8500</low>
+    <close>11.9300</close>
+    <adjusted_close>9.5803</adjusted_close>
+    <volume>1101885000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>11.8500</open>
+    <high>11.9600</high>
+    <low>10.0300</low>
+    <close>10.5100</close>
+    <adjusted_close>8.4400</adjusted_close>
+    <volume>1096746200</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>10.3700</open>
+    <high>10.9700</high>
+    <low>9.7800</low>
+    <close>9.9700</close>
+    <adjusted_close>8.0064</adjusted_close>
+    <volume>816386900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>9.9600</open>
+    <high>11.6800</high>
+    <low>9.8600</low>
+    <close>11.2800</close>
+    <adjusted_close>9.0583</adjusted_close>
+    <volume>1059378800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>11.6500</open>
+    <high>12.8100</high>
+    <low>11.5100</low>
+    <close>12.6600</close>
+    <adjusted_close>10.1665</adjusted_close>
+    <volume>857008500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>12.7200</open>
+    <high>13.5000</high>
+    <low>12.5100</low>
+    <close>12.7400</close>
+    <adjusted_close>10.2308</adjusted_close>
+    <volume>672734600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>12.7500</open>
+    <high>14.8700</high>
+    <low>12.6600</low>
+    <close>13.7200</close>
+    <adjusted_close>11.0178</adjusted_close>
+    <volume>1144863500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>13.8800</open>
+    <high>14.0100</high>
+    <low>12.9200</low>
+    <close>13.7700</close>
+    <adjusted_close>11.0579</adjusted_close>
+    <volume>1060050800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>13.7300</open>
+    <high>13.7600</high>
+    <low>12.5900</low>
+    <close>12.9500</close>
+    <adjusted_close>10.3994</adjusted_close>
+    <volume>750895600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>13.0300</open>
+    <high>13.8000</high>
+    <low>12.2300</low>
+    <close>12.4800</close>
+    <adjusted_close>10.0220</adjusted_close>
+    <volume>1043232200</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>12.5600</open>
+    <high>12.7300</high>
+    <low>11.2500</low>
+    <close>11.5600</close>
+    <adjusted_close>9.2832</adjusted_close>
+    <volume>862007300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>11.5700</open>
+    <high>12.9800</high>
+    <low>11.4800</low>
+    <close>12.8000</close>
+    <adjusted_close>10.2790</adjusted_close>
+    <volume>826054600</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>12.7900</open>
+    <high>13.7900</high>
+    <low>12.2800</low>
+    <close>13.2000</close>
+    <adjusted_close>10.6002</adjusted_close>
+    <volume>957367300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>13.3900</open>
+    <high>14.5100</high>
+    <low>12.9900</low>
+    <close>13.5700</close>
+    <adjusted_close>10.8973</adjusted_close>
+    <volume>715220900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>13.6700</open>
+    <high>13.6900</high>
+    <low>12.8200</low>
+    <close>12.9900</close>
+    <adjusted_close>10.4315</adjusted_close>
+    <volume>646569300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>12.9400</open>
+    <high>14.0000</high>
+    <low>12.0000</low>
+    <close>12.4000</close>
+    <adjusted_close>9.9578</adjusted_close>
+    <volume>1094118100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>12.4200</open>
+    <high>13.0500</high>
+    <low>11.8500</low>
+    <close>12.6800</close>
+    <adjusted_close>10.1826</adjusted_close>
+    <volume>828448900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>12.5800</open>
+    <high>13.0300</high>
+    <low>11.7500</low>
+    <close>12.6000</close>
+    <adjusted_close>10.1184</adjusted_close>
+    <volume>743735600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>12.6800</open>
+    <high>12.9500</high>
+    <low>11.9900</low>
+    <close>12.2100</close>
+    <adjusted_close>9.8052</adjusted_close>
+    <volume>1060568700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>12.2300</open>
+    <high>13.1500</high>
+    <low>12.1900</low>
+    <close>12.5700</close>
+    <adjusted_close>10.0943</adjusted_close>
+    <volume>1071865600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>12.4100</open>
+    <high>12.8000</high>
+    <low>12.0600</low>
+    <close>12.4200</close>
+    <adjusted_close>9.9738</adjusted_close>
+    <volume>917275300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>12.4900</open>
+    <high>14.0000</high>
+    <low>12.4900</low>
+    <close>13.6900</close>
+    <adjusted_close>10.9937</adjusted_close>
+    <volume>1358023700</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>13.7500</open>
+    <high>15.2100</high>
+    <low>13.6200</low>
+    <close>14.5900</close>
+    <adjusted_close>11.7164</adjusted_close>
+    <volume>883991800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>14.6100</open>
+    <high>14.9600</high>
+    <low>13.2800</low>
+    <close>14.2200</close>
+    <adjusted_close>11.4193</adjusted_close>
+    <volume>721825700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>14.1400</open>
+    <high>15.0700</high>
+    <low>13.0700</low>
+    <close>14.4900</close>
+    <adjusted_close>11.6361</adjusted_close>
+    <volume>933795200</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>14.6100</open>
+    <high>15.2900</high>
+    <low>13.7700</low>
+    <close>14.9700</close>
+    <adjusted_close>12.0216</adjusted_close>
+    <volume>792306800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>14.9000</open>
+    <high>15.9500</high>
+    <low>14.4900</low>
+    <close>15.6600</close>
+    <adjusted_close>12.5757</adjusted_close>
+    <volume>814054900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>15.8000</open>
+    <high>18.2900</high>
+    <low>15.4500</low>
+    <close>17.7400</close>
+    <adjusted_close>14.2460</adjusted_close>
+    <volume>1171609300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>17.9100</open>
+    <high>19.2500</high>
+    <low>17.5200</low>
+    <close>18.4700</close>
+    <adjusted_close>14.8322</adjusted_close>
+    <volume>780481300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>18.5600</open>
+    <high>19.7500</high>
+    <low>17.6700</low>
+    <close>19.0500</close>
+    <adjusted_close>15.2980</adjusted_close>
+    <volume>618254400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>19.1100</open>
+    <high>19.3400</high>
+    <low>16.9300</low>
+    <close>17.1400</close>
+    <adjusted_close>13.7642</adjusted_close>
+    <volume>919387900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>17.2200</open>
+    <high>17.9800</high>
+    <low>16.7700</low>
+    <close>17.1600</close>
+    <adjusted_close>13.7802</adjusted_close>
+    <volume>782445000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>17.2200</open>
+    <high>17.4400</high>
+    <low>16.0000</low>
+    <close>16.4300</close>
+    <adjusted_close>13.1940</adjusted_close>
+    <volume>723301100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>16.1100</open>
+    <high>18.5900</high>
+    <low>15.9700</low>
+    <close>18.1300</close>
+    <adjusted_close>14.5592</adjusted_close>
+    <volume>871563700</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>18.0800</open>
+    <high>19.2900</high>
+    <low>17.9900</low>
+    <close>18.8000</close>
+    <adjusted_close>15.0972</adjusted_close>
+    <volume>520154200</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>18.7500</open>
+    <high>19.6000</high>
+    <low>18.4800</low>
+    <close>19.3800</close>
+    <adjusted_close>15.5630</adjusted_close>
+    <volume>539011500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>19.4500</open>
+    <high>20.0600</high>
+    <low>18.7200</low>
+    <close>19.7100</close>
+    <adjusted_close>15.8280</adjusted_close>
+    <volume>746227000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>19.8800</open>
+    <high>20.9800</high>
+    <low>19.1100</low>
+    <close>19.1200</close>
+    <adjusted_close>15.3542</adjusted_close>
+    <volume>629004000</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>18.9300</open>
+    <high>20.4800</high>
+    <low>18.8100</low>
+    <close>20.2800</close>
+    <adjusted_close>16.2857</adjusted_close>
+    <volume>687783700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>20.2400</open>
+    <high>22.1700</high>
+    <low>19.8800</low>
+    <close>21.6500</close>
+    <adjusted_close>17.3859</adjusted_close>
+    <volume>652920500</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>21.6400</open>
+    <high>23.0000</high>
+    <low>20.5100</low>
+    <close>22.1700</close>
+    <adjusted_close>17.8035</adjusted_close>
+    <volume>710006400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>22.0000</open>
+    <high>22.8900</high>
+    <low>19.0600</low>
+    <close>20.1800</close>
+    <adjusted_close>16.2054</adjusted_close>
+    <volume>852017700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>20.2300</open>
+    <high>23.3100</high>
+    <low>19.6800</low>
+    <close>22.5800</close>
+    <adjusted_close>18.1327</adjusted_close>
+    <volume>729527300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>22.5500</open>
+    <high>23.1100</high>
+    <low>19.5200</low>
+    <close>20.5500</close>
+    <adjusted_close>16.5026</adjusted_close>
+    <volume>988055500</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>20.7800</open>
+    <high>20.7800</high>
+    <low>18.1800</low>
+    <close>18.8000</close>
+    <adjusted_close>15.0972</adjusted_close>
+    <volume>864104900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>18.7600</open>
+    <high>21.3000</high>
+    <low>18.2000</low>
+    <close>19.5600</close>
+    <adjusted_close>15.7075</adjusted_close>
+    <volume>1025914800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>19.9100</open>
+    <high>22.2800</high>
+    <low>19.7200</low>
+    <close>20.8500</close>
+    <adjusted_close>16.7435</adjusted_close>
+    <volume>752881100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>21.0100</open>
+    <high>23.0000</high>
+    <low>20.7000</low>
+    <close>22.8400</close>
+    <adjusted_close>18.3415</adjusted_close>
+    <volume>604066800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>22.7700</open>
+    <high>23.5700</high>
+    <low>20.9700</low>
+    <close>21.0000</close>
+    <adjusted_close>16.8639</adjusted_close>
+    <volume>786115300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>20.7900</open>
+    <high>21.9000</high>
+    <low>19.9800</low>
+    <close>21.5300</close>
+    <adjusted_close>17.2895</adjusted_close>
+    <volume>746792500</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>21.5800</open>
+    <high>23.6200</high>
+    <low>21.1400</low>
+    <close>21.9300</close>
+    <adjusted_close>17.6108</adjusted_close>
+    <volume>592074100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>22.3000</open>
+    <high>22.3700</high>
+    <low>15.0000</low>
+    <close>20.3100</close>
+    <adjusted_close>16.3098</adjusted_close>
+    <volume>1119167100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>20.1900</open>
+    <high>20.5400</high>
+    <low>15.2800</low>
+    <close>18.2900</close>
+    <adjusted_close>14.6877</adjusted_close>
+    <volume>1347957200</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>18.1100</open>
+    <high>19.0000</high>
+    <low>15.1000</low>
+    <close>16.0900</close>
+    <adjusted_close>12.9210</adjusted_close>
+    <volume>937982800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>15.7100</open>
+    <high>18.1600</high>
+    <low>15.1700</low>
+    <close>17.7300</close>
+    <adjusted_close>14.2380</adjusted_close>
+    <volume>886531100</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>17.6400</open>
+    <high>18.7000</high>
+    <low>15.8700</low>
+    <close>16.8300</close>
+    <adjusted_close>13.5152</adjusted_close>
+    <volume>692655000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>16.6000</open>
+    <high>18.0900</high>
+    <low>15.4100</low>
+    <close>15.5400</close>
+    <adjusted_close>12.4793</adjusted_close>
+    <volume>668630000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>15.2100</open>
+    <high>18.6800</high>
+    <low>13.8000</low>
+    <close>18.0700</close>
+    <adjusted_close>14.5110</adjusted_close>
+    <volume>1088963400</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>17.8600</open>
+    <high>20.2800</high>
+    <low>17.7300</low>
+    <close>19.3400</close>
+    <adjusted_close>15.5712</adjusted_close>
+    <volume>780031500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>19.3500</open>
+    <high>19.6000</high>
+    <low>17.9700</low>
+    <close>19.5900</close>
+    <adjusted_close>15.7725</adjusted_close>
+    <volume>605091300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>19.7500</open>
+    <high>21.7500</high>
+    <low>19.4700</low>
+    <close>21.4200</close>
+    <adjusted_close>17.2459</adjusted_close>
+    <volume>813013300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>21.6300</open>
+    <high>22.4800</high>
+    <low>19.7900</low>
+    <close>22.1300</close>
+    <adjusted_close>17.8611</adjusted_close>
+    <volume>637704900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>22.3200</open>
+    <high>22.6100</high>
+    <low>21.0300</low>
+    <close>21.8800</close>
+    <adjusted_close>17.6594</adjusted_close>
+    <volume>522789200</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>21.7700</open>
+    <high>22.9500</high>
+    <low>20.6500</low>
+    <close>20.8400</close>
+    <adjusted_close>16.8200</adjusted_close>
+    <volume>761361300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>20.7300</open>
+    <high>22.4900</high>
+    <low>20.1000</low>
+    <close>21.1000</close>
+    <adjusted_close>17.0708</adjusted_close>
+    <volume>818556000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>21.0600</open>
+    <high>22.8900</high>
+    <low>20.6500</low>
+    <close>22.0800</close>
+    <adjusted_close>17.8637</adjusted_close>
+    <volume>466237700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>22.1600</open>
+    <high>25.1100</high>
+    <low>21.6200</low>
+    <close>24.5300</close>
+    <adjusted_close>19.8459</adjusted_close>
+    <volume>599705800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>24.6600</open>
+    <high>25.6400</high>
+    <low>22.9800</low>
+    <close>23.0600</close>
+    <adjusted_close>18.6943</adjusted_close>
+    <volume>604415100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>23.3600</open>
+    <high>24.9800</high>
+    <low>22.8300</low>
+    <close>24.6500</close>
+    <adjusted_close>19.9833</adjusted_close>
+    <volume>575222100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>24.6000</open>
+    <high>26.2500</high>
+    <low>24.2800</low>
+    <close>25.7100</close>
+    <adjusted_close>20.8426</adjusted_close>
+    <volume>656979400</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>25.7800</open>
+    <high>26.6300</high>
+    <low>25.1900</low>
+    <close>25.8700</close>
+    <adjusted_close>21.0125</adjusted_close>
+    <volume>555535000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>26.0500</open>
+    <high>26.1500</high>
+    <low>21.5500</low>
+    <close>22.5700</close>
+    <adjusted_close>18.3321</adjusted_close>
+    <volume>736923800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>22.4200</open>
+    <high>23.6600</high>
+    <low>21.3000</low>
+    <close>21.4600</close>
+    <adjusted_close>17.4305</adjusted_close>
+    <volume>625470800</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>21.4600</open>
+    <high>24.6800</high>
+    <low>21.2400</low>
+    <close>23.6400</close>
+    <adjusted_close>19.2424</adjusted_close>
+    <volume>642202900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>23.8700</open>
+    <high>24.5900</high>
+    <low>21.6600</low>
+    <close>21.8400</close>
+    <adjusted_close>17.7772</adjusted_close>
+    <volume>528516600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>22.1500</open>
+    <high>27.6300</high>
+    <low>22.1000</low>
+    <close>26.8500</close>
+    <adjusted_close>21.8552</adjusted_close>
+    <volume>1059329600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>27.1800</open>
+    <high>29.7100</high>
+    <low>26.8900</low>
+    <close>29.3800</close>
+    <adjusted_close>23.9586</adjusted_close>
+    <volume>758714400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>29.5200</open>
+    <high>29.8200</high>
+    <low>26.8100</low>
+    <close>27.0500</close>
+    <adjusted_close>22.0585</adjusted_close>
+    <volume>606355000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>27.5400</open>
+    <high>32.2700</high>
+    <low>27.4100</low>
+    <close>31.3000</close>
+    <adjusted_close>25.5243</adjusted_close>
+    <volume>596463200</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>31.5900</open>
+    <high>33.3000</high>
+    <low>30.8000</low>
+    <close>32.0300</close>
+    <adjusted_close>26.1615</adjusted_close>
+    <volume>582169300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>32.1700</open>
+    <high>33.7100</high>
+    <low>31.6400</low>
+    <close>32.9000</close>
+    <adjusted_close>26.8721</adjusted_close>
+    <volume>400603500</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>33.0200</open>
+    <high>34.1000</high>
+    <low>29.6200</low>
+    <close>33.4300</close>
+    <adjusted_close>27.3050</adjusted_close>
+    <volume>668810300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>33.7000</open>
+    <high>36.0500</high>
+    <low>33.0800</low>
+    <close>35.9600</close>
+    <adjusted_close>29.4241</adjusted_close>
+    <volume>532918200</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>35.8400</open>
+    <high>36.5000</high>
+    <low>32.9200</low>
+    <close>34.2200</close>
+    <adjusted_close>28.0004</adjusted_close>
+    <volume>510709400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>34.2300</open>
+    <high>34.3000</high>
+    <low>30.6500</low>
+    <close>32.9100</close>
+    <adjusted_close>26.9285</adjusted_close>
+    <volume>700288400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>32.8900</open>
+    <high>34.1300</high>
+    <low>30.2600</low>
+    <close>30.5800</close>
+    <adjusted_close>25.0663</adjusted_close>
+    <volume>560121200</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>30.9700</open>
+    <high>31.2100</high>
+    <low>24.7200</low>
+    <close>28.0700</close>
+    <adjusted_close>23.0088</adjusted_close>
+    <volume>1107143700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>28.0300</open>
+    <high>30.9600</high>
+    <low>25.7100</low>
+    <close>28.7400</close>
+    <adjusted_close>23.5580</adjusted_close>
+    <volume>880744000</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>28.5900</open>
+    <high>33.8100</high>
+    <low>27.0000</low>
+    <close>32.7700</close>
+    <adjusted_close>26.9151</adjusted_close>
+    <volume>667246000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>31.9600</open>
+    <high>33.7600</high>
+    <low>28.6100</low>
+    <close>31.3500</close>
+    <adjusted_close>25.7488</adjusted_close>
+    <volume>539825600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>31.4000</open>
+    <high>32.2400</high>
+    <low>24.9100</low>
+    <close>25.6500</close>
+    <adjusted_close>21.0672</adjusted_close>
+    <volume>744294800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>26.3300</open>
+    <high>28.9500</high>
+    <low>25.5500</low>
+    <close>28.2100</close>
+    <adjusted_close>23.2216</adjusted_close>
+    <volume>721581300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>28.4800</open>
+    <high>29.5400</high>
+    <low>27.9200</low>
+    <close>29.2500</close>
+    <adjusted_close>24.0777</adjusted_close>
+    <volume>565502700</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>29.4000</open>
+    <high>31.1500</high>
+    <low>28.5200</low>
+    <close>29.1600</close>
+    <adjusted_close>24.0036</adjusted_close>
+    <volume>813941300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>29.1200</open>
+    <high>29.7000</high>
+    <low>28.0400</low>
+    <close>29.4000</close>
+    <adjusted_close>24.2504</adjusted_close>
+    <volume>528345200</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>29.4500</open>
+    <high>29.8200</high>
+    <low>25.3300</low>
+    <close>26.4700</close>
+    <adjusted_close>21.8336</adjusted_close>
+    <volume>650683000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>25.9800</open>
+    <high>29.7100</high>
+    <low>25.8400</low>
+    <close>29.7000</close>
+    <adjusted_close>24.4978</adjusted_close>
+    <volume>642899400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>29.5300</open>
+    <high>31.1100</high>
+    <low>28.6100</low>
+    <close>30.2000</close>
+    <adjusted_close>24.9618</adjusted_close>
+    <volume>480418900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>30.3400</open>
+    <high>32.3000</high>
+    <low>29.7400</low>
+    <close>31.6500</close>
+    <adjusted_close>26.1603</adjusted_close>
+    <volume>397712100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>31.6300</open>
+    <high>33.2900</high>
+    <low>30.5700</low>
+    <close>31.4600</close>
+    <adjusted_close>26.0032</adjusted_close>
+    <volume>493825400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>31.7100</open>
+    <high>32.0900</high>
+    <low>30.3100</low>
+    <close>31.0800</close>
+    <adjusted_close>25.7395</adjusted_close>
+    <volume>485591400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>31.2000</open>
+    <high>32.2400</high>
+    <low>29.5200</low>
+    <close>32.1800</close>
+    <adjusted_close>26.6505</adjusted_close>
+    <volume>407092800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>32.3700</open>
+    <high>34.3500</high>
+    <low>31.3100</low>
+    <close>33.3200</close>
+    <adjusted_close>27.7491</adjusted_close>
+    <volume>503002900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>34.0800</open>
+    <high>35.8800</high>
+    <low>33.9300</low>
+    <close>35.5100</close>
+    <adjusted_close>29.5729</adjusted_close>
+    <volume>401941600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>35.8700</open>
+    <high>36.3100</high>
+    <low>34.0600</low>
+    <close>34.2400</close>
+    <adjusted_close>28.5153</adjusted_close>
+    <volume>347205100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>34.1200</open>
+    <high>36.4300</high>
+    <low>31.1600</low>
+    <close>32.3300</close>
+    <adjusted_close>26.9246</adjusted_close>
+    <volume>640045400</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>32.3600</open>
+    <high>33.9500</high>
+    <low>31.6700</low>
+    <close>32.7800</close>
+    <adjusted_close>27.2994</adjusted_close>
+    <volume>543579600</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>32.7500</open>
+    <high>35.3200</high>
+    <low>32.7200</low>
+    <close>33.7800</close>
+    <adjusted_close>28.1322</adjusted_close>
+    <volume>474311500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>33.8500</open>
+    <high>34.7500</high>
+    <low>29.8600</low>
+    <close>30.7100</close>
+    <adjusted_close>25.5755</adjusted_close>
+    <volume>701001000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>30.8900</open>
+    <high>32.7500</high>
+    <low>29.9500</low>
+    <close>32.3500</close>
+    <adjusted_close>27.0442</adjusted_close>
+    <volume>675439200</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>32.6200</open>
+    <high>33.6500</high>
+    <low>31.5600</low>
+    <close>31.8600</close>
+    <adjusted_close>26.6346</adjusted_close>
+    <volume>346619900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>32.1700</open>
+    <high>34.3400</high>
+    <low>31.8200</low>
+    <close>33.1700</close>
+    <adjusted_close>27.7297</adjusted_close>
+    <volume>454916400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>33.2000</open>
+    <high>33.9500</high>
+    <low>32.0000</low>
+    <close>33.5000</close>
+    <adjusted_close>28.1071</adjusted_close>
+    <volume>421757800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>33.7000</open>
+    <high>35.4200</high>
+    <low>33.4100</low>
+    <close>35.2900</close>
+    <adjusted_close>29.6089</adjusted_close>
+    <volume>323481000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>35.3700</open>
+    <high>38.3400</high>
+    <low>33.2200</low>
+    <close>38.2600</close>
+    <adjusted_close>32.1008</adjusted_close>
+    <volume>468655300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>37.7800</open>
+    <high>38.7700</high>
+    <low>36.4900</low>
+    <close>36.9000</close>
+    <adjusted_close>31.0582</adjusted_close>
+    <volume>334053900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>37.0900</open>
+    <high>39.3700</high>
+    <low>35.4400</low>
+    <close>39.1100</close>
+    <adjusted_close>32.9184</adjusted_close>
+    <volume>254578900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>38.7200</open>
+    <high>41.4300</high>
+    <low>37.3800</low>
+    <close>40.9100</close>
+    <adjusted_close>34.4334</adjusted_close>
+    <volume>439593500</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>41.0400</open>
+    <high>42.0000</high>
+    <low>38.9700</low>
+    <close>40.8800</close>
+    <adjusted_close>34.5107</adjusted_close>
+    <volume>384502100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>40.7200</open>
+    <high>42.3500</high>
+    <low>40.4900</low>
+    <close>42.0200</close>
+    <adjusted_close>35.4731</adjusted_close>
+    <volume>267018700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>41.9600</open>
+    <high>43.1900</high>
+    <low>39.9300</low>
+    <close>40.5300</close>
+    <adjusted_close>34.2153</adjusted_close>
+    <volume>325033500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>40.4100</open>
+    <high>41.3600</high>
+    <low>39.8600</low>
+    <close>40.3900</close>
+    <adjusted_close>34.1964</adjusted_close>
+    <volume>279906500</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>40.1900</open>
+    <high>42.0400</high>
+    <low>39.5300</low>
+    <close>41.5300</close>
+    <adjusted_close>35.1615</adjusted_close>
+    <volume>206012100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>41.6000</open>
+    <high>42.0900</high>
+    <low>38.1400</low>
+    <close>38.2800</close>
+    <adjusted_close>32.4099</adjusted_close>
+    <volume>412463900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>38.3200</open>
+    <high>39.2400</high>
+    <low>35.8200</low>
+    <close>39.0500</close>
+    <adjusted_close>33.1642</adjusted_close>
+    <volume>355956700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>39.0200</open>
+    <high>42.5100</high>
+    <low>38.7600</low>
+    <close>42.4100</close>
+    <adjusted_close>36.0177</adjusted_close>
+    <volume>210679600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>42.0100</open>
+    <high>46.7100</high>
+    <low>39.9200</low>
+    <close>44.9700</close>
+    <adjusted_close>38.1918</adjusted_close>
+    <volume>352611500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>45.0200</open>
+    <high>45.3300</high>
+    <low>41.8200</low>
+    <close>41.8900</close>
+    <adjusted_close>35.6727</adjusted_close>
+    <volume>314380300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>42.2100</open>
+    <high>44.3700</high>
+    <low>41.5600</low>
+    <close>43.8200</close>
+    <adjusted_close>37.3162</adjusted_close>
+    <volume>215892600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>43.8100</open>
+    <high>44.9400</high>
+    <low>41.2600</low>
+    <close>43.1500</close>
+    <adjusted_close>36.7457</adjusted_close>
+    <volume>345114300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>42.9900</open>
+    <high>44.9000</high>
+    <low>42.2100</low>
+    <close>43.6200</close>
+    <adjusted_close>37.2761</adjusted_close>
+    <volume>278212900</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>43.4400</open>
+    <high>44.8500</high>
+    <low>43.0000</low>
+    <close>43.4900</close>
+    <adjusted_close>37.1650</adjusted_close>
+    <volume>182137100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>43.8400</open>
+    <high>45.2400</high>
+    <low>40.1100</low>
+    <close>40.3000</close>
+    <adjusted_close>34.4389</adjusted_close>
+    <volume>434762400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>40.6100</open>
+    <high>41.0200</high>
+    <low>38.4400</low>
+    <close>39.9400</close>
+    <adjusted_close>34.2586</adjusted_close>
+    <volume>301140700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>39.9500</open>
+    <high>40.0500</high>
+    <low>35.1400</low>
+    <close>37.0900</close>
+    <adjusted_close>31.8140</adjusted_close>
+    <volume>302328700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>36.3300</open>
+    <high>38.5200</high>
+    <low>35.2400</low>
+    <close>36.1200</close>
+    <adjusted_close>30.9820</adjusted_close>
+    <volume>392290700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>36.2300</open>
+    <high>39.0400</high>
+    <low>35.6400</low>
+    <close>38.8400</close>
+    <adjusted_close>33.4475</adjusted_close>
+    <volume>317458000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>39.0500</open>
+    <high>40.6400</high>
+    <low>37.2200</low>
+    <close>38.9700</close>
+    <adjusted_close>33.5595</adjusted_close>
+    <volume>294568100</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>39.0900</open>
+    <high>39.3900</high>
+    <low>36.1000</low>
+    <close>36.5300</close>
+    <adjusted_close>31.4582</adjusted_close>
+    <volume>372973000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>36.0100</open>
+    <high>36.3100</high>
+    <low>33.1300</low>
+    <close>36.3100</close>
+    <adjusted_close>31.3977</adjusted_close>
+    <volume>391896800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>35.9000</open>
+    <high>37.6500</high>
+    <low>34.4700</low>
+    <close>36.7800</close>
+    <adjusted_close>31.8041</adjusted_close>
+    <volume>305532100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>37.1500</open>
+    <high>42.0000</high>
+    <low>37.0400</low>
+    <close>40.9100</close>
+    <adjusted_close>35.3754</adjusted_close>
+    <volume>360720500</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>40.6800</open>
+    <high>41.4900</high>
+    <low>39.3700</low>
+    <close>39.8600</close>
+    <adjusted_close>34.5959</adjusted_close>
+    <volume>218455900</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>39.9000</open>
+    <high>40.4300</high>
+    <low>38.5600</low>
+    <close>40.2000</close>
+    <adjusted_close>34.8910</adjusted_close>
+    <volume>206836000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>40.0600</open>
+    <high>41.1600</high>
+    <low>38.0800</low>
+    <close>40.9300</close>
+    <adjusted_close>35.5246</adjusted_close>
+    <volume>433566700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>40.7800</open>
+    <high>41.9100</high>
+    <low>40.0200</low>
+    <close>41.0400</close>
+    <adjusted_close>35.7511</adjusted_close>
+    <volume>233266600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>40.9100</open>
+    <high>41.6400</high>
+    <low>40.5800</low>
+    <close>41.2200</close>
+    <adjusted_close>35.9079</adjusted_close>
+    <volume>222835900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>40.9800</open>
+    <high>41.4200</high>
+    <low>38.7100</low>
+    <close>39.2800</close>
+    <adjusted_close>34.2179</adjusted_close>
+    <volume>295522300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>39.2000</open>
+    <high>39.3400</high>
+    <low>37.6200</low>
+    <close>38.4200</close>
+    <adjusted_close>33.5984</adjusted_close>
+    <volume>218446600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>38.5800</open>
+    <high>40.7400</high>
+    <low>37.9800</low>
+    <close>40.1900</close>
+    <adjusted_close>35.1463</adjusted_close>
+    <volume>262307700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>40.1100</open>
+    <high>41.1400</high>
+    <low>37.6400</low>
+    <close>38.4500</close>
+    <adjusted_close>33.6246</adjusted_close>
+    <volume>308408300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>38.4500</open>
+    <high>40.3900</high>
+    <low>38.3000</low>
+    <close>40.1100</close>
+    <adjusted_close>35.2137</adjusted_close>
+    <volume>244705900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>40.2200</open>
+    <high>43.2600</high>
+    <low>39.6800</low>
+    <close>42.5900</close>
+    <adjusted_close>37.3909</adjusted_close>
+    <volume>224207000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>42.7500</open>
+    <high>46.9900</high>
+    <low>42.2500</low>
+    <close>44.6100</close>
+    <adjusted_close>39.1644</adjusted_close>
+    <volume>359649800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>44.6800</open>
+    <high>45.0500</high>
+    <low>43.7600</low>
+    <close>44.9600</close>
+    <adjusted_close>39.6417</adjusted_close>
+    <volume>216228100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>45.0100</open>
+    <high>45.7800</high>
+    <low>43.6000</low>
+    <close>45.3900</close>
+    <adjusted_close>40.0208</adjusted_close>
+    <volume>218152500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>45.5200</open>
+    <high>51.8500</high>
+    <low>43.7400</low>
+    <close>50.1400</close>
+    <adjusted_close>44.2090</adjusted_close>
+    <volume>389250600</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>50.0500</open>
+    <high>51.3600</high>
+    <low>48.7700</low>
+    <close>49.9300</close>
+    <adjusted_close>44.1898</adjusted_close>
+    <volume>220653800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>50.1500</open>
+    <high>50.5200</high>
+    <low>47.9800</low>
+    <close>50.3300</close>
+    <adjusted_close>44.5439</adjusted_close>
+    <volume>216932100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>50.3500</open>
+    <high>53.1400</high>
+    <low>47.6400</low>
+    <close>48.3500</close>
+    <adjusted_close>42.7915</adjusted_close>
+    <volume>405925500</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>48.7200</open>
+    <high>51.2800</high>
+    <low>48.0000</low>
+    <close>50.9000</close>
+    <adjusted_close>45.2260</adjusted_close>
+    <volume>314059300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>51.1000</open>
+    <high>51.1700</high>
+    <low>48.2000</low>
+    <close>49.0600</close>
+    <adjusted_close>43.5911</adjusted_close>
+    <volume>246059100</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>49.0500</open>
+    <high>50.7100</high>
+    <low>47.0000</low>
+    <close>47.2800</close>
+    <adjusted_close>42.0096</adjusted_close>
+    <volume>364528300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>47.5700</open>
+    <high>52.7900</high>
+    <low>46.1700</low>
+    <close>51.5900</close>
+    <adjusted_close>46.0176</adjusted_close>
+    <volume>348599900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>51.3600</open>
+    <high>51.9800</high>
+    <low>45.9200</low>
+    <close>50.6700</close>
+    <adjusted_close>45.1970</adjusted_close>
+    <volume>290684300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>50.9600</open>
+    <high>53.4800</high>
+    <low>44.5100</low>
+    <close>45.7500</close>
+    <adjusted_close>40.8084</adjusted_close>
+    <volume>435423200</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>45.6500</open>
+    <high>47.2900</high>
+    <low>44.0400</low>
+    <close>45.6700</close>
+    <adjusted_close>40.9057</adjusted_close>
+    <volume>286580100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>45.3900</open>
+    <high>47.5400</high>
+    <low>44.4900</low>
+    <close>46.7200</close>
+    <adjusted_close>41.8462</adjusted_close>
+    <volume>253549200</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>47.0800</open>
+    <high>48.6700</high>
+    <low>42.5700</low>
+    <close>44.0600</close>
+    <adjusted_close>39.4637</adjusted_close>
+    <volume>468930400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>43.9600</open>
+    <high>49.1700</high>
+    <low>43.7700</low>
+    <close>47.6800</close>
+    <adjusted_close>42.8736</adjusted_close>
+    <volume>424287700</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>47.9100</open>
+    <high>49.7000</high>
+    <low>46.6300</low>
+    <close>48.5800</close>
+    <adjusted_close>43.6828</adjusted_close>
+    <volume>310534600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>48.3600</open>
+    <high>52.1100</high>
+    <low>47.3300</low>
+    <close>51.5600</close>
+    <adjusted_close>46.3624</adjusted_close>
+    <volume>423450600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>51.2200</open>
+    <high>51.9900</high>
+    <low>46.3400</low>
+    <close>48.8400</close>
+    <adjusted_close>44.0934</adjusted_close>
+    <volume>444353400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>48.9600</open>
+    <high>51.4500</high>
+    <low>46.7900</low>
+    <close>48.7600</close>
+    <adjusted_close>44.0212</adjusted_close>
+    <volume>371551400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>49.4400</open>
+    <high>50.2200</high>
+    <low>42.4000</low>
+    <close>45.1500</close>
+    <adjusted_close>40.7620</adjusted_close>
+    <volume>539063900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>44.4800</open>
+    <high>50.5000</high>
+    <low>44.4100</low>
+    <close>50.2300</close>
+    <adjusted_close>45.5279</adjusted_close>
+    <volume>324808100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>50.5200</open>
+    <high>53.0300</high>
+    <low>49.8200</low>
+    <close>52.1300</close>
+    <adjusted_close>47.2500</adjusted_close>
+    <volume>257843100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>52.5000</open>
+    <high>54.3800</high>
+    <low>51.0000</low>
+    <close>53.7100</close>
+    <adjusted_close>48.6821</adjusted_close>
+    <volume>370697000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>53.8800</open>
+    <high>55.5300</high>
+    <low>53.3300</low>
+    <close>55.3300</close>
+    <adjusted_close>50.3751</adjusted_close>
+    <volume>193506500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>55.3200</open>
+    <high>55.4200</high>
+    <low>50.5100</low>
+    <close>50.6000</close>
+    <adjusted_close>46.0686</adjusted_close>
+    <volume>240092700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>50.5600</open>
+    <high>57.4700</high>
+    <low>49.8900</low>
+    <close>56.9700</close>
+    <adjusted_close>51.8682</adjusted_close>
+    <volume>417219900</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>57.1500</open>
+    <high>60.5000</high>
+    <low>55.6200</low>
+    <close>56.3000</close>
+    <adjusted_close>51.4657</adjusted_close>
+    <volume>251453400</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>56.3000</open>
+    <high>56.8500</high>
+    <low>51.2500</low>
+    <close>52.0600</close>
+    <adjusted_close>47.5898</adjusted_close>
+    <volume>225539800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>51.9400</open>
+    <high>56.2900</high>
+    <low>51.5500</low>
+    <close>55.0300</close>
+    <adjusted_close>50.3047</adjusted_close>
+    <volume>333772600</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>55.0400</open>
+    <high>57.3300</high>
+    <low>52.6800</low>
+    <close>54.4900</close>
+    <adjusted_close>50.0333</adjusted_close>
+    <volume>250748900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>54.8100</open>
+    <high>57.0600</high>
+    <low>54.5500</low>
+    <close>56.1400</close>
+    <adjusted_close>51.5483</adjusted_close>
+    <volume>157205300</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>56.2300</open>
+    <high>56.6600</high>
+    <low>52.5500</low>
+    <close>52.9800</close>
+    <adjusted_close>48.6468</adjusted_close>
+    <volume>263181500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>53.2700</open>
+    <high>55.6900</high>
+    <low>52.2800</low>
+    <close>52.4500</close>
+    <adjusted_close>48.3745</adjusted_close>
+    <volume>201231600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>52.7300</open>
+    <high>55.8900</high>
+    <low>47.9000</low>
+    <close>49.4600</close>
+    <adjusted_close>45.6168</adjusted_close>
+    <volume>193548200</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>49.7300</open>
+    <high>51.8400</high>
+    <low>39.7100</low>
+    <close>48.3300</close>
+    <adjusted_close>44.5746</adjusted_close>
+    <volume>500026300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>46.5500</open>
+    <high>54.7200</high>
+    <low>46.0400</low>
+    <close>52.9700</close>
+    <adjusted_close>49.0862</adjusted_close>
+    <volume>261549600</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>52.3800</open>
+    <high>54.1500</high>
+    <low>50.8600</low>
+    <close>53.7700</close>
+    <adjusted_close>49.8275</adjusted_close>
+    <volume>213866500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>53.2800</open>
+    <high>55.9700</high>
+    <low>50.9100</low>
+    <close>55.2700</close>
+    <adjusted_close>51.2175</adjusted_close>
+    <volume>336706700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>54.6900</open>
+    <high>57.8400</high>
+    <low>54.3300</low>
+    <close>55.4500</close>
+    <adjusted_close>51.6015</adjusted_close>
+    <volume>274222800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>55.7800</open>
+    <high>58.4500</high>
+    <low>53.6600</low>
+    <close>57.2200</close>
+    <adjusted_close>53.2487</adjusted_close>
+    <volume>217958300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>57.3700</open>
+    <high>62.6000</high>
+    <low>54.8700</low>
+    <close>59.7000</close>
+    <adjusted_close>55.5566</adjusted_close>
+    <volume>426654300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>60.1700</open>
+    <high>61.8300</high>
+    <low>55.1400</low>
+    <close>56.1100</close>
+    <adjusted_close>52.4272</adjusted_close>
+    <volume>209801500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>56.4400</open>
+    <high>59.0800</high>
+    <low>55.5600</low>
+    <close>57.7200</close>
+    <adjusted_close>53.9315</adjusted_close>
+    <volume>187060500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>58.2000</open>
+    <high>66.2000</high>
+    <low>58.0100</low>
+    <close>64.6900</close>
+    <adjusted_close>60.4440</adjusted_close>
+    <volume>291078500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>64.6900</open>
+    <high>64.7000</high>
+    <low>59.7400</low>
+    <close>60.4300</close>
+    <adjusted_close>56.6797</adjusted_close>
+    <volume>173094700</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>60.9200</open>
+    <high>66.3600</high>
+    <low>60.7400</low>
+    <close>64.5100</close>
+    <adjusted_close>60.5065</adjusted_close>
+    <volume>203018100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>64.9500</open>
+    <high>73.6200</high>
+    <low>64.7700</low>
+    <close>70.1700</close>
+    <adjusted_close>65.8152</adjusted_close>
+    <volume>385408900</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>70.4600</open>
+    <high>80.2100</high>
+    <low>70.3300</low>
+    <close>75.7900</close>
+    <adjusted_close>71.3940</adjusted_close>
+    <volume>274747400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>76.2800</open>
+    <high>80.7200</high>
+    <low>76.0800</low>
+    <close>78.7400</close>
+    <adjusted_close>74.1729</adjusted_close>
+    <volume>219875100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>79.5800</open>
+    <high>85.0300</high>
+    <low>75.9000</low>
+    <close>77.8400</close>
+    <adjusted_close>73.3251</adjusted_close>
+    <volume>276738400</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>77.9800</open>
+    <high>91.2000</high>
+    <low>77.9100</low>
+    <close>87.1400</close>
+    <adjusted_close>82.3885</adjusted_close>
+    <volume>278074100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>87.7300</open>
+    <high>91.7800</high>
+    <low>87.0900</low>
+    <close>89.1300</close>
+    <adjusted_close>84.2700</adjusted_close>
+    <volume>154883000</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>89.2600</open>
+    <high>92.2700</high>
+    <low>84.7300</low>
+    <close>87.1300</close>
+    <adjusted_close>82.3790</adjusted_close>
+    <volume>299389900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>87.7600</open>
+    <high>98.9500</high>
+    <low>87.6000</low>
+    <close>95.9400</close>
+    <adjusted_close>91.0242</adjusted_close>
+    <volume>177718200</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>96.0000</open>
+    <high>96.9600</high>
+    <low>90.6100</low>
+    <close>90.7400</close>
+    <adjusted_close>86.0906</adjusted_close>
+    <volume>156023500</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>91.6900</open>
+    <high>106.3400</high>
+    <low>87.1800</low>
+    <close>87.2100</close>
+    <adjusted_close>82.7415</adjusted_close>
+    <volume>270947200</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>87.3300</open>
+    <high>89.5800</high>
+    <low>78.5700</low>
+    <close>81.1600</close>
+    <adjusted_close>77.2876</adjusted_close>
+    <volume>200574800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>81.4000</open>
+    <high>83.7800</high>
+    <low>70.2300</low>
+    <close>75.9700</close>
+    <adjusted_close>72.3452</adjusted_close>
+    <volume>144701700</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>75.9800</open>
+    <high>84.5100</high>
+    <low>73.1100</low>
+    <close>82.7300</close>
+    <adjusted_close>78.7826</adjusted_close>
+    <volume>243936600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>83.0400</open>
+    <high>84.5200</high>
+    <low>73.1500</low>
+    <close>73.4000</close>
+    <adjusted_close>70.1713</adjusted_close>
+    <volume>131271700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>73.9300</open>
+    <high>75.3500</high>
+    <low>66.7200</low>
+    <close>71.9200</close>
+    <adjusted_close>68.7563</adjusted_close>
+    <volume>162438900</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>73.0200</open>
+    <high>74.8400</high>
+    <low>63.7600</low>
+    <close>69.8700</close>
+    <adjusted_close>66.7965</adjusted_close>
+    <volume>219800300</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>69.8500</open>
+    <high>78.1600</high>
+    <low>68.2300</low>
+    <close>77.8400</close>
+    <adjusted_close>74.7487</adjusted_close>
+    <volume>126241100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>77.1800</open>
+    <high>79.8800</high>
+    <low>73.4600</low>
+    <close>74.1500</close>
+    <adjusted_close>71.2053</adjusted_close>
+    <volume>117160200</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>74.1200</open>
+    <high>79.4100</high>
+    <low>60.7800</low>
+    <close>61.0700</close>
+    <adjusted_close>58.6447</adjusted_close>
+    <volume>232945300</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>60.9900</open>
+    <high>78.3300</high>
+    <low>60.8100</low>
+    <close>78.0700</close>
+    <adjusted_close>75.3550</adjusted_close>
+    <volume>200166600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>78.6000</open>
+    <high>83.4900</high>
+    <low>74.0500</low>
+    <close>83.0300</close>
+    <adjusted_close>80.1425</adjusted_close>
+    <volume>143312700</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>83.0500</open>
+    <high>85.5800</high>
+    <low>78.0600</low>
+    <close>81.7400</close>
+    <adjusted_close>78.8974</adjusted_close>
+    <volume>172460600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>82.4700</open>
+    <high>90.4900</high>
+    <low>82.2600</low>
+    <close>88.4600</close>
+    <adjusted_close>85.7038</adjusted_close>
+    <volume>135703000</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>88.3700</open>
+    <high>91.2200</high>
+    <low>85.9800</low>
+    <close>87.4000</close>
+    <adjusted_close>84.6769</adjusted_close>
+    <volume>122638600</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>86.9000</open>
+    <high>93.0000</high>
+    <low>82.0400</low>
+    <close>92.9200</close>
+    <adjusted_close>90.0249</adjusted_close>
+    <volume>189782300</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>92.3800</open>
+    <high>96.7400</high>
+    <low>92.0900</low>
+    <close>94.7200</close>
+    <adjusted_close>92.1531</adjusted_close>
+    <volume>130420000</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>94.8000</open>
+    <high>106.4900</high>
+    <low>93.8500</low>
+    <close>105.9400</close>
+    <adjusted_close>103.0690</adjusted_close>
+    <volume>175859100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>104.8800</open>
+    <high>127.5400</high>
+    <low>104.7800</low>
+    <close>119.0900</close>
+    <adjusted_close>115.8627</adjusted_close>
+    <volume>328376600</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>118.0100</open>
+    <high>121.3600</high>
+    <low>113.4300</low>
+    <close>117.2300</close>
+    <adjusted_close>114.4533</adjusted_close>
+    <volume>156283000</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>116.9200</open>
+    <high>121.9800</high>
+    <low>111.1300</low>
+    <close>120.3900</close>
+    <adjusted_close>117.5385</adjusted_close>
+    <volume>169698900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>121.0100</open>
+    <high>127.4200</high>
+    <low>103.2700</low>
+    <close>105.9200</close>
+    <adjusted_close>103.4112</adjusted_close>
+    <volume>308526100</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>105.8100</open>
+    <high>111.0600</high>
+    <low>99.8700</low>
+    <close>103.4000</close>
+    <adjusted_close>101.3203</adjusted_close>
+    <volume>164668600</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>103.8000</open>
+    <high>117.6700</high>
+    <low>103.8000</low>
+    <close>116.2100</close>
+    <adjusted_close>113.8727</adjusted_close>
+    <volume>135982800</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>116.0700</open>
+    <high>117.3500</high>
+    <low>99.2600</low>
+    <close>105.4300</close>
+    <adjusted_close>103.3095</adjusted_close>
+    <volume>269931000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>104.5200</open>
+    <high>116.1800</high>
+    <low>101.7400</low>
+    <close>111.7000</close>
+    <adjusted_close>109.8775</adjusted_close>
+    <volume>171137100</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>112.9100</open>
+    <high>117.7900</high>
+    <low>106.5100</low>
+    <close>111.6800</close>
+    <adjusted_close>109.8578</adjusted_close>
+    <volume>147696800</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>111.6800</open>
+    <high>132.7700</high>
+    <low>110.3700</low>
+    <close>125.6100</close>
+    <adjusted_close>123.5605</adjusted_close>
+    <volume>243321500</volume>
+    <news>ORCL Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>125.5400</open>
+    <high>127.9900</high>
+    <low>112.7800</low>
+    <close>113.7500</close>
+    <adjusted_close>112.2551</adjusted_close>
+    <volume>135793700</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>113.9100</open>
+    <high>126.7000</high>
+    <low>113.6500</low>
+    <close>117.1900</close>
+    <adjusted_close>115.6499</adjusted_close>
+    <volume>145216100</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>117.5300</open>
+    <high>145.3200</high>
+    <low>117.3400</low>
+    <close>141.2000</close>
+    <adjusted_close>139.3444</adjusted_close>
+    <volume>237978500</volume>
+    <news>ORCL Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>141.6900</open>
+    <high>146.5900</high>
+    <low>134.9600</low>
+    <close>139.4500</close>
+    <adjusted_close>138.0059</adjusted_close>
+    <volume>151095800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>139.2900</open>
+    <high>141.7200</high>
+    <low>125.7500</low>
+    <close>141.2900</close>
+    <adjusted_close>139.8269</adjusted_close>
+    <volume>119963800</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>140.4500</open>
+    <high>173.9900</high>
+    <low>137.9500</low>
+    <close>170.4000</close>
+    <adjusted_close>168.6354</adjusted_close>
+    <volume>267086900</volume>
+    <news>ORCL Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>170.2200</open>
+    <high>178.6100</high>
+    <low>165.9700</low>
+    <close>167.8400</close>
+    <adjusted_close>166.4754</adjusted_close>
+    <volume>134383400</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>170.1500</open>
+    <high>196.0400</high>
+    <low>168.7300</low>
+    <close>184.8400</close>
+    <adjusted_close>183.3372</adjusted_close>
+    <volume>150498900</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>185.2900</open>
+    <high>198.3100</high>
+    <low>164.5500</low>
+    <close>166.6400</close>
+    <adjusted_close>165.2852</adjusted_close>
+    <volume>196442000</volume>
+    <news>ORCL Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</oracle_stock_data>

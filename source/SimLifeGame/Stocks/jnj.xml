@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<johnson_johnson_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>46.5625</open>
+    <high>48.4688</high>
+    <low>40.2500</low>
+    <close>43.0312</close>
+    <adjusted_close>22.1510</adjusted_close>
+    <volume>153516200</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>42.7188</open>
+    <high>43.1562</high>
+    <low>35.0312</low>
+    <close>36.0000</close>
+    <adjusted_close>18.5983</adjusted_close>
+    <volume>186522000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>36.1250</open>
+    <high>41.1250</high>
+    <low>33.0625</low>
+    <close>35.1250</close>
+    <adjusted_close>18.1463</adjusted_close>
+    <volume>279805400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>35.3125</open>
+    <high>42.2188</high>
+    <low>35.0000</low>
+    <close>41.2500</close>
+    <adjusted_close>21.3106</adjusted_close>
+    <volume>170787400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>41.1250</open>
+    <high>45.0000</high>
+    <low>40.9375</low>
+    <close>44.7500</close>
+    <adjusted_close>23.2027</adjusted_close>
+    <volume>120208200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>44.6250</open>
+    <high>50.9922</high>
+    <low>41.2500</low>
+    <close>50.9375</close>
+    <adjusted_close>26.4109</adjusted_close>
+    <volume>149885600</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>50.6250</open>
+    <high>50.7188</high>
+    <low>45.1250</low>
+    <close>46.5312</close>
+    <adjusted_close>24.1262</adjusted_close>
+    <volume>134047800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>46.2500</open>
+    <high>49.4375</high>
+    <low>45.6250</low>
+    <close>45.9766</close>
+    <adjusted_close>23.9175</adjusted_close>
+    <volume>100354600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>46.2500</open>
+    <high>48.9062</high>
+    <low>45.1562</low>
+    <close>46.9688</close>
+    <adjusted_close>24.4337</adjusted_close>
+    <volume>96535000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>47.0938</open>
+    <high>48.7500</high>
+    <low>45.1562</low>
+    <close>46.0625</close>
+    <adjusted_close>23.9622</adjusted_close>
+    <volume>142009400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>46.0000</open>
+    <high>51.5000</high>
+    <low>44.5938</low>
+    <close>50.0000</close>
+    <adjusted_close>26.0992</adjusted_close>
+    <volume>138432000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>49.6250</open>
+    <high>52.9688</high>
+    <low>47.6250</low>
+    <close>52.5312</close>
+    <adjusted_close>27.4205</adjusted_close>
+    <volume>139899600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>52.0000</open>
+    <high>52.3438</high>
+    <low>45.1875</low>
+    <close>46.5650</close>
+    <adjusted_close>24.3062</adjusted_close>
+    <volume>168446600</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>46.5650</open>
+    <high>49.1250</high>
+    <low>46.5650</low>
+    <close>48.6650</close>
+    <adjusted_close>25.4877</adjusted_close>
+    <volume>116971800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>48.9000</open>
+    <high>49.9250</high>
+    <low>40.2500</low>
+    <close>43.7350</close>
+    <adjusted_close>22.9056</adjusted_close>
+    <volume>295296000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>43.7500</open>
+    <high>48.3500</high>
+    <low>42.5950</low>
+    <close>48.2400</close>
+    <adjusted_close>25.2651</adjusted_close>
+    <volume>209600800</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>48.3000</open>
+    <high>51.0000</high>
+    <low>47.9100</low>
+    <close>48.4750</close>
+    <adjusted_close>25.4792</adjusted_close>
+    <volume>184641400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>48.4800</open>
+    <high>54.2000</high>
+    <low>48.3000</low>
+    <close>49.9600</close>
+    <adjusted_close>26.2598</adjusted_close>
+    <volume>187599900</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>50.1000</open>
+    <high>54.9800</high>
+    <low>50.0000</low>
+    <close>54.1000</close>
+    <adjusted_close>28.4358</adjusted_close>
+    <volume>164167000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>54.1000</open>
+    <high>57.6000</high>
+    <low>52.3000</low>
+    <close>52.7100</close>
+    <adjusted_close>27.7964</adjusted_close>
+    <volume>163136000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>55.3500</open>
+    <high>57.1600</high>
+    <low>50.2000</low>
+    <close>55.4000</close>
+    <adjusted_close>29.2150</adjusted_close>
+    <volume>176432200</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>55.4000</open>
+    <high>59.6600</high>
+    <low>53.0500</low>
+    <close>57.9100</close>
+    <adjusted_close>30.5386</adjusted_close>
+    <volume>181677000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>57.5800</open>
+    <high>60.9700</high>
+    <low>57.5100</low>
+    <close>58.2500</close>
+    <adjusted_close>30.8103</adjusted_close>
+    <volume>144831900</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>57.8200</open>
+    <high>60.1800</high>
+    <low>55.4200</low>
+    <close>59.1000</close>
+    <adjusted_close>31.2599</adjusted_close>
+    <volume>169195500</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>58.9000</open>
+    <high>60.1000</high>
+    <low>56.6000</low>
+    <close>57.5100</close>
+    <adjusted_close>30.4189</adjusted_close>
+    <volume>131885400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>57.2600</open>
+    <high>60.9700</high>
+    <low>54.7000</low>
+    <close>60.9000</close>
+    <adjusted_close>32.3121</adjusted_close>
+    <volume>131715000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>60.9000</open>
+    <high>65.8900</high>
+    <low>60.6000</low>
+    <close>64.9500</close>
+    <adjusted_close>34.4609</adjusted_close>
+    <volume>154776300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>64.2000</open>
+    <high>65.2900</high>
+    <low>61.7800</low>
+    <close>63.8600</close>
+    <adjusted_close>33.8826</adjusted_close>
+    <volume>160057900</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>63.9700</open>
+    <high>64.6300</high>
+    <low>59.1600</low>
+    <close>61.3500</close>
+    <adjusted_close>32.6614</adjusted_close>
+    <volume>162571200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>61.1000</open>
+    <high>61.7400</high>
+    <low>52.0000</low>
+    <close>52.2600</close>
+    <adjusted_close>27.8221</adjusted_close>
+    <volume>185599200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>51.7000</open>
+    <high>54.8500</high>
+    <low>41.4000</low>
+    <close>52.6000</close>
+    <adjusted_close>28.0031</adjusted_close>
+    <volume>343494700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>53.0000</open>
+    <high>56.5000</high>
+    <low>49.7500</low>
+    <close>54.3100</close>
+    <adjusted_close>29.0198</adjusted_close>
+    <volume>159253500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>53.8800</open>
+    <high>56.2500</high>
+    <low>51.4500</low>
+    <close>54.0800</close>
+    <adjusted_close>28.8969</adjusted_close>
+    <volume>146893100</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>54.9500</open>
+    <high>61.3000</high>
+    <low>54.3000</low>
+    <close>58.7500</close>
+    <adjusted_close>31.3923</adjusted_close>
+    <volume>223245600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>58.3300</open>
+    <high>61.2400</high>
+    <low>56.3000</low>
+    <close>57.0200</close>
+    <adjusted_close>30.5715</adjusted_close>
+    <volume>134767300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>56.5900</open>
+    <high>57.0700</high>
+    <low>53.0000</low>
+    <close>53.7100</close>
+    <adjusted_close>28.7968</adjusted_close>
+    <volume>143258800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>54.2500</open>
+    <high>57.5500</high>
+    <low>51.5400</low>
+    <close>53.6100</close>
+    <adjusted_close>28.7432</adjusted_close>
+    <volume>157116600</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>53.5000</open>
+    <high>53.9500</high>
+    <low>49.1000</low>
+    <close>52.4500</close>
+    <adjusted_close>28.2371</adjusted_close>
+    <volume>139008100</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>53.1600</open>
+    <high>58.6800</high>
+    <low>51.5000</low>
+    <close>57.8700</close>
+    <adjusted_close>31.1550</adjusted_close>
+    <volume>160153900</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>57.8700</open>
+    <high>59.0800</high>
+    <low>53.9500</low>
+    <close>56.3600</close>
+    <adjusted_close>30.3420</adjusted_close>
+    <volume>159363100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>56.3600</open>
+    <high>57.5200</high>
+    <low>52.5500</low>
+    <close>54.3500</close>
+    <adjusted_close>29.3872</adjusted_close>
+    <volume>161675800</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>54.3500</open>
+    <high>55.5700</high>
+    <low>50.7500</low>
+    <close>51.7000</close>
+    <adjusted_close>27.9543</adjusted_close>
+    <volume>216949500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>51.7000</open>
+    <high>54.2400</high>
+    <low>50.5500</low>
+    <close>51.7900</close>
+    <adjusted_close>28.0030</adjusted_close>
+    <volume>180959900</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>50.9500</open>
+    <high>52.2500</high>
+    <low>49.0000</low>
+    <close>49.5800</close>
+    <adjusted_close>26.9347</adjusted_close>
+    <volume>154672000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>49.7800</open>
+    <high>52.5000</high>
+    <low>49.0900</low>
+    <close>49.5200</close>
+    <adjusted_close>26.9022</adjusted_close>
+    <volume>197900400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>49.7100</open>
+    <high>51.1500</high>
+    <low>48.0500</low>
+    <close>50.3300</close>
+    <adjusted_close>27.3422</adjusted_close>
+    <volume>200619900</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>50.0800</open>
+    <high>52.8900</high>
+    <low>48.2600</low>
+    <close>49.3000</close>
+    <adjusted_close>26.9109</adjusted_close>
+    <volume>164719400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>50.3000</open>
+    <high>51.7400</high>
+    <low>48.7900</low>
+    <close>51.6600</close>
+    <adjusted_close>28.1992</adjusted_close>
+    <volume>185895500</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>51.6600</open>
+    <high>54.0400</high>
+    <low>50.4300</low>
+    <close>53.4200</close>
+    <adjusted_close>29.1599</adjusted_close>
+    <volume>172050600</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>53.4100</open>
+    <high>54.9000</high>
+    <low>52.7900</low>
+    <close>53.9100</close>
+    <adjusted_close>29.5572</adjusted_close>
+    <volume>126994200</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>54.4900</open>
+    <high>54.4900</high>
+    <low>49.2500</low>
+    <close>50.7200</close>
+    <adjusted_close>27.8082</adjusted_close>
+    <volume>172924700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>51.0500</open>
+    <high>54.7700</high>
+    <low>49.9000</low>
+    <close>54.0300</close>
+    <adjusted_close>29.6230</adjusted_close>
+    <volume>166843100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>54.2200</open>
+    <high>56.3900</high>
+    <low>54.0200</low>
+    <close>55.7100</close>
+    <adjusted_close>30.7034</adjusted_close>
+    <volume>140688600</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>55.2300</open>
+    <high>57.2800</high>
+    <low>54.5000</low>
+    <close>55.7000</close>
+    <adjusted_close>30.6978</adjusted_close>
+    <volume>125332400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>55.3500</open>
+    <high>58.1400</high>
+    <low>54.4300</low>
+    <close>55.2700</close>
+    <adjusted_close>30.4609</adjusted_close>
+    <volume>141900800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>55.0000</open>
+    <high>58.1000</high>
+    <low>54.3700</low>
+    <close>58.1000</close>
+    <adjusted_close>32.1835</adjusted_close>
+    <volume>107083900</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>58.0000</open>
+    <high>58.8000</high>
+    <low>56.0900</low>
+    <close>56.3300</close>
+    <adjusted_close>31.2030</adjusted_close>
+    <volume>110410900</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>56.3900</open>
+    <high>58.4800</high>
+    <low>54.8100</low>
+    <close>58.3800</close>
+    <adjusted_close>32.3386</adjusted_close>
+    <volume>139893100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>58.3500</open>
+    <high>61.4900</high>
+    <low>57.8100</low>
+    <close>60.3200</close>
+    <adjusted_close>33.5711</adjusted_close>
+    <volume>123981200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>60.3300</open>
+    <high>64.2500</high>
+    <low>59.6000</low>
+    <close>63.4200</close>
+    <adjusted_close>35.2964</adjusted_close>
+    <volume>173950700</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>63.3500</open>
+    <high>64.9800</high>
+    <low>61.2000</low>
+    <close>64.7000</close>
+    <adjusted_close>36.0088</adjusted_close>
+    <volume>136191800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>64.6100</open>
+    <high>66.8900</high>
+    <low>64.5200</low>
+    <close>65.6000</close>
+    <adjusted_close>36.6677</adjusted_close>
+    <volume>107556700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>66.4700</open>
+    <high>68.6800</high>
+    <low>66.1200</low>
+    <close>67.1600</close>
+    <adjusted_close>37.5397</adjusted_close>
+    <volume>158100100</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>67.3200</open>
+    <high>69.9900</high>
+    <low>66.6500</low>
+    <close>68.6300</close>
+    <adjusted_close>38.3613</adjusted_close>
+    <volume>158634500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>68.6800</open>
+    <high>68.8700</high>
+    <low>66.7600</low>
+    <close>67.1000</close>
+    <adjusted_close>37.6900</adjusted_close>
+    <volume>125789400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>67.1000</open>
+    <high>67.6100</high>
+    <low>64.4300</low>
+    <close>65.0000</close>
+    <adjusted_close>36.5104</adjusted_close>
+    <volume>162476400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>64.8200</open>
+    <high>65.4300</high>
+    <low>62.6700</low>
+    <close>63.9600</close>
+    <adjusted_close>35.9262</adjusted_close>
+    <volume>149908400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>64.2500</open>
+    <high>65.3500</high>
+    <low>61.6500</low>
+    <close>63.3900</close>
+    <adjusted_close>35.7899</adjusted_close>
+    <volume>138029400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>63.1800</open>
+    <high>65.3300</high>
+    <low>62.8500</low>
+    <close>63.2800</close>
+    <adjusted_close>35.7278</adjusted_close>
+    <volume>139445700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>63.1800</open>
+    <high>64.6000</high>
+    <low>60.5300</low>
+    <close>62.6200</close>
+    <adjusted_close>35.3552</adjusted_close>
+    <volume>224158000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>62.4800</open>
+    <high>63.7800</high>
+    <low>60.0000</low>
+    <close>61.7500</close>
+    <adjusted_close>35.0466</adjusted_close>
+    <volume>241169500</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>61.8500</open>
+    <high>62.0600</high>
+    <low>59.7600</low>
+    <close>60.1000</close>
+    <adjusted_close>34.1101</adjusted_close>
+    <volume>189869600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>61.0700</open>
+    <high>63.1000</high>
+    <low>57.4500</low>
+    <close>57.5400</close>
+    <adjusted_close>32.6572</adjusted_close>
+    <volume>220695200</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>57.6700</open>
+    <high>59.7100</high>
+    <low>56.7000</low>
+    <close>57.6500</close>
+    <adjusted_close>32.9049</adjusted_close>
+    <volume>183341700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>57.6200</open>
+    <high>61.1000</high>
+    <low>57.4500</low>
+    <close>59.2200</close>
+    <adjusted_close>33.8010</adjusted_close>
+    <volume>181202600</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>59.4900</open>
+    <high>59.7600</high>
+    <low>57.3200</low>
+    <close>58.6100</close>
+    <adjusted_close>33.4528</adjusted_close>
+    <volume>171133300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>58.7100</open>
+    <high>60.9300</high>
+    <low>58.1900</low>
+    <close>60.2200</close>
+    <adjusted_close>34.5851</adjusted_close>
+    <volume>196603700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>60.2500</open>
+    <high>62.0000</high>
+    <low>58.9700</low>
+    <close>59.9200</close>
+    <adjusted_close>34.4129</adjusted_close>
+    <volume>199396300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>60.1300</open>
+    <high>63.0000</high>
+    <low>59.6800</low>
+    <close>62.5500</close>
+    <adjusted_close>35.9233</adjusted_close>
+    <volume>134968800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>62.3800</open>
+    <high>65.1300</high>
+    <low>62.2900</low>
+    <close>64.6600</close>
+    <adjusted_close>37.3506</adjusted_close>
+    <volume>150477100</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>64.8700</open>
+    <high>65.0400</high>
+    <low>63.2500</low>
+    <close>64.9400</close>
+    <adjusted_close>37.5123</adjusted_close>
+    <volume>128522300</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>65.0000</open>
+    <high>69.4100</high>
+    <low>64.5000</low>
+    <close>67.4000</close>
+    <adjusted_close>38.9333</adjusted_close>
+    <volume>189511300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>67.3800</open>
+    <high>69.0300</high>
+    <low>65.2200</low>
+    <close>65.9100</close>
+    <adjusted_close>38.2877</adjusted_close>
+    <volume>196072100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>65.9100</open>
+    <high>67.2500</high>
+    <low>65.2900</low>
+    <close>66.0200</close>
+    <adjusted_close>38.3516</adjusted_close>
+    <volume>157532600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>66.1300</open>
+    <high>68.2200</high>
+    <low>65.9000</low>
+    <close>66.8000</close>
+    <adjusted_close>38.8047</adjusted_close>
+    <volume>175594400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>66.8000</open>
+    <high>67.1500</high>
+    <low>62.7200</low>
+    <close>62.9300</close>
+    <adjusted_close>36.7694</adjusted_close>
+    <volume>192375400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>62.3500</open>
+    <high>62.9300</high>
+    <low>59.8700</low>
+    <close>60.2600</close>
+    <adjusted_close>35.2094</adjusted_close>
+    <volume>318147400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>60.2600</open>
+    <high>65.4500</high>
+    <low>60.0300</low>
+    <close>64.2200</close>
+    <adjusted_close>37.5231</adjusted_close>
+    <volume>248968100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>64.5300</open>
+    <high>64.9400</high>
+    <low>61.6500</low>
+    <close>63.2700</close>
+    <adjusted_close>37.2101</adjusted_close>
+    <volume>280281700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>63.3500</open>
+    <high>63.7700</high>
+    <low>60.7300</low>
+    <close>61.6200</close>
+    <adjusted_close>36.2397</adjusted_close>
+    <volume>259962000</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>61.9400</open>
+    <high>63.8800</high>
+    <low>59.7200</low>
+    <close>60.5000</close>
+    <adjusted_close>35.5810</adjusted_close>
+    <volume>290358700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>60.5100</open>
+    <high>62.9800</high>
+    <low>60.3100</low>
+    <close>61.7900</close>
+    <adjusted_close>36.5841</adjusted_close>
+    <volume>331077300</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>61.6300</open>
+    <high>65.7500</high>
+    <low>61.2600</low>
+    <close>65.7000</close>
+    <adjusted_close>38.8991</adjusted_close>
+    <volume>220556400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>65.6600</open>
+    <high>66.8000</high>
+    <low>63.5500</low>
+    <close>65.1700</close>
+    <adjusted_close>38.5853</adjusted_close>
+    <volume>232885800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>64.8000</open>
+    <high>68.7500</high>
+    <low>63.7300</low>
+    <close>67.7400</close>
+    <adjusted_close>40.3564</adjusted_close>
+    <volume>284874000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>67.6200</open>
+    <high>68.5000</high>
+    <low>66.5500</low>
+    <close>66.7000</close>
+    <adjusted_close>39.7368</adjusted_close>
+    <volume>197170400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>66.5600</open>
+    <high>68.8500</high>
+    <low>61.7200</low>
+    <close>63.1400</close>
+    <adjusted_close>37.6159</adjusted_close>
+    <volume>339978400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>63.3500</open>
+    <high>64.0700</high>
+    <low>61.3600</low>
+    <close>61.9600</close>
+    <adjusted_close>37.1578</adjusted_close>
+    <volume>218925600</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>62.0000</open>
+    <high>65.8100</high>
+    <low>61.1700</low>
+    <close>64.8700</close>
+    <adjusted_close>38.9029</adjusted_close>
+    <volume>274621800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>65.1300</open>
+    <high>67.7400</high>
+    <low>64.5100</low>
+    <close>67.0900</close>
+    <adjusted_close>40.2343</adjusted_close>
+    <volume>221952400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>67.1300</open>
+    <high>68.3200</high>
+    <low>64.5400</low>
+    <close>66.7400</close>
+    <adjusted_close>40.3065</adjusted_close>
+    <volume>219962000</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>66.5500</open>
+    <high>67.1000</high>
+    <low>63.1000</low>
+    <close>64.3400</close>
+    <adjusted_close>38.8570</adjusted_close>
+    <volume>228287700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>63.7500</open>
+    <high>69.2500</high>
+    <low>63.7400</low>
+    <close>68.4700</close>
+    <adjusted_close>41.3513</adjusted_close>
+    <volume>308621600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>68.5000</open>
+    <high>71.9000</high>
+    <low>67.9300</low>
+    <close>70.4300</close>
+    <adjusted_close>42.8112</adjusted_close>
+    <volume>224063800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>71.0900</open>
+    <high>72.7600</high>
+    <low>66.9000</low>
+    <close>69.2800</close>
+    <adjusted_close>42.1122</adjusted_close>
+    <volume>367504200</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>69.0700</open>
+    <high>69.0700</high>
+    <low>52.0600</low>
+    <close>61.3400</close>
+    <adjusted_close>37.2858</adjusted_close>
+    <volume>640425500</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>61.4900</open>
+    <high>63.0100</high>
+    <low>54.4900</low>
+    <close>58.5800</close>
+    <adjusted_close>35.9041</adjusted_close>
+    <volume>375653400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>57.6600</open>
+    <high>60.2500</high>
+    <low>54.9500</low>
+    <close>59.8300</close>
+    <adjusted_close>36.6702</adjusted_close>
+    <volume>315194900</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>60.1300</open>
+    <high>61.0000</high>
+    <low>55.0900</low>
+    <close>57.6900</close>
+    <adjusted_close>35.3586</adjusted_close>
+    <volume>349391400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>57.2500</open>
+    <high>59.1300</high>
+    <low>49.9400</low>
+    <close>50.0000</close>
+    <adjusted_close>30.8995</adjusted_close>
+    <volume>308348500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>49.0300</open>
+    <high>53.7000</high>
+    <low>46.2500</low>
+    <close>52.6000</close>
+    <adjusted_close>32.5062</adjusted_close>
+    <volume>423319700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>52.3000</open>
+    <high>54.1300</high>
+    <low>50.1200</low>
+    <close>52.3600</close>
+    <adjusted_close>32.3579</adjusted_close>
+    <volume>306396300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>52.5300</open>
+    <high>56.4800</high>
+    <low>51.6700</low>
+    <close>55.1600</close>
+    <adjusted_close>34.3899</adjusted_close>
+    <volume>257261500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>55.7500</open>
+    <high>57.2300</high>
+    <low>54.5400</low>
+    <close>56.8000</close>
+    <adjusted_close>35.4124</adjusted_close>
+    <volume>301738000</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>56.8200</open>
+    <high>62.4700</high>
+    <low>55.7100</low>
+    <close>60.8900</close>
+    <adjusted_close>37.9623</adjusted_close>
+    <volume>270356100</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>61.1600</open>
+    <high>61.4900</high>
+    <low>59.5000</low>
+    <close>60.4400</close>
+    <adjusted_close>37.9871</adjusted_close>
+    <volume>211869300</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>60.3500</open>
+    <high>61.5400</high>
+    <low>59.2800</low>
+    <close>60.8900</close>
+    <adjusted_close>38.2700</adjusted_close>
+    <volume>197460800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>60.9300</open>
+    <high>62.7400</high>
+    <low>58.7800</low>
+    <close>59.0500</close>
+    <adjusted_close>37.1135</adjusted_close>
+    <volume>280297200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>59.1500</open>
+    <high>63.4400</high>
+    <low>58.8000</low>
+    <close>62.8400</close>
+    <adjusted_close>39.8080</adjusted_close>
+    <volume>233417400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>62.9500</open>
+    <high>65.4100</high>
+    <low>62.9500</low>
+    <close>64.4100</close>
+    <adjusted_close>40.8026</adjusted_close>
+    <volume>212286400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>64.7100</open>
+    <high>65.9500</high>
+    <low>62.2200</low>
+    <close>62.8600</close>
+    <adjusted_close>39.8207</adjusted_close>
+    <volume>245125300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>63.2600</open>
+    <high>64.7000</high>
+    <low>61.8900</low>
+    <close>63.0000</close>
+    <adjusted_close>40.2147</adjusted_close>
+    <volume>213341500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>63.2700</open>
+    <high>65.4900</high>
+    <low>63.0200</low>
+    <close>65.2000</close>
+    <adjusted_close>41.6191</adjusted_close>
+    <volume>249947500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>65.3700</open>
+    <high>66.2000</high>
+    <low>64.2100</low>
+    <close>64.3000</close>
+    <adjusted_close>41.0446</adjusted_close>
+    <volume>235860700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>65.1600</open>
+    <high>65.6200</high>
+    <low>58.1900</low>
+    <close>58.3000</close>
+    <adjusted_close>37.5545</adjusted_close>
+    <volume>357775800</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>58.2100</open>
+    <high>60.1500</high>
+    <low>57.5500</low>
+    <close>59.0600</close>
+    <adjusted_close>38.0441</adjusted_close>
+    <volume>357343400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>59.0700</open>
+    <high>61.7300</high>
+    <low>56.8600</low>
+    <close>58.0900</close>
+    <adjusted_close>37.4192</adjusted_close>
+    <volume>310708000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>58.5000</open>
+    <high>60.2500</high>
+    <low>56.9900</low>
+    <close>57.0200</close>
+    <adjusted_close>37.0764</adjusted_close>
+    <volume>239384600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>57.6700</open>
+    <high>62.7000</high>
+    <low>57.4400</low>
+    <close>61.9600</close>
+    <adjusted_close>40.2885</adjusted_close>
+    <volume>209239500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>62.0900</open>
+    <high>64.2300</high>
+    <low>61.3000</low>
+    <close>63.7400</close>
+    <adjusted_close>41.4459</adjusted_close>
+    <volume>208721800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>63.8800</open>
+    <high>64.9200</high>
+    <low>61.2500</low>
+    <close>61.5500</close>
+    <adjusted_close>40.3664</adjusted_close>
+    <volume>221392600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>62.1800</open>
+    <high>63.1600</high>
+    <low>61.5600</low>
+    <close>61.8500</close>
+    <adjusted_close>40.5631</adjusted_close>
+    <volume>212152900</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>62.6300</open>
+    <high>63.5400</high>
+    <low>59.6900</low>
+    <close>59.7700</close>
+    <adjusted_close>39.1990</adjusted_close>
+    <volume>257253400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>59.7000</open>
+    <high>61.4500</high>
+    <low>59.3600</low>
+    <close>61.4400</close>
+    <adjusted_close>40.6586</adjusted_close>
+    <volume>199932400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>61.2500</open>
+    <high>61.5000</high>
+    <low>57.5000</low>
+    <close>59.2500</close>
+    <adjusted_close>39.2094</adjusted_close>
+    <volume>254534800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>59.6300</open>
+    <high>65.9700</high>
+    <low>59.0600</low>
+    <close>65.7200</close>
+    <adjusted_close>43.4909</adjusted_close>
+    <volume>270819500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>65.9200</open>
+    <high>67.3700</high>
+    <low>64.8000</low>
+    <close>67.2900</close>
+    <adjusted_close>44.9161</adjusted_close>
+    <volume>270892200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>67.0200</open>
+    <high>67.3600</high>
+    <low>64.6900</low>
+    <close>66.5200</close>
+    <adjusted_close>44.4022</adjusted_close>
+    <volume>231770300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>66.4800</open>
+    <high>68.0500</high>
+    <low>64.1300</low>
+    <close>64.7900</close>
+    <adjusted_close>43.2474</adjusted_close>
+    <volume>202614600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>65.2800</open>
+    <high>66.2300</high>
+    <low>59.0800</low>
+    <close>65.8000</close>
+    <adjusted_close>44.3129</adjusted_close>
+    <volume>491488700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>65.6600</open>
+    <high>66.1400</high>
+    <low>61.0000</low>
+    <close>63.6900</close>
+    <adjusted_close>42.8919</adjusted_close>
+    <volume>264862000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>63.6500</open>
+    <high>65.8600</high>
+    <low>60.8300</low>
+    <close>64.3900</close>
+    <adjusted_close>43.3633</adjusted_close>
+    <volume>251590300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>63.6800</open>
+    <high>65.4900</high>
+    <low>61.0500</low>
+    <close>64.7200</close>
+    <adjusted_close>43.9900</adjusted_close>
+    <volume>236914800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>64.6800</open>
+    <high>66.3200</high>
+    <low>62.8500</low>
+    <close>65.5800</close>
+    <adjusted_close>44.5746</adjusted_close>
+    <volume>210285200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>65.5900</open>
+    <high>66.0000</high>
+    <low>64.3400</low>
+    <close>65.9100</close>
+    <adjusted_close>44.7989</adjusted_close>
+    <volume>212136100</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>65.9700</open>
+    <high>66.3200</high>
+    <low>64.0200</low>
+    <close>65.0800</close>
+    <adjusted_close>44.6254</adjusted_close>
+    <volume>192370000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>65.1100</open>
+    <high>66.1800</high>
+    <low>64.1200</low>
+    <close>65.9600</close>
+    <adjusted_close>45.2289</adjusted_close>
+    <volume>208163900</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>66.0400</open>
+    <high>66.3000</high>
+    <low>62.7600</low>
+    <close>65.1000</close>
+    <adjusted_close>44.6392</adjusted_close>
+    <volume>229665900</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>64.9100</open>
+    <high>65.4900</high>
+    <low>62.0000</low>
+    <close>62.4300</close>
+    <adjusted_close>43.2251</adjusted_close>
+    <volume>278010100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>62.0400</open>
+    <high>67.7000</high>
+    <low>61.7100</low>
+    <close>67.5600</close>
+    <adjusted_close>46.7770</adjusted_close>
+    <volume>451142100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>67.4200</open>
+    <high>69.7000</high>
+    <low>67.0000</low>
+    <close>69.2200</close>
+    <adjusted_close>47.9263</adjusted_close>
+    <volume>273347200</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>69.4800</open>
+    <high>69.7500</high>
+    <low>66.8500</low>
+    <close>67.4300</close>
+    <adjusted_close>47.1112</adjusted_close>
+    <volume>224101500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>67.4900</open>
+    <high>69.6400</high>
+    <low>66.9700</low>
+    <close>68.9100</close>
+    <adjusted_close>48.1452</adjusted_close>
+    <volume>200224200</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>68.9200</open>
+    <high>72.7400</high>
+    <low>67.8000</low>
+    <close>70.8200</close>
+    <adjusted_close>49.4797</adjusted_close>
+    <volume>267146700</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>71.1000</open>
+    <high>71.9000</high>
+    <low>68.5100</low>
+    <close>69.7300</close>
+    <adjusted_close>49.1490</adjusted_close>
+    <volume>211662500</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>69.8000</open>
+    <high>71.6200</high>
+    <low>69.1800</low>
+    <close>70.1000</close>
+    <adjusted_close>49.4098</adjusted_close>
+    <volume>232603000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>71.0200</open>
+    <high>74.8000</high>
+    <low>70.3000</low>
+    <close>73.9200</close>
+    <adjusted_close>52.1023</adjusted_close>
+    <volume>209813800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>74.1400</open>
+    <high>77.0200</high>
+    <low>73.5600</low>
+    <close>76.1100</close>
+    <adjusted_close>54.0750</adjusted_close>
+    <volume>177978400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>75.7900</open>
+    <high>81.5900</high>
+    <low>75.7300</low>
+    <close>81.5300</close>
+    <adjusted_close>57.9258</adjusted_close>
+    <volume>193396300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>81.3900</open>
+    <high>85.8900</high>
+    <low>80.3100</low>
+    <close>85.2300</close>
+    <adjusted_close>60.5546</adjusted_close>
+    <volume>218722300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>84.5000</open>
+    <high>89.9900</high>
+    <low>83.8800</low>
+    <close>84.1800</close>
+    <adjusted_close>60.2582</adjusted_close>
+    <volume>220724300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>84.2800</open>
+    <high>87.8200</high>
+    <low>82.1200</low>
+    <close>85.8600</close>
+    <adjusted_close>61.4608</adjusted_close>
+    <volume>210552200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>85.7200</open>
+    <high>94.4200</high>
+    <low>85.5000</low>
+    <close>93.5000</close>
+    <adjusted_close>66.9297</adjusted_close>
+    <volume>200315600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>94.1600</open>
+    <high>94.4000</high>
+    <low>85.8500</low>
+    <close>86.4100</close>
+    <adjusted_close>62.3205</adjusted_close>
+    <volume>204260800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>86.8900</open>
+    <high>90.7200</high>
+    <low>86.0000</low>
+    <close>86.6900</close>
+    <adjusted_close>62.5225</adjusted_close>
+    <volume>158876500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>86.5900</open>
+    <high>93.4500</high>
+    <low>85.5000</low>
+    <close>92.6100</close>
+    <adjusted_close>66.7921</adjusted_close>
+    <volume>173024000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>92.3800</open>
+    <high>95.9900</high>
+    <low>92.2800</low>
+    <close>94.6600</close>
+    <adjusted_close>68.7472</adjusted_close>
+    <volume>131026200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>94.4100</open>
+    <high>94.7900</high>
+    <low>89.7700</low>
+    <close>91.5900</close>
+    <adjusted_close>66.5176</adjusted_close>
+    <volume>151086000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>91.1400</open>
+    <high>95.3800</high>
+    <low>88.1500</low>
+    <close>88.4700</close>
+    <adjusted_close>64.2517</adjusted_close>
+    <volume>192804300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>88.7500</open>
+    <high>92.9900</high>
+    <low>86.0900</low>
+    <close>92.1200</close>
+    <adjusted_close>67.3839</adjusted_close>
+    <volume>162234700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>91.1300</open>
+    <high>98.6000</high>
+    <low>90.8300</low>
+    <close>98.2300</close>
+    <adjusted_close>71.8532</adjusted_close>
+    <volume>181324400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>98.3100</open>
+    <high>101.9800</high>
+    <low>96.0500</low>
+    <close>101.2900</close>
+    <adjusted_close>74.0916</adjusted_close>
+    <volume>180242400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>100.7700</open>
+    <high>101.5400</high>
+    <low>98.8800</low>
+    <close>101.4600</close>
+    <adjusted_close>74.7332</adjusted_close>
+    <volume>124656300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>101.5400</open>
+    <high>106.0000</high>
+    <low>101.0100</low>
+    <close>104.6200</close>
+    <adjusted_close>77.0607</adjusted_close>
+    <volume>123927200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>105.1500</open>
+    <high>106.7400</high>
+    <low>100.0500</low>
+    <close>100.0900</close>
+    <adjusted_close>73.7241</adjusted_close>
+    <volume>148795100</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>99.7600</open>
+    <high>104.4200</high>
+    <low>98.8000</low>
+    <close>103.7300</close>
+    <adjusted_close>76.9220</adjusted_close>
+    <volume>120163600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>103.3000</open>
+    <high>108.7700</high>
+    <low>103.0200</low>
+    <close>106.5900</close>
+    <adjusted_close>79.0428</adjusted_close>
+    <volume>130571800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>105.9800</open>
+    <high>108.1800</high>
+    <low>95.1000</low>
+    <close>107.7800</close>
+    <adjusted_close>79.9253</adjusted_close>
+    <volume>232630100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>107.8300</open>
+    <high>109.4900</high>
+    <low>106.6000</low>
+    <close>108.2500</close>
+    <adjusted_close>80.7967</adjusted_close>
+    <volume>125669200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>107.8900</open>
+    <high>108.9900</high>
+    <low>102.5000</low>
+    <close>104.5700</close>
+    <adjusted_close>78.0499</adjusted_close>
+    <volume>175446100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>105.0500</open>
+    <high>106.5000</high>
+    <low>100.0900</low>
+    <close>100.1400</close>
+    <adjusted_close>74.7434</adjusted_close>
+    <volume>195025900</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>100.4900</open>
+    <high>103.3300</high>
+    <low>97.1500</low>
+    <close>102.5100</close>
+    <adjusted_close>77.0480</adjusted_close>
+    <volume>191367400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>102.5100</open>
+    <high>103.4100</high>
+    <low>98.2200</low>
+    <close>100.6000</close>
+    <adjusted_close>75.6124</adjusted_close>
+    <volume>177464600</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>100.4600</open>
+    <high>102.1400</high>
+    <low>98.0400</low>
+    <close>99.2000</close>
+    <adjusted_close>74.5601</adjusted_close>
+    <volume>171578200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>99.6200</open>
+    <high>104.4800</high>
+    <low>98.6600</low>
+    <close>100.1400</close>
+    <adjusted_close>75.8155</adjusted_close>
+    <volume>143779800</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>100.2800</open>
+    <high>100.8400</high>
+    <low>97.0100</low>
+    <close>97.4600</close>
+    <adjusted_close>73.7865</adjusted_close>
+    <volume>170023700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>98.3000</open>
+    <high>101.3600</high>
+    <low>96.6400</low>
+    <close>100.2100</close>
+    <adjusted_close>75.8685</adjusted_close>
+    <volume>151835800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>100.0000</open>
+    <high>101.0000</high>
+    <low>81.7900</low>
+    <close>93.9800</close>
+    <adjusted_close>71.6961</adjusted_close>
+    <volume>194654400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>92.2900</open>
+    <high>96.1900</high>
+    <low>89.9000</low>
+    <close>93.3500</close>
+    <adjusted_close>71.2155</adjusted_close>
+    <volume>202039800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>93.4300</open>
+    <high>102.1200</high>
+    <low>91.7600</low>
+    <close>101.0300</close>
+    <adjusted_close>77.0745</adjusted_close>
+    <volume>191690900</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>101.1800</open>
+    <high>103.0000</high>
+    <low>99.7400</low>
+    <close>101.2400</close>
+    <adjusted_close>77.8040</adjusted_close>
+    <volume>126172600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>101.7300</open>
+    <high>105.4900</high>
+    <low>100.3100</low>
+    <close>102.7200</close>
+    <adjusted_close>78.9414</adjusted_close>
+    <volume>162039600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>101.7100</open>
+    <high>104.7500</high>
+    <low>94.2800</low>
+    <close>104.4400</close>
+    <adjusted_close>80.2632</adjusted_close>
+    <volume>211278000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>103.6100</open>
+    <high>106.9200</high>
+    <low>99.7800</low>
+    <close>105.2100</close>
+    <adjusted_close>81.4410</adjusted_close>
+    <volume>201552000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>105.9000</open>
+    <high>109.5600</high>
+    <low>105.4400</low>
+    <close>108.2000</close>
+    <adjusted_close>83.7554</adjusted_close>
+    <volume>172970400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>108.0000</open>
+    <high>114.1900</high>
+    <low>107.6900</low>
+    <close>112.0800</close>
+    <adjusted_close>86.7589</adjusted_close>
+    <volume>158186600</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>112.2200</open>
+    <high>115.0000</high>
+    <low>111.7000</low>
+    <close>112.6900</close>
+    <adjusted_close>87.8539</adjusted_close>
+    <volume>141096900</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>112.6900</open>
+    <high>121.4100</high>
+    <low>112.0700</low>
+    <close>121.3000</close>
+    <adjusted_close>94.5663</adjusted_close>
+    <volume>167571400</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>121.3000</open>
+    <high>126.0700</high>
+    <low>120.7900</low>
+    <close>125.2300</close>
+    <adjusted_close>97.6302</adjusted_close>
+    <volume>131996000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>125.3100</open>
+    <high>125.9000</high>
+    <low>118.3300</low>
+    <close>119.3400</close>
+    <adjusted_close>93.6589</adjusted_close>
+    <volume>138570700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>119.1900</open>
+    <high>119.9700</high>
+    <low>117.0400</low>
+    <close>118.1300</close>
+    <adjusted_close>92.7093</adjusted_close>
+    <volume>130378400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>118.0000</open>
+    <high>120.2000</high>
+    <low>112.9900</low>
+    <close>115.9900</close>
+    <adjusted_close>91.0298</adjusted_close>
+    <volume>140054500</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>114.7600</open>
+    <high>122.5000</high>
+    <low>111.3000</low>
+    <close>111.3000</close>
+    <adjusted_close>87.9527</adjusted_close>
+    <volume>171310900</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>111.3600</open>
+    <high>117.3000</high>
+    <low>109.3200</low>
+    <close>115.2100</close>
+    <adjusted_close>91.0425</adjusted_close>
+    <volume>138044800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>115.7800</open>
+    <high>117.0000</high>
+    <low>110.7600</low>
+    <close>113.2500</close>
+    <adjusted_close>89.4936</adjusted_close>
+    <volume>143312500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>112.4800</open>
+    <high>122.8800</high>
+    <low>112.4700</low>
+    <close>122.2100</close>
+    <adjusted_close>97.2131</adjusted_close>
+    <volume>133814500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>122.4900</open>
+    <high>129.0000</high>
+    <low>122.3900</low>
+    <close>124.5500</close>
+    <adjusted_close>99.0745</adjusted_close>
+    <volume>166544900</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>124.7300</open>
+    <high>125.8100</high>
+    <low>120.9500</low>
+    <close>123.4700</close>
+    <adjusted_close>98.2154</adjusted_close>
+    <volume>106205200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>123.4000</open>
+    <high>128.8000</high>
+    <low>122.3400</low>
+    <close>128.2500</close>
+    <adjusted_close>102.6942</adjusted_close>
+    <volume>112541500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>128.3200</open>
+    <high>137.0000</high>
+    <low>128.1200</low>
+    <close>132.2900</close>
+    <adjusted_close>105.9292</adjusted_close>
+    <volume>145558900</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>132.7900</open>
+    <high>137.0800</high>
+    <low>129.5700</low>
+    <close>132.7200</close>
+    <adjusted_close>106.2735</adjusted_close>
+    <volume>107885800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>133.1700</open>
+    <high>134.9700</high>
+    <low>130.9000</low>
+    <close>132.3700</close>
+    <adjusted_close>106.6675</adjusted_close>
+    <volume>107061100</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>132.6000</open>
+    <high>135.7900</high>
+    <low>129.0500</low>
+    <close>130.0100</close>
+    <adjusted_close>104.7658</adjusted_close>
+    <volume>116205400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>130.1600</open>
+    <high>144.3500</high>
+    <low>130.0200</low>
+    <close>139.4100</close>
+    <adjusted_close>112.3406</adjusted_close>
+    <volume>123841100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>139.8300</open>
+    <high>141.8700</high>
+    <low>136.6000</low>
+    <close>139.3300</close>
+    <adjusted_close>112.9636</adjusted_close>
+    <volume>93742200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>139.5700</open>
+    <high>143.8000</high>
+    <low>138.6000</low>
+    <close>139.7200</close>
+    <adjusted_close>113.2798</adjusted_close>
+    <volume>114023200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>139.6600</open>
+    <high>148.3200</high>
+    <low>138.1000</low>
+    <close>138.1900</close>
+    <adjusted_close>112.0394</adjusted_close>
+    <volume>170954200</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>137.5300</open>
+    <high>140.6700</high>
+    <low>122.1500</low>
+    <close>129.8800</close>
+    <adjusted_close>105.9762</adjusted_close>
+    <volume>177033700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>129.1100</open>
+    <high>135.7000</high>
+    <low>124.9000</low>
+    <close>128.1500</close>
+    <adjusted_close>104.5646</adjusted_close>
+    <volume>151837800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>127.8200</open>
+    <high>132.8800</high>
+    <low>123.5400</low>
+    <close>126.4900</close>
+    <adjusted_close>103.2101</adjusted_close>
+    <volume>144094200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>126.3200</open>
+    <high>127.6100</high>
+    <low>118.6200</low>
+    <close>119.6200</close>
+    <adjusted_close>98.3284</adjusted_close>
+    <volume>139533300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>120.3800</open>
+    <high>124.8500</high>
+    <low>119.9700</low>
+    <close>121.3400</close>
+    <adjusted_close>99.7423</adjusted_close>
+    <volume>138683200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>121.3400</open>
+    <high>132.6400</high>
+    <low>120.1100</low>
+    <close>132.5200</close>
+    <adjusted_close>108.9323</adjusted_close>
+    <volume>145735900</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>132.3900</open>
+    <high>137.4300</high>
+    <low>128.9300</low>
+    <close>134.6900</close>
+    <adjusted_close>111.4539</adjusted_close>
+    <volume>123996800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>134.6900</open>
+    <high>143.1300</high>
+    <low>133.4400</low>
+    <close>138.1700</close>
+    <adjusted_close>114.3335</adjusted_close>
+    <volume>122168800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>138.2600</open>
+    <high>141.4300</high>
+    <low>132.2300</low>
+    <close>139.9900</close>
+    <adjusted_close>115.8395</adjusted_close>
+    <volume>167964600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>140.0700</open>
+    <high>148.7500</high>
+    <low>139.0000</low>
+    <close>146.9000</close>
+    <adjusted_close>122.3316</adjusted_close>
+    <volume>152746600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>145.5700</open>
+    <high>148.9900</high>
+    <low>121.0000</low>
+    <close>129.0500</close>
+    <adjusted_close>107.4669</adjusted_close>
+    <volume>289169400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>128.1300</open>
+    <high>135.1900</high>
+    <low>125.0000</low>
+    <close>133.0800</close>
+    <adjusted_close>110.8229</adjusted_close>
+    <volume>174392900</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>134.0200</open>
+    <high>137.9500</high>
+    <low>131.2600</low>
+    <close>136.6400</close>
+    <adjusted_close>114.5422</adjusted_close>
+    <volume>119453700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>137.2200</open>
+    <high>140.0000</high>
+    <low>135.7400</low>
+    <close>139.7900</close>
+    <adjusted_close>117.1827</adjusted_close>
+    <volume>137354500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>139.9900</open>
+    <high>141.4500</high>
+    <low>134.4200</low>
+    <close>141.2000</close>
+    <adjusted_close>118.3647</adjusted_close>
+    <volume>124329800</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>140.9500</open>
+    <high>142.3500</high>
+    <low>128.5200</low>
+    <close>131.1500</close>
+    <adjusted_close>110.6923</adjusted_close>
+    <volume>159034100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>131.5000</open>
+    <high>144.9800</high>
+    <low>131.0400</low>
+    <close>139.2800</close>
+    <adjusted_close>117.5541</adjusted_close>
+    <volume>150883000</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>140.2000</open>
+    <high>142.4700</high>
+    <low>127.8400</low>
+    <close>130.2200</close>
+    <adjusted_close>109.9074</adjusted_close>
+    <volume>159847900</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>130.2600</open>
+    <high>134.1000</high>
+    <low>126.6300</low>
+    <close>128.3600</close>
+    <adjusted_close>109.1493</adjusted_close>
+    <volume>176400700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>127.9900</open>
+    <high>132.7800</high>
+    <low>126.3400</low>
+    <close>129.3800</close>
+    <adjusted_close>110.0166</adjusted_close>
+    <volume>122925900</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>130.0200</open>
+    <high>137.4900</high>
+    <low>126.1000</low>
+    <close>132.0400</close>
+    <adjusted_close>112.2785</adjusted_close>
+    <volume>206654300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>132.0500</open>
+    <high>138.6300</high>
+    <low>129.6800</low>
+    <close>137.4900</close>
+    <adjusted_close>117.7229</adjusted_close>
+    <volume>127753600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>137.7200</open>
+    <high>147.8400</high>
+    <low>136.1600</low>
+    <close>145.8700</close>
+    <adjusted_close>124.8981</adjusted_close>
+    <volume>127761600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>145.8700</open>
+    <high>151.1900</high>
+    <low>141.3800</low>
+    <close>148.8700</close>
+    <adjusted_close>127.4667</adjusted_close>
+    <volume>150462900</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>149.4200</open>
+    <high>154.5000</high>
+    <low>130.8200</low>
+    <close>134.4800</close>
+    <adjusted_close>115.8799</adjusted_close>
+    <volume>147288300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>134.7800</open>
+    <high>143.6400</high>
+    <low>109.1600</low>
+    <close>131.1300</close>
+    <adjusted_close>112.9932</adjusted_close>
+    <volume>355927400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>127.7000</open>
+    <high>157.0000</high>
+    <low>125.5000</low>
+    <close>150.0400</close>
+    <adjusted_close>129.2877</adjusted_close>
+    <volume>234380900</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>149.6200</open>
+    <high>153.6200</high>
+    <low>143.0100</low>
+    <close>148.7500</close>
+    <adjusted_close>129.0647</adjusted_close>
+    <volume>136206100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>147.2900</open>
+    <high>150.0300</high>
+    <low>137.0200</low>
+    <close>140.6300</close>
+    <adjusted_close>122.0193</adjusted_close>
+    <volume>174066600</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>140.6900</open>
+    <high>151.6700</high>
+    <low>140.0600</low>
+    <close>145.7600</close>
+    <adjusted_close>126.4704</adjusted_close>
+    <volume>137880400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>146.3900</open>
+    <high>154.4000</high>
+    <low>145.8200</low>
+    <close>153.4100</close>
+    <adjusted_close>133.9939</adjusted_close>
+    <volume>109956200</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>153.8700</open>
+    <high>155.4700</high>
+    <low>142.9600</low>
+    <close>148.8800</close>
+    <adjusted_close>130.0372</adjusted_close>
+    <volume>138799800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>149.3100</open>
+    <high>153.1400</high>
+    <low>133.6500</low>
+    <close>137.1100</close>
+    <adjusted_close>119.7569</adjusted_close>
+    <volume>137284700</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>138.9800</open>
+    <high>151.3000</high>
+    <low>137.4900</low>
+    <close>144.6800</close>
+    <adjusted_close>127.2469</adjusted_close>
+    <volume>153635100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>146.2900</open>
+    <high>157.6600</high>
+    <low>145.8600</low>
+    <close>157.3800</close>
+    <adjusted_close>138.4166</adjusted_close>
+    <volume>158925000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>157.2400</open>
+    <high>173.6500</high>
+    <low>154.1300</low>
+    <close>163.1300</close>
+    <adjusted_close>143.4738</adjusted_close>
+    <volume>184488700</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>165.3100</open>
+    <high>167.9400</high>
+    <low>157.9700</low>
+    <close>158.4600</close>
+    <adjusted_close>140.2356</adjusted_close>
+    <volume>147681200</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>161.4500</open>
+    <high>167.0300</high>
+    <low>151.4700</low>
+    <close>164.3500</close>
+    <adjusted_close>145.4482</adjusted_close>
+    <volume>175073000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>162.6000</open>
+    <high>167.7900</high>
+    <low>156.5300</low>
+    <close>162.7300</close>
+    <adjusted_close>144.0145</adjusted_close>
+    <volume>162648500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>163.6000</open>
+    <high>172.7400</high>
+    <low>163.1200</low>
+    <close>169.2500</close>
+    <adjusted_close>150.7191</adjusted_close>
+    <volume>133901100</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>170.1500</open>
+    <high>170.2000</high>
+    <low>161.7900</low>
+    <close>164.7400</close>
+    <adjusted_close>146.7029</adjusted_close>
+    <volume>145670800</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>164.7400</open>
+    <high>173.3800</high>
+    <low>164.6300</low>
+    <close>172.2000</close>
+    <adjusted_close>153.3462</adjusted_close>
+    <volume>133724800</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>172.4700</open>
+    <high>179.9200</high>
+    <low>171.3000</low>
+    <close>173.1300</close>
+    <adjusted_close>155.0905</adjusted_close>
+    <volume>114788500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>172.9000</open>
+    <high>175.2200</high>
+    <low>161.4100</low>
+    <close>161.5000</close>
+    <adjusted_close>144.6722</adjusted_close>
+    <volume>132028700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>161.5300</open>
+    <high>166.0300</high>
+    <low>157.3400</low>
+    <close>162.8800</close>
+    <adjusted_close>145.9085</adjusted_close>
+    <volume>136327000</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>163.1600</open>
+    <high>167.6200</high>
+    <low>155.8500</low>
+    <close>155.9300</close>
+    <adjusted_close>140.5975</adjusted_close>
+    <volume>164263300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>156.8800</open>
+    <high>173.5100</high>
+    <low>156.2500</low>
+    <close>171.0700</close>
+    <adjusted_close>154.2489</adjusted_close>
+    <volume>167972300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>170.2100</open>
+    <high>174.3000</high>
+    <low>158.2600</low>
+    <close>172.2900</close>
+    <adjusted_close>155.3489</adjusted_close>
+    <volume>165534400</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>171.7400</open>
+    <high>173.6200</high>
+    <low>155.7200</low>
+    <close>164.5700</close>
+    <adjusted_close>149.3405</adjusted_close>
+    <volume>154615300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>163.0400</open>
+    <high>180.2100</high>
+    <low>162.4100</low>
+    <close>177.2300</close>
+    <adjusted_close>160.8290</adjusted_close>
+    <volume>180106000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>177.0500</open>
+    <high>186.6900</high>
+    <low>175.5200</low>
+    <close>180.4600</close>
+    <adjusted_close>163.7601</adjusted_close>
+    <volume>163454500</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>180.4700</open>
+    <high>181.7400</high>
+    <low>172.6900</low>
+    <close>179.5300</close>
+    <adjusted_close>163.9630</adjusted_close>
+    <volume>152737200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>179.1500</open>
+    <high>183.3500</high>
+    <low>167.2600</low>
+    <close>177.5100</close>
+    <adjusted_close>162.1181</adjusted_close>
+    <volume>159293700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>177.4500</open>
+    <high>179.9900</high>
+    <low>169.7600</low>
+    <close>174.5200</close>
+    <adjusted_close>159.3874</adjusted_close>
+    <volume>114640700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>174.1700</open>
+    <high>175.4900</high>
+    <low>161.2700</low>
+    <close>161.3400</close>
+    <adjusted_close>148.3403</adjusted_close>
+    <volume>157260000</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>161.4900</open>
+    <high>167.6700</high>
+    <low>160.8100</low>
+    <close>163.3600</close>
+    <adjusted_close>150.1975</adjusted_close>
+    <volume>168332500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>164.2900</open>
+    <high>175.3900</high>
+    <low>159.1700</low>
+    <close>173.9700</close>
+    <adjusted_close>159.9527</adjusted_close>
+    <volume>139408400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>174.0600</open>
+    <high>178.1200</high>
+    <low>166.8200</low>
+    <close>178.0000</close>
+    <adjusted_close>164.7143</adjusted_close>
+    <volume>138341800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>179.0000</open>
+    <high>181.0400</high>
+    <low>174.0700</low>
+    <close>176.6500</close>
+    <adjusted_close>163.4650</adjusted_close>
+    <volume>129803700</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>176.1600</open>
+    <high>180.9300</high>
+    <low>161.0500</low>
+    <close>163.4200</close>
+    <adjusted_close>151.2225</adjusted_close>
+    <volume>160524000</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>162.9900</open>
+    <high>166.3400</high>
+    <low>153.0400</low>
+    <close>153.2600</close>
+    <adjusted_close>142.8409</adjusted_close>
+    <volume>164776500</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>153.0100</open>
+    <high>156.2500</high>
+    <low>150.1100</low>
+    <close>155.0000</close>
+    <adjusted_close>144.4626</adjusted_close>
+    <volume>185723800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>154.9500</open>
+    <high>167.2300</high>
+    <low>153.9400</low>
+    <close>163.7000</close>
+    <adjusted_close>152.5712</adjusted_close>
+    <volume>146071300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>163.6000</open>
+    <high>166.1800</high>
+    <low>153.3200</low>
+    <close>155.0600</close>
+    <adjusted_close>145.6089</adjusted_close>
+    <volume>132116300</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>154.5400</open>
+    <high>166.2700</high>
+    <low>153.1500</low>
+    <close>165.5200</close>
+    <adjusted_close>155.4313</adjusted_close>
+    <volume>146417700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>164.3400</open>
+    <high>175.3600</high>
+    <low>157.3300</low>
+    <close>167.5300</close>
+    <adjusted_close>157.3188</adjusted_close>
+    <volume>201429600</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>166.3700</open>
+    <high>175.9700</high>
+    <low>161.2800</low>
+    <close>161.6800</close>
+    <adjusted_close>152.9277</adjusted_close>
+    <volume>1084863300</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>161.4200</open>
+    <high>165.2700</high>
+    <low>155.2600</low>
+    <close>155.7500</close>
+    <adjusted_close>147.3188</adjusted_close>
+    <volume>147237700</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>155.4200</open>
+    <high>159.2700</high>
+    <low>144.9500</low>
+    <close>148.3400</close>
+    <adjusted_close>140.3099</adjusted_close>
+    <volume>152895100</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>149.1900</open>
+    <high>155.1400</high>
+    <low>145.6400</low>
+    <close>154.6600</close>
+    <adjusted_close>147.4592</adjusted_close>
+    <volume>131079400</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>156.4400</open>
+    <high>160.0200</high>
+    <low>151.7700</low>
+    <close>156.7400</close>
+    <adjusted_close>149.4424</adjusted_close>
+    <volume>146547300</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>156.9300</open>
+    <high>163.5800</high>
+    <low>156.7900</low>
+    <close>158.9000</close>
+    <adjusted_close>151.5018</adjusted_close>
+    <volume>138206300</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>158.1600</open>
+    <high>162.2500</high>
+    <low>154.8400</low>
+    <close>161.3800</close>
+    <adjusted_close>155.0346</adjusted_close>
+    <volume>158288100</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>161.8300</open>
+    <high>163.1100</high>
+    <low>154.7600</low>
+    <close>158.1900</close>
+    <adjusted_close>151.9701</adjusted_close>
+    <volume>140395800</volume>
+    <news>JNJ Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>157.7200</open>
+    <high>158.1500</high>
+    <low>143.1300</low>
+    <close>144.5900</close>
+    <adjusted_close>138.9048</adjusted_close>
+    <volume>175722600</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>148.7400</open>
+    <high>154.8600</high>
+    <low>143.7100</low>
+    <close>146.6700</close>
+    <adjusted_close>142.0420</adjusted_close>
+    <volume>174615700</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>147.2500</open>
+    <high>149.7200</high>
+    <low>143.8800</low>
+    <close>146.1600</close>
+    <adjusted_close>141.5481</adjusted_close>
+    <volume>131807200</volume>
+    <news>JNJ Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>146.0700</open>
+    <high>161.5800</high>
+    <low>144.5000</low>
+    <close>157.8500</close>
+    <adjusted_close>152.8692</adjusted_close>
+    <volume>151359400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>158.4800</open>
+    <high>165.9800</high>
+    <low>156.4400</low>
+    <close>165.8600</close>
+    <adjusted_close>161.8456</adjusted_close>
+    <volume>150664500</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>165.2400</open>
+    <high>168.8500</high>
+    <low>160.0200</low>
+    <close>162.0600</close>
+    <adjusted_close>158.1376</adjusted_close>
+    <volume>120356400</volume>
+    <news>JNJ Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>162.4300</open>
+    <high>166.7500</high>
+    <low>158.7800</low>
+    <close>159.8600</close>
+    <adjusted_close>155.9909</adjusted_close>
+    <volume>133026800</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>160.5800</open>
+    <high>161.0600</high>
+    <low>150.7600</low>
+    <close>155.0100</close>
+    <adjusted_close>152.4719</adjusted_close>
+    <volume>153338600</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>154.7500</open>
+    <high>155.0000</high>
+    <low>142.7500</low>
+    <close>144.6200</close>
+    <adjusted_close>142.2520</adjusted_close>
+    <volume>177839200</volume>
+    <news>JNJ Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</johnson_johnson_stock_data>

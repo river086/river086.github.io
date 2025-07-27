@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pepsi_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>35.3750</open>
+    <high>38.6250</high>
+    <low>33.1875</low>
+    <close>34.1250</close>
+    <adjusted_close>17.9122</adjusted_close>
+    <volume>95170300</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>34.0000</open>
+    <high>35.1250</high>
+    <low>32.1250</low>
+    <close>32.1250</close>
+    <adjusted_close>16.8624</adjusted_close>
+    <volume>84131900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>32.0000</open>
+    <high>36.0625</high>
+    <low>29.6875</low>
+    <close>34.8750</close>
+    <adjusted_close>18.3869</adjusted_close>
+    <volume>106743700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>34.6250</open>
+    <high>38.3125</high>
+    <low>34.6250</low>
+    <close>36.6875</close>
+    <adjusted_close>19.3425</adjusted_close>
+    <volume>68836700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>36.4375</open>
+    <high>41.1250</high>
+    <low>36.1250</low>
+    <close>40.6875</close>
+    <adjusted_close>21.4514</adjusted_close>
+    <volume>84691100</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>40.4375</open>
+    <high>44.5469</high>
+    <low>39.3125</low>
+    <close>44.4375</close>
+    <adjusted_close>23.5088</adjusted_close>
+    <volume>93465700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>43.8750</open>
+    <high>46.2500</high>
+    <low>39.6875</low>
+    <close>45.8125</close>
+    <adjusted_close>24.2362</adjusted_close>
+    <volume>79396900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>45.1875</open>
+    <high>47.0625</high>
+    <low>41.1875</low>
+    <close>42.6406</close>
+    <adjusted_close>22.5582</adjusted_close>
+    <volume>65498400</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>42.5000</open>
+    <high>47.1250</high>
+    <low>41.3125</low>
+    <close>46.0000</close>
+    <adjusted_close>24.4153</adjusted_close>
+    <volume>53764500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>46.6250</open>
+    <high>49.2500</high>
+    <low>44.3750</low>
+    <close>48.4375</close>
+    <adjusted_close>25.7091</adjusted_close>
+    <volume>86172700</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>48.3125</open>
+    <high>49.4375</high>
+    <low>43.3125</low>
+    <close>45.3750</close>
+    <adjusted_close>24.0836</adjusted_close>
+    <volume>90211000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>45.8750</open>
+    <high>49.9375</high>
+    <low>41.5000</low>
+    <close>49.5625</close>
+    <adjusted_close>26.3898</adjusted_close>
+    <volume>109797300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>49.3750</open>
+    <high>49.5000</high>
+    <low>42.2500</low>
+    <close>44.0700</close>
+    <adjusted_close>23.4653</adjusted_close>
+    <volume>99386800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>43.6700</open>
+    <high>48.7900</high>
+    <low>42.7500</low>
+    <close>46.0800</close>
+    <adjusted_close>24.5355</adjusted_close>
+    <volume>84004800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>45.5000</open>
+    <high>47.1000</high>
+    <low>40.2500</low>
+    <close>43.9500</close>
+    <adjusted_close>23.4731</adjusted_close>
+    <volume>89355600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>43.7000</open>
+    <high>44.9600</high>
+    <low>40.9000</low>
+    <close>43.8100</close>
+    <adjusted_close>23.3984</adjusted_close>
+    <volume>90490900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>44.2500</open>
+    <high>46.6100</high>
+    <low>43.5900</low>
+    <close>44.7600</close>
+    <adjusted_close>23.9057</adjusted_close>
+    <volume>74911200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>44.7600</open>
+    <high>45.8200</high>
+    <low>43.0800</low>
+    <close>44.2000</close>
+    <adjusted_close>23.6820</adjusted_close>
+    <volume>77161600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>44.3500</open>
+    <high>47.6500</high>
+    <low>44.3000</low>
+    <close>46.6300</close>
+    <adjusted_close>24.9839</adjusted_close>
+    <volume>84405100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>46.6400</open>
+    <high>47.7100</high>
+    <low>43.6000</low>
+    <close>47.0000</close>
+    <adjusted_close>25.1822</adjusted_close>
+    <volume>155979100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>47.3400</open>
+    <high>49.8000</high>
+    <low>45.7600</low>
+    <close>48.5000</close>
+    <adjusted_close>26.0658</adjusted_close>
+    <volume>138978300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>48.9400</open>
+    <high>50.0000</high>
+    <low>46.8700</low>
+    <close>48.7100</close>
+    <adjusted_close>26.1786</adjusted_close>
+    <volume>112170000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>48.4500</open>
+    <high>50.4600</high>
+    <low>47.7400</low>
+    <close>48.6300</close>
+    <adjusted_close>26.1356</adjusted_close>
+    <volume>79831800</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>48.5300</open>
+    <high>49.8000</high>
+    <low>46.4500</low>
+    <close>48.6900</close>
+    <adjusted_close>26.2464</adjusted_close>
+    <volume>81435600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>48.5000</open>
+    <high>50.1200</high>
+    <low>47.4300</low>
+    <close>50.0900</close>
+    <adjusted_close>27.0011</adjusted_close>
+    <volume>89718200</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>49.7500</open>
+    <high>51.2000</high>
+    <low>47.6000</low>
+    <close>50.5000</close>
+    <adjusted_close>27.2221</adjusted_close>
+    <volume>84313100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>50.9400</open>
+    <high>51.9900</high>
+    <low>48.8700</low>
+    <close>51.5000</close>
+    <adjusted_close>27.8412</adjusted_close>
+    <volume>80560000</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>51.6500</open>
+    <high>53.5000</high>
+    <low>49.8800</low>
+    <close>51.9000</close>
+    <adjusted_close>28.0575</adjusted_close>
+    <volume>90370200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>51.9500</open>
+    <high>53.2300</high>
+    <low>50.0300</low>
+    <close>51.9800</close>
+    <adjusted_close>28.1007</adjusted_close>
+    <volume>79577700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>51.7000</open>
+    <high>52.1800</high>
+    <low>47.2100</low>
+    <close>48.2000</close>
+    <adjusted_close>26.1329</adjusted_close>
+    <volume>86108100</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>48.2900</open>
+    <high>49.1300</high>
+    <low>35.0100</low>
+    <close>42.9400</close>
+    <adjusted_close>23.2811</adjusted_close>
+    <volume>192827300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>42.9400</open>
+    <high>45.2100</high>
+    <low>38.8500</low>
+    <close>39.5500</close>
+    <adjusted_close>21.4431</adjusted_close>
+    <volume>139704500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>39.5500</open>
+    <high>41.4000</high>
+    <low>34.0000</low>
+    <close>36.9500</close>
+    <adjusted_close>20.1120</adjusted_close>
+    <volume>130733200</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>37.0100</open>
+    <high>45.1600</high>
+    <low>35.5900</low>
+    <close>44.1000</close>
+    <adjusted_close>24.0037</adjusted_close>
+    <volume>162968200</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>43.7500</open>
+    <high>45.3000</high>
+    <low>40.8000</low>
+    <close>42.4800</close>
+    <adjusted_close>23.1220</adjusted_close>
+    <volume>95409700</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>42.4900</open>
+    <high>43.9700</high>
+    <low>40.3100</low>
+    <close>42.2200</close>
+    <adjusted_close>23.0611</adjusted_close>
+    <volume>96262600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>42.1200</open>
+    <high>44.0600</high>
+    <low>38.5800</low>
+    <close>40.4800</close>
+    <adjusted_close>22.1107</adjusted_close>
+    <volume>89522900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>40.2800</open>
+    <high>41.9000</high>
+    <low>37.8500</low>
+    <close>38.3200</close>
+    <adjusted_close>20.9308</adjusted_close>
+    <volume>88179900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>38.4700</open>
+    <high>41.5000</high>
+    <low>36.2400</low>
+    <close>40.0000</close>
+    <adjusted_close>21.9358</adjusted_close>
+    <volume>99398800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>40.0000</open>
+    <high>43.6200</high>
+    <low>38.0600</low>
+    <close>43.2800</close>
+    <adjusted_close>23.7345</adjusted_close>
+    <volume>109792500</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>43.1700</open>
+    <high>44.6000</high>
+    <low>42.3800</low>
+    <close>44.2000</close>
+    <adjusted_close>24.2390</adjusted_close>
+    <volume>75311600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>44.7200</open>
+    <high>45.5000</high>
+    <low>43.1000</low>
+    <close>44.5000</close>
+    <adjusted_close>24.4918</adjusted_close>
+    <volume>76526600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>44.2500</open>
+    <high>47.9800</high>
+    <low>43.7600</low>
+    <close>46.0700</close>
+    <adjusted_close>25.3559</adjusted_close>
+    <volume>103151000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>45.5000</open>
+    <high>45.9800</high>
+    <low>43.3500</low>
+    <close>44.5400</close>
+    <adjusted_close>24.5138</adjusted_close>
+    <volume>70453500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>44.3400</open>
+    <high>46.5200</high>
+    <low>44.1000</low>
+    <close>45.8300</close>
+    <adjusted_close>25.3147</adjusted_close>
+    <volume>70414500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>46.3700</open>
+    <high>48.8800</high>
+    <low>46.1900</low>
+    <close>47.8200</close>
+    <adjusted_close>26.4139</adjusted_close>
+    <volume>84236100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>47.8100</open>
+    <high>48.2400</high>
+    <low>46.6900</low>
+    <close>48.1200</close>
+    <adjusted_close>26.5797</adjusted_close>
+    <volume>60992100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>48.0100</open>
+    <high>48.8700</high>
+    <low>46.1100</low>
+    <close>46.6200</close>
+    <adjusted_close>25.8383</adjusted_close>
+    <volume>92578300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>46.9400</open>
+    <high>48.0100</high>
+    <low>45.3000</low>
+    <close>47.2600</close>
+    <adjusted_close>26.1930</adjusted_close>
+    <volume>105541900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>47.5000</open>
+    <high>52.4200</high>
+    <low>47.0700</low>
+    <close>51.9000</close>
+    <adjusted_close>28.7647</adjusted_close>
+    <volume>105503800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>51.9100</open>
+    <high>54.0000</high>
+    <low>50.2800</low>
+    <close>53.8500</close>
+    <adjusted_close>29.9362</adjusted_close>
+    <volume>96949500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>53.7100</open>
+    <high>55.4800</high>
+    <low>53.6000</low>
+    <close>54.4900</close>
+    <adjusted_close>30.2920</adjusted_close>
+    <volume>91650500</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>54.7500</open>
+    <high>55.0300</high>
+    <low>52.6300</low>
+    <close>53.3700</close>
+    <adjusted_close>29.6694</adjusted_close>
+    <volume>71741400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>53.0500</open>
+    <high>55.7100</high>
+    <low>52.9500</low>
+    <close>53.8800</close>
+    <adjusted_close>30.0788</adjusted_close>
+    <volume>71065400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>53.9700</open>
+    <high>54.3400</high>
+    <low>49.3700</low>
+    <close>50.0000</close>
+    <adjusted_close>27.9128</adjusted_close>
+    <volume>87363300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>49.7700</open>
+    <high>52.2500</high>
+    <low>48.4100</low>
+    <close>50.0000</close>
+    <adjusted_close>27.9128</adjusted_close>
+    <volume>84253300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>50.0600</open>
+    <high>51.2000</high>
+    <low>47.3700</low>
+    <close>48.6500</close>
+    <adjusted_close>27.2820</adjusted_close>
+    <volume>96994400</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>49.4000</open>
+    <high>50.6700</high>
+    <low>47.6500</low>
+    <close>49.5800</close>
+    <adjusted_close>27.8036</adjusted_close>
+    <volume>82809800</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>49.5000</open>
+    <high>52.4900</high>
+    <low>48.4100</low>
+    <close>49.9100</close>
+    <adjusted_close>27.9886</adjusted_close>
+    <volume>75677400</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>50.0100</open>
+    <high>53.0000</high>
+    <low>50.0000</low>
+    <close>52.2000</close>
+    <adjusted_close>29.4068</adjusted_close>
+    <volume>70268100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>52.2300</open>
+    <high>54.4200</high>
+    <low>51.3400</low>
+    <close>53.7000</close>
+    <adjusted_close>30.2518</adjusted_close>
+    <volume>74653600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>53.4500</open>
+    <high>55.7100</high>
+    <low>52.8500</low>
+    <close>53.8600</close>
+    <adjusted_close>30.3419</adjusted_close>
+    <volume>65597900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>53.8000</open>
+    <high>54.3500</high>
+    <low>51.7500</low>
+    <close>53.0300</close>
+    <adjusted_close>30.0025</adjusted_close>
+    <volume>76160800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>53.3000</open>
+    <high>55.7000</high>
+    <low>52.5100</low>
+    <close>55.6400</close>
+    <adjusted_close>31.4792</adjusted_close>
+    <volume>87740900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>55.3500</open>
+    <high>57.2000</high>
+    <low>55.3500</low>
+    <close>56.2600</close>
+    <adjusted_close>31.8300</adjusted_close>
+    <volume>72623200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>56.1500</open>
+    <high>57.0400</high>
+    <low>53.7500</low>
+    <close>53.9300</close>
+    <adjusted_close>30.6543</adjusted_close>
+    <volume>75586800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>53.0000</open>
+    <high>55.7900</high>
+    <low>52.0700</low>
+    <close>54.5300</close>
+    <adjusted_close>30.9953</adjusted_close>
+    <volume>90193400</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>53.9500</open>
+    <high>55.6300</high>
+    <low>53.7500</low>
+    <close>54.8500</close>
+    <adjusted_close>31.1772</adjusted_close>
+    <volume>72312000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>54.7000</open>
+    <high>57.0300</high>
+    <low>53.5500</low>
+    <close>56.7100</close>
+    <adjusted_close>32.3871</adjusted_close>
+    <volume>84044500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>56.7100</open>
+    <high>59.3900</high>
+    <low>56.3600</low>
+    <close>59.0800</close>
+    <adjusted_close>33.7406</adjusted_close>
+    <volume>94761300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>59.0000</open>
+    <high>60.1000</high>
+    <low>57.7200</low>
+    <close>59.2000</close>
+    <adjusted_close>33.8091</adjusted_close>
+    <volume>76990500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>59.8500</open>
+    <high>60.3400</high>
+    <low>58.6900</low>
+    <close>59.0800</close>
+    <adjusted_close>33.8881</adjusted_close>
+    <volume>63374000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>59.9200</open>
+    <high>59.9700</high>
+    <low>56.0000</low>
+    <close>57.1800</close>
+    <adjusted_close>32.7983</adjusted_close>
+    <volume>75013300</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>56.8100</open>
+    <high>59.9000</high>
+    <low>56.5300</low>
+    <close>59.1100</close>
+    <adjusted_close>33.9053</adjusted_close>
+    <volume>77367000</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>59.0400</open>
+    <high>60.5500</high>
+    <low>57.7400</low>
+    <close>57.7900</close>
+    <adjusted_close>33.2930</adjusted_close>
+    <volume>85047900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>58.2400</open>
+    <high>58.6500</high>
+    <low>56.5100</low>
+    <close>58.2400</close>
+    <adjusted_close>33.5523</adjusted_close>
+    <volume>80296400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>58.2500</open>
+    <high>60.7700</high>
+    <low>57.6900</low>
+    <close>60.4600</close>
+    <adjusted_close>34.8312</adjusted_close>
+    <volume>97511700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>60.3700</open>
+    <high>61.1900</high>
+    <low>58.5500</low>
+    <close>60.0400</close>
+    <adjusted_close>34.7616</adjusted_close>
+    <volume>91102800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>60.6000</open>
+    <high>63.9800</high>
+    <low>60.0700</low>
+    <close>63.3800</close>
+    <adjusted_close>36.6953</adjusted_close>
+    <volume>88449100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>63.2000</open>
+    <high>65.9900</high>
+    <low>62.3100</low>
+    <close>65.2800</close>
+    <adjusted_close>37.7954</adjusted_close>
+    <volume>83440900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>65.7200</open>
+    <high>65.9900</high>
+    <low>64.0500</low>
+    <close>65.2600</close>
+    <adjusted_close>37.9585</adjusted_close>
+    <volume>74542900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>65.1900</open>
+    <high>65.3000</high>
+    <low>61.9500</low>
+    <close>63.4400</close>
+    <adjusted_close>36.8999</adjusted_close>
+    <volume>111181400</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>63.3700</open>
+    <high>63.7500</high>
+    <low>61.1500</low>
+    <close>61.9700</close>
+    <adjusted_close>36.0448</adjusted_close>
+    <volume>101197600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>62.0000</open>
+    <high>64.1700</high>
+    <low>61.4600</low>
+    <close>62.5500</close>
+    <adjusted_close>36.5531</adjusted_close>
+    <volume>79281000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>62.7000</open>
+    <high>65.5400</high>
+    <low>62.2900</low>
+    <close>65.2400</close>
+    <adjusted_close>38.1251</adjusted_close>
+    <volume>102136600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>65.0000</open>
+    <high>65.3900</high>
+    <low>62.5000</low>
+    <close>63.1500</close>
+    <adjusted_close>36.9037</adjusted_close>
+    <volume>106813600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>62.7500</open>
+    <high>64.3300</high>
+    <low>61.8900</low>
+    <close>63.5600</close>
+    <adjusted_close>37.3203</adjusted_close>
+    <volume>123661100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>63.1500</open>
+    <high>67.4000</high>
+    <low>62.8700</low>
+    <close>66.0900</close>
+    <adjusted_close>38.8058</adjusted_close>
+    <volume>120272600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>66.1500</open>
+    <high>69.6400</high>
+    <low>65.9700</low>
+    <close>68.3300</close>
+    <adjusted_close>40.1211</adjusted_close>
+    <volume>114092200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>68.6500</open>
+    <high>68.9600</high>
+    <low>64.2500</low>
+    <close>64.8500</close>
+    <adjusted_close>38.2901</adjusted_close>
+    <volume>121884200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>65.3800</open>
+    <high>68.9600</high>
+    <low>64.2500</low>
+    <close>65.6200</close>
+    <adjusted_close>38.7447</adjusted_close>
+    <volume>168929100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>65.1100</open>
+    <high>70.2500</high>
+    <low>65.1000</low>
+    <close>68.0300</close>
+    <adjusted_close>40.1677</adjusted_close>
+    <volume>142197300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>68.3400</open>
+    <high>73.2900</high>
+    <low>66.6300</low>
+    <close>73.2600</close>
+    <adjusted_close>43.4934</adjusted_close>
+    <volume>111300400</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>73.5400</open>
+    <high>74.3200</high>
+    <low>69.9800</low>
+    <close>73.7200</close>
+    <adjusted_close>43.7665</adjusted_close>
+    <volume>129902300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>73.4900</open>
+    <high>77.4100</high>
+    <low>72.0000</low>
+    <close>77.1800</close>
+    <adjusted_close>45.8207</adjusted_close>
+    <volume>125057600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>77.5100</open>
+    <high>79.0000</high>
+    <low>75.6200</low>
+    <close>75.9000</close>
+    <adjusted_close>45.2823</adjusted_close>
+    <volume>95676900</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>76.4100</open>
+    <high>79.7900</high>
+    <low>66.3000</low>
+    <close>68.0500</close>
+    <adjusted_close>40.5989</adjusted_close>
+    <volume>181747100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>68.3400</open>
+    <high>72.7500</high>
+    <low>66.3200</low>
+    <close>69.5600</close>
+    <adjusted_close>41.4998</adjusted_close>
+    <volume>137175100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>69.5500</open>
+    <high>72.3500</high>
+    <low>67.9500</low>
+    <close>72.2000</close>
+    <adjusted_close>43.3067</adjusted_close>
+    <volume>122879100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>71.8900</open>
+    <high>72.1700</high>
+    <low>67.2100</low>
+    <close>68.5300</close>
+    <adjusted_close>41.1054</adjusted_close>
+    <volume>134345300</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>68.4600</open>
+    <high>69.8200</high>
+    <low>66.8100</low>
+    <close>68.3000</close>
+    <adjusted_close>40.9674</adjusted_close>
+    <volume>125378800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>68.1100</open>
+    <high>68.2700</high>
+    <low>63.3100</low>
+    <close>63.5900</close>
+    <adjusted_close>38.3856</adjusted_close>
+    <volume>169473600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>63.2800</open>
+    <high>68.0200</high>
+    <low>63.2800</low>
+    <close>66.5600</close>
+    <adjusted_close>40.1784</adjusted_close>
+    <volume>167346700</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>66.8200</open>
+    <high>70.8300</high>
+    <low>66.3600</low>
+    <close>68.4800</close>
+    <adjusted_close>41.3374</adjusted_close>
+    <volume>120167900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>68.8900</open>
+    <high>75.2500</high>
+    <low>68.1400</low>
+    <close>71.2700</close>
+    <adjusted_close>43.2864</adjusted_close>
+    <volume>189218100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>70.6600</open>
+    <high>72.2400</high>
+    <low>50.4100</low>
+    <close>57.0100</close>
+    <adjusted_close>34.6255</adjusted_close>
+    <volume>317682300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>56.9700</open>
+    <high>59.2300</high>
+    <low>49.7400</low>
+    <close>56.7000</close>
+    <adjusted_close>34.4372</adjusted_close>
+    <volume>186465600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>55.5600</open>
+    <high>56.4000</high>
+    <low>51.0100</low>
+    <close>54.7700</close>
+    <adjusted_close>33.5267</adjusted_close>
+    <volume>155720500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>54.9300</open>
+    <high>56.9300</high>
+    <low>43.7800</low>
+    <close>50.2300</close>
+    <adjusted_close>30.7476</adjusted_close>
+    <volume>154769000</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>49.7600</open>
+    <high>53.6400</high>
+    <low>48.1400</low>
+    <close>48.1400</close>
+    <adjusted_close>29.4682</adjusted_close>
+    <volume>156466600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>47.3100</open>
+    <high>53.2000</high>
+    <low>45.3900</low>
+    <close>51.4800</close>
+    <adjusted_close>31.7915</adjusted_close>
+    <volume>197319200</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>51.0100</open>
+    <high>56.9500</high>
+    <low>47.5000</low>
+    <close>49.7600</close>
+    <adjusted_close>30.7294</adjusted_close>
+    <volume>201127300</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>49.7600</open>
+    <high>52.5000</high>
+    <low>48.8200</low>
+    <close>52.0500</close>
+    <adjusted_close>32.1435</adjusted_close>
+    <volume>185319100</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>52.2700</open>
+    <high>55.7300</high>
+    <low>52.1100</low>
+    <close>54.9600</close>
+    <adjusted_close>34.2187</adjusted_close>
+    <volume>179646500</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>55.1200</open>
+    <high>57.7000</high>
+    <low>54.3000</low>
+    <close>56.7500</close>
+    <adjusted_close>35.3332</adjusted_close>
+    <volume>165687700</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>56.9800</open>
+    <high>59.6400</high>
+    <low>55.8600</low>
+    <close>56.6700</close>
+    <adjusted_close>35.2834</adjusted_close>
+    <volume>167443500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>56.6000</open>
+    <high>60.0000</high>
+    <low>55.6900</low>
+    <close>58.6600</close>
+    <adjusted_close>36.8169</adjusted_close>
+    <volume>165865300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>58.7000</open>
+    <high>62.7500</high>
+    <low>58.2700</low>
+    <close>60.5500</close>
+    <adjusted_close>38.0032</adjusted_close>
+    <volume>176616900</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>60.7900</open>
+    <high>63.2700</high>
+    <low>59.6200</low>
+    <close>62.2200</close>
+    <adjusted_close>39.0513</adjusted_close>
+    <volume>109470500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>62.6800</open>
+    <high>64.4800</high>
+    <low>58.7700</low>
+    <close>60.8000</close>
+    <adjusted_close>38.4308</adjusted_close>
+    <volume>162542300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>61.1900</open>
+    <high>62.9200</high>
+    <low>59.1200</low>
+    <close>59.6200</close>
+    <adjusted_close>37.6850</adjusted_close>
+    <volume>142469300</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>59.9300</open>
+    <high>62.9200</high>
+    <low>58.7500</low>
+    <close>62.4700</close>
+    <adjusted_close>39.4864</adjusted_close>
+    <volume>148204600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>62.6500</open>
+    <high>67.0000</high>
+    <low>62.4700</low>
+    <close>66.1600</close>
+    <adjusted_close>42.1159</adjusted_close>
+    <volume>172788600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>66.3200</open>
+    <high>66.6800</high>
+    <low>63.6000</low>
+    <close>65.2200</close>
+    <adjusted_close>41.5175</adjusted_close>
+    <volume>148257700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>65.2800</open>
+    <high>67.6100</high>
+    <low>61.0400</low>
+    <close>62.8900</close>
+    <adjusted_close>40.0342</adjusted_close>
+    <volume>193736600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>62.6600</open>
+    <high>64.7900</high>
+    <low>60.5000</low>
+    <close>60.9500</close>
+    <adjusted_close>39.0983</adjusted_close>
+    <volume>172677100</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>61.1300</open>
+    <high>65.7900</high>
+    <low>60.3200</low>
+    <close>64.9100</close>
+    <adjusted_close>41.6386</adjusted_close>
+    <volume>141030200</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>65.4700</open>
+    <high>66.8300</high>
+    <low>63.1800</low>
+    <close>64.1800</close>
+    <adjusted_close>41.1703</adjusted_close>
+    <volume>113423100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>64.5200</open>
+    <high>67.3100</high>
+    <low>64.5200</low>
+    <close>66.4400</close>
+    <adjusted_close>42.9412</adjusted_close>
+    <volume>114594000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>66.7600</open>
+    <high>68.1100</high>
+    <low>63.7800</low>
+    <close>65.3000</close>
+    <adjusted_close>42.2044</adjusted_close>
+    <volume>156983100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>65.4900</open>
+    <high>66.1000</high>
+    <low>63.4300</low>
+    <close>64.6300</close>
+    <adjusted_close>41.7714</adjusted_close>
+    <volume>131219500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>64.7900</open>
+    <high>66.5100</high>
+    <low>64.2800</low>
+    <close>65.3300</close>
+    <adjusted_close>42.5397</adjusted_close>
+    <volume>119167100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>65.9100</open>
+    <high>67.4600</high>
+    <low>64.0900</low>
+    <close>64.3100</close>
+    <adjusted_close>41.8756</adjusted_close>
+    <volume>135788100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>64.5300</open>
+    <high>65.1400</high>
+    <low>62.5600</low>
+    <close>63.4200</close>
+    <adjusted_close>41.2960</adjusted_close>
+    <volume>169952600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>63.6900</open>
+    <high>65.3300</high>
+    <low>62.0500</low>
+    <close>64.4100</close>
+    <adjusted_close>42.2616</adjusted_close>
+    <volume>155291700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>64.8700</open>
+    <high>69.9400</high>
+    <low>64.4700</low>
+    <close>68.8900</close>
+    <adjusted_close>45.2011</adjusted_close>
+    <volume>112344300</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>69.2400</open>
+    <high>71.8900</high>
+    <low>68.4600</low>
+    <close>71.1200</close>
+    <adjusted_close>46.6643</adjusted_close>
+    <volume>129381000</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>70.5800</open>
+    <high>70.8700</high>
+    <low>67.4600</low>
+    <close>70.4300</close>
+    <adjusted_close>46.5486</adjusted_close>
+    <volume>144358800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>70.0800</open>
+    <high>70.7500</high>
+    <low>63.5500</low>
+    <close>64.0400</close>
+    <adjusted_close>42.3253</adjusted_close>
+    <volume>168592300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>64.2200</open>
+    <high>65.4800</high>
+    <low>60.1000</low>
+    <close>64.4300</close>
+    <adjusted_close>42.9257</adjusted_close>
+    <volume>284855800</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>64.3800</open>
+    <high>64.8800</high>
+    <low>59.2500</low>
+    <close>61.9000</close>
+    <adjusted_close>41.2401</adjusted_close>
+    <volume>232660100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>61.5900</open>
+    <high>63.6200</high>
+    <low>58.5000</low>
+    <close>62.9500</close>
+    <adjusted_close>41.9397</adjusted_close>
+    <volume>180767300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>62.1100</open>
+    <high>66.6500</high>
+    <low>61.5600</low>
+    <close>64.0000</close>
+    <adjusted_close>42.9870</adjusted_close>
+    <volume>166212200</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>64.2700</open>
+    <high>66.7800</high>
+    <low>63.8300</low>
+    <close>66.3500</close>
+    <adjusted_close>44.5654</adjusted_close>
+    <volume>106578400</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>66.8600</open>
+    <high>67.1900</high>
+    <low>64.1300</low>
+    <close>65.6700</close>
+    <adjusted_close>44.1087</adjusted_close>
+    <volume>120704200</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>65.9900</open>
+    <high>66.9800</high>
+    <low>62.3300</low>
+    <close>62.9400</close>
+    <adjusted_close>42.6217</adjusted_close>
+    <volume>213830000</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>63.0500</open>
+    <high>66.5000</high>
+    <low>62.1500</low>
+    <close>66.3500</close>
+    <adjusted_close>44.9309</adjusted_close>
+    <volume>138520100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>66.2600</open>
+    <high>66.8600</high>
+    <low>64.6400</low>
+    <close>66.0000</close>
+    <adjusted_close>44.6938</adjusted_close>
+    <volume>120469200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>65.9200</open>
+    <high>69.3400</high>
+    <low>65.6800</low>
+    <close>67.8500</close>
+    <adjusted_close>46.3060</adjusted_close>
+    <volume>186868900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>67.0200</open>
+    <high>70.6600</high>
+    <low>66.6600</low>
+    <close>70.6600</close>
+    <adjusted_close>48.2237</adjusted_close>
+    <volume>132167300</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>70.3400</open>
+    <high>72.9400</high>
+    <low>68.4600</low>
+    <close>72.7300</close>
+    <adjusted_close>49.6364</adjusted_close>
+    <volume>123402100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>72.7900</open>
+    <high>73.6600</high>
+    <low>71.0900</low>
+    <close>72.4300</close>
+    <adjusted_close>49.4317</adjusted_close>
+    <volume>117388900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>72.5500</open>
+    <high>72.6800</high>
+    <low>69.9600</low>
+    <close>70.7700</close>
+    <adjusted_close>48.6600</adjusted_close>
+    <volume>106262700</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>70.7000</open>
+    <high>71.4700</high>
+    <low>68.2300</low>
+    <close>69.2400</close>
+    <adjusted_close>47.6080</adjusted_close>
+    <volume>117614900</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>69.2500</open>
+    <high>70.6400</high>
+    <low>67.7200</low>
+    <close>70.2100</close>
+    <adjusted_close>48.2750</adjusted_close>
+    <volume>100168400</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>70.3200</open>
+    <high>70.8900</high>
+    <low>67.3900</low>
+    <close>68.4300</close>
+    <adjusted_close>47.4155</adjusted_close>
+    <volume>98276000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>69.1800</open>
+    <high>73.4600</high>
+    <low>68.6400</low>
+    <close>72.8500</close>
+    <adjusted_close>50.4782</adjusted_close>
+    <volume>120185200</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>73.0800</open>
+    <high>76.3300</high>
+    <low>70.9800</low>
+    <close>75.7700</close>
+    <adjusted_close>52.8769</adjusted_close>
+    <volume>122822500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>75.5500</open>
+    <high>79.2700</high>
+    <low>75.3700</low>
+    <close>79.1100</close>
+    <adjusted_close>55.2078</adjusted_close>
+    <volume>108962100</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>78.7600</open>
+    <high>84.3200</high>
+    <low>78.2500</low>
+    <close>82.4700</close>
+    <adjusted_close>57.5526</adjusted_close>
+    <volume>123909700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>82.3600</open>
+    <high>84.7800</high>
+    <low>80.7000</low>
+    <close>80.7700</close>
+    <adjusted_close>56.3662</adjusted_close>
+    <volume>92016900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>80.6700</open>
+    <high>83.1900</high>
+    <low>78.2000</low>
+    <close>81.7900</close>
+    <adjusted_close>57.4780</adjusted_close>
+    <volume>112685400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>81.9600</open>
+    <high>87.0600</high>
+    <low>80.2900</low>
+    <close>83.5400</close>
+    <adjusted_close>58.7078</adjusted_close>
+    <volume>111819000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>84.0400</open>
+    <high>85.4300</high>
+    <low>78.6100</low>
+    <close>79.7300</close>
+    <adjusted_close>56.0304</adjusted_close>
+    <volume>93237000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>80.4800</open>
+    <high>82.9400</high>
+    <low>78.3200</low>
+    <close>79.5000</close>
+    <adjusted_close>56.2672</adjusted_close>
+    <volume>92056100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>79.3800</open>
+    <high>85.5000</high>
+    <low>78.6700</low>
+    <close>84.0900</close>
+    <adjusted_close>59.5159</adjusted_close>
+    <volume>109417600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>84.1500</open>
+    <high>86.7300</high>
+    <low>83.8300</low>
+    <close>84.4600</close>
+    <adjusted_close>59.7777</adjusted_close>
+    <volume>79017100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>84.4300</open>
+    <high>84.5200</high>
+    <low>79.9600</low>
+    <close>82.9400</close>
+    <adjusted_close>59.1025</adjusted_close>
+    <volume>99693900</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>82.9300</open>
+    <high>83.9900</high>
+    <low>79.9000</low>
+    <close>80.3600</close>
+    <adjusted_close>57.2640</adjusted_close>
+    <volume>102347400</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>80.3500</open>
+    <high>81.8500</high>
+    <low>77.0100</low>
+    <close>80.0700</close>
+    <adjusted_close>57.0574</adjusted_close>
+    <volume>143431700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>79.1700</open>
+    <high>83.8000</high>
+    <low>79.1000</low>
+    <close>83.5000</close>
+    <adjusted_close>59.9226</adjusted_close>
+    <volume>118964900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>83.0700</open>
+    <high>87.0000</high>
+    <low>81.9900</low>
+    <close>85.8900</close>
+    <adjusted_close>61.6377</adjusted_close>
+    <volume>116138500</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>86.0000</open>
+    <high>88.4800</high>
+    <low>84.9500</low>
+    <close>88.3300</close>
+    <adjusted_close>63.3887</adjusted_close>
+    <volume>76849900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>88.1200</open>
+    <high>90.2400</high>
+    <low>86.7100</low>
+    <close>89.3400</close>
+    <adjusted_close>64.5931</adjusted_close>
+    <volume>82689300</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>89.1200</open>
+    <high>93.0900</high>
+    <low>88.0700</low>
+    <close>88.1000</close>
+    <adjusted_close>63.6966</adjusted_close>
+    <volume>91149100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>87.7100</open>
+    <high>93.5100</high>
+    <low>87.4600</low>
+    <close>92.4900</close>
+    <adjusted_close>66.8706</adjusted_close>
+    <volume>90996100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>92.6200</open>
+    <high>94.2100</high>
+    <low>90.5800</low>
+    <close>93.0900</close>
+    <adjusted_close>67.7845</adjusted_close>
+    <volume>86888800</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>92.6700</open>
+    <high>96.7400</high>
+    <low>89.8200</low>
+    <close>96.1700</close>
+    <adjusted_close>70.0272</adjusted_close>
+    <volume>126693700</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>95.9400</open>
+    <high>100.7000</high>
+    <low>95.5000</low>
+    <close>100.1000</close>
+    <adjusted_close>72.8889</adjusted_close>
+    <volume>75409800</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>98.5600</open>
+    <high>100.5700</high>
+    <low>92.4300</low>
+    <close>94.5600</close>
+    <adjusted_close>69.3071</adjusted_close>
+    <volume>94377400</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>94.9300</open>
+    <high>99.0000</high>
+    <low>92.9400</low>
+    <close>93.7800</close>
+    <adjusted_close>68.7354</adjusted_close>
+    <volume>112245900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>93.8600</open>
+    <high>100.7600</high>
+    <low>93.6000</low>
+    <close>98.9800</close>
+    <adjusted_close>72.5467</adjusted_close>
+    <volume>101093700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>98.9800</open>
+    <high>99.3000</high>
+    <low>92.2400</low>
+    <close>95.6200</close>
+    <adjusted_close>70.5536</adjusted_close>
+    <volume>111295500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>95.1600</open>
+    <high>97.6400</high>
+    <low>93.2600</low>
+    <close>95.1200</close>
+    <adjusted_close>70.1847</adjusted_close>
+    <volume>95859000</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>95.1600</open>
+    <high>98.4400</high>
+    <low>94.7600</low>
+    <close>96.4300</close>
+    <adjusted_close>71.1513</adjusted_close>
+    <volume>77534900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>96.5900</open>
+    <high>96.5900</high>
+    <low>92.5400</low>
+    <close>93.3400</close>
+    <adjusted_close>69.3791</adjusted_close>
+    <volume>91637600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>93.8000</open>
+    <high>97.4900</high>
+    <low>93.5500</low>
+    <close>96.3500</close>
+    <adjusted_close>71.6164</adjusted_close>
+    <volume>107155600</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>96.1900</open>
+    <high>100.6100</high>
+    <low>76.4800</low>
+    <close>92.9300</close>
+    <adjusted_close>69.0744</adjusted_close>
+    <volume>112929000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>91.1200</open>
+    <high>94.4000</high>
+    <low>90.4300</low>
+    <close>94.3000</close>
+    <adjusted_close>70.6364</adjusted_close>
+    <volume>103747800</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>94.2000</open>
+    <high>103.4400</high>
+    <low>92.5300</low>
+    <close>102.1900</close>
+    <adjusted_close>76.5465</adjusted_close>
+    <volume>111126300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>102.1400</open>
+    <high>102.5800</high>
+    <low>97.6500</low>
+    <close>100.1600</close>
+    <adjusted_close>75.0259</adjusted_close>
+    <volume>76117100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>100.1100</open>
+    <high>101.7000</high>
+    <low>96.8100</low>
+    <close>99.9200</close>
+    <adjusted_close>75.3704</adjusted_close>
+    <volume>92375600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>98.5600</open>
+    <high>99.8500</high>
+    <low>93.2500</low>
+    <close>99.3000</close>
+    <adjusted_close>74.9027</adjusted_close>
+    <volume>112024600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>98.5300</open>
+    <high>100.7000</high>
+    <low>96.0900</low>
+    <close>97.8200</close>
+    <adjusted_close>73.7864</adjusted_close>
+    <volume>97366600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>98.5000</open>
+    <high>103.4500</high>
+    <low>97.5400</low>
+    <close>102.4800</close>
+    <adjusted_close>77.8538</adjusted_close>
+    <volume>104782000</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>101.9700</open>
+    <high>105.7700</high>
+    <low>100.4200</low>
+    <close>102.9600</close>
+    <adjusted_close>78.2184</adjusted_close>
+    <volume>101317000</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>102.7400</open>
+    <high>106.9400</high>
+    <low>100.0000</low>
+    <close>101.1700</close>
+    <adjusted_close>76.8586</adjusted_close>
+    <volume>93222400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>100.5600</open>
+    <high>106.0000</high>
+    <low>100.3000</low>
+    <close>105.9400</close>
+    <adjusted_close>81.0858</adjusted_close>
+    <volume>97386900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>106.2300</open>
+    <high>110.9400</high>
+    <low>105.3800</low>
+    <close>108.9200</close>
+    <adjusted_close>83.3667</adjusted_close>
+    <volume>92254100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>108.7200</open>
+    <high>109.3600</high>
+    <low>106.2600</low>
+    <close>106.7500</close>
+    <adjusted_close>82.2837</adjusted_close>
+    <volume>67339600</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>106.4600</open>
+    <high>109.7100</high>
+    <low>104.0500</low>
+    <close>108.7700</close>
+    <adjusted_close>83.8408</adjusted_close>
+    <volume>90670300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>108.7700</open>
+    <high>108.8300</high>
+    <low>105.0000</low>
+    <close>107.2000</close>
+    <adjusted_close>82.6306</adjusted_close>
+    <volume>87403100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>107.1400</open>
+    <high>108.9300</high>
+    <low>100.1000</low>
+    <close>100.1000</close>
+    <adjusted_close>77.7287</adjusted_close>
+    <volume>106251000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>99.8900</open>
+    <high>106.5300</high>
+    <low>98.5000</low>
+    <close>104.6300</close>
+    <adjusted_close>81.2462</adjusted_close>
+    <volume>85980900</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>104.9400</open>
+    <high>105.6300</high>
+    <low>101.0600</low>
+    <close>103.7800</close>
+    <adjusted_close>80.5862</adjusted_close>
+    <volume>83320700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>103.6100</open>
+    <high>110.6000</high>
+    <low>102.9800</low>
+    <close>110.3800</close>
+    <adjusted_close>85.7112</adjusted_close>
+    <volume>81771500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>109.6000</open>
+    <high>112.7600</high>
+    <low>108.4700</low>
+    <close>111.8600</close>
+    <adjusted_close>87.4570</adjusted_close>
+    <volume>93121500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>111.9500</open>
+    <high>114.6100</high>
+    <low>111.3400</low>
+    <close>113.2800</close>
+    <adjusted_close>88.5672</adjusted_close>
+    <volume>68474400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>112.9300</open>
+    <high>118.1200</high>
+    <low>111.7000</low>
+    <close>116.8700</close>
+    <adjusted_close>92.0017</adjusted_close>
+    <volume>72360700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>116.8000</open>
+    <high>118.2400</high>
+    <low>114.8900</low>
+    <close>115.4900</close>
+    <adjusted_close>90.9153</adjusted_close>
+    <volume>74528800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>115.5500</open>
+    <high>118.0600</high>
+    <low>112.2500</low>
+    <close>116.6100</close>
+    <adjusted_close>91.7970</adjusted_close>
+    <volume>70464600</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>116.6900</open>
+    <high>119.3900</high>
+    <low>114.9100</low>
+    <close>115.7300</close>
+    <adjusted_close>91.7418</adjusted_close>
+    <volume>66929100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>115.3800</open>
+    <high>117.2900</high>
+    <low>110.3400</low>
+    <close>111.4300</close>
+    <adjusted_close>88.3331</adjusted_close>
+    <volume>79755600</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>109.9100</open>
+    <high>113.6300</high>
+    <low>106.1900</low>
+    <close>110.2300</close>
+    <adjusted_close>87.3818</adjusted_close>
+    <volume>85595300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>109.7600</open>
+    <high>117.3800</high>
+    <low>109.1500</low>
+    <close>116.5200</close>
+    <adjusted_close>93.0088</adjusted_close>
+    <volume>69167500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>116.5000</open>
+    <high>120.5700</high>
+    <low>115.0400</low>
+    <close>119.9200</close>
+    <adjusted_close>95.7228</adjusted_close>
+    <volume>70079200</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>119.9300</open>
+    <high>122.5100</high>
+    <low>116.3800</low>
+    <close>120.3000</close>
+    <adjusted_close>96.0261</adjusted_close>
+    <volume>88470600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>119.9200</open>
+    <high>121.0100</high>
+    <low>107.9400</low>
+    <close>109.7300</close>
+    <adjusted_close>87.5889</adjusted_close>
+    <volume>97278600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>109.2100</open>
+    <high>113.9000</high>
+    <low>105.9400</low>
+    <close>109.1500</close>
+    <adjusted_close>87.7698</adjusted_close>
+    <volume>97486500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>108.6200</open>
+    <high>111.1800</high>
+    <low>100.5800</low>
+    <close>100.9400</close>
+    <adjusted_close>81.1680</adjusted_close>
+    <volume>98237200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>100.3600</open>
+    <high>102.2400</high>
+    <low>95.9400</low>
+    <close>100.2500</close>
+    <adjusted_close>81.3545</adjusted_close>
+    <volume>127114600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>100.5400</open>
+    <high>109.5900</high>
+    <low>99.6500</low>
+    <close>108.8700</close>
+    <adjusted_close>88.3498</adjusted_close>
+    <volume>112788100</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>108.7000</open>
+    <high>116.9000</high>
+    <low>107.5200</low>
+    <close>115.0000</close>
+    <adjusted_close>93.3244</adjusted_close>
+    <volume>147328900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>114.4200</open>
+    <high>118.4400</high>
+    <low>110.8900</low>
+    <close>112.0100</close>
+    <adjusted_close>90.8980</adjusted_close>
+    <volume>97858900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>111.8200</open>
+    <high>115.5200</high>
+    <low>110.4500</low>
+    <close>111.8000</close>
+    <adjusted_close>91.4780</adjusted_close>
+    <volume>75015800</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>112.1500</open>
+    <high>114.2300</high>
+    <low>104.5300</low>
+    <close>112.3800</close>
+    <adjusted_close>91.9526</adjusted_close>
+    <volume>119829000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>112.0000</open>
+    <high>122.0000</high>
+    <low>109.6300</low>
+    <close>121.9400</close>
+    <adjusted_close>99.7749</adjusted_close>
+    <volume>90370600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>120.4800</open>
+    <high>120.9100</high>
+    <low>105.0300</low>
+    <close>110.4800</close>
+    <adjusted_close>91.1158</adjusted_close>
+    <volume>115113900</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>109.1500</open>
+    <high>112.9000</high>
+    <low>106.7300</low>
+    <close>112.6700</close>
+    <adjusted_close>92.9219</adjusted_close>
+    <volume>115732500</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>112.9500</open>
+    <high>117.3000</high>
+    <low>111.4500</low>
+    <close>115.6400</close>
+    <adjusted_close>96.1447</adjusted_close>
+    <volume>96885600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>115.8600</open>
+    <high>123.1900</high>
+    <low>114.2600</low>
+    <close>122.5500</close>
+    <adjusted_close>101.8898</adjusted_close>
+    <volume>125322600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>122.5900</open>
+    <high>128.3900</high>
+    <low>120.7400</low>
+    <close>128.0500</close>
+    <adjusted_close>106.4625</adjusted_close>
+    <volume>86628800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>127.8500</open>
+    <high>130.9000</high>
+    <low>124.8500</low>
+    <close>128.0000</close>
+    <adjusted_close>106.4210</adjusted_close>
+    <volume>88149400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>127.8600</open>
+    <high>135.2400</high>
+    <low>127.4900</low>
+    <close>131.1300</close>
+    <adjusted_close>109.8215</adjusted_close>
+    <volume>88686800</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>131.9900</open>
+    <high>135.2400</high>
+    <low>126.2400</low>
+    <close>127.8100</close>
+    <adjusted_close>107.0410</adjusted_close>
+    <volume>96373300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>128.9600</open>
+    <high>137.1100</high>
+    <low>123.8800</low>
+    <close>136.7300</close>
+    <adjusted_close>114.5115</adjusted_close>
+    <volume>95177800</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>136.3500</open>
+    <high>139.1800</high>
+    <low>134.1000</low>
+    <close>137.1000</close>
+    <adjusted_close>115.6149</adjusted_close>
+    <volume>78024000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>136.9300</open>
+    <high>140.4500</high>
+    <low>133.4900</low>
+    <close>137.1700</close>
+    <adjusted_close>115.6739</adjusted_close>
+    <volume>80470000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>137.5500</open>
+    <high>138.3400</high>
+    <low>131.5900</low>
+    <close>135.8300</close>
+    <adjusted_close>114.5439</adjusted_close>
+    <volume>64684200</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>136.6500</open>
+    <high>138.2500</high>
+    <low>134.3200</low>
+    <close>136.6700</close>
+    <adjusted_close>116.0596</adjusted_close>
+    <volume>82358000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>136.8700</open>
+    <high>144.6500</high>
+    <low>133.9500</low>
+    <close>142.0200</close>
+    <adjusted_close>120.6027</adjusted_close>
+    <volume>89890800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>142.7700</open>
+    <high>147.2000</high>
+    <low>128.3500</low>
+    <close>132.0300</close>
+    <adjusted_close>112.1193</adjusted_close>
+    <volume>94682300</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>132.0000</open>
+    <high>142.7100</high>
+    <low>101.4200</low>
+    <close>120.1000</close>
+    <adjusted_close>102.6770</adjusted_close>
+    <volume>219268700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>117.2700</open>
+    <high>138.6300</high>
+    <low>115.6700</low>
+    <close>132.2900</close>
+    <adjusted_close>113.0986</adjusted_close>
+    <volume>115317200</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>131.1200</open>
+    <high>137.9900</high>
+    <low>128.5800</low>
+    <close>131.5500</close>
+    <adjusted_close>112.4660</adjusted_close>
+    <volume>127004500</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>131.6000</open>
+    <high>135.1600</high>
+    <low>126.5300</low>
+    <close>132.2600</close>
+    <adjusted_close>113.9506</adjusted_close>
+    <volume>120003600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>132.5300</open>
+    <high>139.0000</high>
+    <low>131.2800</low>
+    <close>137.6600</close>
+    <adjusted_close>118.6031</adjusted_close>
+    <volume>95675300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>137.1100</open>
+    <high>141.0200</high>
+    <low>134.6200</low>
+    <close>140.0600</close>
+    <adjusted_close>120.6709</adjusted_close>
+    <volume>69194900</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>140.2500</open>
+    <high>144.0400</high>
+    <low>129.3600</low>
+    <close>138.6000</close>
+    <adjusted_close>120.2717</adjusted_close>
+    <volume>104372500</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>139.4400</open>
+    <high>144.1100</high>
+    <low>131.7100</low>
+    <close>133.2900</close>
+    <adjusted_close>115.6638</adjusted_close>
+    <volume>88547700</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>135.6100</open>
+    <high>146.5700</high>
+    <low>133.7800</low>
+    <close>144.2300</close>
+    <adjusted_close>125.1571</adjusted_close>
+    <volume>73555100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>145.0300</open>
+    <high>148.7700</high>
+    <low>143.0200</low>
+    <close>148.3000</close>
+    <adjusted_close>129.6057</adjusted_close>
+    <volume>79881500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>147.0100</open>
+    <high>147.7800</high>
+    <low>136.0100</low>
+    <close>136.5700</close>
+    <adjusted_close>119.3543</adjusted_close>
+    <volume>94589800</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>136.9800</open>
+    <high>142.1200</high>
+    <low>128.5700</low>
+    <close>129.1900</close>
+    <adjusted_close>112.9047</adjusted_close>
+    <volume>96036200</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>130.6100</open>
+    <high>144.9600</high>
+    <low>128.3200</low>
+    <close>141.4500</close>
+    <adjusted_close>124.6063</adjusted_close>
+    <volume>161735400</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>141.1900</open>
+    <high>147.8000</high>
+    <low>140.1100</low>
+    <close>144.1600</close>
+    <adjusted_close>126.9936</adjusted_close>
+    <volume>110116000</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>145.0300</open>
+    <high>148.7700</high>
+    <low>143.4900</low>
+    <close>147.9400</close>
+    <adjusted_close>130.3235</adjusted_close>
+    <volume>100657400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>148.7800</open>
+    <high>149.2700</high>
+    <low>144.6100</low>
+    <close>148.1700</close>
+    <adjusted_close>131.4796</adjusted_close>
+    <volume>107461600</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>148.0800</open>
+    <high>158.6600</high>
+    <low>147.7700</low>
+    <close>156.9500</close>
+    <adjusted_close>139.2707</adjusted_close>
+    <volume>95669300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>157.0000</open>
+    <high>159.6300</high>
+    <low>153.6400</low>
+    <close>156.3900</close>
+    <adjusted_close>138.7737</adjusted_close>
+    <volume>75271300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>156.8400</open>
+    <high>158.1900</high>
+    <low>150.1000</low>
+    <close>150.4100</close>
+    <adjusted_close>134.3822</adjusted_close>
+    <volume>83658000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>151.3500</open>
+    <high>162.2600</high>
+    <low>149.4800</low>
+    <close>161.6000</close>
+    <adjusted_close>144.3797</adjusted_close>
+    <volume>83983100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>161.2000</open>
+    <high>166.8000</high>
+    <low>158.3900</low>
+    <close>159.7800</close>
+    <adjusted_close>142.7537</adjusted_close>
+    <volume>81356600</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>162.4700</open>
+    <high>174.0200</high>
+    <low>159.8300</low>
+    <close>173.7100</close>
+    <adjusted_close>156.2480</adjusted_close>
+    <volume>101544500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>172.2000</open>
+    <high>177.2400</high>
+    <low>166.4500</low>
+    <close>173.5200</close>
+    <adjusted_close>156.0771</adjusted_close>
+    <volume>117678300</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>173.1500</open>
+    <high>176.6600</high>
+    <low>160.2900</low>
+    <close>163.7400</close>
+    <adjusted_close>147.2802</adjusted_close>
+    <volume>114609900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>163.0700</open>
+    <high>169.3000</high>
+    <low>153.3700</low>
+    <close>167.3800</close>
+    <adjusted_close>151.5446</adjusted_close>
+    <volume>127094200</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>167.8900</open>
+    <high>177.6200</high>
+    <low>167.3700</low>
+    <close>171.7100</close>
+    <adjusted_close>155.4649</adjusted_close>
+    <volume>93846500</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>173.0000</open>
+    <high>176.3000</high>
+    <low>159.6200</low>
+    <close>167.7500</close>
+    <adjusted_close>151.8796</adjusted_close>
+    <volume>135299300</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>168.1800</open>
+    <high>168.4500</high>
+    <low>154.8600</low>
+    <close>166.6600</close>
+    <adjusted_close>151.9422</adjusted_close>
+    <volume>108827700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>166.7400</open>
+    <high>175.4800</high>
+    <low>165.3300</low>
+    <close>174.9600</close>
+    <adjusted_close>159.5092</adjusted_close>
+    <volume>82172000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>174.5500</open>
+    <high>181.0700</high>
+    <low>172.2000</low>
+    <close>172.2700</close>
+    <adjusted_close>157.0568</adjusted_close>
+    <volume>83528400</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>170.9200</open>
+    <high>174.9700</high>
+    <low>163.0100</low>
+    <close>163.2600</close>
+    <adjusted_close>149.8427</adjusted_close>
+    <volume>113613100</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>163.5200</open>
+    <high>182.9800</high>
+    <low>160.9800</low>
+    <close>181.5800</close>
+    <adjusted_close>166.6571</adjusted_close>
+    <volume>115063100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>180.9400</open>
+    <high>186.6200</high>
+    <low>175.4200</low>
+    <close>185.5100</close>
+    <adjusted_close>170.2642</adjusted_close>
+    <volume>97984000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>185.4800</open>
+    <high>186.8400</high>
+    <low>178.3900</low>
+    <close>180.6600</close>
+    <adjusted_close>166.8470</adjusted_close>
+    <volume>96723500</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>180.5900</open>
+    <high>182.7700</high>
+    <low>167.4600</low>
+    <close>171.0200</close>
+    <adjusted_close>157.9441</adjusted_close>
+    <volume>91592700</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>170.8800</open>
+    <high>178.2300</high>
+    <low>167.0500</low>
+    <close>173.5300</close>
+    <adjusted_close>160.2622</adjusted_close>
+    <volume>97118900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>172.3200</open>
+    <high>182.4900</high>
+    <low>169.1200</low>
+    <close>182.3000</close>
+    <adjusted_close>169.4994</adjusted_close>
+    <volume>107272300</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>181.9000</open>
+    <high>191.6200</high>
+    <low>180.4000</low>
+    <close>190.8900</close>
+    <adjusted_close>177.4862</adjusted_close>
+    <volume>69876700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>190.4500</open>
+    <high>196.8800</high>
+    <low>180.7000</low>
+    <close>182.3500</close>
+    <adjusted_close>169.5459</adjusted_close>
+    <volume>105794700</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>182.4200</open>
+    <high>188.0000</high>
+    <low>179.3300</low>
+    <close>185.2200</close>
+    <adjusted_close>173.4174</adjusted_close>
+    <volume>100942900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>184.3000</open>
+    <high>192.3800</high>
+    <low>182.4200</low>
+    <close>187.4600</close>
+    <adjusted_close>175.5146</adjusted_close>
+    <volume>110381000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>187.4900</open>
+    <high>189.9700</high>
+    <low>175.3100</low>
+    <close>177.9200</close>
+    <adjusted_close>167.7545</adjusted_close>
+    <volume>92393200</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>178.7300</open>
+    <high>181.8200</high>
+    <low>168.0400</low>
+    <close>169.4400</close>
+    <adjusted_close>159.7589</adjusted_close>
+    <volume>95825000</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>169.0800</open>
+    <high>170.0000</high>
+    <low>155.8300</low>
+    <close>163.2800</close>
+    <adjusted_close>153.9509</adjusted_close>
+    <volume>144915000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>163.6700</open>
+    <high>170.0200</high>
+    <low>162.7600</low>
+    <close>168.2900</close>
+    <adjusted_close>159.8846</adjusted_close>
+    <volume>104615100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>168.3700</open>
+    <high>172.0500</high>
+    <low>165.2700</low>
+    <close>169.8400</close>
+    <adjusted_close>161.3572</adjusted_close>
+    <volume>107257400</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>169.5200</open>
+    <high>175.2000</high>
+    <low>164.3600</low>
+    <close>168.5300</close>
+    <adjusted_close>160.1126</adjusted_close>
+    <volume>109944600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>168.5300</open>
+    <high>174.1000</high>
+    <low>164.9100</low>
+    <close>165.3400</close>
+    <adjusted_close>158.2807</adjusted_close>
+    <volume>124352600</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>164.8600</open>
+    <high>175.8100</high>
+    <low>161.8100</low>
+    <close>175.0100</close>
+    <adjusted_close>167.5378</adjusted_close>
+    <volume>128190900</volume>
+    <news>PEP Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>175.5700</open>
+    <high>180.6300</high>
+    <low>166.0300</low>
+    <close>175.9100</close>
+    <adjusted_close>168.3994</adjusted_close>
+    <volume>119479900</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>175.4600</open>
+    <high>183.4100</high>
+    <low>169.5200</low>
+    <close>172.9000</close>
+    <adjusted_close>165.5179</adjusted_close>
+    <volume>93842400</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>172.7200</open>
+    <high>174.4000</high>
+    <low>161.5400</low>
+    <close>164.9300</close>
+    <adjusted_close>159.1331</adjusted_close>
+    <volume>108439000</volume>
+    <news>PEP Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>165.0400</open>
+    <high>174.6900</high>
+    <low>158.0300</low>
+    <close>172.6700</close>
+    <adjusted_close>166.6011</adjusted_close>
+    <volume>121800200</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>172.5300</open>
+    <high>180.9100</high>
+    <low>169.8100</low>
+    <close>172.8800</close>
+    <adjusted_close>166.8037</adjusted_close>
+    <volume>110080300</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>172.3800</open>
+    <high>179.7300</high>
+    <low>168.6800</low>
+    <close>170.0500</close>
+    <adjusted_close>165.3226</adjusted_close>
+    <volume>116112700</volume>
+    <news>PEP Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>171.2900</open>
+    <high>177.5000</high>
+    <low>165.8100</low>
+    <close>166.0800</close>
+    <adjusted_close>161.4629</adjusted_close>
+    <volume>120685000</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>166.0900</open>
+    <high>167.9600</high>
+    <low>155.8500</low>
+    <close>163.4500</close>
+    <adjusted_close>158.9060</adjusted_close>
+    <volume>112316100</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>163.3200</open>
+    <high>163.6500</high>
+    <low>149.7100</low>
+    <close>152.0600</close>
+    <adjusted_close>149.0914</adjusted_close>
+    <volume>142271300</volume>
+    <news>PEP Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</pepsi_stock_data>

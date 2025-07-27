@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pfizer_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>30.4198</open>
+    <high>35.6973</high>
+    <low>28.4630</low>
+    <close>34.3335</close>
+    <adjusted_close>13.4601</adjusted_close>
+    <volume>251871956</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>33.7405</open>
+    <high>35.9938</high>
+    <low>30.0047</low>
+    <close>30.4791</close>
+    <adjusted_close>11.9794</adjusted_close>
+    <volume>204984871</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>30.4791</open>
+    <high>35.1044</high>
+    <low>28.4630</low>
+    <close>34.6893</close>
+    <adjusted_close>13.6341</adjusted_close>
+    <volume>301987653</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>35.1044</open>
+    <high>41.9829</high>
+    <low>34.8672</low>
+    <close>39.9668</close>
+    <adjusted_close>15.7083</adjusted_close>
+    <volume>281281087</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>40.0854</open>
+    <high>43.9991</high>
+    <low>39.1959</low>
+    <close>42.2201</close>
+    <adjusted_close>16.6264</adjusted_close>
+    <volume>223401939</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>43.3468</open>
+    <high>45.6594</high>
+    <low>40.0854</low>
+    <close>45.5408</close>
+    <adjusted_close>17.9341</adjusted_close>
+    <volume>262525364</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>45.3629</open>
+    <high>46.7268</high>
+    <low>40.5598</low>
+    <close>41.1528</close>
+    <adjusted_close>16.2061</adjusted_close>
+    <volume>273042810</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>41.3899</open>
+    <high>44.2955</high>
+    <low>39.6110</low>
+    <close>40.9304</close>
+    <adjusted_close>16.1531</adjusted_close>
+    <volume>223014172</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>41.5085</open>
+    <high>43.0503</high>
+    <low>37.3577</low>
+    <close>42.6204</close>
+    <adjusted_close>16.8201</adjusted_close>
+    <volume>245401662</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>42.1015</open>
+    <high>43.6433</high>
+    <low>38.8994</low>
+    <close>40.9749</close>
+    <adjusted_close>16.1707</adjusted_close>
+    <volume>282725275</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>41.5085</open>
+    <high>44.0583</high>
+    <low>38.8994</low>
+    <close>42.0422</close>
+    <adjusted_close>16.6269</adjusted_close>
+    <volume>263202350</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>41.8643</open>
+    <high>45.6001</high>
+    <low>39.6110</low>
+    <close>43.6433</close>
+    <adjusted_close>17.2600</adjusted_close>
+    <volume>294694922</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>43.2282</open>
+    <high>44.3548</high>
+    <low>38.4250</low>
+    <close>42.8368</close>
+    <adjusted_close>16.9411</adjusted_close>
+    <volume>360286292</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>42.8368</open>
+    <high>44.3169</high>
+    <low>41.3188</low>
+    <close>42.6945</close>
+    <adjusted_close>16.9262</adjusted_close>
+    <volume>247224341</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>42.6755</open>
+    <high>42.6755</high>
+    <low>32.3529</low>
+    <close>38.8520</close>
+    <adjusted_close>15.4028</adjusted_close>
+    <volume>380283937</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>38.6622</open>
+    <high>41.7078</high>
+    <low>36.5275</low>
+    <close>41.0816</close>
+    <adjusted_close>16.2867</adjusted_close>
+    <volume>311350760</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>41.0816</open>
+    <high>42.7324</high>
+    <low>39.3928</low>
+    <close>40.6926</close>
+    <adjusted_close>16.1739</adjusted_close>
+    <volume>257964076</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>40.3226</open>
+    <high>42.6945</high>
+    <low>37.9981</low>
+    <close>37.9981</close>
+    <adjusted_close>15.1030</adjusted_close>
+    <volume>240969064</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>38.4250</open>
+    <high>40.0664</high>
+    <low>35.2846</low>
+    <close>39.1082</close>
+    <adjusted_close>15.5442</adjusted_close>
+    <volume>284562713</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>39.1082</open>
+    <high>39.7343</high>
+    <low>36.1006</low>
+    <close>36.3472</close>
+    <adjusted_close>14.4856</adjusted_close>
+    <volume>241572268</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>36.4801</open>
+    <high>38.1404</high>
+    <low>32.2581</low>
+    <close>38.0455</close>
+    <adjusted_close>15.1624</adjusted_close>
+    <volume>282368181</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>38.1689</open>
+    <high>41.0342</high>
+    <low>38.0930</low>
+    <close>39.7533</close>
+    <adjusted_close>15.8430</adjusted_close>
+    <volume>303341516</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>39.8482</open>
+    <high>41.7837</high>
+    <low>39.3169</low>
+    <close>41.0911</close>
+    <adjusted_close>16.4186</adjusted_close>
+    <volume>218952587</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>41.2429</open>
+    <high>41.6888</high>
+    <low>36.3567</low>
+    <close>37.8083</close>
+    <adjusted_close>15.1069</adjusted_close>
+    <volume>305697625</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>37.8083</open>
+    <high>40.2846</high>
+    <low>37.0968</low>
+    <close>39.5351</close>
+    <adjusted_close>15.7969</adjusted_close>
+    <volume>269328515</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>39.7533</open>
+    <high>40.0854</high>
+    <low>37.5047</low>
+    <close>38.8615</close>
+    <adjusted_close>15.5769</adjusted_close>
+    <volume>200688556</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>39.0607</open>
+    <high>39.7533</high>
+    <low>37.4763</low>
+    <close>37.7040</close>
+    <adjusted_close>15.1129</adjusted_close>
+    <volume>263715543</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>37.6186</open>
+    <high>38.2353</high>
+    <low>34.0323</low>
+    <close>34.4877</close>
+    <adjusted_close>13.8237</adjusted_close>
+    <volume>371685934</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>34.8197</open>
+    <high>35.9108</high>
+    <low>32.5522</low>
+    <close>32.8273</close>
+    <adjusted_close>13.2041</adjusted_close>
+    <volume>294617769</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>33.0455</open>
+    <high>35.1423</high>
+    <low>31.0721</low>
+    <close>33.2068</close>
+    <adjusted_close>13.3568</adjusted_close>
+    <volume>348894658</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>33.2068</open>
+    <high>33.4250</high>
+    <low>23.8425</low>
+    <close>30.6926</close>
+    <adjusted_close>12.3455</adjusted_close>
+    <volume>749532180</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>30.6357</open>
+    <high>33.2163</high>
+    <low>27.9412</low>
+    <close>31.3852</close>
+    <adjusted_close>12.6759</adjusted_close>
+    <volume>361399947</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>30.3890</open>
+    <high>31.2144</high>
+    <low>25.6167</low>
+    <close>27.5332</close>
+    <adjusted_close>11.1202</adjusted_close>
+    <volume>385400161</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>28.2258</open>
+    <high>31.8786</high>
+    <low>26.8027</low>
+    <close>30.1423</close>
+    <adjusted_close>12.1739</adjusted_close>
+    <volume>431330632</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>30.1233</open>
+    <high>32.2581</high>
+    <low>29.6869</low>
+    <close>29.9146</close>
+    <adjusted_close>12.1289</adjusted_close>
+    <volume>351577089</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>30.3605</open>
+    <high>30.4080</high>
+    <low>27.9032</low>
+    <close>29.0038</close>
+    <adjusted_close>11.7597</adjusted_close>
+    <volume>368466595</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>29.1651</open>
+    <high>30.4839</high>
+    <low>27.5237</low>
+    <close>28.8046</close>
+    <adjusted_close>11.7356</adjusted_close>
+    <volume>398546385</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>29.6015</open>
+    <high>29.6015</high>
+    <low>26.4706</low>
+    <close>28.2922</close>
+    <adjusted_close>11.5269</adjusted_close>
+    <volume>339507313</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>28.4820</open>
+    <high>30.8824</high>
+    <low>26.8880</low>
+    <close>29.5636</close>
+    <adjusted_close>12.0449</adjusted_close>
+    <volume>402298732</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>29.6679</open>
+    <high>32.0114</high>
+    <low>27.7704</low>
+    <close>29.1746</close>
+    <adjusted_close>11.8864</adjusted_close>
+    <volume>469584300</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>29.2789</open>
+    <high>32.0209</high>
+    <low>28.8425</low>
+    <close>29.4307</close>
+    <adjusted_close>12.0450</adjusted_close>
+    <volume>501524612</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>29.8292</open>
+    <high>35.0285</high>
+    <low>29.4118</low>
+    <close>32.4004</close>
+    <adjusted_close>13.2604</adjusted_close>
+    <volume>522908054</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>32.2581</open>
+    <high>33.1879</high>
+    <low>30.3795</low>
+    <close>31.6509</close>
+    <adjusted_close>12.9536</adjusted_close>
+    <volume>401347603</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>31.4326</open>
+    <high>31.6034</high>
+    <low>27.9222</low>
+    <close>28.3871</close>
+    <adjusted_close>11.6712</adjusted_close>
+    <volume>462768715</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>28.6053</open>
+    <high>30.7116</high>
+    <low>28.3681</low>
+    <close>28.8235</close>
+    <adjusted_close>11.8506</adjusted_close>
+    <volume>436019878</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>28.8046</open>
+    <high>30.0000</high>
+    <low>27.9886</low>
+    <close>29.9810</close>
+    <adjusted_close>12.3265</adjusted_close>
+    <volume>437355088</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>30.0285</open>
+    <high>32.7324</high>
+    <low>29.4307</low>
+    <close>31.8501</close>
+    <adjusted_close>13.1570</adjusted_close>
+    <volume>409005332</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>32.3340</open>
+    <high>33.5769</high>
+    <low>32.1157</low>
+    <close>33.5199</close>
+    <adjusted_close>13.8468</adjusted_close>
+    <volume>363827835</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>33.6148</open>
+    <high>34.9810</high>
+    <low>32.7230</low>
+    <close>34.7533</close>
+    <adjusted_close>14.3563</adjusted_close>
+    <volume>408016786</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>35.0000</open>
+    <high>36.8975</high>
+    <low>34.7249</low>
+    <close>34.7723</close>
+    <adjusted_close>14.4286</adjusted_close>
+    <volume>366195750</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>35.2372</open>
+    <high>36.0247</high>
+    <low>31.7837</low>
+    <close>33.2543</close>
+    <adjusted_close>13.7987</adjusted_close>
+    <volume>450753534</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>33.8710</open>
+    <high>35.9583</high>
+    <low>33.3491</low>
+    <close>33.9279</close>
+    <adjusted_close>14.0782</adjusted_close>
+    <volume>406959414</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>34.0512</open>
+    <high>35.1044</high>
+    <low>32.4668</low>
+    <close>33.5294</close>
+    <adjusted_close>13.9791</adjusted_close>
+    <volume>289461810</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>33.3491</open>
+    <high>34.4402</high>
+    <low>32.0873</low>
+    <close>32.5237</close>
+    <adjusted_close>13.5598</adjusted_close>
+    <volume>342879060</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>32.4573</open>
+    <high>32.6945</high>
+    <low>29.6015</low>
+    <close>30.3226</close>
+    <adjusted_close>12.6421</adjusted_close>
+    <volume>377432340</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>30.1423</open>
+    <high>31.0531</high>
+    <low>29.4023</low>
+    <close>30.9962</close>
+    <adjusted_close>12.9931</adjusted_close>
+    <volume>310095444</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>30.8824</open>
+    <high>31.3567</high>
+    <low>28.0645</low>
+    <close>29.0323</close>
+    <adjusted_close>12.1698</adjusted_close>
+    <volume>470923722</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>29.4592</open>
+    <high>29.8861</high>
+    <low>25.8539</low>
+    <close>27.4668</close>
+    <adjusted_close>11.5136</adjusted_close>
+    <volume>641742864</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>27.4668</open>
+    <high>28.9374</high>
+    <low>25.1898</low>
+    <close>26.3472</close>
+    <adjusted_close>11.1108</adjusted_close>
+    <volume>777608316</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>26.5750</open>
+    <high>27.6091</high>
+    <low>20.8634</low>
+    <close>25.5123</close>
+    <adjusted_close>10.7587</adjusted_close>
+    <volume>1307835664</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>25.9108</open>
+    <high>25.9488</high>
+    <low>22.7609</low>
+    <close>22.9222</close>
+    <adjusted_close>9.6664</adjusted_close>
+    <volume>664858139</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>22.8937</open>
+    <high>25.8065</high>
+    <low>22.5806</low>
+    <close>24.9431</close>
+    <adjusted_close>10.5975</adjusted_close>
+    <volume>749200276</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>25.1708</open>
+    <high>25.9393</high>
+    <low>24.0987</low>
+    <close>24.9241</close>
+    <adjusted_close>10.5894</adjusted_close>
+    <volume>507622526</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>25.0190</open>
+    <high>26.7837</high>
+    <low>24.4402</low>
+    <close>25.7780</close>
+    <adjusted_close>10.9522</adjusted_close>
+    <volume>676383946</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>25.8539</open>
+    <high>27.4573</high>
+    <low>25.8065</low>
+    <close>26.4706</close>
+    <adjusted_close>11.3242</adjusted_close>
+    <volume>447106167</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>26.4991</open>
+    <high>27.7135</high>
+    <low>25.9108</low>
+    <close>26.1670</close>
+    <adjusted_close>11.1944</adjusted_close>
+    <volume>557478306</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>25.4744</open>
+    <high>26.3947</high>
+    <low>24.8577</low>
+    <close>25.1423</close>
+    <adjusted_close>10.7560</adjusted_close>
+    <volume>560553775</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>25.5977</open>
+    <high>25.5977</high>
+    <low>23.4915</low>
+    <close>24.1746</close>
+    <adjusted_close>10.4161</adjusted_close>
+    <volume>506696060</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>24.1556</open>
+    <high>25.2846</high>
+    <low>23.4061</low>
+    <close>23.6907</close>
+    <adjusted_close>10.2076</adjusted_close>
+    <volume>528477285</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>23.8899</open>
+    <high>24.2600</high>
+    <low>19.6490</low>
+    <close>20.6262</close>
+    <adjusted_close>8.8872</adjusted_close>
+    <volume>869974341</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>20.6357</open>
+    <high>21.4516</high>
+    <low>20.0854</low>
+    <close>20.1139</close>
+    <adjusted_close>8.7410</adjusted_close>
+    <volume>703705310</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>20.1803</open>
+    <high>23.9089</high>
+    <low>19.2315</low>
+    <close>22.1252</close>
+    <adjusted_close>9.6152</adjusted_close>
+    <volume>980975611</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>22.4383</open>
+    <high>24.9905</high>
+    <low>22.3909</low>
+    <close>24.3643</close>
+    <adjusted_close>10.5882</adjusted_close>
+    <volume>750441781</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>24.4307</open>
+    <high>25.4649</high>
+    <low>23.6717</low>
+    <close>24.8482</close>
+    <adjusted_close>10.9024</adjusted_close>
+    <volume>612834074</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>24.7628</open>
+    <high>25.2372</high>
+    <low>23.5579</low>
+    <close>23.6433</close>
+    <adjusted_close>10.3737</adjusted_close>
+    <volume>559360119</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>23.8046</open>
+    <high>24.1366</high>
+    <low>22.9412</low>
+    <close>24.0323</close>
+    <adjusted_close>10.5444</adjusted_close>
+    <volume>467020337</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>24.1935</open>
+    <high>24.4023</high>
+    <low>22.3150</low>
+    <close>22.4478</close>
+    <adjusted_close>9.9428</adjusted_close>
+    <volume>595874790</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>22.6091</open>
+    <high>23.1594</high>
+    <low>21.3567</low>
+    <close>22.2676</close>
+    <adjusted_close>9.8629</adjusted_close>
+    <volume>650777649</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>22.3340</open>
+    <high>25.2941</high>
+    <low>21.0247</low>
+    <close>24.6584</close>
+    <adjusted_close>10.9219</adjusted_close>
+    <volume>622999374</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>24.7059</open>
+    <high>26.4516</high>
+    <low>24.0228</low>
+    <close>26.1480</close>
+    <adjusted_close>11.6889</adjusted_close>
+    <volume>660775260</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>26.3662</open>
+    <high>27.1157</high>
+    <low>25.9203</low>
+    <close>26.9070</close>
+    <adjusted_close>12.0282</adjusted_close>
+    <volume>507930398</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>26.7552</open>
+    <high>27.1347</high>
+    <low>25.0285</low>
+    <close>25.2846</close>
+    <adjusted_close>11.3030</adjusted_close>
+    <volume>789692109</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>25.3321</open>
+    <high>26.4516</high>
+    <low>23.7192</low>
+    <close>26.0816</close>
+    <adjusted_close>11.7627</adjusted_close>
+    <volume>872034387</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>26.1954</open>
+    <high>26.4326</high>
+    <low>22.2960</low>
+    <close>24.5731</close>
+    <adjusted_close>11.0823</adjusted_close>
+    <volume>1156432988</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>24.8102</open>
+    <high>26.0057</high>
+    <low>24.4592</low>
+    <close>24.8956</close>
+    <adjusted_close>11.2278</adjusted_close>
+    <volume>759567840</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>25.0380</open>
+    <high>25.6167</high>
+    <low>23.6622</low>
+    <close>23.6812</close>
+    <adjusted_close>10.7968</adjusted_close>
+    <volume>634169348</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>23.5769</open>
+    <high>24.6300</high>
+    <low>23.2922</low>
+    <close>23.9658</close>
+    <adjusted_close>10.9266</adjusted_close>
+    <volume>822970262</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>23.9374</open>
+    <high>25.8444</high>
+    <low>23.9374</low>
+    <close>25.1044</close>
+    <adjusted_close>11.4457</adjusted_close>
+    <volume>784105909</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>25.0095</open>
+    <high>26.2144</high>
+    <low>24.9336</low>
+    <close>26.0816</close>
+    <adjusted_close>12.0186</adjusted_close>
+    <volume>794710204</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>26.1195</open>
+    <high>26.3093</high>
+    <low>24.0133</low>
+    <close>24.2600</close>
+    <adjusted_close>11.1792</adjusted_close>
+    <volume>926489714</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>24.3833</open>
+    <high>24.8102</high>
+    <low>22.2960</low>
+    <close>22.3055</close>
+    <adjusted_close>10.2786</adjusted_close>
+    <volume>984387831</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>22.3055</open>
+    <high>23.7192</high>
+    <low>21.9450</low>
+    <close>23.5674</close>
+    <adjusted_close>10.9910</adjusted_close>
+    <volume>1080217617</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>23.5104</open>
+    <high>23.8805</high>
+    <low>22.6281</low>
+    <close>23.1784</close>
+    <adjusted_close>10.8095</adjusted_close>
+    <volume>738035043</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>23.1973</open>
+    <high>24.3928</high>
+    <low>22.1632</low>
+    <close>23.3491</close>
+    <adjusted_close>10.8892</adjusted_close>
+    <volume>870987866</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>23.3207</open>
+    <high>23.3397</high>
+    <low>21.1006</low>
+    <close>22.5427</close>
+    <adjusted_close>10.6421</adjusted_close>
+    <volume>961511818</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>22.4099</open>
+    <high>23.2448</high>
+    <low>21.5275</low>
+    <close>21.5655</close>
+    <adjusted_close>10.1807</adjusted_close>
+    <volume>759132537</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>21.5939</open>
+    <high>22.9981</high>
+    <low>20.4554</low>
+    <close>22.1632</close>
+    <adjusted_close>10.4629</adjusted_close>
+    <volume>1139717500</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>22.2011</open>
+    <high>22.5712</high>
+    <low>20.9013</low>
+    <close>21.1385</close>
+    <adjusted_close>10.1202</adjusted_close>
+    <volume>821800638</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>21.2713</open>
+    <high>21.2903</high>
+    <low>19.1556</low>
+    <close>19.8577</close>
+    <adjusted_close>9.5070</adjusted_close>
+    <volume>865433391</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>19.9715</open>
+    <high>20.4934</high>
+    <low>18.7761</low>
+    <close>19.0797</close>
+    <adjusted_close>9.1345</adjusted_close>
+    <volume>1012065765</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>19.1366</open>
+    <high>19.5920</high>
+    <low>18.1784</low>
+    <close>18.3681</close>
+    <adjusted_close>8.9339</adjusted_close>
+    <volume>1021453749</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>18.4345</open>
+    <high>18.4630</high>
+    <low>16.2429</low>
+    <close>16.5750</close>
+    <adjusted_close>8.0617</adjusted_close>
+    <volume>1327660665</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>16.5370</open>
+    <high>18.2638</high>
+    <low>16.3757</low>
+    <close>17.7135</close>
+    <adjusted_close>8.6155</adjusted_close>
+    <volume>1081441419</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>17.8463</open>
+    <high>19.0987</high>
+    <low>17.5806</low>
+    <close>18.1309</close>
+    <adjusted_close>8.9640</adjusted_close>
+    <volume>823143224</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>18.3112</open>
+    <high>18.5863</high>
+    <low>16.2808</low>
+    <close>17.4953</close>
+    <adjusted_close>8.6498</adjusted_close>
+    <volume>1221139419</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>17.3245</open>
+    <high>18.3966</high>
+    <low>13.5768</low>
+    <close>16.8027</close>
+    <adjusted_close>8.3073</adjusted_close>
+    <volume>1927483215</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>16.9355</open>
+    <high>17.5047</high>
+    <low>13.5294</low>
+    <close>15.5882</close>
+    <adjusted_close>7.8432</adjusted_close>
+    <volume>1077349789</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>15.3510</open>
+    <high>17.0493</high>
+    <low>14.4213</low>
+    <close>16.8027</close>
+    <adjusted_close>8.4543</adjusted_close>
+    <volume>1041836734</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>16.9639</open>
+    <high>17.5332</high>
+    <low>13.7571</low>
+    <close>13.8330</close>
+    <adjusted_close>6.9601</adjusted_close>
+    <volume>1382916932</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>13.8805</open>
+    <high>14.5920</high>
+    <low>11.6509</low>
+    <close>11.6793</close>
+    <adjusted_close>6.0028</adjusted_close>
+    <volume>1302126988</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>11.4611</open>
+    <high>14.2220</high>
+    <low>11.0247</low>
+    <close>12.9222</close>
+    <adjusted_close>6.6417</adjusted_close>
+    <volume>1726323517</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>12.8937</open>
+    <high>13.5389</high>
+    <low>12.0968</low>
+    <close>12.6755</close>
+    <adjusted_close>6.5149</adjusted_close>
+    <volume>1347202880</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>12.7040</open>
+    <high>14.8008</high>
+    <low>12.5712</low>
+    <close>14.4118</close>
+    <adjusted_close>7.4912</adjusted_close>
+    <volume>1193982792</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>14.5731</open>
+    <high>14.6584</high>
+    <low>13.2258</low>
+    <close>14.2315</close>
+    <adjusted_close>7.3975</adjusted_close>
+    <volume>1243585932</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>14.2030</open>
+    <high>15.8065</high>
+    <low>13.3871</low>
+    <close>15.1139</close>
+    <adjusted_close>7.8561</adjusted_close>
+    <volume>1220798133</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>15.2941</open>
+    <high>16.1101</high>
+    <low>14.7438</low>
+    <close>15.8444</close>
+    <adjusted_close>8.3187</adjusted_close>
+    <volume>888114525</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>15.6926</open>
+    <high>16.0721</high>
+    <low>15.1328</low>
+    <close>15.7021</close>
+    <adjusted_close>8.2440</adjusted_close>
+    <volume>968855351</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>15.6546</open>
+    <high>17.4858</high>
+    <low>15.2467</low>
+    <close>16.1575</close>
+    <adjusted_close>8.4831</adjusted_close>
+    <volume>1574567965</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>16.1765</open>
+    <high>17.9317</high>
+    <low>15.8634</low>
+    <close>17.2391</close>
+    <adjusted_close>9.1375</adjusted_close>
+    <volume>1001081717</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>17.5901</open>
+    <high>18.0171</high>
+    <low>16.7268</low>
+    <close>17.2581</close>
+    <adjusted_close>9.1475</adjusted_close>
+    <volume>988386497</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>17.3340</open>
+    <high>19.3169</high>
+    <low>17.3055</low>
+    <close>17.7040</close>
+    <adjusted_close>9.3839</adjusted_close>
+    <volume>1069543338</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>17.8273</open>
+    <high>18.3397</high>
+    <low>16.5370</low>
+    <close>16.6509</close>
+    <adjusted_close>8.9090</adjusted_close>
+    <volume>1278416204</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>16.7078</open>
+    <high>16.9639</high>
+    <low>15.9393</low>
+    <close>16.2713</close>
+    <adjusted_close>8.7060</adjusted_close>
+    <volume>1500506654</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>16.3283</open>
+    <high>16.4421</high>
+    <low>15.4934</low>
+    <close>15.8634</close>
+    <adjusted_close>8.4877</adjusted_close>
+    <volume>1535161645</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>15.9393</open>
+    <high>16.4991</high>
+    <low>13.9943</low>
+    <close>14.4497</close>
+    <adjusted_close>7.8128</adjusted_close>
+    <volume>1775663260</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>14.3833</open>
+    <high>14.8008</high>
+    <low>13.4440</low>
+    <close>13.5294</close>
+    <adjusted_close>7.3152</adjusted_close>
+    <volume>1343826601</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>13.5579</open>
+    <high>14.6490</high>
+    <low>13.2827</low>
+    <close>14.2315</close>
+    <adjusted_close>7.6948</adjusted_close>
+    <volume>1087585921</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>14.3833</open>
+    <high>15.7495</high>
+    <low>14.3264</low>
+    <close>15.0949</close>
+    <adjusted_close>8.2525</adjusted_close>
+    <volume>1276381352</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>15.3036</open>
+    <high>16.6034</high>
+    <low>15.2467</low>
+    <close>16.2903</close>
+    <adjusted_close>8.9061</adjusted_close>
+    <volume>951516102</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>16.3662</open>
+    <high>16.9829</high>
+    <low>15.9962</low>
+    <close>16.5275</close>
+    <adjusted_close>9.0358</adjusted_close>
+    <volume>980519336</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>16.7268</open>
+    <high>16.9260</high>
+    <low>15.4175</low>
+    <close>15.4649</close>
+    <adjusted_close>8.5422</adjusted_close>
+    <volume>923018893</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>15.6452</open>
+    <high>16.7932</high>
+    <low>15.5787</low>
+    <close>16.6129</close>
+    <adjusted_close>9.1764</adjusted_close>
+    <volume>900182927</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>16.7932</open>
+    <high>17.7989</high>
+    <low>16.7173</low>
+    <close>17.2865</close>
+    <adjusted_close>9.5485</adjusted_close>
+    <volume>1174224194</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>17.5427</open>
+    <high>18.3966</high>
+    <low>17.5142</low>
+    <close>18.2543</close>
+    <adjusted_close>10.1890</adjusted_close>
+    <volume>967892099</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>18.3586</open>
+    <high>19.5161</high>
+    <low>17.9981</low>
+    <close>19.2694</close>
+    <adjusted_close>10.7557</adjusted_close>
+    <volume>1284487876</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>19.3074</open>
+    <high>19.9810</high>
+    <low>18.1214</low>
+    <close>19.8956</close>
+    <adjusted_close>11.1052</adjusted_close>
+    <volume>974005301</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>20.0569</open>
+    <high>20.3510</high>
+    <low>19.0417</low>
+    <close>20.3510</close>
+    <adjusted_close>11.4693</adjusted_close>
+    <volume>1000072509</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>20.2467</open>
+    <high>20.3510</high>
+    <low>19.0038</low>
+    <close>19.5446</close>
+    <adjusted_close>11.0149</adjusted_close>
+    <volume>1018743804</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>19.4497</open>
+    <high>19.8767</high>
+    <low>18.0740</low>
+    <close>18.2638</close>
+    <adjusted_close>10.2930</adjusted_close>
+    <volume>899631266</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>18.4440</open>
+    <high>18.4630</high>
+    <low>15.7780</low>
+    <close>18.0076</close>
+    <adjusted_close>10.2618</adjusted_close>
+    <volume>1584116150</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>17.9412</open>
+    <high>18.1689</high>
+    <low>16.4137</low>
+    <close>16.7742</close>
+    <adjusted_close>9.5589</adjusted_close>
+    <volume>1056738397</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>16.7837</open>
+    <high>18.9279</high>
+    <low>16.1765</low>
+    <close>18.2732</close>
+    <adjusted_close>10.4132</adjusted_close>
+    <volume>948361796</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>18.1689</open>
+    <high>19.1176</high>
+    <low>17.2201</low>
+    <close>19.0417</close>
+    <adjusted_close>10.9603</adjusted_close>
+    <volume>1114335386</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>19.0038</open>
+    <high>20.7780</high>
+    <low>18.7192</low>
+    <close>20.5313</close>
+    <adjusted_close>11.8177</adjusted_close>
+    <volume>959102163</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>20.7400</open>
+    <high>21.0342</high>
+    <low>20.1328</low>
+    <close>20.3036</close>
+    <adjusted_close>11.6866</adjusted_close>
+    <volume>999522852</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>20.1613</open>
+    <high>20.4269</high>
+    <low>19.6869</low>
+    <close>20.0474</close>
+    <adjusted_close>11.6591</adjusted_close>
+    <volume>706703311</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>19.9905</open>
+    <high>21.6319</high>
+    <low>19.9715</low>
+    <close>21.4896</close>
+    <adjusted_close>12.4978</adjusted_close>
+    <volume>812635685</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>21.3852</open>
+    <high>22.1063</high>
+    <low>20.6546</low>
+    <close>21.7268</close>
+    <adjusted_close>12.6357</adjusted_close>
+    <volume>889829379</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>21.4706</open>
+    <high>21.8121</high>
+    <low>20.7306</low>
+    <close>20.7495</close>
+    <adjusted_close>12.1870</adjusted_close>
+    <volume>874568833</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>20.6452</open>
+    <high>21.8216</high>
+    <low>20.3036</low>
+    <close>21.8216</close>
+    <adjusted_close>12.8166</adjusted_close>
+    <volume>603442298</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>21.6793</open>
+    <high>23.2353</high>
+    <low>20.8729</low>
+    <close>22.8083</close>
+    <adjusted_close>13.3962</adjusted_close>
+    <volume>913830226</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>22.6945</open>
+    <high>23.1214</high>
+    <low>22.3814</low>
+    <close>22.6376</close>
+    <adjusted_close>13.4187</adjusted_close>
+    <volume>619404495</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>22.5712</open>
+    <high>23.8615</high>
+    <low>22.4194</low>
+    <close>23.5769</close>
+    <adjusted_close>13.9754</adjusted_close>
+    <volume>572991395</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>23.5294</open>
+    <high>24.7533</high>
+    <low>23.5294</low>
+    <close>23.5958</close>
+    <adjusted_close>13.9867</adjusted_close>
+    <volume>572945970</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>23.5484</open>
+    <high>23.7951</high>
+    <low>22.3435</low>
+    <close>23.7381</close>
+    <adjusted_close>14.1975</adjusted_close>
+    <volume>721844126</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>23.7571</open>
+    <high>24.4687</high>
+    <low>23.3681</low>
+    <close>23.7951</close>
+    <adjusted_close>14.2315</adjusted_close>
+    <volume>629449959</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>24.2220</open>
+    <high>26.4137</high>
+    <low>24.0323</low>
+    <close>25.8824</close>
+    <adjusted_close>15.6152</adjusted_close>
+    <volume>825431985</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>26.1670</open>
+    <high>26.3757</high>
+    <low>25.4175</low>
+    <close>25.9677</close>
+    <adjusted_close>15.6667</adjusted_close>
+    <volume>580272745</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>25.7875</open>
+    <high>27.4194</high>
+    <low>25.7590</low>
+    <close>27.3814</close>
+    <adjusted_close>16.5196</adjusted_close>
+    <volume>617323584</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>27.2770</open>
+    <high>29.5541</high>
+    <low>27.1727</low>
+    <close>27.5806</close>
+    <adjusted_close>16.6398</adjusted_close>
+    <volume>819227299</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>27.3529</open>
+    <high>28.5009</high>
+    <low>25.8349</low>
+    <close>25.8349</close>
+    <adjusted_close>15.7165</adjusted_close>
+    <volume>952580326</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>25.9013</open>
+    <high>28.2827</high>
+    <low>25.7306</low>
+    <close>26.5750</close>
+    <adjusted_close>16.1667</adjusted_close>
+    <volume>2330988982</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>26.5370</open>
+    <high>28.8710</high>
+    <low>25.9298</low>
+    <close>27.7324</close>
+    <adjusted_close>17.0084</adjusted_close>
+    <volume>807203687</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>27.9222</open>
+    <high>27.9412</high>
+    <low>26.3378</low>
+    <close>26.7647</close>
+    <adjusted_close>16.4149</adjusted_close>
+    <volume>540515443</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>26.9260</open>
+    <high>27.7704</high>
+    <low>26.4326</low>
+    <close>27.2581</close>
+    <adjusted_close>16.7175</adjusted_close>
+    <volume>535658293</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>27.1157</open>
+    <high>29.7438</high>
+    <low>26.5844</low>
+    <close>29.1176</close>
+    <adjusted_close>17.8580</adjusted_close>
+    <volume>656081062</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>29.1271</open>
+    <high>30.8349</high>
+    <low>29.1176</low>
+    <close>30.1044</close>
+    <adjusted_close>18.6061</adjusted_close>
+    <volume>487211925</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>29.9905</open>
+    <high>30.2941</high>
+    <low>28.4156</low>
+    <close>29.0607</close>
+    <adjusted_close>17.9610</adjusted_close>
+    <volume>556669152</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>28.9089</open>
+    <high>29.8102</high>
+    <low>28.1404</low>
+    <close>28.8425</close>
+    <adjusted_close>17.8262</adjusted_close>
+    <volume>576822157</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>29.4402</open>
+    <high>30.7495</high>
+    <low>29.0038</low>
+    <close>30.4649</close>
+    <adjusted_close>18.9859</adjusted_close>
+    <volume>561841656</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>29.9051</open>
+    <high>31.2713</high>
+    <low>29.2505</low>
+    <close>30.4744</close>
+    <adjusted_close>18.9918</adjusted_close>
+    <volume>602150202</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>30.2941</open>
+    <high>31.0152</high>
+    <low>28.0645</low>
+    <close>29.6774</close>
+    <adjusted_close>18.4951</adjusted_close>
+    <volume>708156670</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>29.4877</open>
+    <high>29.9620</high>
+    <low>27.2960</low>
+    <close>28.1120</close>
+    <adjusted_close>17.6757</adjusted_close>
+    <volume>724043720</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>28.0740</open>
+    <high>28.3871</high>
+    <low>27.6565</low>
+    <close>28.1594</close>
+    <adjusted_close>17.7055</adjusted_close>
+    <volume>509789865</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>28.0930</open>
+    <high>29.7059</high>
+    <low>27.2296</low>
+    <close>27.2296</close>
+    <adjusted_close>17.2719</adjusted_close>
+    <volume>559595585</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>27.2296</open>
+    <high>28.1499</high>
+    <low>26.4421</low>
+    <close>27.8843</close>
+    <adjusted_close>17.6872</adjusted_close>
+    <volume>486018267</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>27.7135</open>
+    <high>29.2600</high>
+    <low>27.5237</low>
+    <close>28.0550</close>
+    <adjusted_close>17.7955</adjusted_close>
+    <volume>499662189</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>27.8653</open>
+    <high>28.6528</high>
+    <low>26.1006</low>
+    <close>28.4156</close>
+    <adjusted_close>18.0242</adjusted_close>
+    <volume>713643585</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>28.3681</open>
+    <high>30.0190</high>
+    <low>28.2353</low>
+    <close>29.5541</close>
+    <adjusted_close>18.9087</adjusted_close>
+    <volume>428638824</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>29.2979</open>
+    <high>31.4231</high>
+    <low>29.0133</low>
+    <close>29.5541</close>
+    <adjusted_close>18.9087</adjusted_close>
+    <volume>562074169</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>29.6679</open>
+    <high>31.7837</high>
+    <low>29.4213</low>
+    <close>29.6490</close>
+    <adjusted_close>18.9694</adjusted_close>
+    <volume>630613155</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>29.8292</open>
+    <high>33.1784</high>
+    <low>29.4307</low>
+    <close>32.5617</close>
+    <adjusted_close>21.0168</adjusted_close>
+    <volume>638039004</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>32.5617</open>
+    <high>33.6338</high>
+    <low>31.9070</low>
+    <close>33.0076</close>
+    <adjusted_close>21.3046</adjusted_close>
+    <volume>690114932</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>33.0550</open>
+    <high>33.7097</high>
+    <low>31.9829</low>
+    <close>32.1917</close>
+    <adjusted_close>20.7780</adjusted_close>
+    <volume>586434323</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>32.1252</open>
+    <high>33.1973</high>
+    <low>31.5085</low>
+    <close>32.9696</close>
+    <adjusted_close>21.4562</adjusted_close>
+    <volume>461526576</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>32.9886</open>
+    <high>33.1309</high>
+    <low>31.6224</low>
+    <close>31.8121</close>
+    <adjusted_close>20.7029</adjusted_close>
+    <volume>535069107</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>31.8406</open>
+    <high>34.5920</high>
+    <low>31.3852</low>
+    <close>34.2125</close>
+    <adjusted_close>22.2650</adjusted_close>
+    <volume>524346029</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>34.4307</open>
+    <high>34.4402</high>
+    <low>27.0114</low>
+    <close>30.5693</close>
+    <adjusted_close>20.0495</adjusted_close>
+    <volume>575379338</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>29.8482</open>
+    <high>32.2201</high>
+    <low>29.0702</low>
+    <close>29.8008</close>
+    <adjusted_close>19.5455</adjusted_close>
+    <volume>611965681</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>29.6964</open>
+    <high>34.2220</high>
+    <low>29.5066</low>
+    <close>32.0873</close>
+    <adjusted_close>21.0451</adjusted_close>
+    <volume>716414127</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>32.4194</open>
+    <high>33.4440</high>
+    <low>29.4023</low>
+    <close>31.0911</close>
+    <adjusted_close>20.5563</adjusted_close>
+    <volume>895801977</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>31.3093</open>
+    <high>32.0968</high>
+    <low>30.2087</low>
+    <close>30.6262</close>
+    <adjusted_close>20.2490</adjusted_close>
+    <volume>780239207</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>30.2182</open>
+    <high>30.5882</high>
+    <low>28.0740</low>
+    <close>28.9279</close>
+    <adjusted_close>19.1261</adjusted_close>
+    <volume>740985080</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>28.7856</open>
+    <high>29.3169</high>
+    <low>26.8027</low>
+    <close>28.1499</close>
+    <adjusted_close>18.7989</adjusted_close>
+    <volume>896675112</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>28.2638</open>
+    <high>29.0417</high>
+    <low>27.2676</low>
+    <close>28.1214</close>
+    <adjusted_close>18.7799</adjusted_close>
+    <volume>1100959391</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>27.9317</open>
+    <high>31.7837</high>
+    <low>27.9032</low>
+    <close>31.0342</close>
+    <adjusted_close>20.7250</adjusted_close>
+    <volume>1250335007</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>30.8918</open>
+    <high>32.9696</high>
+    <low>30.8349</low>
+    <close>32.9222</close>
+    <adjusted_close>22.1828</adjusted_close>
+    <volume>644650536</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>32.9222</open>
+    <high>33.6812</high>
+    <low>31.8121</low>
+    <close>33.4061</close>
+    <adjusted_close>22.5088</adjusted_close>
+    <volume>606312550</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>33.3491</open>
+    <high>35.2846</high>
+    <low>33.3207</low>
+    <close>35.0000</close>
+    <adjusted_close>23.5828</adjusted_close>
+    <volume>369746677</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>35.1233</open>
+    <high>35.4744</high>
+    <low>32.8368</low>
+    <close>33.0171</close>
+    <adjusted_close>22.4316</adjusted_close>
+    <volume>505629202</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>32.9507</open>
+    <high>33.1973</high>
+    <low>31.5939</low>
+    <close>32.1347</close>
+    <adjusted_close>21.8321</adjusted_close>
+    <volume>419697845</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>32.0019</open>
+    <high>32.2581</high>
+    <low>29.9905</low>
+    <close>30.0854</close>
+    <adjusted_close>20.4398</adjusted_close>
+    <volume>418534440</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>29.3548</open>
+    <high>32.0968</high>
+    <low>28.3017</low>
+    <close>30.4934</close>
+    <adjusted_close>20.9236</adjusted_close>
+    <volume>780947914</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>30.5977</open>
+    <high>31.5939</high>
+    <low>28.9469</low>
+    <close>30.8159</close>
+    <adjusted_close>21.1450</adjusted_close>
+    <volume>535010715</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>31.0247</open>
+    <high>31.9734</high>
+    <low>29.3169</low>
+    <close>30.1044</close>
+    <adjusted_close>20.6567</adjusted_close>
+    <volume>554605632</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>29.8956</open>
+    <high>32.6945</high>
+    <low>29.6584</low>
+    <close>32.3719</close>
+    <adjusted_close>22.4389</adjusted_close>
+    <volume>547100201</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>32.5142</open>
+    <high>32.9696</high>
+    <low>31.9924</low>
+    <close>32.4573</close>
+    <adjusted_close>22.4981</adjusted_close>
+    <volume>543237926</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>32.3624</open>
+    <high>32.7514</high>
+    <low>31.7552</low>
+    <close>32.1822</close>
+    <adjusted_close>22.3074</adjusted_close>
+    <volume>372101525</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>32.1537</open>
+    <high>32.2486</high>
+    <low>30.3321</low>
+    <close>30.9772</close>
+    <adjusted_close>21.6800</adjusted_close>
+    <volume>560117629</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>30.9962</open>
+    <high>32.7135</high>
+    <low>30.0474</low>
+    <close>31.8691</close>
+    <adjusted_close>22.3042</adjusted_close>
+    <volume>490650490</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>31.7647</open>
+    <high>32.2296</high>
+    <low>31.0152</low>
+    <close>31.4611</close>
+    <adjusted_close>22.0187</adjusted_close>
+    <volume>321926065</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>31.3472</open>
+    <high>32.2770</high>
+    <low>30.6641</low>
+    <close>32.1822</close>
+    <adjusted_close>22.7433</adjusted_close>
+    <volume>409668614</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>32.2011</open>
+    <high>34.3548</high>
+    <low>32.0209</low>
+    <close>33.8710</close>
+    <adjusted_close>23.9368</adjusted_close>
+    <volume>407977576</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>33.8425</open>
+    <high>34.8956</high>
+    <low>32.3529</low>
+    <close>33.2638</close>
+    <adjusted_close>23.5077</adjusted_close>
+    <volume>364220978</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>33.2163</open>
+    <high>34.6110</high>
+    <low>33.0171</low>
+    <close>34.4023</close>
+    <adjusted_close>24.5345</adjusted_close>
+    <volume>300375665</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>34.4307</open>
+    <high>35.4364</high>
+    <low>33.3491</low>
+    <close>34.3643</close>
+    <adjusted_close>24.5074</adjusted_close>
+    <volume>331790876</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>34.5161</open>
+    <high>37.4099</high>
+    <low>34.3738</low>
+    <close>35.1423</close>
+    <adjusted_close>25.0622</adjusted_close>
+    <volume>505479112</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>34.7343</open>
+    <high>35.4839</high>
+    <low>31.4991</low>
+    <close>34.4497</close>
+    <adjusted_close>24.7959</adjusted_close>
+    <volume>587799570</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>34.2695</open>
+    <high>35.1423</high>
+    <low>32.5617</low>
+    <close>33.6717</close>
+    <adjusted_close>24.2359</adjusted_close>
+    <volume>507176897</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>33.6053</open>
+    <high>35.3605</high>
+    <low>32.9791</low>
+    <close>34.7343</close>
+    <adjusted_close>25.0008</adjusted_close>
+    <volume>446961980</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>33.7571</open>
+    <high>34.3928</high>
+    <low>32.6091</low>
+    <close>34.0892</close>
+    <adjusted_close>24.7759</adjusted_close>
+    <volume>511773388</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>34.4023</open>
+    <high>34.9146</high>
+    <low>33.8994</low>
+    <close>34.4213</close>
+    <adjusted_close>25.0173</adjusted_close>
+    <volume>457395207</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>34.1556</open>
+    <high>37.9412</high>
+    <low>34.1556</low>
+    <close>37.8843</close>
+    <adjusted_close>27.5342</adjusted_close>
+    <volume>418253865</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>37.5996</open>
+    <high>40.5787</high>
+    <low>37.4668</low>
+    <close>39.3928</close>
+    <adjusted_close>28.8743</adjusted_close>
+    <volume>500528790</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>39.3548</open>
+    <high>42.1822</high>
+    <low>39.1082</low>
+    <close>41.8121</close>
+    <adjusted_close>30.6477</adjusted_close>
+    <volume>369588789</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>41.7742</open>
+    <high>43.4630</high>
+    <low>39.5256</low>
+    <close>40.8539</close>
+    <adjusted_close>29.9453</adjusted_close>
+    <volume>604661777</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>40.9867</open>
+    <high>43.8899</high>
+    <low>40.1803</low>
+    <close>43.8615</close>
+    <adjusted_close>32.3979</adjusted_close>
+    <volume>507886765</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>43.9943</open>
+    <high>44.0892</high>
+    <low>38.3491</low>
+    <close>41.4137</close>
+    <adjusted_close>30.5899</adjusted_close>
+    <volume>565803643</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>40.9108</open>
+    <high>41.4611</high>
+    <low>37.4478</low>
+    <close>40.2751</close>
+    <adjusted_close>30.0087</adjusted_close>
+    <volume>631956054</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>40.6736</open>
+    <high>41.5370</high>
+    <low>39.0987</low>
+    <close>41.1290</close>
+    <adjusted_close>30.6449</adjusted_close>
+    <volume>450906154</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>41.3757</open>
+    <high>41.5465</high>
+    <low>38.2732</low>
+    <close>40.2941</close>
+    <adjusted_close>30.0229</adjusted_close>
+    <volume>554205954</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>40.3985</open>
+    <high>41.0626</high>
+    <low>36.4516</low>
+    <close>38.5294</close>
+    <adjusted_close>28.7080</adjusted_close>
+    <volume>486234339</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>38.5104</open>
+    <high>40.3036</high>
+    <low>37.8273</low>
+    <close>39.3928</close>
+    <adjusted_close>29.6116</adjusted_close>
+    <volume>552863473</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>39.4972</open>
+    <high>42.0209</high>
+    <low>39.4402</low>
+    <close>41.1006</close>
+    <adjusted_close>30.8953</adjusted_close>
+    <volume>461187921</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>41.2808</open>
+    <high>42.2770</high>
+    <low>36.5370</low>
+    <close>36.8501</close>
+    <adjusted_close>27.7003</adjusted_close>
+    <volume>590900013</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>36.3472</open>
+    <high>36.6414</high>
+    <low>32.2296</low>
+    <close>33.7287</close>
+    <adjusted_close>25.5911</adjusted_close>
+    <volume>641234099</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>33.7856</open>
+    <high>35.8254</high>
+    <low>33.6907</low>
+    <close>34.0892</close>
+    <adjusted_close>25.8646</adjusted_close>
+    <volume>443911600</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>34.0892</open>
+    <high>36.8311</high>
+    <low>32.8273</low>
+    <close>36.4042</close>
+    <adjusted_close>27.6211</adjusted_close>
+    <volume>407113297</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>36.7078</open>
+    <high>36.9450</high>
+    <low>34.4402</low>
+    <close>36.5465</close>
+    <adjusted_close>27.9970</adjusted_close>
+    <volume>446281096</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>36.8027</open>
+    <high>37.5901</high>
+    <low>35.8539</low>
+    <close>37.1727</close>
+    <adjusted_close>28.4767</adjusted_close>
+    <volume>387120076</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>37.2865</open>
+    <high>38.8710</high>
+    <low>34.8102</low>
+    <close>35.3321</close>
+    <adjusted_close>27.3432</adjusted_close>
+    <volume>531835964</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>35.5408</open>
+    <high>36.5939</high>
+    <low>30.8634</low>
+    <close>31.7078</close>
+    <adjusted_close>24.5384</adjusted_close>
+    <volume>586886279</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>32.1727</open>
+    <high>34.5920</high>
+    <low>26.4516</low>
+    <close>30.9677</close>
+    <adjusted_close>23.9657</adjusted_close>
+    <volume>1019616939</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>30.2846</open>
+    <high>37.2106</high>
+    <low>29.9146</low>
+    <close>36.3947</close>
+    <adjusted_close>28.1656</adjusted_close>
+    <volume>533383339</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>35.9108</open>
+    <high>37.0114</high>
+    <low>34.7154</low>
+    <close>36.2334</close>
+    <adjusted_close>28.3202</adjusted_close>
+    <volume>474627691</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>33.6812</open>
+    <high>34.7818</high>
+    <low>29.9905</low>
+    <close>31.0247</close>
+    <adjusted_close>24.2490</adjusted_close>
+    <volume>811003042</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>32.7704</open>
+    <high>37.4288</high>
+    <low>31.4042</low>
+    <close>36.5085</close>
+    <adjusted_close>28.8141</adjusted_close>
+    <volume>824072643</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>36.6319</open>
+    <high>37.0968</high>
+    <low>35.4839</low>
+    <close>35.8539</close>
+    <adjusted_close>28.2974</adjusted_close>
+    <volume>470078941</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>35.8539</open>
+    <high>35.8824</high>
+    <low>33.5674</low>
+    <close>34.8197</close>
+    <adjusted_close>27.4812</adjusted_close>
+    <volume>510247724</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>35.0190</open>
+    <high>36.8596</high>
+    <low>32.8273</low>
+    <close>33.6622</close>
+    <adjusted_close>26.5677</adjusted_close>
+    <volume>555231707</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>34.0892</open>
+    <high>39.8387</high>
+    <low>33.7192</low>
+    <close>38.3100</close>
+    <adjusted_close>30.5469</adjusted_close>
+    <volume>1091575597</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>39.4000</open>
+    <high>43.0800</high>
+    <low>36.2900</low>
+    <close>36.8100</close>
+    <adjusted_close>29.3508</adjusted_close>
+    <volume>1161346900</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>36.8700</open>
+    <high>37.8300</high>
+    <low>35.6200</low>
+    <close>35.9000</close>
+    <adjusted_close>28.9366</adjusted_close>
+    <volume>689094500</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>35.9300</open>
+    <high>36.1900</high>
+    <low>33.3600</low>
+    <close>33.4900</close>
+    <adjusted_close>26.9941</adjusted_close>
+    <volume>665243900</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>33.5900</open>
+    <high>36.7400</high>
+    <low>33.4400</low>
+    <close>36.2300</close>
+    <adjusted_close>29.2026</adjusted_close>
+    <volume>675588700</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>36.3000</open>
+    <high>39.6700</high>
+    <low>35.7600</low>
+    <close>38.6500</close>
+    <adjusted_close>31.1532</adjusted_close>
+    <volume>558679000</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>39.0400</open>
+    <high>41.0900</high>
+    <low>37.9600</low>
+    <close>38.7300</close>
+    <adjusted_close>31.5253</adjusted_close>
+    <volume>615262500</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>38.9400</open>
+    <high>40.7200</high>
+    <low>38.4800</low>
+    <close>39.1600</close>
+    <adjusted_close>31.8753</adjusted_close>
+    <volume>485677900</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>39.1700</open>
+    <high>43.7400</high>
+    <low>38.9300</low>
+    <close>42.8100</close>
+    <adjusted_close>35.1620</adjusted_close>
+    <volume>525510400</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>43.3000</open>
+    <high>51.8600</high>
+    <low>43.2500</low>
+    <close>46.0700</close>
+    <adjusted_close>37.8395</adjusted_close>
+    <volume>1008466500</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>46.1900</open>
+    <high>47.5000</high>
+    <low>42.4300</low>
+    <close>43.0100</close>
+    <adjusted_close>35.3262</adjusted_close>
+    <volume>544666400</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>42.5200</open>
+    <high>43.8300</high>
+    <low>40.9400</low>
+    <close>43.7400</close>
+    <adjusted_close>35.9258</adjusted_close>
+    <volume>471555700</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>44.1400</open>
+    <high>55.7000</high>
+    <low>43.0500</low>
+    <close>53.7300</close>
+    <adjusted_close>44.5185</adjusted_close>
+    <volume>1010245500</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>52.4700</open>
+    <high>61.7100</high>
+    <low>50.4000</low>
+    <close>59.0500</close>
+    <adjusted_close>48.9264</adjusted_close>
+    <volume>1064029400</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>58.5000</open>
+    <high>58.5500</high>
+    <low>49.8200</low>
+    <close>52.6900</close>
+    <adjusted_close>43.9887</adjusted_close>
+    <volume>778212000</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>52.7400</open>
+    <high>54.1300</high>
+    <low>45.4000</low>
+    <close>46.9400</close>
+    <adjusted_close>39.1882</adjusted_close>
+    <volume>634804800</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>46.6900</open>
+    <high>55.3000</high>
+    <low>45.4400</low>
+    <close>51.7700</close>
+    <adjusted_close>43.2206</adjusted_close>
+    <volume>718106000</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>52.1200</open>
+    <high>56.3200</high>
+    <low>47.1200</low>
+    <close>49.0700</close>
+    <adjusted_close>40.9665</adjusted_close>
+    <volume>482896600</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>47.6800</open>
+    <high>54.9200</high>
+    <low>47.4600</low>
+    <close>53.0400</close>
+    <adjusted_close>44.6420</adjusted_close>
+    <volume>583220400</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>53.2500</open>
+    <high>54.5600</high>
+    <low>46.2800</low>
+    <close>52.4300</close>
+    <adjusted_close>44.1286</adjusted_close>
+    <volume>449186100</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>52.0400</open>
+    <high>53.9200</high>
+    <low>49.1000</low>
+    <close>50.5100</close>
+    <adjusted_close>42.8424</adjusted_close>
+    <volume>340227500</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>50.3200</open>
+    <high>51.4700</high>
+    <low>45.1300</low>
+    <close>45.2300</close>
+    <adjusted_close>38.3640</adjusted_close>
+    <volume>411896600</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>45.1400</open>
+    <high>48.3500</high>
+    <low>43.5200</low>
+    <close>43.7600</close>
+    <adjusted_close>37.1171</adjusted_close>
+    <volume>376670300</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>44.0700</open>
+    <high>47.5200</high>
+    <low>41.4500</low>
+    <close>46.5500</close>
+    <adjusted_close>39.4836</adjusted_close>
+    <volume>466825100</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>48.0000</open>
+    <high>50.1300</high>
+    <low>46.1600</low>
+    <close>50.1300</close>
+    <adjusted_close>42.8846</adjusted_close>
+    <volume>419484600</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>50.3100</open>
+    <high>54.9300</high>
+    <low>49.1800</low>
+    <close>51.2400</close>
+    <adjusted_close>43.8341</adjusted_close>
+    <volume>423156900</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>51.0100</open>
+    <high>51.6000</high>
+    <low>42.7000</low>
+    <close>44.1600</close>
+    <adjusted_close>38.1242</adjusted_close>
+    <volume>522769000</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>43.9100</open>
+    <high>44.4600</high>
+    <low>40.0900</low>
+    <close>40.5700</close>
+    <adjusted_close>35.0249</adjusted_close>
+    <volume>403988700</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>40.5600</open>
+    <high>41.2600</high>
+    <low>39.2300</low>
+    <close>40.8000</close>
+    <adjusted_close>35.2235</adjusted_close>
+    <volume>504067700</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>40.6900</open>
+    <high>42.2200</high>
+    <low>38.3100</low>
+    <close>38.8900</close>
+    <adjusted_close>33.5745</adjusted_close>
+    <volume>387645900</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>39.0000</open>
+    <high>40.1400</high>
+    <low>36.1700</low>
+    <close>38.0200</close>
+    <adjusted_close>33.1786</adjusted_close>
+    <volume>678041800</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>38.1200</open>
+    <high>40.3700</high>
+    <low>35.7600</low>
+    <close>36.6800</close>
+    <adjusted_close>32.0093</adjusted_close>
+    <volume>562641300</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>36.5000</open>
+    <high>37.8000</high>
+    <low>35.3500</low>
+    <close>36.0600</close>
+    <adjusted_close>31.8188</adjusted_close>
+    <volume>441642200</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>35.8800</open>
+    <high>37.1900</high>
+    <low>34.6600</low>
+    <close>35.3800</close>
+    <adjusted_close>31.2188</adjusted_close>
+    <volume>537104500</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>35.6400</open>
+    <high>36.2900</high>
+    <low>31.7700</low>
+    <close>33.1700</close>
+    <adjusted_close>29.2687</adjusted_close>
+    <volume>554689100</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>32.9500</open>
+    <high>34.1100</high>
+    <low>29.7000</low>
+    <close>30.5600</close>
+    <adjusted_close>26.9657</adjusted_close>
+    <volume>681416300</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>30.5600</open>
+    <high>31.4100</high>
+    <low>28.9300</low>
+    <close>30.4700</close>
+    <adjusted_close>27.2488</adjusted_close>
+    <volume>607150200</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>28.9700</open>
+    <high>29.6400</high>
+    <low>25.7600</low>
+    <close>28.7900</close>
+    <adjusted_close>25.7464</adjusted_close>
+    <volume>1178554900</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>28.8800</open>
+    <high>30.2800</high>
+    <low>26.7800</low>
+    <close>27.0800</close>
+    <adjusted_close>24.5816</adjusted_close>
+    <volume>972933500</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>27.1000</open>
+    <high>28.1400</high>
+    <low>26.5200</low>
+    <close>26.5600</close>
+    <adjusted_close>24.1096</adjusted_close>
+    <volume>762373700</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>26.8300</open>
+    <high>28.6900</high>
+    <low>25.6100</low>
+    <close>27.7500</close>
+    <adjusted_close>25.1898</adjusted_close>
+    <volume>939083100</volume>
+    <news>PFE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>27.7600</open>
+    <high>27.8700</high>
+    <low>25.2000</low>
+    <close>25.6200</close>
+    <adjusted_close>23.2563</adjusted_close>
+    <volume>806890100</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>26.3300</open>
+    <high>29.6300</high>
+    <low>26.0200</low>
+    <close>28.6600</close>
+    <adjusted_close>26.4081</adjusted_close>
+    <volume>953935500</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>28.6600</open>
+    <high>29.7300</high>
+    <low>26.8700</low>
+    <close>27.9800</close>
+    <adjusted_close>25.7816</adjusted_close>
+    <volume>633849500</volume>
+    <news>PFE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>27.9500</open>
+    <high>31.5400</high>
+    <low>27.3000</low>
+    <close>30.5400</close>
+    <adjusted_close>28.5376</adjusted_close>
+    <volume>781039500</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>30.7200</open>
+    <high>31.3200</high>
+    <low>27.8500</low>
+    <close>29.0100</close>
+    <adjusted_close>27.1079</adjusted_close>
+    <volume>613665800</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>28.6500</open>
+    <high>30.3500</high>
+    <low>28.1400</low>
+    <close>28.9400</close>
+    <adjusted_close>27.0425</adjusted_close>
+    <volume>600228100</volume>
+    <news>PFE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>29.0500</open>
+    <high>30.4300</high>
+    <low>28.0300</low>
+    <close>28.3000</close>
+    <adjusted_close>26.4444</adjusted_close>
+    <volume>785354000</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>28.4800</open>
+    <high>28.5400</high>
+    <low>24.4800</low>
+    <close>26.2100</close>
+    <adjusted_close>24.8719</adjusted_close>
+    <volume>1024980800</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>26.0700</open>
+    <high>26.8500</high>
+    <low>25.0600</low>
+    <close>26.5300</close>
+    <adjusted_close>25.1756</adjusted_close>
+    <volume>906524100</volume>
+    <news>PFE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</pfizer_stock_data>

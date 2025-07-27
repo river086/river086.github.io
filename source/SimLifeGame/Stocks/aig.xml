@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<aig_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>1428.3334</open>
+    <high>1526.6666</high>
+    <low>1288.3334</low>
+    <close>1391.6666</close>
+    <adjusted_close>829.0797</adjusted_close>
+    <volume>4646133</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>1381.6666</open>
+    <high>1385.8334</high>
+    <low>1103.3334</low>
+    <close>1179.1666</close>
+    <adjusted_close>702.4836</adjusted_close>
+    <volume>6332878</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>1190.0000</open>
+    <high>1481.6666</high>
+    <low>1047.5000</low>
+    <close>1460.0000</close>
+    <adjusted_close>870.2809</adjusted_close>
+    <volume>7303062</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>1463.3334</open>
+    <high>1590.0000</high>
+    <low>1334.1666</low>
+    <close>1462.5000</close>
+    <adjusted_close>871.7712</adjusted_close>
+    <volume>4914837</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>1465.8334</open>
+    <high>1652.5000</high>
+    <low>1454.1666</low>
+    <close>1500.8334</close>
+    <adjusted_close>895.0143</adjusted_close>
+    <volume>4635545</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>1505.8334</open>
+    <high>1654.1666</high>
+    <low>1500.8334</low>
+    <close>1566.6666</close>
+    <adjusted_close>934.2734</adjusted_close>
+    <volume>3704586</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>1566.6666</open>
+    <high>1770.0000</high>
+    <low>1561.6666</low>
+    <close>1753.7500</close>
+    <adjusted_close>1045.8397</adjusted_close>
+    <volume>3655543</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>1755.0000</open>
+    <high>1803.7500</high>
+    <low>1690.0000</low>
+    <close>1782.8125</close>
+    <adjusted_close>1063.6278</adjusted_close>
+    <volume>2923040</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>1782.5000</open>
+    <high>1950.0000</high>
+    <low>1721.2500</low>
+    <close>1913.7500</close>
+    <adjusted_close>1141.7456</adjusted_close>
+    <volume>3262235</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>1902.5000</open>
+    <high>1998.7500</high>
+    <low>1796.2500</low>
+    <close>1960.0000</close>
+    <adjusted_close>1169.3378</adjusted_close>
+    <volume>4326785</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>1970.0000</open>
+    <high>2051.2500</high>
+    <low>1821.2500</low>
+    <close>1938.7500</close>
+    <adjusted_close>1157.1168</adjusted_close>
+    <volume>4031150</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>1940.0000</open>
+    <high>2075.0000</high>
+    <low>1850.0000</low>
+    <close>1971.2500</close>
+    <adjusted_close>1176.5146</adjusted_close>
+    <volume>4678720</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>1966.2500</open>
+    <high>1966.2500</high>
+    <low>1616.2500</low>
+    <close>1700.4000</close>
+    <adjusted_close>1014.8613</adjusted_close>
+    <volume>6685040</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>1709.0000</open>
+    <high>1790.2000</high>
+    <low>1592.4000</low>
+    <close>1636.0000</close>
+    <adjusted_close>976.8518</adjusted_close>
+    <volume>4186565</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>1636.0000</open>
+    <high>1690.0000</high>
+    <low>1452.8000</low>
+    <close>1610.0000</close>
+    <adjusted_close>961.3276</adjusted_close>
+    <volume>5710495</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>1620.0000</open>
+    <high>1674.4000</high>
+    <low>1500.0000</low>
+    <close>1636.0000</close>
+    <adjusted_close>976.8518</adjusted_close>
+    <volume>6033140</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>1636.0000</open>
+    <high>1699.8000</high>
+    <low>1608.4000</low>
+    <close>1620.0000</close>
+    <adjusted_close>967.7336</adjusted_close>
+    <volume>4899190</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>1627.0000</open>
+    <high>1734.0000</high>
+    <low>1597.8000</low>
+    <close>1700.2000</close>
+    <adjusted_close>1015.6430</adjusted_close>
+    <volume>5127175</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>1715.0000</open>
+    <high>1742.0000</high>
+    <low>1622.8000</low>
+    <close>1665.0000</close>
+    <adjusted_close>994.6153</adjusted_close>
+    <volume>4737655</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>1668.0000</open>
+    <high>1670.2000</high>
+    <low>1527.8000</low>
+    <close>1564.0000</close>
+    <adjusted_close>934.7632</adjusted_close>
+    <volume>7257540</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>1558.0000</open>
+    <high>1560.0000</high>
+    <low>1320.0000</low>
+    <close>1560.0000</close>
+    <adjusted_close>932.3724</adjusted_close>
+    <volume>8466420</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>1555.0000</open>
+    <high>1728.0000</high>
+    <low>1514.0000</low>
+    <close>1572.0000</close>
+    <adjusted_close>939.5442</adjusted_close>
+    <volume>7094195</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>1570.0000</open>
+    <high>1676.8000</high>
+    <low>1540.4000</low>
+    <close>1648.0000</close>
+    <adjusted_close>984.9677</adjusted_close>
+    <volume>5134290</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>1640.0000</open>
+    <high>1664.2000</high>
+    <low>1580.0000</low>
+    <close>1588.0000</close>
+    <adjusted_close>949.5938</adjusted_close>
+    <volume>4345800</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>1589.0000</open>
+    <high>1600.0000</high>
+    <low>1330.0000</low>
+    <close>1483.0000</close>
+    <adjusted_close>886.8057</adjusted_close>
+    <volume>7432130</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>1483.0000</open>
+    <high>1547.6000</high>
+    <low>1364.8000</low>
+    <close>1479.4000</close>
+    <adjusted_close>885.1657</adjusted_close>
+    <volume>6642725</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>1474.4000</open>
+    <high>1535.0000</high>
+    <low>1410.0000</low>
+    <close>1442.8000</close>
+    <adjusted_close>863.2668</adjusted_close>
+    <volume>5115595</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>1430.0000</open>
+    <high>1510.8000</high>
+    <low>1349.8000</low>
+    <close>1382.4000</close>
+    <adjusted_close>827.1278</adjusted_close>
+    <volume>6673205</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>1405.0000</open>
+    <high>1432.0000</high>
+    <low>1310.0000</low>
+    <close>1339.4000</close>
+    <adjusted_close>801.3997</adjusted_close>
+    <volume>6494305</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>1339.4000</open>
+    <high>1384.0000</high>
+    <low>1236.0000</low>
+    <close>1364.6000</close>
+    <adjusted_close>817.0225</adjusted_close>
+    <volume>6766900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>1364.8000</open>
+    <high>1370.0000</high>
+    <low>952.2000</low>
+    <close>1278.4000</close>
+    <adjusted_close>765.4122</adjusted_close>
+    <volume>10445415</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>1278.2000</open>
+    <high>1360.2000</high>
+    <low>1144.0000</low>
+    <close>1256.0000</close>
+    <adjusted_close>752.0006</adjusted_close>
+    <volume>6642875</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>1251.0000</open>
+    <high>1251.0000</high>
+    <low>1052.0000</low>
+    <close>1094.0000</close>
+    <adjusted_close>655.5237</adjusted_close>
+    <volume>6521900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>1094.0000</open>
+    <high>1321.0000</high>
+    <low>1037.6000</low>
+    <close>1251.0000</close>
+    <adjusted_close>749.5980</adjusted_close>
+    <volume>8621050</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>1248.0000</open>
+    <high>1365.0000</high>
+    <low>1220.0000</low>
+    <close>1303.0000</close>
+    <adjusted_close>780.7561</adjusted_close>
+    <volume>5655180</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>1330.0000</open>
+    <high>1330.0000</high>
+    <low>1121.0000</low>
+    <close>1157.0000</close>
+    <adjusted_close>693.8035</adjusted_close>
+    <volume>5550780</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>1162.0000</open>
+    <high>1270.6000</high>
+    <low>1062.0000</low>
+    <close>1082.4000</close>
+    <adjusted_close>649.0689</adjusted_close>
+    <volume>6377440</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>1091.0000</open>
+    <high>1113.8000</high>
+    <low>918.0000</low>
+    <close>985.8000</close>
+    <adjusted_close>591.1419</adjusted_close>
+    <volume>9973455</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>989.4000</open>
+    <high>1095.6000</high>
+    <low>858.4000</low>
+    <close>989.0000</close>
+    <adjusted_close>593.6475</adjusted_close>
+    <volume>8582230</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>989.2000</open>
+    <high>1170.0000</high>
+    <low>989.2000</low>
+    <close>1159.0000</close>
+    <adjusted_close>695.6899</adjusted_close>
+    <volume>7495790</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>1159.0000</open>
+    <high>1169.0000</high>
+    <low>1090.0000</low>
+    <close>1157.6000</close>
+    <adjusted_close>694.8499</adjusted_close>
+    <volume>6402615</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>1160.0000</open>
+    <high>1212.0000</high>
+    <low>1098.0000</low>
+    <close>1103.6000</close>
+    <adjusted_close>662.9742</adjusted_close>
+    <volume>6029775</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>1098.0000</open>
+    <high>1304.8000</high>
+    <low>1084.0000</low>
+    <close>1284.0000</close>
+    <adjusted_close>771.3478</adjusted_close>
+    <volume>7187770</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>1280.0000</open>
+    <high>1295.0000</high>
+    <low>1172.2000</low>
+    <close>1191.4000</close>
+    <adjusted_close>715.7191</adjusted_close>
+    <volume>4949570</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>1188.0000</open>
+    <high>1219.6000</high>
+    <low>1145.0000</low>
+    <close>1154.0000</close>
+    <adjusted_close>694.0157</adjusted_close>
+    <volume>5885220</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>1158.0000</open>
+    <high>1262.6000</high>
+    <low>1157.2000</low>
+    <close>1216.6000</close>
+    <adjusted_close>731.6637</adjusted_close>
+    <volume>5859095</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>1217.0000</open>
+    <high>1243.0000</high>
+    <low>1123.2000</low>
+    <close>1159.0000</close>
+    <adjusted_close>697.0229</adjusted_close>
+    <volume>4829170</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>1159.0000</open>
+    <high>1327.0000</high>
+    <low>1157.0000</low>
+    <close>1325.6000</close>
+    <adjusted_close>798.1058</adjusted_close>
+    <volume>5723680</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>1330.0000</open>
+    <high>1416.2000</high>
+    <low>1327.6000</low>
+    <close>1389.0000</close>
+    <adjusted_close>836.2775</adjusted_close>
+    <volume>5268365</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>1392.0000</open>
+    <high>1513.2000</high>
+    <low>1390.6000</low>
+    <close>1480.0000</close>
+    <adjusted_close>891.0657</adjusted_close>
+    <volume>5022000</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>1487.0000</open>
+    <high>1504.0000</high>
+    <low>1374.0000</low>
+    <close>1427.0000</close>
+    <adjusted_close>859.9124</adjusted_close>
+    <volume>5861715</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>1451.0000</open>
+    <high>1547.2000</high>
+    <low>1424.6000</low>
+    <close>1433.0000</close>
+    <adjusted_close>863.5280</adjusted_close>
+    <volume>6542825</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>1440.0000</open>
+    <high>1467.6000</high>
+    <low>1374.6000</low>
+    <close>1466.0000</close>
+    <adjusted_close>883.4135</adjusted_close>
+    <volume>5116915</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>1460.4000</open>
+    <high>1499.6000</high>
+    <low>1419.2000</low>
+    <close>1425.6000</close>
+    <adjusted_close>859.9522</adjusted_close>
+    <volume>4564290</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>1418.0000</open>
+    <high>1442.0000</high>
+    <low>1320.0000</low>
+    <close>1413.0000</close>
+    <adjusted_close>852.3514</adjusted_close>
+    <volume>5074625</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>1413.0000</open>
+    <high>1430.0000</high>
+    <low>1325.0000</low>
+    <close>1424.8000</close>
+    <adjusted_close>859.4695</adjusted_close>
+    <volume>4195505</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>1423.2000</open>
+    <high>1460.0000</high>
+    <low>1352.6000</low>
+    <close>1359.8000</close>
+    <adjusted_close>821.1248</adjusted_close>
+    <volume>4533155</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>1359.8000</open>
+    <high>1378.0000</high>
+    <low>1085.6000</low>
+    <close>1214.2000</close>
+    <adjusted_close>733.2031</adjusted_close>
+    <volume>18618005</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>1224.0000</open>
+    <high>1290.4000</high>
+    <low>1196.0000</low>
+    <close>1267.0000</close>
+    <adjusted_close>765.0864</adjusted_close>
+    <volume>8812400</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>1269.0000</open>
+    <high>1334.8000</high>
+    <low>1268.0000</low>
+    <close>1313.4000</close>
+    <adjusted_close>794.0461</adjusted_close>
+    <volume>6118730</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>1322.0000</open>
+    <high>1359.2000</high>
+    <low>1310.8000</low>
+    <close>1325.8000</close>
+    <adjusted_close>801.5424</adjusted_close>
+    <volume>6074020</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>1325.0000</open>
+    <high>1469.2000</high>
+    <low>1317.2000</low>
+    <close>1336.0000</close>
+    <adjusted_close>807.7091</adjusted_close>
+    <volume>7502170</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>1337.0000</open>
+    <high>1350.2000</high>
+    <low>1083.6000</low>
+    <close>1108.2000</close>
+    <adjusted_close>671.2483</adjusted_close>
+    <volume>20064735</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>1100.0000</open>
+    <high>1116.0000</high>
+    <low>998.2000</low>
+    <close>1017.0000</close>
+    <adjusted_close>616.0075</adjusted_close>
+    <volume>21160365</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>1078.0000</open>
+    <high>1140.2000</high>
+    <low>1034.4000</low>
+    <close>1111.0000</close>
+    <adjusted_close>672.9442</adjusted_close>
+    <volume>10088110</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>1116.0000</open>
+    <high>1178.8000</high>
+    <low>1090.2000</low>
+    <close>1162.0000</close>
+    <adjusted_close>705.4232</adjusted_close>
+    <volume>9419170</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>1169.0000</open>
+    <high>1225.0000</high>
+    <low>1163.2000</low>
+    <close>1204.0000</close>
+    <adjusted_close>730.9199</adjusted_close>
+    <volume>6570560</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>1205.4000</open>
+    <high>1274.6000</high>
+    <low>1160.0000</low>
+    <close>1184.0000</close>
+    <adjusted_close>720.6020</adjusted_close>
+    <volume>7970240</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>1175.0000</open>
+    <high>1248.0000</high>
+    <low>1170.2000</low>
+    <close>1239.2000</close>
+    <adjusted_close>754.1974</adjusted_close>
+    <volume>8359655</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>1234.6000</open>
+    <high>1299.8000</high>
+    <low>1218.6000</low>
+    <close>1296.0000</close>
+    <adjusted_close>788.7670</adjusted_close>
+    <volume>6819880</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>1296.0000</open>
+    <high>1388.0000</high>
+    <low>1290.2000</low>
+    <close>1342.8000</close>
+    <adjusted_close>819.0556</adjusted_close>
+    <volume>7941220</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>1346.2000</open>
+    <high>1384.0000</high>
+    <low>1299.6000</low>
+    <close>1364.6000</close>
+    <adjusted_close>832.3527</adjusted_close>
+    <volume>6896490</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>1378.8000</open>
+    <high>1421.8000</high>
+    <low>1306.2000</low>
+    <close>1309.2000</close>
+    <adjusted_close>798.5606</adjusted_close>
+    <volume>6727210</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>1312.0000</open>
+    <high>1373.8000</high>
+    <low>1293.4000</low>
+    <close>1327.2000</close>
+    <adjusted_close>809.5399</adjusted_close>
+    <volume>6190935</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>1325.8000</open>
+    <high>1390.0000</high>
+    <low>1302.4000</low>
+    <close>1321.8000</close>
+    <adjusted_close>808.0729</adjusted_close>
+    <volume>8069300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>1328.0000</open>
+    <high>1330.2000</high>
+    <low>1237.8000</low>
+    <close>1305.0000</close>
+    <adjusted_close>797.8021</adjusted_close>
+    <volume>6245685</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>1315.0000</open>
+    <high>1334.2000</high>
+    <low>1200.6000</low>
+    <close>1216.0000</close>
+    <adjusted_close>745.2375</adjusted_close>
+    <volume>9885260</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>1216.0000</open>
+    <high>1233.0000</high>
+    <low>1170.8000</low>
+    <close>1181.0000</close>
+    <adjusted_close>723.7870</adjusted_close>
+    <volume>7476535</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>1181.2000</open>
+    <high>1223.0000</high>
+    <low>1150.4000</low>
+    <close>1213.4000</close>
+    <adjusted_close>743.6437</adjusted_close>
+    <volume>6124415</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>1213.4000</open>
+    <high>1281.0000</high>
+    <low>1164.8000</low>
+    <close>1276.4000</close>
+    <adjusted_close>784.2887</adjusted_close>
+    <volume>8004280</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>1285.0000</open>
+    <high>1336.0000</high>
+    <low>1267.2000</low>
+    <close>1325.2000</close>
+    <adjusted_close>814.2737</adjusted_close>
+    <volume>6578645</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>1326.0000</open>
+    <high>1359.6000</high>
+    <low>1316.8000</low>
+    <close>1343.4000</close>
+    <adjusted_close>825.4570</adjusted_close>
+    <volume>6339500</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>1343.0000</open>
+    <high>1451.0000</high>
+    <low>1326.4000</low>
+    <close>1406.4000</close>
+    <adjusted_close>866.2137</adjusted_close>
+    <volume>8788585</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>1401.0000</open>
+    <high>1459.4000</high>
+    <low>1383.4000</low>
+    <close>1433.2000</close>
+    <adjusted_close>882.7200</adjusted_close>
+    <volume>5974455</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>1437.2000</open>
+    <high>1449.0000</high>
+    <low>1358.8000</low>
+    <close>1369.0000</close>
+    <adjusted_close>843.1786</adjusted_close>
+    <volume>7554270</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>1372.0000</open>
+    <high>1403.8000</high>
+    <low>1307.6000</low>
+    <close>1342.2000</close>
+    <adjusted_close>828.7206</adjusted_close>
+    <volume>7067900</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>1329.0000</open>
+    <high>1400.8000</high>
+    <low>1316.6000</low>
+    <close>1344.4000</close>
+    <adjusted_close>830.0786</adjusted_close>
+    <volume>12301360</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>1350.0000</open>
+    <high>1418.4000</high>
+    <low>1323.0000</low>
+    <close>1398.2000</close>
+    <adjusted_close>863.2969</adjusted_close>
+    <volume>10141335</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>1400.0000</open>
+    <high>1459.4000</high>
+    <low>1383.2000</low>
+    <close>1446.8000</close>
+    <adjusted_close>895.3593</adjusted_close>
+    <volume>11296075</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>1454.0000</open>
+    <high>1459.2000</high>
+    <low>1391.4000</low>
+    <close>1400.6000</close>
+    <adjusted_close>866.7678</adjusted_close>
+    <volume>11209795</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>1408.6000</open>
+    <high>1413.8000</high>
+    <low>1282.0000</low>
+    <close>1283.6000</close>
+    <adjusted_close>794.3619</adjusted_close>
+    <volume>15487015</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>1274.2000</open>
+    <high>1354.4000</high>
+    <low>1200.0000</low>
+    <close>1320.0000</close>
+    <adjusted_close>816.8884</adjusted_close>
+    <volume>19683220</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>1320.6000</open>
+    <high>1358.8000</high>
+    <low>1264.8000</low>
+    <close>1353.0000</close>
+    <adjusted_close>839.8344</adjusted_close>
+    <volume>10642910</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>1349.6000</open>
+    <high>1402.6000</high>
+    <low>1169.2000</low>
+    <close>1262.4000</close>
+    <adjusted_close>783.5969</adjusted_close>
+    <volume>16905135</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>1240.4000</open>
+    <high>1245.4000</high>
+    <low>1017.2000</low>
+    <close>1162.6000</close>
+    <adjusted_close>721.6491</adjusted_close>
+    <volume>25784025</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>1154.0000</open>
+    <high>1246.0000</high>
+    <low>1092.8000</low>
+    <close>1166.0000</close>
+    <adjusted_close>726.3702</adjusted_close>
+    <volume>17335050</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>1171.8000</open>
+    <high>1188.4000</high>
+    <low>988.0000</low>
+    <close>1099.4000</close>
+    <adjusted_close>684.8808</adjusted_close>
+    <volume>20970770</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>1101.2000</open>
+    <high>1132.0000</high>
+    <low>882.0000</low>
+    <close>937.2000</close>
+    <adjusted_close>583.8369</adjusted_close>
+    <volume>28511875</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>932.2000</open>
+    <high>952.6000</high>
+    <low>770.0000</low>
+    <close>865.0000</close>
+    <adjusted_close>541.2213</adjusted_close>
+    <volume>25146510</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>890.2000</open>
+    <high>983.6000</high>
+    <low>861.4000</low>
+    <close>924.0000</close>
+    <adjusted_close>578.1369</adjusted_close>
+    <volume>16257870</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>924.4000</open>
+    <high>990.0000</high>
+    <low>690.6000</low>
+    <close>720.0000</close>
+    <adjusted_close>450.4962</adjusted_close>
+    <volume>43695695</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>720.0000</open>
+    <high>735.4000</high>
+    <low>527.4000</low>
+    <close>529.2000</close>
+    <adjusted_close>332.9641</adjusted_close>
+    <volume>33028330</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>521.8000</open>
+    <high>621.8000</high>
+    <low>394.6000</low>
+    <close>521.0000</close>
+    <adjusted_close>327.8047</adjusted_close>
+    <volume>45998160</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>530.4000</open>
+    <high>598.0000</high>
+    <low>372.8000</low>
+    <close>429.8000</close>
+    <adjusted_close>270.4233</adjusted_close>
+    <volume>48044960</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>444.0000</open>
+    <high>493.6000</high>
+    <low>25.0000</low>
+    <close>66.6000</close>
+    <adjusted_close>42.3277</adjusted_close>
+    <volume>288265890</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>74.6000</open>
+    <high>99.2000</high>
+    <low>27.0000</low>
+    <close>38.2000</close>
+    <adjusted_close>24.2781</adjusted_close>
+    <volume>130256020</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>40.0000</open>
+    <high>56.8000</high>
+    <low>28.8000</low>
+    <close>40.2000</close>
+    <adjusted_close>25.5491</adjusted_close>
+    <volume>74570090</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>39.2000</open>
+    <high>42.4000</high>
+    <low>30.4000</low>
+    <close>31.4000</close>
+    <adjusted_close>19.9563</adjusted_close>
+    <volume>44661575</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>31.4000</open>
+    <high>35.0000</high>
+    <low>25.0000</low>
+    <close>25.6000</close>
+    <adjusted_close>16.2701</adjusted_close>
+    <volume>30970855</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>25.4000</open>
+    <high>25.4000</high>
+    <low>7.6000</low>
+    <close>8.4000</close>
+    <adjusted_close>5.3386</adjusted_close>
+    <volume>50440900</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>10.4000</open>
+    <high>40.0000</high>
+    <low>6.6000</low>
+    <close>20.0000</close>
+    <adjusted_close>12.7110</adjusted_close>
+    <volume>201987810</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>19.6000</open>
+    <high>35.6000</high>
+    <low>19.4000</low>
+    <close>27.6000</close>
+    <adjusted_close>17.5412</adjusted_close>
+    <volume>120331950</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>27.6000</open>
+    <high>43.8000</high>
+    <low>27.4000</low>
+    <close>33.8000</close>
+    <adjusted_close>21.4816</adjusted_close>
+    <volume>121326155</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>34.0000</open>
+    <high>34.8000</high>
+    <low>21.6000</low>
+    <close>23.2000</close>
+    <adjusted_close>14.7448</adjusted_close>
+    <volume>55970810</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>19.6500</open>
+    <high>22.9600</high>
+    <low>8.2200</low>
+    <close>13.1400</close>
+    <adjusted_close>8.3511</adjusted_close>
+    <volume>579763300</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>13.2900</open>
+    <high>55.9000</high>
+    <low>12.9700</low>
+    <close>45.3300</close>
+    <adjusted_close>28.8095</adjusted_close>
+    <volume>1178001300</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>41.0400</open>
+    <high>54.4000</high>
+    <low>32.6600</low>
+    <close>44.1100</close>
+    <adjusted_close>28.0342</adjusted_close>
+    <volume>1144957400</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>43.5700</open>
+    <high>47.4200</high>
+    <low>33.0200</low>
+    <close>33.6200</close>
+    <adjusted_close>21.3672</adjusted_close>
+    <volume>574491000</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>34.4200</open>
+    <high>40.0900</high>
+    <low>28.0400</low>
+    <close>28.4000</close>
+    <adjusted_close>18.0496</adjusted_close>
+    <volume>366250600</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>29.5800</open>
+    <high>32.8000</high>
+    <low>27.4000</low>
+    <close>29.9800</close>
+    <adjusted_close>19.0538</adjusted_close>
+    <volume>243815600</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>30.5300</open>
+    <high>30.5400</high>
+    <low>23.0400</low>
+    <close>24.2300</close>
+    <adjusted_close>15.3994</adjusted_close>
+    <volume>166897600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>24.3800</open>
+    <high>29.3000</high>
+    <low>21.5400</low>
+    <close>24.7700</close>
+    <adjusted_close>15.7426</adjusted_close>
+    <volume>231735600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>27.9600</open>
+    <high>38.4500</high>
+    <low>24.5000</low>
+    <close>34.1400</close>
+    <adjusted_close>21.6977</adjusted_close>
+    <volume>561267900</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>34.2500</open>
+    <high>45.9000</high>
+    <low>33.8100</low>
+    <close>38.9000</close>
+    <adjusted_close>24.7229</adjusted_close>
+    <volume>477136300</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>39.5300</open>
+    <high>44.3600</high>
+    <low>32.1100</low>
+    <close>35.3800</close>
+    <adjusted_close>22.4858</adjusted_close>
+    <volume>211774400</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>34.7400</open>
+    <high>39.7100</high>
+    <low>33.5100</low>
+    <close>34.4400</close>
+    <adjusted_close>21.8884</adjusted_close>
+    <volume>102150700</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>34.4100</open>
+    <high>40.1100</high>
+    <low>32.5000</low>
+    <close>38.4700</close>
+    <adjusted_close>24.4496</adjusted_close>
+    <volume>88341700</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>39.1000</open>
+    <high>42.1900</high>
+    <low>33.3500</low>
+    <close>33.9300</close>
+    <adjusted_close>21.5642</adjusted_close>
+    <volume>90486200</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>34.6900</open>
+    <high>40.1400</high>
+    <low>34.3900</low>
+    <close>39.1000</close>
+    <adjusted_close>24.8500</adjusted_close>
+    <volume>85775400</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>38.9900</open>
+    <high>43.5700</high>
+    <low>38.3000</low>
+    <close>42.0100</close>
+    <adjusted_close>26.6995</adjusted_close>
+    <volume>86575700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>41.9400</open>
+    <high>45.9500</high>
+    <low>40.6000</low>
+    <close>41.2900</close>
+    <adjusted_close>26.2419</adjusted_close>
+    <volume>72694000</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>41.7600</open>
+    <high>61.6800</high>
+    <low>41.6500</low>
+    <close>57.6200</close>
+    <adjusted_close>36.6204</adjusted_close>
+    <volume>175933200</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>58.3400</open>
+    <high>62.8700</high>
+    <low>40.2000</low>
+    <close>40.3500</close>
+    <adjusted_close>30.9164</adjusted_close>
+    <volume>200757700</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>40.7300</open>
+    <high>43.2000</high>
+    <low>37.0600</low>
+    <close>37.0600</close>
+    <adjusted_close>28.3956</adjusted_close>
+    <volume>119103300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>37.3400</open>
+    <high>38.4400</high>
+    <low>34.9500</low>
+    <close>35.1400</close>
+    <adjusted_close>26.9244</adjusted_close>
+    <volume>99879300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>35.2000</open>
+    <high>35.5700</high>
+    <low>31.1100</low>
+    <close>31.1500</close>
+    <adjusted_close>23.8673</adjusted_close>
+    <volume>84028200</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>31.3900</open>
+    <high>31.8000</high>
+    <low>27.5000</low>
+    <close>28.5000</close>
+    <adjusted_close>21.8368</adjusted_close>
+    <volume>429335700</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>28.3700</open>
+    <high>29.4800</high>
+    <low>27.1000</low>
+    <close>29.3200</close>
+    <adjusted_close>22.4651</adjusted_close>
+    <volume>314760900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>29.2500</open>
+    <high>30.3400</high>
+    <low>27.0500</low>
+    <close>28.7000</close>
+    <adjusted_close>21.9901</adjusted_close>
+    <volume>130194900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>29.0800</open>
+    <high>29.1900</high>
+    <low>21.4600</low>
+    <close>25.3300</close>
+    <adjusted_close>19.4080</adjusted_close>
+    <volume>232266700</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>25.2000</open>
+    <high>25.6200</high>
+    <low>21.1900</low>
+    <close>21.9500</close>
+    <adjusted_close>16.8182</adjusted_close>
+    <volume>132830900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>21.7200</open>
+    <high>27.1600</high>
+    <low>19.1800</low>
+    <close>24.6900</close>
+    <adjusted_close>18.9176</adjusted_close>
+    <volume>166786500</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>23.4300</open>
+    <high>24.7800</high>
+    <low>19.9600</low>
+    <close>23.3100</close>
+    <adjusted_close>17.8602</adjusted_close>
+    <volume>130811100</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>23.1500</open>
+    <high>24.5800</high>
+    <low>22.1900</low>
+    <close>23.2000</close>
+    <adjusted_close>17.7760</adjusted_close>
+    <volume>105934900</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>23.7700</open>
+    <high>25.9000</high>
+    <low>23.4000</low>
+    <close>25.1100</close>
+    <adjusted_close>19.2394</adjusted_close>
+    <volume>89599800</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>25.6600</open>
+    <high>30.0900</high>
+    <low>25.3600</low>
+    <close>29.2200</close>
+    <adjusted_close>22.3885</adjusted_close>
+    <volume>127467700</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>29.3900</open>
+    <high>31.3000</high>
+    <low>27.6000</low>
+    <close>30.8300</close>
+    <adjusted_close>23.6221</adjusted_close>
+    <volume>367554300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>30.8500</open>
+    <high>34.9100</high>
+    <low>30.3700</low>
+    <close>34.0300</close>
+    <adjusted_close>26.0740</adjusted_close>
+    <volume>267245400</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>34.2500</open>
+    <high>35.0500</high>
+    <low>27.8900</low>
+    <close>29.1800</close>
+    <adjusted_close>22.3579</adjusted_close>
+    <volume>523586400</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>28.1600</open>
+    <high>32.3500</high>
+    <low>27.1800</low>
+    <close>32.0900</close>
+    <adjusted_close>24.5875</adjusted_close>
+    <volume>269796500</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>32.3800</open>
+    <high>32.6200</high>
+    <low>29.9000</low>
+    <close>31.2700</close>
+    <adjusted_close>23.9592</adjusted_close>
+    <volume>159655600</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>31.3600</open>
+    <high>35.0000</high>
+    <low>30.2700</low>
+    <close>34.3300</close>
+    <adjusted_close>26.3038</adjusted_close>
+    <volume>329142200</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>34.3700</open>
+    <high>35.4200</high>
+    <low>32.1000</low>
+    <close>32.7900</close>
+    <adjusted_close>25.1239</adjusted_close>
+    <volume>868507600</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>33.0200</open>
+    <high>37.6700</high>
+    <low>32.9900</low>
+    <close>34.9300</close>
+    <adjusted_close>26.7636</adjusted_close>
+    <volume>401250000</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>35.1500</open>
+    <high>35.5600</high>
+    <low>30.6400</low>
+    <close>33.1300</close>
+    <adjusted_close>25.3844</adjusted_close>
+    <volume>417104400</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>33.3400</open>
+    <high>35.8200</high>
+    <low>33.0800</low>
+    <close>35.3000</close>
+    <adjusted_close>27.0470</adjusted_close>
+    <volume>730436800</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>36.2900</open>
+    <high>38.0500</high>
+    <low>34.5600</low>
+    <close>37.8300</close>
+    <adjusted_close>28.9855</adjusted_close>
+    <volume>375715700</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>38.1900</open>
+    <high>39.9000</high>
+    <low>36.6800</low>
+    <close>38.0100</close>
+    <adjusted_close>29.1235</adjusted_close>
+    <volume>389249700</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>37.4600</open>
+    <high>39.7900</high>
+    <low>37.1500</low>
+    <close>38.8200</close>
+    <adjusted_close>29.7441</adjusted_close>
+    <volume>284671500</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>38.8000</open>
+    <high>42.6600</high>
+    <low>36.9000</low>
+    <close>41.4200</close>
+    <adjusted_close>31.7362</adjusted_close>
+    <volume>378634600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>42.0000</open>
+    <high>46.4600</high>
+    <low>41.1200</low>
+    <close>44.4600</close>
+    <adjusted_close>34.0655</adjusted_close>
+    <volume>382899100</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>44.6800</open>
+    <high>46.4500</high>
+    <low>41.5300</low>
+    <close>44.7000</close>
+    <adjusted_close>34.2494</adjusted_close>
+    <volume>372093400</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>44.8200</open>
+    <high>47.6800</high>
+    <low>44.1700</low>
+    <close>45.5100</close>
+    <adjusted_close>34.8700</adjusted_close>
+    <volume>229156700</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>46.0200</open>
+    <high>49.5000</high>
+    <low>45.9400</low>
+    <close>46.4600</close>
+    <adjusted_close>35.5979</adjusted_close>
+    <volume>243053000</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>47.1000</open>
+    <high>50.9900</high>
+    <low>47.0400</low>
+    <close>48.6300</close>
+    <adjusted_close>37.3365</adjusted_close>
+    <volume>180145300</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>48.5200</open>
+    <high>53.3300</high>
+    <low>47.1800</low>
+    <close>51.6500</close>
+    <adjusted_close>39.6551</adjusted_close>
+    <volume>181848000</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>48.6700</open>
+    <high>50.4000</high>
+    <low>47.1100</low>
+    <close>49.7500</close>
+    <adjusted_close>38.1964</adjusted_close>
+    <volume>255719900</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>49.7700</open>
+    <high>51.4700</high>
+    <low>48.0300</low>
+    <close>51.0500</close>
+    <adjusted_close>39.2735</adjusted_close>
+    <volume>186802600</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>50.8100</open>
+    <high>52.4700</high>
+    <low>46.8100</low>
+    <close>47.9600</close>
+    <adjusted_close>36.8963</adjusted_close>
+    <volume>197538800</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>48.0000</open>
+    <high>50.4300</high>
+    <low>46.8000</low>
+    <close>49.7700</close>
+    <adjusted_close>38.2887</adjusted_close>
+    <volume>214279500</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>49.1300</open>
+    <high>51.8600</high>
+    <low>48.2700</low>
+    <close>50.0100</close>
+    <adjusted_close>38.5674</adjusted_close>
+    <volume>184752500</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>50.3200</open>
+    <high>53.2000</high>
+    <low>48.9500</low>
+    <close>53.1300</close>
+    <adjusted_close>40.9735</adjusted_close>
+    <volume>175757600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>53.0200</open>
+    <high>54.3100</high>
+    <low>50.1900</low>
+    <close>54.0700</close>
+    <adjusted_close>41.6985</adjusted_close>
+    <volume>173192500</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>54.1600</open>
+    <high>56.0000</high>
+    <low>53.6700</low>
+    <close>54.5800</close>
+    <adjusted_close>42.1878</adjusted_close>
+    <volume>148268300</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>54.9900</open>
+    <high>55.9900</high>
+    <low>51.9000</low>
+    <close>51.9800</close>
+    <adjusted_close>40.1781</adjusted_close>
+    <volume>132611300</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>51.8200</open>
+    <high>56.3100</high>
+    <low>51.6100</low>
+    <close>56.0600</close>
+    <adjusted_close>43.3317</adjusted_close>
+    <volume>170056000</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>56.2900</open>
+    <high>56.5600</high>
+    <low>53.5100</low>
+    <close>54.0200</close>
+    <adjusted_close>41.8495</adjusted_close>
+    <volume>151051000</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>54.0400</open>
+    <high>54.1000</high>
+    <low>48.5600</low>
+    <close>53.5700</close>
+    <adjusted_close>41.5008</adjusted_close>
+    <volume>249574900</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>53.7900</open>
+    <high>55.1900</high>
+    <low>52.9000</low>
+    <close>54.8000</close>
+    <adjusted_close>42.4537</adjusted_close>
+    <volume>140643200</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>54.5600</open>
+    <high>56.7900</high>
+    <low>52.8500</low>
+    <close>56.0100</close>
+    <adjusted_close>43.4910</adjusted_close>
+    <volume>155006400</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>56.5300</open>
+    <high>56.6000</high>
+    <low>48.6800</low>
+    <close>48.8700</close>
+    <adjusted_close>37.9469</adjusted_close>
+    <volume>199498400</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>49.0300</open>
+    <high>55.6100</high>
+    <low>49.0100</low>
+    <close>55.3300</close>
+    <adjusted_close>42.9630</adjusted_close>
+    <volume>189631000</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>55.3300</open>
+    <high>56.6900</high>
+    <low>53.9200</low>
+    <close>54.7900</close>
+    <adjusted_close>42.6387</adjusted_close>
+    <volume>166629400</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>54.6100</open>
+    <high>58.7300</high>
+    <low>54.2300</low>
+    <close>56.2900</close>
+    <adjusted_close>43.8060</adjusted_close>
+    <volume>149895200</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>56.9000</open>
+    <high>60.7000</high>
+    <low>56.8000</low>
+    <close>58.6100</close>
+    <adjusted_close>45.6115</adjusted_close>
+    <volume>131226600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>58.9100</open>
+    <high>63.7000</high>
+    <low>58.3300</low>
+    <close>61.8200</close>
+    <adjusted_close>48.2106</adjusted_close>
+    <volume>200132800</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>62.7600</open>
+    <high>64.9300</high>
+    <low>60.8500</low>
+    <close>64.1200</close>
+    <adjusted_close>50.0042</adjusted_close>
+    <volume>128150500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>64.2300</open>
+    <high>64.7100</high>
+    <low>54.0000</low>
+    <close>60.3400</close>
+    <adjusted_close>47.0564</adjusted_close>
+    <volume>212337600</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>58.9700</open>
+    <high>60.0900</high>
+    <low>55.3000</low>
+    <close>56.8200</close>
+    <adjusted_close>44.5243</adjusted_close>
+    <volume>159140900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>57.1900</open>
+    <high>64.0000</high>
+    <low>55.2400</low>
+    <close>63.0600</close>
+    <adjusted_close>49.4140</adjusted_close>
+    <volume>157332800</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>63.4400</open>
+    <high>64.2000</high>
+    <low>59.0400</low>
+    <close>63.5800</close>
+    <adjusted_close>49.8214</adjusted_close>
+    <volume>201061200</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>63.8900</open>
+    <high>64.3100</high>
+    <low>57.9400</low>
+    <close>61.9700</close>
+    <adjusted_close>48.7749</adjusted_close>
+    <volume>197529500</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>60.6600</open>
+    <high>61.0700</high>
+    <low>53.4900</low>
+    <close>56.4800</close>
+    <adjusted_close>44.4539</adjusted_close>
+    <volume>201298400</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>55.8200</open>
+    <high>56.8200</high>
+    <low>50.2000</low>
+    <close>50.2000</close>
+    <adjusted_close>39.5111</adjusted_close>
+    <volume>233184800</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>50.6300</open>
+    <high>54.9000</high>
+    <low>50.3900</low>
+    <close>54.0500</close>
+    <adjusted_close>42.8068</adjusted_close>
+    <volume>172088000</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>53.8600</open>
+    <high>56.9100</high>
+    <low>52.8100</low>
+    <close>55.8200</close>
+    <adjusted_close>44.2086</adjusted_close>
+    <volume>128685000</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>56.3800</open>
+    <high>58.5900</high>
+    <low>54.3800</low>
+    <close>57.8800</close>
+    <adjusted_close>45.8401</adjusted_close>
+    <volume>152848500</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>57.8800</open>
+    <high>57.9000</high>
+    <low>48.4100</low>
+    <close>52.8900</close>
+    <adjusted_close>42.1249</adjusted_close>
+    <volume>162600900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>52.6500</open>
+    <high>54.9200</high>
+    <low>50.2000</low>
+    <close>54.4400</close>
+    <adjusted_close>43.3595</adjusted_close>
+    <volume>104492800</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>54.4600</open>
+    <high>59.8900</high>
+    <low>53.9300</low>
+    <close>59.8300</close>
+    <adjusted_close>47.6524</adjusted_close>
+    <volume>113187700</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>59.9100</open>
+    <high>59.9900</high>
+    <low>57.5400</low>
+    <close>59.3400</close>
+    <adjusted_close>47.5199</adjusted_close>
+    <volume>147026500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>59.1900</open>
+    <high>62.0300</high>
+    <low>58.4900</low>
+    <close>61.7000</close>
+    <adjusted_close>49.4098</adjusted_close>
+    <volume>109575600</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>61.7700</open>
+    <high>64.7200</high>
+    <low>57.3500</low>
+    <close>63.3300</close>
+    <adjusted_close>50.7151</adjusted_close>
+    <volume>163135700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>63.6600</open>
+    <high>67.0300</high>
+    <low>63.6000</low>
+    <close>65.3100</close>
+    <adjusted_close>52.5626</adjusted_close>
+    <volume>110889900</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>65.9500</open>
+    <high>67.4700</high>
+    <low>64.0200</low>
+    <close>64.2600</close>
+    <adjusted_close>51.7176</adjusted_close>
+    <volume>111418600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>64.7500</open>
+    <high>66.9300</high>
+    <low>60.4100</low>
+    <close>63.9200</close>
+    <adjusted_close>51.4439</adjusted_close>
+    <volume>155061300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>64.7300</open>
+    <high>64.9000</high>
+    <low>59.8900</low>
+    <close>62.4300</close>
+    <adjusted_close>50.5010</adjusted_close>
+    <volume>158646700</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>62.4300</open>
+    <high>62.7700</high>
+    <low>58.7100</low>
+    <close>60.9100</close>
+    <adjusted_close>49.2714</adjusted_close>
+    <volume>120582000</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>61.1900</open>
+    <high>64.3200</high>
+    <low>60.9200</low>
+    <close>63.6300</close>
+    <adjusted_close>51.4717</adjusted_close>
+    <volume>185054400</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>63.8100</open>
+    <high>64.5300</high>
+    <low>62.2800</low>
+    <close>62.5200</close>
+    <adjusted_close>50.8272</adjusted_close>
+    <volume>107793800</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>62.8200</open>
+    <high>66.0300</high>
+    <low>62.4600</low>
+    <close>65.4500</close>
+    <adjusted_close>53.2092</adjusted_close>
+    <volume>76782500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>65.7300</open>
+    <high>67.3000</high>
+    <low>60.0200</low>
+    <close>60.4800</close>
+    <adjusted_close>49.1687</adjusted_close>
+    <volume>109016300</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>60.5800</open>
+    <high>61.8800</high>
+    <low>57.9000</low>
+    <close>61.3900</close>
+    <adjusted_close>50.1728</adjusted_close>
+    <volume>120633500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>61.7200</open>
+    <high>65.5500</high>
+    <low>61.0000</low>
+    <close>64.6100</close>
+    <adjusted_close>52.8045</adjusted_close>
+    <volume>101345400</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>64.9200</open>
+    <high>65.3000</high>
+    <low>58.5200</low>
+    <close>59.9600</close>
+    <adjusted_close>49.0041</adjusted_close>
+    <volume>115324900</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>60.0700</open>
+    <high>60.6700</high>
+    <low>57.8500</low>
+    <close>59.5800</close>
+    <adjusted_close>48.9545</adjusted_close>
+    <volume>88703300</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>60.0000</open>
+    <high>65.0500</high>
+    <low>59.1200</low>
+    <close>63.9200</close>
+    <adjusted_close>52.5205</adjusted_close>
+    <volume>126946600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>63.7400</open>
+    <high>64.2800</high>
+    <low>57.3400</low>
+    <close>57.3400</close>
+    <adjusted_close>47.1140</adjusted_close>
+    <volume>162595300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>57.3400</open>
+    <high>58.2500</high>
+    <low>53.3400</low>
+    <close>54.4200</close>
+    <adjusted_close>44.9720</adjusted_close>
+    <volume>172084400</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>54.2300</open>
+    <high>56.7900</high>
+    <low>52.4200</low>
+    <close>56.0000</close>
+    <adjusted_close>46.2777</adjusted_close>
+    <volume>102578800</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>55.9000</open>
+    <high>56.3300</high>
+    <low>49.5700</low>
+    <close>52.7900</close>
+    <adjusted_close>43.6250</adjusted_close>
+    <volume>153832900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>53.4100</open>
+    <high>55.8100</high>
+    <low>52.2500</low>
+    <close>53.0200</close>
+    <adjusted_close>44.0736</adjusted_close>
+    <volume>111796900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>52.8400</open>
+    <high>55.8000</high>
+    <low>52.5300</low>
+    <close>55.2100</close>
+    <adjusted_close>45.8940</adjusted_close>
+    <volume>73172800</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>55.5300</open>
+    <high>56.3600</high>
+    <low>51.2400</low>
+    <close>53.1700</close>
+    <adjusted_close>44.1983</adjusted_close>
+    <volume>111467800</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>52.7700</open>
+    <high>54.9700</high>
+    <low>51.7600</low>
+    <close>53.2400</close>
+    <adjusted_close>44.5270</adjusted_close>
+    <volume>87729200</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>53.4400</open>
+    <high>54.4400</high>
+    <low>39.2900</low>
+    <close>41.2900</close>
+    <adjusted_close>34.5327</adjusted_close>
+    <volume>180575200</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>43.3600</open>
+    <high>45.0000</high>
+    <low>41.2100</low>
+    <close>43.2500</close>
+    <adjusted_close>36.1719</adjusted_close>
+    <volume>157684100</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>43.8400</open>
+    <high>44.0700</high>
+    <low>36.1600</low>
+    <close>39.4100</close>
+    <adjusted_close>33.2439</adjusted_close>
+    <volume>190772200</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>38.9000</open>
+    <high>44.1700</high>
+    <low>38.6700</low>
+    <close>43.2300</close>
+    <adjusted_close>36.4663</adjusted_close>
+    <volume>98217800</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>43.4500</open>
+    <high>44.7400</high>
+    <low>40.0000</low>
+    <close>43.2000</close>
+    <adjusted_close>36.4410</adjusted_close>
+    <volume>145822200</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>43.4800</open>
+    <high>45.0000</high>
+    <low>41.1100</low>
+    <close>43.0600</close>
+    <adjusted_close>36.5903</adjusted_close>
+    <volume>101702100</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>43.5200</open>
+    <high>47.6000</high>
+    <low>43.3400</low>
+    <close>47.5700</close>
+    <adjusted_close>40.4226</adjusted_close>
+    <volume>81698200</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>47.5000</open>
+    <high>53.0400</high>
+    <low>46.1500</low>
+    <close>51.0700</close>
+    <adjusted_close>43.3967</adjusted_close>
+    <volume>144305700</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>51.0600</open>
+    <high>54.7300</high>
+    <low>50.9200</low>
+    <close>53.2800</close>
+    <adjusted_close>45.5499</adjusted_close>
+    <volume>89208900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>53.5300</open>
+    <high>57.5900</high>
+    <low>53.1400</low>
+    <close>55.9900</close>
+    <adjusted_close>47.8668</adjusted_close>
+    <volume>69209900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>55.7300</open>
+    <high>57.4800</high>
+    <low>51.8000</low>
+    <close>52.0400</close>
+    <adjusted_close>44.4898</adjusted_close>
+    <volume>88260600</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>51.7500</open>
+    <high>58.6600</high>
+    <low>51.6500</low>
+    <close>55.7000</close>
+    <adjusted_close>47.8863</adjusted_close>
+    <volume>69957800</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>55.9300</open>
+    <high>55.9900</high>
+    <low>51.2100</low>
+    <close>52.9600</close>
+    <adjusted_close>45.5307</adjusted_close>
+    <volume>77060700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>51.9900</open>
+    <high>56.3300</high>
+    <low>51.6000</low>
+    <close>52.6600</close>
+    <adjusted_close>45.2728</adjusted_close>
+    <volume>76074700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>52.7400</open>
+    <high>52.7700</high>
+    <low>50.2700</low>
+    <close>51.3300</close>
+    <adjusted_close>44.4075</adjusted_close>
+    <volume>90351100</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>51.6400</open>
+    <high>53.1000</high>
+    <low>49.8900</low>
+    <close>50.2600</close>
+    <adjusted_close>43.4818</adjusted_close>
+    <volume>85867600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>50.5200</open>
+    <high>56.4200</high>
+    <low>41.3100</low>
+    <close>42.1600</close>
+    <adjusted_close>36.4742</adjusted_close>
+    <volume>125684900</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>42.1100</open>
+    <high>43.8800</high>
+    <low>16.0700</low>
+    <close>24.2500</close>
+    <adjusted_close>21.2444</adjusted_close>
+    <volume>263930500</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>22.7000</open>
+    <high>27.6500</high>
+    <low>19.9000</low>
+    <close>25.4300</close>
+    <adjusted_close>22.2782</adjusted_close>
+    <volume>194874500</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>24.5200</open>
+    <high>32.9600</high>
+    <low>23.1200</low>
+    <close>30.0600</close>
+    <adjusted_close>26.3343</adjusted_close>
+    <volume>145687700</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>30.1100</open>
+    <high>39.5100</high>
+    <low>29.4900</low>
+    <close>31.1800</close>
+    <adjusted_close>27.5949</adjusted_close>
+    <volume>148341600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>31.0100</open>
+    <high>33.0400</high>
+    <low>27.9800</low>
+    <close>32.1400</close>
+    <adjusted_close>28.4445</adjusted_close>
+    <volume>137976900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>32.2100</open>
+    <high>32.9000</high>
+    <low>28.2300</low>
+    <close>29.1400</close>
+    <adjusted_close>25.7894</adjusted_close>
+    <volume>136988800</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>28.8700</open>
+    <high>30.9600</high>
+    <low>25.5700</low>
+    <close>27.5300</close>
+    <adjusted_close>24.6371</adjusted_close>
+    <volume>160113500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>27.5600</open>
+    <high>33.2900</high>
+    <low>27.0700</low>
+    <close>31.4900</close>
+    <adjusted_close>28.1809</adjusted_close>
+    <volume>140165700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>32.2500</open>
+    <high>41.5700</high>
+    <low>31.2800</low>
+    <close>38.4400</close>
+    <adjusted_close>34.4006</adjusted_close>
+    <volume>127556700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>39.5000</open>
+    <high>40.8100</high>
+    <low>36.7700</low>
+    <close>37.8600</close>
+    <adjusted_close>34.1568</adjusted_close>
+    <volume>98840200</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>37.6500</open>
+    <high>42.5700</high>
+    <low>36.8000</low>
+    <close>37.4400</close>
+    <adjusted_close>33.7779</adjusted_close>
+    <volume>98029600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>37.7300</open>
+    <high>46.1300</high>
+    <low>36.8700</low>
+    <close>43.9500</close>
+    <adjusted_close>39.6511</adjusted_close>
+    <volume>85848000</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>44.9000</open>
+    <high>49.0000</high>
+    <low>44.5400</low>
+    <close>46.2100</close>
+    <adjusted_close>41.9673</adjusted_close>
+    <volume>109726200</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>45.9900</open>
+    <high>49.4200</high>
+    <low>45.1900</low>
+    <close>48.4500</close>
+    <adjusted_close>44.0016</adjusted_close>
+    <volume>73213600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>48.9800</open>
+    <high>52.9300</high>
+    <low>48.0700</low>
+    <close>52.8400</close>
+    <adjusted_close>47.9886</adjusted_close>
+    <volume>93211900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>53.3300</open>
+    <high>54.0800</high>
+    <low>46.8300</low>
+    <close>47.6000</close>
+    <adjusted_close>43.4973</adjusted_close>
+    <volume>85177900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>48.0300</open>
+    <high>48.9700</high>
+    <low>44.5400</low>
+    <close>47.3500</close>
+    <adjusted_close>43.2688</adjusted_close>
+    <volume>81287900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>47.8700</open>
+    <high>55.5000</high>
+    <low>46.4400</low>
+    <close>54.5600</close>
+    <adjusted_close>49.8574</adjusted_close>
+    <volume>97276900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>54.6900</open>
+    <high>57.5400</high>
+    <low>52.0000</low>
+    <close>54.8900</close>
+    <adjusted_close>50.4556</adjusted_close>
+    <volume>101556900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>55.1500</open>
+    <high>60.9200</high>
+    <low>54.8100</low>
+    <close>59.0900</close>
+    <adjusted_close>54.3162</adjusted_close>
+    <volume>77649000</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>59.7100</open>
+    <high>62.5400</high>
+    <low>52.3600</low>
+    <close>52.6000</close>
+    <adjusted_close>48.3506</adjusted_close>
+    <volume>99947100</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>53.7000</open>
+    <high>57.6000</high>
+    <low>51.6900</low>
+    <close>56.8600</close>
+    <adjusted_close>52.5742</adjusted_close>
+    <volume>101824300</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>57.1800</open>
+    <high>62.2500</high>
+    <low>54.3900</low>
+    <close>57.7500</close>
+    <adjusted_close>53.3971</adjusted_close>
+    <volume>110644500</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>57.8300</open>
+    <high>63.5400</high>
+    <low>57.5000</low>
+    <close>61.2400</close>
+    <adjusted_close>56.6241</adjusted_close>
+    <volume>101819800</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>60.5600</open>
+    <high>64.9000</high>
+    <low>54.6600</low>
+    <close>62.7700</close>
+    <adjusted_close>58.3577</adjusted_close>
+    <volume>114976100</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>63.3200</open>
+    <high>65.7300</high>
+    <low>57.4600</low>
+    <close>58.5100</close>
+    <adjusted_close>54.3971</adjusted_close>
+    <volume>80519600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>58.9700</open>
+    <high>64.0500</high>
+    <low>53.8300</low>
+    <close>58.6800</close>
+    <adjusted_close>54.5552</adjusted_close>
+    <volume>124215700</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>58.9400</open>
+    <high>59.7100</high>
+    <low>49.0800</low>
+    <close>51.1300</close>
+    <adjusted_close>47.8301</adjusted_close>
+    <volume>126722800</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>51.1000</open>
+    <high>52.8000</high>
+    <low>48.4000</low>
+    <close>51.7700</close>
+    <adjusted_close>48.4288</adjusted_close>
+    <volume>80583000</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>51.2500</open>
+    <high>57.5100</high>
+    <low>50.6400</low>
+    <close>51.7500</close>
+    <adjusted_close>48.4101</adjusted_close>
+    <volume>88028800</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>51.5500</open>
+    <high>56.6400</high>
+    <low>47.0500</low>
+    <close>47.4800</close>
+    <adjusted_close>44.6795</adjusted_close>
+    <volume>113507500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>48.2100</open>
+    <high>57.3500</high>
+    <low>47.3000</low>
+    <close>57.0000</close>
+    <adjusted_close>53.6380</adjusted_close>
+    <volume>93506700</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>57.4000</open>
+    <high>63.2200</high>
+    <low>56.1100</low>
+    <close>63.1100</close>
+    <adjusted_close>59.3876</adjusted_close>
+    <volume>99528600</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>63.3900</open>
+    <high>64.8000</high>
+    <low>61.0500</low>
+    <close>63.2400</close>
+    <adjusted_close>59.8110</adjusted_close>
+    <volume>103412000</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>63.4500</open>
+    <high>64.8800</high>
+    <low>60.7600</low>
+    <close>63.2200</close>
+    <adjusted_close>59.7921</adjusted_close>
+    <volume>75739300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>62.5500</open>
+    <high>63.0700</high>
+    <low>58.1700</low>
+    <close>61.1100</close>
+    <adjusted_close>57.7965</adjusted_close>
+    <volume>95365900</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>61.1600</open>
+    <high>61.7400</high>
+    <low>45.6600</low>
+    <close>50.3600</close>
+    <adjusted_close>47.9493</adjusted_close>
+    <volume>166329400</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>50.4600</open>
+    <high>53.3500</high>
+    <low>48.9100</low>
+    <close>53.0400</close>
+    <adjusted_close>50.5010</adjusted_close>
+    <volume>71440800</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>52.5900</open>
+    <high>56.9000</high>
+    <low>48.9500</low>
+    <close>52.8300</close>
+    <adjusted_close>50.3011</adjusted_close>
+    <volume>92737300</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>53.2700</open>
+    <high>57.9500</high>
+    <low>53.0700</low>
+    <close>57.5400</close>
+    <adjusted_close>55.1411</adjusted_close>
+    <volume>88379900</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>57.5500</open>
+    <high>61.7000</high>
+    <low>56.8800</low>
+    <close>60.2800</close>
+    <adjusted_close>57.7669</adjusted_close>
+    <volume>64123700</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>60.3900</open>
+    <high>62.3200</high>
+    <low>57.0200</low>
+    <close>58.5200</close>
+    <adjusted_close>56.0803</adjusted_close>
+    <volume>62695500</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>58.8800</open>
+    <high>62.9400</high>
+    <low>58.3200</low>
+    <close>60.6000</close>
+    <adjusted_close>58.4203</adjusted_close>
+    <volume>59680700</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>60.4400</open>
+    <high>63.6500</high>
+    <low>57.7200</low>
+    <close>61.3100</close>
+    <adjusted_close>59.1048</adjusted_close>
+    <volume>66392800</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>61.7100</open>
+    <high>65.8300</high>
+    <low>61.3100</low>
+    <close>65.8100</close>
+    <adjusted_close>63.4429</adjusted_close>
+    <volume>71550100</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>65.6700</open>
+    <high>68.0300</high>
+    <low>64.8100</low>
+    <close>67.7500</close>
+    <adjusted_close>65.6662</adjusted_close>
+    <volume>70611600</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>67.3500</open>
+    <high>71.0700</high>
+    <low>66.0600</low>
+    <close>69.5100</close>
+    <adjusted_close>67.3721</adjusted_close>
+    <volume>72691300</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>69.0100</open>
+    <high>73.2800</high>
+    <low>67.5300</low>
+    <close>72.8900</close>
+    <adjusted_close>70.6482</adjusted_close>
+    <volume>89950400</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>72.8400</open>
+    <high>78.7000</high>
+    <low>72.2800</low>
+    <close>78.1700</close>
+    <adjusted_close>76.1269</adjusted_close>
+    <volume>83098600</volume>
+    <news>AIG Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>78.0000</open>
+    <high>78.9500</high>
+    <low>71.5100</low>
+    <close>75.3100</close>
+    <adjusted_close>73.3416</adjusted_close>
+    <volume>80559800</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>75.3400</open>
+    <high>80.8300</high>
+    <low>75.2200</low>
+    <close>78.8200</close>
+    <adjusted_close>76.7599</adjusted_close>
+    <volume>90344600</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>78.7700</open>
+    <high>79.0600</high>
+    <low>72.8900</low>
+    <close>74.2400</close>
+    <adjusted_close>72.6919</adjusted_close>
+    <volume>96477200</volume>
+    <news>AIG Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>75.0500</open>
+    <high>79.9500</high>
+    <low>73.6100</low>
+    <close>79.2300</close>
+    <adjusted_close>77.5779</adjusted_close>
+    <volume>93848100</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>76.4800</open>
+    <high>77.1900</high>
+    <low>69.0000</low>
+    <close>77.0500</close>
+    <adjusted_close>75.4434</adjusted_close>
+    <volume>88117900</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>76.7500</open>
+    <high>77.3500</high>
+    <low>71.0100</low>
+    <close>73.2300</close>
+    <adjusted_close>72.0975</adjusted_close>
+    <volume>90552100</volume>
+    <news>AIG Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>72.9600</open>
+    <high>79.7700</high>
+    <low>71.4700</low>
+    <close>75.8800</close>
+    <adjusted_close>74.7065</adjusted_close>
+    <volume>75173400</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>75.8600</open>
+    <high>79.2900</high>
+    <low>74.1800</low>
+    <close>76.8800</close>
+    <adjusted_close>75.6910</adjusted_close>
+    <volume>87399300</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>76.9400</open>
+    <high>77.2100</high>
+    <low>69.9700</low>
+    <close>72.8000</close>
+    <adjusted_close>72.0697</adjusted_close>
+    <volume>90427500</volume>
+    <news>AIG Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</aig_stock_data>

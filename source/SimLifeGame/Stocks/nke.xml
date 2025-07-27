@@ -1,0 +1,3003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nike_stock_data>
+  <stock_entry>
+    <date>2000-01-01</date>
+    <open>6.1641</open>
+    <high>6.6875</high>
+    <low>5.6719</low>
+    <close>5.6875</close>
+    <adjusted_close>4.2766</adjusted_close>
+    <volume>142004800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-02-01</date>
+    <open>5.6797</open>
+    <high>6.0625</high>
+    <low>3.3125</low>
+    <close>3.5547</close>
+    <adjusted_close>2.6729</adjusted_close>
+    <volume>397492800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-03-01</date>
+    <open>3.5547</open>
+    <high>5.0000</high>
+    <low>3.2266</low>
+    <close>4.9531</close>
+    <adjusted_close>3.7312</adjusted_close>
+    <volume>325264000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-04-01</date>
+    <open>5.1250</open>
+    <high>5.7344</high>
+    <low>4.5469</low>
+    <close>5.4297</close>
+    <adjusted_close>4.0902</adjusted_close>
+    <volume>187183200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-05-01</date>
+    <open>5.4297</open>
+    <high>5.8906</high>
+    <low>4.7344</low>
+    <close>5.3594</close>
+    <adjusted_close>4.0372</adjusted_close>
+    <volume>145275200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-06-01</date>
+    <open>5.3906</open>
+    <high>5.6094</high>
+    <low>4.3516</low>
+    <close>4.9766</close>
+    <adjusted_close>3.7546</adjusted_close>
+    <volume>148908800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-07-01</date>
+    <open>5.1250</open>
+    <high>5.9688</high>
+    <low>4.9688</low>
+    <close>5.4688</close>
+    <adjusted_close>4.1259</adjusted_close>
+    <volume>118205600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-08-01</date>
+    <open>5.4688</open>
+    <high>6.0625</high>
+    <low>4.9453</low>
+    <close>4.9473</close>
+    <adjusted_close>3.7325</adjusted_close>
+    <volume>187812000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-09-01</date>
+    <open>5.0469</open>
+    <high>5.2500</high>
+    <low>4.4375</low>
+    <close>5.0078</close>
+    <adjusted_close>3.7841</adjusted_close>
+    <volume>229575200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-10-01</date>
+    <open>5.0078</open>
+    <high>5.4375</high>
+    <low>4.3672</low>
+    <close>4.9922</close>
+    <adjusted_close>3.7722</adjusted_close>
+    <volume>181374400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-11-01</date>
+    <open>4.9609</open>
+    <high>5.6172</high>
+    <low>4.8906</low>
+    <close>5.3281</close>
+    <adjusted_close>4.0261</adjusted_close>
+    <volume>135044000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2000-12-01</date>
+    <open>5.3438</open>
+    <high>7.1250</high>
+    <low>5.0312</low>
+    <close>6.9766</close>
+    <adjusted_close>5.2787</adjusted_close>
+    <volume>242557600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-01-01</date>
+    <open>6.8438</open>
+    <high>7.5078</high>
+    <low>6.3438</low>
+    <close>6.8762</close>
+    <adjusted_close>5.2028</adjusted_close>
+    <volume>307727200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-02-01</date>
+    <open>6.8750</open>
+    <high>7.1650</high>
+    <low>4.6613</low>
+    <close>4.8787</close>
+    <adjusted_close>3.6914</adjusted_close>
+    <volume>310156800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-03-01</date>
+    <open>4.8825</open>
+    <high>5.1562</high>
+    <low>4.4150</low>
+    <close>5.0437</close>
+    <adjusted_close>3.8226</adjusted_close>
+    <volume>227849600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-04-01</date>
+    <open>5.0400</open>
+    <high>5.2562</high>
+    <low>4.5375</low>
+    <close>5.2263</close>
+    <adjusted_close>3.9609</adjusted_close>
+    <volume>198206400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-05-01</date>
+    <open>5.1500</open>
+    <high>5.7175</high>
+    <low>4.7812</low>
+    <close>5.1375</close>
+    <adjusted_close>3.8936</adjusted_close>
+    <volume>202687200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-06-01</date>
+    <open>5.1500</open>
+    <high>5.6250</high>
+    <low>5.0625</low>
+    <close>5.2488</close>
+    <adjusted_close>3.9836</adjusted_close>
+    <volume>221994400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-07-01</date>
+    <open>5.2250</open>
+    <high>6.0125</high>
+    <low>5.0413</low>
+    <close>5.9437</close>
+    <adjusted_close>4.5111</adjusted_close>
+    <volume>198777600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-08-01</date>
+    <open>5.9088</open>
+    <high>6.4750</high>
+    <low>5.8075</low>
+    <close>6.2500</close>
+    <adjusted_close>4.7436</adjusted_close>
+    <volume>186447200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-09-01</date>
+    <open>6.2812</open>
+    <high>6.5000</high>
+    <low>5.0938</low>
+    <close>5.8513</close>
+    <adjusted_close>4.4464</adjusted_close>
+    <volume>242140800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-10-01</date>
+    <open>5.8475</open>
+    <high>6.3700</high>
+    <low>5.7688</low>
+    <close>6.1700</close>
+    <adjusted_close>4.6886</adjusted_close>
+    <volume>247352800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-11-01</date>
+    <open>6.0750</open>
+    <high>6.8038</high>
+    <low>5.9563</low>
+    <close>6.6238</close>
+    <adjusted_close>5.0334</adjusted_close>
+    <volume>179064000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2001-12-01</date>
+    <open>6.6225</open>
+    <high>7.3038</high>
+    <low>6.2500</low>
+    <close>7.0300</close>
+    <adjusted_close>5.3480</adjusted_close>
+    <volume>308527200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-01-01</date>
+    <open>7.0400</open>
+    <high>7.6312</high>
+    <low>6.8250</low>
+    <close>7.4887</close>
+    <adjusted_close>5.6970</adjusted_close>
+    <volume>256148800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-02-01</date>
+    <open>7.4812</open>
+    <high>7.5800</high>
+    <low>7.0912</low>
+    <close>7.3575</close>
+    <adjusted_close>5.5972</adjusted_close>
+    <volume>171968000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-03-01</date>
+    <open>7.3500</open>
+    <high>8.0350</high>
+    <low>7.1312</low>
+    <close>7.5012</close>
+    <adjusted_close>5.7122</adjusted_close>
+    <volume>258675200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-04-01</date>
+    <open>7.4500</open>
+    <high>7.4500</high>
+    <low>6.6000</low>
+    <close>6.6663</close>
+    <adjusted_close>5.0763</adjusted_close>
+    <volume>276537600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-05-01</date>
+    <open>6.6125</open>
+    <high>7.0525</high>
+    <low>6.5000</low>
+    <close>6.7188</close>
+    <adjusted_close>5.1163</adjusted_close>
+    <volume>227011200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-06-01</date>
+    <open>6.7087</open>
+    <high>7.0375</high>
+    <low>6.0275</low>
+    <close>6.7063</close>
+    <adjusted_close>5.1129</adjusted_close>
+    <volume>284765600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-07-01</date>
+    <open>6.7937</open>
+    <high>7.2312</high>
+    <low>5.6375</low>
+    <close>6.1613</close>
+    <adjusted_close>4.6974</adjusted_close>
+    <volume>339646400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-08-01</date>
+    <open>6.0625</open>
+    <high>6.0625</high>
+    <low>5.0625</low>
+    <close>5.3975</close>
+    <adjusted_close>4.1151</adjusted_close>
+    <volume>407546400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-09-01</date>
+    <open>5.3500</open>
+    <high>5.7150</high>
+    <low>5.0437</low>
+    <close>5.3975</close>
+    <adjusted_close>4.1208</adjusted_close>
+    <volume>274517600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-10-01</date>
+    <open>5.3987</open>
+    <high>6.0287</high>
+    <low>4.8162</low>
+    <close>5.8987</close>
+    <adjusted_close>4.5035</adjusted_close>
+    <volume>302560000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-11-01</date>
+    <open>5.8938</open>
+    <high>6.0250</high>
+    <low>5.3538</low>
+    <close>5.5975</close>
+    <adjusted_close>4.2735</adjusted_close>
+    <volume>245716800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2002-12-01</date>
+    <open>5.7500</open>
+    <high>5.8913</high>
+    <low>5.1487</low>
+    <close>5.5588</close>
+    <adjusted_close>4.2508</adjusted_close>
+    <volume>267160800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-01-01</date>
+    <open>5.5712</open>
+    <high>6.0538</high>
+    <low>5.3150</low>
+    <close>5.5675</close>
+    <adjusted_close>4.2575</adjusted_close>
+    <volume>209041600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-02-01</date>
+    <open>5.5813</open>
+    <high>5.8725</high>
+    <low>5.2975</low>
+    <close>5.7962</close>
+    <adjusted_close>4.4325</adjusted_close>
+    <volume>197583200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-03-01</date>
+    <open>5.8125</open>
+    <high>6.6750</high>
+    <low>5.6887</low>
+    <close>6.4275</close>
+    <adjusted_close>4.9223</adjusted_close>
+    <volume>328340800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-04-01</date>
+    <open>6.4375</open>
+    <high>6.9575</high>
+    <low>6.2825</low>
+    <close>6.6912</close>
+    <adjusted_close>5.1243</adjusted_close>
+    <volume>218646400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-05-01</date>
+    <open>6.7162</open>
+    <high>7.0700</high>
+    <low>6.4375</low>
+    <close>6.9988</close>
+    <adjusted_close>5.3598</adjusted_close>
+    <volume>230232000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-06-01</date>
+    <open>7.0062</open>
+    <high>7.1875</high>
+    <low>6.5750</low>
+    <close>6.6863</close>
+    <adjusted_close>5.1269</adjusted_close>
+    <volume>327230400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-07-01</date>
+    <open>6.6863</open>
+    <high>6.8075</high>
+    <low>6.2825</low>
+    <close>6.4675</close>
+    <adjusted_close>4.9592</adjusted_close>
+    <volume>224850400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-08-01</date>
+    <open>6.4375</open>
+    <high>7.1337</high>
+    <low>6.2000</low>
+    <close>7.1225</close>
+    <adjusted_close>5.4614</adjusted_close>
+    <volume>184159200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-09-01</date>
+    <open>7.1325</open>
+    <high>7.7812</high>
+    <low>6.8837</low>
+    <close>7.6025</close>
+    <adjusted_close>5.8369</adjusted_close>
+    <volume>261538400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-10-01</date>
+    <open>7.6000</open>
+    <high>8.1163</high>
+    <low>7.5875</low>
+    <close>7.9875</close>
+    <adjusted_close>6.1324</adjusted_close>
+    <volume>238666400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-11-01</date>
+    <open>7.9875</open>
+    <high>8.4350</high>
+    <low>7.5862</low>
+    <close>8.4062</close>
+    <adjusted_close>6.4539</adjusted_close>
+    <volume>239918400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2003-12-01</date>
+    <open>8.4312</open>
+    <high>8.5675</high>
+    <low>7.9025</low>
+    <close>8.5575</close>
+    <adjusted_close>6.5803</adjusted_close>
+    <volume>265883200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-01-01</date>
+    <open>8.5875</open>
+    <high>8.8275</high>
+    <low>8.2887</low>
+    <close>8.7075</close>
+    <adjusted_close>6.6957</adjusted_close>
+    <volume>184354400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-02-01</date>
+    <open>8.7000</open>
+    <high>9.3250</high>
+    <low>8.6900</low>
+    <close>9.1562</close>
+    <adjusted_close>7.0407</adjusted_close>
+    <volume>171486400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-03-01</date>
+    <open>9.2125</open>
+    <high>9.8200</high>
+    <low>9.0275</low>
+    <close>9.7338</close>
+    <adjusted_close>7.4946</adjusted_close>
+    <volume>291142400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-04-01</date>
+    <open>9.7275</open>
+    <high>9.8200</high>
+    <low>8.9137</low>
+    <close>8.9937</close>
+    <adjusted_close>6.9248</adjusted_close>
+    <volume>200372800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-05-01</date>
+    <open>8.9725</open>
+    <high>8.9875</high>
+    <low>8.2262</low>
+    <close>8.8938</close>
+    <adjusted_close>6.8478</adjusted_close>
+    <volume>256339200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-06-01</date>
+    <open>8.8975</open>
+    <high>9.6675</high>
+    <low>8.6600</low>
+    <close>9.4688</close>
+    <adjusted_close>7.3009</adjusted_close>
+    <volume>200580800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-07-01</date>
+    <open>9.4738</open>
+    <high>9.5150</high>
+    <low>8.6625</low>
+    <close>9.0887</close>
+    <adjusted_close>7.0079</adjusted_close>
+    <volume>199154400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-08-01</date>
+    <open>9.0900</open>
+    <high>9.6125</high>
+    <low>8.5763</low>
+    <close>9.4137</close>
+    <adjusted_close>7.2585</adjusted_close>
+    <volume>163166400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-09-01</date>
+    <open>9.3750</open>
+    <high>10.0025</high>
+    <low>9.3150</low>
+    <close>9.8500</close>
+    <adjusted_close>7.6047</adjusted_close>
+    <volume>223154400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-10-01</date>
+    <open>9.8750</open>
+    <high>10.2437</high>
+    <low>9.5775</low>
+    <close>10.1637</close>
+    <adjusted_close>7.8469</adjusted_close>
+    <volume>202959200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-11-01</date>
+    <open>10.1325</open>
+    <high>10.9750</high>
+    <low>10.0875</low>
+    <close>10.5825</close>
+    <adjusted_close>8.1702</adjusted_close>
+    <volume>222089600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2004-12-01</date>
+    <open>10.6000</open>
+    <high>11.5538</high>
+    <low>10.6000</low>
+    <close>11.3363</close>
+    <adjusted_close>8.7648</adjusted_close>
+    <volume>196408800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-01-01</date>
+    <open>11.3250</open>
+    <high>11.4175</high>
+    <low>10.5875</low>
+    <close>10.8287</close>
+    <adjusted_close>8.3724</adjusted_close>
+    <volume>154428800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-02-01</date>
+    <open>10.8287</open>
+    <high>10.9862</high>
+    <low>10.3250</low>
+    <close>10.8687</close>
+    <adjusted_close>8.4034</adjusted_close>
+    <volume>209337600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-03-01</date>
+    <open>10.8787</open>
+    <high>11.0650</high>
+    <low>10.1800</low>
+    <close>10.4137</close>
+    <adjusted_close>8.0632</adjusted_close>
+    <volume>312577600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-04-01</date>
+    <open>10.4850</open>
+    <high>10.5300</high>
+    <low>9.3875</low>
+    <close>9.6012</close>
+    <adjusted_close>7.4341</adjusted_close>
+    <volume>249906400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-05-01</date>
+    <open>9.6012</open>
+    <high>10.4650</high>
+    <low>9.4750</low>
+    <close>10.2750</close>
+    <adjusted_close>7.9558</adjusted_close>
+    <volume>235928000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-06-01</date>
+    <open>10.2875</open>
+    <high>11.3663</high>
+    <low>10.2612</low>
+    <close>10.8250</close>
+    <adjusted_close>8.3940</adjusted_close>
+    <volume>326050400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-07-01</date>
+    <open>10.7712</open>
+    <high>11.0625</high>
+    <low>10.4288</low>
+    <close>10.4750</close>
+    <adjusted_close>8.1226</adjusted_close>
+    <volume>238440000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-08-01</date>
+    <open>10.4762</open>
+    <high>11.1250</high>
+    <low>9.6700</low>
+    <close>9.8638</close>
+    <adjusted_close>7.6486</adjusted_close>
+    <volume>356301600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-09-01</date>
+    <open>9.8638</open>
+    <high>10.6562</high>
+    <low>9.5662</low>
+    <close>10.2100</close>
+    <adjusted_close>7.9300</adjusted_close>
+    <volume>495809600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-10-01</date>
+    <open>10.2600</open>
+    <high>10.5400</high>
+    <low>9.9925</low>
+    <close>10.5063</close>
+    <adjusted_close>8.1601</adjusted_close>
+    <volume>261707200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-11-01</date>
+    <open>10.5000</open>
+    <high>11.0688</high>
+    <low>10.4288</low>
+    <close>10.6625</close>
+    <adjusted_close>8.2815</adjusted_close>
+    <volume>213472000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2005-12-01</date>
+    <open>10.7188</open>
+    <high>11.4425</high>
+    <low>10.4688</low>
+    <close>10.8488</close>
+    <adjusted_close>8.4412</adjusted_close>
+    <volume>354718400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-01-01</date>
+    <open>10.8488</open>
+    <high>11.0200</high>
+    <low>10.0750</low>
+    <close>10.1187</close>
+    <adjusted_close>7.8732</adjusted_close>
+    <volume>347512800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-02-01</date>
+    <open>10.1562</open>
+    <high>10.9788</high>
+    <low>10.1512</low>
+    <close>10.8475</close>
+    <adjusted_close>8.4402</adjusted_close>
+    <volume>252378400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-03-01</date>
+    <open>10.8313</open>
+    <high>11.0050</high>
+    <low>10.5037</low>
+    <close>10.6375</close>
+    <adjusted_close>8.2920</adjusted_close>
+    <volume>318510400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-04-01</date>
+    <open>10.6375</open>
+    <high>10.7325</high>
+    <low>10.0450</low>
+    <close>10.2300</close>
+    <adjusted_close>7.9743</adjusted_close>
+    <volume>206466400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-05-01</date>
+    <open>10.2537</open>
+    <high>10.3875</high>
+    <low>9.6737</low>
+    <close>10.0387</close>
+    <adjusted_close>7.8252</adjusted_close>
+    <volume>267000000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-06-01</date>
+    <open>10.0513</open>
+    <high>10.6213</high>
+    <low>9.8625</low>
+    <close>10.1250</close>
+    <adjusted_close>7.9076</adjusted_close>
+    <volume>326280000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-07-01</date>
+    <open>10.1313</open>
+    <high>10.2188</high>
+    <low>9.7500</low>
+    <close>9.8750</close>
+    <adjusted_close>7.7124</adjusted_close>
+    <volume>315201600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-08-01</date>
+    <open>9.8750</open>
+    <high>10.1187</high>
+    <low>9.4400</low>
+    <close>10.0950</close>
+    <adjusted_close>7.8842</adjusted_close>
+    <volume>421105600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-09-01</date>
+    <open>10.0950</open>
+    <high>11.1138</high>
+    <low>9.9825</low>
+    <close>10.9525</close>
+    <adjusted_close>8.5703</adjusted_close>
+    <volume>450955200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-10-01</date>
+    <open>10.8713</open>
+    <high>11.7587</high>
+    <low>10.8638</low>
+    <close>11.4850</close>
+    <adjusted_close>8.9870</adjusted_close>
+    <volume>259665600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-11-01</date>
+    <open>11.5125</open>
+    <high>12.4125</high>
+    <low>11.3225</low>
+    <close>12.3687</close>
+    <adjusted_close>9.6785</adjusted_close>
+    <volume>213671200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2006-12-01</date>
+    <open>12.3375</open>
+    <high>12.6500</high>
+    <low>11.8488</low>
+    <close>12.3787</close>
+    <adjusted_close>9.7046</adjusted_close>
+    <volume>258766400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-01-01</date>
+    <open>12.2500</open>
+    <high>12.5437</high>
+    <low>11.8650</low>
+    <close>12.3512</close>
+    <adjusted_close>9.6831</adjusted_close>
+    <volume>273166400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-02-01</date>
+    <open>12.3275</open>
+    <high>13.6125</high>
+    <low>12.3050</low>
+    <close>13.0588</close>
+    <adjusted_close>10.2377</adjusted_close>
+    <volume>283613600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-03-01</date>
+    <open>12.8875</open>
+    <high>13.7625</high>
+    <low>12.7712</low>
+    <close>13.2825</close>
+    <adjusted_close>10.4316</adjusted_close>
+    <volume>329332800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-04-01</date>
+    <open>13.3500</open>
+    <high>13.7750</high>
+    <low>13.2000</low>
+    <close>13.4650</close>
+    <adjusted_close>10.5749</adjusted_close>
+    <volume>203464800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-05-01</date>
+    <open>13.4650</open>
+    <high>14.2800</high>
+    <low>13.0850</low>
+    <close>14.1875</close>
+    <adjusted_close>11.1424</adjusted_close>
+    <volume>259559600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-06-01</date>
+    <open>14.1875</open>
+    <high>14.8150</high>
+    <low>12.9675</low>
+    <close>14.5725</close>
+    <adjusted_close>11.4829</adjusted_close>
+    <volume>389084000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-07-01</date>
+    <open>14.6750</open>
+    <high>15.0875</high>
+    <low>13.8600</low>
+    <close>14.1125</close>
+    <adjusted_close>11.1204</adjusted_close>
+    <volume>319975200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-08-01</date>
+    <open>14.3025</open>
+    <high>14.6575</high>
+    <low>13.0000</low>
+    <close>14.0850</close>
+    <adjusted_close>11.0987</adjusted_close>
+    <volume>346503200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-09-01</date>
+    <open>14.0100</open>
+    <high>15.2475</high>
+    <low>13.5375</low>
+    <close>14.6650</close>
+    <adjusted_close>11.5944</adjusted_close>
+    <volume>291098800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-10-01</date>
+    <open>14.6975</open>
+    <high>16.6425</high>
+    <low>14.6500</low>
+    <close>16.5650</close>
+    <adjusted_close>13.0966</adjusted_close>
+    <volume>353234800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-11-01</date>
+    <open>16.4850</open>
+    <high>16.5475</high>
+    <low>15.2275</low>
+    <close>16.4125</close>
+    <adjusted_close>12.9760</adjusted_close>
+    <volume>233026000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2007-12-01</date>
+    <open>16.2375</open>
+    <high>16.9825</high>
+    <low>15.5600</low>
+    <close>16.0600</close>
+    <adjusted_close>12.7418</adjusted_close>
+    <volume>233625200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-01-01</date>
+    <open>16.0800</open>
+    <high>16.1750</high>
+    <low>12.8750</low>
+    <close>15.3325</close>
+    <adjusted_close>12.1646</adjusted_close>
+    <volume>419696000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-02-01</date>
+    <open>15.4100</open>
+    <high>15.7500</high>
+    <low>14.8775</low>
+    <close>15.0500</close>
+    <adjusted_close>11.9405</adjusted_close>
+    <volume>240372800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-03-01</date>
+    <open>15.0600</open>
+    <high>17.6500</high>
+    <low>14.1750</low>
+    <close>17.0000</close>
+    <adjusted_close>13.5388</adjusted_close>
+    <volume>388726800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-04-01</date>
+    <open>17.1500</open>
+    <high>17.5000</high>
+    <low>16.2975</low>
+    <close>16.7000</close>
+    <adjusted_close>13.2999</adjusted_close>
+    <volume>292848000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-05-01</date>
+    <open>16.7000</open>
+    <high>17.2200</high>
+    <low>16.0200</low>
+    <close>17.0925</close>
+    <adjusted_close>13.6124</adjusted_close>
+    <volume>262823600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-06-01</date>
+    <open>17.0675</open>
+    <high>17.5700</high>
+    <low>14.4075</low>
+    <close>14.9025</close>
+    <adjusted_close>11.9086</adjusted_close>
+    <volume>380941200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-07-01</date>
+    <open>14.9000</open>
+    <high>15.1075</high>
+    <low>13.6600</low>
+    <close>14.6700</close>
+    <adjusted_close>11.7229</adjusted_close>
+    <volume>398798800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-08-01</date>
+    <open>14.6050</open>
+    <high>16.2000</high>
+    <low>14.4375</low>
+    <close>15.1525</close>
+    <adjusted_close>12.1084</adjusted_close>
+    <volume>239295600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-09-01</date>
+    <open>15.3900</open>
+    <high>17.0000</high>
+    <low>14.6175</low>
+    <close>16.7250</close>
+    <adjusted_close>13.4148</adjusted_close>
+    <volume>429137200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-10-01</date>
+    <open>16.5500</open>
+    <high>16.7550</high>
+    <low>11.6175</low>
+    <close>14.4075</close>
+    <adjusted_close>11.5560</adjusted_close>
+    <volume>580011200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-11-01</date>
+    <open>14.3375</open>
+    <high>14.6250</high>
+    <low>10.6700</low>
+    <close>13.3125</close>
+    <adjusted_close>10.6777</adjusted_close>
+    <volume>379518400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2008-12-01</date>
+    <open>13.0675</open>
+    <high>14.3325</high>
+    <low>11.7700</low>
+    <close>12.7500</close>
+    <adjusted_close>10.2760</adjusted_close>
+    <volume>364402400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-01-01</date>
+    <open>12.7375</open>
+    <high>13.5000</high>
+    <low>10.8850</low>
+    <close>11.3125</close>
+    <adjusted_close>9.1174</adjusted_close>
+    <volume>280087600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-02-01</date>
+    <open>11.1425</open>
+    <high>12.2800</high>
+    <low>10.0200</low>
+    <close>10.3825</close>
+    <adjusted_close>8.3679</adjusted_close>
+    <volume>289726800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-03-01</date>
+    <open>10.2075</open>
+    <high>12.0725</high>
+    <low>9.5600</low>
+    <close>11.7225</close>
+    <adjusted_close>9.5037</adjusted_close>
+    <volume>412890800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-04-01</date>
+    <open>11.5450</open>
+    <high>14.0750</high>
+    <low>11.4100</low>
+    <close>13.1175</close>
+    <adjusted_close>10.6346</adjusted_close>
+    <volume>287046000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-05-01</date>
+    <open>13.2175</open>
+    <high>14.2850</high>
+    <low>12.1900</low>
+    <close>14.2625</close>
+    <adjusted_close>11.5629</adjusted_close>
+    <volume>309504000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-06-01</date>
+    <open>14.4650</open>
+    <high>14.9875</high>
+    <low>12.5400</low>
+    <close>12.9450</close>
+    <adjusted_close>10.5401</adjusted_close>
+    <volume>379703200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-07-01</date>
+    <open>13.0350</open>
+    <high>14.4425</high>
+    <low>12.6475</low>
+    <close>14.1600</close>
+    <adjusted_close>11.5294</adjusted_close>
+    <volume>297748000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-08-01</date>
+    <open>14.2450</open>
+    <high>14.5675</high>
+    <low>13.7000</low>
+    <close>13.8475</close>
+    <adjusted_close>11.2749</adjusted_close>
+    <volume>269588000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-09-01</date>
+    <open>13.7250</open>
+    <high>16.2375</high>
+    <low>13.3050</low>
+    <close>16.1750</close>
+    <adjusted_close>13.2321</adjusted_close>
+    <volume>426029200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-10-01</date>
+    <open>16.0000</open>
+    <high>16.5875</high>
+    <low>15.2700</low>
+    <close>15.5450</close>
+    <adjusted_close>12.7167</adjusted_close>
+    <volume>302178800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-11-01</date>
+    <open>15.5850</open>
+    <high>16.5850</high>
+    <low>15.4500</low>
+    <close>16.2225</close>
+    <adjusted_close>13.2709</adjusted_close>
+    <volume>175682400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2009-12-01</date>
+    <open>16.3175</open>
+    <high>16.6550</high>
+    <low>15.4375</low>
+    <close>16.5175</close>
+    <adjusted_close>13.5683</adjusted_close>
+    <volume>214435200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-01-01</date>
+    <open>16.5150</open>
+    <high>16.5175</high>
+    <low>15.7375</low>
+    <close>15.9375</close>
+    <adjusted_close>13.0919</adjusted_close>
+    <volume>183847600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-02-01</date>
+    <open>15.9925</open>
+    <high>16.9625</high>
+    <low>15.2225</low>
+    <close>16.9000</close>
+    <adjusted_close>13.8825</adjusted_close>
+    <volume>196404000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-03-01</date>
+    <open>16.9775</open>
+    <high>18.8375</high>
+    <low>16.8150</low>
+    <close>18.3750</close>
+    <adjusted_close>15.1546</adjusted_close>
+    <volume>245335600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-04-01</date>
+    <open>18.4900</open>
+    <high>19.6325</high>
+    <low>18.2650</low>
+    <close>18.9775</close>
+    <adjusted_close>15.6516</adjusted_close>
+    <volume>199108000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-05-01</date>
+    <open>19.0025</open>
+    <high>19.6375</high>
+    <low>16.7475</low>
+    <close>18.0950</close>
+    <adjusted_close>14.9237</adjusted_close>
+    <volume>370556400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-06-01</date>
+    <open>17.8600</open>
+    <high>18.9800</high>
+    <low>16.8250</low>
+    <close>16.8875</close>
+    <adjusted_close>13.9795</adjusted_close>
+    <volume>306146800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-07-01</date>
+    <open>16.9725</open>
+    <high>18.5275</high>
+    <low>16.5850</low>
+    <close>18.4100</close>
+    <adjusted_close>15.2399</adjusted_close>
+    <volume>268348800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-08-01</date>
+    <open>18.5975</open>
+    <high>18.7500</high>
+    <low>17.0800</low>
+    <close>17.5000</close>
+    <adjusted_close>14.4866</adjusted_close>
+    <volume>221693200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-09-01</date>
+    <open>17.7825</open>
+    <high>20.4250</high>
+    <low>17.7050</low>
+    <close>20.0350</close>
+    <adjusted_close>16.6474</adjusted_close>
+    <volume>283139600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-10-01</date>
+    <open>20.2400</open>
+    <high>20.8500</high>
+    <low>19.7600</low>
+    <close>20.3600</close>
+    <adjusted_close>16.9174</adjusted_close>
+    <volume>222612800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-11-01</date>
+    <open>20.4700</open>
+    <high>21.7425</high>
+    <low>20.0650</low>
+    <close>21.5325</close>
+    <adjusted_close>17.8917</adjusted_close>
+    <volume>189888800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2010-12-01</date>
+    <open>21.8700</open>
+    <high>23.1225</high>
+    <low>21.2800</low>
+    <close>21.3550</close>
+    <adjusted_close>17.8072</adjusted_close>
+    <volume>212482800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-01-01</date>
+    <open>21.4575</open>
+    <high>21.6450</high>
+    <low>20.2525</low>
+    <close>20.6200</close>
+    <adjusted_close>17.1943</adjusted_close>
+    <volume>181603600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-02-01</date>
+    <open>20.6875</open>
+    <high>22.2900</high>
+    <low>20.6550</low>
+    <close>22.2575</close>
+    <adjusted_close>18.5597</adjusted_close>
+    <volume>177180400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-03-01</date>
+    <open>22.4125</open>
+    <high>22.7800</high>
+    <low>17.3575</low>
+    <close>18.9250</close>
+    <adjusted_close>15.8365</adjusted_close>
+    <volume>425141200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-04-01</date>
+    <open>18.9850</open>
+    <high>20.6825</high>
+    <low>18.9550</low>
+    <close>20.5800</close>
+    <adjusted_close>17.2214</adjusted_close>
+    <volume>223100800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-05-01</date>
+    <open>20.6950</open>
+    <high>21.6325</high>
+    <low>20.3525</low>
+    <close>21.1125</close>
+    <adjusted_close>17.6670</adjusted_close>
+    <volume>197235200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-06-01</date>
+    <open>21.0850</open>
+    <high>22.6450</high>
+    <low>19.8600</low>
+    <close>22.4950</close>
+    <adjusted_close>18.8951</adjusted_close>
+    <volume>337338800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-07-01</date>
+    <open>22.4125</open>
+    <high>23.5575</high>
+    <low>22.1375</low>
+    <close>22.5375</close>
+    <adjusted_close>18.9308</adjusted_close>
+    <volume>241526400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-08-01</date>
+    <open>22.6050</open>
+    <high>22.6150</high>
+    <low>19.2450</low>
+    <close>21.6625</close>
+    <adjusted_close>18.1959</adjusted_close>
+    <volume>346141200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-09-01</date>
+    <open>21.5875</open>
+    <high>23.1400</high>
+    <low>20.0500</low>
+    <close>21.3775</close>
+    <adjusted_close>18.0209</adjusted_close>
+    <volume>327130000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-10-01</date>
+    <open>21.2375</open>
+    <high>24.4200</high>
+    <low>20.2525</low>
+    <close>24.0875</close>
+    <adjusted_close>20.3054</adjusted_close>
+    <volume>232694800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-11-01</date>
+    <open>23.3775</open>
+    <high>24.3750</high>
+    <low>22.4475</low>
+    <close>24.0450</close>
+    <adjusted_close>20.2696</adjusted_close>
+    <volume>196018400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2011-12-01</date>
+    <open>23.8400</open>
+    <high>24.5625</high>
+    <low>23.2225</low>
+    <close>24.0925</close>
+    <adjusted_close>20.3859</adjusted_close>
+    <volume>221889600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-01-01</date>
+    <open>24.3425</open>
+    <high>26.2350</high>
+    <low>24.1275</low>
+    <close>25.9975</close>
+    <adjusted_close>21.9979</adjusted_close>
+    <volume>193462000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-02-01</date>
+    <open>26.1025</open>
+    <high>27.0700</high>
+    <low>25.6425</low>
+    <close>26.9800</close>
+    <adjusted_close>22.8292</adjusted_close>
+    <volume>148473600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-03-01</date>
+    <open>27.2225</open>
+    <high>28.2425</high>
+    <low>26.5175</low>
+    <close>27.1100</close>
+    <adjusted_close>23.0160</adjusted_close>
+    <volume>230840400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-04-01</date>
+    <open>27.1050</open>
+    <high>28.0000</high>
+    <low>26.4825</low>
+    <close>27.9675</close>
+    <adjusted_close>23.7440</adjusted_close>
+    <volume>178009200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-05-01</date>
+    <open>27.9775</open>
+    <high>28.7025</high>
+    <low>26.0675</low>
+    <close>27.0450</close>
+    <adjusted_close>23.0372</adjusted_close>
+    <volume>205013600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-06-01</date>
+    <open>26.5725</open>
+    <high>27.4775</high>
+    <low>21.2750</low>
+    <close>21.9450</close>
+    <adjusted_close>18.6929</adjusted_close>
+    <volume>339438800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-07-01</date>
+    <open>22.0975</open>
+    <high>24.4375</high>
+    <low>22.0075</low>
+    <close>23.3375</close>
+    <adjusted_close>19.8791</adjusted_close>
+    <volume>277826000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-08-01</date>
+    <open>23.3775</open>
+    <high>24.8225</high>
+    <low>22.7600</low>
+    <close>24.3400</close>
+    <adjusted_close>20.8089</adjusted_close>
+    <volume>212740400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-09-01</date>
+    <open>24.2975</open>
+    <high>25.2300</high>
+    <low>23.1975</low>
+    <close>23.7275</close>
+    <adjusted_close>20.2853</adjusted_close>
+    <volume>252478000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-10-01</date>
+    <open>23.7275</open>
+    <high>24.5250</high>
+    <low>22.5800</low>
+    <close>22.8450</close>
+    <adjusted_close>19.5308</adjusted_close>
+    <volume>198277200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-11-01</date>
+    <open>22.9750</open>
+    <high>25.0825</high>
+    <low>22.4125</low>
+    <close>24.3700</close>
+    <adjusted_close>20.8346</adjusted_close>
+    <volume>188968400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2012-12-01</date>
+    <open>24.4150</open>
+    <high>26.5575</high>
+    <low>24.1525</low>
+    <close>25.8000</close>
+    <adjusted_close>22.1524</adjusted_close>
+    <volume>187460200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-01-01</date>
+    <open>26.2000</open>
+    <high>27.7850</high>
+    <low>25.7000</low>
+    <close>27.0250</close>
+    <adjusted_close>23.2042</adjusted_close>
+    <volume>149268200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-02-01</date>
+    <open>27.2300</open>
+    <high>27.9500</high>
+    <low>26.7500</low>
+    <close>27.2300</close>
+    <adjusted_close>23.4709</adjusted_close>
+    <volume>123347800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-03-01</date>
+    <open>27.2100</open>
+    <high>30.1250</high>
+    <low>26.6350</low>
+    <close>29.5050</close>
+    <adjusted_close>25.4318</adjusted_close>
+    <volume>197793600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-04-01</date>
+    <open>29.5000</open>
+    <high>31.8850</high>
+    <low>28.9900</low>
+    <close>31.8000</close>
+    <adjusted_close>27.4100</adjusted_close>
+    <volume>147312200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-05-01</date>
+    <open>31.7800</open>
+    <high>33.0350</high>
+    <low>30.7800</low>
+    <close>30.8300</close>
+    <adjusted_close>26.6629</adjusted_close>
+    <volume>143206000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-06-01</date>
+    <open>30.8000</open>
+    <high>32.0350</high>
+    <low>29.5550</low>
+    <close>31.8400</close>
+    <adjusted_close>27.5364</adjusted_close>
+    <volume>179310200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-07-01</date>
+    <open>31.9700</open>
+    <high>32.3300</high>
+    <low>30.9500</low>
+    <close>31.4600</close>
+    <adjusted_close>27.2078</adjusted_close>
+    <volume>139193800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-08-01</date>
+    <open>31.6200</open>
+    <high>33.4250</high>
+    <low>31.3000</low>
+    <close>31.4100</close>
+    <adjusted_close>27.2548</adjusted_close>
+    <volume>136639400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-09-01</date>
+    <open>31.8050</open>
+    <high>37.6250</high>
+    <low>31.7500</low>
+    <close>36.3200</close>
+    <adjusted_close>31.5153</adjusted_close>
+    <volume>226198200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-10-01</date>
+    <open>36.5200</open>
+    <high>38.4450</high>
+    <low>34.9800</low>
+    <close>37.8800</close>
+    <adjusted_close>32.8689</adjusted_close>
+    <volume>178418000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-11-01</date>
+    <open>37.9000</open>
+    <high>39.9350</high>
+    <low>37.7900</low>
+    <close>39.5700</close>
+    <adjusted_close>34.3354</adjusted_close>
+    <volume>102247600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2013-12-01</date>
+    <open>39.7350</open>
+    <high>40.1300</high>
+    <low>37.7100</low>
+    <close>39.3200</close>
+    <adjusted_close>34.2253</adjusted_close>
+    <volume>162278800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-01-01</date>
+    <open>39.0750</open>
+    <high>39.4150</high>
+    <low>35.7550</low>
+    <close>36.4250</close>
+    <adjusted_close>31.7055</adjusted_close>
+    <volume>167970600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-02-01</date>
+    <open>36.3800</open>
+    <high>39.5300</high>
+    <low>34.9250</low>
+    <close>39.1500</close>
+    <adjusted_close>34.1820</adjusted_close>
+    <volume>136880200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-03-01</date>
+    <open>38.8150</open>
+    <high>40.0450</high>
+    <low>36.5050</low>
+    <close>36.9300</close>
+    <adjusted_close>32.2437</adjusted_close>
+    <volume>178531800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-04-01</date>
+    <open>37.0100</open>
+    <high>37.5900</high>
+    <low>35.3000</low>
+    <close>36.4750</close>
+    <adjusted_close>31.8464</adjusted_close>
+    <volume>166126400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-05-01</date>
+    <open>36.4050</open>
+    <high>38.4650</high>
+    <low>35.7650</low>
+    <close>38.4550</close>
+    <adjusted_close>33.6812</adjusted_close>
+    <volume>113444000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-06-01</date>
+    <open>38.4950</open>
+    <high>39.5750</high>
+    <low>36.5700</low>
+    <close>38.7750</close>
+    <adjusted_close>33.9614</adjusted_close>
+    <volume>165319600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-07-01</date>
+    <open>38.8650</open>
+    <high>39.9700</high>
+    <low>38.1500</low>
+    <close>38.5650</close>
+    <adjusted_close>33.7775</adjusted_close>
+    <volume>134401800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-08-01</date>
+    <open>38.2700</open>
+    <high>40.1500</high>
+    <low>37.9500</low>
+    <close>39.2750</close>
+    <adjusted_close>34.5032</adjusted_close>
+    <volume>115312800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-09-01</date>
+    <open>39.1750</open>
+    <high>45.1450</high>
+    <low>39.1750</low>
+    <close>44.6000</close>
+    <adjusted_close>39.1813</adjusted_close>
+    <volume>217202400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-10-01</date>
+    <open>44.4550</open>
+    <high>47.0700</high>
+    <low>41.9250</low>
+    <close>46.4850</close>
+    <adjusted_close>40.8372</adjusted_close>
+    <volume>183619800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-11-01</date>
+    <open>46.6750</open>
+    <high>49.8800</high>
+    <low>46.3100</low>
+    <close>49.6450</close>
+    <adjusted_close>43.6133</adjusted_close>
+    <volume>99490000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2014-12-01</date>
+    <open>49.3300</open>
+    <high>49.7500</high>
+    <low>46.4150</low>
+    <close>48.0750</close>
+    <adjusted_close>42.3555</adjusted_close>
+    <volume>168706000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-01-01</date>
+    <open>48.2750</open>
+    <high>48.7250</high>
+    <low>46.0150</low>
+    <close>46.1250</close>
+    <adjusted_close>40.6375</adjusted_close>
+    <volume>130906000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-02-01</date>
+    <open>46.3400</open>
+    <high>48.7050</high>
+    <low>45.3450</low>
+    <close>48.5600</close>
+    <adjusted_close>42.9069</adjusted_close>
+    <volume>138933400</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-03-01</date>
+    <open>48.4450</open>
+    <high>51.8950</high>
+    <low>47.5900</low>
+    <close>50.1650</close>
+    <adjusted_close>44.3250</adjusted_close>
+    <volume>189358200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-04-01</date>
+    <open>50.0000</open>
+    <high>51.0000</high>
+    <low>49.0700</low>
+    <close>49.4200</close>
+    <adjusted_close>43.6668</adjusted_close>
+    <volume>112486800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-05-01</date>
+    <open>49.9400</open>
+    <high>52.7500</high>
+    <low>49.7050</low>
+    <close>50.8350</close>
+    <adjusted_close>45.0397</adjusted_close>
+    <volume>114083800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-06-01</date>
+    <open>50.8850</open>
+    <high>55.1700</high>
+    <low>50.3900</low>
+    <close>54.0100</close>
+    <adjusted_close>47.8527</adjusted_close>
+    <volume>137113200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-07-01</date>
+    <open>54.4750</open>
+    <high>57.9700</high>
+    <low>54.2950</low>
+    <close>57.6100</close>
+    <adjusted_close>51.0423</adjusted_close>
+    <volume>126937800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-08-01</date>
+    <open>57.7550</open>
+    <high>58.8600</high>
+    <low>47.2500</low>
+    <close>55.8750</close>
+    <adjusted_close>49.5051</adjusted_close>
+    <volume>169758600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-09-01</date>
+    <open>54.4900</open>
+    <high>62.9750</high>
+    <low>54.0150</low>
+    <close>61.4850</close>
+    <adjusted_close>54.6137</adjusted_close>
+    <volume>222222800</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-10-01</date>
+    <open>61.5800</open>
+    <high>66.7600</high>
+    <low>60.5000</low>
+    <close>65.5150</close>
+    <adjusted_close>58.1933</adjusted_close>
+    <volume>177921400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-11-01</date>
+    <open>65.8650</open>
+    <high>67.6500</high>
+    <low>60.2100</low>
+    <close>66.1400</close>
+    <adjusted_close>58.7484</adjusted_close>
+    <volume>163167800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2015-12-01</date>
+    <open>66.0600</open>
+    <high>68.1950</high>
+    <low>62.1500</low>
+    <close>62.5000</close>
+    <adjusted_close>55.6498</adjusted_close>
+    <volume>234856100</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-01-01</date>
+    <open>61.1100</open>
+    <high>62.5900</high>
+    <low>56.5900</low>
+    <close>62.0100</close>
+    <adjusted_close>55.2135</adjusted_close>
+    <volume>201105100</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-02-01</date>
+    <open>61.7500</open>
+    <high>63.5000</high>
+    <low>53.6400</low>
+    <close>61.5900</close>
+    <adjusted_close>54.8396</adjusted_close>
+    <volume>211308000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-03-01</date>
+    <open>61.9700</open>
+    <high>65.4400</high>
+    <low>57.9500</low>
+    <close>61.4700</close>
+    <adjusted_close>54.8738</adjusted_close>
+    <volume>230587100</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-04-01</date>
+    <open>61.2200</open>
+    <high>61.8500</high>
+    <low>56.8900</low>
+    <close>58.9400</close>
+    <adjusted_close>52.6153</adjusted_close>
+    <volume>178121800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-05-01</date>
+    <open>59.0900</open>
+    <high>59.9900</high>
+    <low>55.1700</low>
+    <close>55.2200</close>
+    <adjusted_close>49.2945</adjusted_close>
+    <volume>192375000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-06-01</date>
+    <open>53.3300</open>
+    <high>55.6400</high>
+    <low>51.4800</low>
+    <close>55.2000</close>
+    <adjusted_close>49.4206</adjusted_close>
+    <volume>316677800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-07-01</date>
+    <open>55.0700</open>
+    <high>58.8700</high>
+    <low>54.8200</low>
+    <close>55.5000</close>
+    <adjusted_close>49.6892</adjusted_close>
+    <volume>166822100</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-08-01</date>
+    <open>55.7300</open>
+    <high>60.3300</high>
+    <low>54.2800</low>
+    <close>57.6400</close>
+    <adjusted_close>51.6051</adjusted_close>
+    <volume>181042100</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-09-01</date>
+    <open>57.6700</open>
+    <high>59.1800</high>
+    <low>52.1200</low>
+    <close>52.6500</close>
+    <adjusted_close>47.2688</adjusted_close>
+    <volume>230941100</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-10-01</date>
+    <open>52.5400</open>
+    <high>53.0600</high>
+    <low>50.0000</low>
+    <close>50.1800</close>
+    <adjusted_close>45.0512</adjusted_close>
+    <volume>190328000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-11-01</date>
+    <open>50.5000</open>
+    <high>51.8900</high>
+    <low>49.0100</low>
+    <close>50.0700</close>
+    <adjusted_close>44.9525</adjusted_close>
+    <volume>166212700</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2016-12-01</date>
+    <open>50.1100</open>
+    <high>53.3500</high>
+    <low>50.0600</low>
+    <close>50.8300</close>
+    <adjusted_close>45.7995</adjusted_close>
+    <volume>215471200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-01-01</date>
+    <open>51.9900</open>
+    <high>54.1200</high>
+    <low>51.6300</low>
+    <close>52.9000</close>
+    <adjusted_close>47.6646</adjusted_close>
+    <volume>175931200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-02-01</date>
+    <open>52.9800</open>
+    <high>58.4200</high>
+    <low>52.0500</low>
+    <close>57.1600</close>
+    <adjusted_close>51.5030</adjusted_close>
+    <volume>178369800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-03-01</date>
+    <open>57.8600</open>
+    <high>59.0000</high>
+    <low>53.7600</low>
+    <close>55.7300</close>
+    <adjusted_close>50.3710</adjusted_close>
+    <volume>249512200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-04-01</date>
+    <open>55.7400</open>
+    <high>56.6900</high>
+    <low>54.5000</low>
+    <close>55.4100</close>
+    <adjusted_close>50.0817</adjusted_close>
+    <volume>137922800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-05-01</date>
+    <open>55.4300</open>
+    <high>55.4500</high>
+    <low>50.8100</low>
+    <close>52.9900</close>
+    <adjusted_close>47.8945</adjusted_close>
+    <volume>223428200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-06-01</date>
+    <open>53.0600</open>
+    <high>59.7100</high>
+    <low>50.7900</low>
+    <close>59.0000</close>
+    <adjusted_close>53.5083</adjusted_close>
+    <volume>275425100</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-07-01</date>
+    <open>58.3700</open>
+    <high>60.0000</high>
+    <low>57.0000</low>
+    <close>59.0500</close>
+    <adjusted_close>53.5536</adjusted_close>
+    <volume>158127000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-08-01</date>
+    <open>59.0000</open>
+    <high>60.5300</high>
+    <low>52.0700</low>
+    <close>52.8100</close>
+    <adjusted_close>48.0590</adjusted_close>
+    <volume>174951200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-09-01</date>
+    <open>53.0000</open>
+    <high>54.1600</high>
+    <low>51.0300</low>
+    <close>51.8500</close>
+    <adjusted_close>47.1854</adjusted_close>
+    <volume>211929400</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-10-01</date>
+    <open>52.1600</open>
+    <high>57.2500</high>
+    <low>50.3500</low>
+    <close>54.9900</close>
+    <adjusted_close>50.0429</adjusted_close>
+    <volume>247775300</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-11-01</date>
+    <open>55.4200</open>
+    <high>61.2100</high>
+    <low>54.5900</low>
+    <close>60.4200</close>
+    <adjusted_close>54.9844</adjusted_close>
+    <volume>182957400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2017-12-01</date>
+    <open>60.4200</open>
+    <high>65.1900</high>
+    <low>59.2400</low>
+    <close>62.5500</close>
+    <adjusted_close>57.1118</adjusted_close>
+    <volume>198525200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-01-01</date>
+    <open>62.8500</open>
+    <high>68.8300</high>
+    <low>62.5500</low>
+    <close>68.2200</close>
+    <adjusted_close>62.2889</adjusted_close>
+    <volume>157812200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-02-01</date>
+    <open>67.6700</open>
+    <high>70.2500</high>
+    <low>62.0900</low>
+    <close>67.0300</close>
+    <adjusted_close>61.2023</adjusted_close>
+    <volume>160317000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-03-01</date>
+    <open>67.2400</open>
+    <high>67.6900</high>
+    <low>63.8900</low>
+    <close>66.4400</close>
+    <adjusted_close>60.8471</adjusted_close>
+    <volume>174066700</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-04-01</date>
+    <open>65.9700</open>
+    <high>70.0000</high>
+    <low>63.2100</low>
+    <close>68.3900</close>
+    <adjusted_close>62.6330</adjusted_close>
+    <volume>158981900</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-05-01</date>
+    <open>67.9800</open>
+    <high>73.4900</high>
+    <low>66.6400</low>
+    <close>71.8000</close>
+    <adjusted_close>65.7559</adjusted_close>
+    <volume>129566300</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-06-01</date>
+    <open>72.1200</open>
+    <high>81.0000</high>
+    <low>71.1500</low>
+    <close>79.6800</close>
+    <adjusted_close>73.1764</adjusted_close>
+    <volume>156494400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-07-01</date>
+    <open>78.5800</open>
+    <high>79.4800</high>
+    <low>75.0600</low>
+    <close>76.9100</close>
+    <adjusted_close>70.6325</adjusted_close>
+    <volume>122265700</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-08-01</date>
+    <open>76.5000</open>
+    <high>83.6800</high>
+    <low>76.5000</low>
+    <close>82.2000</close>
+    <adjusted_close>75.6767</adjusted_close>
+    <volume>123704500</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-09-01</date>
+    <open>79.3900</open>
+    <high>86.0400</high>
+    <low>79.0000</low>
+    <close>84.7200</close>
+    <adjusted_close>77.9967</adjusted_close>
+    <volume>165674100</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-10-01</date>
+    <open>85.1000</open>
+    <high>85.8500</high>
+    <low>70.6900</low>
+    <close>75.0400</close>
+    <adjusted_close>69.0849</adjusted_close>
+    <volume>199348500</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-11-01</date>
+    <open>75.2300</open>
+    <high>78.5900</high>
+    <low>69.5200</low>
+    <close>75.1200</close>
+    <adjusted_close>69.3638</adjusted_close>
+    <volume>132667800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2018-12-01</date>
+    <open>77.1000</open>
+    <high>79.0000</high>
+    <low>66.5300</low>
+    <close>74.1400</close>
+    <adjusted_close>68.4589</adjusted_close>
+    <volume>180370600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-01-01</date>
+    <open>72.7900</open>
+    <high>81.9500</high>
+    <low>71.2100</low>
+    <close>81.8800</close>
+    <adjusted_close>75.6058</adjusted_close>
+    <volume>153019800</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-02-01</date>
+    <open>81.8300</open>
+    <high>86.4000</high>
+    <low>80.8300</low>
+    <close>85.7300</close>
+    <adjusted_close>79.1608</adjusted_close>
+    <volume>104258200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-03-01</date>
+    <open>86.9300</open>
+    <high>88.5900</high>
+    <low>80.8900</low>
+    <close>84.2100</close>
+    <adjusted_close>77.9573</adjusted_close>
+    <volume>157838000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-04-01</date>
+    <open>85.0400</open>
+    <high>90.0000</high>
+    <low>83.9700</low>
+    <close>87.8300</close>
+    <adjusted_close>81.3085</adjusted_close>
+    <volume>117371600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-05-01</date>
+    <open>87.7300</open>
+    <high>87.9500</high>
+    <low>77.0700</low>
+    <close>77.1400</close>
+    <adjusted_close>71.6111</adjusted_close>
+    <volume>161721400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-06-01</date>
+    <open>77.2400</open>
+    <high>86.8500</high>
+    <low>77.0800</low>
+    <close>83.9500</close>
+    <adjusted_close>77.9330</adjusted_close>
+    <volume>134665600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-07-01</date>
+    <open>84.9300</open>
+    <high>89.8700</high>
+    <low>84.2200</low>
+    <close>86.0300</close>
+    <adjusted_close>79.8639</adjusted_close>
+    <volume>117789600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-08-01</date>
+    <open>85.2600</open>
+    <high>86.7700</high>
+    <low>78.1900</low>
+    <close>84.5000</close>
+    <adjusted_close>78.6462</adjusted_close>
+    <volume>138117200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-09-01</date>
+    <open>84.0000</open>
+    <high>94.0800</high>
+    <low>83.6200</low>
+    <close>93.9200</close>
+    <adjusted_close>87.4136</adjusted_close>
+    <volume>134314200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-10-01</date>
+    <open>94.1300</open>
+    <high>96.8700</high>
+    <low>88.9400</low>
+    <close>89.5500</close>
+    <adjusted_close>83.3463</adjusted_close>
+    <volume>155234600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-11-01</date>
+    <open>90.1800</open>
+    <high>95.1200</high>
+    <low>88.7400</low>
+    <close>93.4900</close>
+    <adjusted_close>87.2405</adjusted_close>
+    <volume>109098200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2019-12-01</date>
+    <open>94.0900</open>
+    <high>101.7900</high>
+    <low>91.3100</low>
+    <close>101.3100</close>
+    <adjusted_close>94.5377</adjusted_close>
+    <volume>130170700</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>101.3600</open>
+    <high>105.6200</high>
+    <low>95.9200</low>
+    <close>96.3000</close>
+    <adjusted_close>89.8626</adjusted_close>
+    <volume>122158200</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>99.0000</open>
+    <high>103.8900</high>
+    <low>85.1500</low>
+    <close>89.3800</close>
+    <adjusted_close>83.6366</adjusted_close>
+    <volume>138959900</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>89.6000</open>
+    <high>94.9800</high>
+    <low>60.0000</low>
+    <close>82.7400</close>
+    <adjusted_close>77.4232</adjusted_close>
+    <volume>344640300</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-04-01</date>
+    <open>79.4900</open>
+    <high>91.3900</high>
+    <low>77.1600</low>
+    <close>87.1800</close>
+    <adjusted_close>81.5780</adjusted_close>
+    <volume>165095600</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-05-01</date>
+    <open>85.6700</open>
+    <high>100.6900</high>
+    <low>84.1100</low>
+    <close>98.5800</close>
+    <adjusted_close>92.4755</adjusted_close>
+    <volume>135741000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-06-01</date>
+    <open>98.4000</open>
+    <high>104.6900</high>
+    <low>93.4400</low>
+    <close>98.0500</close>
+    <adjusted_close>91.9783</adjusted_close>
+    <volume>183209200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-07-01</date>
+    <open>98.5000</open>
+    <high>100.1800</high>
+    <low>95.1100</low>
+    <close>97.6100</close>
+    <adjusted_close>91.5656</adjusted_close>
+    <volume>114801300</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-08-01</date>
+    <open>98.0300</open>
+    <high>112.7900</high>
+    <low>96.5500</low>
+    <close>111.8900</close>
+    <adjusted_close>105.1938</adjusted_close>
+    <volume>115986600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-09-01</date>
+    <open>112.0000</open>
+    <high>130.3800</high>
+    <low>110.2100</low>
+    <close>125.5400</close>
+    <adjusted_close>118.0269</adjusted_close>
+    <volume>193213000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-10-01</date>
+    <open>127.7300</open>
+    <high>131.3800</high>
+    <low>118.8000</low>
+    <close>120.0800</close>
+    <adjusted_close>112.8937</adjusted_close>
+    <volume>113428500</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-11-01</date>
+    <open>122.3700</open>
+    <high>136.3500</high>
+    <low>121.1000</low>
+    <close>134.7000</close>
+    <adjusted_close>126.6387</adjusted_close>
+    <volume>109138400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-12-01</date>
+    <open>136.4400</open>
+    <high>147.9500</high>
+    <low>134.6700</low>
+    <close>141.4700</close>
+    <adjusted_close>133.2712</adjusted_close>
+    <volume>131293800</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-01-01</date>
+    <open>142.8500</open>
+    <high>147.1000</high>
+    <low>130.2700</low>
+    <close>133.5900</close>
+    <adjusted_close>125.8479</adjusted_close>
+    <volume>99290700</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-02-01</date>
+    <open>135.3700</open>
+    <high>145.8800</high>
+    <low>131.5800</low>
+    <close>134.7800</close>
+    <adjusted_close>127.2270</adjusted_close>
+    <volume>109514100</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-03-01</date>
+    <open>135.6400</open>
+    <high>146.6600</high>
+    <low>125.4400</low>
+    <close>132.8900</close>
+    <adjusted_close>125.4429</adjusted_close>
+    <volume>175520900</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-04-01</date>
+    <open>134.6900</open>
+    <high>138.2400</high>
+    <low>125.7000</low>
+    <close>132.6200</close>
+    <adjusted_close>125.1881</adjusted_close>
+    <volume>146686100</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-05-01</date>
+    <open>133.3700</open>
+    <high>139.3600</high>
+    <low>130.4800</low>
+    <close>136.4600</close>
+    <adjusted_close>129.0728</adjusted_close>
+    <volume>121878400</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-06-01</date>
+    <open>137.8500</open>
+    <high>156.4000</high>
+    <low>126.6800</low>
+    <close>154.4900</close>
+    <adjusted_close>146.1268</adjusted_close>
+    <volume>193654700</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-07-01</date>
+    <open>154.0700</open>
+    <high>167.8700</high>
+    <low>153.8900</low>
+    <close>167.5100</close>
+    <adjusted_close>158.4419</adjusted_close>
+    <volume>115025500</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-08-01</date>
+    <open>169.0600</open>
+    <high>174.3800</high>
+    <low>164.2000</low>
+    <close>164.7400</close>
+    <adjusted_close>156.0790</adjusted_close>
+    <volume>94305000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-09-01</date>
+    <open>164.9200</open>
+    <high>166.6200</high>
+    <low>144.4200</low>
+    <close>145.2300</close>
+    <adjusted_close>137.5947</adjusted_close>
+    <volume>171235500</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-10-01</date>
+    <open>145.2200</open>
+    <high>167.6300</high>
+    <low>144.3700</low>
+    <close>167.2900</close>
+    <adjusted_close>158.4949</adjusted_close>
+    <volume>132971400</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-11-01</date>
+    <open>167.8000</open>
+    <high>179.1000</high>
+    <low>165.8900</low>
+    <close>169.2400</close>
+    <adjusted_close>160.3424</adjusted_close>
+    <volume>117595600</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2021-12-01</date>
+    <open>170.8900</open>
+    <high>173.3700</high>
+    <low>155.4700</low>
+    <close>166.6700</close>
+    <adjusted_close>158.1913</adjusted_close>
+    <volume>123481200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-01-01</date>
+    <open>167.5300</open>
+    <high>167.9100</high>
+    <low>139.5600</low>
+    <close>148.0700</close>
+    <adjusted_close>140.5376</adjusted_close>
+    <volume>131502000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-02-01</date>
+    <open>149.5000</open>
+    <high>149.6800</high>
+    <low>130.9300</low>
+    <close>136.5500</close>
+    <adjusted_close>129.6036</adjusted_close>
+    <volume>115406000</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-03-01</date>
+    <open>136.7200</open>
+    <high>139.8600</high>
+    <low>116.7500</low>
+    <close>134.5600</close>
+    <adjusted_close>128.0062</adjusted_close>
+    <volume>201080600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-04-01</date>
+    <open>134.4500</open>
+    <high>139.1400</high>
+    <low>120.4800</low>
+    <close>124.7000</close>
+    <adjusted_close>118.6265</adjusted_close>
+    <volume>128180100</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-05-01</date>
+    <open>124.4300</open>
+    <high>126.2000</high>
+    <low>103.4600</low>
+    <close>118.8500</close>
+    <adjusted_close>113.0614</adjusted_close>
+    <volume>162628900</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-06-01</date>
+    <open>119.8300</open>
+    <high>123.8200</high>
+    <low>100.7800</low>
+    <close>102.2000</close>
+    <adjusted_close>97.4632</adjusted_close>
+    <volume>172665200</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-07-01</date>
+    <open>101.6400</open>
+    <high>115.2100</high>
+    <low>99.5300</low>
+    <close>114.9200</close>
+    <adjusted_close>109.5937</adjusted_close>
+    <volume>136287300</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-08-01</date>
+    <open>114.0000</open>
+    <high>118.4700</high>
+    <low>105.8100</low>
+    <close>106.4500</close>
+    <adjusted_close>101.5162</adjusted_close>
+    <volume>127466600</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-09-01</date>
+    <open>105.8000</open>
+    <high>113.3600</high>
+    <low>82.5000</low>
+    <close>83.1200</close>
+    <adjusted_close>79.4952</adjusted_close>
+    <volume>206296500</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-10-01</date>
+    <open>83.1300</open>
+    <high>94.3500</high>
+    <low>82.2200</low>
+    <close>92.6800</close>
+    <adjusted_close>88.6383</adjusted_close>
+    <volume>200873100</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-11-01</date>
+    <open>95.6900</open>
+    <high>109.6900</high>
+    <low>88.7200</low>
+    <close>109.6900</close>
+    <adjusted_close>104.9065</adjusted_close>
+    <volume>158370900</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2022-12-01</date>
+    <open>110.0900</open>
+    <high>119.1800</high>
+    <low>101.6800</low>
+    <close>117.0100</close>
+    <adjusted_close>112.2508</adjusted_close>
+    <volume>194177000</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-01-01</date>
+    <open>118.5500</open>
+    <high>129.2300</high>
+    <low>117.4400</low>
+    <close>127.3300</close>
+    <adjusted_close>122.1511</adjusted_close>
+    <volume>135012300</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-02-01</date>
+    <open>127.9000</open>
+    <high>131.3100</high>
+    <low>117.3400</low>
+    <close>118.7900</close>
+    <adjusted_close>113.9584</adjusted_close>
+    <volume>101178600</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-03-01</date>
+    <open>117.9500</open>
+    <high>126.0600</high>
+    <low>115.7900</low>
+    <close>122.6400</close>
+    <adjusted_close>117.9873</adjusted_close>
+    <volume>156964700</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-04-01</date>
+    <open>122.5000</open>
+    <high>127.4900</high>
+    <low>117.8500</low>
+    <close>126.7200</close>
+    <adjusted_close>121.9125</adjusted_close>
+    <volume>81950000</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-05-01</date>
+    <open>126.9200</open>
+    <high>128.6800</high>
+    <low>104.8300</low>
+    <close>105.2600</close>
+    <adjusted_close>101.2667</adjusted_close>
+    <volume>166773900</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-06-01</date>
+    <open>104.1800</open>
+    <high>114.7600</high>
+    <low>102.9000</low>
+    <close>110.3700</close>
+    <adjusted_close>106.5323</adjusted_close>
+    <volume>216109800</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-07-01</date>
+    <open>111.0600</open>
+    <high>111.3000</high>
+    <low>103.6700</low>
+    <close>110.3900</close>
+    <adjusted_close>106.5516</adjusted_close>
+    <volume>135371500</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-08-01</date>
+    <open>110.0000</open>
+    <high>111.9500</high>
+    <low>96.5500</low>
+    <close>101.7100</close>
+    <adjusted_close>98.1734</adjusted_close>
+    <volume>159457500</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-09-01</date>
+    <open>101.9700</open>
+    <high>102.9600</high>
+    <low>88.6600</low>
+    <close>95.6200</close>
+    <adjusted_close>92.6048</adjusted_close>
+    <volume>193181200</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-10-01</date>
+    <open>96.2000</open>
+    <high>105.6500</high>
+    <low>93.7300</low>
+    <close>102.7700</close>
+    <adjusted_close>99.5293</adjusted_close>
+    <volume>192269500</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-11-01</date>
+    <open>102.5500</open>
+    <high>112.1500</high>
+    <low>99.9700</low>
+    <close>110.2700</close>
+    <adjusted_close>106.7928</adjusted_close>
+    <volume>154345300</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2023-12-01</date>
+    <open>110.3300</open>
+    <high>123.3900</high>
+    <low>106.8100</low>
+    <close>108.5700</close>
+    <adjusted_close>105.5004</adjusted_close>
+    <volume>218563200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-01-01</date>
+    <open>107.6100</open>
+    <high>107.8500</high>
+    <low>99.6700</low>
+    <close>101.5300</close>
+    <adjusted_close>98.6594</adjusted_close>
+    <volume>188421500</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-02-01</date>
+    <open>101.9000</open>
+    <high>107.4300</high>
+    <low>99.0500</low>
+    <close>103.9300</close>
+    <adjusted_close>100.9916</adjusted_close>
+    <volume>158025100</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-03-01</date>
+    <open>103.8700</open>
+    <high>103.9400</high>
+    <low>91.7200</low>
+    <close>93.9800</close>
+    <adjusted_close>91.6492</adjusted_close>
+    <volume>228711700</volume>
+    <news>NKE Q1 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-04-01</date>
+    <open>93.8100</open>
+    <high>96.2200</high>
+    <low>88.7700</low>
+    <close>92.2600</close>
+    <adjusted_close>89.9718</adjusted_close>
+    <volume>200131300</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-05-01</date>
+    <open>91.8100</open>
+    <high>95.0700</high>
+    <low>90.0900</low>
+    <close>95.0500</close>
+    <adjusted_close>92.6926</adjusted_close>
+    <volume>195689700</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-06-01</date>
+    <open>94.5200</open>
+    <high>98.0400</high>
+    <low>74.5500</low>
+    <close>75.3700</close>
+    <adjusted_close>73.7880</adjusted_close>
+    <volume>306069300</volume>
+    <news>NKE Q2 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-07-01</date>
+    <open>75.5000</open>
+    <high>77.0600</high>
+    <low>70.9100</low>
+    <close>74.8600</close>
+    <adjusted_close>73.2887</adjusted_close>
+    <volume>395870900</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-08-01</date>
+    <open>74.7000</open>
+    <high>85.4300</high>
+    <low>70.7500</low>
+    <close>83.3200</close>
+    <adjusted_close>81.5711</adjusted_close>
+    <volume>250749900</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-09-01</date>
+    <open>82.7100</open>
+    <high>90.6200</high>
+    <low>76.7400</low>
+    <close>88.4000</close>
+    <adjusted_close>86.9305</adjusted_close>
+    <volume>255989000</volume>
+    <news>NKE Q3 earnings report released</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-10-01</date>
+    <open>88.0000</open>
+    <high>89.6400</high>
+    <low>75.2000</low>
+    <close>77.1300</close>
+    <adjusted_close>75.8478</adjusted_close>
+    <volume>266011200</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-11-01</date>
+    <open>77.0500</open>
+    <high>79.8600</high>
+    <low>72.7100</low>
+    <close>78.7700</close>
+    <adjusted_close>77.4606</adjusted_close>
+    <volume>209957700</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2024-12-01</date>
+    <open>77.9200</open>
+    <high>81.1800</high>
+    <low>74.5500</low>
+    <close>75.6700</close>
+    <adjusted_close>74.7919</adjusted_close>
+    <volume>276319500</volume>
+    <news>NKE Q4 earnings report and annual guidance</news>
+  </stock_entry>
+</nike_stock_data>
