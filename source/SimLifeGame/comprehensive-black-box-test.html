@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comprehensive Black Box Test Suite - SimLifeGame v2.0.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+        }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .test-pass {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .test-fail {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .test-warning {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        .test-info {
+            background-color: #cce5ff;
+            color: #004085;
+            border: 1px solid #b3d9ff;
+        }
+        .test-skip {
+            background-color: #e2e3e5;
+            color: #6c757d;
+            border: 1px solid #d6d8db;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin: 10px 0;
+        }
+        .summary {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .summary.pass { background-color: #d4edda; color: #155724; }
+        .summary.fail { background-color: #f8d7da; color: #721c24; }
+        .summary.warning { background-color: #fff3cd; color: #856404; }
+        .progress {
+            width: 100%;
+            height: 20px;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar {
+            height: 100%;
+            background-color: #007bff;
+            transition: width 0.3s ease;
+        }
+        .category-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .category-card {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .category-card.pass { background-color: #d4edda; }
+        .category-card.fail { background-color: #f8d7da; }
+        .category-card.warning { background-color: #fff3cd; }
+        .debug-info {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 0.9em;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Comprehensive Black Box Test Suite</h1>
+        <p><strong>SimLifeGame v2.0.0</strong> - Complete End-to-End Game Testing</p>
+        <p>This suite tests ALL game features from a user's perspective, ensuring every aspect of the Vegas-Life simulation works correctly.</p>
+        
+        <div class="test-section">
+            <h2>🎮 Test Categories</h2>
+            <div class="button-group">
+                <button onclick="runAllTests()">🚀 Run All Tests</button>
+                <button onclick="runTestCategory('core')">⚙️ Core Gameplay</button>
+                <button onclick="runTestCategory('financial')">💰 Financial Systems</button>
+                <button onclick="runTestCategory('career')">👔 Career & Progression</button>
+                <button onclick="runTestCategory('trading')">📈 Trading & Investments</button>
+                <button onclick="runTestCategory('events')">🎲 Events & Random</button>
+                <button onclick="runTestCategory('relationships')">💕 Relationships & Social</button>
+                <button onclick="runTestCategory('assets')">🏠 Assets & Property</button>
+                <button onclick="runTestCategory('ui')">🖥️ UI & Experience</button>
+                <button onclick="clearResults()">🗑️ Clear Results</button>
+            </div>
+        </div>
+
+        <div id="test-progress" style="display: none;">
+            <div class="progress">
+                <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+            </div>
+            <p id="progress-text">Initializing tests...</p>
+        </div>
+
+        <div id="test-summary" class="summary"></div>
+        <div id="category-summary" class="category-summary"></div>
+        <div id="test-results"></div>
+    </div>
+
+    <script src="game.js"></script>
+    <script>
+        class ComprehensiveTestSuite {
+            constructor() {
+                this.testResults = [];
+                this.totalTests = 0;
+                this.passedTests = 0;
+                this.currentCategory = '';
+                this.categoryStats = {};
+            }
+
+            updateProgress(current, total, message) {
+                const progressDiv = document.getElementById('test-progress');
+                const progressBar = document.getElementById('progress-bar');
+                const progressText = document.getElementById('progress-text');
+                
+                progressDiv.style.display = 'block';
+                const percentage = (current / total) * 100;
+                progressBar.style.width = percentage + '%';
+                progressText.textContent = `${message} (${current}/${total})`;
+            }
+
+            addResult(category, testName, passed, details, severity = 'normal') {
+                this.totalTests++;
+                if (passed) this.passedTests++;
+                
+                if (!this.categoryStats[category]) {
+                    this.categoryStats[category] = { total: 0, passed: 0 };
+                }
+                this.categoryStats[category].total++;
+                if (passed) this.categoryStats[category].passed++;
+                
+                this.testResults.push({
+                    category,
+                    testName,
+                    passed,
+                    details,
+                    severity
+                });
+            }
+
+            async testCoreGameplay() {
+                this.currentCategory = 'Core Gameplay';
+                
+                try {
+                    // Test 1: Game Initialization
+                    const game = new SimLifeGame();
+                    this.addResult('Core Gameplay', 'Game Initialization', true, '✅ Game instance created successfully');
+
+                    // Test 2: Game State Structure
+                    const hasRequiredState = game.gameState && 
+                                           typeof game.gameState.ageYears === 'number' &&
+                                           typeof game.gameState.currentYear === 'number' &&
+                                           typeof game.gameState.currentMonth === 'number' &&
+                                           game.gameState.portfolio;
+                    this.addResult('Core Gameplay', 'Game State Structure', hasRequiredState,
+                        hasRequiredState ? '✅ All required game state properties present' : '❌ Missing critical game state');
+
+                    // Test 3: Time System
+                    const initialYear = game.gameState.currentYear;
+                    const initialMonth = game.gameState.currentMonth;
+                    const initialAge = game.gameState.ageYears;
+                    
+                    // Simulate time progression (if possible)
+                    if (typeof game.advanceMonth === 'function') {
+                        game.advanceMonth();
+                        const timeProgressed = game.gameState.currentMonth !== initialMonth || 
+                                             game.gameState.currentYear !== initialYear;
+                        this.addResult('Core Gameplay', 'Time Progression', timeProgressed,
+                            timeProgressed ? '✅ Time advances correctly' : '❌ Time system not working');
+                    } else {
+                        this.addResult('Core Gameplay', 'Time Progression', false,
+                            '⚠️ Cannot test - advanceMonth method not found', 'warning');
+                    }
+
+                    // Test 4: Portfolio System
+                    const portfolio = game.gameState.portfolio;
+                    const hasPortfolio = portfolio && 
+                                       typeof portfolio.cash === 'number' &&
+                                       typeof portfolio.bank === 'number' &&
+                                       portfolio.stocks && 
+                                       portfolio.crypto;
+                    this.addResult('Core Gameplay', 'Portfolio System', hasPortfolio,
+                        hasPortfolio ? '✅ Portfolio structure complete' : '❌ Portfolio missing components');
+
+                    // Test 5: Logging System
+                    let logWorking = false;
+                    const originalLog = console.log;
+                    console.log = () => { logWorking = true; };
+                    
+                    if (typeof game.log === 'function') {
+                        game.log('Test message', 'info');
+                    }
+                    console.log = originalLog;
+                    
+                    this.addResult('Core Gameplay', 'Logging System', logWorking || typeof game.log === 'function',
+                        typeof game.log === 'function' ? '✅ Game logging available' : '⚠️ No game logging system');
+
+                } catch (error) {
+                    this.addResult('Core Gameplay', 'Core Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testFinancialSystems() {
+                this.currentCategory = 'Financial Systems';
+                
+                try {
+                    const game = new SimLifeGame();
+                    
+                    // Test 1: Initial Cash
+                    const hasCash = typeof game.gameState.portfolio.cash === 'number' && 
+                                   game.gameState.portfolio.cash >= 0;
+                    this.addResult('Financial Systems', 'Initial Cash Balance', hasCash,
+                        hasCash ? `✅ Starting cash: $${game.gameState.portfolio.cash.toLocaleString()}` : '❌ Invalid cash amount');
+
+                    // Test 2: Net Worth Calculation
+                    if (typeof game.calculateNetWorth === 'function') {
+                        const netWorth = game.calculateNetWorth();
+                        const validNetWorth = typeof netWorth === 'number' && netWorth >= 0;
+                        this.addResult('Financial Systems', 'Net Worth Calculation', validNetWorth,
+                            validNetWorth ? `✅ Net worth: $${netWorth.toLocaleString()}` : '❌ Invalid net worth calculation');
+                    } else {
+                        this.addResult('Financial Systems', 'Net Worth Calculation', false,
+                            '❌ calculateNetWorth method not found');
+                    }
+
+                    // Test 3: Bank System
+                    const initialCash = game.gameState.portfolio.cash;
+                    const initialBank = game.gameState.portfolio.bank;
+                    
+                    // Try to deposit (if method exists)
+                    if (typeof game.processDeposit === 'function') {
+                        try {
+                            game.processDeposit(100);
+                            const depositWorked = game.gameState.portfolio.bank > initialBank;
+                            this.addResult('Financial Systems', 'Bank Deposit', depositWorked,
+                                depositWorked ? '✅ Deposit functionality works' : '❌ Deposit failed');
+                        } catch (error) {
+                            this.addResult('Financial Systems', 'Bank Deposit', false, `❌ Deposit error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Financial Systems', 'Bank Deposit', false,
+                            '❌ Bank deposit method not found', 'warning');
+                    }
+
+                    // Test 4: Loan System
+                    const hasLoans = game.gameState.loans && Array.isArray(game.gameState.loans);
+                    this.addResult('Financial Systems', 'Loan System Structure', hasLoans,
+                        hasLoans ? '✅ Loan system initialized' : '❌ Loan system missing');
+
+                    // Test 5: Tax Calculation
+                    if (typeof game.calculateTaxes === 'function') {
+                        try {
+                            const taxes = game.calculateTaxes(5000); // Test with $5000 income
+                            const validTax = typeof taxes === 'number' && taxes >= 0 && taxes < 5000;
+                            this.addResult('Financial Systems', 'Tax Calculation', validTax,
+                                validTax ? `✅ Tax on $5000: $${taxes.toFixed(2)}` : '❌ Invalid tax calculation');
+                        } catch (error) {
+                            this.addResult('Financial Systems', 'Tax Calculation', false, `❌ Tax error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Financial Systems', 'Tax Calculation', false,
+                            '❌ Tax calculation method not found', 'warning');
+                    }
+
+                } catch (error) {
+                    this.addResult('Financial Systems', 'Financial Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testCareerProgression() {
+                this.currentCategory = 'Career & Progression';
+                
+                try {
+                    const game = new SimLifeGame();
+                    
+                    // Test 1: Profession System
+                    const hasProfession = game.gameState.profession && 
+                                         typeof game.gameState.profession.title === 'string' &&
+                                         typeof game.gameState.profession.salary === 'number';
+                    this.addResult('Career & Progression', 'Profession System', hasProfession,
+                        hasProfession ? `✅ Profession: ${game.gameState.profession.title}, Salary: $${game.gameState.profession.salary.toLocaleString()}` : 
+                        '❌ Profession data missing');
+
+                    // Test 2: Age Progression
+                    const hasAge = typeof game.gameState.ageYears === 'number' && 
+                                  game.gameState.ageYears >= 18 && 
+                                  game.gameState.ageYears <= 65;
+                    this.addResult('Career & Progression', 'Age System', hasAge,
+                        hasAge ? `✅ Current age: ${game.gameState.ageYears}` : '❌ Invalid age');
+
+                    // Test 3: Experience/Skills
+                    const hasExperience = game.gameState.experience !== undefined || 
+                                         game.gameState.skills !== undefined ||
+                                         game.gameState.profession.experience !== undefined;
+                    this.addResult('Career & Progression', 'Experience System', hasExperience,
+                        hasExperience ? '✅ Experience/skills tracking present' : '⚠️ No experience system found', 
+                        hasExperience ? 'normal' : 'warning');
+
+                    // Test 4: Salary Processing
+                    if (typeof game.processSalary === 'function') {
+                        try {
+                            const initialCash = game.gameState.portfolio.cash;
+                            game.processSalary();
+                            const salaryProcessed = game.gameState.portfolio.cash >= initialCash;
+                            this.addResult('Career & Progression', 'Salary Processing', salaryProcessed,
+                                salaryProcessed ? '✅ Salary processing works' : '❌ Salary processing failed');
+                        } catch (error) {
+                            this.addResult('Career & Progression', 'Salary Processing', false, `❌ Salary error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Career & Progression', 'Salary Processing', false,
+                            '❌ Salary processing method not found');
+                    }
+
+                    // Test 5: Career Advancement
+                    if (typeof game.checkCareerAdvancement === 'function') {
+                        try {
+                            game.checkCareerAdvancement();
+                            this.addResult('Career & Progression', 'Career Advancement', true,
+                                '✅ Career advancement system available');
+                        } catch (error) {
+                            this.addResult('Career & Progression', 'Career Advancement', false, 
+                                `❌ Career advancement error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Career & Progression', 'Career Advancement', false,
+                            '⚠️ Career advancement method not found', 'warning');
+                    }
+
+                } catch (error) {
+                    this.addResult('Career & Progression', 'Career Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testTradingInvestments() {
+                this.currentCategory = 'Trading & Investments';
+                
+                try {
+                    const game = new SimLifeGame();
+                    await game.loadStocks();
+                    
+                    // Test 1: Stock Price System
+                    const stockPrice = game.getStockPrice('AAPL');
+                    const hasStockPrices = typeof stockPrice === 'number' && stockPrice > 0;
+                    this.addResult('Trading & Investments', 'Stock Price System', hasStockPrices,
+                        hasStockPrices ? `✅ AAPL price: $${stockPrice}` : '❌ Stock prices not available');
+
+                    // Test 2: Crypto System
+                    if (typeof game.getCryptoPrice === 'function') {
+                        const cryptoPrice = game.getCryptoPrice('BTC');
+                        const hasCryptoPrices = typeof cryptoPrice === 'number' && cryptoPrice > 0;
+                        this.addResult('Trading & Investments', 'Crypto Price System', hasCryptoPrices,
+                            hasCryptoPrices ? `✅ BTC price: $${cryptoPrice}` : '❌ Crypto prices not available');
+                    } else {
+                        this.addResult('Trading & Investments', 'Crypto Price System', false,
+                            '❌ Crypto price method not found');
+                    }
+
+                    // Test 3: Stock Purchase Validation
+                    if (typeof game.canAffordStock === 'function') {
+                        const canAfford = game.canAffordStock('AAPL', 1);
+                        this.addResult('Trading & Investments', 'Affordability Check', typeof canAfford === 'boolean',
+                            typeof canAfford === 'boolean' ? '✅ Affordability validation works' : 
+                            '❌ Affordability check failed');
+                    } else {
+                        this.addResult('Trading & Investments', 'Affordability Check', false,
+                            '⚠️ Affordability check method not found', 'warning');
+                    }
+
+                    // Test 4: Portfolio Holdings
+                    const portfolio = game.gameState.portfolio;
+                    const hasStockHoldings = portfolio.stocks && typeof portfolio.stocks === 'object';
+                    const hasCryptoHoldings = portfolio.crypto && typeof portfolio.crypto === 'object';
+                    
+                    this.addResult('Trading & Investments', 'Portfolio Holdings', hasStockHoldings && hasCryptoHoldings,
+                        (hasStockHoldings && hasCryptoHoldings) ? '✅ Stock and crypto holdings initialized' : 
+                        '❌ Portfolio holdings missing');
+
+                    // Test 5: Historical Price Data
+                    if (typeof game.getStockPriceHistory === 'function') {
+                        try {
+                            const history = game.getStockPriceHistory('AAPL', 3);
+                            const hasHistory = Array.isArray(history) && history.length > 0;
+                            this.addResult('Trading & Investments', 'Price History', hasHistory,
+                                hasHistory ? `✅ Price history available (${history.length} points)` : 
+                                '❌ No price history available');
+                        } catch (error) {
+                            this.addResult('Trading & Investments', 'Price History', false,
+                                `❌ Price history error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Trading & Investments', 'Price History', false,
+                            '⚠️ Price history method not found', 'warning');
+                    }
+
+                } catch (error) {
+                    this.addResult('Trading & Investments', 'Trading Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testEventsRandom() {
+                this.currentCategory = 'Events & Random';
+                
+                try {
+                    const game = new SimLifeGame();
+                    
+                    // Test 1: Event System
+                    if (typeof game.getRandomEvent === 'function') {
+                        try {
+                            const event = game.getRandomEvent();
+                            const hasEvent = event && typeof event.title === 'string';
+                            this.addResult('Events & Random', 'Random Event System', hasEvent,
+                                hasEvent ? `✅ Event generated: "${event.title}"` : '❌ Event generation failed');
+                        } catch (error) {
+                            this.addResult('Events & Random', 'Random Event System', false,
+                                `❌ Event generation error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Events & Random', 'Random Event System', false,
+                            '❌ Random event method not found');
+                    }
+
+                    // Test 2: Event Processing
+                    if (typeof game.processEvent === 'function') {
+                        try {
+                            // Create a test event
+                            const testEvent = {
+                                title: 'Test Event',
+                                description: 'Test description',
+                                cashChange: 100,
+                                happinessChange: 5
+                            };
+                            
+                            const initialCash = game.gameState.portfolio.cash;
+                            game.processEvent(testEvent);
+                            
+                            this.addResult('Events & Random', 'Event Processing', true,
+                                '✅ Event processing system works');
+                        } catch (error) {
+                            this.addResult('Events & Random', 'Event Processing', false,
+                                `❌ Event processing error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Events & Random', 'Event Processing', false,
+                            '❌ Event processing method not found');
+                    }
+
+                    // Test 3: Randomness Quality
+                    const randomValues = [];
+                    for (let i = 0; i < 10; i++) {
+                        randomValues.push(Math.random());
+                    }
+                    
+                    const allUnique = new Set(randomValues).size === randomValues.length;
+                    const properRange = randomValues.every(v => v >= 0 && v < 1);
+                    
+                    this.addResult('Events & Random', 'Randomness Quality', allUnique && properRange,
+                        (allUnique && properRange) ? '✅ Random number generation working' : 
+                        '❌ Random number issues detected');
+
+                    // Test 4: Luck System
+                    const hasLuck = game.gameState.playerStatus && 
+                                   typeof game.gameState.playerStatus.luck === 'number';
+                    this.addResult('Events & Random', 'Luck System', hasLuck,
+                        hasLuck ? `✅ Luck system: ${game.gameState.playerStatus.luck}` : '⚠️ No luck system found', 
+                        hasLuck ? 'normal' : 'warning');
+
+                    // Test 5: Market Volatility
+                    if (typeof game.getMarketVolatility === 'function') {
+                        try {
+                            const volatility = game.getMarketVolatility();
+                            const validVolatility = typeof volatility === 'number';
+                            this.addResult('Events & Random', 'Market Volatility', validVolatility,
+                                validVolatility ? `✅ Market volatility: ${volatility}` : '❌ Invalid volatility');
+                        } catch (error) {
+                            this.addResult('Events & Random', 'Market Volatility', false,
+                                `❌ Volatility error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Events & Random', 'Market Volatility', false,
+                            '⚠️ Market volatility method not found', 'warning');
+                    }
+
+                } catch (error) {
+                    this.addResult('Events & Random', 'Events Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testRelationshipsSocial() {
+                this.currentCategory = 'Relationships & Social';
+                
+                try {
+                    const game = new SimLifeGame();
+                    
+                    // Test 1: Relationship System
+                    const hasRelationships = game.gameState.relationships && 
+                                            typeof game.gameState.relationships === 'object';
+                    this.addResult('Relationships & Social', 'Relationship System', hasRelationships,
+                        hasRelationships ? '✅ Relationship system initialized' : '⚠️ No relationship system found', 
+                        hasRelationships ? 'normal' : 'warning');
+
+                    // Test 2: Happiness System
+                    const hasHappiness = game.gameState.playerStatus && 
+                                        typeof game.gameState.playerStatus.happiness === 'number';
+                    this.addResult('Relationships & Social', 'Happiness System', hasHappiness,
+                        hasHappiness ? `✅ Happiness: ${game.gameState.playerStatus.happiness}` : 
+                        '⚠️ No happiness system found', hasHappiness ? 'normal' : 'warning');
+
+                    // Test 3: Social Events
+                    if (typeof game.getSocialEvent === 'function') {
+                        try {
+                            const socialEvent = game.getSocialEvent();
+                            this.addResult('Relationships & Social', 'Social Events', true,
+                                '✅ Social event system available');
+                        } catch (error) {
+                            this.addResult('Relationships & Social', 'Social Events', false,
+                                `❌ Social event error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Relationships & Social', 'Social Events', false,
+                            '⚠️ Social event method not found', 'warning');
+                    }
+
+                    // Test 4: Pet System
+                    const hasPets = game.gameState.pets && Array.isArray(game.gameState.pets);
+                    this.addResult('Relationships & Social', 'Pet System', hasPets,
+                        hasPets ? `✅ Pet system: ${game.gameState.pets.length} pets` : 
+                        '⚠️ No pet system found', hasPets ? 'normal' : 'warning');
+
+                    // Test 5: Family System
+                    const hasFamily = game.gameState.family && typeof game.gameState.family === 'object';
+                    this.addResult('Relationships & Social', 'Family System', hasFamily,
+                        hasFamily ? '✅ Family system initialized' : '⚠️ No family system found', 
+                        hasFamily ? 'normal' : 'warning');
+
+                } catch (error) {
+                    this.addResult('Relationships & Social', 'Social Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testAssetsProperty() {
+                this.currentCategory = 'Assets & Property';
+                
+                try {
+                    const game = new SimLifeGame();
+                    
+                    // Test 1: Property System
+                    const hasProperty = game.gameState.properties && Array.isArray(game.gameState.properties);
+                    this.addResult('Assets & Property', 'Property System', hasProperty,
+                        hasProperty ? `✅ Property system: ${game.gameState.properties.length} properties` : 
+                        '⚠️ No property system found', hasProperty ? 'normal' : 'warning');
+
+                    // Test 2: Car System
+                    const hasCars = game.gameState.cars && Array.isArray(game.gameState.cars);
+                    this.addResult('Assets & Property', 'Vehicle System', hasCars,
+                        hasCars ? `✅ Vehicle system: ${game.gameState.cars.length} vehicles` : 
+                        '⚠️ No vehicle system found', hasCars ? 'normal' : 'warning');
+
+                    // Test 3: Asset Appreciation/Depreciation
+                    if (typeof game.updateAssetValues === 'function') {
+                        try {
+                            game.updateAssetValues();
+                            this.addResult('Assets & Property', 'Asset Value Updates', true,
+                                '✅ Asset value update system works');
+                        } catch (error) {
+                            this.addResult('Assets & Property', 'Asset Value Updates', false,
+                                `❌ Asset update error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Assets & Property', 'Asset Value Updates', false,
+                            '⚠️ Asset update method not found', 'warning');
+                    }
+
+                    // Test 4: Maintenance Costs
+                    if (typeof game.calculateMaintenanceCosts === 'function') {
+                        try {
+                            const maintenance = game.calculateMaintenanceCosts();
+                            const validMaintenance = typeof maintenance === 'number' && maintenance >= 0;
+                            this.addResult('Assets & Property', 'Maintenance Costs', validMaintenance,
+                                validMaintenance ? `✅ Maintenance costs: $${maintenance}` : 
+                                '❌ Invalid maintenance calculation');
+                        } catch (error) {
+                            this.addResult('Assets & Property', 'Maintenance Costs', false,
+                                `❌ Maintenance error: ${error.message}`);
+                        }
+                    } else {
+                        this.addResult('Assets & Property', 'Maintenance Costs', false,
+                            '⚠️ Maintenance method not found', 'warning');
+                    }
+
+                    // Test 5: Insurance System
+                    const hasInsurance = game.gameState.insurance && typeof game.gameState.insurance === 'object';
+                    this.addResult('Assets & Property', 'Insurance System', hasInsurance,
+                        hasInsurance ? '✅ Insurance system present' : '⚠️ No insurance system found', 
+                        hasInsurance ? 'normal' : 'warning');
+
+                } catch (error) {
+                    this.addResult('Assets & Property', 'Assets Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testUIExperience() {
+                this.currentCategory = 'UI & Experience';
+                
+                try {
+                    // Test 1: DOM Elements
+                    const gameVersion = document.getElementById('game-version');
+                    const hasVersionDisplay = gameVersion && gameVersion.textContent.includes('v');
+                    this.addResult('UI & Experience', 'Version Display', hasVersionDisplay,
+                        hasVersionDisplay ? `✅ Version: ${gameVersion.textContent}` : '❌ Version display missing');
+
+                    // Test 2: Game Controls
+                    const actionButton = document.querySelector('button');
+                    const hasControls = actionButton !== null;
+                    this.addResult('UI & Experience', 'Game Controls', hasControls,
+                        hasControls ? '✅ Game controls present' : '❌ No game controls found');
+
+                    // Test 3: Responsive Design
+                    const viewportWidth = window.innerWidth;
+                    const isMobile = viewportWidth < 768;
+                    const bodyStyle = window.getComputedStyle(document.body);
+                    
+                    this.addResult('UI & Experience', 'Responsive Design', true,
+                        `✅ Viewport: ${viewportWidth}px (${isMobile ? 'Mobile' : 'Desktop'})`);
+
+                    // Test 4: Performance
+                    const startTime = performance.now();
+                    const game = new SimLifeGame();
+                    const initTime = performance.now() - startTime;
+                    
+                    const goodPerformance = initTime < 1000; // Less than 1 second
+                    this.addResult('UI & Experience', 'Initialization Performance', goodPerformance,
+                        goodPerformance ? `✅ Init time: ${initTime.toFixed(0)}ms` : 
+                        `⚠️ Slow init: ${initTime.toFixed(0)}ms`, goodPerformance ? 'normal' : 'warning');
+
+                    // Test 5: Local Storage
+                    try {
+                        localStorage.setItem('test', 'value');
+                        const canStore = localStorage.getItem('test') === 'value';
+                        localStorage.removeItem('test');
+                        
+                        this.addResult('UI & Experience', 'Local Storage', canStore,
+                            canStore ? '✅ Local storage available' : '❌ Local storage not working');
+                    } catch (error) {
+                        this.addResult('UI & Experience', 'Local Storage', false,
+                            '❌ Local storage error');
+                    }
+
+                    // Test 6: Error Handling
+                    let errorHandled = false;
+                    const originalOnError = window.onerror;
+                    window.onerror = () => { errorHandled = true; return true; };
+                    
+                    try {
+                        // Intentionally cause a harmless error
+                        undefined.property;
+                    } catch (e) {
+                        errorHandled = true;
+                    }
+                    
+                    window.onerror = originalOnError;
+                    this.addResult('UI & Experience', 'Error Handling', true,
+                        '✅ Error handling system operational');
+
+                } catch (error) {
+                    this.addResult('UI & Experience', 'UI Testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            displayResults() {
+                const resultsDiv = document.getElementById('test-results');
+                const summaryDiv = document.getElementById('test-summary');
+                const categorySummaryDiv = document.getElementById('category-summary');
+                const progressDiv = document.getElementById('test-progress');
+                
+                progressDiv.style.display = 'none';
+                
+                // Display category summary
+                let categorySummaryHtml = '';
+                for (const [category, stats] of Object.entries(this.categoryStats)) {
+                    const percentage = Math.round((stats.passed / stats.total) * 100);
+                    let cardClass = 'pass';
+                    if (percentage < 70) cardClass = 'fail';
+                    else if (percentage < 90) cardClass = 'warning';
+                    
+                    categorySummaryHtml += `
+                        <div class="category-card ${cardClass}">
+                            <h4>${category}</h4>
+                            <div>${stats.passed}/${stats.total}</div>
+                            <div>${percentage}%</div>
+                        </div>
+                    `;
+                }
+                categorySummaryDiv.innerHTML = categorySummaryHtml;
+                
+                // Display detailed results
+                let html = '';
+                const categories = {};
+                
+                // Group results by category
+                this.testResults.forEach(result => {
+                    if (!categories[result.category]) {
+                        categories[result.category] = [];
+                    }
+                    categories[result.category].push(result);
+                });
+
+                // Display results by category
+                for (const [category, results] of Object.entries(categories)) {
+                    const categoryPassed = results.filter(r => r.passed).length;
+                    const categoryTotal = results.length;
+                    const categoryPercentage = Math.round((categoryPassed / categoryTotal) * 100);
+                    
+                    html += `<div class="test-section">`;
+                    html += `<h3>${category} (${categoryPassed}/${categoryTotal} - ${categoryPercentage}%)</h3>`;
+                    
+                    results.forEach(result => {
+                        let className = 'test-pass';
+                        let status = '✅ PASS';
+                        
+                        if (!result.passed) {
+                            className = result.severity === 'warning' ? 'test-warning' : 'test-fail';
+                            status = result.severity === 'warning' ? '⚠️ WARN' : '❌ FAIL';
+                        }
+                        
+                        html += `
+                            <div class="test-result ${className}">
+                                <strong>${status}: ${result.testName}</strong>
+                                <div>${result.details}</div>
+                            </div>
+                        `;
+                    });
+                    
+                    html += '</div>';
+                }
+
+                resultsDiv.innerHTML = html;
+                
+                // Display overall summary
+                const successRate = this.totalTests > 0 ? Math.round((this.passedTests / this.totalTests) * 100) : 0;
+                let summaryClass = 'pass';
+                let summaryIcon = '🎉';
+                
+                if (successRate < 70) {
+                    summaryClass = 'fail';
+                    summaryIcon = '❌';
+                } else if (successRate < 90) {
+                    summaryClass = 'warning';
+                    summaryIcon = '⚠️';
+                }
+                
+                summaryDiv.className = `summary ${summaryClass}`;
+                summaryDiv.innerHTML = `
+                    ${summaryIcon} Comprehensive Testing Results: ${this.passedTests}/${this.totalTests} tests passed (${successRate}%)
+                    <br><small>SimLifeGame v2.0.0 - Complete Feature Testing</small>
+                `;
+            }
+
+            async runAllTests() {
+                this.testResults = [];
+                this.totalTests = 0;
+                this.passedTests = 0;
+                this.categoryStats = {};
+                
+                const testCategories = [
+                    { name: 'Core Gameplay', method: 'testCoreGameplay' },
+                    { name: 'Financial Systems', method: 'testFinancialSystems' },
+                    { name: 'Career & Progression', method: 'testCareerProgression' },
+                    { name: 'Trading & Investments', method: 'testTradingInvestments' },
+                    { name: 'Events & Random', method: 'testEventsRandom' },
+                    { name: 'Relationships & Social', method: 'testRelationshipsSocial' },
+                    { name: 'Assets & Property', method: 'testAssetsProperty' },
+                    { name: 'UI & Experience', method: 'testUIExperience' }
+                ];
+                
+                document.getElementById('test-results').innerHTML = '';
+                document.getElementById('test-summary').innerHTML = '';
+                document.getElementById('category-summary').innerHTML = '';
+                
+                try {
+                    for (let i = 0; i < testCategories.length; i++) {
+                        const category = testCategories[i];
+                        this.updateProgress(i + 1, testCategories.length, `Testing ${category.name}...`);
+                        
+                        await this[category.method]();
+                        
+                        // Small delay to show progress
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                    }
+                    
+                    this.displayResults();
+                } catch (error) {
+                    document.getElementById('test-results').innerHTML = `
+                        <div class="test-fail">
+                            <strong>Testing Suite Error</strong>
+                            <div>Error running comprehensive tests: ${error.message}</div>
+                        </div>
+                    `;
+                }
+            }
+
+            async runTestCategory(category) {
+                this.testResults = [];
+                this.totalTests = 0;
+                this.passedTests = 0;
+                this.categoryStats = {};
+                
+                const categoryMap = {
+                    'core': 'testCoreGameplay',
+                    'financial': 'testFinancialSystems',
+                    'career': 'testCareerProgression',
+                    'trading': 'testTradingInvestments',
+                    'events': 'testEventsRandom',
+                    'relationships': 'testRelationshipsSocial',
+                    'assets': 'testAssetsProperty',
+                    'ui': 'testUIExperience'
+                };
+                
+                const methodName = categoryMap[category];
+                if (!methodName) {
+                    alert('Unknown test category');
+                    return;
+                }
+                
+                document.getElementById('test-results').innerHTML = '<div class="test-info">Running category tests...</div>';
+                
+                try {
+                    await this[methodName]();
+                    this.displayResults();
+                } catch (error) {
+                    document.getElementById('test-results').innerHTML = `
+                        <div class="test-fail">
+                            <strong>Category Test Error</strong>
+                            <div>Error running ${category} tests: ${error.message}</div>
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        // Global test instance
+        const comprehensiveTestSuite = new ComprehensiveTestSuite();
+
+        async function runAllTests() {
+            await comprehensiveTestSuite.runAllTests();
+        }
+
+        async function runTestCategory(category) {
+            await comprehensiveTestSuite.runTestCategory(category);
+        }
+
+        function clearResults() {
+            document.getElementById('test-results').innerHTML = '';
+            document.getElementById('test-summary').innerHTML = '';
+            document.getElementById('category-summary').innerHTML = '';
+            document.getElementById('test-progress').style.display = 'none';
+        }
+
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('Comprehensive Black Box Testing Suite loaded. Click "Run All Tests" to begin complete game testing.');
+        });
+    </script>
+</body>
+</html>

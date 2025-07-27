@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.0.0'; // Update this when making changes to the game
+    static VERSION = '2.1.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
