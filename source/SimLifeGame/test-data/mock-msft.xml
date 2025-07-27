@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<msft_stock_data>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>200.00</open>
+    <high>205.00</high>
+    <low>198.00</low>
+    <close>203.00</close>
+    <adjusted_close>203.00</adjusted_close>
+    <volume>2000000</volume>
+    <news>Test MSFT data for January</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>203.00</open>
+    <high>208.00</high>
+    <low>201.00</low>
+    <close>206.50</close>
+    <adjusted_close>206.50</adjusted_close>
+    <volume>2100000</volume>
+    <news>Test MSFT data for February</news>
+  </stock_entry>
+</msft_stock_data>

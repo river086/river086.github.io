@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Loading Test Suite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .test-pass {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .test-fail {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .test-pending {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .summary {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+        .debug-info {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Loading Test Suite</h1>
+    <p>Unit tests for the new stock XML loading functionality</p>
+    
+    <div class="test-container">
+        <h2>Test Controls</h2>
+        <button onclick="runAllTests()">Run All Tests</button>
+        <button onclick="runIndividualTest('loadIndividualStockXML')">Test XML Loading</button>
+        <button onclick="runIndividualTest('getStockPrice')">Test Price Retrieval</button>
+        <button onclick="runIndividualTest('fallbackHierarchy')">Test Fallback Logic</button>
+        <button onclick="runIndividualTest('mockGeneration')">Test Mock Generation</button>
+        <button onclick="runIndividualTest('xmlPriceAccuracy')">Test XML Price Accuracy</button>
+        <button onclick="clearResults()">Clear Results</button>
+    </div>
+
+    <div class="test-container">
+        <h2>Test Results</h2>
+        <div id="test-summary" class="summary"></div>
+        <div id="test-results"></div>
+    </div>
+
+    <script src="game.js"></script>
+    <script>
+        class StockTestSuite {
+            constructor() {
+                this.testResults = [];
+                this.game = null;
+            }
+
+            async setupTestGame() {
+                this.game = new SimLifeGame();
+                // Initialize minimal game state for testing
+                this.game.gameState = {
+                    currentYear: 2020,
+                    currentMonth: 6,
+                    portfolio: { stocks: {} }
+                };
+                return this.game;
+            }
+
+            createMockXMLResponse(symbol, data) {
+                const mockEntries = data.map(entry => `
+                    <stock_entry>
+                        <date>${entry.date}</date>
+                        <open>${entry.open}</open>
+                        <high>${entry.high}</high>
+                        <low>${entry.low}</low>
+                        <close>${entry.close}</close>
+                        <adjusted_close>${entry.adjusted_close}</adjusted_close>
+                        <volume>${entry.volume}</volume>
+                        <news>${entry.news || ''}</news>
+                    </stock_entry>
+                `).join('');
+
+                return `<?xml version='1.0' encoding='utf-8'?>
+<${symbol.toLowerCase()}_stock_data>
+${mockEntries}
+</${symbol.toLowerCase()}_stock_data>`;
+            }
+
+            async testLoadIndividualStockXML() {
+                const results = [];
+                
+                try {
+                    const game = await this.setupTestGame();
+                    
+                    // Test 1: Check if method exists
+                    results.push({
+                        name: "loadIndividualStockXML method exists",
+                        pass: typeof game.loadIndividualStockXML === 'function',
+                        details: typeof game.loadIndividualStockXML === 'function' ? 
+                            "Method found on game instance" : 
+                            "Method not found on game instance"
+                    });
+
+                    // Test 2: Mock fetch for testing
+                    const originalFetch = window.fetch;
+                    const mockData = {
+                        'AAPL': [
+                            { date: '2020-01-01', open: 100, high: 105, low: 98, close: 150.25, adjusted_close: 150.25, volume: 1000000 },
+                            { date: '2020-02-01', open: 103, high: 108, low: 101, close: 155.50, adjusted_close: 155.50, volume: 1100000 }
+                        ],
+                        'MSFT': [
+                            { date: '2020-01-01', open: 200, high: 205, low: 198, close: 203.75, adjusted_close: 203.75, volume: 2000000 }
+                        ]
+                    };
+
+                    window.fetch = async (url) => {
+                        const symbol = url.split('/')[1]?.split('.')[0]?.toUpperCase();
+                        if (mockData[symbol]) {
+                            return {
+                                ok: true,
+                                text: async () => this.createMockXMLResponse(symbol, mockData[symbol])
+                            };
+                        }
+                        return { ok: false };
+                    };
+
+                    // Test 3: Run the XML loading
+                    await game.loadIndividualStockXML();
+                    
+                    results.push({
+                        name: "XML loading completes without error",
+                        pass: true,
+                        details: "loadIndividualStockXML executed successfully"
+                    });
+
+                    // Test 4: Check if data was loaded
+                    const hasStockData = game.stockPricesFromXML && Object.keys(game.stockPricesFromXML).length > 0;
+                    results.push({
+                        name: "Stock data loaded into stockPricesFromXML",
+                        pass: hasStockData,
+                        details: hasStockData ? 
+                            `Loaded ${Object.keys(game.stockPricesFromXML).length} stocks` : 
+                            "No stock data found in stockPricesFromXML"
+                    });
+
+                    // Test 5: Check specific stock data format
+                    const aaplData = game.stockPricesFromXML?.AAPL;
+                    const hasCorrectFormat = aaplData && Object.keys(aaplData).length > 0;
+                    
+                    // Check if we have any monthly data and it's in the right format
+                    const hasValidMonthlyData = aaplData && Object.keys(aaplData).some(key => {
+                        return /^\d{4}-\d{2}$/.test(key) && typeof aaplData[key] === 'number';
+                    });
+                    
+                    results.push({
+                        name: "AAPL data correctly formatted",
+                        pass: hasCorrectFormat && hasValidMonthlyData,
+                        details: hasCorrectFormat && hasValidMonthlyData ? 
+                            `AAPL monthly prices correctly extracted: ${Object.keys(aaplData).length} months` : 
+                            `AAPL data: ${JSON.stringify(aaplData)} - Should have YYYY-MM format keys with numeric values`
+                    });
+
+                    // Restore original fetch
+                    window.fetch = originalFetch;
+
+                } catch (error) {
+                    results.push({
+                        name: "XML loading error handling",
+                        pass: false,
+                        details: `Error: ${error.message}`
+                    });
+                }
+
+                return results;
+            }
+
+            async testGetStockPrice() {
+                const results = [];
+                
+                try {
+                    const game = await this.setupTestGame();
+                    
+                    // Setup mock data
+                    game.stockPricesFromXML = {
+                        'AAPL': { '2020-06': 175.25 },
+                        'MSFT': { '2020-06': 200.50 }
+                    };
+                    
+                    game.aaplPrices = { '2020-06': 170.00 };
+                    game.stockPrices = { 
+                        'AAPL': { '2020-06': 165.00 },
+                        'GOOGL': { '2020-06': 1500.00 } 
+                    };
+
+                    // Test 1: XML data priority
+                    const aaplPrice = game.getStockPrice('AAPL');
+                    results.push({
+                        name: "XML data has highest priority",
+                        pass: aaplPrice === 175.25,
+                        details: `Expected 175.25 from XML, got ${aaplPrice}`
+                    });
+
+                    // Test 2: Legacy AAPL fallback
+                    delete game.stockPricesFromXML.AAPL;
+                    const aaplFallback = game.getStockPrice('AAPL');
+                    results.push({
+                        name: "Legacy AAPL data fallback works",
+                        pass: aaplFallback === 170.00,
+                        details: `Expected 170.00 from legacy data, got ${aaplFallback}`
+                    });
+
+                    // Test 3: Mock data fallback
+                    const googlPrice = game.getStockPrice('GOOGL');
+                    results.push({
+                        name: "Mock data fallback works",
+                        pass: googlPrice === 1500.00,
+                        details: `Expected 1500.00 from mock data, got ${googlPrice}`
+                    });
+
+                    // Test 4: No data available
+                    const unknownPrice = game.getStockPrice('UNKNOWN');
+                    results.push({
+                        name: "Handles missing stock data",
+                        pass: unknownPrice === undefined,
+                        details: `Expected undefined for unknown stock, got ${unknownPrice}`
+                    });
+
+                } catch (error) {
+                    results.push({
+                        name: "getStockPrice error handling",
+                        pass: false,
+                        details: `Error: ${error.message}`
+                    });
+                }
+
+                return results;
+            }
+
+            async testFallbackHierarchy() {
+                const results = [];
+                
+                try {
+                    const game = await this.setupTestGame();
+                    
+                    // Test complete hierarchy for AAPL
+                    game.stockPricesFromXML = { 'AAPL': { '2020-06': 180.75 } };
+                    game.aaplPrices = { '2020-06': 175.50 };
+                    game.stockPrices = { 'AAPL': { '2020-06': 170.25 } };
+
+                    results.push({
+                        name: "XML data overrides all other sources",
+                        pass: game.getStockPrice('AAPL') === 180.75,
+                        details: `Should use XML data (180.75), got ${game.getStockPrice('AAPL')}`
+                    });
+
+                    // Remove XML data
+                    delete game.stockPricesFromXML.AAPL;
+                    results.push({
+                        name: "Legacy data used when XML unavailable",
+                        pass: game.getStockPrice('AAPL') === 175.50,
+                        details: `Should use legacy data (175.50), got ${game.getStockPrice('AAPL')}`
+                    });
+
+                    // Remove legacy data
+                    delete game.aaplPrices['2020-06'];
+                    results.push({
+                        name: "Mock data used as final fallback",
+                        pass: game.getStockPrice('AAPL') === 170.25,
+                        details: `Should use mock data (170.25), got ${game.getStockPrice('AAPL')}`
+                    });
+
+                } catch (error) {
+                    results.push({
+                        name: "Fallback hierarchy error handling",
+                        pass: false,
+                        details: `Error: ${error.message}`
+                    });
+                }
+
+                return results;
+            }
+
+            async testMockGeneration() {
+                const results = [];
+                
+                try {
+                    const game = await this.setupTestGame();
+                    
+                    // Test with XML data
+                    game.stockPricesFromXML = {
+                        'AAPL': { '2020-01': 150.75, '2020-02': 155.25 }
+                    };
+                    
+                    game.aaplPrices = { '2020-01': 145.50, '2020-02': 148.75 };
+                    game.stocksData = {
+                        'AAPL': { base: 150, trend: 0.015 },
+                        'MSFT': { base: 200, trend: 0.012 }
+                    };
+
+                    const prices = game.generateMockStockPrices();
+
+                    // Test 1: XML data is used instead of generation
+                    const usesXMLData = prices.AAPL && 
+                                       prices.AAPL['2020-01'] === 150.75 && 
+                                       prices.AAPL['2020-02'] === 155.25;
+                    results.push({
+                        name: "Uses XML data instead of generating mock prices",
+                        pass: usesXMLData,
+                        details: usesXMLData ? 
+                            "XML data correctly used for AAPL" : 
+                            `AAPL prices: ${JSON.stringify(prices.AAPL || {})}`
+                    });
+
+                    // Test 2: Mock generation for stocks without XML
+                    const hasMsftData = prices.MSFT && Object.keys(prices.MSFT).length > 0;
+                    results.push({
+                        name: "Generates mock data for stocks without XML",
+                        pass: hasMsftData,
+                        details: hasMsftData ? 
+                            `Generated ${Object.keys(prices.MSFT).length} months of MSFT data` : 
+                            "No MSFT data generated"
+                    });
+
+                    // Test 3: Price format validation
+                    const pricesAreNumbers = Object.values(prices.AAPL).every(price => typeof price === 'number');
+                    results.push({
+                        name: "All prices are properly formatted numbers",
+                        pass: pricesAreNumbers,
+                        details: `Price types: ${Object.values(prices.AAPL).slice(0, 3).map(p => typeof p).join(', ')}`
+                    });
+
+                } catch (error) {
+                    results.push({
+                        name: "Mock generation error handling",
+                        pass: false,
+                        details: `Error: ${error.message}`
+                    });
+                }
+
+                return results;
+            }
+
+            async testXMLPriceAccuracy() {
+                const results = [];
+                
+                try {
+                    const game = await this.setupTestGame();
+                    
+                    // Test with real WFC XML data from the actual file
+                    const knownWFCData = {
+                        '2000-01': 20.0000,
+                        '2000-02': 16.5312,
+                        '2005-01': 30.6500,
+                        '2005-02': 29.6900
+                    };
+                    
+                    // Simulate loading WFC data as it would be loaded from XML
+                    game.stockPricesFromXML = {
+                        'WFC': knownWFCData
+                    };
+                    
+                    // Test 1: Verify specific WFC prices match XML data
+                    game.gameState.currentYear = 2000;
+                    game.gameState.currentMonth = 1;
+                    const jan2000Price = game.getStockPrice('WFC');
+                    
+                    results.push({
+                        name: "WFC Jan 2000 price matches XML (20.0000)",
+                        pass: jan2000Price === 20.0000,
+                        details: `Expected 20.0000 from XML, got ${jan2000Price} from getStockPrice()`
+                    });
+                    
+                    // Test 2: Check February 2000
+                    game.gameState.currentMonth = 2;
+                    const feb2000Price = game.getStockPrice('WFC');
+                    
+                    results.push({
+                        name: "WFC Feb 2000 price matches XML (16.5312)",
+                        pass: feb2000Price === 16.5312,
+                        details: `Expected 16.5312 from XML, got ${feb2000Price} from getStockPrice()`
+                    });
+                    
+                    // Test 3: Check different year - Jan 2005
+                    game.gameState.currentYear = 2005;
+                    game.gameState.currentMonth = 1;
+                    const jan2005Price = game.getStockPrice('WFC');
+                    
+                    results.push({
+                        name: "WFC Jan 2005 price matches XML (30.6500)",
+                        pass: jan2005Price === 30.6500,
+                        details: `Expected 30.6500 from XML, got ${jan2005Price} from getStockPrice()`
+                    });
+                    
+                    // Test 4: Test current game month displays correct price
+                    game.gameState.currentYear = 2020;
+                    game.gameState.currentMonth = 6;
+                    
+                    // Add some 2020 data
+                    game.stockPricesFromXML.WFC['2020-06'] = 25.75;
+                    const current2020Price = game.getStockPrice('WFC');
+                    
+                    results.push({
+                        name: "WFC current month price matches XML data",
+                        pass: current2020Price === 25.75,
+                        details: `Expected 25.75 from XML, got ${current2020Price} for Jun 2020`
+                    });
+                    
+                    // Test 5: Verify XML data is being used over mock data
+                    game.stockPrices = {
+                        'WFC': { '2000-01': 999.99 }  // Mock data that should be ignored
+                    };
+                    
+                    game.gameState.currentYear = 2000;
+                    game.gameState.currentMonth = 1;
+                    const priorityTestPrice = game.getStockPrice('WFC');
+                    
+                    results.push({
+                        name: "XML data takes priority over mock data",
+                        pass: priorityTestPrice === 20.0000,
+                        details: `XML data (20.0000) should override mock data (999.99), got ${priorityTestPrice}`
+                    });
+                    
+                    // Test 6: Test month key format consistency
+                    const keyFormats = Object.keys(game.stockPricesFromXML.WFC);
+                    const validFormat = keyFormats.every(key => /^\d{4}-\d{2}$/.test(key));
+                    
+                    results.push({
+                        name: "All XML data uses correct YYYY-MM key format",
+                        pass: validFormat,
+                        details: `Keys: ${keyFormats.slice(0, 5).join(', ')}${keyFormats.length > 5 ? '...' : ''}`
+                    });
+
+                } catch (error) {
+                    results.push({
+                        name: "XML price accuracy test error",
+                        pass: false,
+                        details: `Error: ${error.message}`
+                    });
+                }
+
+                return results;
+            }
+
+            displayResults(allResults) {
+                const resultsDiv = document.getElementById('test-results');
+                const summaryDiv = document.getElementById('test-summary');
+                
+                let totalTests = 0;
+                let passedTests = 0;
+                let html = '';
+
+                for (const [testSuite, results] of Object.entries(allResults)) {
+                    html += `<h3>${testSuite}</h3>`;
+                    
+                    results.forEach(result => {
+                        totalTests++;
+                        if (result.pass) passedTests++;
+                        
+                        const className = result.pass ? 'test-pass' : 'test-fail';
+                        const status = result.pass ? '✓ PASS' : '✗ FAIL';
+                        
+                        html += `
+                            <div class="test-result ${className}">
+                                <strong>${status}: ${result.name}</strong>
+                                <div class="debug-info">${result.details}</div>
+                            </div>
+                        `;
+                    });
+                }
+
+                resultsDiv.innerHTML = html;
+                
+                const successRate = totalTests > 0 ? Math.round((passedTests / totalTests) * 100) : 0;
+                summaryDiv.innerHTML = `
+                    Tests: ${passedTests}/${totalTests} passed (${successRate}%)
+                    ${successRate === 100 ? '🎉' : successRate >= 80 ? '⚠️' : '❌'}
+                `;
+            }
+        }
+
+        // Global test instance
+        const testSuite = new StockTestSuite();
+
+        async function runAllTests() {
+            const results = {};
+            
+            document.getElementById('test-results').innerHTML = '<div class="test-pending">Running tests...</div>';
+            document.getElementById('test-summary').innerHTML = 'Testing in progress...';
+            
+            try {
+                results['XML Loading Tests'] = await testSuite.testLoadIndividualStockXML();
+                results['Price Retrieval Tests'] = await testSuite.testGetStockPrice();
+                results['Fallback Hierarchy Tests'] = await testSuite.testFallbackHierarchy();
+                results['Mock Generation Tests'] = await testSuite.testMockGeneration();
+                results['XML Price Accuracy Tests'] = await testSuite.testXMLPriceAccuracy();
+                
+                testSuite.displayResults(results);
+            } catch (error) {
+                document.getElementById('test-results').innerHTML = `
+                    <div class="test-fail">
+                        <strong>Test Suite Error</strong>
+                        <div class="debug-info">Error running tests: ${error.message}</div>
+                    </div>
+                `;
+            }
+        }
+
+        async function runIndividualTest(testName) {
+            const results = {};
+            
+            document.getElementById('test-results').innerHTML = '<div class="test-pending">Running test...</div>';
+            
+            try {
+                switch(testName) {
+                    case 'loadIndividualStockXML':
+                        results['XML Loading Tests'] = await testSuite.testLoadIndividualStockXML();
+                        break;
+                    case 'getStockPrice':
+                        results['Price Retrieval Tests'] = await testSuite.testGetStockPrice();
+                        break;
+                    case 'fallbackHierarchy':
+                        results['Fallback Hierarchy Tests'] = await testSuite.testFallbackHierarchy();
+                        break;
+                    case 'mockGeneration':
+                        results['Mock Generation Tests'] = await testSuite.testMockGeneration();
+                        break;
+                    case 'xmlPriceAccuracy':
+                        results['XML Price Accuracy Tests'] = await testSuite.testXMLPriceAccuracy();
+                        break;
+                }
+                
+                testSuite.displayResults(results);
+            } catch (error) {
+                document.getElementById('test-results').innerHTML = `
+                    <div class="test-fail">
+                        <strong>Test Error</strong>
+                        <div class="debug-info">Error running ${testName}: ${error.message}</div>
+                    </div>
+                `;
+            }
+        }
+
+        function clearResults() {
+            document.getElementById('test-results').innerHTML = '';
+            document.getElementById('test-summary').innerHTML = '';
+        }
+
+        // Auto-run tests on page load
+        window.addEventListener('load', () => {
+            console.log('Stock Test Suite loaded. Click "Run All Tests" to begin.');
+        });
+    </script>
+</body>
+</html>

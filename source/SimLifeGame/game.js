@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '1.9.0'; // Update this when making changes to the game
+    static VERSION = '2.0.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -4064,6 +4064,15 @@ class SimLifeGame {
 
     async loadIndividualStockXML() {
         try {
+            // Check if we can access the Stocks directory by testing with a known file
+            const testResponse = await fetch('Stocks/aapl.xml').catch(() => ({ ok: false }));
+            
+            if (!testResponse.ok) {
+                console.log('Stock XML files not accessible (likely due to CORS or file:// protocol). Using embedded data fallback.');
+                this.stockPricesFromXML = {};
+                return;
+            }
+            
             const stockSymbols = [
                 'aapl', 'msft', 'nvda', 'amzn', 'googl', 'tsla', 'meta',
                 'intc', 'csco', 'ibm', 'orcl', 'amd', 'qcom',
@@ -4076,6 +4085,7 @@ class SimLifeGame {
             
             this.stockPricesFromXML = {};
             let loadedCount = 0;
+            let failedCount = 0;
             
             for (const symbol of stockSymbols) {
                 try {
@@ -4085,31 +4095,81 @@ class SimLifeGame {
                         const parser = new DOMParser();
                         const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
                         
+                        // Check for XML parsing errors
+                        const parseError = xmlDoc.querySelector('parsererror');
+                        if (parseError) {
+                            console.warn(`XML parsing error for ${symbol}:`, parseError.textContent);
+                            continue;
+                        }
+                        
                         const stockEntries = xmlDoc.querySelectorAll('stock_entry');
+                        if (stockEntries.length === 0) {
+                            console.warn(`No stock entries found in ${symbol}.xml`);
+                            continue;
+                        }
+                        
                         this.stockPricesFromXML[symbol.toUpperCase()] = {};
                         
                         stockEntries.forEach(entry => {
-                            const date = entry.querySelector('date').textContent;
-                            const close = parseFloat(entry.querySelector('close').textContent);
+                            const dateElement = entry.querySelector('date');
+                            const closeElement = entry.querySelector('close');
                             
-                            // Convert date to YYYY-MM format for monthly data
-                            const dateObj = new Date(date);
-                            const key = `${dateObj.getFullYear()}-${(dateObj.getMonth() + 1).toString().padStart(2, '0')}`;
+                            if (!dateElement || !closeElement) {
+                                console.warn(`Missing date or close data in ${symbol}.xml entry`);
+                                return;
+                            }
                             
+                            const date = dateElement.textContent;
+                            const close = parseFloat(closeElement.textContent);
+                            
+                            if (isNaN(close)) {
+                                console.warn(`Invalid close price in ${symbol}.xml:`, closeElement.textContent);
+                                return;
+                            }
+                            
+                            // Parse date string directly to avoid timezone issues (YYYY-MM-DD format)
+                            const dateParts = date.split('-');
+                            if (dateParts.length !== 3) {
+                                console.warn(`Invalid date format in ${symbol}.xml:`, date);
+                                return;
+                            }
+                            
+                            const year = parseInt(dateParts[0]);
+                            const month = parseInt(dateParts[1]);
+                            
+                            if (isNaN(year) || isNaN(month) || month < 1 || month > 12) {
+                                console.warn(`Invalid date values in ${symbol}.xml:`, date);
+                                return;
+                            }
+                            
+                            const key = `${year}-${month.toString().padStart(2, '0')}`;
                             this.stockPricesFromXML[symbol.toUpperCase()][key] = close;
                         });
                         
                         loadedCount++;
+                    } else {
+                        console.warn(`Failed to load ${symbol}.xml: HTTP ${response.status}`);
+                        failedCount++;
                     }
                 } catch (error) {
-                    console.warn(`Could not load ${symbol} data:`, error);
+                    console.warn(`Could not load ${symbol} data:`, error.message);
+                    failedCount++;
                 }
             }
             
-            console.log(`Stock XML data loaded for ${loadedCount} symbols:`, Object.keys(this.stockPricesFromXML));
+            if (loadedCount > 0) {
+                console.log(`Stock XML data loaded for ${loadedCount} symbols:`, Object.keys(this.stockPricesFromXML));
+                if (failedCount > 0) {
+                    console.log(`Failed to load ${failedCount} stock files (using fallback data for those)`);
+                }
+            } else {
+                console.log('No stock XML files could be loaded. Using embedded data fallback.');
+                this.stockPricesFromXML = {};
+            }
             
         } catch (error) {
             console.error('Error loading individual stock XML files:', error);
+            console.log('Falling back to embedded stock data.');
             this.stockPricesFromXML = {};
         }
     }

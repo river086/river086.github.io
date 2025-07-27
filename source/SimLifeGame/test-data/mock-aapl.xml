@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<aapl_stock_data>
+  <stock_entry>
+    <date>2020-01-01</date>
+    <open>100.00</open>
+    <high>105.00</high>
+    <low>98.00</low>
+    <close>103.00</close>
+    <adjusted_close>103.00</adjusted_close>
+    <volume>1000000</volume>
+    <news>Test AAPL data for January</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-02-01</date>
+    <open>103.00</open>
+    <high>108.00</high>
+    <low>101.00</low>
+    <close>106.00</close>
+    <adjusted_close>106.00</adjusted_close>
+    <volume>1100000</volume>
+    <news>Test AAPL data for February</news>
+  </stock_entry>
+  <stock_entry>
+    <date>2020-03-01</date>
+    <open>106.00</open>
+    <high>110.00</high>
+    <low>102.00</low>
+    <close>108.50</close>
+    <adjusted_close>108.50</adjusted_close>
+    <volume>1200000</volume>
+    <news>Test AAPL data for March</news>
+  </stock_entry>
+</aapl_stock_data>

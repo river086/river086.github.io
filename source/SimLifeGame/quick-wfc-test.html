@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick WFC XML Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        pre { background: #f8f9fa; padding: 10px; border-radius: 4px; overflow: auto; }
+    </style>
+</head>
+<body>
+    <h1>Quick WFC XML Loading Test</h1>
+    <button onclick="runTest()">Run Test</button>
+    <div id="results"></div>
+
+    <script>
+        async function runTest() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<div class="info">Testing...</div>';
+            
+            let html = '';
+            
+            try {
+                // Test 1: Can we fetch the file?
+                html += '<h3>Test 1: File Access</h3>';
+                const response = await fetch('Stocks/wfc.xml');
+                
+                if (!response.ok) {
+                    html += `<div class="fail">❌ Cannot access file: HTTP ${response.status}</div>`;
+                    results.innerHTML = html;
+                    return;
+                }
+                
+                html += `<div class="pass">✅ File accessible: HTTP ${response.status}</div>`;
+                
+                // Test 2: Can we read the content?
+                const xmlText = await response.text();
+                html += `<div class="pass">✅ File readable: ${xmlText.length} characters</div>`;
+                
+                // Test 3: Can we parse it?
+                html += '<h3>Test 2: XML Parsing</h3>';
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                
+                const parseError = xmlDoc.querySelector('parsererror');
+                if (parseError) {
+                    html += `<div class="fail">❌ XML Parse Error: ${parseError.textContent}</div>`;
+                    results.innerHTML = html;
+                    return;
+                }
+                
+                html += `<div class="pass">✅ XML parsed successfully</div>`;
+                html += `<div class="info">Root element: ${xmlDoc.documentElement.tagName}</div>`;
+                
+                // Test 4: Can we find stock entries?
+                html += '<h3>Test 3: Stock Entry Detection</h3>';
+                const stockEntries = xmlDoc.querySelectorAll('stock_entry');
+                html += `<div class="info">Found ${stockEntries.length} stock_entry elements</div>`;
+                
+                if (stockEntries.length === 0) {
+                    html += '<div class="fail">❌ No stock_entry elements found!</div>';
+                    html += `<div class="info">First 200 chars of XML:</div>`;
+                    html += `<pre>${xmlText.substring(0, 200)}</pre>`;
+                    results.innerHTML = html;
+                    return;
+                }
+                
+                html += `<div class="pass">✅ Found ${stockEntries.length} stock entries</div>`;
+                
+                // Test 5: Can we extract data from first few entries?
+                html += '<h3>Test 4: Data Extraction</h3>';
+                const sampleData = {};
+                let successCount = 0;
+                
+                for (let i = 0; i < Math.min(3, stockEntries.length); i++) {
+                    const entry = stockEntries[i];
+                    const dateElement = entry.querySelector('date');
+                    const closeElement = entry.querySelector('close');
+                    
+                    if (!dateElement || !closeElement) {
+                        html += `<div class="fail">❌ Entry ${i}: Missing date or close element</div>`;
+                        continue;
+                    }
+                    
+                    const date = dateElement.textContent;
+                    const close = parseFloat(closeElement.textContent);
+                    
+                    if (isNaN(close)) {
+                        html += `<div class="fail">❌ Entry ${i}: Invalid close price: ${closeElement.textContent}</div>`;
+                        continue;
+                    }
+                    
+                    const dateObj = new Date(date);
+                    if (isNaN(dateObj.getTime())) {
+                        html += `<div class="fail">❌ Entry ${i}: Invalid date: ${date}</div>`;
+                        continue;
+                    }
+                    
+                    const key = `${dateObj.getFullYear()}-${(dateObj.getMonth() + 1).toString().padStart(2, '0')}`;
+                    sampleData[key] = close;
+                    successCount++;
+                    
+                    html += `<div class="pass">✅ Entry ${i}: "${date}" → ${key} = ${close}</div>`;
+                    html += `<div class="info">   Debug: Year=${dateObj.getFullYear()}, Month=${dateObj.getMonth()}, Date=${dateObj.getDate()}</div>`;
+                }
+                
+                html += `<div class="info">Successfully processed ${successCount} entries</div>`;
+                
+                // Test 6: Show the sample data we extracted
+                html += '<h3>Test 5: Sample Data</h3>';
+                html += '<pre>' + JSON.stringify(sampleData, null, 2) + '</pre>';
+                
+                // Test 7: Check if this matches expected values
+                html += '<h3>Test 6: Expected Value Check</h3>';
+                const expected2000_01 = 20.0000;
+                const actual2000_01 = sampleData['2000-01'];
+                
+                if (actual2000_01) {
+                    if (actual2000_01 === expected2000_01) {
+                        html += `<div class="pass">✅ 2000-01 price matches expected: ${actual2000_01}</div>`;
+                    } else {
+                        html += `<div class="fail">❌ 2000-01 price mismatch: expected ${expected2000_01}, got ${actual2000_01}</div>`;
+                    }
+                } else {
+                    html += `<div class="fail">❌ 2000-01 data not found in sample</div>`;
+                }
+                
+            } catch (error) {
+                html += `<div class="fail">❌ Error: ${error.message}</div>`;
+                html += `<pre>${error.stack}</pre>`;
+            }
+            
+            results.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

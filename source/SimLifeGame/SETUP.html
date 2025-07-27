@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimLifeGame Setup Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .code {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+        }
+        .step {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        h1 { color: #333; }
+        h2 { color: #555; }
+        a { color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 SimLifeGame Setup Guide</h1>
+        
+        <div class="warning">
+            <strong>⚠️ Important:</strong> To use the real historical stock data, you must run this game from a web server, not by opening the HTML file directly.
+        </div>
+
+        <h2>🚀 Quick Start</h2>
+        
+        <div class="step">
+            <h3>Step 1: Open Command Prompt/Terminal</h3>
+            <p>Navigate to the game directory:</p>
+            <div class="code">cd "C:\Users\river\source\SimLifeGame"</div>
+        </div>
+
+        <div class="step">
+            <h3>Step 2: Start Local Web Server</h3>
+            <p>Run one of these commands:</p>
+            <div class="code">
+                # If you have Python installed:<br>
+                python -m http.server 8000<br><br>
+                
+                # Or with Python 3 specifically:<br>
+                python3 -m http.server 8000<br><br>
+                
+                # Or if you have Node.js:<br>
+                npx http-server -p 8000
+            </div>
+        </div>
+
+        <div class="step">
+            <h3>Step 3: Open in Browser</h3>
+            <p>Navigate to:</p>
+            <div class="code">
+                <a href="http://localhost:8000/" target="_blank">http://localhost:8000/</a>
+            </div>
+            <p>Then click on <strong>index.html</strong> to start the game.</p>
+        </div>
+
+        <div class="success">
+            <strong>✅ Success!</strong> The game will now load real historical stock data from the Stocks/ folder for authentic market simulation.
+        </div>
+
+        <h2>🧪 Testing</h2>
+        <p>To run the unit tests for the stock features:</p>
+        <div class="code">
+            <a href="http://localhost:8000/stock-test.html" target="_blank">http://localhost:8000/stock-test.html</a>
+        </div>
+
+        <h2>🔧 What This Fixes</h2>
+        <ul>
+            <li><strong>CORS Errors:</strong> Allows loading of XML stock data files</li>
+            <li><strong>Real Data:</strong> Uses historical stock prices instead of mock data</li>
+            <li><strong>Authentic Experience:</strong> Market movements reflect real historical events</li>
+        </ul>
+
+        <h2>❌ What Happens Without a Web Server</h2>
+        <p>If you open the HTML files directly (file:// protocol):</p>
+        <ul>
+            <li>❌ Stock XML files cannot be loaded due to browser security</li>
+            <li>⚠️ Game falls back to embedded mock data</li>
+            <li>⚠️ Tests may not accurately reflect real functionality</li>
+            <li>✅ Game still works, but with simulated prices</li>
+        </ul>
+
+        <h2>📝 Alternative Setup Methods</h2>
+        
+        <h3>Using VS Code Live Server</h3>
+        <ol>
+            <li>Install the "Live Server" extension in VS Code</li>
+            <li>Right-click on index.html</li>
+            <li>Select "Open with Live Server"</li>
+        </ol>
+
+        <h3>Using Other Web Servers</h3>
+        <div class="code">
+            # PHP built-in server:<br>
+            php -S localhost:8000<br><br>
+            
+            # If you have npm/Node.js:<br>
+            npm install -g http-server<br>
+            http-server -p 8000
+        </div>
+
+        <p><em>Need help? Check the console in your browser's Developer Tools for error messages.</em></p>
+    </div>
+</body>
+</html>

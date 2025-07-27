@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Fixed WFC Loading</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+    </style>
+</head>
+<body>
+    <h1>Test Fixed WFC Date Parsing</h1>
+    <button onclick="testDateParsing()">Test New Date Parsing</button>
+    <button onclick="testGameIntegration()">Test Game Integration</button>
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        function testDateParsing() {
+            const results = document.getElementById('results');
+            let html = '<h3>Date Parsing Test</h3>';
+            
+            // Test the new parsing logic
+            const testDates = [
+                { input: "2000-01-01", expectedKey: "2000-01" },
+                { input: "2000-02-01", expectedKey: "2000-02" },
+                { input: "2005-01-01", expectedKey: "2005-01" }
+            ];
+            
+            testDates.forEach(test => {
+                // Simulate the new parsing logic
+                const dateParts = test.input.split('-');
+                const year = parseInt(dateParts[0]);
+                const month = parseInt(dateParts[1]);
+                const key = `${year}-${month.toString().padStart(2, '0')}`;
+                
+                const matches = key === test.expectedKey;
+                const resultClass = matches ? 'pass' : 'fail';
+                const status = matches ? '✅' : '❌';
+                
+                html += `<div class="${resultClass}">${status} "${test.input}" → "${key}" (expected "${test.expectedKey}")</div>`;
+            });
+            
+            results.innerHTML = html;
+        }
+        
+        async function testGameIntegration() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<div class="info">Testing game integration...</div>';
+            
+            try {
+                // Create a minimal game instance
+                const game = new SimLifeGame();
+                game.gameState = { currentYear: 2000, currentMonth: 1 };
+                
+                // Load stock data using the fixed method
+                await game.loadStocks();
+                
+                let html = '<h3>Game Integration Test</h3>';
+                
+                // Check if WFC data was loaded
+                const hasWFCData = game.stockPricesFromXML && game.stockPricesFromXML.WFC;
+                html += `<div class="${hasWFCData ? 'pass' : 'fail'}">${hasWFCData ? '✅' : '❌'} WFC XML data loaded: ${hasWFCData ? 'Yes' : 'No'}</div>`;
+                
+                if (hasWFCData) {
+                    const wfcKeys = Object.keys(game.stockPricesFromXML.WFC);
+                    html += `<div class="info">WFC data points: ${wfcKeys.length}</div>`;
+                    html += `<div class="info">First few keys: ${wfcKeys.slice(0, 5).join(', ')}</div>`;
+                    
+                    // Test specific prices
+                    const price2000_01 = game.stockPricesFromXML.WFC['2000-01'];
+                    const price2000_02 = game.stockPricesFromXML.WFC['2000-02'];
+                    
+                    html += `<div class="${price2000_01 === 20 ? 'pass' : 'fail'}">${price2000_01 === 20 ? '✅' : '❌'} 2000-01 price: ${price2000_01} (expected 20)</div>`;
+                    html += `<div class="${price2000_02 === 16.5312 ? 'pass' : 'fail'}">${price2000_02 === 16.5312 ? '✅' : '❌'} 2000-02 price: ${price2000_02} (expected 16.5312)</div>`;
+                    
+                    // Test getStockPrice method
+                    game.gameState.currentYear = 2000;
+                    game.gameState.currentMonth = 1;
+                    const gamePrice = game.getStockPrice('WFC');
+                    html += `<div class="${gamePrice === 20 ? 'pass' : 'fail'}">${gamePrice === 20 ? '✅' : '❌'} getStockPrice('WFC') for 2000-01: ${gamePrice}</div>`;
+                }
+                
+                results.innerHTML = html;
+                
+            } catch (error) {
+                results.innerHTML = `<div class="fail">❌ Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

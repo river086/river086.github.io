@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WFC Stock Price Debug Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .debug-section {
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+        }
+        .price-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .price-item {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .xml-price { background-color: #d4edda; }
+        .game-price { background-color: #cce5ff; }
+        .match { background-color: #d1ecf1; border-color: #bee5eb; }
+        .mismatch { background-color: #f8d7da; border-color: #f5c6cb; }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background-color: #0056b3; }
+        .code { 
+            background-color: #f1f1f1; 
+            padding: 10px; 
+            border-radius: 4px; 
+            font-family: monospace; 
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 WFC Stock Price Debug Tool</h1>
+        <p>This tool helps debug discrepancies between WFC XML data and game prices.</p>
+        
+        <button onclick="loadAndCompare()">Load WFC Data & Compare</button>
+        <button onclick="testSpecificMonth()">Test Specific Month</button>
+        <button onclick="showXMLSample()">Show XML Sample</button>
+        <button onclick="testXMLLoading()">Test XML Loading Process</button>
+        <button onclick="clearResults()">Clear Results</button>
+        
+        <div id="debug-results"></div>
+    </div>
+
+    <script src="game.js"></script>
+    <script>
+        let gameInstance = null;
+        
+        async function initGame() {
+            if (!gameInstance) {
+                gameInstance = new SimLifeGame();
+                gameInstance.gameState = {
+                    currentYear: 2000,
+                    currentMonth: 1,
+                    portfolio: { stocks: {} }
+                };
+                
+                // Try to load stock data
+                await gameInstance.loadStocks();
+            }
+            return gameInstance;
+        }
+        
+        async function loadAndCompare() {
+            const resultsDiv = document.getElementById('debug-results');
+            resultsDiv.innerHTML = '<div style="color: #666;">Loading and analyzing WFC data...</div>';
+            
+            try {
+                const game = await initGame();
+                
+                let html = '<div class="container"><h2>WFC Data Analysis</h2>';
+                
+                // Check if WFC data was loaded from XML
+                const hasXMLData = game.stockPricesFromXML && game.stockPricesFromXML.WFC;
+                html += `<div class="debug-section">
+                    <h3>Data Source Status</h3>
+                    <p><strong>XML Data Loaded:</strong> ${hasXMLData ? '✅ Yes' : '❌ No'}</p>
+                `;
+                
+                if (hasXMLData) {
+                    const wfcKeys = Object.keys(game.stockPricesFromXML.WFC);
+                    html += `<p><strong>XML Data Points:</strong> ${wfcKeys.length} months</p>`;
+                    html += `<p><strong>Date Range:</strong> ${wfcKeys[0]} to ${wfcKeys[wfcKeys.length-1]}</p>`;
+                    html += `<p><strong>Sample Keys:</strong> ${wfcKeys.slice(0, 5).join(', ')}</p>`;
+                } else {
+                    html += `<p><strong>Fallback:</strong> Using mock/embedded data</p>`;
+                }
+                
+                // Check mock data
+                const hasMockData = game.stockPrices && game.stockPrices.WFC;
+                html += `<p><strong>Mock Data Available:</strong> ${hasMockData ? '✅ Yes' : '❌ No'}</p>`;
+                html += '</div>';
+                
+                // Test specific dates
+                const testDates = [
+                    { year: 2000, month: 1, expectedXML: 20.0000 },
+                    { year: 2000, month: 2, expectedXML: 16.5312 },
+                    { year: 2005, month: 1, expectedXML: 30.6500 },
+                    { year: 2020, month: 6, expectedXML: null } // Current game date
+                ];
+                
+                html += '<div class="debug-section"><h3>Price Comparison Tests</h3>';
+                
+                for (const testDate of testDates) {
+                    game.gameState.currentYear = testDate.year;
+                    game.gameState.currentMonth = testDate.month;
+                    
+                    const gamePrice = game.getStockPrice('WFC');
+                    const xmlPrice = hasXMLData ? game.stockPricesFromXML.WFC[`${testDate.year}-${testDate.month.toString().padStart(2, '0')}`] : null;
+                    const mockPrice = hasMockData ? game.stockPrices.WFC[`${testDate.year}-${testDate.month.toString().padStart(2, '0')}`] : null;
+                    
+                    const matches = testDate.expectedXML ? (gamePrice === testDate.expectedXML) : true;
+                    const statusClass = matches ? 'match' : 'mismatch';
+                    
+                    html += `<div class="price-comparison">
+                        <div class="price-item xml-price">
+                            <strong>XML Price</strong><br>
+                            ${xmlPrice || 'N/A'}
+                        </div>
+                        <div class="price-item game-price">
+                            <strong>Game Price</strong><br>
+                            ${gamePrice || 'N/A'}
+                        </div>
+                        <div class="price-item ${statusClass}">
+                            <strong>${testDate.year}-${testDate.month.toString().padStart(2, '0')}</strong><br>
+                            ${matches ? '✅ Match' : '❌ Mismatch'}
+                        </div>
+                    </div>`;
+                    
+                    if (mockPrice && xmlPrice && gamePrice) {
+                        html += `<p><strong>Sources for ${testDate.year}-${testDate.month.toString().padStart(2, '0')}:</strong> 
+                            XML: ${xmlPrice}, Mock: ${mockPrice}, Game: ${gamePrice}</p>`;
+                    }
+                }
+                
+                html += '</div>';
+                
+                // Show the getStockPrice logic
+                html += '<div class="debug-section"><h3>getStockPrice() Logic Test</h3>';
+                game.gameState.currentYear = 2000;
+                game.gameState.currentMonth = 1;
+                
+                const key = `${game.gameState.currentYear}-${game.gameState.currentMonth.toString().padStart(2, '0')}`;
+                html += `<p><strong>Current Key:</strong> ${key}</p>`;
+                
+                const xmlCheck = game.stockPricesFromXML && game.stockPricesFromXML.WFC && game.stockPricesFromXML.WFC[key];
+                const aaplCheck = game.aaplPrices && game.aaplPrices[key];
+                const mockCheck = game.stockPrices && game.stockPrices.WFC && game.stockPrices.WFC[key];
+                
+                html += `<div class="code">
+Priority Check for WFC ${key}:
+1. XML Data: ${xmlCheck ? `✅ ${game.stockPricesFromXML.WFC[key]}` : '❌ Not found'}
+2. Legacy AAPL: ${aaplCheck ? `✅ ${game.aaplPrices[key]}` : '❌ Not found (expected for WFC)'}
+3. Mock Data: ${mockCheck ? `✅ ${game.stockPrices.WFC[key]}` : '❌ Not found'}
+
+Final Result: ${game.getStockPrice('WFC')}
+                </div></div>`;
+                
+                html += '</div>';
+                resultsDiv.innerHTML = html;
+                
+            } catch (error) {
+                resultsDiv.innerHTML = `<div style="color: red;">Error: ${error.message}</div>`;
+            }
+        }
+        
+        async function testSpecificMonth() {
+            const year = prompt('Enter year (e.g., 2000):', '2000');
+            const month = prompt('Enter month (1-12):', '1');
+            
+            if (!year || !month) return;
+            
+            const game = await initGame();
+            game.gameState.currentYear = parseInt(year);
+            game.gameState.currentMonth = parseInt(month);
+            
+            const price = game.getStockPrice('WFC');
+            const key = `${year}-${month.padStart(2, '0')}`;
+            
+            document.getElementById('debug-results').innerHTML = `
+                <div class="container">
+                    <h3>Specific Month Test: ${key}</h3>
+                    <p><strong>Game Price:</strong> ${price}</p>
+                    <p><strong>XML Price:</strong> ${game.stockPricesFromXML?.WFC?.[key] || 'Not found'}</p>
+                    <p><strong>Mock Price:</strong> ${game.stockPrices?.WFC?.[key] || 'Not found'}</p>
+                </div>
+            `;
+        }
+        
+        async function showXMLSample() {
+            try {
+                const response = await fetch('Stocks/wfc.xml');
+                if (response.ok) {
+                    const xmlText = await response.text();
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                    
+                    // Check for parsing errors
+                    const parseError = xmlDoc.querySelector('parsererror');
+                    if (parseError) {
+                        document.getElementById('debug-results').innerHTML = 
+                            `<div class="container">XML Parsing Error: ${parseError.textContent}</div>`;
+                        return;
+                    }
+                    
+                    const entries = xmlDoc.querySelectorAll('stock_entry');
+                    let html = '<div class="container"><h3>WFC XML Sample Data</h3>';
+                    html += `<p><strong>Raw XML Response Status:</strong> ${response.status}</p>`;
+                    html += `<p><strong>XML Length:</strong> ${xmlText.length} characters</p>`;
+                    html += `<p><strong>Root Element:</strong> ${xmlDoc.documentElement.tagName}</p>`;
+                    html += `<p><strong>Stock Entries Found:</strong> ${entries.length}</p>`;
+                    
+                    if (entries.length === 0) {
+                        html += '<div style="color: red;"><strong>ERROR: No stock_entry elements found!</strong></div>';
+                        html += '<div class="code">First 500 characters of XML:\n' + xmlText.substring(0, 500) + '</div>';
+                    } else {
+                        for (let i = 0; i < Math.min(5, entries.length); i++) {
+                            const entry = entries[i];
+                            const dateElement = entry.querySelector('date');
+                            const closeElement = entry.querySelector('close');
+                            
+                            if (!dateElement || !closeElement) {
+                                html += `<p style="color: red;"><strong>Entry ${i}:</strong> Missing date or close element</p>`;
+                                continue;
+                            }
+                            
+                            const date = dateElement.textContent;
+                            const close = closeElement.textContent;
+                            const dateObj = new Date(date);
+                            const key = `${dateObj.getFullYear()}-${(dateObj.getMonth() + 1).toString().padStart(2, '0')}`;
+                            
+                            html += `<p><strong>${key}:</strong> ${close} (from ${date})</p>`;
+                        }
+                    }
+                    
+                    html += '</div>';
+                    document.getElementById('debug-results').innerHTML = html;
+                } else {
+                    document.getElementById('debug-results').innerHTML = 
+                        `<div class="container">HTTP Error: ${response.status} - Could not load WFC XML file. Make sure you\'re running from a web server.</div>`;
+                }
+            } catch (error) {
+                document.getElementById('debug-results').innerHTML = 
+                    `<div class="container">Error loading XML: ${error.message}<br>Stack: ${error.stack}</div>`;
+            }
+        }
+        
+        async function testXMLLoading() {
+            const resultsDiv = document.getElementById('debug-results');
+            resultsDiv.innerHTML = '<div style="color: #666;">Testing XML loading process step by step...</div>';
+            
+            try {
+                let html = '<div class="container"><h2>XML Loading Process Test</h2>';
+                
+                // Step 1: Test file access
+                html += '<div class="debug-section"><h3>Step 1: File Access Test</h3>';
+                try {
+                    const testResponse = await fetch('Stocks/wfc.xml');
+                    html += `<p>✅ File accessible: HTTP ${testResponse.status}</p>`;
+                    
+                    if (testResponse.ok) {
+                        const xmlText = await testResponse.text();
+                        html += `<p>✅ File readable: ${xmlText.length} characters</p>`;
+                        
+                        // Step 2: XML Parsing
+                        html += '</div><div class="debug-section"><h3>Step 2: XML Parsing</h3>';
+                        const parser = new DOMParser();
+                        const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                        
+                        const parseError = xmlDoc.querySelector('parsererror');
+                        if (parseError) {
+                            html += `<p>❌ XML Parse Error: ${parseError.textContent}</p>`;
+                        } else {
+                            html += `<p>✅ XML parsed successfully</p>`;
+                            html += `<p>Root element: ${xmlDoc.documentElement.tagName}</p>`;
+                            
+                            // Step 3: Element Selection
+                            html += '</div><div class="debug-section"><h3>Step 3: Element Selection</h3>';
+                            const stockEntries = xmlDoc.querySelectorAll('stock_entry');
+                            html += `<p>Stock entries found: ${stockEntries.length}</p>`;
+                            
+                            if (stockEntries.length > 0) {
+                                html += `<p>✅ Stock entries detected</p>`;
+                                
+                                // Step 4: Data Extraction
+                                html += '</div><div class="debug-section"><h3>Step 4: Data Extraction Test</h3>';
+                                const testData = {};
+                                let processedCount = 0;
+                                let errorCount = 0;
+                                
+                                stockEntries.forEach((entry, index) => {
+                                    const dateElement = entry.querySelector('date');
+                                    const closeElement = entry.querySelector('close');
+                                    
+                                    if (!dateElement || !closeElement) {
+                                        errorCount++;
+                                        if (index < 3) {
+                                            html += `<p>❌ Entry ${index}: Missing date or close element</p>`;
+                                        }
+                                        return;
+                                    }
+                                    
+                                    const date = dateElement.textContent;
+                                    const close = parseFloat(closeElement.textContent);
+                                    
+                                    if (isNaN(close)) {
+                                        errorCount++;
+                                        if (index < 3) {
+                                            html += `<p>❌ Entry ${index}: Invalid close price: ${closeElement.textContent}</p>`;
+                                        }
+                                        return;
+                                    }
+                                    
+                                    const dateObj = new Date(date);
+                                    if (isNaN(dateObj.getTime())) {
+                                        errorCount++;
+                                        if (index < 3) {
+                                            html += `<p>❌ Entry ${index}: Invalid date: ${date}</p>`;
+                                        }
+                                        return;
+                                    }
+                                    
+                                    const key = `${dateObj.getFullYear()}-${(dateObj.getMonth() + 1).toString().padStart(2, '0')}`;
+                                    testData[key] = close;
+                                    processedCount++;
+                                    
+                                    if (index < 3) {
+                                        html += `<p>✅ Entry ${index}: ${key} = ${close}</p>`;
+                                    }
+                                });
+                                
+                                html += `<p><strong>Summary:</strong> Processed ${processedCount}, Errors: ${errorCount}</p>`;
+                                
+                                // Step 5: Simulate Game Integration
+                                html += '</div><div class="debug-section"><h3>Step 5: Game Integration Test</h3>';
+                                const game = new SimLifeGame();
+                                game.gameState = { currentYear: 2000, currentMonth: 1 };
+                                
+                                // Manually set the data as it would be loaded
+                                game.stockPricesFromXML = { 'WFC': testData };
+                                
+                                const testPrice = game.getStockPrice('WFC');
+                                const expectedKey = '2000-01';
+                                const expectedPrice = testData[expectedKey];
+                                
+                                html += `<p><strong>Test Key:</strong> ${expectedKey}</p>`;
+                                html += `<p><strong>Expected Price:</strong> ${expectedPrice}</p>`;
+                                html += `<p><strong>Game Price:</strong> ${testPrice}</p>`;
+                                html += `<p><strong>Match:</strong> ${testPrice === expectedPrice ? '✅ Yes' : '❌ No'}</p>`;
+                                
+                            } else {
+                                html += `<p>❌ No stock entries found</p>`;
+                            }
+                        }
+                    } else {
+                        html += `<p>❌ File not accessible: HTTP ${testResponse.status}</p>`;
+                    }
+                } catch (fetchError) {
+                    html += `<p>❌ Fetch error: ${fetchError.message}</p>`;
+                }
+                
+                html += '</div></div>';
+                resultsDiv.innerHTML = html;
+                
+            } catch (error) {
+                resultsDiv.innerHTML = `<div style="color: red;">Error: ${error.message}</div>`;
+            }
+        }
+        
+        function clearResults() {
+            document.getElementById('debug-results').innerHTML = '';
+        }
+        
+        // Auto-load on page load
+        window.addEventListener('load', () => {
+            console.log('WFC Debug Tool loaded. Click "Load WFC Data & Compare" to start.');
+        });
+    </script>
+</body>
+</html>
