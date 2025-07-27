@@ -9,6 +9,9 @@ class SimLifeGame {
             professionId: '',
             grossAnnual: 0,
             salaryFactor: 1.0,
+            careerLevel: 'junior', // junior, regular, senior
+            yearsAtCurrentLevel: 0,
+            nextPromotionYear: null, // Will be set when starting career
             fixedCosts: 0,
             happiness: 100,
             negativeCashStreak: 0,
@@ -266,6 +269,10 @@ class SimLifeGame {
         this.gameState.grossAnnual = this.randomBetweenInt(profession.salaryRange[0], profession.salaryRange[1]);
         this.gameState.fixedCosts = profession.fixedCosts.food + 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
         
+        // Initialize career progression
+        this.gameState.careerLevel = 'junior';
+        this.gameState.yearsAtCurrentLevel = 0;
+        
         // Set initial cash based on profession
         if (profession.initialCash) {
             this.gameState.portfolio.cash = profession.initialCash;
@@ -313,6 +320,94 @@ class SimLifeGame {
             loan: null
         };
         this.gameState.cars.push(starterCar);
+    }
+    
+    checkCareerPromotion() {
+        // Check for junior to regular promotion (2-3 years)
+        if (this.gameState.careerLevel === 'junior' && this.gameState.yearsAtCurrentLevel >= 2) {
+            // Random chance for promotion in year 2 or 3
+            const promotionYear = this.gameState.yearsAtCurrentLevel === 2 ? 
+                (Math.random() < 0.5 ? 2 : 3) : 3;
+            
+            if (this.gameState.yearsAtCurrentLevel >= promotionYear) {
+                this.promoteToRegular();
+                return;
+            }
+        }
+        
+        // Check for regular to senior promotion (4-7 years total experience)
+        if (this.gameState.careerLevel === 'regular') {
+            const totalYears = this.gameState.yearsAtCurrentLevel;
+            // Add the years spent as junior (assume 2-3 years as junior)
+            const totalCareerYears = totalYears + 2.5; // Average junior years
+            
+            if (totalCareerYears >= 4) {
+                // Random chance for promotion between years 4-7
+                const shouldPromote = Math.random() < 0.25; // 25% chance each year
+                if (shouldPromote) {
+                    this.promoteToSenior();
+                    return;
+                }
+            }
+        }
+    }
+    
+    promoteToRegular() {
+        const profession = this.professions[this.gameState.professionId];
+        const currentTitle = profession.title;
+        
+        // Calculate promotion raise (10-15%)
+        const promotionRaise = this.randomBetween(0.10, 0.15);
+        this.gameState.grossAnnual *= (1 + promotionRaise);
+        
+        // Update career level
+        this.gameState.careerLevel = 'regular';
+        this.gameState.yearsAtCurrentLevel = 0;
+        
+        // Update profession title
+        const newTitle = currentTitle.replace('Junior', 'Regular').replace('junior', 'regular');
+        profession.title = newTitle;
+        
+        const raisePercent = (promotionRaise * 100).toFixed(1);
+        this.log(`🎉 PROMOTION! You've been promoted to ${newTitle}! Salary increased by ${raisePercent}% to $${this.gameState.grossAnnual.toLocaleString()}`, 'success');
+        
+        // Show celebration effect
+        const message = `Promoted to Regular Position!<br>+${raisePercent}% Salary Increase`;
+        if (typeof showCelebration === 'function') {
+            showCelebration('🎉', message);
+        }
+        
+        // Happiness bonus
+        this.gameState.happiness = Math.min(1000, this.gameState.happiness + 40);
+    }
+    
+    promoteToSenior() {
+        const profession = this.professions[this.gameState.professionId];
+        const currentTitle = profession.title;
+        
+        // Calculate promotion raise (10-15%)
+        const promotionRaise = this.randomBetween(0.10, 0.15);
+        this.gameState.grossAnnual *= (1 + promotionRaise);
+        
+        // Update career level
+        this.gameState.careerLevel = 'senior';
+        this.gameState.yearsAtCurrentLevel = 0;
+        
+        // Update profession title
+        const newTitle = currentTitle.replace('Regular', 'Senior').replace('regular', 'senior');
+        profession.title = newTitle;
+        
+        const raisePercent = (promotionRaise * 100).toFixed(1);
+        this.log(`🎉 PROMOTION! You've been promoted to ${newTitle}! Salary increased by ${raisePercent}% to $${this.gameState.grossAnnual.toLocaleString()}`, 'success');
+        
+        // Show celebration effect
+        const message = `Promoted to Senior Position!<br>+${raisePercent}% Salary Increase`;
+        if (typeof showCelebration === 'function') {
+            showCelebration('🎉', message);
+        }
+        
+        // Happiness bonus
+        this.gameState.happiness = Math.min(1000, this.gameState.happiness + 50);
     }
     
     calculateMonthlyPayment(principal, annualRate, months) {
@@ -758,6 +853,12 @@ class SimLifeGame {
             this.gameState.currentMonth = 1;
             this.gameState.currentYear++;
             this.gameState.ageYears++;
+            
+            // Track years at current career level
+            this.gameState.yearsAtCurrentLevel++;
+            
+            // Check for career promotions
+            this.checkCareerPromotion();
             
             // Annual salary increase with normal distribution
             const profession = this.professions[this.gameState.professionId];

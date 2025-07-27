@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pet Loading Test</title>
+</head>
+<body>
+    <h1>Pet Loading Test</h1>
+    <button onclick="testLoad()">Test Pet Loading</button>
+    <div id="results"></div>
+    
+    <script>
+        async function testLoad() {
+            const results = document.getElementById('results');
+            
+            try {
+                const response = await fetch('pets.xml');
+                const text = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(text, 'text/xml');
+                
+                const petNodes = xmlDoc.querySelectorAll('pets > pet');
+                results.innerHTML = `
+                    <h2>Pet Loading Results:</h2>
+                    <p>Found ${petNodes.length} pets in pets.xml</p>
+                    <h3>First 5 pets:</h3>
+                    <ul>
+                `;
+                
+                Array.from(petNodes).slice(0, 5).forEach(petNode => {
+                    const id = petNode.getAttribute('id');
+                    const name = petNode.querySelector('name')?.textContent || '';
+                    const cost = petNode.querySelector('purchaseCost')?.textContent || '0';
+                    results.innerHTML += `<li>${id}: ${name} - $${cost}</li>`;
+                });
+                
+                results.innerHTML += '</ul>';
+                
+            } catch (error) {
+                results.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
