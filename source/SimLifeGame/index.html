@@ -1484,7 +1484,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="version-badge" id="game-version">v2.7.2</div>
+                    <div class="version-badge" id="game-version">v2.7.3</div>
                 </div>
             </div>
             <div class="game-status">
@@ -3345,10 +3345,15 @@
         // Function to update player info display on main page
         function updatePlayerInfoDisplay() {
             if (window.playerSetupData && game?.gameState?.gameStarted) {
-                document.getElementById('player-name-display').textContent = window.playerSetupData.name;
-                document.getElementById('player-portrait-display').textContent = window.playerSetupData.portrait;
-                document.getElementById('player-age-display').textContent = game.gameState.ageYears;
-                document.getElementById('player-info').style.display = 'block';
+                const nameElement = document.getElementById('player-name-display');
+                const portraitElement = document.getElementById('player-portrait-display');
+                const ageElement = document.getElementById('player-age-display');
+                const infoElement = document.getElementById('player-info');
+                
+                if (nameElement) nameElement.textContent = window.playerSetupData.name;
+                if (portraitElement) portraitElement.textContent = window.playerSetupData.portrait;
+                if (ageElement) ageElement.textContent = game.gameState.ageYears;
+                if (infoElement) infoElement.style.display = 'block';
             }
         }
         
@@ -3387,6 +3392,6 @@
     </div> <!-- End game-container -->
     
     
-    <script src="game.js"></script>
+    <script src="game.js?v=2.7.3"></script>
 </body>
 </html>

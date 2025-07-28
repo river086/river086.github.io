@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.7.2'; // Update this when making changes to the game
+    static VERSION = '2.7.3'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -3553,22 +3553,40 @@ class SimLifeGame {
     }
 
     updateUI() {
+        // Safety check - ensure DOM is ready
+        if (!document.getElementById) {
+            console.warn('DOM not ready for updateUI');
+            return;
+        }
+        
         // Update age in header if element exists
-        const headerAgeElement = document.getElementById('player-age-display');
-        if (headerAgeElement) {
-            headerAgeElement.textContent = this.gameState.ageYears;
+        try {
+            const headerAgeElement = document.getElementById('player-age-display');
+            if (headerAgeElement) {
+                headerAgeElement.textContent = this.gameState.ageYears;
+            }
+        } catch (error) {
+            console.warn('Error updating age display:', error);
         }
         
         // Update cash display
-        const cashElement = document.getElementById('cash');
-        if (cashElement) {
-            cashElement.textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
+        try {
+            const cashElement = document.getElementById('cash');
+            if (cashElement) {
+                cashElement.textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
+            }
+        } catch (error) {
+            console.warn('Error updating cash display:', error);
         }
         
         // Update net worth display
-        const netWorthElement = document.getElementById('net-worth');
-        if (netWorthElement) {
-            netWorthElement.textContent = `$${this.calculateNetWorth().toLocaleString()}`;
+        try {
+            const netWorthElement = document.getElementById('net-worth');
+            if (netWorthElement) {
+                netWorthElement.textContent = `$${this.calculateNetWorth().toLocaleString()}`;
+            }
+        } catch (error) {
+            console.warn('Error updating net worth display:', error);
         }
         
         // Update profession display
