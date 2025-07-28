@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.8.2'; // Update this when making changes to the game
+    static VERSION = '2.8.3'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -3637,12 +3637,6 @@ class SimLifeGame {
             dateDisplay.textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`;
         }
         
-        // Update progress bar (keep empty for visual indicator only)
-        const progressBar = document.getElementById('month-progress');
-        if (progressBar && this.gameState.gameStarted && !this.gameState.gameOver) {
-            progressBar.textContent = '';
-            progressBar.style.width = '100%';
-        }
         
         // Update seasonal background
         this.updateSeasonalBackground();
