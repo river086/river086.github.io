@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widescreen Layout Test - SimLifeGame v2.5.4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .layout-selector {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        
+        .layout-selector h3 {
+            margin-bottom: 10px;
+            color: #333;
+            font-size: 1em;
+        }
+        
+        .layout-selector button {
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        
+        .layout-selector button:hover {
+            background: #0056b3;
+        }
+        
+        .layout-selector button.active {
+            background: #28a745;
+        }
+        
+        /* Original Layout (Current) */
+        .original-layout .game-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Widescreen Optimized Layout 1: Two-Column */
+        .widescreen-layout1 .game-container {
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 30px;
+        }
+        
+        .widescreen-layout1 .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .widescreen-layout1 .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        /* Widescreen Optimized Layout 2: Three-Column */
+        .widescreen-layout2 .game-container {
+            max-width: 2200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 300px 1fr 300px;
+            gap: 25px;
+        }
+        
+        .widescreen-layout2 .left-sidebar,
+        .widescreen-layout2 .right-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .widescreen-layout2 .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        /* Widescreen Optimized Layout 3: Dashboard Style */
+        .widescreen-layout3 .game-container {
+            max-width: 2400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .widescreen-layout3 .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .widescreen-layout3 .main-actions {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        /* Common styles for all layouts */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .game-status {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .status-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .action-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #0056b3;
+        }
+        
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 1600px) {
+            .widescreen-layout1 .game-container {
+                grid-template-columns: 1fr 350px;
+            }
+            
+            .widescreen-layout2 .game-container {
+                grid-template-columns: 250px 1fr 250px;
+            }
+            
+            .widescreen-layout3 .dashboard-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .widescreen-layout1 .game-container,
+            .widescreen-layout2 .game-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .widescreen-layout3 .dashboard-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .widescreen-layout3 .main-actions {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .widescreen-layout3 .dashboard-grid,
+            .widescreen-layout3 .main-actions {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .demo-content {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #007bff;
+        }
+        
+        .screen-info {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="original-layout">
+    
+    <div class="layout-selector">
+        <h3>Layout Options</h3>
+        <button onclick="switchLayout('original')" class="active" id="btn-original">Current (1200px)</button>
+        <button onclick="switchLayout('widescreen1')" id="btn-widescreen1">Two-Column (1800px)</button>
+        <button onclick="switchLayout('widescreen2')" id="btn-widescreen2">Three-Column (2200px)</button>
+        <button onclick="switchLayout('widescreen3')" id="btn-widescreen3">Dashboard (2400px)</button>
+    </div>
+    
+    <div class="screen-info" id="screen-info">
+        Screen: Loading...
+    </div>
+    
+    <div class="game-container">
+        <!-- Layout 1: Original (Current) -->
+        <div class="original-content">
+            <div class="header">
+                <h1>SimLifeGame v2.5.4 - Layout Testing</h1>
+                <div class="game-status">
+                    <div class="status-card">
+                        <h3>💰 Cash</h3>
+                        <div>$12,345</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>📊 Portfolio</h3>
+                        <div>$56,789</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>😊 Happiness</h3>
+                        <div>78/100</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>📅 Age</h3>
+                        <div>28 years</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-panel">
+                <h2>Game Actions</h2>
+                <div class="quick-actions">
+                    <button class="btn">📈 Stock Trading</button>
+                    <button class="btn">🏠 Real Estate</button>
+                    <button class="btn">🚗 Vehicles</button>
+                    <button class="btn">🏦 Banking</button>
+                    <button class="btn">💼 Career</button>
+                    <button class="btn">🎰 Lottery</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Layout 2: Two-Column Widescreen -->
+        <div class="main-content" style="display: none;">
+            <div class="header">
+                <h1>SimLifeGame v2.5.4 - Two-Column Layout</h1>
+                <div class="game-status">
+                    <div class="status-card">
+                        <h3>💰 Cash</h3>
+                        <div>$12,345</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>📊 Portfolio</h3>
+                        <div>$56,789</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>😊 Happiness</h3>
+                        <div>78/100</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>📅 Age</h3>
+                        <div>28 years</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-panel">
+                <h2>Primary Actions</h2>
+                <div class="demo-content">
+                    <p><strong>Main game content area:</strong> This wider space allows for more detailed interfaces, larger charts, and better organization of complex features like stock trading and real estate management.</p>
+                </div>
+                <div class="quick-actions">
+                    <button class="btn">📈 Stock Trading</button>
+                    <button class="btn">🏠 Real Estate</button>
+                    <button class="btn">🚗 Vehicles</button>
+                    <button class="btn">💼 Career Management</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sidebar" style="display: none;">
+            <div class="action-panel">
+                <h3>Quick Actions</h3>
+                <div class="demo-content">
+                    <p><strong>Sidebar for:</strong></p>
+                    <ul>
+                        <li>Player status & family</li>
+                        <li>Recent notifications</li>
+                        <li>Quick financial summary</li>
+                        <li>Shortcut actions</li>
+                    </ul>
+                </div>
+                <button class="btn" style="width: 100%; margin: 5px 0;">🎰 Quick Lottery</button>
+                <button class="btn" style="width: 100%; margin: 5px 0;">🏦 Bank Transfer</button>
+                <button class="btn" style="width: 100%; margin: 5px 0;">📱 Family Check</button>
+            </div>
+            
+            <div class="action-panel">
+                <h3>Market Updates</h3>
+                <div class="demo-content">
+                    <p><strong>Real-time info:</strong></p>
+                    <ul>
+                        <li>Stock prices</li>
+                        <li>Real estate trends</li>
+                        <li>Economic events</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Layout 3: Three-Column Widescreen -->
+        <div class="left-sidebar" style="display: none;">
+            <div class="action-panel">
+                <h3>Player Status</h3>
+                <div class="demo-content">
+                    <p><strong>Left sidebar:</strong></p>
+                    <ul>
+                        <li>Character profile</li>
+                        <li>Family photos</li>
+                        <li>Achievement badges</li>
+                        <li>Current goals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content" style="display: none;">
+            <div class="header">
+                <h1>SimLifeGame v2.5.4 - Three-Column Layout</h1>
+                <div class="game-status">
+                    <div class="status-card">
+                        <h3>💰 Cash</h3>
+                        <div>$12,345</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>📊 Portfolio</h3>
+                        <div>$56,789</div>
+                    </div>
+                    <div class="status-card">
+                        <h3>😊 Happiness</h3>
+                        <div>78/100</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-panel">
+                <h2>Main Game Interface</h2>
+                <div class="demo-content">
+                    <p><strong>Central content area:</strong> Focused on the main game mechanics with maximum screen real estate for complex interactions and detailed information display.</p>
+                </div>
+                <div class="quick-actions">
+                    <button class="btn">📈 Advanced Trading</button>
+                    <button class="btn">🏠 Property Portfolio</button>
+                    <button class="btn">💼 Career Dashboard</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-sidebar" style="display: none;">
+            <div class="action-panel">
+                <h3>Market Data</h3>
+                <div class="demo-content">
+                    <p><strong>Right sidebar:</strong></p>
+                    <ul>
+                        <li>Live market prices</li>
+                        <li>News feed</li>
+                        <li>Economic indicators</li>
+                        <li>Investment tips</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="action-panel">
+                <h3>Quick Tools</h3>
+                <div class="demo-content">
+                    <ul>
+                        <li>Calculator</li>
+                        <li>Portfolio analyzer</li>
+                        <li>Expense tracker</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Layout 4: Dashboard Style -->
+        <div class="dashboard-content" style="display: none;">
+            <div class="header">
+                <h1>SimLifeGame v2.5.4 - Dashboard Layout</h1>
+            </div>
+            
+            <div class="dashboard-grid">
+                <div class="status-card">
+                    <h3>💰 Financial Overview</h3>
+                    <div class="demo-content">
+                        <p>Cash: $12,345</p>
+                        <p>Investments: $56,789</p>
+                        <p>Net Worth: $69,134</p>
+                    </div>
+                </div>
+                
+                <div class="status-card">
+                    <h3>📊 Portfolio Performance</h3>
+                    <div class="demo-content">
+                        <p>Monthly Gain: +$2,543</p>
+                        <p>YTD Return: 12.3%</p>
+                        <p>Best Stock: NVDA (+45%)</p>
+                    </div>
+                </div>
+                
+                <div class="status-card">
+                    <h3>🏠 Real Estate</h3>
+                    <div class="demo-content">
+                        <p>Properties: 2</p>
+                        <p>Total Value: $450,000</p>
+                        <p>Monthly Rent: $2,100</p>
+                    </div>
+                </div>
+                
+                <div class="status-card">
+                    <h3>👨‍👩‍👧‍👦 Family Status</h3>
+                    <div class="demo-content">
+                        <p>Married: ✅</p>
+                        <p>Children: 2</p>
+                        <p>Happiness: 78/100</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main-actions">
+                <div class="action-panel">
+                    <h3>Trading Hub</h3>
+                    <div class="demo-content">
+                        <p>Comprehensive trading interface with real-time charts, advanced order types, and portfolio analysis tools.</p>
+                    </div>
+                    <button class="btn" style="width: 100%;">📈 Open Trading Dashboard</button>
+                </div>
+                
+                <div class="action-panel">
+                    <h3>Property Management</h3>
+                    <div class="demo-content">
+                        <p>Real estate portfolio management with market analysis, property details, and investment calculations.</p>
+                    </div>
+                    <button class="btn" style="width: 100%;">🏠 Manage Properties</button>
+                </div>
+                
+                <div class="action-panel">
+                    <h3>Life Management</h3>
+                    <div class="demo-content">
+                        <p>Career advancement, family interactions, and lifestyle choices that affect your financial journey.</p>
+                    </div>
+                    <button class="btn" style="width: 100%;">👨‍💼 Life Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let currentLayout = 'original';
+        
+        function switchLayout(layout) {
+            // Remove current layout class
+            document.body.className = '';
+            
+            // Hide all content sections
+            const contents = [
+                '.original-content',
+                '.main-content',
+                '.sidebar',
+                '.left-sidebar',
+                '.right-sidebar',
+                '.dashboard-content'
+            ];
+            
+            contents.forEach(selector => {
+                const elements = document.querySelectorAll(selector);
+                elements.forEach(el => el.style.display = 'none');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.layout-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Apply new layout
+            currentLayout = layout;
+            
+            switch(layout) {
+                case 'original':
+                    document.body.className = 'original-layout';
+                    document.querySelector('.original-content').style.display = 'block';
+                    document.getElementById('btn-original').classList.add('active');
+                    break;
+                    
+                case 'widescreen1':
+                    document.body.className = 'widescreen-layout1';
+                    document.querySelectorAll('.main-content')[0].style.display = 'flex';
+                    document.querySelector('.sidebar').style.display = 'flex';
+                    document.getElementById('btn-widescreen1').classList.add('active');
+                    break;
+                    
+                case 'widescreen2':
+                    document.body.className = 'widescreen-layout2';
+                    document.querySelector('.left-sidebar').style.display = 'flex';
+                    document.querySelectorAll('.main-content')[1].style.display = 'flex';
+                    document.querySelector('.right-sidebar').style.display = 'flex';
+                    document.getElementById('btn-widescreen2').classList.add('active');
+                    break;
+                    
+                case 'widescreen3':
+                    document.body.className = 'widescreen-layout3';
+                    document.querySelector('.dashboard-content').style.display = 'block';
+                    document.getElementById('btn-widescreen3').classList.add('active');
+                    break;
+            }
+            
+            updateScreenInfo();
+            logLayoutChange(layout);
+        }
+        
+        function updateScreenInfo() {
+            const screenInfo = document.getElementById('screen-info');
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const containerWidth = document.querySelector('.game-container').offsetWidth;
+            
+            screenInfo.innerHTML = `
+                Screen: ${width}×${height}px<br>
+                Container: ${containerWidth}px<br>
+                Layout: ${currentLayout}
+            `;
+        }
+        
+        function logLayoutChange(layout) {
+            const layouts = {
+                'original': 'Current Design (max-width: 1200px)',
+                'widescreen1': 'Two-Column Layout (max-width: 1800px)',
+                'widescreen2': 'Three-Column Layout (max-width: 2200px)',
+                'widescreen3': 'Dashboard Layout (max-width: 2400px)'
+            };
+            
+            console.log(`🖥️ Layout switched to: ${layouts[layout]}`);
+            console.log(`📏 Screen dimensions: ${window.innerWidth}×${window.innerHeight}px`);
+            console.log(`📐 Container width: ${document.querySelector('.game-container').offsetWidth}px`);
+        }
+        
+        // Update screen info on resize
+        window.addEventListener('resize', updateScreenInfo);
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            updateScreenInfo();
+            console.log('🧪 Widescreen Layout Test Suite loaded for SimLifeGame v2.5.4');
+            console.log('📱 Use the layout selector to test different widescreen optimizations');
+        });
+        
+        // Test different screen sizes programmatically
+        function testScreenSizes() {
+            const sizes = [
+                { name: 'Mobile', width: 375, height: 667 },
+                { name: 'Tablet', width: 768, height: 1024 },
+                { name: 'Laptop', width: 1366, height: 768 },
+                { name: 'Desktop', width: 1920, height: 1080 },
+                { name: 'Wide Desktop', width: 2560, height: 1440 },
+                { name: 'Ultra-wide', width: 3440, height: 1440 }
+            ];
+            
+            console.log('📊 Testing recommended layouts for different screen sizes:');
+            sizes.forEach(size => {
+                let recommendedLayout = 'original';
+                if (size.width >= 2400) recommendedLayout = 'widescreen3';
+                else if (size.width >= 2000) recommendedLayout = 'widescreen2';
+                else if (size.width >= 1600) recommendedLayout = 'widescreen1';
+                
+                console.log(`${size.name} (${size.width}×${size.height}): ${recommendedLayout}`);
+            });
+        }
+        
+        // Auto-test after page load
+        setTimeout(testScreenSizes, 1000);
+    </script>
+    
+</body>
+</html>
