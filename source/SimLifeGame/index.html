@@ -29,10 +29,10 @@
         
         .header {
             background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
         }
         
         .version-badge {
@@ -53,9 +53,9 @@
         
         .status-card {
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 18px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 12px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
             border: 2px solid #dee2e6;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -175,7 +175,7 @@
         
         
         .second-row .game-panel {
-            height: 350px;
+            height: 280px;
             overflow-y: auto;
             min-width: 0; /* Prevent grid blowout */
         }
@@ -193,15 +193,15 @@
         }
         
         .main-content .game-panel {
-            height: 300px;
+            height: 240px;
             overflow-y: auto;
         }
         
         .game-panel {
             background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
         }
         
         .command-input {
@@ -1476,19 +1476,18 @@
                         <div style="display: flex; align-items: center; gap: 8px;">
                             <span id="player-portrait-display" style="font-size: 24px;">👤</span>
                             <div>
-                                <div id="player-name-display" style="font-weight: bold; color: #2c3e50;">Player</div>
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span id="player-name-display" style="font-weight: bold; color: #2c3e50;">Player</span>
+                                    <span id="player-age-display" style="font-size: 0.9em; color: #666; background: #f0f0f0; padding: 2px 6px; border-radius: 8px;">24</span>
+                                </div>
                                 <div style="font-size: 0.8em; color: #666;">Your Character</div>
                             </div>
                         </div>
                     </div>
-                    <div class="version-badge" id="game-version">v2.7.0</div>
+                    <div class="version-badge" id="game-version">v2.7.1</div>
                 </div>
             </div>
             <div class="game-status">
-                <div class="status-card">
-                    <div class="status-value" id="age">24</div>
-                    <div class="status-label">🎂 Age</div>
-                </div>
                 <div class="status-card">
                     <div class="status-value" id="cash">$500</div>
                     <div class="status-label">💵 Cash</div>
@@ -3348,6 +3347,7 @@
             if (window.playerSetupData && game?.gameState?.gameStarted) {
                 document.getElementById('player-name-display').textContent = window.playerSetupData.name;
                 document.getElementById('player-portrait-display').textContent = window.playerSetupData.portrait;
+                document.getElementById('player-age-display').textContent = game.gameState.ageYears;
                 document.getElementById('player-info').style.display = 'block';
             }
         }

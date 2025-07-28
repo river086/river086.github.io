@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.7.0'; // Update this when making changes to the game
+    static VERSION = '2.7.1'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -3553,7 +3553,11 @@ class SimLifeGame {
     }
 
     updateUI() {
-        document.getElementById('age').textContent = this.gameState.ageYears;
+        // Update age in header if element exists
+        const headerAgeElement = document.getElementById('player-age-display');
+        if (headerAgeElement) {
+            headerAgeElement.textContent = this.gameState.ageYears;
+        }
         document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
         document.getElementById('net-worth').textContent = `$${this.calculateNetWorth().toLocaleString()}`;
         
