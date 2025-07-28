@@ -7,7 +7,13 @@
       "Bash(git push:*)",
       "Bash(mkdir:*)",
       "Bash(start test-real-estate-pricing.html)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(start test-widescreen-layout.html)",
+      "Bash(grep:*)",
+      "Bash(mv:*)",
+      "Bash(rmdir:*)",
+      "Bash(rm:*)",
+      "Bash(timeout 30 git add assets docs tests game.js index.html)"
     ],
     "deny": []
   }

@@ -86,7 +86,7 @@ class SimLifeGame {
         if (!this.musicEnabled) return;
         
         try {
-            this.backgroundMusic = new Audio('happy.mp3');
+            this.backgroundMusic = new Audio('assets/audio/happy.mp3');
             this.backgroundMusic.loop = true;
             this.backgroundMusic.volume = 0.3; // Set to 30% volume
             
@@ -683,10 +683,10 @@ class SimLifeGame {
     // Get random child photo from available photos
     getRandomChildPhoto() {
         const childPhotos = [
-            'images/children/child1.jpg',
-            'images/children/child2.webp', 
-            'images/children/child3.avif',
-            'images/children/child4.jpg'
+            'assets/images/children/child1.jpg',
+            'assets/images/children/child2.webp', 
+            'assets/images/children/child3.avif',
+            'assets/images/children/child4.jpg'
         ];
         
         const randomIndex = Math.floor(Math.random() * childPhotos.length);
@@ -714,7 +714,7 @@ class SimLifeGame {
             // Both spouse and children available - random choice
             if (Math.random() < 0.6) {
                 conversationSource = 'spouse';
-                sourceImage = 'images/couple/spouse.jpg';
+                sourceImage = 'assets/images/couple/spouse.jpg';
                 sourceName = 'Your Spouse';
             } else {
                 conversationSource = 'child';
@@ -725,7 +725,7 @@ class SimLifeGame {
         } else if (this.gameState.relationshipStatus === 'Marriage') {
             // Only spouse available
             conversationSource = 'spouse';
-            sourceImage = 'images/couple/spouse.jpg';
+            sourceImage = 'assets/images/couple/spouse.jpg';
             sourceName = 'Your Spouse';
         } else if (this.gameState.childrenCount > 0) {
             // Only children available
@@ -1520,7 +1520,7 @@ class SimLifeGame {
         // Create couple photo section for married status
         const couplePhotoSection = this.gameState.relationshipStatus === 'Marriage' ? `
             <div style="margin: 15px 0;">
-                <img src="images/couple/spouse.jpg" 
+                <img src="assets/images/couple/spouse.jpg" 
                      alt="Couple Photo" 
                      style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #e17055; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
@@ -3986,13 +3986,13 @@ class SimLifeGame {
     
     async loadEvents() {
         try {
-            console.log('Starting to load events.xml...');
-            const response = await fetch('events.xml');
+            console.log('Starting to load assets/data/events.xml...');
+            const response = await fetch('assets/data/events.xml');
             if (!response.ok) {
-                throw new Error(`Failed to fetch events.xml: ${response.status} ${response.statusText}`);
+                throw new Error(`Failed to fetch assets/data/events.xml: ${response.status} ${response.statusText}`);
             }
             const text = await response.text();
-            console.log('events.xml loaded, parsing...');
+            console.log('assets/data/events.xml loaded, parsing...');
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(text, 'text/xml');
             
@@ -4050,13 +4050,13 @@ class SimLifeGame {
 
     async loadPets() {
         try {
-            console.log('Starting to load pets.xml...');
-            const response = await fetch('pets.xml');
+            console.log('Starting to load assets/data/pets.xml...');
+            const response = await fetch('assets/data/pets.xml');
             if (!response.ok) {
-                throw new Error(`Failed to fetch pets.xml: ${response.status} ${response.statusText}`);
+                throw new Error(`Failed to fetch assets/data/pets.xml: ${response.status} ${response.statusText}`);
             }
             const text = await response.text();
-            console.log('pets.xml loaded, parsing...');
+            console.log('assets/data/pets.xml loaded, parsing...');
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(text, 'text/xml');
             
@@ -4266,13 +4266,13 @@ class SimLifeGame {
 
     async loadSideJobs() {
         try {
-            console.log('Starting to load sidejobs.xml...');
-            const response = await fetch('sidejobs.xml');
+            console.log('Starting to load assets/data/sidejobs.xml...');
+            const response = await fetch('assets/data/sidejobs.xml');
             if (!response.ok) {
-                throw new Error(`Failed to fetch sidejobs.xml: ${response.status} ${response.statusText}`);
+                throw new Error(`Failed to fetch assets/data/sidejobs.xml: ${response.status} ${response.statusText}`);
             }
             const text = await response.text();
-            console.log('sidejobs.xml loaded, parsing...');
+            console.log('assets/data/sidejobs.xml loaded, parsing...');
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(text, 'text/xml');
             
@@ -4493,7 +4493,7 @@ class SimLifeGame {
     async loadNews() {
         try {
             console.log('Loading news data...');
-            const response = await fetch('news/news.xml');
+            const response = await fetch('assets/data/news/news.xml');
             
             if (!response.ok) {
                 console.log('News XML file not accessible. News feature disabled.');
@@ -4538,7 +4538,7 @@ class SimLifeGame {
     async loadRealEstatePrices() {
         try {
             console.log('Loading real estate price history...');
-            const response = await fetch('RealEstate/RealEstatePriceHistory.xml');
+            const response = await fetch('assets/data/RealEstate/RealEstatePriceHistory.xml');
             if (!response.ok) {
                 console.warn('Could not load real estate price history, using default pricing');
                 this.initializeDefaultRealEstatePrices();
@@ -4905,7 +4905,7 @@ class SimLifeGame {
     async loadIndividualStockXML() {
         try {
             // Check if we can access the Stocks directory by testing with a known file
-            const testResponse = await fetch('Stocks/aapl.xml').catch(() => ({ ok: false }));
+            const testResponse = await fetch('assets/data/Stocks/aapl.xml').catch(() => ({ ok: false }));
             
             if (!testResponse.ok) {
                 console.log('Stock XML files not accessible (likely due to CORS or file:// protocol). Using embedded data fallback.');
@@ -4931,7 +4931,7 @@ class SimLifeGame {
             
             for (const symbol of stockSymbols) {
                 try {
-                    const response = await fetch(`Stocks/${symbol}.xml`);
+                    const response = await fetch(`assets/data/Stocks/${symbol}.xml`);
                     if (response.ok) {
                         const xmlText = await response.text();
                         const parser = new DOMParser();
