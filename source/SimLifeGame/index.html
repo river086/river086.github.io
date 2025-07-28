@@ -1453,15 +1453,12 @@
                         <div style="display: flex; align-items: center; gap: 8px;">
                             <span id="player-portrait-display" style="font-size: 24px;">👤</span>
                             <div>
-                                <div style="display: flex; align-items: center; gap: 8px;">
-                                    <span id="player-name-display" style="font-weight: bold; color: #2c3e50;">Player</span>
-                                    <span id="player-age-display" style="font-size: 0.9em; color: #666; background: #f0f0f0; padding: 2px 6px; border-radius: 8px;">24</span>
-                                </div>
+                                <div id="player-name-display" style="font-weight: bold; color: #2c3e50;">Player</div>
                                 <div style="font-size: 0.8em; color: #666;">Your Character</div>
                             </div>
                         </div>
                     </div>
-                    <div class="version-badge" id="game-version">v2.8.3</div>
+                    <div class="version-badge" id="game-version">v2.8.4</div>
                 </div>
             </div>
             <div class="game-status">
@@ -3317,13 +3314,11 @@
             if (window.playerSetupData && game?.gameState?.gameStarted) {
                 const nameElement = document.getElementById('player-name-display');
                 const portraitElement = document.getElementById('player-portrait-display');
-                const ageElement = document.getElementById('player-age-display');
                 const infoElement = document.getElementById('player-info');
                 const dateElement = document.getElementById('current-date-display');
                 
                 if (nameElement) nameElement.textContent = window.playerSetupData.name;
                 if (portraitElement) portraitElement.textContent = window.playerSetupData.portrait;
-                if (ageElement) ageElement.textContent = game.gameState.ageYears;
                 if (infoElement) infoElement.style.display = 'block';
                 if (dateElement) dateElement.textContent = `${game.getMonthName(game.gameState.currentMonth)} ${game.gameState.currentYear}`;
             }
@@ -3364,6 +3359,6 @@
     </div> <!-- End game-container -->
     
     
-    <script src="game.js?v=2.8.3"></script>
+    <script src="game.js?v=2.8.4"></script>
 </body>
 </html>

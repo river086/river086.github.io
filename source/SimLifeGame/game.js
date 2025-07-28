@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.8.3'; // Update this when making changes to the game
+    static VERSION = '2.8.4'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -1493,6 +1493,7 @@ class SimLifeGame {
         statusContainer.innerHTML = '';
         
         const statusData = [
+            { key: 'age', label: 'Age', icon: '🎂', color: '#17a2b8' },
             { key: 'energy', label: 'Energy', icon: '⚡', color: '#ff6b35' },
             { key: 'focus', label: 'Focus', icon: '🎯', color: '#4ecdc4' },
             { key: 'wisdom', label: 'Wisdom', icon: '🧠', color: '#6c5ce7' },
@@ -1563,8 +1564,15 @@ class SimLifeGame {
         statusContainer.appendChild(relationshipCard);
         
         statusData.forEach(stat => {
-            // Handle happiness specially since it has its own calculation
-            const value = stat.key === 'happiness' ? this.calculateTotalHappiness() : this.gameState.playerStatus[stat.key];
+            // Handle special cases for different stats
+            let value;
+            if (stat.key === 'happiness') {
+                value = this.calculateTotalHappiness();
+            } else if (stat.key === 'age') {
+                value = this.gameState.ageYears;
+            } else {
+                value = this.gameState.playerStatus[stat.key];
+            }
             const statusCard = document.createElement('div');
             statusCard.style.background = 'white';
             statusCard.style.border = '2px solid #e9ecef';
@@ -1585,6 +1593,12 @@ class SimLifeGame {
                 maxValue = 1000;
                 progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
                 displayValue = `${value}/${maxValue}`;
+            } else if (stat.key === 'age') {
+                // Age progresses from 24 to 49 (25 years)
+                maxValue = 49;
+                const minAge = 24;
+                progressPercent = Math.max(0, Math.min(100, ((value - minAge) / (maxValue - minAge)) * 100));
+                displayValue = `${value} years`;
             } else {
                 maxValue = this.gameState.maxPlayerStatus[stat.key] || 100;
                 progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
@@ -1645,6 +1659,11 @@ class SimLifeGame {
                 high: 'Living your best life with joy and fulfillment!',
                 medium: 'Generally content with life\'s journey.',
                 low: 'Seeking more joy and satisfaction in life.'
+            },
+            age: {
+                high: 'Experienced and wise with years of life knowledge.',
+                medium: 'In your prime with a good balance of youth and experience.',
+                low: 'Young and full of potential for the future.'
             }
         };
         
@@ -1655,6 +1674,13 @@ class SimLifeGame {
         if (statKey === 'happiness') {
             if (value >= 700) return stat.high;
             if (value >= 400) return stat.medium;
+            return stat.low;
+        }
+        
+        // Age has different thresholds (24-49 years)
+        if (statKey === 'age') {
+            if (value >= 40) return stat.high;
+            if (value >= 30) return stat.medium;
             return stat.low;
         }
         
@@ -3581,15 +3607,7 @@ class SimLifeGame {
             return;
         }
         
-        // Update age in header if element exists
-        try {
-            const headerAgeElement = document.getElementById('player-age-display');
-            if (headerAgeElement) {
-                headerAgeElement.textContent = this.gameState.ageYears;
-            }
-        } catch (error) {
-            console.warn('Error updating age display:', error);
-        }
+        // Age is now displayed in player status modal, no need to update here
         
         // Update cash display
         try {
