@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.7.1'; // Update this when making changes to the game
+    static VERSION = '2.7.2'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -3558,29 +3558,50 @@ class SimLifeGame {
         if (headerAgeElement) {
             headerAgeElement.textContent = this.gameState.ageYears;
         }
-        document.getElementById('cash').textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
-        document.getElementById('net-worth').textContent = `$${this.calculateNetWorth().toLocaleString()}`;
         
-        if (this.gameState.professionId) {
-            const profession = this.professions[this.gameState.professionId];
-            document.getElementById('profession').textContent = `${profession.title} ($${Math.round(this.gameState.grossAnnual / 1000)}k/yr)`;
-        } else {
-            document.getElementById('profession').textContent = 'Choose Profession';
+        // Update cash display
+        const cashElement = document.getElementById('cash');
+        if (cashElement) {
+            cashElement.textContent = `$${this.gameState.portfolio.cash.toLocaleString()}`;
         }
         
-        const totalHappiness = this.calculateTotalHappiness();
-        const petBonus = totalHappiness - this.gameState.happiness;
-        document.getElementById('happiness').textContent = petBonus > 0 
-            ? `${totalHappiness} / 1000 (+${petBonus} from pets)`
-            : `${totalHappiness} / 1000`;
+        // Update net worth display
+        const netWorthElement = document.getElementById('net-worth');
+        if (netWorthElement) {
+            netWorthElement.textContent = `$${this.calculateNetWorth().toLocaleString()}`;
+        }
+        
+        // Update profession display
+        const professionElement = document.getElementById('profession');
+        if (professionElement) {
+            if (this.gameState.professionId) {
+                const profession = this.professions[this.gameState.professionId];
+                professionElement.textContent = `${profession.title} ($${Math.round(this.gameState.grossAnnual / 1000)}k/yr)`;
+            } else {
+                professionElement.textContent = 'Choose Profession';
+            }
+        }
+        
+        // Update happiness display
+        const happinessElement = document.getElementById('happiness');
+        if (happinessElement) {
+            const totalHappiness = this.calculateTotalHappiness();
+            const petBonus = totalHappiness - this.gameState.happiness;
+            happinessElement.textContent = petBonus > 0 
+                ? `${totalHappiness} / 1000 (+${petBonus} from pets)`
+                : `${totalHappiness} / 1000`;
+        }
         
         // Calculate and display monthly expenses
-        const monthlyExpenses = this.calculateMonthlyExpenses();
-        document.getElementById('monthly-expenses').textContent = `$${monthlyExpenses.toLocaleString()}`;
+        const monthlyExpensesElement = document.getElementById('monthly-expenses');
+        if (monthlyExpensesElement) {
+            const monthlyExpenses = this.calculateMonthlyExpenses();
+            monthlyExpensesElement.textContent = `$${monthlyExpenses.toLocaleString()}`;
+        }
         
         // Update progress bar to show current month
         const progressBar = document.getElementById('month-progress');
-        if (this.gameState.gameStarted && !this.gameState.gameOver) {
+        if (progressBar && this.gameState.gameStarted && !this.gameState.gameOver) {
             progressBar.textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} - Take Actions`;
             progressBar.style.width = '100%';
         }
