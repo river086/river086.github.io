@@ -1545,7 +1545,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="version-badge" id="game-version">v2.6.0</div>
+                    <div class="version-badge" id="game-version">v2.6.1</div>
                 </div>
             </div>
             <div class="game-status">
@@ -3541,12 +3541,20 @@
                 // Three-column layout for ultra-wide screens
                 leftSidebar.style.display = 'flex';
                 rightSidebar.style.display = 'flex';
-                updateSidebarContent();
+                try {
+                    updateSidebarContent();
+                } catch (error) {
+                    console.log('Sidebar content update skipped - game not ready yet');
+                }
             } else if (screenWidth >= 1600) {
                 // Two-column layout for wide screens
                 leftSidebar.style.display = 'none';
                 rightSidebar.style.display = 'flex';
-                updateSidebarContent();
+                try {
+                    updateSidebarContent();
+                } catch (error) {
+                    console.log('Sidebar content update skipped - game not ready yet');
+                }
             } else {
                 // Standard layout for smaller screens
                 leftSidebar.style.display = 'none';
@@ -3556,7 +3564,7 @@
         
         function updateSidebarContent() {
             // Update sidebar content with current game state
-            if (typeof game !== 'undefined' && game.gameState) {
+            if (typeof game !== 'undefined' && game.gameState && game.gameState.portfolio && typeof game.gameState.getTotalPortfolioValue === 'function') {
                 const sidebarCash = document.getElementById('sidebar-cash');
                 const sidebarPortfolio = document.getElementById('sidebar-portfolio');
                 const sidebarHappiness = document.getElementById('sidebar-happiness');
@@ -3564,8 +3572,8 @@
                 const sidebarPortrait = document.getElementById('sidebar-portrait');
                 const sidebarProfession = document.getElementById('sidebar-profession');
                 
-                if (sidebarCash) sidebarCash.textContent = `$${game.formatNumber(game.gameState.cash)}`;
-                if (sidebarPortfolio) sidebarPortfolio.textContent = `$${game.formatNumber(game.gameState.getTotalPortfolioValue())}`;
+                if (sidebarCash) sidebarCash.textContent = `$${game.gameState.portfolio.cash.toLocaleString()}`;
+                if (sidebarPortfolio) sidebarPortfolio.textContent = `$${Math.round(game.gameState.getTotalPortfolioValue()).toLocaleString()}`;
                 if (sidebarHappiness) sidebarHappiness.textContent = `${game.gameState.happiness}/100`;
                 
                 if (window.playerSetupData) {
@@ -3581,7 +3589,13 @@
         window.addEventListener('resize', updateWidescreenLayout);
         
         // Update sidebar content periodically
-        setInterval(updateSidebarContent, 5000);
+        setInterval(() => {
+            try {
+                updateSidebarContent();
+            } catch (error) {
+                // Silently fail if game not ready yet
+            }
+        }, 5000);
     </script>
     
     <script src="game.js"></script>
