@@ -106,15 +106,8 @@
             border-color: #6f42c1;
         }
         
-        /* Happiness Card - Emotion Theme */
-        .status-card:nth-child(5) {
-            --card-accent: #e91e63;
-            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
-            border-color: #e91e63;
-        }
-        
         /* Monthly Expenses Card - Cost Theme */
-        .status-card:nth-child(6) {
+        .status-card:nth-child(5) {
             --card-accent: #dc3545;
             background: linear-gradient(135deg, #f8e6e7 0%, #f1aeb5 100%);
             border-color: #dc3545;
@@ -1484,7 +1477,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="version-badge" id="game-version">v2.7.3</div>
+                    <div class="version-badge" id="game-version">v2.8.0</div>
                 </div>
             </div>
             <div class="game-status">
@@ -1499,10 +1492,6 @@
                 <div class="status-card">
                     <div class="status-value" id="profession">Loading...</div>
                     <div class="status-label">💼 Profession</div>
-                </div>
-                <div class="status-card">
-                    <div class="status-value" id="happiness">50 / 1000</div>
-                    <div class="status-label">😊 Happiness</div>
                 </div>
                 <div class="status-card" onclick="showExpenseBreakdown()" style="cursor: pointer;" title="Click for detailed breakdown">
                     <div class="status-value" id="monthly-expenses">$0</div>
@@ -3392,6 +3381,6 @@
     </div> <!-- End game-container -->
     
     
-    <script src="game.js?v=2.7.3"></script>
+    <script src="game.js?v=2.8.0"></script>
 </body>
 </html>

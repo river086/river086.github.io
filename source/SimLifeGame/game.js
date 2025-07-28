@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.7.3'; // Update this when making changes to the game
+    static VERSION = '2.8.0'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -1498,7 +1498,8 @@ class SimLifeGame {
             { key: 'wisdom', label: 'Wisdom', icon: '🧠', color: '#6c5ce7' },
             { key: 'charm', label: 'Charm', icon: '✨', color: '#fd79a8' },
             { key: 'luck', label: 'Luck', icon: '🍀', color: '#00b894' },
-            { key: 'psp', label: 'Professional Skills', icon: '💼', color: '#fdcb6e' }
+            { key: 'psp', label: 'Professional Skills', icon: '💼', color: '#fdcb6e' },
+            { key: 'happiness', label: 'Happiness', icon: '😊', color: '#e91e63' }
         ];
         
         // Add relationship and children info
@@ -1562,7 +1563,8 @@ class SimLifeGame {
         statusContainer.appendChild(relationshipCard);
         
         statusData.forEach(stat => {
-            const value = this.gameState.playerStatus[stat.key];
+            // Handle happiness specially since it has its own calculation
+            const value = stat.key === 'happiness' ? this.calculateTotalHappiness() : this.gameState.playerStatus[stat.key];
             const statusCard = document.createElement('div');
             statusCard.style.background = 'white';
             statusCard.style.border = '2px solid #e9ecef';
@@ -1576,6 +1578,11 @@ class SimLifeGame {
             let progressPercent, maxValue, displayValue;
             if (stat.key === 'psp') {
                 maxValue = this.gameState.maxPlayerStatus[stat.key] || 10000;
+                progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
+                displayValue = `${value}/${maxValue}`;
+            } else if (stat.key === 'happiness') {
+                // Happiness has a max of 1000
+                maxValue = 1000;
                 progressPercent = Math.max(0, Math.min(100, (value / maxValue) * 100));
                 displayValue = `${value}/${maxValue}`;
             } else {
@@ -1633,10 +1640,25 @@ class SimLifeGame {
                 high: 'Expert-level professional skills.',
                 medium: 'Solid professional competence.',
                 low: 'Building professional expertise.'
+            },
+            happiness: {
+                high: 'Living your best life with joy and fulfillment!',
+                medium: 'Generally content with life\'s journey.',
+                low: 'Seeking more joy and satisfaction in life.'
             }
         };
         
         const stat = descriptions[statKey];
+        if (!stat) return 'Status information not available.';
+        
+        // Happiness has different thresholds (0-1000 scale)
+        if (statKey === 'happiness') {
+            if (value >= 700) return stat.high;
+            if (value >= 400) return stat.medium;
+            return stat.low;
+        }
+        
+        // Other stats use percentage-based thresholds
         if (value >= 75) return stat.high;
         if (value >= 40) return stat.medium;
         return stat.low;
@@ -3600,15 +3622,7 @@ class SimLifeGame {
             }
         }
         
-        // Update happiness display
-        const happinessElement = document.getElementById('happiness');
-        if (happinessElement) {
-            const totalHappiness = this.calculateTotalHappiness();
-            const petBonus = totalHappiness - this.gameState.happiness;
-            happinessElement.textContent = petBonus > 0 
-                ? `${totalHappiness} / 1000 (+${petBonus} from pets)`
-                : `${totalHappiness} / 1000`;
-        }
+        // Happiness is now displayed in player status modal, no need to update here
         
         // Calculate and display monthly expenses
         const monthlyExpensesElement = document.getElementById('monthly-expenses');
