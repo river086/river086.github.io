@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.8.0'; // Update this when making changes to the game
+    static VERSION = '2.8.1'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -3631,10 +3631,16 @@ class SimLifeGame {
             monthlyExpensesElement.textContent = `$${monthlyExpenses.toLocaleString()}`;
         }
         
-        // Update progress bar to show current month
+        // Update date display in header
+        const dateDisplay = document.getElementById('current-date-display');
+        if (dateDisplay && this.gameState.gameStarted && !this.gameState.gameOver) {
+            dateDisplay.textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear}`;
+        }
+        
+        // Update progress bar (keep the progress bar but change its text)
         const progressBar = document.getElementById('month-progress');
         if (progressBar && this.gameState.gameStarted && !this.gameState.gameOver) {
-            progressBar.textContent = `${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} - Take Actions`;
+            progressBar.textContent = 'Ready for Actions';
             progressBar.style.width = '100%';
         }
         

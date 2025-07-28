@@ -1464,6 +1464,9 @@
         <div class="header">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                 <h1>Life Simulator</h1>
+                <div id="current-date-display" style="font-size: 1.2em; font-weight: bold; color: #2c3e50; background: #e8f4f8; padding: 8px 16px; border-radius: 20px; border: 2px solid #17a2b8;">
+                    Jan 2000
+                </div>
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <div id="player-info" style="display: none; text-align: right;">
                         <div style="display: flex; align-items: center; gap: 8px;">
@@ -1477,7 +1480,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="version-badge" id="game-version">v2.8.0</div>
+                    <div class="version-badge" id="game-version">v2.8.1</div>
                 </div>
             </div>
             <div class="game-status">
@@ -3338,11 +3341,13 @@
                 const portraitElement = document.getElementById('player-portrait-display');
                 const ageElement = document.getElementById('player-age-display');
                 const infoElement = document.getElementById('player-info');
+                const dateElement = document.getElementById('current-date-display');
                 
                 if (nameElement) nameElement.textContent = window.playerSetupData.name;
                 if (portraitElement) portraitElement.textContent = window.playerSetupData.portrait;
                 if (ageElement) ageElement.textContent = game.gameState.ageYears;
                 if (infoElement) infoElement.style.display = 'block';
+                if (dateElement) dateElement.textContent = `${game.getMonthName(game.gameState.currentMonth)} ${game.gameState.currentYear}`;
             }
         }
         
@@ -3381,6 +3386,6 @@
     </div> <!-- End game-container -->
     
     
-    <script src="game.js?v=2.8.0"></script>
+    <script src="game.js?v=2.8.1"></script>
 </body>
 </html>
