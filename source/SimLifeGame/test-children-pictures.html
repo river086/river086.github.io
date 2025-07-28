@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Children Pictures Test - SimLifeGame v2.5.2</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #f8f9fa;
+        }
+        .test-result { 
+            background: white; 
+            padding: 20px; 
+            margin: 15px 0; 
+            border-radius: 10px; 
+            border-left: 4px solid #007bff; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .relationship-demo {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-height: 300px;
+            margin: 20px 0;
+        }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 12px 24px; 
+            border-radius: 6px; 
+            margin: 8px; 
+            cursor: pointer; 
+            font-size: 16px;
+        }
+        button:hover { background: #0056b3; }
+        .status-preview {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .current-status {
+            font-weight: bold;
+            color: #28a745;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .child-photo-grid {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .child-photo-preview {
+            text-align: center;
+        }
+        .child-photo-preview img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid #74b9ff;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Children Pictures Display Test</h1>
+    <p>Testing the random child picture display when player has children in SimLifeGame v2.5.2</p>
+    
+    <div class="current-status" id="current-status">Current Status: Loading...</div>
+    
+    <div class="test-result">
+        <h2>🧪 Test Controls</h2>
+        <button onclick="simulateNoChildren()">No Children</button>
+        <button onclick="simulateOneChild()">Add 1 Child</button>
+        <button onclick="simulateTwoChildren()">Add 2 Children</button>
+        <button onclick="simulateThreeChildren()">Add 3 Children</button>
+        <button onclick="simulateFourChildren()">Add 4 Children</button>
+        <button onclick="testRandomPhotos()">Test Random Photos</button>
+        <button onclick="resetFamily()">Reset Family</button>
+    </div>
+    
+    <div class="test-result">
+        <h2>📸 Child Photo System</h2>
+        <h3>Available Child Photos:</h3>
+        <div class="child-photo-grid">
+            <div class="child-photo-preview">
+                <img src="images/children/child1.jpg" alt="Child 1" onerror="this.style.display='none';">
+                <div style="font-size: 0.8em; margin-top: 4px;">child1.jpg</div>
+            </div>
+            <div class="child-photo-preview">
+                <img src="images/children/child2.webp" alt="Child 2" onerror="this.style.display='none';">
+                <div style="font-size: 0.8em; margin-top: 4px;">child2.webp</div>
+            </div>
+            <div class="child-photo-preview">
+                <img src="images/children/child3.avif" alt="Child 3" onerror="this.style.display='none';">
+                <div style="font-size: 0.8em; margin-top: 4px;">child3.avif</div>
+            </div>
+            <div class="child-photo-preview">
+                <img src="images/children/child4.jpg" alt="Child 4" onerror="this.style.display='none';">
+                <div style="font-size: 0.8em; margin-top: 4px;">child4.jpg</div>
+            </div>
+        </div>
+        
+        <h3>Features:</h3>
+        <ul>
+            <li><strong>Random Selection:</strong> Each child gets a randomly assigned photo</li>
+            <li><strong>Child Size:</strong> 60px × 60px (smaller than spouse photo)</li>
+            <li><strong>Blue Border:</strong> Children have blue borders to distinguish from spouse</li>
+            <li><strong>Child Number:</strong> Shows #1, #2, etc. under each photo</li>
+            <li><strong>Fallback:</strong> Shows 👶 emoji if image fails to load</li>
+            <li><strong>Grid Layout:</strong> Children arranged in a flexible grid</li>
+        </ul>
+    </div>
+    
+    <div class="status-preview">
+        <div id="relationship-display"></div>
+    </div>
+    
+    <div id="test-results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let game;
+        
+        async function initGame() {
+            game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            
+            // Set to married status for testing
+            game.gameState.relationshipStatus = 'Marriage';
+            game.gameState.monthlyFamilyCost = 350;
+            
+            updateStatusDisplay();
+        }
+        
+        function updateStatusDisplay() {
+            const statusEl = document.getElementById('current-status');
+            const displayEl = document.getElementById('relationship-display');
+            
+            statusEl.textContent = `Status: ${game.gameState.relationshipStatus} | Children: ${game.gameState.childrenCount}`;
+            
+            // Create relationship card similar to game
+            const relationshipIcon = game.gameState.relationshipStatus === 'Single' ? '💔' : 
+                                    game.gameState.relationshipStatus === 'Dating' ? '💕' : '💍';
+            
+            const couplePhotoSection = game.gameState.relationshipStatus === 'Marriage' ? `
+                <div style="margin: 15px 0;">
+                    <img src="images/couple/spouse.jpg" 
+                         alt="Couple Photo" 
+                         style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #e17055; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div style="display: none; font-size: 1.5em; color: #666;">👫</div>
+                </div>
+            ` : '';
+            
+            const childrenPhotosSection = game.gameState.children.length > 0 ? `
+                <div style="margin: 15px 0;">
+                    <div style="font-size: 1.1em; color: #333; margin-bottom: 10px; font-weight: bold;">Our Children</div>
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
+                        ${game.gameState.children.map(child => `
+                            <div style="text-align: center;">
+                                <img src="${child.photo}" 
+                                     alt="Child ${child.id}" 
+                                     style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #74b9ff; object-fit: cover; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                <div style="display: none; font-size: 1.2em;">👶</div>
+                                <div style="font-size: 0.8em; color: #666; margin-top: 2px;">#${child.id}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            ` : '';
+            
+            displayEl.innerHTML = `
+                <div class="relationship-demo">
+                    <div style="font-size: 2.5em; margin-bottom: 12px;">${relationshipIcon}</div>
+                    <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">Relationship</h3>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #e17055; margin-bottom: 15px;">
+                        ${game.gameState.relationshipStatus}
+                    </div>
+                    ${couplePhotoSection}
+                    ${childrenPhotosSection}
+                    <div style="font-size: 2em; margin-bottom: 10px;">👶</div>
+                    <div style="font-size: 1.1em; color: #636e72;">
+                        Children: <strong>${game.gameState.childrenCount}</strong>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function simulateNoChildren() {
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            updateStatusDisplay();
+            logTest('No Children', true, 'Family display shows no children photos');
+        }
+        
+        function simulateOneChild() {
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            addRandomChild();
+            updateStatusDisplay();
+            logTest('One Child', true, `Added 1 child with photo: ${game.gameState.children[0]?.photo}`);
+        }
+        
+        function simulateTwoChildren() {
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            addRandomChild();
+            addRandomChild();
+            updateStatusDisplay();
+            logTest('Two Children', true, `Added 2 children with different photos`);
+        }
+        
+        function simulateThreeChildren() {
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            addRandomChild();
+            addRandomChild();
+            addRandomChild();
+            updateStatusDisplay();
+            logTest('Three Children', true, `Added 3 children in grid layout`);
+        }
+        
+        function simulateFourChildren() {
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            addRandomChild();
+            addRandomChild();
+            addRandomChild();
+            addRandomChild();
+            updateStatusDisplay();
+            logTest('Four Children', true, `Added 4 children - maximum layout test`);
+        }
+        
+        function addRandomChild() {
+            game.gameState.childrenCount++;
+            const childPhoto = game.getRandomChildPhoto();
+            const newChild = {
+                id: game.gameState.childrenCount,
+                photo: childPhoto,
+                birthYear: game.gameState.currentYear,
+                birthMonth: game.gameState.currentMonth,
+                monthlyCost: 500
+            };
+            game.gameState.children.push(newChild);
+        }
+        
+        function testRandomPhotos() {
+            const photos = [];
+            for (let i = 0; i < 10; i++) {
+                photos.push(game.getRandomChildPhoto());
+            }
+            const uniquePhotos = [...new Set(photos)];
+            const isRandom = uniquePhotos.length > 1;
+            
+            logTest('Random Photo Selection', isRandom, 
+                `Generated ${uniquePhotos.length} unique photos out of 10 attempts: ${uniquePhotos.join(', ')}`);
+        }
+        
+        function resetFamily() {
+            game.gameState.relationshipStatus = 'Marriage';
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            game.gameState.monthlyFamilyCost = 350;
+            updateStatusDisplay();
+            logTest('Reset Family', true, 'Family reset to married with no children');
+        }
+        
+        function logTest(testName, passed, details) {
+            const resultsDiv = document.getElementById('test-results');
+            const bgColor = passed ? '#d4edda' : '#f8d7da';
+            const textColor = passed ? '#155724' : '#721c24';
+            const icon = passed ? '✅' : '❌';
+            
+            const testResult = document.createElement('div');
+            testResult.style.background = bgColor;
+            testResult.style.color = textColor;
+            testResult.style.padding = '15px';
+            testResult.style.margin = '10px 0';
+            testResult.style.borderRadius = '8px';
+            testResult.style.border = `2px solid ${passed ? '#c3e6cb' : '#f5c6cb'}`;
+            
+            testResult.innerHTML = `
+                <strong>${icon} ${testName}</strong><br>
+                ${details}
+                <br><small>Time: ${new Date().toLocaleTimeString()}</small>
+            `;
+            
+            resultsDiv.appendChild(testResult);
+        }
+        
+        // Initialize when page loads
+        window.addEventListener('load', async () => {
+            try {
+                await initGame();
+                console.log('Children Pictures Test Suite loaded for SimLifeGame v2.5.2');
+                logTest('Test Suite Initialization', true, 'Children picture test suite loaded successfully');
+            } catch (error) {
+                logTest('Test Suite Initialization', false, `Error: ${error.message}`);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.5.2'; // Update this when making changes to the game
+    static VERSION = '2.5.3'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -34,6 +34,7 @@ class SimLifeGame {
             },
             relationshipStatus: 'Single', // Single/Dating/Marriage
             childrenCount: 0,
+            children: [], // Array of child objects with photos
             monthlyDatingCost: 0, // Monthly dating expenses
             monthlyFamilyCost: 0, // Monthly family/children expenses
             lotteryTickets: [], // Player's lottery tickets
@@ -650,6 +651,18 @@ class SimLifeGame {
                 const childCost = this.randomBetweenInt(300, 1000);
                 this.gameState.monthlyFamilyCost += childCost; // Add to existing family costs
                 this.gameState.childrenCount++;
+                
+                // Add child with random photo to children array
+                const childPhoto = this.getRandomChildPhoto();
+                const newChild = {
+                    id: this.gameState.childrenCount,
+                    photo: childPhoto,
+                    birthYear: this.gameState.currentYear,
+                    birthMonth: this.gameState.currentMonth,
+                    monthlyCost: childCost
+                };
+                this.gameState.children.push(newChild);
+                
                 this.gameState.happiness = Math.min(1000, this.gameState.happiness + 50);
                 this.recordCashFlow('expense', 0, `Had Child #${this.gameState.childrenCount}`, 'family'); // Cost is monthly, not one-time
                 this.log(`👶 You had a baby! Child #${this.gameState.childrenCount}. Additional monthly family costs: $${childCost}. Happiness +50!`, 'success');
@@ -665,6 +678,19 @@ class SimLifeGame {
                 return; // Only one relationship event per month
             }
         }
+    }
+    
+    // Get random child photo from available photos
+    getRandomChildPhoto() {
+        const childPhotos = [
+            'images/children/child1.jpg',
+            'images/children/child2.webp', 
+            'images/children/child3.avif',
+            'images/children/child4.jpg'
+        ];
+        
+        const randomIndex = Math.floor(Math.random() * childPhotos.length);
+        return childPhotos[randomIndex];
     }
     
     // Add monthly variation to relationship costs
@@ -1269,6 +1295,25 @@ class SimLifeGame {
             </div>
         ` : '';
         
+        // Create children photos section
+        const childrenPhotosSection = this.gameState.children.length > 0 ? `
+            <div style="margin: 15px 0;">
+                <div style="font-size: 1.1em; color: #333; margin-bottom: 10px; font-weight: bold;">Our Children</div>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
+                    ${this.gameState.children.map(child => `
+                        <div style="text-align: center;">
+                            <img src="${child.photo}" 
+                                 alt="Child ${child.id}" 
+                                 style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #74b9ff; object-fit: cover; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div style="display: none; font-size: 1.2em;">👶</div>
+                            <div style="font-size: 0.8em; color: #666; margin-top: 2px;">#${child.id}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        ` : '';
+        
         relationshipCard.innerHTML = `
             <div style="font-size: 2.5em; margin-bottom: 12px;">${relationshipIcon}</div>
             <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">Relationship</h3>
@@ -1276,6 +1321,7 @@ class SimLifeGame {
                 ${this.gameState.relationshipStatus}
             </div>
             ${couplePhotoSection}
+            ${childrenPhotosSection}
             <div style="font-size: 2em; margin-bottom: 10px;">👶</div>
             <div style="font-size: 1.1em; color: #636e72;">
                 Children: <strong>${this.gameState.childrenCount}</strong>
