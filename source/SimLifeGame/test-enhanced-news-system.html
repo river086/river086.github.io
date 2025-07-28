@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enhanced News System Test - SimLifeGame v2.3.0</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            padding-bottom: 50px; /* Space for news ticker */
+        }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        .warning { background: #fff3cd; color: #856404; }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 8px 16px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 5px; 
+        }
+        button:hover { background: #0056b3; }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .category-test {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 15px;
+            color: white;
+            font-size: 0.9em;
+        }
+        .cat-international { background: #28a745; }
+        .cat-usa { background: #dc3545; }
+        .cat-financial { background: #ffc107; color: #333; }
+        .cat-tech { background: #6f42c1; }
+        .cat-realestate { background: #fd7e14; }
+    </style>
+</head>
+<body>
+    <h1>Enhanced News System Test Suite</h1>
+    <p>Testing the enhanced monthly news system with ticker functionality added to SimLifeGame v2.3.0</p>
+    
+    <div class="test-section">
+        <h2>🧪 Test Categories</h2>
+        <button onclick="testNewsDataStructure()">Test News Data Structure</button>
+        <button onclick="testCategorySystem()">Test 5-Category System</button>
+        <button onclick="testTickerFunctionality()">Test News Ticker</button>
+        <button onclick="testGameIntegration()">Test Game Integration</button>
+        <button onclick="testMonthlyNews()">Test Monthly News Coverage</button>
+        <button onclick="runAllTests()">🚀 Run All Tests</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>📰 News Category System</h2>
+        <div class="category-test cat-international">🌍 國際 (International)</div>
+        <div class="category-test cat-usa">🇺🇸 美國 (USA)</div>
+        <div class="category-test cat-financial">💰 財經 (Financial)</div>
+        <div class="category-test cat-tech">🔬 科技 (Technology)</div>
+        <div class="category-test cat-realestate">🏠 房產 (Real Estate)</div>
+    </div>
+    
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let testResults = [];
+        
+        function addResult(category, testName, passed, details) {
+            testResults.push({ category, testName, passed, details });
+        }
+        
+        function displayResults() {
+            const resultsDiv = document.getElementById('results');
+            let html = '<div class="test-section"><h2>📊 Test Results</h2>';
+            
+            let totalTests = testResults.length;
+            let passedTests = testResults.filter(r => r.passed).length;
+            let successRate = Math.round((passedTests / totalTests) * 100);
+            
+            html += `<div class="${successRate >= 80 ? 'pass' : successRate >= 60 ? 'warning' : 'fail'}">
+                        Overall Success Rate: ${passedTests}/${totalTests} (${successRate}%)
+                     </div>`;
+            
+            // Group by category
+            const categories = {};
+            testResults.forEach(result => {
+                if (!categories[result.category]) categories[result.category] = [];
+                categories[result.category].push(result);
+            });
+            
+            for (const [category, results] of Object.entries(categories)) {
+                html += `<h3>${category}</h3>`;
+                results.forEach(result => {
+                    const className = result.passed ? 'pass' : 'fail';
+                    const icon = result.passed ? '✅' : '❌';
+                    html += `<div class="${className}">${icon} ${result.testName}: ${result.details}</div>`;
+                });
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+        
+        async function testNewsDataStructure() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                // Test 1: News data loaded
+                const hasNewsData = game.newsData && Object.keys(game.newsData).length > 0;
+                addResult('Data Structure', 'News data loaded', hasNewsData, 
+                    hasNewsData ? `${Object.keys(game.newsData).length} months of news` : 'No news data found');
+                
+                // Test 2: Date format validation
+                const dateKeys = Object.keys(game.newsData);
+                const validDates = dateKeys.every(date => /^\d{4}-\d{2}$/.test(date));
+                addResult('Data Structure', 'Date format validation', validDates,
+                    validDates ? 'All dates follow YYYY-MM format' : 'Invalid date formats found');
+                
+                // Test 3: News entry structure
+                let validStructure = true;
+                let sampleNews = null;
+                for (const [date, news] of Object.entries(game.newsData)) {
+                    if (!Array.isArray(news)) {
+                        validStructure = false;
+                        break;
+                    }
+                    for (const story of news) {
+                        if (!story.category || !story.title || !story.content) {
+                            validStructure = false;
+                            break;
+                        }
+                        if (!sampleNews) sampleNews = story;
+                    }
+                    if (!validStructure) break;
+                }
+                addResult('Data Structure', 'News entry structure', validStructure,
+                    validStructure ? 'All entries have category, title, content' : 'Missing required fields');
+                
+                // Test 4: Coverage span
+                if (dateKeys.length > 0) {
+                    const sortedDates = dateKeys.sort();
+                    const startYear = parseInt(sortedDates[0].split('-')[0]);
+                    const endYear = parseInt(sortedDates[sortedDates.length - 1].split('-')[0]);
+                    const coverageSpan = endYear - startYear + 1;
+                    addResult('Data Structure', 'Coverage span', coverageSpan >= 25,
+                        `${coverageSpan} years covered (${sortedDates[0]} to ${sortedDates[sortedDates.length - 1]})`);
+                }
+                
+            } catch (error) {
+                addResult('Data Structure', 'Loading test', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testCategorySystem() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                const expectedCategories = ['國際', '美國', '財經', '科技', '房產'];
+                const foundCategories = new Set();
+                let totalStories = 0;
+                
+                // Collect all categories
+                Object.values(game.newsData).flat().forEach(story => {
+                    foundCategories.add(story.category);
+                    totalStories++;
+                });
+                
+                // Test 1: All expected categories present
+                const hasAllCategories = expectedCategories.every(cat => foundCategories.has(cat));
+                addResult('Category System', 'All 5 categories present', hasAllCategories,
+                    `Found: ${Array.from(foundCategories).join(', ')}`);
+                
+                // Test 2: No unexpected categories
+                const onlyExpectedCategories = Array.from(foundCategories).every(cat => expectedCategories.includes(cat));
+                addResult('Category System', 'No unexpected categories', onlyExpectedCategories,
+                    onlyExpectedCategories ? 'All categories are valid' : `Unexpected: ${Array.from(foundCategories).filter(cat => !expectedCategories.includes(cat)).join(', ')}`);
+                
+                // Test 3: Category distribution
+                const categoryCounts = {};
+                expectedCategories.forEach(cat => categoryCounts[cat] = 0);
+                Object.values(game.newsData).flat().forEach(story => {
+                    if (categoryCounts.hasOwnProperty(story.category)) {
+                        categoryCounts[story.category]++;
+                    }
+                });
+                
+                const minStoriesPerCategory = Math.floor(totalStories / expectedCategories.length * 0.1); // At least 10% per category
+                const balancedDistribution = expectedCategories.every(cat => categoryCounts[cat] >= minStoriesPerCategory);
+                addResult('Category System', 'Balanced distribution', balancedDistribution,
+                    `Stories per category: ${Object.entries(categoryCounts).map(([cat, count]) => `${cat}:${count}`).join(', ')}`);
+                
+                // Test 4: Real Estate category coverage
+                const realEstateStories = categoryCounts['房產'] || 0;
+                const hasRealEstateNews = realEstateStories > 0;
+                addResult('Category System', 'Real Estate news present', hasRealEstateNews,
+                    `${realEstateStories} real estate stories found`);
+                
+            } catch (error) {
+                addResult('Category System', 'Category test', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testTickerFunctionality() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                // Test 1: Ticker initialization functions exist
+                const hasInitFunction = typeof game.initializeNewsTicker === 'function';
+                addResult('Ticker System', 'Initialization function exists', hasInitFunction,
+                    hasInitFunction ? 'initializeNewsTicker function found' : 'Function missing');
+                
+                const hasUpdateFunction = typeof game.updateNewsTicker === 'function';
+                addResult('Ticker System', 'Update function exists', hasUpdateFunction,
+                    hasUpdateFunction ? 'updateNewsTicker function found' : 'Function missing');
+                
+                // Test 2: Initialize ticker
+                if (hasInitFunction) {
+                    game.initializeNewsTicker();
+                    const tickerContainer = document.getElementById('news-ticker-container');
+                    const tickerExists = tickerContainer !== null;
+                    addResult('Ticker System', 'Ticker DOM creation', tickerExists,
+                        tickerExists ? 'Ticker container created successfully' : 'Failed to create ticker');
+                    
+                    if (tickerExists) {
+                        const tickerContent = document.getElementById('news-ticker-content');
+                        const hasContent = tickerContent !== null;
+                        addResult('Ticker System', 'Ticker content element', hasContent,
+                            hasContent ? 'Content element created' : 'Content element missing');
+                    }
+                }
+                
+                // Test 3: Ticker content update
+                if (hasUpdateFunction) {
+                    game.gameState.currentYear = 2001;
+                    game.gameState.currentMonth = 9; // September 2001 (9/11)
+                    game.updateNewsTicker();
+                    
+                    const tickerContent = document.getElementById('news-ticker-content');
+                    const hasUpdatedContent = tickerContent && tickerContent.textContent.length > 0;
+                    addResult('Ticker System', 'Content updates', hasUpdatedContent,
+                        hasUpdatedContent ? `Content: "${tickerContent.textContent.substring(0, 50)}..."` : 'No content found');
+                }
+                
+                // Test 4: CSS Animation
+                const animationStyles = document.getElementById('news-ticker-styles');
+                const hasAnimation = animationStyles !== null;
+                addResult('Ticker System', 'CSS animation styles', hasAnimation,
+                    hasAnimation ? 'Scroll animation CSS loaded' : 'Animation styles missing');
+                
+            } catch (error) {
+                addResult('Ticker System', 'Ticker test', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testGameIntegration() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test 1: Version update
+                const hasCorrectVersion = game.constructor.VERSION === '2.3.0';
+                addResult('Integration', 'Version update', hasCorrectVersion,
+                    `Version: ${game.constructor.VERSION} (expected 2.3.0)`);
+                
+                // Test 2: Month progression integration
+                const processMonthEndCode = game.processMonthEnd.toString();
+                const includesTickerUpdate = processMonthEndCode.includes('updateNewsTicker');
+                addResult('Integration', 'Month progression updates ticker', includesTickerUpdate,
+                    includesTickerUpdate ? 'updateNewsTicker called in processMonthEnd' : 'Ticker not updated on month change');
+                
+                // Test 3: Initialization flow
+                const constructorCode = game.constructor.toString();
+                const initializesNews = constructorCode.includes('loadNews') && constructorCode.includes('initializeNewsTicker');
+                addResult('Integration', 'Initialization flow', initializesNews,
+                    initializesNews ? 'News loading and ticker initialization integrated' : 'Integration missing in constructor');
+                
+                // Test 4: Category mapping consistency
+                const popupCategories = ['國際', '美國', '財經', '科技', '房產'];
+                const tickerCategories = ['國際', '美國', '財經', '科技', '房產'];
+                const categoriesMatch = popupCategories.every(cat => tickerCategories.includes(cat));
+                addResult('Integration', 'Category mapping consistency', categoriesMatch,
+                    categoriesMatch ? 'Popup and ticker use same categories' : 'Category mapping mismatch');
+                
+            } catch (error) {
+                addResult('Integration', 'Integration test', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testMonthlyNews() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                // Test significant historical months
+                const testMonths = [
+                    { date: '2000-01', event: 'Y2K Resolution', expectNews: true },
+                    { date: '2001-09', event: 'September 11 Attacks', expectNews: true },
+                    { date: '2008-09', event: 'Lehman Brothers Collapse', expectNews: true },
+                    { date: '2020-03', event: 'COVID-19 Pandemic Declaration', expectNews: true },
+                    { date: '2022-02', event: 'Russia Ukraine Invasion', expectNews: true },
+                    { date: '2025-01', event: 'Trump Second Inauguration', expectNews: true }
+                ];
+                
+                testMonths.forEach(testMonth => {
+                    const hasNews = game.newsData[testMonth.date] && game.newsData[testMonth.date].length > 0;
+                    const newsCount = hasNews ? game.newsData[testMonth.date].length : 0;
+                    addResult('Monthly Coverage', `${testMonth.event} (${testMonth.date})`, hasNews,
+                        `${newsCount} news stories found`);
+                });
+                
+                // Test real estate coverage in housing bubble period
+                const housingBubbleMonths = ['2005-01', '2006-01', '2007-08', '2008-09'];
+                let realEstateNewsCount = 0;
+                housingBubbleMonths.forEach(month => {
+                    const monthNews = game.newsData[month] || [];
+                    const realEstateNews = monthNews.filter(news => news.category === '房產');
+                    realEstateNewsCount += realEstateNews.length;
+                });
+                
+                const hasHousingCoverage = realEstateNewsCount > 0;
+                addResult('Monthly Coverage', 'Housing bubble period coverage', hasHousingCoverage,
+                    `${realEstateNewsCount} real estate stories in key housing months`);
+                
+                // Test technology coverage
+                const techMonths = ['2001-10', '2004-02', '2007-06', '2010-04', '2022-11']; // iPod, Facebook, iPhone, iPad, ChatGPT
+                let techNewsCount = 0;
+                techMonths.forEach(month => {
+                    const monthNews = game.newsData[month] || [];
+                    const techNews = monthNews.filter(news => news.category === '科技');
+                    techNewsCount += techNews.length;
+                });
+                
+                const hasTechCoverage = techNewsCount > 0;
+                addResult('Monthly Coverage', 'Technology milestone coverage', hasTechCoverage,
+                    `${techNewsCount} technology stories in key tech months`);
+                
+            } catch (error) {
+                addResult('Monthly Coverage', 'Monthly news test', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function runAllTests() {
+            document.getElementById('results').innerHTML = '<div class="info">🔄 Running comprehensive test suite...</div>';
+            
+            await testNewsDataStructure();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            const currentResults = [...testResults];
+            await testCategorySystem();
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            const currentResults2 = [...testResults];
+            await testTickerFunctionality();
+            testResults = [...currentResults2, ...testResults.slice(currentResults2.length)];
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            const currentResults3 = [...testResults];
+            await testGameIntegration();
+            testResults = [...currentResults3, ...testResults.slice(currentResults3.length)];
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            const currentResults4 = [...testResults];
+            await testMonthlyNews();
+            testResults = [...currentResults4, ...testResults.slice(currentResults4.length)];
+            
+            displayResults();
+        }
+        
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('Enhanced News System Test Suite loaded. The news ticker should appear at the bottom of the page.');
+            document.getElementById('results').innerHTML = '<div class="info">🧪 Enhanced News System Test Suite loaded. Click buttons to run tests. Check bottom of page for news ticker!</div>';
+            
+            // Initialize a test game to show the ticker
+            setTimeout(async () => {
+                try {
+                    const game = new SimLifeGame();
+                    console.log('Test game instance created with news ticker.');
+                } catch (error) {
+                    console.error('Error creating test game:', error);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

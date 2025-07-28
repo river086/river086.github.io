@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>English Localization Test - SimLifeGame v2.4.1</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            padding-bottom: 50px; /* Space for news ticker */
+        }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 8px 16px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 5px; 
+        }
+        button:hover { background: #0056b3; }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .sample-display {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>English Localization Test</h1>
+    <p>Testing the conversion from Chinese to English text in SimLifeGame v2.4.1</p>
+    
+    <div class="test-section">
+        <h2>📰 Expected English Text Examples</h2>
+        
+        <div class="sample-display">
+            <h3>✅ News Popup Window (English)</h3>
+            <div style="text-align: center; font-weight: bold; color: #333;">
+                📰 May 2000 News
+            </div><br>
+            <div style="background: #f8f9fa; padding: 12px; border-left: 4px solid #007bff; border-radius: 4px;">
+                <div style="font-weight: bold; color: #007bff; font-size: 0.9em; margin-bottom: 5px;">
+                    🔬 Technology
+                </div>
+                <div style="font-weight: bold; margin-bottom: 5px; color: #333;">
+                    Boo.com Bankruptcy
+                </div>
+                <div style="color: #666; font-size: 0.9em; line-height: 1.4;">
+                    Fashion retailer Boo.com files for bankruptcy, becoming one of the first major dot-com casualties in the bubble burst.
+                </div>
+            </div><br>
+            <div style="text-align: center;">
+                <button style="background: #007bff; color: white; border: none; padding: 8px 20px; border-radius: 4px;">
+                    Close News
+                </button>
+            </div>
+        </div>
+        
+        <div class="sample-display">
+            <h3>❌ Old Chinese Text (Should be changed)</h3>
+            <div style="text-align: center; font-weight: bold; color: #666;">
+                <s>📰 May 2000 新聞</s> → <span style="color: #28a745;">📰 May 2000 News</span>
+            </div><br>
+            <div style="color: #666;">
+                <s>🔬 科技</s> → <span style="color: #28a745;">🔬 Technology</span><br>
+                <s>關閉新聞</s> → <span style="color: #28a745;">Close News</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🧪 Test Controls</h2>
+        <button onclick="testNewsPopupEnglish()">Test News Popup English</button>
+        <button onclick="testCategoryMapping()">Test Category Mapping</button>
+        <button onclick="testVersionUpdate()">Test Version Update</button>
+        <button onclick="showSampleNews()">Show Sample News</button>
+        <button onclick="clearResults()">🗑️ Clear Results</button>
+    </div>
+    
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let testResults = [];
+        
+        function addResult(category, testName, passed, details) {
+            testResults.push({ category, testName, passed, details });
+        }
+        
+        function displayResults() {
+            const resultsDiv = document.getElementById('results');
+            let html = '<div class="test-section"><h2>📊 Test Results</h2>';
+            
+            let totalTests = testResults.length;
+            let passedTests = testResults.filter(r => r.passed).length;
+            let successRate = Math.round((passedTests / totalTests) * 100);
+            
+            html += `<div class="${successRate >= 80 ? 'pass' : successRate >= 60 ? 'warning' : 'fail'}">
+                        Overall Success Rate: ${passedTests}/${totalTests} (${successRate}%)
+                     </div>`;
+            
+            // Group by category
+            const categories = {};
+            testResults.forEach(result => {
+                if (!categories[result.category]) categories[result.category] = [];
+                categories[result.category].push(result);
+            });
+            
+            for (const [category, results] of Object.entries(categories)) {
+                html += `<h3>${category}</h3>`;
+                results.forEach(result => {
+                    const className = result.passed ? 'pass' : 'fail';
+                    const icon = result.passed ? '✅' : '❌';
+                    html += `<div class="${className}">${icon} ${result.testName}: ${result.details}</div>`;
+                });
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+        
+        function clearResults() {
+            testResults = [];
+            document.getElementById('results').innerHTML = '';
+        }
+        
+        async function testNewsPopupEnglish() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                // Test 1: Check showMonthlyNews function code for English text
+                const showNewsCode = game.showMonthlyNews.toString();
+                const hasEnglishNews = showNewsCode.includes('News') && !showNewsCode.includes('新聞');
+                addResult('News Popup', 'Header uses "News" instead of Chinese', hasEnglishNews,
+                    hasEnglishNews ? 'Found "News" in popup header' : 'Still contains Chinese characters');
+                
+                // Test 2: Check for English category mapping
+                const hasEnglishCategories = showNewsCode.includes('International') && 
+                                           showNewsCode.includes('Technology') && 
+                                           showNewsCode.includes('Financial');
+                addResult('News Popup', 'Categories in English', hasEnglishCategories,
+                    hasEnglishCategories ? 'Found English category names' : 'Categories still in Chinese');
+                
+                // Test 3: Check close button text
+                const hasEnglishCloseButton = showNewsCode.includes('Close News') && !showNewsCode.includes('關閉新聞');
+                addResult('News Popup', 'Close button in English', hasEnglishCloseButton,
+                    hasEnglishCloseButton ? 'Close button says "Close News"' : 'Close button still in Chinese');
+                
+                // Test 4: Test actual popup generation
+                game.gameState.currentYear = 2000;
+                game.gameState.currentMonth = 5; // May 2000
+                
+                // Try to generate popup content (won't actually show, just test the HTML generation)
+                const originalShowPopup = game.showNewsPopup;
+                let capturedHTML = '';
+                game.showNewsPopup = function(html) { capturedHTML = html; };
+                
+                game.showMonthlyNews();
+                
+                const popupHasEnglish = capturedHTML.includes('May 2000 News') && 
+                                       capturedHTML.includes('Technology') && 
+                                       capturedHTML.includes('Close News');
+                addResult('News Popup', 'Generated HTML contains English', popupHasEnglish,
+                    popupHasEnglish ? 'Popup HTML generated with English text' : 'Popup HTML still contains Chinese');
+                
+                // Restore original function
+                game.showNewsPopup = originalShowPopup;
+                
+            } catch (error) {
+                addResult('News Popup', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testCategoryMapping() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test ticker category mapping
+                const updateTickerCode = game.updateNewsTicker.toString();
+                const hasIconMapping = updateTickerCode.includes('categoryIcons') && 
+                                     !updateTickerCode.includes('categoryChinese');
+                addResult('Category Mapping', 'Ticker uses icon-only mapping', hasIconMapping,
+                    hasIconMapping ? 'Ticker correctly uses categoryIcons' : 'Ticker still references Chinese mapping');
+                
+                // Test popup category mapping
+                const showNewsCode = game.showMonthlyNews.toString();
+                const hasEnglishMapping = showNewsCode.includes('categoryEnglish') && 
+                                        showNewsCode.includes('International') &&
+                                        showNewsCode.includes('Real Estate');
+                addResult('Category Mapping', 'Popup uses English mapping', hasEnglishMapping,
+                    hasEnglishMapping ? 'Popup correctly uses categoryEnglish' : 'Popup mapping incomplete');
+                
+                // Test all expected categories are mapped
+                const expectedCategories = ['International', 'USA', 'Financial', 'Technology', 'Real Estate'];
+                const allCategoriesPresent = expectedCategories.every(cat => showNewsCode.includes(cat));
+                addResult('Category Mapping', 'All categories have English names', allCategoriesPresent,
+                    allCategoriesPresent ? 'All 5 categories translated' : 'Some categories missing English translation');
+                
+            } catch (error) {
+                addResult('Category Mapping', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function testVersionUpdate() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test version number
+                const hasCorrectVersion = game.constructor.VERSION === '2.4.1';
+                addResult('Version', 'Updated to v2.4.1', hasCorrectVersion,
+                    `Current version: ${game.constructor.VERSION} (expected 2.4.1)`);
+                
+                // Test ticker version message
+                game.gameState.currentYear = 2000;
+                game.gameState.currentMonth = 1;
+                game.updateNewsTicker(); // This should set ticker with version message since no news in Jan 2000
+                
+                const tickerContent = document.getElementById('news-ticker-content');
+                const tickerHasCorrectVersion = tickerContent && tickerContent.textContent.includes('v2.4.1');
+                addResult('Version', 'Ticker shows correct version', tickerHasCorrectVersion,
+                    tickerHasCorrectVersion ? 'Ticker displays v2.4.1' : 'Ticker version not updated');
+                
+            } catch (error) {
+                addResult('Version', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function showSampleNews() {
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                // Set to May 2000 and show news
+                game.gameState.currentYear = 2000;
+                game.gameState.currentMonth = 5;
+                
+                game.showMonthlyNews();
+                
+                document.getElementById('results').innerHTML = '<div class="info">📰 Sample news popup should have appeared! Check if the text is in English.</div>';
+                
+            } catch (error) {
+                document.getElementById('results').innerHTML = `<div class="fail">❌ Error showing sample news: ${error.message}</div>`;
+            }
+        }
+        
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('English Localization Test Suite loaded for SimLifeGame v2.4.1');
+            document.getElementById('results').innerHTML = '<div class="info">🧪 English Localization Test Suite loaded. Click buttons to test the Chinese to English conversion!</div>';
+            
+            // Initialize a test game
+            setTimeout(async () => {
+                try {
+                    const game = new SimLifeGame();
+                    console.log('Test game instance created with English localization.');
+                } catch (error) {
+                    console.error('Error creating test game:', error);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

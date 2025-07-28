@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black Box Testing Suite - SimLifeGame v2.0.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .test-pass {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .test-fail {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .test-warning {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        .test-info {
+            background-color: #cce5ff;
+            color: #004085;
+            border: 1px solid #b3d9ff;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .summary {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .summary.pass { background-color: #d4edda; color: #155724; }
+        .summary.fail { background-color: #f8d7da; color: #721c24; }
+        .summary.warning { background-color: #fff3cd; color: #856404; }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        .price-table th, .price-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .price-table th {
+            background-color: #f2f2f2;
+        }
+        .debug-info {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Black Box Testing Suite</h1>
+        <p><strong>SimLifeGame v2.0.0</strong> - Comprehensive End-to-End Testing</p>
+        <p>This suite tests the stock price system from a user's perspective without knowledge of internal implementation.</p>
+        
+        <div class="test-section">
+            <h2>Test Controls</h2>
+            <button onclick="runAllTests()">🚀 Run All Black Box Tests</button>
+            <button onclick="runTest('environment')">🌐 Test Environment</button>
+            <button onclick="runTest('dataLoading')">📊 Test Data Loading</button>
+            <button onclick="runTest('priceAccuracy')">💰 Test Price Accuracy</button>
+            <button onclick="runTest('gameIntegration')">🎮 Test Game Integration</button>
+            <button onclick="runTest('userExperience')">👤 Test User Experience</button>
+            <button onclick="clearResults()">🗑️ Clear Results</button>
+        </div>
+
+        <div id="test-summary" class="summary"></div>
+        <div id="test-results"></div>
+    </div>
+
+    <script src="game.js"></script>
+    <script>
+        class BlackBoxTestSuite {
+            constructor() {
+                this.testResults = [];
+                this.totalTests = 0;
+                this.passedTests = 0;
+            }
+
+            addResult(category, testName, passed, details, data = null) {
+                this.totalTests++;
+                if (passed) this.passedTests++;
+                
+                this.testResults.push({
+                    category,
+                    testName,
+                    passed,
+                    details,
+                    data
+                });
+            }
+
+            async testEnvironment() {
+                const results = [];
+                
+                // Test 1: Check if running from web server
+                const isWebServer = window.location.protocol === 'http:' || window.location.protocol === 'https:';
+                this.addResult('Environment', 'Running from web server', isWebServer, 
+                    isWebServer ? `✅ Protocol: ${window.location.protocol}` : 
+                    `❌ Running from ${window.location.protocol} - XML files may not load`);
+
+                // Test 2: Check if game can be initialized
+                try {
+                    const game = new SimLifeGame();
+                    this.addResult('Environment', 'Game initialization', true, '✅ Game instance created successfully');
+                } catch (error) {
+                    this.addResult('Environment', 'Game initialization', false, `❌ Failed to create game: ${error.message}`);
+                }
+
+                // Test 3: Test file access
+                try {
+                    const testResponse = await fetch('Stocks/aapl.xml');
+                    const accessible = testResponse.ok;
+                    this.addResult('Environment', 'Stock files accessible', accessible,
+                        accessible ? `✅ AAPL file accessible: HTTP ${testResponse.status}` :
+                        `❌ Cannot access stock files: HTTP ${testResponse.status}`);
+                } catch (error) {
+                    this.addResult('Environment', 'Stock files accessible', false, 
+                        `❌ File access error: ${error.message}`);
+                }
+
+                return results;
+            }
+
+            async testDataLoading() {
+                try {
+                    const game = new SimLifeGame();
+                    game.gameState = { currentYear: 2000, currentMonth: 1 };
+                    
+                    // Load stock data
+                    await game.loadStocks();
+
+                    // Test 1: Check if XML data was loaded
+                    const hasXMLData = game.stockPricesFromXML && Object.keys(game.stockPricesFromXML).length > 0;
+                    this.addResult('Data Loading', 'XML data loaded', hasXMLData,
+                        hasXMLData ? `✅ Loaded ${Object.keys(game.stockPricesFromXML).length} stocks from XML` :
+                        '❌ No XML data loaded - using fallback');
+
+                    // Test 2: Check WFC specifically
+                    const hasWFC = game.stockPricesFromXML && game.stockPricesFromXML.WFC;
+                    this.addResult('Data Loading', 'WFC data available', hasWFC,
+                        hasWFC ? `✅ WFC data loaded with ${Object.keys(game.stockPricesFromXML.WFC).length} price points` :
+                        '❌ WFC data not found in XML');
+
+                    // Test 3: Check data format
+                    if (hasWFC) {
+                        const wfcKeys = Object.keys(game.stockPricesFromXML.WFC);
+                        const validFormat = wfcKeys.every(key => /^\d{4}-\d{2}$/.test(key));
+                        this.addResult('Data Loading', 'Data format validation', validFormat,
+                            validFormat ? '✅ All keys follow YYYY-MM format' : 
+                            `❌ Invalid key formats: ${wfcKeys.slice(0, 3).join(', ')}`);
+                    }
+
+                    // Test 4: Check mock data fallback
+                    const hasMockData = game.stockPrices && Object.keys(game.stockPrices).length > 0;
+                    this.addResult('Data Loading', 'Mock data fallback', hasMockData,
+                        hasMockData ? `✅ Mock data available for ${Object.keys(game.stockPrices).length} stocks` :
+                        '❌ No mock data available');
+
+                } catch (error) {
+                    this.addResult('Data Loading', 'Loading process', false, `❌ Error during loading: ${error.message}`);
+                }
+            }
+
+            async testPriceAccuracy() {
+                try {
+                    const game = new SimLifeGame();
+                    game.gameState = { currentYear: 2000, currentMonth: 1 };
+                    await game.loadStocks();
+
+                    // Known expected values from WFC XML
+                    const expectedPrices = [
+                        { year: 2000, month: 1, expected: 20.0000, description: 'WFC Jan 2000' },
+                        { year: 2000, month: 2, expected: 16.5312, description: 'WFC Feb 2000' },
+                        { year: 2005, month: 1, expected: 30.6500, description: 'WFC Jan 2005' }
+                    ];
+
+                    let accurateCount = 0;
+                    
+                    for (const test of expectedPrices) {
+                        game.gameState.currentYear = test.year;
+                        game.gameState.currentMonth = test.month;
+                        
+                        const actualPrice = game.getStockPrice('WFC');
+                        const isAccurate = Math.abs(actualPrice - test.expected) < 0.001; // Allow small floating point errors
+                        
+                        if (isAccurate) accurateCount++;
+                        
+                        this.addResult('Price Accuracy', test.description, isAccurate,
+                            isAccurate ? `✅ Expected: ${test.expected}, Got: ${actualPrice}` :
+                            `❌ Expected: ${test.expected}, Got: ${actualPrice} (Δ${Math.abs(actualPrice - test.expected).toFixed(4)})`);
+                    }
+
+                    // Test overall accuracy
+                    const overallAccuracy = accurateCount / expectedPrices.length;
+                    this.addResult('Price Accuracy', 'Overall accuracy', overallAccuracy === 1,
+                        `${accurateCount}/${expectedPrices.length} prices accurate (${(overallAccuracy * 100).toFixed(1)}%)`);
+
+                } catch (error) {
+                    this.addResult('Price Accuracy', 'Testing process', false, `❌ Error testing prices: ${error.message}`);
+                }
+            }
+
+            async testGameIntegration() {
+                try {
+                    const game = new SimLifeGame();
+                    await game.loadStocks();
+
+                    // Test 1: Stock price retrieval
+                    game.gameState = { currentYear: 2020, currentMonth: 6 };
+                    const price = game.getStockPrice('WFC');
+                    const hasPrice = price !== undefined && price !== null && !isNaN(price);
+                    this.addResult('Game Integration', 'Price retrieval', hasPrice,
+                        hasPrice ? `✅ Retrieved price: $${price}` : '❌ Could not retrieve price');
+
+                    // Test 2: Price fallback hierarchy
+                    const testSymbol = 'UNKNOWNSTOCK';
+                    const fallbackPrice = game.getStockPrice(testSymbol);
+                    const handlesUnknown = fallbackPrice === undefined;
+                    this.addResult('Game Integration', 'Unknown stock handling', handlesUnknown,
+                        handlesUnknown ? '✅ Properly handles unknown stocks' : 
+                        `❌ Unexpected result for unknown stock: ${fallbackPrice}`);
+
+                    // Test 3: Date change handling
+                    game.gameState.currentYear = 2000;
+                    game.gameState.currentMonth = 1;
+                    const jan2000 = game.getStockPrice('WFC');
+                    
+                    game.gameState.currentMonth = 2;
+                    const feb2000 = game.getStockPrice('WFC');
+                    
+                    const pricesChange = jan2000 !== feb2000;
+                    this.addResult('Game Integration', 'Date-based price changes', pricesChange,
+                        pricesChange ? `✅ Jan: $${jan2000}, Feb: $${feb2000}` :
+                        `❌ Prices don't change with date: $${jan2000}`);
+
+                    // Test 4: Multiple stock support
+                    const symbols = ['WFC', 'AAPL', 'MSFT'];
+                    let pricesRetrieved = 0;
+                    const priceData = {};
+                    
+                    for (const symbol of symbols) {
+                        const price = game.getStockPrice(symbol);
+                        if (price !== undefined && !isNaN(price)) {
+                            pricesRetrieved++;
+                            priceData[symbol] = price;
+                        }
+                    }
+                    
+                    const multiStockSupport = pricesRetrieved === symbols.length;
+                    this.addResult('Game Integration', 'Multiple stock support', multiStockSupport,
+                        multiStockSupport ? `✅ All stocks accessible: ${JSON.stringify(priceData)}` :
+                        `❌ Only ${pricesRetrieved}/${symbols.length} stocks accessible`);
+
+                } catch (error) {
+                    this.addResult('Game Integration', 'Integration testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            async testUserExperience() {
+                try {
+                    // Test 1: Performance - loading time
+                    const startTime = performance.now();
+                    const game = new SimLifeGame();
+                    await game.loadStocks();
+                    const loadTime = performance.now() - startTime;
+                    
+                    const performanceGood = loadTime < 5000; // Should load in under 5 seconds
+                    this.addResult('User Experience', 'Loading performance', performanceGood,
+                        performanceGood ? `✅ Loaded in ${loadTime.toFixed(0)}ms` :
+                        `⚠️ Slow loading: ${loadTime.toFixed(0)}ms`);
+
+                    // Test 2: Error handling - graceful degradation
+                    try {
+                        // Try to access price for non-existent date
+                        game.gameState = { currentYear: 1999, currentMonth: 1 };
+                        const oldPrice = game.getStockPrice('WFC');
+                        const handlesOldDate = oldPrice !== undefined; // Should either give price or fallback gracefully
+                        
+                        this.addResult('User Experience', 'Historical date handling', true,
+                            `✅ Handles 1999 gracefully: ${oldPrice || 'No data, but no crash'}`);
+                    } catch (error) {
+                        this.addResult('User Experience', 'Historical date handling', false,
+                            `❌ Crashes on old date: ${error.message}`);
+                    }
+
+                    // Test 3: Data consistency
+                    game.gameState = { currentYear: 2000, currentMonth: 1 };
+                    const price1 = game.getStockPrice('WFC');
+                    const price2 = game.getStockPrice('WFC');
+                    const consistent = price1 === price2;
+                    
+                    this.addResult('User Experience', 'Data consistency', consistent,
+                        consistent ? '✅ Consistent price retrieval' : 
+                        `❌ Inconsistent: ${price1} vs ${price2}`);
+
+                    // Test 4: Memory efficiency
+                    const memBefore = performance.memory ? performance.memory.usedJSHeapSize : 0;
+                    
+                    // Create multiple games to test memory
+                    for (let i = 0; i < 5; i++) {
+                        const testGame = new SimLifeGame();
+                        await testGame.loadStocks();
+                    }
+                    
+                    const memAfter = performance.memory ? performance.memory.usedJSHeapSize : 0;
+                    const memIncrease = memAfter - memBefore;
+                    const memEfficient = memIncrease < 50000000; // Less than 50MB increase
+                    
+                    this.addResult('User Experience', 'Memory efficiency', memEfficient,
+                        performance.memory ? 
+                        (memEfficient ? `✅ Memory increase: ${(memIncrease/1024/1024).toFixed(1)}MB` :
+                        `⚠️ High memory use: ${(memIncrease/1024/1024).toFixed(1)}MB`) :
+                        '✅ Memory testing not available in this browser');
+
+                } catch (error) {
+                    this.addResult('User Experience', 'UX testing', false, `❌ Error: ${error.message}`);
+                }
+            }
+
+            displayResults() {
+                const resultsDiv = document.getElementById('test-results');
+                const summaryDiv = document.getElementById('test-summary');
+                
+                let html = '';
+                const categories = {};
+                
+                // Group results by category
+                this.testResults.forEach(result => {
+                    if (!categories[result.category]) {
+                        categories[result.category] = [];
+                    }
+                    categories[result.category].push(result);
+                });
+
+                // Display results by category
+                for (const [category, results] of Object.entries(categories)) {
+                    const categoryPassed = results.filter(r => r.passed).length;
+                    const categoryTotal = results.length;
+                    
+                    html += `<div class="test-section">`;
+                    html += `<h3>${category} (${categoryPassed}/${categoryTotal})</h3>`;
+                    
+                    results.forEach(result => {
+                        const className = result.passed ? 'test-pass' : 'test-fail';
+                        const status = result.passed ? '✅ PASS' : '❌ FAIL';
+                        
+                        html += `
+                            <div class="test-result ${className}">
+                                <strong>${status}: ${result.testName}</strong>
+                                <div>${result.details}</div>
+                            </div>
+                        `;
+                    });
+                    
+                    html += '</div>';
+                }
+
+                resultsDiv.innerHTML = html;
+                
+                // Display summary
+                const successRate = this.totalTests > 0 ? Math.round((this.passedTests / this.totalTests) * 100) : 0;
+                let summaryClass = 'pass';
+                let summaryIcon = '🎉';
+                
+                if (successRate < 70) {
+                    summaryClass = 'fail';
+                    summaryIcon = '❌';
+                } else if (successRate < 90) {
+                    summaryClass = 'warning';
+                    summaryIcon = '⚠️';
+                }
+                
+                summaryDiv.className = `summary ${summaryClass}`;
+                summaryDiv.innerHTML = `
+                    ${summaryIcon} Black Box Testing Results: ${this.passedTests}/${this.totalTests} tests passed (${successRate}%)
+                    <br><small>Testing SimLifeGame v2.0.0 Stock Price System</small>
+                `;
+            }
+
+            async runAllTests() {
+                this.testResults = [];
+                this.totalTests = 0;
+                this.passedTests = 0;
+                
+                document.getElementById('test-results').innerHTML = '<div class="test-info">🧪 Running comprehensive black box testing...</div>';
+                document.getElementById('test-summary').innerHTML = 'Testing in progress...';
+                
+                try {
+                    await this.testEnvironment();
+                    await this.testDataLoading();
+                    await this.testPriceAccuracy();
+                    await this.testGameIntegration();
+                    await this.testUserExperience();
+                    
+                    this.displayResults();
+                } catch (error) {
+                    document.getElementById('test-results').innerHTML = `
+                        <div class="test-fail">
+                            <strong>Black Box Testing Error</strong>
+                            <div>Error running tests: ${error.message}</div>
+                        </div>
+                    `;
+                }
+            }
+
+            async runSingleTest(testType) {
+                this.testResults = [];
+                this.totalTests = 0;
+                this.passedTests = 0;
+                
+                document.getElementById('test-results').innerHTML = '<div class="test-info">Running test...</div>';
+                
+                try {
+                    switch(testType) {
+                        case 'environment':
+                            await this.testEnvironment();
+                            break;
+                        case 'dataLoading':
+                            await this.testDataLoading();
+                            break;
+                        case 'priceAccuracy':
+                            await this.testPriceAccuracy();
+                            break;
+                        case 'gameIntegration':
+                            await this.testGameIntegration();
+                            break;
+                        case 'userExperience':
+                            await this.testUserExperience();
+                            break;
+                    }
+                    
+                    this.displayResults();
+                } catch (error) {
+                    document.getElementById('test-results').innerHTML = `
+                        <div class="test-fail">
+                            <strong>Test Error</strong>
+                            <div>Error running ${testType}: ${error.message}</div>
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        // Global test instance
+        const blackBoxSuite = new BlackBoxTestSuite();
+
+        async function runAllTests() {
+            await blackBoxSuite.runAllTests();
+        }
+
+        async function runTest(testType) {
+            await blackBoxSuite.runSingleTest(testType);
+        }
+
+        function clearResults() {
+            document.getElementById('test-results').innerHTML = '';
+            document.getElementById('test-summary').innerHTML = '';
+        }
+
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('Black Box Testing Suite loaded. Click "Run All Black Box Tests" to begin comprehensive testing.');
+        });
+    </script>
+</body>
+</html>

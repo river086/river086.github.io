@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Price Debug Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .debug-info { background: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 4px solid #dc3545; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Price Debug Test</h1>
+    <button onclick="debugPrices()">Debug Current Prices</button>
+    
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        async function debugPrices() {
+            const game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            
+            const results = document.getElementById('results');
+            let html = '<h2>Price Debug Information</h2>';
+            
+            // Check current game state
+            html += `<div class="debug-info">
+                <h3>Game State</h3>
+                <p><strong>Current Year:</strong> ${game.gameState.currentYear}</p>
+                <p><strong>Current Month:</strong> ${game.gameState.currentMonth}</p>
+            </div>`;
+            
+            // Check historical data loading
+            const dataLoaded = Object.keys(game.realEstatePriceData).length > 0;
+            html += `<div class="debug-info">
+                <h3>Data Loading</h3>
+                <p><strong>Historical Data Loaded:</strong> ${dataLoaded ? 'YES' : 'NO'}</p>
+                <p><strong>Years Available:</strong> ${Object.keys(game.realEstatePriceData).length}</p>
+                <p><strong>Property Type Multipliers:</strong> ${Object.keys(game.propertyTypeMultipliers).length}</p>
+            </div>`;
+            
+            // Get historical data for current date
+            const historicalData = game.getHistoricalRealEstatePrice(game.gameState.currentYear, game.gameState.currentMonth);
+            html += `<div class="debug-info">
+                <h3>Historical Data for ${game.gameState.currentYear}-${game.gameState.currentMonth}</h3>
+                <p><strong>Sale Price:</strong> $${historicalData ? historicalData.salePrice.toLocaleString() : 'N/A'}</p>
+                <p><strong>Rent Price:</strong> $${historicalData ? historicalData.rentPrice.toLocaleString() : 'N/A'}</p>
+            </div>`;
+            
+            // Check property multipliers
+            html += `<div class="debug-info">
+                <h3>Property Type Multipliers</h3>`;
+            Object.keys(game.propertyTypeMultipliers).forEach(type => {
+                const mult = game.propertyTypeMultipliers[type];
+                html += `<p><strong>${type}:</strong> Sale ${mult.sale}x, Rent ${mult.rent}x</p>`;
+            });
+            html += `</div>`;
+            
+            // Update prices and show results
+            game.updateRealEstatePricesFromHistory();
+            
+            html += `<div class="debug-info">
+                <h3>Calculated Property Prices</h3>`;
+            Object.keys(game.gameState.realEstatePrices).forEach(propertyId => {
+                const price = game.gameState.realEstatePrices[propertyId];
+                html += `<p><strong>${propertyId}:</strong> $${price.toLocaleString()}</p>`;
+            });
+            html += `</div>`;
+            
+            // Get and show property display
+            const properties = game.getAvailableProperties();
+            const threeBRHouse = properties.find(p => p.id === 'three_bedroom_house');
+            
+            if (threeBRHouse) {
+                html += `<div class="debug-info">
+                    <h3>3BR Family House Details</h3>
+                    <p><strong>Property ID:</strong> ${threeBRHouse.id}</p>
+                    <p><strong>Display Price:</strong> $${threeBRHouse.price.toLocaleString()}</p>
+                    <p><strong>Mapped to Type:</strong> single_family</p>
+                    <p><strong>Multiplier Applied:</strong> ${game.propertyTypeMultipliers.single_family ? game.propertyTypeMultipliers.single_family.sale : 'N/A'}x</p>
+                    <p><strong>Calculation:</strong> $${historicalData ? historicalData.salePrice.toLocaleString() : 'N/A'} × ${game.propertyTypeMultipliers.single_family ? game.propertyTypeMultipliers.single_family.sale : 'N/A'} = $${threeBRHouse.price.toLocaleString()}</p>
+                </div>`;
+            }
+            
+            results.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

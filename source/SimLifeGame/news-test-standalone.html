@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Standalone News Feature Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        button { background: #007bff; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin: 5px; }
+        .news-popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-width: 600px; width: 90%; }
+        .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; }
+    </style>
+</head>
+<body>
+    <h1>News Feature Test (Standalone)</h1>
+    <p>Testing news functionality without requiring web server</p>
+    
+    <button onclick="testNewsSystem()">Test News System</button>
+    <button onclick="simulateJan2000News()">Show January 2000 News</button>
+    <button onclick="simulateSep2001News()">Show September 2001 News</button>
+    <div id="results"></div>
+
+    <script>
+        // Simulate the news data structure that would be loaded from XML
+        const mockNewsData = {
+            '2000-01': [
+                {
+                    category: '科技',
+                    title: 'Y2K Bug Concerns Resolved',
+                    content: 'The feared Y2K millennium bug causes minimal disruption as computer systems worldwide transition successfully to the year 2000.'
+                }
+            ],
+            '2001-09': [
+                {
+                    category: '國際',
+                    title: 'September 11 Terrorist Attacks',
+                    content: 'Terrorists attack the World Trade Center and Pentagon, killing nearly 3,000 people and changing global security forever.'
+                }
+            ],
+            '2008-09': [
+                {
+                    category: '財經',
+                    title: 'Lehman Brothers Collapses',
+                    content: 'Investment bank Lehman Brothers files for bankruptcy, triggering a global financial panic and deepening the recession.'
+                }
+            ],
+            '2020-03': [
+                {
+                    category: '國際',
+                    title: 'WHO Declares COVID-19 Pandemic',
+                    content: 'The World Health Organization declares COVID-19 a pandemic as the virus spreads rapidly worldwide.'
+                }
+            ]
+        };
+
+        function testNewsSystem() {
+            const results = document.getElementById('results');
+            let html = '<h3>News System Test Results</h3>';
+            
+            // Test 1: Mock data structure
+            const hasData = Object.keys(mockNewsData).length > 0;
+            html += `<div class="${hasData ? 'pass' : 'fail'}">${hasData ? '✅' : '❌'} Mock news data available (${Object.keys(mockNewsData).length} months)</div>`;
+            
+            // Test 2: Date format validation
+            const validDates = Object.keys(mockNewsData).every(date => /^\d{4}-\d{2}$/.test(date));
+            html += `<div class="${validDates ? 'pass' : 'fail'}">${validDates ? '✅' : '❌'} All dates follow YYYY-MM format</div>`;
+            
+            // Test 3: News structure validation
+            let validStructure = true;
+            for (const [date, news] of Object.entries(mockNewsData)) {
+                if (!Array.isArray(news)) {
+                    validStructure = false;
+                    break;
+                }
+                for (const story of news) {
+                    if (!story.category || !story.title || !story.content) {
+                        validStructure = false;
+                        break;
+                    }
+                }
+            }
+            html += `<div class="${validStructure ? 'pass' : 'fail'}">${validStructure ? '✅' : '❌'} All news entries have required fields</div>`;
+            
+            // Test 4: Category validation
+            const categories = new Set();
+            Object.values(mockNewsData).flat().forEach(story => categories.add(story.category));
+            const expectedCategories = ['國際', '美國', '財經', '科技'];
+            const hasValidCategories = Array.from(categories).every(cat => expectedCategories.includes(cat));
+            html += `<div class="${hasValidCategories ? 'pass' : 'fail'}">${hasValidCategories ? '✅' : '❌'} All categories are valid (${Array.from(categories).join(', ')})</div>`;
+            
+            // Test 5: Historical coverage
+            const dateKeys = Object.keys(mockNewsData).sort();
+            const coverageSpan = `${dateKeys[0]} to ${dateKeys[dateKeys.length - 1]}`;
+            html += `<div class="info">📅 News coverage: ${coverageSpan}</div>`;
+            
+            results.innerHTML = html;
+        }
+
+        function simulateJan2000News() {
+            showNewsPopup('2000-01', 1, 2000);
+        }
+
+        function simulateSep2001News() {
+            showNewsPopup('2001-09', 9, 2001);
+        }
+
+        function showNewsPopup(dateKey, month, year) {
+            const newsForMonth = mockNewsData[dateKey];
+            
+            if (!newsForMonth || newsForMonth.length === 0) {
+                alert('No news available for this month.');
+                return;
+            }
+            
+            // Create news popup HTML (similar to the actual game implementation)
+            const categoryChinese = {
+                '國際': '🌍 國際',
+                '美國': '🇺🇸 美國', 
+                '財經': '💰 財經',
+                '科技': '🔬 科技'
+            };
+            
+            const monthNames = ['', 'January', 'February', 'March', 'April', 'May', 'June',
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            let newsHTML = `
+                <div style="max-height: 500px; overflow-y: auto;">
+                    <h3 style="margin: 0 0 15px 0; color: #333; text-align: center;">
+                        📰 ${monthNames[month]} ${year} 新聞
+                    </h3>
+            `;
+            
+            newsForMonth.forEach(news => {
+                const categoryIcon = categoryChinese[news.category] || news.category;
+                newsHTML += `
+                    <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #007bff; background: #f8f9fa; border-radius: 4px;">
+                        <div style="font-weight: bold; color: #007bff; font-size: 0.9em; margin-bottom: 5px;">
+                            ${categoryIcon}
+                        </div>
+                        <div style="font-weight: bold; margin-bottom: 5px; color: #333;">
+                            ${news.title}
+                        </div>
+                        <div style="color: #666; font-size: 0.9em; line-height: 1.4;">
+                            ${news.content}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            newsHTML += `
+                </div>
+                <div style="text-align: center; margin-top: 15px;">
+                    <button onclick="closeNewsPopup()" style="background: #007bff; color: white; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer;">
+                        關閉新聞
+                    </button>
+                </div>
+            `;
+            
+            // Create and show popup
+            const overlay = document.createElement('div');
+            overlay.className = 'overlay';
+            overlay.id = 'news-popup-overlay';
+            
+            const popup = document.createElement('div');
+            popup.className = 'news-popup';
+            popup.innerHTML = newsHTML;
+            
+            overlay.appendChild(popup);
+            document.body.appendChild(overlay);
+            
+            // Add close functionality
+            window.closeNewsPopup = () => {
+                const overlay = document.getElementById('news-popup-overlay');
+                if (overlay) {
+                    overlay.remove();
+                }
+                delete window.closeNewsPopup;
+            };
+            
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    window.closeNewsPopup();
+                }
+            });
+        }
+
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('Standalone news test loaded. Click buttons to test functionality.');
+            document.getElementById('results').innerHTML = '<div class="info">🧪 Click "Test News System" to run validation tests, or click other buttons to see news popups in action.</div>';
+        });
+    </script>
+</body>
+</html>

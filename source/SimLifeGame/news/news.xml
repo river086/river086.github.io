@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news_data>
+    <!-- 2000 Monthly News Events -->
+    <news_entry>
+        <date>2000-01</date>
+        <category>科技</category>
+        <title>Y2K Bug Concerns Resolved</title>
+        <content>The feared Y2K millennium bug causes minimal disruption as computer systems worldwide transition successfully to the year 2000.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2000-03</date>
+        <category>科技</category>
+        <title>Dot-com Bubble Peaks</title>
+        <content>NASDAQ reaches its peak at 5,048.62 points on March 10 before the dot-com bubble begins to burst, affecting technology stocks worldwide.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2000-03</date>
+        <category>財經</category>
+        <title>MicroStrategy Revenue Restatement</title>
+        <content>MicroStrategy announces revenue restatement due to aggressive accounting practices, contributing to tech stock volatility.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2000-05</date>
+        <category>科技</category>
+        <title>Boo.com Bankruptcy</title>
+        <content>Fashion retailer Boo.com files for bankruptcy, becoming one of the first major dot-com casualties in the bubble burst.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2000-11</date>
+        <category>美國</category>
+        <title>Bush vs Gore Election Controversy</title>
+        <content>The 2000 US Presidential election ends in controversy with Florida recount disputes, ultimately decided by the Supreme Court.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2000-11</date>
+        <category>科技</category>
+        <title>Pets.com Shuts Down</title>
+        <content>Online pet supply retailer Pets.com shuts down operations in November, marking another major dot-com failure.</content>
+    </news_entry>
+    
+    <!-- 2001 Monthly News Events -->
+    <news_entry>
+        <date>2001-01</date>
+        <category>房產</category>
+        <title>Fed Rate Cuts Begin</title>
+        <content>US Federal Reserve begins lowering federal funds rate from 6.5%, starting a series of eleven rate cuts throughout 2001 to stimulate the economy.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-03</date>
+        <category>財經</category>
+        <title>Dot-com Recession Officially Begins</title>
+        <content>The US government officially dates the start of the dot-com recession as beginning in March 2001, affecting the entire economy.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-04</date>
+        <category>科技</category>
+        <title>Kozmo.com Goes Bust</title>
+        <content>On-demand delivery service Kozmo.com goes out of business in April, another casualty of the dot-com crash.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-09</date>
+        <category>國際</category>
+        <title>September 11 Terrorist Attacks</title>
+        <content>Terrorists attack the World Trade Center and Pentagon, killing nearly 3,000 people and changing global security forever.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-10</date>
+        <category>科技</category>
+        <title>Apple Launches iPod</title>
+        <content>Apple releases the first iPod, revolutionizing portable music and setting the stage for the company's mobile device dominance.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-10</date>
+        <category>美國</category>
+        <title>US Invades Afghanistan</title>
+        <content>The United States begins military operations in Afghanistan following the September 11 attacks, starting the "War on Terror".</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-10</date>
+        <category>財經</category>
+        <title>Enron Scandal Emerges</title>
+        <content>Enron accounting scandal emerges in October, further eroding investor confidence in corporate America.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2001-12</date>
+        <category>房產</category>
+        <title>Fed Rate Hits 1.75%</title>
+        <content>Federal Reserve lowers target federal funds rate to 1.75% in December, reaching multi-decade lows to combat recession.</content>
+    </news_entry>
+    
+    <!-- 2002 Monthly News Events -->
+    <news_entry>
+        <date>2002-01</date>
+        <category>財經</category>
+        <title>Euro Currency Launches</title>
+        <content>The Euro becomes the official currency for 12 European Union countries, creating the world's second-largest currency bloc.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-06</date>
+        <category>美國</category>
+        <title>Bush Sets Minority Homeownership Goal</title>
+        <content>President Bush sets goal of increasing minority home owners by 5.5 million by 2010 through tax credits, subsidies and Fannie Mae commitment.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-06</date>
+        <category>財經</category>
+        <title>WorldCom Scandal</title>
+        <content>WorldCom accounting scandal breaks in June, becoming one of the largest corporate fraud cases in US history.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-07</date>
+        <category>財經</category>
+        <title>Enron Files for Bankruptcy</title>
+        <content>Energy company Enron files for bankruptcy amid accounting fraud scandals, leading to stricter corporate governance regulations.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-07</date>
+        <category>財經</category>
+        <title>Adelphia Scandal</title>
+        <content>Adelphia Communications Corporation scandal emerges in July, adding to the wave of corporate accounting fraud cases.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-08</date>
+        <category>房產</category>
+        <title>Housing Market Shows Strong Growth</title>
+        <content>Dean Baker identifies the housing bubble in summer report, noting annual home price appreciation of 10% or more in key states.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-10</date>
+        <category>科技</category>
+        <title>NASDAQ Hits Bottom</title>
+        <content>NASDAQ-100 hits its trough at 1,114 on October 9, down 78% from its peak, marking the end of the dot-com crash.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2002-11</date>
+        <category>國際</category>
+        <title>SARS Outbreak Begins</title>
+        <content>Severe Acute Respiratory Syndrome (SARS) outbreak begins in China, eventually spreading to 37 countries worldwide.</content>
+    </news_entry>
+    
+    <!-- 2003 Monthly News Events -->
+    <news_entry>
+        <date>2003-02</date>
+        <category>科技</category>
+        <title>Space Shuttle Columbia Disaster</title>
+        <content>Space Shuttle Columbia disintegrates during re-entry, killing all seven crew members and grounding the shuttle program.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2003-03</date>
+        <category>國際</category>
+        <title>Iraq War Begins</title>
+        <content>The United States and allies invade Iraq, overthrowing Saddam Hussein and beginning an 8-year military occupation.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2003-04</date>
+        <category>科技</category>
+        <title>Human Genome Project Completed</title>
+        <content>The Human Genome Project is declared complete, mapping all human genes and opening new frontiers in medicine.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2003-06</date>
+        <category>房產</category>
+        <title>Fed Rate Hits Historic Low</title>
+        <content>Federal Reserve Chair Alan Greenspan lowers federal funds rate to 1% in June, the lowest in 45 years, fueling housing boom.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2003-12</date>
+        <category>房產</category>
+        <title>Mortgage Denial Rates Hit Low</title>
+        <content>Mortgage application denial rate reaches its lowest point at 16%, while refinancing loans peak, indicating loose credit standards.</content>
+    </news_entry>
+    
+    <!-- 2004 Monthly News Events -->
+    <news_entry>
+        <date>2004-02</date>
+        <category>科技</category>
+        <title>Facebook Founded</title>
+        <content>Mark Zuckerberg launches Facebook from his Harvard dorm room, beginning the social media revolution.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2004-03</date>
+        <category>國際</category>
+        <title>Madrid Train Bombings</title>
+        <content>Terrorist bombings on Madrid trains kill 191 people and injure over 2,000, affecting Spain's general election.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2004-06</date>
+        <category>房產</category>
+        <title>Fed Begins Rate Hikes</title>
+        <content>Federal Reserve begins hiking interest rates from 1% in 17 consecutive quarterly meetings, reaching 6.25% to slow economy.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2004-08</date>
+        <category>科技</category>
+        <title>Google IPO</title>
+        <content>Google goes public with its IPO, marking the return of successful tech IPOs and beginning its dominance in internet search.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2004-10</date>
+        <category>財經</category>
+        <title>SEC Suspends Net Capital Rule</title>
+        <content>SEC suspends net capital rule for five major firms, allowing them to leverage up 20-40 to 1, increasing systemic risk.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2004-12</date>
+        <category>房產</category>
+        <title>Homeownership Rate Peaks</title>
+        <content>US homeownership rate reaches all-time high of 69.2%. HUD increases Fannie Mae and Freddie Mac affordable housing goals to 56%.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2004-12</date>
+        <category>國際</category>
+        <title>Indian Ocean Tsunami</title>
+        <content>A massive 9.1 earthquake triggers a devastating tsunami that kills 230,000 people across 14 countries in the Indian Ocean.</content>
+    </news_entry>
+    
+    <!-- 2005 Monthly News Events -->
+    <news_entry>
+        <date>2005-01</date>
+        <category>房產</category>
+        <title>Housing Prices Peak</title>
+        <content>Median home price reaches $223,100 while average hits $283,000. Arizona, California, Florida record price increases over 25% annually.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2005-04</date>
+        <category>國際</category>
+        <title>Pope John Paul II Dies</title>
+        <content>Pope John Paul II dies after 26 years as head of the Catholic Church, with billions watching his funeral worldwide.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2005-07</date>
+        <category>國際</category>
+        <title>London Bombings</title>
+        <content>Terrorist attacks on London's public transport system kill 52 people and injure over 700 during morning rush hour.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2005-08</date>
+        <category>美國</category>
+        <title>Hurricane Katrina</title>
+        <content>Hurricane Katrina devastates New Orleans and the Gulf Coast, killing 1,836 people and displacing millions.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2005-12</date>
+        <category>房產</category>
+        <title>Equity Extraction Peaks</title>
+        <content>US homeowners extract $750 billion of equity from their homes in 2005, up from $106 billion in 1996, fueling consumption.</content>
+    </news_entry>
+    
+    <!-- 2006 Monthly News Events -->
+    <news_entry>
+        <date>2006-01</date>
+        <category>房產</category>
+        <title>Housing Boom Reverses</title>
+        <content>US housing price boom abruptly reverses course in 2006 after years of above-average price increases, signaling bubble end.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2006-06</date>
+        <category>科技</category>
+        <title>Twitter Launches</title>
+        <content>Twitter is launched, introducing the concept of microblogging and 140-character messages to the world.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2006-11</date>
+        <category>科技</category>
+        <title>Nintendo Wii Launches</title>
+        <content>Nintendo launches the Wii gaming console, revolutionizing video games with motion-sensing controllers.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2006-12</date>
+        <category>國際</category>
+        <title>Saddam Hussein Executed</title>
+        <content>Former Iraqi dictator Saddam Hussein is executed by hanging after being convicted of crimes against humanity.</content>
+    </news_entry>
+    
+    <!-- 2007 Monthly News Events -->
+    <news_entry>
+        <date>2007-01</date>
+        <category>國際</category>
+        <title>Bulgaria and Romania Join EU</title>
+        <content>Bulgaria and Romania join the European Union. Nancy Pelosi becomes first female Speaker of the US House of Representatives.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2007-06</date>
+        <category>科技</category>
+        <title>First iPhone Released</title>
+        <content>Apple releases the first iPhone, revolutionizing the smartphone industry and mobile computing forever.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2007-08</date>
+        <category>財經</category>
+        <title>Subprime Mortgage Crisis Begins</title>
+        <content>Pressures emerge in asset-backed commercial paper markets as investors become wary of subprime mortgage exposures.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2007-09</date>
+        <category>房產</category>
+        <title>Fed Begins Emergency Rate Cuts</title>
+        <content>Federal Reserve makes first rate cut since 2003, lowering federal funds rate from 5.25% to 4.75% due to housing crisis.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2007-10</date>
+        <category>財經</category>
+        <title>Dow Hits Record High</title>
+        <content>Dow Jones Industrial Average rises above 14,000 points, reaching its peak before the financial crisis unfolds.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2007-12</date>
+        <category>財經</category>
+        <title>US Recession Begins</title>
+        <content>The United States officially enters recession, though this won't be confirmed until later as the financial crisis deepens.</content>
+    </news_entry>
+    
+    <!-- 2008 Monthly News Events -->
+    <news_entry>
+        <date>2008-03</date>
+        <category>財經</category>
+        <title>Bear Stearns Crisis</title>
+        <content>Investment bank Bear Stearns announces major liquidity problems and receives emergency loan from Federal Reserve.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2008-08</date>
+        <category>國際</category>
+        <title>Beijing Olympics</title>
+        <content>China hosts the Summer Olympics in Beijing, showcasing the country's rapid economic development to the world.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2008-09</date>
+        <category>財經</category>
+        <title>Lehman Brothers Collapses</title>
+        <content>Investment bank Lehman Brothers files for bankruptcy, triggering a global financial panic and deepening the recession.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2008-09</date>
+        <category>房產</category>
+        <title>Fannie Mae and Freddie Mac Conservatorship</title>
+        <content>Federal Housing Finance Agency places Fannie Mae and Freddie Mac in government conservatorship to prevent collapse.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2008-11</date>
+        <category>美國</category>
+        <title>Barack Obama Elected President</title>
+        <content>Barack Obama is elected as the 44th US President, becoming the first African American to hold the office.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2008-12</date>
+        <category>房產</category>
+        <title>Fed Cuts Rates to Zero</title>
+        <content>Federal Reserve cuts target rate to 0-0.25% range, reaching effective zero lower bound to combat financial crisis.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2008-12</date>
+        <category>財經</category>
+        <title>Auto Industry Bailout</title>
+        <content>Bush administration announces $17 billion emergency financing for General Motors and Chrysler to prevent bankruptcy.</content>
+    </news_entry>
+    
+    <!-- 2009 Monthly News Events -->
+    <news_entry>
+        <date>2009-01</date>
+        <category>美國</category>
+        <title>Obama Inaugurated as President</title>
+        <content>Barack Obama is inaugurated as President during the worst economic crisis since the Great Depression.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-01</date>
+        <category>科技</category>
+        <title>Bitcoin Cryptocurrency Launched</title>
+        <content>Bitcoin cryptocurrency is launched by anonymous creator Satoshi Nakamoto, beginning the digital currency revolution.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-03</date>
+        <category>財經</category>
+        <title>Stock Market Hits Bottom</title>
+        <content>The Dow Jones hits its financial crisis low of 6,469 points, marking the bottom of the worst recession since the 1930s.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-03</date>
+        <category>房產</category>
+        <title>Bank of England Starts QE</title>
+        <content>Bank of England starts Quantitative Easing in March with policy rate at 0.5%, following Federal Reserve's lead.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-06</date>
+        <category>財經</category>
+        <title>General Motors Files Bankruptcy</title>
+        <content>General Motors files for bankruptcy protection, requiring a massive government bailout to survive the financial crisis.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-06</date>
+        <category>財經</category>
+        <title>Recession Officially Ends</title>
+        <content>The recession officially ends in June 2009, though economic weakness persists throughout the recovery period.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-06</date>
+        <category>國際</category>
+        <title>Michael Jackson Dies</title>
+        <content>Pop icon Michael Jackson dies unexpectedly, triggering global mourning and massive media coverage worldwide.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2009-10</date>
+        <category>財經</category>
+        <title>Dow Crosses 10,000</title>
+        <content>Dow Jones Industrial Average closes above 10,000 for the first time since October 2008, signaling market recovery.</content>
+    </news_entry>
+    
+    <!-- 2010 Monthly News Events -->
+    <news_entry>
+        <date>2010-01</date>
+        <category>國際</category>
+        <title>Haiti Earthquake</title>
+        <content>A devastating 7.0 earthquake hits Haiti, killing over 200,000 people and leaving 1.5 million homeless.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2010-04</date>
+        <category>科技</category>
+        <title>iPad Launches</title>
+        <content>Apple releases the iPad, creating the modern tablet computer market and changing how people consume digital content.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2010-04</date>
+        <category>財經</category>
+        <title>Deepwater Horizon Oil Spill</title>
+        <content>The Deepwater Horizon oil rig explodes, causing the largest marine oil spill in US history in the Gulf of Mexico.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2010-11</date>
+        <category>房產</category>
+        <title>Fed Launches QE2</title>
+        <content>Federal Reserve announces second round of quantitative easing (QE2), purchasing $600 billion in long-term Treasuries.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2010-11</date>
+        <category>國際</category>
+        <title>EU/IMF Ireland Bailout</title>
+        <content>EU and IMF provide €85 billion bailout package for Ireland to address its banking and sovereign debt crisis.</content>
+    </news_entry>
+    
+    <!-- 2011 Monthly News Events -->
+    <news_entry>
+        <date>2011-02</date>
+        <category>國際</category>
+        <title>Christchurch Earthquake</title>
+        <content>Magnitude 6.3 earthquake strikes Christchurch, New Zealand, killing 185 people and causing widespread destruction.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2011-03</date>
+        <category>國際</category>
+        <title>Japan Earthquake and Tsunami</title>
+        <content>A 9.0 earthquake and tsunami devastate Japan, killing 15,000 people and causing the Fukushima nuclear disaster.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2011-05</date>
+        <category>國際</category>
+        <title>Osama bin Laden Killed</title>
+        <content>US Navy SEALs kill Osama bin Laden in Pakistan, ending a decade-long manhunt for the 9/11 mastermind.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2011-07</date>
+        <category>國際</category>
+        <title>South Sudan Independence</title>
+        <content>South Sudan declares independence from Sudan, becoming the world's newest country after decades of civil war.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2011-08</date>
+        <category>國際</category>
+        <title>England Riots</title>
+        <content>Riots flare across England following police shooting, causing widespread looting and property damage in major cities.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2011-10</date>
+        <category>科技</category>
+        <title>Steve Jobs Dies</title>
+        <content>Apple co-founder Steve Jobs dies at age 56, leaving behind a legacy of revolutionary consumer technology products.</content>
+    </news_entry>
+    
+    <!-- 2012 Monthly News Events -->
+    <news_entry>
+        <date>2012-03</date>
+        <category>科技</category>
+        <title>Kony 2012 Goes Viral</title>
+        <content>Documentary film about Ugandan warlord Joseph Kony goes viral overnight, demonstrating power of social media activism.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2012-08</date>
+        <category>科技</category>
+        <title>Mars Rover Curiosity Lands</title>
+        <content>NASA's Curiosity rover successfully lands on Mars, beginning an extended mission to search for signs of past life.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2012-09</date>
+        <category>房產</category>
+        <title>Fed Launches QE3</title>
+        <content>Federal Reserve launches third round of quantitative easing (QE3), committing to unlimited bond purchases until employment improves.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2012-11</date>
+        <category>美國</category>
+        <title>Obama Re-elected</title>
+        <content>Barack Obama wins re-election as US President, defeating Republican challenger Mitt Romney.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2012-12</date>
+        <category>美國</category>
+        <title>Sandy Hook Shooting</title>
+        <content>A gunman kills 26 people, including 20 children, at Sandy Hook Elementary School, reigniting gun control debates.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2012-12</date>
+        <category>科技</category>
+        <title>Gangnam Style Hits 1 Billion Views</title>
+        <content>Psy's "Gangnam Style" becomes the first YouTube video to reach one billion views, demonstrating global social media reach.</content>
+    </news_entry>
+    
+    <!-- 2013 Monthly News Events -->
+    <news_entry>
+        <date>2013-03</date>
+        <category>國際</category>
+        <title>Pope Francis Elected</title>
+        <content>Cardinal Jorge Mario Bergoglio becomes Pope Francis, the first pope from the Americas and the first Jesuit pope.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2013-04</date>
+        <category>美國</category>
+        <title>Boston Marathon Bombing</title>
+        <content>Two bombs explode near the finish line of the Boston Marathon, killing 3 people and injuring 264 others.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2013-06</date>
+        <category>國際</category>
+        <title>Edward Snowden NSA Revelations</title>
+        <content>Edward Snowden leaks classified NSA documents, revealing extensive government surveillance programs worldwide.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2013-05</date>
+        <category>房產</category>
+        <title>Housing Market Recovery Accelerates</title>
+        <content>US housing market shows strong recovery with rising prices and increased sales, boosting economic confidence.</content>
+    </news_entry>
+    
+    <!-- 2014 Monthly News Events -->
+    <news_entry>
+        <date>2014-03</date>
+        <category>國際</category>
+        <title>Russia Annexes Crimea</title>
+        <content>Russia annexes Crimea from Ukraine following the Euromaidan revolution, escalating tensions between East and West.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2014-03</date>
+        <category>國際</category>
+        <title>Malaysia Airlines Flight 370 Disappears</title>
+        <content>Malaysia Airlines Flight 370 disappears with 239 people aboard, becoming one of aviation's greatest mysteries.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2014-08</date>
+        <category>美國</category>
+        <title>Ferguson Unrest</title>
+        <content>The shooting of Michael Brown in Ferguson, Missouri, sparks nationwide protests about police brutality and racial injustice.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2014-10</date>
+        <category>房產</category>
+        <title>Fed Ends QE3 Program</title>
+        <content>Federal Reserve ends its third quantitative easing program, signaling confidence in economic recovery and housing market stability.</content>
+    </news_entry>
+    
+    <!-- 2015 Monthly News Events -->
+    <news_entry>
+        <date>2015-01</date>
+        <category>國際</category>
+        <title>Charlie Hebdo Attack</title>
+        <content>Terrorist attack on Charlie Hebdo magazine in Paris kills 12 people, sparking global debates about free speech.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2015-11</date>
+        <category>國際</category>
+        <title>Paris Terror Attacks</title>
+        <content>Coordinated terrorist attacks in Paris kill 130 people and injure 413, including attacks at the Bataclan theatre.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2015-12</date>
+        <category>國際</category>
+        <title>Paris Climate Agreement</title>
+        <content>195 countries sign the Paris Climate Agreement, committing to limit global warming to well below 2°C.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2015-12</date>
+        <category>房產</category>
+        <title>Fed Raises Rates for First Time Since 2008</title>
+        <content>Federal Reserve raises interest rates for the first time since 2008, from 0.25% to 0.5%, signaling economic recovery.</content>
+    </news_entry>
+    
+    <!-- 2016 Monthly News Events -->
+    <news_entry>
+        <date>2016-06</date>
+        <category>國際</category>
+        <title>Brexit Vote</title>
+        <content>The United Kingdom votes to leave the European Union in a historic referendum, beginning the Brexit process.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2016-07</date>
+        <category>科技</category>
+        <title>Pokémon GO Launches</title>
+        <content>Pokémon GO mobile game launches, introducing augmented reality gaming to mainstream audiences worldwide.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2016-11</date>
+        <category>美國</category>
+        <title>Donald Trump Elected President</title>
+        <content>Donald Trump wins the US Presidential election, defeating Hillary Clinton in a surprising upset victory.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2016-12</date>
+        <category>房產</category>
+        <title>US Housing Market Gains Momentum</title>
+        <content>US housing market shows strong momentum with rising prices and low inventory, benefiting from continued low interest rates.</content>
+    </news_entry>
+    
+    <!-- 2017 Monthly News Events -->
+    <news_entry>
+        <date>2017-01</date>
+        <category>美國</category>
+        <title>Trump Inaugurated as President</title>
+        <content>Donald Trump is inaugurated as the 45th US President, promising to "Make America Great Again."</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2017-10</date>
+        <category>美國</category>
+        <title>#MeToo Movement Begins</title>
+        <content>The #MeToo movement gains momentum following Harvey Weinstein allegations, sparking global conversations about sexual harassment.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2017-12</date>
+        <category>財經</category>
+        <title>Bitcoin Reaches $20,000</title>
+        <content>Bitcoin cryptocurrency reaches nearly $20,000 per coin, marking the peak of the first major crypto bubble.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2017-12</date>
+        <category>房產</category>
+        <title>Tax Reform Affects Housing</title>
+        <content>US Tax Cuts and Jobs Act limits mortgage interest and state/local tax deductions, potentially affecting housing markets.</content>
+    </news_entry>
+    
+    <!-- 2018 Monthly News Events -->
+    <news_entry>
+        <date>2018-03</date>
+        <category>科技</category>
+        <title>Cambridge Analytica Scandal</title>
+        <content>Facebook faces scrutiny over Cambridge Analytica's harvesting of user data, affecting 87 million users.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2018-06</date>
+        <category>國際</category>
+        <title>Trump-Kim Summit</title>
+        <content>President Trump meets North Korean leader Kim Jong-un in Singapore, the first meeting between leaders of both countries.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2018-10</date>
+        <category>國際</category>
+        <title>Jamal Khashoggi Killed</title>
+        <content>Saudi journalist Jamal Khashoggi is killed at the Saudi consulate in Istanbul, causing international outrage.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2018-12</date>
+        <category>房產</category>
+        <title>Fed Raises Rates to 2.5%</title>
+        <content>Federal Reserve raises interest rates to 2.25-2.5% range, the highest since 2008, affecting mortgage rates and housing demand.</content>
+    </news_entry>
+    
+    <!-- 2019 Monthly News Events -->
+    <news_entry>
+        <date>2019-04</date>
+        <category>科技</category>
+        <title>First Black Hole Image</title>
+        <content>Scientists reveal the first image of a black hole, confirming Einstein's predictions about these cosmic phenomena.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2019-09</date>
+        <category>國際</category>
+        <title>Greta Thunberg Climate Speech</title>
+        <content>16-year-old Greta Thunberg delivers passionate climate speech at UN, galvanizing global environmental movement.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2019-12</date>
+        <category>國際</category>
+        <title>COVID-19 Outbreak Begins</title>
+        <content>A mysterious pneumonia outbreak is reported in Wuhan, China, later identified as COVID-19 coronavirus.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2019-07</date>
+        <category>房產</category>
+        <title>Fed Cuts Rates First Time Since 2008</title>
+        <content>Federal Reserve cuts interest rates for first time since 2008, lowering rates to support economic growth amid trade tensions.</content>
+    </news_entry>
+    
+    <!-- 2020 Monthly News Events -->
+    <news_entry>
+        <date>2020-03</date>
+        <category>國際</category>
+        <title>WHO Declares COVID-19 Pandemic</title>
+        <content>The World Health Organization declares COVID-19 a pandemic as the virus spreads rapidly worldwide.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2020-03</date>
+        <category>房產</category>
+        <title>Fed Cuts Rates to Zero</title>
+        <content>Federal Reserve cuts interest rates to near zero and launches massive bond-buying program to combat COVID-19 economic impact.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2020-05</date>
+        <category>美國</category>
+        <title>George Floyd Protests</title>
+        <content>The death of George Floyd in police custody sparks nationwide protests against racial injustice and police brutality.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2020-11</date>
+        <category>美國</category>
+        <title>Biden Elected President</title>
+        <content>Joe Biden defeats Donald Trump in the US Presidential election, though results are disputed by Trump.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2020-12</date>
+        <category>房產</category>
+        <title>Housing Market Boom Begins</title>
+        <content>US housing market experiences unprecedented boom driven by low rates, pandemic lifestyle changes, and supply shortages.</content>
+    </news_entry>
+    
+    <!-- 2021 Monthly News Events -->
+    <news_entry>
+        <date>2021-01</date>
+        <category>美國</category>
+        <title>US Capitol Stormed</title>
+        <content>Supporters of Donald Trump storm the US Capitol in an attempt to overturn the 2020 election results.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2021-08</date>
+        <category>國際</category>
+        <title>US Withdraws from Afghanistan</title>
+        <content>The United States completes its withdrawal from Afghanistan after 20 years, ending America's longest war.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2021-12</date>
+        <category>科技</category>
+        <title>James Webb Telescope Launches</title>
+        <content>NASA launches the James Webb Space Telescope, the most powerful space observatory ever built.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2021-12</date>
+        <category>房產</category>
+        <title>US Home Prices Rise 20%</title>
+        <content>US home prices rise over 20% year-over-year, the fastest pace since the 1970s, creating affordability crisis.</content>
+    </news_entry>
+    
+    <!-- 2022 Monthly News Events -->
+    <news_entry>
+        <date>2022-02</date>
+        <category>國際</category>
+        <title>Russia Invades Ukraine</title>
+        <content>Russia launches a full-scale invasion of Ukraine, triggering the largest war in Europe since World War II.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2022-03</date>
+        <category>房產</category>
+        <title>Fed Begins Aggressive Rate Hikes</title>
+        <content>Federal Reserve begins series of aggressive interest rate hikes to combat inflation, affecting mortgage rates and housing demand.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2022-09</date>
+        <category>國際</category>
+        <title>Queen Elizabeth II Dies</title>
+        <content>Queen Elizabeth II dies at age 96 after 70 years on the throne, ending the longest reign in British history.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2022-11</date>
+        <category>科技</category>
+        <title>ChatGPT Launches</title>
+        <content>OpenAI releases ChatGPT, sparking worldwide interest in artificial intelligence and generative AI technology.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2022-12</date>
+        <category>房產</category>
+        <title>Housing Market Cools Dramatically</title>
+        <content>US housing market cools dramatically as mortgage rates reach 7%, highest in over 20 years, reducing buyer demand.</content>
+    </news_entry>
+    
+    <!-- 2023 Monthly News Events -->
+    <news_entry>
+        <date>2023-04</date>
+        <category>國際</category>
+        <title>India Becomes Most Populous</title>
+        <content>India surpasses China to become the world's most populous country with over 1.4 billion people.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2023-06</date>
+        <category>國際</category>
+        <title>Wagner Rebellion in Russia</title>
+        <content>Wagner Group mercenaries rebel against Russian military leadership, marching toward Moscow before backing down.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2023-10</date>
+        <category>國際</category>
+        <title>Hamas Attacks Israel</title>
+        <content>Hamas launches surprise attack on Israel from Gaza, killing over 1,100 Israelis and triggering war in Gaza.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2023-03</date>
+        <category>房產</category>
+        <title>Regional Bank Crisis Affects Housing</title>
+        <content>Silicon Valley Bank and other regional bank failures create uncertainty in housing finance and mortgage lending markets.</content>
+    </news_entry>
+    
+    <!-- 2024 Monthly News Events -->
+    <news_entry>
+        <date>2024-05</date>
+        <category>國際</category>
+        <title>ANC Loses Majority in South Africa</title>
+        <content>South Africa's African National Congress loses parliamentary majority for the first time since apartheid ended.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2024-07</date>
+        <category>美國</category>
+        <title>Biden Drops Out of Presidential Race</title>
+        <content>President Joe Biden withdraws from the 2024 presidential race, endorsing Vice President Kamala Harris.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2024-11</date>
+        <category>美國</category>
+        <title>Trump Wins 2024 Election</title>
+        <content>Donald Trump wins the 2024 US Presidential election, returning to office after his 2020 defeat.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2024-09</date>
+        <category>房產</category>
+        <title>Fed Cuts Rates First Time Since 2020</title>
+        <content>Federal Reserve cuts interest rates for first time since 2020, providing relief to housing market after two years of high rates.</content>
+    </news_entry>
+    
+    <!-- 2025 Monthly News Events -->
+    <news_entry>
+        <date>2025-01</date>
+        <category>美國</category>
+        <title>Trump Inaugurated Second Time</title>
+        <content>Donald Trump is inaugurated for his second non-consecutive term as the 47th US President.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2025-01</date>
+        <category>國際</category>
+        <title>Ukraine Protests Anti-Corruption Law</title>
+        <content>Ukraine sees largest protests since 2022 Russian invasion over controversial anti-corruption law signed by Zelenskyy.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2025-03</date>
+        <category>科技</category>
+        <title>AI Regulation Frameworks Implemented</title>
+        <content>Major countries implement comprehensive AI regulation frameworks as artificial intelligence becomes more prevalent.</content>
+    </news_entry>
+    
+    <news_entry>
+        <date>2025-02</date>
+        <category>房產</category>
+        <title>Housing Affordability Crisis Continues</title>
+        <content>US housing affordability reaches new lows despite rate cuts, as home prices remain elevated and inventory stays tight.</content>
+    </news_entry>
+</news_data>

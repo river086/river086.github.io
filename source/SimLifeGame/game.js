@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.5.1'; // Update this when making changes to the game
+    static VERSION = '2.5.2'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -1258,12 +1258,24 @@ class SimLifeGame {
         const relationshipIcon = this.gameState.relationshipStatus === 'Single' ? '💔' : 
                                 this.gameState.relationshipStatus === 'Dating' ? '💕' : '💍';
         
+        // Create couple photo section for married status
+        const couplePhotoSection = this.gameState.relationshipStatus === 'Marriage' ? `
+            <div style="margin: 15px 0;">
+                <img src="images/couple/spouse.jpg" 
+                     alt="Couple Photo" 
+                     style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #e17055; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div style="display: none; font-size: 1.5em; color: #666;">👫</div>
+            </div>
+        ` : '';
+        
         relationshipCard.innerHTML = `
             <div style="font-size: 2.5em; margin-bottom: 12px;">${relationshipIcon}</div>
             <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">Relationship</h3>
             <div style="font-size: 1.8em; font-weight: bold; color: #e17055; margin-bottom: 15px;">
                 ${this.gameState.relationshipStatus}
             </div>
+            ${couplePhotoSection}
             <div style="font-size: 2em; margin-bottom: 10px;">👶</div>
             <div style="font-size: 1.1em; color: #636e72;">
                 Children: <strong>${this.gameState.childrenCount}</strong>

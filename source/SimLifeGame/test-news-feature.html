@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test News Feature - SimLifeGame v2.2.0</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        button { background: #007bff; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin: 5px; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Test News Feature Integration</h1>
+    <p>Testing the new monthly news pop-up feature added to SimLifeGame v2.2.0</p>
+    
+    <button onclick="testNewsLoading()">Test News Loading</button>
+    <button onclick="testNewsDisplay()">Test News Display for Jan 2000</button>
+    <button onclick="testGameIntegration()">Test Game Integration</button>
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        async function testNewsLoading() {
+            const results = document.getElementById('results');
+            let html = '<h3>News Loading Test</h3>';
+            
+            try {
+                // Create a game instance and test news loading
+                const game = new SimLifeGame();
+                
+                // Test if news loading function exists
+                const hasLoadNewsFunction = typeof game.loadNews === 'function';
+                html += `<div class="${hasLoadNewsFunction ? 'pass' : 'fail'}">${hasLoadNewsFunction ? '✅' : '❌'} loadNews function exists</div>`;
+                
+                // Test if showMonthlyNews function exists
+                const hasShowNewsFunction = typeof game.showMonthlyNews === 'function';
+                html += `<div class="${hasShowNewsFunction ? 'pass' : 'fail'}">${hasShowNewsFunction ? '✅' : '❌'} showMonthlyNews function exists</div>`;
+                
+                // Actually try to load news
+                await game.loadNews();
+                
+                const hasNewsData = game.newsData && Object.keys(game.newsData).length > 0;
+                html += `<div class="${hasNewsData ? 'pass' : 'fail'}">${hasNewsData ? '✅' : '❌'} News data loaded successfully</div>`;
+                
+                if (hasNewsData) {
+                    html += `<div class="info">📰 Loaded news for ${Object.keys(game.newsData).length} months</div>`;
+                    html += `<div class="info">📅 First month: ${Object.keys(game.newsData).sort()[0]}</div>`;
+                    html += `<div class="info">📅 Last month: ${Object.keys(game.newsData).sort().slice(-1)[0]}</div>`;
+                    
+                    // Test specific months
+                    const jan2000 = game.newsData['2000-01'];
+                    const hasJan2000 = jan2000 && jan2000.length > 0;
+                    html += `<div class="${hasJan2000 ? 'pass' : 'fail'}">${hasJan2000 ? '✅' : '❌'} January 2000 news available (${hasJan2000 ? jan2000.length + ' stories' : '0 stories'})</div>`;
+                    
+                    const sep2001 = game.newsData['2001-09'];
+                    const hasSep2001 = sep2001 && sep2001.length > 0;
+                    html += `<div class="${hasSep2001 ? 'pass' : 'fail'}">${hasSep2001 ? '✅' : '❌'} September 2001 news available (${hasSep2001 ? sep2001.length + ' stories' : '0 stories'})</div>`;
+                }
+                
+            } catch (error) {
+                html += `<div class="fail">❌ Error during news loading test: ${error.message}</div>`;
+            }
+            
+            results.innerHTML = html;
+        }
+        
+        async function testNewsDisplay() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<div class="info">Testing news display...</div>';
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadNews();
+                
+                // Set game to January 2000
+                game.gameState.currentYear = 2000;
+                game.gameState.currentMonth = 1;
+                
+                let html = '<h3>News Display Test (January 2000)</h3>';
+                
+                // Test if there's news for January 2000
+                const jan2000News = game.newsData['2000-01'];
+                const hasNews = jan2000News && jan2000News.length > 0;
+                html += `<div class="${hasNews ? 'pass' : 'fail'}">${hasNews ? '✅' : '❌'} Found news for January 2000</div>`;
+                
+                if (hasNews) {
+                    html += `<div class="info">📰 News stories for January 2000:</div>`;
+                    jan2000News.forEach((news, index) => {
+                        html += `<div class="info">  ${index + 1}. [${news.category}] ${news.title}</div>`;
+                    });
+                    
+                    // Test calling the show news function
+                    try {
+                        game.showMonthlyNews();
+                        html += `<div class="pass">✅ showMonthlyNews() executed without errors</div>`;
+                        html += `<div class="info">📰 News popup should have appeared on screen!</div>`;
+                    } catch (error) {
+                        html += `<div class="fail">❌ Error calling showMonthlyNews(): ${error.message}</div>`;
+                    }
+                }
+                
+                results.innerHTML = html;
+                
+            } catch (error) {
+                results.innerHTML = `<div class="fail">❌ Error during news display test: ${error.message}</div>`;
+            }
+        }
+        
+        async function testGameIntegration() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<div class="info">Testing game integration...</div>';
+            
+            try {
+                const game = new SimLifeGame();
+                
+                let html = '<h3>Game Integration Test</h3>';
+                
+                // Test that game has news property
+                const hasNewsProperty = game.hasOwnProperty('newsData');
+                html += `<div class="${hasNewsProperty ? 'pass' : 'fail'}">${hasNewsProperty ? '✅' : '❌'} Game has newsData property</div>`;
+                
+                // Test that loadNews is called during initialization
+                const newsDataExists = typeof game.newsData === 'object';
+                html += `<div class="${newsDataExists ? 'pass' : 'fail'}">${newsDataExists ? '✅' : '❌'} newsData initialized as object</div>`;
+                
+                // Test version update
+                const hasCorrectVersion = game.constructor.VERSION === '2.2.0';
+                html += `<div class="${hasCorrectVersion ? 'pass' : 'fail'}">${hasCorrectVersion ? '✅' : '❌'} Game version is 2.2.0</div>`;
+                
+                // Test that processMonthEnd function includes news display
+                const processMonthEndCode = game.processMonthEnd.toString();
+                const includesNewsCall = processMonthEndCode.includes('showMonthlyNews');
+                html += `<div class="${includesNewsCall ? 'pass' : 'fail'}">${includesNewsCall ? '✅' : '❌'} processMonthEnd calls showMonthlyNews</div>`;
+                
+                results.innerHTML = html;
+                
+            } catch (error) {
+                results.innerHTML = `<div class="fail">❌ Error during integration test: ${error.message}</div>`;
+            }
+        }
+        
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('News feature test suite loaded. Run tests to verify news functionality.');
+        });
+    </script>
+</body>
+</html>

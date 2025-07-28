@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Couple Picture Test - SimLifeGame v2.5.1</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #f8f9fa;
+        }
+        .test-result { 
+            background: white; 
+            padding: 20px; 
+            margin: 15px 0; 
+            border-radius: 10px; 
+            border-left: 4px solid #007bff; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .relationship-demo {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-height: 200px;
+            margin: 20px 0;
+        }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 12px 24px; 
+            border-radius: 6px; 
+            margin: 8px; 
+            cursor: pointer; 
+            font-size: 16px;
+        }
+        button:hover { background: #0056b3; }
+        .status-preview {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .current-status {
+            font-weight: bold;
+            color: #28a745;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Couple Picture Display Test</h1>
+    <p>Testing the couple picture display when player gets married in SimLifeGame v2.5.1</p>
+    
+    <div class="current-status" id="current-status">Current Status: Loading...</div>
+    
+    <div class="test-result">
+        <h2>🧪 Test Controls</h2>
+        <button onclick="simulateSingle()">Simulate Single Status</button>
+        <button onclick="simulateDating()">Simulate Dating Status</button>
+        <button onclick="simulateMarriage()">Simulate Marriage Status</button>
+        <button onclick="simulateMarriageWithChildren()">Simulate Marriage + Children</button>
+        <button onclick="testImagePath()">Test Image Path</button>
+    </div>
+    
+    <div class="test-result">
+        <h2>📸 Photo Requirements</h2>
+        <ul>
+            <li><strong>File Location:</strong> <code>images/couple/spouse.jpg</code></li>
+            <li><strong>Display Size:</strong> 120px × 120px (circular)</li>
+            <li><strong>When Shown:</strong> Only when relationship status is "Marriage"</li>
+            <li><strong>Fallback:</strong> Shows 👫 emoji if image fails to load</li>
+            <li><strong>Style:</strong> Rounded border with shadow effect</li>
+        </ul>
+    </div>
+    
+    <div class="status-preview">
+        <div id="relationship-display"></div>
+    </div>
+    
+    <div id="test-results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let game;
+        
+        async function initGame() {
+            game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            updateStatusDisplay();
+        }
+        
+        function updateStatusDisplay() {
+            const statusEl = document.getElementById('current-status');
+            const displayEl = document.getElementById('relationship-display');
+            
+            statusEl.textContent = `Current Status: ${game.gameState.relationshipStatus} | Children: ${game.gameState.childrenCount}`;
+            
+            // Create relationship card similar to game
+            const relationshipIcon = game.gameState.relationshipStatus === 'Single' ? '💔' : 
+                                    game.gameState.relationshipStatus === 'Dating' ? '💕' : '💍';
+            
+            const couplePhotoSection = game.gameState.relationshipStatus === 'Marriage' ? `
+                <div style="margin: 15px 0;">
+                    <img src="images/couple/spouse.jpg" 
+                         alt="Couple Photo" 
+                         style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #e17055; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div style="display: none; font-size: 1.5em; color: #666;">👫</div>
+                </div>
+            ` : '';
+            
+            displayEl.innerHTML = `
+                <div class="relationship-demo">
+                    <div style="font-size: 2.5em; margin-bottom: 12px;">${relationshipIcon}</div>
+                    <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">Relationship</h3>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #e17055; margin-bottom: 15px;">
+                        ${game.gameState.relationshipStatus}
+                    </div>
+                    ${couplePhotoSection}
+                    <div style="font-size: 2em; margin-bottom: 10px;">👶</div>
+                    <div style="font-size: 1.1em; color: #636e72;">
+                        Children: <strong>${game.gameState.childrenCount}</strong>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function simulateSingle() {
+            game.gameState.relationshipStatus = 'Single';
+            game.gameState.childrenCount = 0;
+            game.gameState.monthlyDatingCost = 0;
+            game.gameState.monthlyFamilyCost = 0;
+            updateStatusDisplay();
+            logTest('Set status to Single', true, 'Player is now single, no couple photo should be shown');
+        }
+        
+        function simulateDating() {
+            game.gameState.relationshipStatus = 'Dating';
+            game.gameState.childrenCount = 0;
+            game.gameState.monthlyDatingCost = 75;
+            game.gameState.monthlyFamilyCost = 0;
+            updateStatusDisplay();
+            logTest('Set status to Dating', true, 'Player is now dating, no couple photo should be shown');
+        }
+        
+        function simulateMarriage() {
+            game.gameState.relationshipStatus = 'Marriage';
+            game.gameState.childrenCount = 0;
+            game.gameState.monthlyDatingCost = 0;
+            game.gameState.monthlyFamilyCost = 350;
+            updateStatusDisplay();
+            logTest('Set status to Marriage', true, 'Player is now married, couple photo should be displayed');
+        }
+        
+        function simulateMarriageWithChildren() {
+            game.gameState.relationshipStatus = 'Marriage';
+            game.gameState.childrenCount = 2;
+            game.gameState.monthlyDatingCost = 0;
+            game.gameState.monthlyFamilyCost = 850;
+            updateStatusDisplay();
+            logTest('Set status to Marriage with Children', true, 'Player is married with 2 children, couple photo should be displayed');
+        }
+        
+        function testImagePath() {
+            const img = new Image();
+            img.onload = function() {
+                logTest('Image Path Test', true, 'Couple photo loads successfully from images/couple/spouse.jpg');
+            };
+            img.onerror = function() {
+                logTest('Image Path Test', false, 'Couple photo failed to load - check file path and permissions');
+            };
+            img.src = 'images/couple/spouse.jpg';
+        }
+        
+        function logTest(testName, passed, details) {
+            const resultsDiv = document.getElementById('test-results');
+            const resultClass = passed ? 'test-result' : 'test-result';
+            const icon = passed ? '✅' : '❌';
+            const bgColor = passed ? '#d4edda' : '#f8d7da';
+            const textColor = passed ? '#155724' : '#721c24';
+            
+            const testResult = document.createElement('div');
+            testResult.style.background = bgColor;
+            testResult.style.color = textColor;
+            testResult.style.padding = '15px';
+            testResult.style.margin = '10px 0';
+            testResult.style.borderRadius = '8px';
+            testResult.style.border = `2px solid ${passed ? '#c3e6cb' : '#f5c6cb'}`;
+            
+            testResult.innerHTML = `
+                <strong>${icon} ${testName}</strong><br>
+                ${details}
+                <br><small>Time: ${new Date().toLocaleTimeString()}</small>
+            `;
+            
+            resultsDiv.appendChild(testResult);
+        }
+        
+        // Initialize when page loads
+        window.addEventListener('load', async () => {
+            try {
+                await initGame();
+                console.log('Couple Picture Test Suite loaded for SimLifeGame v2.5.1');
+                logTest('Test Suite Initialization', true, 'Couple picture test suite loaded successfully');
+            } catch (error) {
+                logTest('Test Suite Initialization', false, `Error: ${error.message}`);
+            }
+        });
+    </script>
+</body>
+</html>

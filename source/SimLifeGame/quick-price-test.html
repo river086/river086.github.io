@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Price Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .price-display { background: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 4px solid #007bff; }
+        .historical { background: #e7f3ff; }
+        .current { background: #f0fff0; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Real Estate Price Test</h1>
+    <button onclick="testPrices()">Test Historical Prices</button>
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        async function testPrices() {
+            const game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            
+            const results = document.getElementById('results');
+            let html = '<h2>Historical Price Test Results</h2>';
+            
+            // Test different time periods
+            const periods = [
+                { year: 2000, month: 1, name: 'January 2000' },
+                { year: 2006, month: 6, name: 'June 2006 (Bubble Peak)' },
+                { year: 2012, month: 1, name: 'January 2012 (Crisis Bottom)' },
+                { year: 2021, month: 6, name: 'June 2021 (Pandemic Boom)' }
+            ];
+            
+            periods.forEach(period => {
+                game.gameState.currentYear = period.year;
+                game.gameState.currentMonth = period.month;
+                
+                // Get historical raw data
+                const historicalData = game.getHistoricalRealEstatePrice(period.year, period.month);
+                
+                // Update prices and get studio apartment price
+                game.updateRealEstatePricesFromHistory();
+                const properties = game.getAvailableProperties();
+                const studioPrice = properties.find(p => p.id === 'studio_apartment')?.price;
+                
+                html += `<div class="price-display">
+                    <h3>${period.name}</h3>
+                    <p><strong>Historical Base:</strong> Sale $${historicalData ? historicalData.salePrice.toLocaleString() : 'N/A'}, Rent $${historicalData ? historicalData.rentPrice.toLocaleString() : 'N/A'}</p>
+                    <p><strong>Studio Apartment Game Price:</strong> $${studioPrice ? studioPrice.toLocaleString() : 'N/A'}</p>
+                    <p><strong>Multiplier Applied:</strong> ${historicalData && studioPrice ? (studioPrice / historicalData.salePrice).toFixed(2) + 'x' : 'N/A'}</p>
+                </div>`;
+            });
+            
+            // Test if XML data loaded
+            const dataLoaded = Object.keys(game.realEstatePriceData).length > 0;
+            html += `<div class="price-display ${dataLoaded ? 'current' : 'historical'}">
+                <h3>Data Loading Status</h3>
+                <p><strong>XML Data Loaded:</strong> ${dataLoaded ? '✅ YES' : '❌ NO'}</p>
+                <p><strong>Years of Data:</strong> ${Object.keys(game.realEstatePriceData).length}</p>
+                <p><strong>Property Types:</strong> ${Object.keys(game.propertyTypeMultipliers).length}</p>
+            </div>`;
+            
+            results.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Estate Historical Pricing Test - SimLifeGame v2.5.0</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            padding-bottom: 50px; /* Space for news ticker */
+        }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        .warning { background: #fff3cd; color: #856404; }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 8px 16px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 5px; 
+        }
+        button:hover { background: #0056b3; }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .price-comparison {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        .price-table th, .price-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .price-table th {
+            background-color: #f2f2f2;
+        }
+        .historical-period {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real Estate Historical Pricing Test</h1>
+    <p>Testing the historical real estate pricing system in SimLifeGame v2.5.0</p>
+    
+    <div class="test-section">
+        <h2>🏠 Historical Real Estate Implementation</h2>
+        
+        <div class="price-comparison">
+            <h3>✅ Expected Features</h3>
+            <ul>
+                <li><strong>Historical Data Loading:</strong> XML file with monthly prices 2000-2025</li>
+                <li><strong>Property Type Multipliers:</strong> Different multipliers for apartments, condos, houses, luxury homes</li>
+                <li><strong>Market Events:</strong> Historical events that affected housing prices</li>
+                <li><strong>Dynamic Pricing:</strong> Property prices update based on game date</li>
+                <li><strong>Rental Pricing:</strong> Historical rental prices alongside purchase prices</li>
+            </ul>
+        </div>
+        
+        <div class="price-comparison">
+            <h3>🏠 Key Historical Periods to Test</h3>
+            <div class="historical-period">📈 2000-2005: Housing Boom</div>
+            <div>Houses should show steady price increases, reaching peak around 2005-2006</div>
+            
+            <div class="historical-period">📉 2006-2012: Housing Crisis</div>
+            <div>Major price declines from 2006 peak through 2012 bottom</div>
+            
+            <div class="historical-period">🔄 2013-2019: Recovery</div>
+            <div>Gradual price recovery back to pre-crisis levels</div>
+            
+            <div class="historical-period">🚀 2020-2021: Pandemic Boom</div>
+            <div>Rapid price increases due to pandemic conditions</div>
+            
+            <div class="historical-period">💰 2022-2025: Rate Response</div>
+            <div>Market cooling due to interest rate increases</div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🧪 Test Controls</h2>
+        <button onclick="testRealEstateDataLoading()">Test Data Loading</button>
+        <button onclick="testHistoricalPricing()">Test Historical Pricing</button>
+        <button onclick="testPropertyTypeMultipliers()">Test Property Types</button>
+        <button onclick="testMarketEvents()">Test Market Events</button>
+        <button onclick="testPriceComparison()">Price Comparison Test</button>
+        <button onclick="runAllTests()">🚀 Run All Tests</button>
+        <button onclick="clearResults()">🗑️ Clear Results</button>
+    </div>
+    
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let testResults = [];
+        
+        function addResult(category, testName, passed, details) {
+            testResults.push({ category, testName, passed, details });
+        }
+        
+        function displayResults() {
+            const resultsDiv = document.getElementById('results');
+            let html = '<div class="test-section"><h2>📊 Test Results</h2>';
+            
+            let totalTests = testResults.length;
+            let passedTests = testResults.filter(r => r.passed).length;
+            let successRate = Math.round((passedTests / totalTests) * 100);
+            
+            html += `<div class="${successRate >= 80 ? 'pass' : successRate >= 60 ? 'warning' : 'fail'}">
+                        Overall Success Rate: ${passedTests}/${totalTests} (${successRate}%)
+                     </div>`;
+            
+            // Group by category
+            const categories = {};
+            testResults.forEach(result => {
+                if (!categories[result.category]) categories[result.category] = [];
+                categories[result.category].push(result);
+            });
+            
+            for (const [category, results] of Object.entries(categories)) {
+                html += `<h3>${category}</h3>`;
+                results.forEach(result => {
+                    const className = result.passed ? 'pass' : 'fail';
+                    const icon = result.passed ? '✅' : '❌';
+                    html += `<div class="${className}">${icon} ${result.testName}: ${result.details}</div>`;
+                });
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+        
+        function clearResults() {
+            testResults = [];
+            document.getElementById('results').innerHTML = '';
+        }
+        
+        async function testRealEstateDataLoading() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadRealEstatePrices();
+                
+                // Test 1: Real estate price data loaded
+                const hasRealEstateData = Object.keys(game.realEstatePriceData).length > 0;
+                addResult('Data Loading', 'Historical price data loaded', hasRealEstateData,
+                    hasRealEstateData ? `Loaded data for ${Object.keys(game.realEstatePriceData).length} years` : 'No historical data loaded');
+                
+                // Test 2: Property type multipliers loaded
+                const hasMultipliers = Object.keys(game.propertyTypeMultipliers).length > 0;
+                addResult('Data Loading', 'Property type multipliers loaded', hasMultipliers,
+                    hasMultipliers ? `${Object.keys(game.propertyTypeMultipliers).length} property types configured` : 'No multipliers loaded');
+                
+                // Test 3: Data structure validation
+                if (hasRealEstateData) {
+                    const year2020 = game.realEstatePriceData[2020];
+                    const hasProperStructure = year2020 && year2020[1] && year2020[1].salePrice && year2020[1].rentPrice;
+                    addResult('Data Loading', 'Data structure validation', hasProperStructure,
+                        hasProperStructure ? 'Data properly structured with sale/rent prices' : 'Data structure invalid');
+                }
+                
+                // Test 4: Version number update
+                const hasCorrectVersion = game.constructor.VERSION === '2.5.0';
+                addResult('Data Loading', 'Version updated to v2.5.0', hasCorrectVersion,
+                    `Current version: ${game.constructor.VERSION} (expected 2.5.0)`);
+                
+            } catch (error) {
+                addResult('Data Loading', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testHistoricalPricing() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadRealEstatePrices();
+                
+                // Test different historical periods
+                const testPeriods = [
+                    { year: 2000, month: 1, description: 'Year 2000 baseline' },
+                    { year: 2006, month: 6, description: 'Housing bubble peak' },
+                    { year: 2009, month: 12, description: 'Crisis bottom' },
+                    { year: 2021, month: 6, description: 'Pandemic boom' },
+                    { year: 2025, month: 1, description: 'Current market' }
+                ];
+                
+                testPeriods.forEach(period => {
+                    const historicalData = game.getHistoricalRealEstatePrice(period.year, period.month);
+                    const hasData = historicalData !== null;
+                    addResult('Historical Pricing', `${period.description} data available`, hasData,
+                        hasData ? `Sale: $${historicalData.salePrice.toLocaleString()}, Rent: $${historicalData.rentPrice.toLocaleString()}` : 'No data found');
+                    
+                    if (hasData) {
+                        // Test price application
+                        game.gameState.currentYear = period.year;
+                        game.gameState.currentMonth = period.month;
+                        game.updateRealEstatePricesFromHistory();
+                        
+                        const hasPricesSet = Object.keys(game.gameState.realEstatePrices).length > 0;
+                        addResult('Historical Pricing', `${period.description} prices applied`, hasPricesSet,
+                            hasPricesSet ? `Studio apartment: $${game.gameState.realEstatePrices.studio_apartment?.toLocaleString()}` : 'Prices not set');
+                    }
+                });
+                
+            } catch (error) {
+                addResult('Historical Pricing', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function testPropertyTypeMultipliers() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadRealEstatePrices();
+                
+                // Test property type multipliers
+                const expectedTypes = ['apartment', 'condo', 'townhouse', 'single_family', 'luxury_home'];
+                expectedTypes.forEach(type => {
+                    const hasMultiplier = game.propertyTypeMultipliers[type] !== undefined;
+                    addResult('Property Types', `${type} multiplier exists`, hasMultiplier,
+                        hasMultiplier ? `Sale: ${game.propertyTypeMultipliers[type].sale}x, Rent: ${game.propertyTypeMultipliers[type].rent}x` : 'Multiplier missing');
+                });
+                
+                // Test price differentiation
+                game.gameState.currentYear = 2020;
+                game.gameState.currentMonth = 6;
+                game.updateRealEstatePricesFromHistory();
+                
+                const studioPrice = game.gameState.realEstatePrices.studio_apartment;
+                const luxuryPrice = game.gameState.realEstatePrices.luxury_mansion;
+                const hasPriceDifferentiation = luxuryPrice > studioPrice * 2;
+                addResult('Property Types', 'Price differentiation working', hasPriceDifferentiation,
+                    hasPriceDifferentiation ? `Studio: $${studioPrice?.toLocaleString()}, Luxury: $${luxuryPrice?.toLocaleString()}` : 'Prices not properly differentiated');
+                
+            } catch (error) {
+                addResult('Property Types', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function testMarketEvents() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test market event detection
+                const testEvents = [
+                    { year: 2008, month: 9, expected: 'Lehman Brothers collapse' },
+                    { year: 2020, month: 6, expected: 'Pandemic-driven housing boom' },
+                    { year: 2022, month: 3, expected: 'Federal Reserve rate hikes' }
+                ];
+                
+                testEvents.forEach(test => {
+                    game.gameState.currentYear = test.year;
+                    game.gameState.currentMonth = test.month;
+                    const marketEvent = game.getCurrentMarketEvent();
+                    const hasEvent = marketEvent !== null && marketEvent.includes(test.expected.split(' ')[0]);
+                    addResult('Market Events', `${test.year}-${test.month} event detection`, hasEvent,
+                        hasEvent ? `Found: "${marketEvent}"` : `Expected: ${test.expected}, Found: ${marketEvent || 'none'}`);
+                });
+                
+            } catch (error) {
+                addResult('Market Events', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function testPriceComparison() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadRealEstatePrices();
+                
+                // Compare prices across different periods to validate historical accuracy
+                const comparisonPeriods = [
+                    { year: 2000, month: 1, name: '2000 Start' },
+                    { year: 2006, month: 6, name: '2006 Peak' },
+                    { year: 2012, month: 1, name: '2012 Bottom' },
+                    { year: 2021, month: 6, name: '2021 Boom' }
+                ];
+                
+                let prices = [];
+                comparisonPeriods.forEach(period => {
+                    const data = game.getHistoricalRealEstatePrice(period.year, period.month);
+                    if (data) {
+                        prices.push({ name: period.name, price: data.salePrice });
+                    }
+                });
+                
+                // Test that 2006 peak > 2000 start
+                const peak2006 = prices.find(p => p.name === '2006 Peak');
+                const start2000 = prices.find(p => p.name === '2000 Start');
+                if (peak2006 && start2000) {
+                    const bubbleGrowth = peak2006.price > start2000.price * 1.5;
+                    addResult('Price Comparison', 'Housing bubble growth validated', bubbleGrowth,
+                        `2000: $${start2000.price.toLocaleString()}, 2006: $${peak2006.price.toLocaleString()} (${Math.round((peak2006.price/start2000.price - 1) * 100)}% increase)`);
+                }
+                
+                // Test that 2012 bottom < 2006 peak
+                const bottom2012 = prices.find(p => p.name === '2012 Bottom');
+                if (peak2006 && bottom2012) {
+                    const crashDetected = bottom2012.price < peak2006.price * 0.8;
+                    addResult('Price Comparison', 'Housing crash detected', crashDetected,
+                        `2006: $${peak2006.price.toLocaleString()}, 2012: $${bottom2012.price.toLocaleString()} (${Math.round((1 - bottom2012.price/peak2006.price) * 100)}% decline)`);
+                }
+                
+                // Test that 2021 boom > 2006 peak
+                const boom2021 = prices.find(p => p.name === '2021 Boom');
+                if (peak2006 && boom2021) {
+                    const newPeakReached = boom2021.price > peak2006.price;
+                    addResult('Price Comparison', 'Post-crisis recovery validated', newPeakReached,
+                        `2006: $${peak2006.price.toLocaleString()}, 2021: $${boom2021.price.toLocaleString()} (${Math.round((boom2021.price/peak2006.price - 1) * 100)}% above 2006 peak)`);
+                }
+                
+            } catch (error) {
+                addResult('Price Comparison', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function runAllTests() {
+            document.getElementById('results').innerHTML = '<div class="info">🔄 Running comprehensive real estate pricing tests...</div>';
+            
+            await testRealEstateDataLoading();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testHistoricalPricing();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testPropertyTypeMultipliers();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testMarketEvents();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testPriceComparison();
+            
+            displayResults();
+        }
+        
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('Real Estate Historical Pricing Test Suite loaded for SimLifeGame v2.5.0');
+            document.getElementById('results').innerHTML = '<div class="info">🧪 Real Estate Historical Pricing Test Suite loaded. Click buttons to test the new pricing system!</div>';
+        });
+    </script>
+</body>
+</html>

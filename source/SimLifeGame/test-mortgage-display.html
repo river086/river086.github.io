@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mortgage Display Test - SimLifeGame v2.5.0</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { background: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 4px solid #007bff; }
+        .property-example { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin: 10px 0; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; margin: 5px; cursor: pointer; }
+        .mortgage-info { font-size: 0.85em; color: #007bff; margin: 5px 0; font-weight: bold; }
+        .down-payment-info { font-size: 0.8em; color: #666; margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h1>Mortgage Display Test</h1>
+    <p>Testing the new monthly mortgage payment display in Real Estate Market</p>
+    
+    <button onclick="testMortgageDisplay()">Test Mortgage Calculations</button>
+    <button onclick="testPropertyDisplay()">Test Property Display</button>
+    
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        async function testMortgageDisplay() {
+            const game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            
+            // Test mortgage calculation for different time periods
+            const results = document.getElementById('results');
+            let html = '<h2>Mortgage Payment Calculation Test</h2>';
+            
+            // Test different years to see price changes
+            const testPeriods = [
+                { year: 2000, month: 1, name: 'Year 2000' },
+                { year: 2006, month: 6, name: 'Bubble Peak 2006' },
+                { year: 2021, month: 6, name: 'Pandemic Boom 2021' }
+            ];
+            
+            testPeriods.forEach(period => {
+                game.gameState.currentYear = period.year;
+                game.gameState.currentMonth = period.month;
+                game.updateRealEstatePricesFromHistory();
+                
+                const properties = game.getAvailableProperties();
+                const studioApartment = properties.find(p => p.id === 'studio_apartment');
+                const luxuryMansion = properties.find(p => p.id === 'luxury_mansion');
+                
+                if (studioApartment && luxuryMansion) {
+                    // Calculate mortgage payments
+                    const studioMortgage = calculateMortgagePayment(studioApartment.price);
+                    const luxuryMortgage = calculateMortgagePayment(luxuryMansion.price);
+                    
+                    html += `<div class="test-result">
+                        <h3>${period.name}</h3>
+                        <div><strong>Studio Apartment ($${studioApartment.price.toLocaleString()})</strong></div>
+                        <div class="mortgage-info">💰 Monthly Mortgage: $${studioMortgage.monthly.toLocaleString()}/month</div>
+                        <div class="down-payment-info">Down Payment: $${studioMortgage.downPayment.toLocaleString()} | Total Monthly: $${studioMortgage.totalMonthly.toLocaleString()}</div>
+                        
+                        <div style="margin-top: 10px;"><strong>Luxury Mansion ($${luxuryMansion.price.toLocaleString()})</strong></div>
+                        <div class="mortgage-info">💰 Monthly Mortgage: $${luxuryMortgage.monthly.toLocaleString()}/month</div>
+                        <div class="down-payment-info">Down Payment: $${luxuryMortgage.downPayment.toLocaleString()} | Total Monthly: $${luxuryMortgage.totalMonthly.toLocaleString()}</div>
+                    </div>`;
+                }
+            });
+            
+            results.innerHTML = html;
+        }
+        
+        function calculateMortgagePayment(price) {
+            const downPayment = Math.floor(price * 0.2);
+            const loanAmount = price - downPayment;
+            const annualRate = 0.045;
+            const termMonths = 360;
+            const monthlyRate = annualRate / 12;
+            const monthlyPayment = (loanAmount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -termMonths));
+            
+            // Assume maintenance and property tax (these would come from the property object)
+            const maintenance = Math.floor(price * 0.005); // 0.5% of price monthly
+            const propertyTax = Math.floor(price * 0.015 / 12); // 1.5% annually
+            
+            return {
+                monthly: Math.round(monthlyPayment),
+                downPayment: downPayment,
+                totalMonthly: Math.round(monthlyPayment) + maintenance + propertyTax
+            };
+        }
+        
+        async function testPropertyDisplay() {
+            const game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            
+            // Set to current year and update prices
+            game.gameState.currentYear = 2025;
+            game.gameState.currentMonth = 1;
+            game.updateRealEstatePricesFromHistory();
+            
+            const results = document.getElementById('results');
+            let html = '<h2>Property Display Test (2025 Prices)</h2>';
+            
+            const properties = game.getAvailableProperties();
+            
+            // Filter to purchase properties only (not rentals)
+            const purchaseProperties = properties.filter(p => p.type !== 'rental');
+            
+            purchaseProperties.forEach(property => {
+                // Calculate values same way as in the game
+                const downPayment = Math.floor(property.price * 0.2);
+                const loanAmount = property.price - downPayment;
+                const annualRate = 0.045;
+                const termMonths = 360;
+                const monthlyMortgagePayment = game.calculateMonthlyPayment(loanAmount, annualRate, termMonths);
+                const totalMonthlyCost = Math.round(monthlyMortgagePayment) + property.maintenance + property.propertyTax;
+                
+                html += `<div class="property-example">
+                    <strong>${property.emoji} ${property.name}</strong>
+                    <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
+                        Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month
+                    </div>
+                    <div class="mortgage-info">
+                        💰 Monthly Mortgage Payment: $${Math.round(monthlyMortgagePayment).toLocaleString()}/month (30yr @ 4.5%)
+                    </div>
+                    <div class="down-payment-info">
+                        Down Payment (20%): $${downPayment.toLocaleString()} | Total Monthly Cost: $${totalMonthlyCost.toLocaleString()}
+                    </div>
+                    <div style="font-size: 0.85em; color: #666; margin-top: 5px;">
+                        ${property.description}
+                    </div>
+                </div>`;
+            });
+            
+            results.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

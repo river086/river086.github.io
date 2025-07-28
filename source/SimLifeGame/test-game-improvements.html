@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Improvements Test - SimLifeGame v2.4.0</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            padding-bottom: 50px; /* Space for news ticker */
+        }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #cce5ff; color: #004085; }
+        .warning { background: #fff3cd; color: #856404; }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 8px 16px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 5px; 
+        }
+        button:hover { background: #0056b3; }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .improvement-box {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .improvement-title {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Game Improvements Test Suite</h1>
+    <p>Testing the three major improvements in SimLifeGame v2.4.0</p>
+    
+    <div class="test-section">
+        <h2>🔧 Implemented Improvements</h2>
+        
+        <div class="improvement-box">
+            <div class="improvement-title">1. ❌ Removed Vehicle Maintenance from Monthly Expenses</div>
+            <div>Vehicle maintenance costs are no longer included in monthly expense calculations. Only insurance and license fees remain.</div>
+        </div>
+        
+        <div class="improvement-box">
+            <div class="improvement-title">2. 🍔 Random Food Expenses (±20%)</div>
+            <div>Food expenses now vary monthly within ±20% of the base amount to simulate real-world spending variations.</div>
+        </div>
+        
+        <div class="improvement-box">
+            <div class="improvement-title">3. 📰 Stock News Display</div>
+            <div>Stock trading page now shows relevant news from XML files for each stock in the current month.</div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🧪 Test Controls</h2>
+        <button onclick="testExpenseChanges()">Test Expense Changes</button>
+        <button onclick="testRandomFoodExpenses()">Test Random Food Expenses</button>
+        <button onclick="testStockNewsFeature()">Test Stock News Feature</button>
+        <button onclick="testGameIntegration()">Test Integration</button>
+        <button onclick="runAllTests()">🚀 Run All Tests</button>
+        <button onclick="clearResults()">🗑️ Clear Results</button>
+    </div>
+    
+    <div id="results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let testResults = [];
+        
+        function addResult(category, testName, passed, details) {
+            testResults.push({ category, testName, passed, details });
+        }
+        
+        function displayResults() {
+            const resultsDiv = document.getElementById('results');
+            let html = '<div class="test-section"><h2>📊 Test Results</h2>';
+            
+            let totalTests = testResults.length;
+            let passedTests = testResults.filter(r => r.passed).length;
+            let successRate = Math.round((passedTests / totalTests) * 100);
+            
+            html += `<div class="${successRate >= 80 ? 'pass' : successRate >= 60 ? 'warning' : 'fail'}">
+                        Overall Success Rate: ${passedTests}/${totalTests} (${successRate}%)
+                     </div>`;
+            
+            // Group by category
+            const categories = {};
+            testResults.forEach(result => {
+                if (!categories[result.category]) categories[result.category] = [];
+                categories[result.category].push(result);
+            });
+            
+            for (const [category, results] of Object.entries(categories)) {
+                html += `<h3>${category}</h3>`;
+                results.forEach(result => {
+                    const className = result.passed ? 'pass' : 'fail';
+                    const icon = result.passed ? '✅' : '❌';
+                    html += `<div class="${className}">${icon} ${result.testName}: ${result.details}</div>`;
+                });
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+        
+        function clearResults() {
+            testResults = [];
+            document.getElementById('results').innerHTML = '';
+        }
+        
+        async function testExpenseChanges() {
+            testResults = [];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test 1: Version update
+                const hasCorrectVersion = game.constructor.VERSION === '2.4.0';
+                addResult('Expense Changes', 'Version update', hasCorrectVersion,
+                    `Version: ${game.constructor.VERSION} (expected 2.4.0)`);
+                
+                // Test 2: Vehicle maintenance removal
+                const calculateExpensesCode = game.calculateMonthlyExpenses.toString();
+                const vehicleMaintenanceRemoved = !calculateExpensesCode.includes('car.maintenance');
+                addResult('Expense Changes', 'Vehicle maintenance removed', vehicleMaintenanceRemoved,
+                    vehicleMaintenanceRemoved ? 'car.maintenance not found in calculateMonthlyExpenses' : 'car.maintenance still present');
+                
+                // Test 3: Vehicle insurance/license still included
+                const includesInsurance = calculateExpensesCode.includes('car.insurance') || calculateExpensesCode.includes('car.licensePlate');
+                addResult('Expense Changes', 'Vehicle insurance/license retained', includesInsurance,
+                    includesInsurance ? 'Insurance and license fees still calculated' : 'Insurance/license fees missing');
+                
+                // Test 4: Base food cost storage
+                const hasBaseFoodCost = game.gameState.hasOwnProperty('baseFoodCost');
+                addResult('Expense Changes', 'Base food cost property added', hasBaseFoodCost,
+                    hasBaseFoodCost ? `baseFoodCost: ${game.gameState.baseFoodCost}` : 'baseFoodCost property missing');
+                
+            } catch (error) {
+                addResult('Expense Changes', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            displayResults();
+        }
+        
+        async function testRandomFoodExpenses() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test 1: Random food calculation in expenses
+                const expenseCode = game.calculateMonthlyExpenses.toString();
+                const hasRandomFood = expenseCode.includes('randomFactor') && expenseCode.includes('monthlyFoodCost');
+                addResult('Random Food', 'Random food calculation implemented', hasRandomFood,
+                    hasRandomFood ? 'Random food calculation found in calculateMonthlyExpenses' : 'Random food calculation missing');
+                
+                // Test 2: Test multiple expense calculations for variance
+                const expenses = [];
+                for (let i = 0; i < 10; i++) {
+                    expenses.push(game.calculateMonthlyExpenses());
+                }
+                
+                const uniqueExpenses = [...new Set(expenses)];
+                const hasVariation = uniqueExpenses.length > 1;
+                addResult('Random Food', 'Expense variation between calculations', hasVariation,
+                    hasVariation ? `${uniqueExpenses.length} different values in 10 calculations` : 'No variation found - expenses are fixed');
+                
+                // Test 3: Expense range validation (should be within ±20% of base)
+                if (game.gameState.baseFoodCost) {
+                    const baseCost = game.gameState.baseFoodCost;
+                    const minExpected = baseCost * 0.8;
+                    const maxExpected = baseCost * 1.2;
+                    
+                    // Calculate food cost portion (total expenses minus fixed costs)
+                    const fixedCosts = game.gameState.fixedCosts;
+                    const foodCosts = expenses.map(total => total - fixedCosts);
+                    
+                    const withinRange = foodCosts.every(cost => cost >= minExpected && cost <= maxExpected);
+                    addResult('Random Food', 'Food costs within ±20% range', withinRange,
+                        withinRange ? `Food costs range: $${Math.min(...foodCosts).toFixed(0)} - $${Math.max(...foodCosts).toFixed(0)}` : 
+                        `Food costs outside expected range $${minExpected.toFixed(0)} - $${maxExpected.toFixed(0)}`);
+                }
+                
+            } catch (error) {
+                addResult('Random Food', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function testStockNewsFeature() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                await game.loadStocks(); // This should also load stock news
+                
+                // Test 1: Stock news data property exists
+                const hasStockNewsProperty = game.hasOwnProperty('stockNewsData');
+                addResult('Stock News', 'Stock news data property exists', hasStockNewsProperty,
+                    hasStockNewsProperty ? 'stockNewsData property found' : 'stockNewsData property missing');
+                
+                // Test 2: getStockNews function exists
+                const hasGetStockNewsFunction = typeof game.getStockNews === 'function';
+                addResult('Stock News', 'getStockNews function exists', hasGetStockNewsFunction,
+                    hasGetStockNewsFunction ? 'getStockNews function found' : 'getStockNews function missing');
+                
+                // Test 3: Test news retrieval for a known stock
+                if (hasGetStockNewsFunction) {
+                    // Test for Apple in January 2000 (should have news about Steve Jobs becoming permanent CEO)
+                    game.gameState.currentYear = 2000;
+                    game.gameState.currentMonth = 1;
+                    const aaplNews = game.getStockNews('AAPL');
+                    const hasAaplNews = aaplNews !== null && aaplNews.length > 0;
+                    addResult('Stock News', 'AAPL January 2000 news retrieval', hasAaplNews,
+                        hasAaplNews ? `Found news: "${aaplNews.substring(0, 50)}..."` : 'No news found for AAPL Jan 2000');
+                }
+                
+                // Test 4: Stock news integration in stock trading interface
+                const stockTradingCode = game.updateStockTradingModal ? game.updateStockTradingModal.toString() : 'function not found';
+                // Look for the stock trading list update function instead
+                let stockDisplayCode = '';
+                try {
+                    // Create a temporary container to test the display
+                    const tempContainer = document.createElement('div');
+                    tempContainer.id = 'stock-trading-list';
+                    document.body.appendChild(tempContainer);
+                    
+                    // This should trigger the stock display update which includes news
+                    game.updateStockModal();
+                    
+                    const hasNewsInDisplay = tempContainer.innerHTML.includes('📰') || tempContainer.innerHTML.includes('News');
+                    addResult('Stock News', 'News integrated in stock display', hasNewsInDisplay,
+                        hasNewsInDisplay ? 'News display found in stock trading interface' : 'News display not found in interface');
+                    
+                    document.body.removeChild(tempContainer);
+                } catch (displayError) {
+                    addResult('Stock News', 'Stock display integration test', false, `Error testing display: ${displayError.message}`);
+                }
+                
+            } catch (error) {
+                addResult('Stock News', 'Test execution', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function testGameIntegration() {
+            const currentResults = [...testResults];
+            
+            try {
+                const game = new SimLifeGame();
+                
+                // Test 1: Game initialization with new features
+                const initializesCorrectly = game.gameState.hasOwnProperty('baseFoodCost') && 
+                                           game.hasOwnProperty('stockNewsData');
+                addResult('Integration', 'Game initialization with new features', initializesCorrectly,
+                    initializesCorrectly ? 'All new properties initialized' : 'Missing new properties');
+                
+                // Test 2: Profession initialization updates
+                try {
+                    game.initializeProfession('software_dev');
+                    const professionInitialized = game.gameState.baseFoodCost > 0 && game.gameState.fixedCosts >= 0;
+                    addResult('Integration', 'Profession initialization with food changes', professionInitialized,
+                        professionInitialized ? `baseFoodCost: ${game.gameState.baseFoodCost}, fixedCosts: ${game.gameState.fixedCosts}` : 'Profession initialization failed');
+                } catch (professionError) {
+                    addResult('Integration', 'Profession initialization', false, `Error: ${professionError.message}`);
+                }
+                
+                // Test 3: Monthly expense calculation consistency
+                try {
+                    const expense1 = game.calculateMonthlyExpenses();
+                    const expense2 = game.calculateMonthlyExpenses();
+                    // Should be different due to random food costs
+                    const hasRandomVariation = expense1 !== expense2;
+                    addResult('Integration', 'Monthly expense randomization working', hasRandomVariation,
+                        hasRandomVariation ? `Expenses vary: $${expense1} vs $${expense2}` : 'Expenses are static - randomization not working');
+                } catch (expenseError) {
+                    addResult('Integration', 'Expense calculation', false, `Error: ${expenseError.message}`);
+                }
+                
+                // Test 4: News ticker integration still works
+                const tickerContainer = document.getElementById('news-ticker-container');
+                const tickerStillWorks = tickerContainer !== null;
+                addResult('Integration', 'News ticker still functional', tickerStillWorks,
+                    tickerStillWorks ? 'News ticker container found' : 'News ticker not initialized');
+                
+            } catch (error) {
+                addResult('Integration', 'Integration test', false, `Error: ${error.message}`);
+            }
+            
+            testResults = [...currentResults, ...testResults.slice(currentResults.length)];
+            displayResults();
+        }
+        
+        async function runAllTests() {
+            document.getElementById('results').innerHTML = '<div class="info">🔄 Running comprehensive improvement tests...</div>';
+            
+            await testExpenseChanges();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testRandomFoodExpenses();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testStockNewsFeature();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            await testGameIntegration();
+            
+            displayResults();
+        }
+        
+        // Auto-load message
+        window.addEventListener('load', () => {
+            console.log('Game Improvements Test Suite loaded for SimLifeGame v2.4.0');
+            document.getElementById('results').innerHTML = '<div class="info">🧪 Game Improvements Test Suite loaded. Click buttons to test the three major improvements!</div>';
+            
+            // Initialize a test game to show the improvements
+            setTimeout(async () => {
+                try {
+                    const game = new SimLifeGame();
+                    console.log('Test game instance created with all improvements.');
+                } catch (error) {
+                    console.error('Error creating test game:', error);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
