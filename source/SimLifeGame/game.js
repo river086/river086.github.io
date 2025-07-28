@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.5.3'; // Update this when making changes to the game
+    static VERSION = '2.5.4'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -693,6 +693,234 @@ class SimLifeGame {
         return childPhotos[randomIndex];
     }
     
+    // Process family conversation events
+    processFamilyConversations() {
+        // Only process if player has family (married or has children)
+        if (this.gameState.relationshipStatus !== 'Marriage' && this.gameState.childrenCount === 0) {
+            return;
+        }
+        
+        // 15% chance of family conversation per month
+        if (Math.random() > 0.15) {
+            return;
+        }
+        
+        // Decide who wants to talk: spouse or child
+        let conversationSource = '';
+        let sourceImage = '';
+        let sourceName = '';
+        
+        if (this.gameState.relationshipStatus === 'Marriage' && this.gameState.childrenCount > 0) {
+            // Both spouse and children available - random choice
+            if (Math.random() < 0.6) {
+                conversationSource = 'spouse';
+                sourceImage = 'images/couple/spouse.jpg';
+                sourceName = 'Your Spouse';
+            } else {
+                conversationSource = 'child';
+                const randomChild = this.gameState.children[Math.floor(Math.random() * this.gameState.children.length)];
+                sourceImage = randomChild.photo;
+                sourceName = `Child #${randomChild.id}`;
+            }
+        } else if (this.gameState.relationshipStatus === 'Marriage') {
+            // Only spouse available
+            conversationSource = 'spouse';
+            sourceImage = 'images/couple/spouse.jpg';
+            sourceName = 'Your Spouse';
+        } else if (this.gameState.childrenCount > 0) {
+            // Only children available
+            conversationSource = 'child';
+            const randomChild = this.gameState.children[Math.floor(Math.random() * this.gameState.children.length)];
+            sourceImage = randomChild.photo;
+            sourceName = `Child #${randomChild.id}`;
+        }
+        
+        if (conversationSource) {
+            this.showFamilyConversation(conversationSource, sourceImage, sourceName);
+        }
+    }
+    
+    // Show family conversation popup
+    showFamilyConversation(source, image, name) {
+        const message = this.getRandomFamilyMessage(source);
+        
+        const conversationHTML = `
+            <div style="max-width: 400px; margin: 0 auto; text-align: center; padding: 20px;">
+                <div style="font-size: 2em; margin-bottom: 15px;">💬</div>
+                <h2 style="color: #333; margin-bottom: 20px; font-size: 1.4em;">${name} wants to talk!</h2>
+                
+                <div style="margin: 20px 0;">
+                    <img src="${image}" 
+                         alt="${name}" 
+                         style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #74b9ff; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div style="display: none; font-size: 3em;">${source === 'spouse' ? '👫' : '👶'}</div>
+                </div>
+                
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #74b9ff; margin: 20px 0; text-align: left;">
+                    <div style="font-style: italic; color: #555; line-height: 1.5;">
+                        "${message.text}"
+                    </div>
+                </div>
+                
+                <div style="color: #666; font-size: 0.9em; margin: 15px 0;">
+                    ${message.effect}
+                </div>
+                
+                <button onclick="this.parentElement.parentElement.parentElement.remove(); document.getElementById('family-conversation-overlay').remove()" 
+                        style="background: #74b9ff; color: white; border: none; padding: 10px 25px; border-radius: 5px; cursor: pointer; font-size: 1em;">
+                    💖 Thank you for sharing
+                </button>
+            </div>
+        `;
+        
+        // Show the conversation popup
+        this.showFamilyPopup(conversationHTML);
+        
+        // Apply the happiness effect
+        this.gameState.happiness = Math.min(1000, this.gameState.happiness + message.happinessBonus);
+        if (message.happinessBonus > 0) {
+            this.log(`💖 ${name} shared something special with you! Happiness +${message.happinessBonus}`, 'positive');
+        }
+    }
+    
+    // Get random family message based on source
+    getRandomFamilyMessage(source) {
+        const spouseMessages = [
+            {
+                text: "I'm so proud of how hard you're working to build our future together. Your dedication means everything to me.",
+                effect: "Your spouse appreciates your efforts",
+                happinessBonus: 25
+            },
+            {
+                text: "I've been thinking about our dreams and goals. Maybe we should plan a vacation together when we can afford it?",
+                effect: "Your spouse shares future plans",
+                happinessBonus: 20
+            },
+            {
+                text: "You've been stressed lately. Remember, we're in this together. I believe in you and what we can achieve.",
+                effect: "Your spouse offers emotional support",
+                happinessBonus: 30
+            },
+            {
+                text: "I love how you always try your best, even when things get tough. That's one of the things I admire most about you.",
+                effect: "Your spouse expresses love and admiration",
+                happinessBonus: 35
+            },
+            {
+                text: "I saw this financial article that might interest you. We should discuss our budget and savings strategy together.",
+                effect: "Your spouse wants to discuss finances",
+                happinessBonus: 15
+            },
+            {
+                text: "Sometimes I just want to tell you how grateful I am for everything you do for our family. You're amazing!",
+                effect: "Your spouse expresses gratitude",
+                happinessBonus: 40
+            }
+        ];
+        
+        const childMessages = [
+            {
+                text: "Daddy/Mommy, I drew you a picture at school today! Do you want to see it? I used all your favorite colors!",
+                effect: "Your child wants to share their artwork",
+                happinessBonus: 45
+            },
+            {
+                text: "I learned something really cool today! Did you know that elephants never forget? Just like how I'll never forget how much you love me!",
+                effect: "Your child shares what they learned",
+                happinessBonus: 35
+            },
+            {
+                text: "Can we play together later? I promise I'll be good and help with chores. I just miss spending time with you.",
+                effect: "Your child wants quality time",
+                happinessBonus: 40
+            },
+            {
+                text: "I told my friends at school that you're the best parent ever! They were so jealous that you work so hard for our family.",
+                effect: "Your child is proud of you",
+                happinessBonus: 50
+            },
+            {
+                text: "I had a bad dream last night, but then I remembered that you always keep me safe. That made me feel better!",
+                effect: "Your child feels secure with you",
+                happinessBonus: 30
+            },
+            {
+                text: "When I grow up, I want to be just like you! You work so hard and always take care of everyone. You're my hero!",
+                effect: "Your child looks up to you",
+                happinessBonus: 55
+            },
+            {
+                text: "I found this pretty flower in the yard and I wanted to give it to you because you're the best parent in the whole world!",
+                effect: "Your child gives you a gift",
+                happinessBonus: 45
+            }
+        ];
+        
+        const messages = source === 'spouse' ? spouseMessages : childMessages;
+        return messages[Math.floor(Math.random() * messages.length)];
+    }
+    
+    // Show family popup (similar to news popup but styled for family conversations)
+    showFamilyPopup(content) {
+        // Create popup overlay
+        const overlay = document.createElement('div');
+        overlay.id = 'family-conversation-overlay';
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            animation: fadeIn 0.3s ease;
+        `;
+        
+        // Create popup content
+        const popup = document.createElement('div');
+        popup.style.cssText = `
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+            animation: slideIn 0.3s ease;
+        `;
+        
+        popup.innerHTML = content;
+        overlay.appendChild(popup);
+        document.body.appendChild(overlay);
+        
+        // Add click outside to close
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) {
+                overlay.remove();
+            }
+        });
+        
+        // Add CSS animations if not already present
+        if (!document.getElementById('family-popup-styles')) {
+            const style = document.createElement('style');
+            style.id = 'family-popup-styles';
+            style.textContent = `
+                @keyframes fadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                @keyframes slideIn {
+                    from { transform: translateY(-50px); opacity: 0; }
+                    to { transform: translateY(0); opacity: 1; }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+    }
+    
     // Add monthly variation to relationship costs
     varyRelationshipCosts() {
         // Vary dating costs monthly (±20% variation)
@@ -713,6 +941,9 @@ class SimLifeGame {
     processEvent() {
         // First, process relationship events with specific probabilities
         this.processRelationshipEvents();
+        
+        // Process family conversation events
+        this.processFamilyConversations();
         
         const eligibleEvents = this.events.filter(event => {
             return !this.eventCooldowns[event.id] || this.eventCooldowns[event.id] <= 0;

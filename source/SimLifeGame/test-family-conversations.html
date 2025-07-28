@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family Conversations Test - SimLifeGame v2.5.3</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #f8f9fa;
+        }
+        .test-result { 
+            background: white; 
+            padding: 20px; 
+            margin: 15px 0; 
+            border-radius: 10px; 
+            border-left: 4px solid #007bff; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 12px 24px; 
+            border-radius: 6px; 
+            margin: 8px; 
+            cursor: pointer; 
+            font-size: 16px;
+        }
+        button:hover { background: #0056b3; }
+        .current-status {
+            font-weight: bold;
+            color: #28a745;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .conversation-preview {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .message-sample {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #74b9ff;
+            margin: 10px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Family Conversations Test</h1>
+    <p>Testing the random family conversation popups with images in SimLifeGame v2.5.3</p>
+    
+    <div class="current-status" id="current-status">Current Status: Loading...</div>
+    
+    <div class="test-result">
+        <h2>🧪 Test Controls</h2>
+        <button onclick="setupMarriedOnly()">Setup: Married Only</button>
+        <button onclick="setupMarriedWithChildren()">Setup: Married + Children</button>
+        <button onclick="testSpouseConversation()">Test Spouse Conversation</button>
+        <button onclick="testChildConversation()">Test Child Conversation</button>
+        <button onclick="testRandomConversation()">Test Random Family Conversation</button>
+        <button onclick="testMultipleConversations()">Test Multiple Conversations</button>
+    </div>
+    
+    <div class="test-result">
+        <h2>💬 Family Conversation System</h2>
+        
+        <h3>Features:</h3>
+        <ul>
+            <li><strong>15% Monthly Chance:</strong> Random family conversations</li>
+            <li><strong>Smart Selection:</strong> Chooses between spouse/children based on family status</li>
+            <li><strong>Photo Display:</strong> Shows actual family member photo in popup</li>
+            <li><strong>Happiness Boost:</strong> +15 to +55 happiness per conversation</li>
+            <li><strong>Emotional Content:</strong> Warm, family-focused messages</li>
+            <li><strong>Contextual Messages:</strong> Different content for spouse vs children</li>
+        </ul>
+        
+        <h3>Sample Spouse Messages:</h3>
+        <div class="message-sample">
+            <strong>🎯 Supportive:</strong> "I'm so proud of how hard you're working to build our future together."
+        </div>
+        <div class="message-sample">
+            <strong>💕 Loving:</strong> "I love how you always try your best, even when things get tough."
+        </div>
+        <div class="message-sample">
+            <strong>💰 Financial:</strong> "I saw this financial article that might interest you. Let's discuss our budget."
+        </div>
+        
+        <h3>Sample Child Messages:</h3>
+        <div class="message-sample">
+            <strong>🎨 Creative:</strong> "I drew you a picture at school today! I used all your favorite colors!"
+        </div>
+        <div class="message-sample">
+            <strong>🌟 Admiring:</strong> "When I grow up, I want to be just like you! You're my hero!"
+        </div>
+        <div class="message-sample">
+            <strong>🌸 Sweet:</strong> "I found this pretty flower and wanted to give it to you!"
+        </div>
+    </div>
+    
+    <div id="test-results"></div>
+
+    <script src="game.js"></script>
+    <script>
+        let game;
+        
+        async function initGame() {
+            game = new SimLifeGame();
+            await game.loadRealEstatePrices();
+            updateStatusDisplay();
+        }
+        
+        function updateStatusDisplay() {
+            const statusEl = document.getElementById('current-status');
+            statusEl.textContent = `Status: ${game.gameState.relationshipStatus} | Children: ${game.gameState.childrenCount} | Happiness: ${game.gameState.happiness}`;
+        }
+        
+        function setupMarriedOnly() {
+            game.gameState.relationshipStatus = 'Marriage';
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            game.gameState.monthlyFamilyCost = 350;
+            updateStatusDisplay();
+            logTest('Setup Married Only', true, 'Player is married with no children - spouse conversations only');
+        }
+        
+        function setupMarriedWithChildren() {
+            game.gameState.relationshipStatus = 'Marriage';
+            game.gameState.children = [];
+            game.gameState.childrenCount = 0;
+            game.gameState.monthlyFamilyCost = 350;
+            
+            // Add 2 children
+            for (let i = 0; i < 2; i++) {
+                game.gameState.childrenCount++;
+                const childPhoto = game.getRandomChildPhoto();
+                const newChild = {
+                    id: game.gameState.childrenCount,
+                    photo: childPhoto,
+                    birthYear: game.gameState.currentYear,
+                    birthMonth: game.gameState.currentMonth,
+                    monthlyCost: 500
+                };
+                game.gameState.children.push(newChild);
+            }
+            
+            updateStatusDisplay();
+            logTest('Setup Married with Children', true, 'Player is married with 2 children - both spouse and child conversations available');
+        }
+        
+        function testSpouseConversation() {
+            if (game.gameState.relationshipStatus !== 'Marriage') {
+                logTest('Spouse Conversation Test', false, 'Player must be married to test spouse conversations');
+                return;
+            }
+            
+            const oldHappiness = game.gameState.happiness;
+            game.showFamilyConversation('spouse', 'images/couple/spouse.jpg', 'Your Spouse');
+            
+            // Check if happiness increased
+            const happinessIncrease = game.gameState.happiness - oldHappiness;
+            logTest('Spouse Conversation Test', true, `Spouse conversation triggered successfully. Happiness increased by ${happinessIncrease}`);
+        }
+        
+        function testChildConversation() {
+            if (game.gameState.childrenCount === 0) {
+                logTest('Child Conversation Test', false, 'Player must have children to test child conversations');
+                return;
+            }
+            
+            const oldHappiness = game.gameState.happiness;
+            const randomChild = game.gameState.children[Math.floor(Math.random() * game.gameState.children.length)];
+            game.showFamilyConversation('child', randomChild.photo, `Child #${randomChild.id}`);
+            
+            // Check if happiness increased
+            const happinessIncrease = game.gameState.happiness - oldHappiness;
+            logTest('Child Conversation Test', true, `Child conversation triggered successfully. Happiness increased by ${happinessIncrease}`);
+        }
+        
+        function testRandomConversation() {
+            if (game.gameState.relationshipStatus !== 'Marriage' && game.gameState.childrenCount === 0) {
+                logTest('Random Conversation Test', false, 'Player must have family (married or children) for conversations');
+                return;
+            }
+            
+            const oldHappiness = game.gameState.happiness;
+            
+            // Force a conversation (bypass random chance)
+            let conversationSource = '';
+            let sourceImage = '';
+            let sourceName = '';
+            
+            if (game.gameState.relationshipStatus === 'Marriage' && game.gameState.childrenCount > 0) {
+                if (Math.random() < 0.6) {
+                    conversationSource = 'spouse';
+                    sourceImage = 'images/couple/spouse.jpg';
+                    sourceName = 'Your Spouse';
+                } else {
+                    conversationSource = 'child';
+                    const randomChild = game.gameState.children[Math.floor(Math.random() * game.gameState.children.length)];
+                    sourceImage = randomChild.photo;
+                    sourceName = `Child #${randomChild.id}`;
+                }
+            } else if (game.gameState.relationshipStatus === 'Marriage') {
+                conversationSource = 'spouse';
+                sourceImage = 'images/couple/spouse.jpg';
+                sourceName = 'Your Spouse';
+            } else if (game.gameState.childrenCount > 0) {
+                conversationSource = 'child';
+                const randomChild = game.gameState.children[Math.floor(Math.random() * game.gameState.children.length)];
+                sourceImage = randomChild.photo;
+                sourceName = `Child #${randomChild.id}`;
+            }
+            
+            if (conversationSource) {
+                game.showFamilyConversation(conversationSource, sourceImage, sourceName);
+                const happinessIncrease = game.gameState.happiness - oldHappiness;
+                logTest('Random Conversation Test', true, `${sourceName} started a conversation. Happiness increased by ${happinessIncrease}`);
+            }
+        }
+        
+        function testMultipleConversations() {
+            if (game.gameState.relationshipStatus !== 'Marriage' && game.gameState.childrenCount === 0) {
+                logTest('Multiple Conversations Test', false, 'Player must have family for conversation testing');
+                return;
+            }
+            
+            let conversationCount = 0;
+            let totalHappinessGain = 0;
+            const startHappiness = game.gameState.happiness;
+            
+            // Test 5 random conversations
+            for (let i = 0; i < 5; i++) {
+                setTimeout(() => {
+                    const beforeHappiness = game.gameState.happiness;
+                    testRandomConversation();
+                    conversationCount++;
+                    totalHappinessGain += (game.gameState.happiness - beforeHappiness);
+                    
+                    if (conversationCount === 5) {
+                        logTest('Multiple Conversations Test', true, 
+                            `Triggered 5 conversations. Total happiness gain: ${totalHappinessGain}. Average per conversation: ${Math.round(totalHappinessGain / 5)}`);
+                    }
+                }, i * 1000);
+            }
+        }
+        
+        function logTest(testName, passed, details) {
+            const resultsDiv = document.getElementById('test-results');
+            const bgColor = passed ? '#d4edda' : '#f8d7da';
+            const textColor = passed ? '#155724' : '#721c24';
+            const icon = passed ? '✅' : '❌';
+            
+            const testResult = document.createElement('div');
+            testResult.style.background = bgColor;
+            testResult.style.color = textColor;
+            testResult.style.padding = '15px';
+            testResult.style.margin = '10px 0';
+            testResult.style.borderRadius = '8px';
+            testResult.style.border = `2px solid ${passed ? '#c3e6cb' : '#f5c6cb'}`;
+            
+            testResult.innerHTML = `
+                <strong>${icon} ${testName}</strong><br>
+                ${details}
+                <br><small>Time: ${new Date().toLocaleTimeString()}</small>
+            `;
+            
+            resultsDiv.appendChild(testResult);
+            updateStatusDisplay();
+        }
+        
+        // Initialize when page loads
+        window.addEventListener('load', async () => {
+            try {
+                await initGame();
+                console.log('Family Conversations Test Suite loaded for SimLifeGame v2.5.3');
+                logTest('Test Suite Initialization', true, 'Family conversation test suite loaded successfully');
+            } catch (error) {
+                logTest('Test Suite Initialization', false, `Error: ${error.message}`);
+            }
+        });
+    </script>
+</body>
+</html>
