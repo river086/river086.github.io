@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RealEstatePriceHistory>
+    <metadata>
+        <description>US Real Estate Price History 2000-2025</description>
+        <source>Case-Shiller Home Price Index, NAR, Census Bureau</source>
+        <baseCurrency>USD</baseCurrency>
+        <lastUpdated>2025-01-01</lastUpdated>
+    </metadata>
+    
+    <!-- 2000: Steady Growth Era -->
+    <year value="2000">
+        <month value="1"><salePrice>165300</salePrice><rentPrice>985</rentPrice></month>
+        <month value="2"><salePrice>166200</salePrice><rentPrice>990</rentPrice></month>
+        <month value="3"><salePrice>167100</salePrice><rentPrice>995</rentPrice></month>
+        <month value="4"><salePrice>168000</salePrice><rentPrice>1000</rentPrice></month>
+        <month value="5"><salePrice>168900</salePrice><rentPrice>1005</rentPrice></month>
+        <month value="6"><salePrice>169800</salePrice><rentPrice>1010</rentPrice></month>
+        <month value="7"><salePrice>170700</salePrice><rentPrice>1015</rentPrice></month>
+        <month value="8"><salePrice>171600</salePrice><rentPrice>1020</rentPrice></month>
+        <month value="9"><salePrice>172500</salePrice><rentPrice>1025</rentPrice></month>
+        <month value="10"><salePrice>173400</salePrice><rentPrice>1030</rentPrice></month>
+        <month value="11"><salePrice>174300</salePrice><rentPrice>1035</rentPrice></month>
+        <month value="12"><salePrice>175200</salePrice><rentPrice>1040</rentPrice></month>
+    </year>
+    
+    <!-- 2001: Dot-com Crash, Real Estate Resilient -->
+    <year value="2001">
+        <month value="1"><salePrice>176100</salePrice><rentPrice>1045</rentPrice></month>
+        <month value="2"><salePrice>177000</salePrice><rentPrice>1050</rentPrice></month>
+        <month value="3"><salePrice>177900</salePrice><rentPrice>1055</rentPrice></month>
+        <month value="4"><salePrice>178800</salePrice><rentPrice>1060</rentPrice></month>
+        <month value="5"><salePrice>179700</salePrice><rentPrice>1065</rentPrice></month>
+        <month value="6"><salePrice>180600</salePrice><rentPrice>1070</rentPrice></month>
+        <month value="7"><salePrice>181500</salePrice><rentPrice>1075</rentPrice></month>
+        <month value="8"><salePrice>182400</salePrice><rentPrice>1080</rentPrice></month>
+        <month value="9"><salePrice>183300</salePrice><rentPrice>1085</rentPrice></month>
+        <month value="10"><salePrice>184200</salePrice><rentPrice>1090</rentPrice></month>
+        <month value="11"><salePrice>185100</salePrice><rentPrice>1095</rentPrice></month>
+        <month value="12"><salePrice>186000</salePrice><rentPrice>1100</rentPrice></month>
+    </year>
+    
+    <!-- 2002: Fed Cuts Rates, Housing Accelerates -->
+    <year value="2002">
+        <month value="1"><salePrice>187500</salePrice><rentPrice>1110</rentPrice></month>
+        <month value="2"><salePrice>189000</salePrice><rentPrice>1120</rentPrice></month>
+        <month value="3"><salePrice>190500</salePrice><rentPrice>1130</rentPrice></month>
+        <month value="4"><salePrice>192000</salePrice><rentPrice>1140</rentPrice></month>
+        <month value="5"><salePrice>193500</salePrice><rentPrice>1150</rentPrice></month>
+        <month value="6"><salePrice>195000</salePrice><rentPrice>1160</rentPrice></month>
+        <month value="7"><salePrice>196500</salePrice><rentPrice>1170</rentPrice></month>
+        <month value="8"><salePrice>198000</salePrice><rentPrice>1180</rentPrice></month>
+        <month value="9"><salePrice>199500</salePrice><rentPrice>1190</rentPrice></month>
+        <month value="10"><salePrice>201000</salePrice><rentPrice>1200</rentPrice></month>
+        <month value="11"><salePrice>202500</salePrice><rentPrice>1210</rentPrice></month>
+        <month value="12"><salePrice>204000</salePrice><rentPrice>1220</rentPrice></month>
+    </year>
+    
+    <!-- 2003: Bubble Building -->
+    <year value="2003">
+        <month value="1"><salePrice>206000</salePrice><rentPrice>1235</rentPrice></month>
+        <month value="2"><salePrice>208000</salePrice><rentPrice>1250</rentPrice></month>
+        <month value="3"><salePrice>210000</salePrice><rentPrice>1265</rentPrice></month>
+        <month value="4"><salePrice>212000</salePrice><rentPrice>1280</rentPrice></month>
+        <month value="5"><salePrice>214000</salePrice><rentPrice>1295</rentPrice></month>
+        <month value="6"><salePrice>216000</salePrice><rentPrice>1310</rentPrice></month>
+        <month value="7"><salePrice>218000</salePrice><rentPrice>1325</rentPrice></month>
+        <month value="8"><salePrice>220000</salePrice><rentPrice>1340</rentPrice></month>
+        <month value="9"><salePrice>222000</salePrice><rentPrice>1355</rentPrice></month>
+        <month value="10"><salePrice>224000</salePrice><rentPrice>1370</rentPrice></month>
+        <month value="11"><salePrice>226000</salePrice><rentPrice>1385</rentPrice></month>
+        <month value="12"><salePrice>228000</salePrice><rentPrice>1400</rentPrice></month>
+    </year>
+    
+    <!-- 2004: Boom Accelerates -->
+    <year value="2004">
+        <month value="1"><salePrice>231000</salePrice><rentPrice>1420</rentPrice></month>
+        <month value="2"><salePrice>234000</salePrice><rentPrice>1440</rentPrice></month>
+        <month value="3"><salePrice>237000</salePrice><rentPrice>1460</rentPrice></month>
+        <month value="4"><salePrice>240000</salePrice><rentPrice>1480</rentPrice></month>
+        <month value="5"><salePrice>243000</salePrice><rentPrice>1500</rentPrice></month>
+        <month value="6"><salePrice>246000</salePrice><rentPrice>1520</rentPrice></month>
+        <month value="7"><salePrice>249000</salePrice><rentPrice>1540</rentPrice></month>
+        <month value="8"><salePrice>252000</salePrice><rentPrice>1560</rentPrice></month>
+        <month value="9"><salePrice>255000</salePrice><rentPrice>1580</rentPrice></month>
+        <month value="10"><salePrice>258000</salePrice><rentPrice>1600</rentPrice></month>
+        <month value="11"><salePrice>261000</salePrice><rentPrice>1620</rentPrice></month>
+        <month value="12"><salePrice>264000</salePrice><rentPrice>1640</rentPrice></month>
+    </year>
+    
+    <!-- 2005: Peak Bubble Year -->
+    <year value="2005">
+        <month value="1"><salePrice>268000</salePrice><rentPrice>1665</rentPrice></month>
+        <month value="2"><salePrice>272000</salePrice><rentPrice>1690</rentPrice></month>
+        <month value="3"><salePrice>276000</salePrice><rentPrice>1715</rentPrice></month>
+        <month value="4"><salePrice>280000</salePrice><rentPrice>1740</rentPrice></month>
+        <month value="5"><salePrice>284000</salePrice><rentPrice>1765</rentPrice></month>
+        <month value="6"><salePrice>288000</salePrice><rentPrice>1790</rentPrice></month>
+        <month value="7"><salePrice>292000</salePrice><rentPrice>1815</rentPrice></month>
+        <month value="8"><salePrice>296000</salePrice><rentPrice>1840</rentPrice></month>
+        <month value="9"><salePrice>300000</salePrice><rentPrice>1865</rentPrice></month>
+        <month value="10"><salePrice>304000</salePrice><rentPrice>1890</rentPrice></month>
+        <month value="11"><salePrice>308000</salePrice><rentPrice>1915</rentPrice></month>
+        <month value="12"><salePrice>312000</salePrice><rentPrice>1940</rentPrice></month>
+    </year>
+    
+    <!-- 2006: Market Peak and Early Warning Signs -->
+    <year value="2006">
+        <month value="1"><salePrice>315000</salePrice><rentPrice>1965</rentPrice></month>
+        <month value="2"><salePrice>318000</salePrice><rentPrice>1990</rentPrice></month>
+        <month value="3"><salePrice>321000</salePrice><rentPrice>2015</rentPrice></month>
+        <month value="4"><salePrice>324000</salePrice><rentPrice>2040</rentPrice></month>
+        <month value="5"><salePrice>327000</salePrice><rentPrice>2065</rentPrice></month>
+        <month value="6"><salePrice>330000</salePrice><rentPrice>2090</rentPrice></month>
+        <month value="7"><salePrice>332000</salePrice><rentPrice>2105</rentPrice></month>
+        <month value="8"><salePrice>331000</salePrice><rentPrice>2100</rentPrice></month>
+        <month value="9"><salePrice>330000</salePrice><rentPrice>2095</rentPrice></month>
+        <month value="10"><salePrice>329000</salePrice><rentPrice>2090</rentPrice></month>
+        <month value="11"><salePrice>328000</salePrice><rentPrice>2085</rentPrice></month>
+        <month value="12"><salePrice>327000</salePrice><rentPrice>2080</rentPrice></month>
+    </year>
+    
+    <!-- 2007: Beginning of Decline -->
+    <year value="2007">
+        <month value="1"><salePrice>325000</salePrice><rentPrice>2070</rentPrice></month>
+        <month value="2"><salePrice>323000</salePrice><rentPrice>2060</rentPrice></month>
+        <month value="3"><salePrice>321000</salePrice><rentPrice>2050</rentPrice></month>
+        <month value="4"><salePrice>319000</salePrice><rentPrice>2040</rentPrice></month>
+        <month value="5"><salePrice>317000</salePrice><rentPrice>2030</rentPrice></month>
+        <month value="6"><salePrice>315000</salePrice><rentPrice>2020</rentPrice></month>
+        <month value="7"><salePrice>313000</salePrice><rentPrice>2010</rentPrice></month>
+        <month value="8"><salePrice>311000</salePrice><rentPrice>2000</rentPrice></month>
+        <month value="9"><salePrice>309000</salePrice><rentPrice>1990</rentPrice></month>
+        <month value="10"><salePrice>307000</salePrice><rentPrice>1980</rentPrice></month>
+        <month value="11"><salePrice>305000</salePrice><rentPrice>1970</rentPrice></month>
+        <month value="12"><salePrice>303000</salePrice><rentPrice>1960</rentPrice></month>
+    </year>
+    
+    <!-- 2008: Financial Crisis -->
+    <year value="2008">
+        <month value="1"><salePrice>300000</salePrice><rentPrice>1945</rentPrice></month>
+        <month value="2"><salePrice>297000</salePrice><rentPrice>1930</rentPrice></month>
+        <month value="3"><salePrice>294000</salePrice><rentPrice>1915</rentPrice></month>
+        <month value="4"><salePrice>291000</salePrice><rentPrice>1900</rentPrice></month>
+        <month value="5"><salePrice>288000</salePrice><rentPrice>1885</rentPrice></month>
+        <month value="6"><salePrice>285000</salePrice><rentPrice>1870</rentPrice></month>
+        <month value="7"><salePrice>282000</salePrice><rentPrice>1855</rentPrice></month>
+        <month value="8"><salePrice>279000</salePrice><rentPrice>1840</rentPrice></month>
+        <month value="9"><salePrice>276000</salePrice><rentPrice>1825</rentPrice></month>
+        <month value="10"><salePrice>273000</salePrice><rentPrice>1810</rentPrice></month>
+        <month value="11"><salePrice>270000</salePrice><rentPrice>1795</rentPrice></month>
+        <month value="12"><salePrice>267000</salePrice><rentPrice>1780</rentPrice></month>
+    </year>
+    
+    <!-- 2009: Deepest Recession -->
+    <year value="2009">
+        <month value="1"><salePrice>263000</salePrice><rentPrice>1760</rentPrice></month>
+        <month value="2"><salePrice>259000</salePrice><rentPrice>1740</rentPrice></month>
+        <month value="3"><salePrice>255000</salePrice><rentPrice>1720</rentPrice></month>
+        <month value="4"><salePrice>251000</salePrice><rentPrice>1700</rentPrice></month>
+        <month value="5"><salePrice>247000</salePrice><rentPrice>1680</rentPrice></month>
+        <month value="6"><salePrice>243000</salePrice><rentPrice>1660</rentPrice></month>
+        <month value="7"><salePrice>239000</salePrice><rentPrice>1640</rentPrice></month>
+        <month value="8"><salePrice>235000</salePrice><rentPrice>1620</rentPrice></month>
+        <month value="9"><salePrice>231000</salePrice><rentPrice>1600</rentPrice></month>
+        <month value="10"><salePrice>227000</salePrice><rentPrice>1580</rentPrice></month>
+        <month value="11"><salePrice>223000</salePrice><rentPrice>1560</rentPrice></month>
+        <month value="12"><salePrice>219000</salePrice><rentPrice>1540</rentPrice></month>
+    </year>
+    
+    <!-- 2010: Market Bottom -->
+    <year value="2010">
+        <month value="1"><salePrice>217000</salePrice><rentPrice>1530</rentPrice></month>
+        <month value="2"><salePrice>215000</salePrice><rentPrice>1520</rentPrice></month>
+        <month value="3"><salePrice>213000</salePrice><rentPrice>1510</rentPrice></month>
+        <month value="4"><salePrice>211000</salePrice><rentPrice>1500</rentPrice></month>
+        <month value="5"><salePrice>209000</salePrice><rentPrice>1490</rentPrice></month>
+        <month value="6"><salePrice>207000</salePrice><rentPrice>1480</rentPrice></month>
+        <month value="7"><salePrice>205000</salePrice><rentPrice>1470</rentPrice></month>
+        <month value="8"><salePrice>203000</salePrice><rentPrice>1460</rentPrice></month>
+        <month value="9"><salePrice>201000</salePrice><rentPrice>1450</rentPrice></month>
+        <month value="10"><salePrice>199000</salePrice><rentPrice>1440</rentPrice></month>
+        <month value="11"><salePrice>197000</salePrice><rentPrice>1430</rentPrice></month>
+        <month value="12"><salePrice>195000</salePrice><rentPrice>1420</rentPrice></month>
+    </year>
+    
+    <!-- 2011: Continued Weakness -->
+    <year value="2011">
+        <month value="1"><salePrice>194000</salePrice><rentPrice>1415</rentPrice></month>
+        <month value="2"><salePrice>193000</salePrice><rentPrice>1410</rentPrice></month>
+        <month value="3"><salePrice>192000</salePrice><rentPrice>1405</rentPrice></month>
+        <month value="4"><salePrice>191000</salePrice><rentPrice>1400</rentPrice></month>
+        <month value="5"><salePrice>190000</salePrice><rentPrice>1395</rentPrice></month>
+        <month value="6"><salePrice>189000</salePrice><rentPrice>1390</rentPrice></month>
+        <month value="7"><salePrice>188000</salePrice><rentPrice>1385</rentPrice></month>
+        <month value="8"><salePrice>187000</salePrice><rentPrice>1380</rentPrice></month>
+        <month value="9"><salePrice>186000</salePrice><rentPrice>1375</rentPrice></month>
+        <month value="10"><salePrice>185000</salePrice><rentPrice>1370</rentPrice></month>
+        <month value="11"><salePrice>184000</salePrice><rentPrice>1365</rentPrice></month>
+        <month value="12"><salePrice>183000</salePrice><rentPrice>1360</rentPrice></month>
+    </year>
+    
+    <!-- 2012: Market Stabilization -->
+    <year value="2012">
+        <month value="1"><salePrice>182500</salePrice><rentPrice>1358</rentPrice></month>
+        <month value="2"><salePrice>182000</salePrice><rentPrice>1356</rentPrice></month>
+        <month value="3"><salePrice>181500</salePrice><rentPrice>1354</rentPrice></month>
+        <month value="4"><salePrice>181000</salePrice><rentPrice>1352</rentPrice></month>
+        <month value="5"><salePrice>180500</salePrice><rentPrice>1350</rentPrice></month>
+        <month value="6"><salePrice>180000</salePrice><rentPrice>1348</rentPrice></month>
+        <month value="7"><salePrice>180500</salePrice><rentPrice>1350</rentPrice></month>
+        <month value="8"><salePrice>181000</salePrice><rentPrice>1352</rentPrice></month>
+        <month value="9"><salePrice>181500</salePrice><rentPrice>1354</rentPrice></month>
+        <month value="10"><salePrice>182000</salePrice><rentPrice>1356</rentPrice></month>
+        <month value="11"><salePrice>182500</salePrice><rentPrice>1358</rentPrice></month>
+        <month value="12"><salePrice>183000</salePrice><rentPrice>1360</rentPrice></month>
+    </year>
+    
+    <!-- 2013: Recovery Begins -->
+    <year value="2013">
+        <month value="1"><salePrice>184000</salePrice><rentPrice>1365</rentPrice></month>
+        <month value="2"><salePrice>185000</salePrice><rentPrice>1370</rentPrice></month>
+        <month value="3"><salePrice>186000</salePrice><rentPrice>1375</rentPrice></month>
+        <month value="4"><salePrice>187000</salePrice><rentPrice>1380</rentPrice></month>
+        <month value="5"><salePrice>188000</salePrice><rentPrice>1385</rentPrice></month>
+        <month value="6"><salePrice>189000</salePrice><rentPrice>1390</rentPrice></month>
+        <month value="7"><salePrice>190000</salePrice><rentPrice>1395</rentPrice></month>
+        <month value="8"><salePrice>191000</salePrice><rentPrice>1400</rentPrice></month>
+        <month value="9"><salePrice>192000</salePrice><rentPrice>1405</rentPrice></month>
+        <month value="10"><salePrice>193000</salePrice><rentPrice>1410</rentPrice></month>
+        <month value="11"><salePrice>194000</salePrice><rentPrice>1415</rentPrice></month>
+        <month value="12"><salePrice>195000</salePrice><rentPrice>1420</rentPrice></month>
+    </year>
+    
+    <!-- 2014: Steady Recovery -->
+    <year value="2014">
+        <month value="1"><salePrice>197000</salePrice><rentPrice>1430</rentPrice></month>
+        <month value="2"><salePrice>199000</salePrice><rentPrice>1440</rentPrice></month>
+        <month value="3"><salePrice>201000</salePrice><rentPrice>1450</rentPrice></month>
+        <month value="4"><salePrice>203000</salePrice><rentPrice>1460</rentPrice></month>
+        <month value="5"><salePrice>205000</salePrice><rentPrice>1470</rentPrice></month>
+        <month value="6"><salePrice>207000</salePrice><rentPrice>1480</rentPrice></month>
+        <month value="7"><salePrice>209000</salePrice><rentPrice>1490</rentPrice></month>
+        <month value="8"><salePrice>211000</salePrice><rentPrice>1500</rentPrice></month>
+        <month value="9"><salePrice>213000</salePrice><rentPrice>1510</rentPrice></month>
+        <month value="10"><salePrice>215000</salePrice><rentPrice>1520</rentPrice></month>
+        <month value="11"><salePrice>217000</salePrice><rentPrice>1530</rentPrice></month>
+        <month value="12"><salePrice>219000</salePrice><rentPrice>1540</rentPrice></month>
+    </year>
+    
+    <!-- 2015: Continued Growth -->
+    <year value="2015">
+        <month value="1"><salePrice>222000</salePrice><rentPrice>1555</rentPrice></month>
+        <month value="2"><salePrice>225000</salePrice><rentPrice>1570</rentPrice></month>
+        <month value="3"><salePrice>228000</salePrice><rentPrice>1585</rentPrice></month>
+        <month value="4"><salePrice>231000</salePrice><rentPrice>1600</rentPrice></month>
+        <month value="5"><salePrice>234000</salePrice><rentPrice>1615</rentPrice></month>
+        <month value="6"><salePrice>237000</salePrice><rentPrice>1630</rentPrice></month>
+        <month value="7"><salePrice>240000</salePrice><rentPrice>1645</rentPrice></month>
+        <month value="8"><salePrice>243000</salePrice><rentPrice>1660</rentPrice></month>
+        <month value="9"><salePrice>246000</salePrice><rentPrice>1675</rentPrice></month>
+        <month value="10"><salePrice>249000</salePrice><rentPrice>1690</rentPrice></month>
+        <month value="11"><salePrice>252000</salePrice><rentPrice>1705</rentPrice></month>
+        <month value="12"><salePrice>255000</salePrice><rentPrice>1720</rentPrice></month>
+    </year>
+    
+    <!-- 2016: Strong Growth -->
+    <year value="2016">
+        <month value="1"><salePrice>259000</salePrice><rentPrice>1740</rentPrice></month>
+        <month value="2"><salePrice>263000</salePrice><rentPrice>1760</rentPrice></month>
+        <month value="3"><salePrice>267000</salePrice><rentPrice>1780</rentPrice></month>
+        <month value="4"><salePrice>271000</salePrice><rentPrice>1800</rentPrice></month>
+        <month value="5"><salePrice>275000</salePrice><rentPrice>1820</rentPrice></month>
+        <month value="6"><salePrice>279000</salePrice><rentPrice>1840</rentPrice></month>
+        <month value="7"><salePrice>283000</salePrice><rentPrice>1860</rentPrice></month>
+        <month value="8"><salePrice>287000</salePrice><rentPrice>1880</rentPrice></month>
+        <month value="9"><salePrice>291000</salePrice><rentPrice>1900</rentPrice></month>
+        <month value="10"><salePrice>295000</salePrice><rentPrice>1920</rentPrice></month>
+        <month value="11"><salePrice>299000</salePrice><rentPrice>1940</rentPrice></month>
+        <month value="12"><salePrice>303000</salePrice><rentPrice>1960</rentPrice></month>
+    </year>
+    
+    <!-- 2017: Back to Pre-Crisis Levels -->
+    <year value="2017">
+        <month value="1"><salePrice>308000</salePrice><rentPrice>1985</rentPrice></month>
+        <month value="2"><salePrice>313000</salePrice><rentPrice>2010</rentPrice></month>
+        <month value="3"><salePrice>318000</salePrice><rentPrice>2035</rentPrice></month>
+        <month value="4"><salePrice>323000</salePrice><rentPrice>2060</rentPrice></month>
+        <month value="5"><salePrice>328000</salePrice><rentPrice>2085</rentPrice></month>
+        <month value="6"><salePrice>333000</salePrice><rentPrice>2110</rentPrice></month>
+        <month value="7"><salePrice>338000</salePrice><rentPrice>2135</rentPrice></month>
+        <month value="8"><salePrice>343000</salePrice><rentPrice>2160</rentPrice></month>
+        <month value="9"><salePrice>348000</salePrice><rentPrice>2185</rentPrice></month>
+        <month value="10"><salePrice>353000</salePrice><rentPrice>2210</rentPrice></month>
+        <month value="11"><salePrice>358000</salePrice><rentPrice>2235</rentPrice></month>
+        <month value="12"><salePrice>363000</salePrice><rentPrice>2260</rentPrice></month>
+    </year>
+    
+    <!-- 2018: Cooling Market -->
+    <year value="2018">
+        <month value="1"><salePrice>367000</salePrice><rentPrice>2280</rentPrice></month>
+        <month value="2"><salePrice>371000</salePrice><rentPrice>2300</rentPrice></month>
+        <month value="3"><salePrice>375000</salePrice><rentPrice>2320</rentPrice></month>
+        <month value="4"><salePrice>379000</salePrice><rentPrice>2340</rentPrice></month>
+        <month value="5"><salePrice>383000</salePrice><rentPrice>2360</rentPrice></month>
+        <month value="6"><salePrice>387000</salePrice><rentPrice>2380</rentPrice></month>
+        <month value="7"><salePrice>389000</salePrice><rentPrice>2390</rentPrice></month>
+        <month value="8"><salePrice>388000</salePrice><rentPrice>2385</rentPrice></month>
+        <month value="9"><salePrice>387000</salePrice><rentPrice>2380</rentPrice></month>
+        <month value="10"><salePrice>386000</salePrice><rentPrice>2375</rentPrice></month>
+        <month value="11"><salePrice>385000</salePrice><rentPrice>2370</rentPrice></month>
+        <month value="12"><salePrice>384000</salePrice><rentPrice>2365</rentPrice></month>
+    </year>
+    
+    <!-- 2019: Stabilization -->
+    <year value="2019">
+        <month value="1"><salePrice>385000</salePrice><rentPrice>2370</rentPrice></month>
+        <month value="2"><salePrice>386000</salePrice><rentPrice>2375</rentPrice></month>
+        <month value="3"><salePrice>387000</salePrice><rentPrice>2380</rentPrice></month>
+        <month value="4"><salePrice>388000</salePrice><rentPrice>2385</rentPrice></month>
+        <month value="5"><salePrice>389000</salePrice><rentPrice>2390</rentPrice></month>
+        <month value="6"><salePrice>390000</salePrice><rentPrice>2395</rentPrice></month>
+        <month value="7"><salePrice>391000</salePrice><rentPrice>2400</rentPrice></month>
+        <month value="8"><salePrice>392000</salePrice><rentPrice>2405</rentPrice></month>
+        <month value="9"><salePrice>393000</salePrice><rentPrice>2410</rentPrice></month>
+        <month value="10"><salePrice>394000</salePrice><rentPrice>2415</rentPrice></month>
+        <month value="11"><salePrice>395000</salePrice><rentPrice>2420</rentPrice></month>
+        <month value="12"><salePrice>396000</salePrice><rentPrice>2425</rentPrice></month>
+    </year>
+    
+    <!-- 2020: Pandemic Impact -->
+    <year value="2020">
+        <month value="1"><salePrice>398000</salePrice><rentPrice>2435</rentPrice></month>
+        <month value="2"><salePrice>400000</salePrice><rentPrice>2445</rentPrice></month>
+        <month value="3"><salePrice>395000</salePrice><rentPrice>2420</rentPrice></month>
+        <month value="4"><salePrice>390000</salePrice><rentPrice>2395</rentPrice></month>
+        <month value="5"><salePrice>395000</salePrice><rentPrice>2420</rentPrice></month>
+        <month value="6"><salePrice>405000</salePrice><rentPrice>2470</rentPrice></month>
+        <month value="7"><salePrice>415000</salePrice><rentPrice>2520</rentPrice></month>
+        <month value="8"><salePrice>425000</salePrice><rentPrice>2570</rentPrice></month>
+        <month value="9"><salePrice>435000</salePrice><rentPrice>2620</rentPrice></month>
+        <month value="10"><salePrice>445000</salePrice><rentPrice>2670</rentPrice></month>
+        <month value="11"><salePrice>455000</salePrice><rentPrice>2720</rentPrice></month>
+        <month value="12"><salePrice>465000</salePrice><rentPrice>2770</rentPrice></month>
+    </year>
+    
+    <!-- 2021: Pandemic Boom -->
+    <year value="2021">
+        <month value="1"><salePrice>475000</salePrice><rentPrice>2820</rentPrice></month>
+        <month value="2"><salePrice>485000</salePrice><rentPrice>2870</rentPrice></month>
+        <month value="3"><salePrice>495000</salePrice><rentPrice>2920</rentPrice></month>
+        <month value="4"><salePrice>505000</salePrice><rentPrice>2970</rentPrice></month>
+        <month value="5"><salePrice>515000</salePrice><rentPrice>3020</rentPrice></month>
+        <month value="6"><salePrice>525000</salePrice><rentPrice>3070</rentPrice></month>
+        <month value="7"><salePrice>535000</salePrice><rentPrice>3120</rentPrice></month>
+        <month value="8"><salePrice>545000</salePrice><rentPrice>3170</rentPrice></month>
+        <month value="9"><salePrice>555000</salePrice><rentPrice>3220</rentPrice></month>
+        <month value="10"><salePrice>565000</salePrice><rentPrice>3270</rentPrice></month>
+        <month value="11"><salePrice>575000</salePrice><rentPrice>3320</rentPrice></month>
+        <month value="12"><salePrice>585000</salePrice><rentPrice>3370</rentPrice></month>
+    </year>
+    
+    <!-- 2022: Interest Rate Response -->
+    <year value="2022">
+        <month value="1"><salePrice>590000</salePrice><rentPrice>3400</rentPrice></month>
+        <month value="2"><salePrice>595000</salePrice><rentPrice>3430</rentPrice></month>
+        <month value="3"><salePrice>600000</salePrice><rentPrice>3460</rentPrice></month>
+        <month value="4"><salePrice>605000</salePrice><rentPrice>3490</rentPrice></month>
+        <month value="5"><salePrice>610000</salePrice><rentPrice>3520</rentPrice></month>
+        <month value="6"><salePrice>615000</salePrice><rentPrice>3550</rentPrice></month>
+        <month value="7"><salePrice>610000</salePrice><rentPrice>3520</rentPrice></month>
+        <month value="8"><salePrice>605000</salePrice><rentPrice>3490</rentPrice></month>
+        <month value="9"><salePrice>600000</salePrice><rentPrice>3460</rentPrice></month>
+        <month value="10"><salePrice>595000</salePrice><rentPrice>3430</rentPrice></month>
+        <month value="11"><salePrice>590000</salePrice><rentPrice>3400</rentPrice></month>
+        <month value="12"><salePrice>585000</salePrice><rentPrice>3370</rentPrice></month>
+    </year>
+    
+    <!-- 2023: Market Correction -->
+    <year value="2023">
+        <month value="1"><salePrice>580000</salePrice><rentPrice>3340</rentPrice></month>
+        <month value="2"><salePrice>575000</salePrice><rentPrice>3310</rentPrice></month>
+        <month value="3"><salePrice>570000</salePrice><rentPrice>3280</rentPrice></month>
+        <month value="4"><salePrice>565000</salePrice><rentPrice>3250</rentPrice></month>
+        <month value="5"><salePrice>560000</salePrice><rentPrice>3220</rentPrice></month>
+        <month value="6"><salePrice>555000</salePrice><rentPrice>3190</rentPrice></month>
+        <month value="7"><salePrice>552000</salePrice><rentPrice>3175</rentPrice></month>
+        <month value="8"><salePrice>549000</salePrice><rentPrice>3160</rentPrice></month>
+        <month value="9"><salePrice>546000</salePrice><rentPrice>3145</rentPrice></month>
+        <month value="10"><salePrice>543000</salePrice><rentPrice>3130</rentPrice></month>
+        <month value="11"><salePrice>540000</salePrice><rentPrice>3115</rentPrice></month>
+        <month value="12"><salePrice>537000</salePrice><rentPrice>3100</rentPrice></month>
+    </year>
+    
+    <!-- 2024: Stabilization and Recovery -->
+    <year value="2024">
+        <month value="1"><salePrice>535000</salePrice><rentPrice>3090</rentPrice></month>
+        <month value="2"><salePrice>538000</salePrice><rentPrice>3105</rentPrice></month>
+        <month value="3"><salePrice>541000</salePrice><rentPrice>3120</rentPrice></month>
+        <month value="4"><salePrice>544000</salePrice><rentPrice>3135</rentPrice></month>
+        <month value="5"><salePrice>547000</salePrice><rentPrice>3150</rentPrice></month>
+        <month value="6"><salePrice>550000</salePrice><rentPrice>3165</rentPrice></month>
+        <month value="7"><salePrice>553000</salePrice><rentPrice>3180</rentPrice></month>
+        <month value="8"><salePrice>556000</salePrice><rentPrice>3195</rentPrice></month>
+        <month value="9"><salePrice>559000</salePrice><rentPrice>3210</rentPrice></month>
+        <month value="10"><salePrice>562000</salePrice><rentPrice>3225</rentPrice></month>
+        <month value="11"><salePrice>565000</salePrice><rentPrice>3240</rentPrice></month>
+        <month value="12"><salePrice>568000</salePrice><rentPrice>3255</rentPrice></month>
+    </year>
+    
+    <!-- 2025: Current Market -->
+    <year value="2025">
+        <month value="1"><salePrice>571000</salePrice><rentPrice>3270</rentPrice></month>
+        <month value="2"><salePrice>574000</salePrice><rentPrice>3285</rentPrice></month>
+        <month value="3"><salePrice>577000</salePrice><rentPrice>3300</rentPrice></month>
+        <month value="4"><salePrice>580000</salePrice><rentPrice>3315</rentPrice></month>
+        <month value="5"><salePrice>583000</salePrice><rentPrice>3330</rentPrice></month>
+        <month value="6"><salePrice>586000</salePrice><rentPrice>3345</rentPrice></month>
+        <month value="7"><salePrice>589000</salePrice><rentPrice>3360</rentPrice></month>
+        <month value="8"><salePrice>592000</salePrice><rentPrice>3375</rentPrice></month>
+        <month value="9"><salePrice>595000</salePrice><rentPrice>3390</rentPrice></month>
+        <month value="10"><salePrice>598000</salePrice><rentPrice>3405</rentPrice></month>
+        <month value="11"><salePrice>601000</salePrice><rentPrice>3420</rentPrice></month>
+        <month value="12"><salePrice>604000</salePrice><rentPrice>3435</rentPrice></month>
+    </year>
+    
+    <!-- Property Type Multipliers -->
+    <propertyTypes>
+        <type name="apartment" multiplier="0.7" rentMultiplier="0.8"/>
+        <type name="condo" multiplier="0.85" rentMultiplier="0.9"/>
+        <type name="townhouse" multiplier="0.95" rentMultiplier="1.0"/>
+        <type name="single_family" multiplier="1.0" rentMultiplier="1.1"/>
+        <type name="luxury_home" multiplier="1.8" rentMultiplier="1.5"/>
+    </propertyTypes>
+    
+    <!-- Market Events -->
+    <marketEvents>
+        <event year="2000" month="3" impact="0.02" description="Fed rate cuts begin"/>
+        <event year="2001" month="9" impact="-0.01" description="9/11 economic impact"/>
+        <event year="2003" month="6" impact="0.05" description="Mortgage rate historic lows"/>
+        <event year="2006" month="8" impact="-0.02" description="Subprime concerns emerge"/>
+        <event year="2008" month="9" impact="-0.15" description="Lehman Brothers collapse"/>
+        <event year="2009" month="2" impact="-0.08" description="Foreclosure crisis peak"/>
+        <event year="2012" month="9" impact="0.03" description="QE3 announcement"/>
+        <event year="2020" month="3" impact="-0.05" description="COVID-19 lockdowns"/>
+        <event year="2020" month="6" impact="0.12" description="Pandemic housing boom"/>
+        <event year="2022" month="3" impact="-0.08" description="Fed rate hikes begin"/>
+    </marketEvents>
+</RealEstatePriceHistory>

@@ -1,5 +1,5 @@
 class SimLifeGame {
-    static VERSION = '2.1.0'; // Update this when making changes to the game
+    static VERSION = '2.5.1'; // Update this when making changes to the game
     
     constructor() {
         this.gameState = {
@@ -13,6 +13,7 @@ class SimLifeGame {
             yearsAtCurrentLevel: 0,
             nextPromotionYear: null, // Will be set when starting career
             fixedCosts: 0,
+            baseFoodCost: 600, // Base food cost that will be randomized monthly
             happiness: 100,
             negativeCashStreak: 0,
             playerStatus: {
@@ -63,12 +64,20 @@ class SimLifeGame {
         this.sideJobs = {};
         this.eventCooldowns = {};
         // Stock and crypto prices will be generated after loading stock data
+        this.newsData = {}; // News events loaded from XML
+        this.stockNewsData = {}; // Stock news from individual XML files
+        this.realEstatePriceData = {}; // Historical real estate prices
+        this.propertyTypeMultipliers = {}; // Property type pricing multipliers
         
         // Audio setup
         this.backgroundMusic = null;
         this.musicEnabled = true;
         
         this.init();
+        this.loadNews().then(() => {
+            this.initializeNewsTicker();
+            this.updateNewsTicker();
+        });
     }
     
     // Background Music Functions
@@ -138,6 +147,7 @@ class SimLifeGame {
         await this.loadPets();
         await this.loadSideJobs();
         await this.loadStocks();
+        await this.loadRealEstatePrices();
         // Don't automatically show profession selection - let player setup handle it
         this.generateProfessionCards();
     }
@@ -185,7 +195,7 @@ class SimLifeGame {
             card.className = 'profession-card';
             card.onclick = () => this.selectProfession(id);
             
-            const fixedCostsTotal = profession.fixedCosts.food + 390 + 20; // utilities, entertainment etc. (no housing - living with parents)
+            const fixedCostsTotal = profession.fixedCosts.food + 390 + 20; // food (will vary ±20%), utilities, entertainment etc. (no housing - living with parents)
             // Calculate career-specific raise range based on base rate and normal distribution
             const baseRaise = profession.raise;
             const minRaise = Math.max(0.015, baseRaise - 0.005); // Base - 0.5%, minimum 1.5%
@@ -267,7 +277,8 @@ class SimLifeGame {
         const profession = this.professions[professionId];
         
         this.gameState.grossAnnual = this.randomBetweenInt(profession.salaryRange[0], profession.salaryRange[1]);
-        this.gameState.fixedCosts = profession.fixedCosts.food + 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
+        this.gameState.fixedCosts = 390 + 20; // utilities, phone, internet, entertainment (Netflix, Crunchyroll) etc. (no housing - living with parents)
+        this.gameState.baseFoodCost = profession.fixedCosts.food; // Store base food cost for random generation
         
         // Initialize career progression
         this.gameState.careerLevel = 'junior';
@@ -427,14 +438,19 @@ class SimLifeGame {
     calculateMonthlyExpenses() {
         let totalExpenses = this.gameState.fixedCosts;
         
+        // Add random food expenses (base ±20%)
+        const baseFoodCost = this.gameState.baseFoodCost || 600;
+        const randomFactor = 0.8 + (Math.random() * 0.4); // 0.8 to 1.2 (±20%)
+        const monthlyFoodCost = Math.round(baseFoodCost * randomFactor);
+        totalExpenses += monthlyFoodCost;
+        
         // Add loan payments
         this.gameState.loans.forEach(loan => {
             totalExpenses += Math.round(loan.monthlyPayment);
         });
         
-        // Add car maintenance, insurance, and license fees
+        // Add car insurance and license fees (maintenance removed)
         this.gameState.cars.forEach(car => {
-            totalExpenses += car.maintenance;
             totalExpenses += car.insurance || 0;
             totalExpenses += car.licensePlate || 0;
         });
@@ -1407,6 +1423,8 @@ class SimLifeGame {
             const changeSymbol = priceChange >= 0 ? '+' : '';
             
             const stockInfo = this.stocksData[symbol] || { name: symbol };
+            const stockNews = this.getStockNews(symbol);
+            
             stockDiv.innerHTML = `
                 <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 10px;">
                     <div>
@@ -1427,6 +1445,13 @@ class SimLifeGame {
                         <div style="font-size: 0.85em; color: ${changeColor}; font-weight: bold;">${changeSymbol}${priceChange.toFixed(1)}% this month</div>
                     </div>
                 </div>
+                
+                ${stockNews ? `
+                    <div style="background: #e3f2fd; padding: 10px; border-radius: 3px; margin-bottom: 10px; border-left: 4px solid #2196f3;">
+                        <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 5px; color: #1976d2;">📰 ${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} News</div>
+                        <div style="font-size: 0.85em; color: #333; line-height: 1.4;">${stockNews}</div>
+                    </div>
+                ` : ''}
                 
                 <div style="background: #f8f9fa; padding: 10px; border-radius: 3px; margin-bottom: 10px;">
                     <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 5px;">📈 12-Month Price History</div>
@@ -2062,12 +2087,25 @@ class SimLifeGame {
                     </div>
                 `;
             } else {
+                // Calculate mortgage payment for display
+                const downPayment = Math.floor(property.price * 0.2); // 20% down payment
+                const loanAmount = property.price - downPayment;
+                const annualRate = 0.045; // 4.5% APR for mortgages
+                const termMonths = 360; // 30 years
+                const monthlyMortgagePayment = this.calculateMonthlyPayment(loanAmount, annualRate, termMonths);
+                
                 // Purchase property display
                 div.innerHTML = `
                     <div>
                         <strong>${property.emoji} ${property.name}</strong>
                         <div style="font-size: 0.9em; color: #666; margin: 5px 0;">
                             Price: $${property.price.toLocaleString()} | Maintenance: $${property.maintenance}/month | Property Tax: $${property.propertyTax}/month
+                        </div>
+                        <div style="font-size: 0.85em; color: #007bff; margin: 5px 0; font-weight: bold;">
+                            💰 Monthly Mortgage Payment: $${Math.round(monthlyMortgagePayment).toLocaleString()}/month (30yr @ 4.5%)
+                        </div>
+                        <div style="font-size: 0.8em; color: #666; margin: 5px 0;">
+                            Down Payment (20%): $${downPayment.toLocaleString()} | Total Monthly Cost: $${(Math.round(monthlyMortgagePayment) + property.maintenance + property.propertyTax).toLocaleString()}
                         </div>
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <div style="font-size: 0.85em; color: #666;">
@@ -2198,8 +2236,17 @@ class SimLifeGame {
         ];
     }
     
-    // Initialize real estate prices with base values
+    // Initialize real estate prices based on current game year/month
     initializeRealEstatePrices() {
+        if (Object.keys(this.realEstatePriceData).length > 0) {
+            this.updateRealEstatePricesFromHistory();
+        } else {
+            this.initializeDefaultRealEstatePrices();
+        }
+    }
+    
+    // Initialize real estate prices with base values (fallback)
+    initializeDefaultRealEstatePrices() {
         this.gameState.realEstatePrices = {
             // Purchase properties
             studio_apartment: 150000,
@@ -2218,23 +2265,38 @@ class SimLifeGame {
         };
     }
     
-    // Update real estate prices monthly with reasonable fluctuations
+    // Update real estate prices monthly using historical data
     updateRealEstatePrices() {
-        Object.keys(this.gameState.realEstatePrices).forEach(propertyId => {
-            const currentPrice = this.gameState.realEstatePrices[propertyId];
+        if (Object.keys(this.realEstatePriceData).length > 0) {
+            // Use historical data
+            this.updateRealEstatePricesFromHistory();
             
-            // Price change between -3% to +5% monthly (realistic market fluctuation)
-            const changePercent = this.randomBetweenInt(-3, 5) / 100;
-            const newPrice = Math.round(currentPrice * (1 + changePercent));
+            // Log significant market events occasionally
+            if (this.gameState.currentMonth % 6 === 0) {
+                const marketEvent = this.getCurrentMarketEvent();
+                if (marketEvent) {
+                    this.log(`🏠 Real Estate Market: ${marketEvent}`, 'info');
+                } else {
+                    this.log('📈 Real estate market update: Property prices have adjusted based on historical market conditions.', 'info');
+                }
+            }
+        } else {
+            // Fallback to random fluctuations
+            Object.keys(this.gameState.realEstatePrices).forEach(propertyId => {
+                const currentPrice = this.gameState.realEstatePrices[propertyId];
+                
+                // Price change between -3% to +5% monthly (realistic market fluctuation)
+                const changePercent = this.randomBetweenInt(-3, 5) / 100;
+                const newPrice = Math.round(currentPrice * (1 + changePercent));
+                
+                // Ensure minimum price floors to prevent unrealistic crashes
+                const minPrice = this.getMinimumPrice(propertyId);
+                this.gameState.realEstatePrices[propertyId] = Math.max(newPrice, minPrice);
+            });
             
-            // Ensure minimum price floors to prevent unrealistic crashes
-            const minPrice = this.getMinimumPrice(propertyId);
-            this.gameState.realEstatePrices[propertyId] = Math.max(newPrice, minPrice);
-        });
-        
-        // Log significant price changes occasionally
-        if (this.gameState.currentMonth % 6 === 0) { // Every 6 months
-            this.log('📈 Real estate market update: Property prices have adjusted based on market conditions.', 'info');
+            if (this.gameState.currentMonth % 6 === 0) {
+                this.log('📈 Real estate market update: Property prices have adjusted based on market conditions.', 'info');
+            }
         }
     }
     
@@ -3126,6 +3188,8 @@ class SimLifeGame {
         this.checkLotteryWinnings();
         
         this.updateUI();
+        this.updateNewsTicker();
+        this.showMonthlyNews();
         this.log('--- NEW MONTH ---', 'info');
     }
     
@@ -4062,6 +4126,418 @@ class SimLifeGame {
         console.log('Generated stock and crypto prices');
     }
 
+    async loadNews() {
+        try {
+            console.log('Loading news data...');
+            const response = await fetch('news/news.xml');
+            
+            if (!response.ok) {
+                console.log('News XML file not accessible. News feature disabled.');
+                this.newsData = {};
+                return;
+            }
+            
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+            
+            // Parse the XML into our news data structure
+            this.newsData = {};
+            const newsEntries = xmlDoc.getElementsByTagName('news_entry');
+            
+            for (let i = 0; i < newsEntries.length; i++) {
+                const entry = newsEntries[i];
+                const date = entry.getElementsByTagName('date')[0].textContent;
+                const category = entry.getElementsByTagName('category')[0].textContent;
+                const title = entry.getElementsByTagName('title')[0].textContent;
+                const content = entry.getElementsByTagName('content')[0].textContent;
+                
+                if (!this.newsData[date]) {
+                    this.newsData[date] = [];
+                }
+                
+                this.newsData[date].push({
+                    category: category,
+                    title: title,
+                    content: content
+                });
+            }
+            
+            console.log('Loaded news data for', Object.keys(this.newsData).length, 'months');
+        } catch (error) {
+            console.error('Error loading news data:', error);
+            this.newsData = {};
+        }
+    }
+
+    // Load historical real estate price data from XML
+    async loadRealEstatePrices() {
+        try {
+            console.log('Loading real estate price history...');
+            const response = await fetch('RealEstate/RealEstatePriceHistory.xml');
+            if (!response.ok) {
+                console.warn('Could not load real estate price history, using default pricing');
+                this.initializeDefaultRealEstatePrices();
+                return;
+            }
+            
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+            
+            // Parse historical data by year and month
+            const years = xmlDoc.querySelectorAll('year');
+            years.forEach(yearElement => {
+                const year = parseInt(yearElement.getAttribute('value'));
+                const months = yearElement.querySelectorAll('month');
+                
+                if (!this.realEstatePriceData[year]) {
+                    this.realEstatePriceData[year] = {};
+                }
+                
+                months.forEach(monthElement => {
+                    const month = parseInt(monthElement.getAttribute('value'));
+                    const salePrice = parseInt(monthElement.querySelector('salePrice').textContent);
+                    const rentPrice = parseInt(monthElement.querySelector('rentPrice').textContent);
+                    
+                    this.realEstatePriceData[year][month] = {
+                        salePrice: salePrice,
+                        rentPrice: rentPrice
+                    };
+                });
+            });
+            
+            // Parse property type multipliers
+            this.propertyTypeMultipliers = {};
+            const propertyTypes = xmlDoc.querySelectorAll('type');
+            propertyTypes.forEach(typeElement => {
+                const name = typeElement.getAttribute('name');
+                const multiplier = parseFloat(typeElement.getAttribute('multiplier'));
+                const rentMultiplier = parseFloat(typeElement.getAttribute('rentMultiplier'));
+                
+                this.propertyTypeMultipliers[name] = {
+                    sale: multiplier,
+                    rent: rentMultiplier
+                };
+            });
+            
+            console.log('Real estate price history loaded successfully');
+            
+        } catch (error) {
+            console.error('Error loading real estate prices:', error);
+            this.initializeDefaultRealEstatePrices();
+        }
+    }
+    
+    // Get historical price data for specific year/month
+    getHistoricalRealEstatePrice(year, month) {
+        if (this.realEstatePriceData[year] && this.realEstatePriceData[year][month]) {
+            return this.realEstatePriceData[year][month];
+        }
+        
+        // Fallback to nearest available data
+        const availableYears = Object.keys(this.realEstatePriceData).map(y => parseInt(y)).sort();
+        if (availableYears.length === 0) return null;
+        
+        const nearestYear = availableYears.reduce((prev, curr) => {
+            return Math.abs(curr - year) < Math.abs(prev - year) ? curr : prev;
+        });
+        
+        if (this.realEstatePriceData[nearestYear]) {
+            const availableMonths = Object.keys(this.realEstatePriceData[nearestYear]).map(m => parseInt(m)).sort();
+            const nearestMonth = availableMonths.reduce((prev, curr) => {
+                return Math.abs(curr - month) < Math.abs(prev - month) ? curr : prev;
+            });
+            
+            return this.realEstatePriceData[nearestYear][nearestMonth];
+        }
+        
+        return null;
+    }
+    
+    // Update real estate prices based on historical data
+    updateRealEstatePricesFromHistory() {
+        const year = this.gameState.currentYear;
+        const month = this.gameState.currentMonth;
+        
+        // Get historical prices for current date
+        const historicalData = this.getHistoricalRealEstatePrice(year, month);
+        if (!historicalData) {
+            console.warn(`No historical data for ${year}-${month}, using defaults`);
+            this.initializeDefaultRealEstatePrices();
+            return;
+        }
+        
+        const { salePrice, rentPrice } = historicalData;
+        
+        // Map property types to their multipliers
+        const propertyMapping = {
+            studio_apartment: 'apartment',
+            one_bedroom_condo: 'condo', 
+            two_bedroom_house: 'townhouse',
+            three_bedroom_house: 'single_family',
+            luxury_penthouse: 'luxury_home',
+            vacation_cabin: 'single_family',
+            luxury_mansion: 'luxury_home',
+            
+            studio_rental: 'apartment',
+            one_bedroom_rental: 'condo',
+            two_bedroom_rental: 'townhouse', 
+            luxury_apartment_rental: 'luxury_home'
+        };
+        
+        this.gameState.realEstatePrices = {};
+        
+        // Calculate prices for each property type
+        Object.keys(propertyMapping).forEach(propertyId => {
+            const propertyType = propertyMapping[propertyId];
+            const multipliers = this.propertyTypeMultipliers[propertyType];
+            
+            if (propertyId.includes('rental')) {
+                // Rental properties
+                this.gameState.realEstatePrices[propertyId] = Math.round(
+                    rentPrice * (multipliers?.rent || 1.0)
+                );
+            } else {
+                // Purchase properties
+                this.gameState.realEstatePrices[propertyId] = Math.round(
+                    salePrice * (multipliers?.sale || 1.0)
+                );
+            }
+        });
+    }
+    
+    // Get current market event description based on historical data
+    getCurrentMarketEvent() {
+        const year = this.gameState.currentYear;
+        const month = this.gameState.currentMonth;
+        
+        // Key market events with descriptions
+        const marketEvents = {
+            '2000-3': 'Fed rate cuts begin to stimulate housing market',
+            '2001-9': '9/11 economic impact creates temporary market uncertainty',
+            '2003-6': 'Mortgage rates reach historic lows, boosting demand',
+            '2006-8': 'Subprime mortgage concerns begin to emerge',
+            '2008-9': 'Lehman Brothers collapse triggers housing crisis',
+            '2009-2': 'Foreclosure crisis reaches peak levels',
+            '2012-9': 'QE3 announcement helps stabilize housing market',
+            '2020-3': 'COVID-19 lockdowns create initial market uncertainty',
+            '2020-6': 'Pandemic-driven housing boom accelerates prices',
+            '2022-3': 'Federal Reserve rate hikes begin to cool market'
+        };
+        
+        return marketEvents[`${year}-${month}`] || null;
+    }
+
+    showMonthlyNews() {
+        const dateKey = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
+        const newsForMonth = this.newsData[dateKey];
+        
+        if (!newsForMonth || newsForMonth.length === 0) {
+            return; // No news for this month
+        }
+        
+        // Create news popup HTML
+        const categoryEnglish = {
+            '國際': '🌍 International',
+            '美國': '🇺🇸 USA', 
+            '財經': '💰 Financial',
+            '科技': '🔬 Technology',
+            '房產': '🏠 Real Estate'
+        };
+        
+        let newsHTML = `
+            <div style="max-height: 500px; overflow-y: auto;">
+                <h3 style="margin: 0 0 15px 0; color: #333; text-align: center;">
+                    📰 ${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} News
+                </h3>
+        `;
+        
+        newsForMonth.forEach(news => {
+            const categoryIcon = categoryEnglish[news.category] || news.category;
+            newsHTML += `
+                <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #007bff; background: #f8f9fa; border-radius: 4px;">
+                    <div style="font-weight: bold; color: #007bff; font-size: 0.9em; margin-bottom: 5px;">
+                        ${categoryIcon}
+                    </div>
+                    <div style="font-weight: bold; margin-bottom: 5px; color: #333;">
+                        ${news.title}
+                    </div>
+                    <div style="color: #666; font-size: 0.9em; line-height: 1.4;">
+                        ${news.content}
+                    </div>
+                </div>
+            `;
+        });
+        
+        newsHTML += `
+            </div>
+            <div style="text-align: center; margin-top: 15px;">
+                <button onclick="closeNewsPopup()" style="background: #007bff; color: white; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer;">
+                    Close News
+                </button>
+            </div>
+        `;
+        
+        // Show the news popup
+        this.showNewsPopup(newsHTML);
+    }
+
+    showNewsPopup(content) {
+        // Create popup overlay
+        const overlay = document.createElement('div');
+        overlay.id = 'news-popup-overlay';
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        `;
+        
+        // Create popup content
+        const popup = document.createElement('div');
+        popup.style.cssText = `
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80%;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        `;
+        
+        popup.innerHTML = content;
+        overlay.appendChild(popup);
+        document.body.appendChild(overlay);
+        
+        // Add global close function
+        window.closeNewsPopup = () => {
+            const overlay = document.getElementById('news-popup-overlay');
+            if (overlay) {
+                overlay.remove();
+            }
+            delete window.closeNewsPopup;
+        };
+        
+        // Close on overlay click
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) {
+                window.closeNewsPopup();
+            }
+        });
+    }
+
+    initializeNewsTicker() {
+        // Create news ticker container if it doesn't exist
+        if (!document.getElementById('news-ticker-container')) {
+            const tickerContainer = document.createElement('div');
+            tickerContainer.id = 'news-ticker-container';
+            tickerContainer.style.cssText = `
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 30px;
+                background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+                color: white;
+                font-size: 14px;
+                font-weight: bold;
+                overflow: hidden;
+                z-index: 500;
+                border-top: 2px solid #fff;
+                box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+            `;
+            
+            const tickerContent = document.createElement('div');
+            tickerContent.id = 'news-ticker-content';
+            tickerContent.style.cssText = `
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                white-space: nowrap;
+                animation: scroll-news 60s linear infinite;
+                padding-left: 100%;
+            `;
+            
+            tickerContainer.appendChild(tickerContent);
+            document.body.appendChild(tickerContainer);
+            
+            // Add CSS animation for scrolling
+            if (!document.getElementById('news-ticker-styles')) {
+                const style = document.createElement('style');
+                style.id = 'news-ticker-styles';
+                style.textContent = `
+                    @keyframes scroll-news {
+                        0% { transform: translateY(-50%) translateX(0); }
+                        100% { transform: translateY(-50%) translateX(-100%); }
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+        }
+    }
+
+    updateNewsTicker() {
+        const dateKey = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
+        const newsForMonth = this.newsData[dateKey];
+        
+        if (!newsForMonth || newsForMonth.length === 0) {
+            // Show generic ticker message if no news
+            this.setTickerContent('📰 SimLifeGame v2.4.1 - Experience 25 years of life in 30 minutes! 📈 Make smart financial decisions 💰 Build your wealth');
+            return;
+        }
+        
+        const categoryIcons = {
+            '國際': '🌍',
+            '美國': '🇺🇸', 
+            '財經': '💰',
+            '科技': '🔬',
+            '房產': '🏠'
+        };
+        
+        // Create ticker content from news headlines
+        let tickerText = '';
+        newsForMonth.forEach((news, index) => {
+            const categoryIcon = categoryIcons[news.category] || '📰';
+            tickerText += `${categoryIcon} ${news.title}`;
+            if (index < newsForMonth.length - 1) {
+                tickerText += ' • ';
+            }
+        });
+        
+        this.setTickerContent(tickerText);
+    }
+
+    setTickerContent(content) {
+        const tickerContent = document.getElementById('news-ticker-content');
+        if (tickerContent) {
+            tickerContent.textContent = content;
+            // Restart animation by removing and re-adding the element
+            const parent = tickerContent.parentNode;
+            const newTicker = tickerContent.cloneNode(true);
+            parent.removeChild(tickerContent);
+            parent.appendChild(newTicker);
+        }
+    }
+
+    getStockNews(symbol) {
+        const key = `${this.gameState.currentYear}-${this.gameState.currentMonth.toString().padStart(2, '0')}`;
+        
+        // Try to get news from XML data first
+        if (this.stockNewsData && this.stockNewsData[symbol] && this.stockNewsData[symbol][key]) {
+            return this.stockNewsData[symbol][key];
+        }
+        
+        return null; // No news available for this month
+    }
+
     async loadIndividualStockXML() {
         try {
             // Check if we can access the Stocks directory by testing with a known file
@@ -4070,6 +4546,7 @@ class SimLifeGame {
             if (!testResponse.ok) {
                 console.log('Stock XML files not accessible (likely due to CORS or file:// protocol). Using embedded data fallback.');
                 this.stockPricesFromXML = {};
+                this.stockNewsData = {};
                 return;
             }
             
@@ -4084,6 +4561,7 @@ class SimLifeGame {
             ];
             
             this.stockPricesFromXML = {};
+            this.stockNewsData = {};
             let loadedCount = 0;
             let failedCount = 0;
             
@@ -4109,10 +4587,12 @@ class SimLifeGame {
                         }
                         
                         this.stockPricesFromXML[symbol.toUpperCase()] = {};
+                        this.stockNewsData[symbol.toUpperCase()] = {};
                         
                         stockEntries.forEach(entry => {
                             const dateElement = entry.querySelector('date');
                             const closeElement = entry.querySelector('close');
+                            const newsElement = entry.querySelector('news');
                             
                             if (!dateElement || !closeElement) {
                                 console.warn(`Missing date or close data in ${symbol}.xml entry`);
@@ -4121,6 +4601,7 @@ class SimLifeGame {
                             
                             const date = dateElement.textContent;
                             const close = parseFloat(closeElement.textContent);
+                            const news = newsElement ? newsElement.textContent : null;
                             
                             if (isNaN(close)) {
                                 console.warn(`Invalid close price in ${symbol}.xml:`, closeElement.textContent);
@@ -4144,6 +4625,11 @@ class SimLifeGame {
                             
                             const key = `${year}-${month.toString().padStart(2, '0')}`;
                             this.stockPricesFromXML[symbol.toUpperCase()][key] = close;
+                            
+                            // Store news data if available
+                            if (news && news.trim()) {
+                                this.stockNewsData[symbol.toUpperCase()][key] = news.trim();
+                            }
                         });
                         
                         loadedCount++;
