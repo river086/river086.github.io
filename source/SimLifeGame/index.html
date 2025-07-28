@@ -27,114 +27,32 @@
             padding: 20px;
         }
         
-        /* Responsive layout for popular screen resolutions */
-        /* 1366x768 - Most common laptop resolution */
-        @media (min-width: 1300px) and (max-width: 1400px) {
+        /* Simple responsive scaling for larger screens */
+        @media (min-width: 1400px) {
             .game-container {
-                max-width: 1300px;
+                max-width: 1400px;
                 padding: 25px;
-            }
-            
-            .game-status {
-                grid-template-columns: repeat(5, 1fr);
-            }
-            
-            .second-row {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
             }
         }
         
-        /* 1920x1080 - Full HD desktop */
-        @media (min-width: 1400px) and (max-width: 1920px) {
+        @media (min-width: 1600px) {
             .game-container {
                 max-width: 1600px;
                 padding: 30px;
             }
-            
-            .game-status {
-                grid-template-columns: repeat(5, 1fr);
-                gap: 20px;
-            }
-            
-            .second-row {
-                grid-template-columns: repeat(4, 1fr);
-                gap: 25px;
-            }
-            
-            .main-content {
-                gap: 25px;
-            }
         }
         
-        /* 2560x1440 - 1440p monitors */
-        @media (min-width: 1920px) and (max-width: 2560px) {
+        @media (min-width: 1920px) {
             .game-container {
-                max-width: 2200px;
-                padding: 40px;
-                display: grid;
-                grid-template-columns: 1fr 400px;
-                gap: 40px;
-                align-items: start;
-            }
-            
-            .main-game-area {
-                display: contents;
-            }
-            
-            .sidebar-area {
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-                position: sticky;
-                top: 20px;
-            }
-            
-            .game-status {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 25px;
-            }
-            
-            .second-row {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 30px;
+                max-width: 1800px;
+                padding: 35px;
             }
         }
         
-        /* 3840x2160 - 4K monitors */
         @media (min-width: 2560px) {
             .game-container {
-                max-width: 3200px;
-                padding: 50px;
-                display: grid;
-                grid-template-columns: 300px 1fr 300px;
-                gap: 50px;
-                align-items: start;
-            }
-            
-            .left-sidebar, .right-sidebar {
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-                position: sticky;
-                top: 20px;
-            }
-            
-            .main-game-area {
-                display: contents;
-            }
-            
-            .game-status {
-                grid-template-columns: repeat(5, 1fr);
-                gap: 30px;
-            }
-            
-            .second-row {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 35px;
-            }
-            
-            .main-content {
-                gap: 30px;
+                max-width: 2400px;
+                padding: 40px;
             }
         }
         
@@ -1572,9 +1490,7 @@
                     <div class="version-badge" id="game-version">v2.8.4</div>
                 </div>
             </div>
-            <!-- Main game area wrapper for responsive layouts -->
-            <div class="main-game-area">
-                <div class="game-status">
+            <div class="game-status">
                     <div class="status-card">
                         <div class="status-value" id="cash">$500</div>
                         <div class="status-label">💵 Cash</div>
@@ -1587,12 +1503,11 @@
                         <div class="status-value" id="profession">Loading...</div>
                         <div class="status-label">💼 Profession</div>
                     </div>
-                    <div class="status-card" onclick="showExpenseBreakdown()" style="cursor: pointer;" title="Click for detailed breakdown">
-                        <div class="status-value" id="monthly-expenses">$0</div>
-                        <div class="status-label">📊 Monthly Expenses</div>
-                    </div>
+                <div class="status-card" onclick="showExpenseBreakdown()" style="cursor: pointer;" title="Click for detailed breakdown">
+                    <div class="status-value" id="monthly-expenses">$0</div>
+                    <div class="status-label">📊 Monthly Expenses</div>
                 </div>
-        </div>
+            </div>
         
             
             <!-- News Ticker -->
@@ -3467,121 +3382,9 @@
             }, 3000);
         }
     </script>
-    
-            </div> <!-- End main-game-area -->
-            
-            <!-- Sidebar areas for larger screens -->
-            <div class="sidebar-area">
-                <!-- This will contain quick actions and info for 1440p+ screens -->
-                <div class="game-panel" style="display: none; min-height: 200px;" id="sidebar-panel">
-                    <h3>🎯 Quick Actions</h3>
-                    <div style="display: flex; flex-direction: column; gap: 10px;">
-                        <button class="btn" onclick="showPortfolioModal()" style="width: 100%;">📊 Portfolio</button>
-                        <button class="btn" onclick="showPlayerStatus()" style="width: 100%;">👤 Status</button>
-                        <button class="btn" onclick="showLottery()" style="width: 100%;">🎰 Lottery</button>
-                        <button class="btn" onclick="showBankingModal()" style="width: 100%;">🏦 Banking</button>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="left-sidebar">
-                <!-- This will be used for 4K screens -->
-                <div class="game-panel" style="display: none;" id="left-sidebar-panel">
-                    <h3>📈 Market Info</h3>
-                    <div id="market-summary" style="font-size: 0.9em;">
-                        <div style="margin-bottom: 10px;">
-                            <strong>Current Month:</strong> <span id="sidebar-date">Loading...</span>
-                        </div>
-                        <div style="margin-bottom: 10px;">
-                            <strong>Cash Flow:</strong> <span id="sidebar-cashflow" style="color: #28a745;">+$0</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="right-sidebar">
-                <!-- This will be used for 4K screens -->
-                <div class="game-panel" style="display: none;" id="right-sidebar-panel">
-                    <h3>🎯 Goals</h3>
-                    <div style="font-size: 0.9em;">
-                        <div style="margin-bottom: 10px;">
-                            <strong>Objective:</strong> Build wealth and survive 25 years
-                        </div>
-                        <div style="margin-bottom: 10px;">
-                            <strong>Progress:</strong> <span id="sidebar-progress">0%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
         
     </div> <!-- End game-container -->
     
-    
-    <script>
-        // Responsive layout management
-        function updateResponsiveLayout() {
-            const width = window.innerWidth;
-            const sidebarPanel = document.getElementById('sidebar-panel');
-            const leftSidebarPanel = document.getElementById('left-sidebar-panel');
-            const rightSidebarPanel = document.getElementById('right-sidebar-panel');
-            
-            // Hide all sidebar panels by default
-            if (sidebarPanel) sidebarPanel.style.display = 'none';
-            if (leftSidebarPanel) leftSidebarPanel.style.display = 'none';
-            if (rightSidebarPanel) rightSidebarPanel.style.display = 'none';
-            
-            // Show appropriate panels based on screen width
-            if (width >= 2560) {
-                // 4K screens - show left and right sidebars
-                if (leftSidebarPanel) leftSidebarPanel.style.display = 'block';
-                if (rightSidebarPanel) rightSidebarPanel.style.display = 'block';
-                updateSidebarContent();
-            } else if (width >= 1920) {
-                // 1440p screens - show right sidebar
-                if (sidebarPanel) sidebarPanel.style.display = 'block';
-            }
-        }
-        
-        function updateSidebarContent() {
-            // Update sidebar date
-            const sidebarDate = document.getElementById('sidebar-date');
-            if (sidebarDate && window.game && game.gameState && game.gameState.gameStarted) {
-                sidebarDate.textContent = `${game.getMonthName(game.gameState.currentMonth)} ${game.gameState.currentYear}`;
-            }
-            
-            // Update progress
-            const sidebarProgress = document.getElementById('sidebar-progress');
-            if (sidebarProgress && window.game && game.gameState) {
-                const totalMonths = 25 * 12;
-                const currentMonths = (game.gameState.currentYear - 2000) * 12 + game.gameState.currentMonth;
-                const progress = Math.min(100, Math.round((currentMonths / totalMonths) * 100));
-                sidebarProgress.textContent = `${progress}%`;
-            }
-            
-            // Update cash flow (simplified version)
-            const sidebarCashflow = document.getElementById('sidebar-cashflow');
-            if (sidebarCashflow && window.game && game.gameState) {
-                const netIncome = game.gameState.currentSalary - game.calculateMonthlyExpenses();
-                sidebarCashflow.textContent = netIncome >= 0 ? `+$${netIncome.toLocaleString()}` : `-$${Math.abs(netIncome).toLocaleString()}`;
-                sidebarCashflow.style.color = netIncome >= 0 ? '#28a745' : '#dc3545';
-            }
-        }
-        
-        // Update layout on resize
-        window.addEventListener('resize', updateResponsiveLayout);
-        
-        // Update layout when page loads
-        document.addEventListener('DOMContentLoaded', updateResponsiveLayout);
-        
-        // Update sidebar content periodically if game is loaded
-        setInterval(() => {
-            if (window.game && game.gameState && game.gameState.gameStarted) {
-                updateSidebarContent();
-            }
-        }, 1000);
-    </script>
-    
-    <script src="game.js?v=2.8.5"></script>
+    <script src="game.js?v=2.8.6"></script>
 </body>
 </html>
