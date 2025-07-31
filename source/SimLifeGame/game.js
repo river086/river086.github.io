@@ -33,6 +33,7 @@ class SimLifeGame {
                 psp: 100         // Maximum PSP value
             },
             relationshipStatus: 'Single', // Single/Dating/Marriage
+            selectedCouple: null, // Selected couple information {name, image}
             childrenCount: 0,
             children: [], // Array of child objects with photos
             monthlyDatingCost: 0, // Monthly dating expenses
@@ -644,6 +645,11 @@ class SimLifeGame {
             this.recordCashFlow('expense', 0, 'Started Dating', 'relationship'); // Cost is monthly, not one-time
             this.log(`💕 You started dating someone! Monthly dating expenses: $${datingCost}. Happiness +35!`, 'success');
             
+            // Show couple selection modal
+            setTimeout(() => {
+                this.showCoupleSelectionModal();
+            }, 1000);
+            
             // Show celebration effect
             if (typeof showCelebration === 'function') {
                 showCelebration('💕', 'You Started Dating!<br>Love is in the air!');
@@ -740,8 +746,8 @@ class SimLifeGame {
             // Both spouse and children available - random choice
             if (Math.random() < 0.6) {
                 conversationSource = 'spouse';
-                sourceImage = 'assets/images/couple/spouse.jpg';
-                sourceName = 'Your Spouse';
+                sourceImage = this.gameState.selectedCouple ? this.gameState.selectedCouple.image : 'assets/images/couple/spouse.jpg';
+                sourceName = this.gameState.selectedCouple ? this.gameState.selectedCouple.name : 'Your Spouse';
             } else {
                 conversationSource = 'child';
                 const randomChild = this.gameState.children[Math.floor(Math.random() * this.gameState.children.length)];
@@ -751,8 +757,8 @@ class SimLifeGame {
         } else if (this.gameState.relationshipStatus === 'Marriage') {
             // Only spouse available
             conversationSource = 'spouse';
-            sourceImage = 'assets/images/couple/spouse.jpg';
-            sourceName = 'Your Spouse';
+            sourceImage = this.gameState.selectedCouple ? this.gameState.selectedCouple.image : 'assets/images/couple/spouse.jpg';
+            sourceName = this.gameState.selectedCouple ? this.gameState.selectedCouple.name : 'Your Spouse';
         } else if (this.gameState.childrenCount > 0) {
             // Only children available
             conversationSource = 'child';
@@ -1227,18 +1233,28 @@ class SimLifeGame {
         
         const destination = travelDestinations[Math.floor(Math.random() * travelDestinations.length)];
         
+        // Calculate travel cost based on family size
+        let familySize = 1; // Player
+        if (this.gameState.relationshipStatus === 'Marriage') familySize++; // Spouse
+        familySize += this.gameState.childrenCount; // Children
+        
+        const adjustedPrice = Math.floor(destination.price * familySize);
+        
         // Check if player can afford it
-        if (this.gameState.portfolio.cash >= destination.price) {
-            this.gameState.portfolio.cash -= destination.price;
+        if (this.gameState.portfolio.cash >= adjustedPrice) {
+            this.gameState.portfolio.cash -= adjustedPrice;
             
             // Create detailed travel record
             const travelRecord = {
                 ...destination,
+                price: adjustedPrice, // Use adjusted price for family
+                basePrice: destination.price, // Keep original price for reference
+                familySize: familySize,
                 id: Date.now() + Math.random(), // Unique ID
                 travelDate: `${this.gameState.currentYear}-${String(this.gameState.currentMonth).padStart(2, '0')}`,
                 travelAge: this.gameState.ageYears,
                 travelSeason: this.getCurrentSeason(),
-                companions: this.getRandomCompanions(),
+                companions: this.getFamilyCompanions(),
                 rating: Math.floor(Math.random() * 2) + 4, // 4-5 stars
                 photos: Math.floor(Math.random() * 10) + 15, // 15-24 photos
                 memories: this.getRandomMemories(destination.activities)
@@ -1251,10 +1267,10 @@ class SimLifeGame {
             this.gameState.travelRecordBook.citiesVisited.add(destination.city);
             this.gameState.travelRecordBook.continents.add(destination.continent);
             this.gameState.travelRecordBook.totalTrips++;
-            this.gameState.travelRecordBook.totalSpent += destination.price;
+            this.gameState.travelRecordBook.totalSpent += adjustedPrice;
             
-            this.recordCashFlow('expense', destination.price, `${destination.name}`, 'travel');
-            this.log(`✈️ Luxury Travel: ${destination.name} - $${destination.price.toLocaleString()}`, 'info');
+            this.recordCashFlow('expense', adjustedPrice, `${destination.name} (${familySize} travelers)`, 'travel');
+            this.log(`✈️ Luxury Travel: ${destination.name} - $${adjustedPrice.toLocaleString()} (${familySize} travelers)`, 'info');
             this.log(`${destination.description}`, 'info');
             
             // Boost happiness from luxury travel
@@ -1276,6 +1292,30 @@ class SimLifeGame {
     getRandomCompanions() {
         const options = ['Solo', 'Family', 'Friends', 'Partner', 'Business Associates'];
         return options[Math.floor(Math.random() * options.length)];
+    }
+    
+    getFamilyCompanions() {
+        let companions = [];
+        
+        if (this.gameState.relationshipStatus === 'Marriage') {
+            companions.push('Spouse');
+        }
+        
+        if (this.gameState.childrenCount > 0) {
+            if (this.gameState.childrenCount === 1) {
+                companions.push('Child');
+            } else {
+                companions.push(`${this.gameState.childrenCount} Children`);
+            }
+        }
+        
+        if (companions.length === 0) {
+            return 'Solo';
+        } else if (companions.length === 1) {
+            return companions[0];
+        } else {
+            return companions.join(' & ');
+        }
     }
     
     getRandomMemories(activities) {
@@ -1353,14 +1393,23 @@ class SimLifeGame {
             box-shadow: 0 0 30px rgba(0, 188, 212, 0.3);
         `;
         
+        const familyInfo = destination.familySize > 1 ? 
+            `<p style="color: #e0e0e0; margin: 0 0 10px 0;"><strong>Travelers:</strong> ${destination.familySize} (${destination.companions})</p>` : '';
+        
+        const priceInfo = destination.familySize > 1 ? 
+            `<p style="color: #00bcd4; font-size: 20px; font-weight: bold; margin: 0 0 5px 0;">-$${destination.price.toLocaleString()}</p>
+             <p style="color: #ccc; font-size: 14px; margin: 0 0 15px 0;">Base price: $${destination.basePrice.toLocaleString()} × ${destination.familySize} travelers</p>` :
+            `<p style="color: #00bcd4; font-size: 20px; font-weight: bold; margin: 0 0 20px 0;">-$${destination.price.toLocaleString()}</p>`;
+
         content.innerHTML = `
             <div style="font-size: 60px; margin-bottom: 15px;">${destination.icon}</div>
             <h2 style="color: #00bcd4; margin: 0 0 10px 0;">Luxury Travel</h2>
             <h3 style="color: white; margin: 0 0 15px 0;">${destination.name}</h3>
             <p style="color: #e0e0e0; margin: 0 0 10px 0;"><strong>Destination:</strong> ${destination.country}</p>
-            <p style="color: #e0e0e0; margin: 0 0 15px 0;"><strong>Duration:</strong> ${destination.duration}</p>
+            <p style="color: #e0e0e0; margin: 0 0 10px 0;"><strong>Duration:</strong> ${destination.duration}</p>
+            ${familyInfo}
             <p style="color: #ccc; margin: 0 0 15px 0; line-height: 1.4;">${destination.description}</p>
-            <p style="color: #00bcd4; font-size: 20px; font-weight: bold; margin: 0 0 20px 0;">-$${destination.price.toLocaleString()}</p>
+            ${priceInfo}
             <button onclick="this.parentElement.parentElement.remove()" 
                     style="background: #00bcd4; color: white; border: none; padding: 10px 20px; 
                            border-radius: 5px; cursor: pointer; font-weight: bold;">Confirm</button>
@@ -1368,6 +1417,114 @@ class SimLifeGame {
         
         modal.appendChild(content);
         document.body.appendChild(modal);
+    }
+    
+    // Couple Selection System
+    getAvailableCouples() {
+        const couples = [
+            { name: 'Ivan', image: 'assets/images/couple/Ivan.jpg' },
+            { name: 'Saja Boy', image: 'assets/images/couple/SajaBoy.jpg' },
+            { name: 'True Love', image: 'assets/images/couple/TrueLove.jpg' },
+            { name: 'Luka', image: 'assets/images/couple/luka.jpg' }
+        ];
+        return couples;
+    }
+    
+    showCoupleSelectionModal() {
+        const modal = document.createElement('div');
+        modal.className = 'couple-selection-modal-overlay';
+        modal.style.cssText = `
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.8); display: flex;
+            justify-content: center; align-items: center; z-index: 1000;
+        `;
+        
+        const content = document.createElement('div');
+        content.style.cssText = `
+            background: white; padding: 30px; border-radius: 15px;
+            max-width: 600px; text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        `;
+        
+        const couples = this.getAvailableCouples();
+        
+        content.innerHTML = `
+            <div style="font-size: 48px; margin-bottom: 15px;">💕</div>
+            <h2 style="color: #e17055; margin: 0 0 15px 0; font-size: 24px;">Choose Your Partner</h2>
+            <p style="color: #666; margin: 0 0 25px 0;">Select who you'd like to be in a relationship with:</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 25px;">
+                ${couples.map(couple => `
+                    <div class="couple-option" data-couple='${JSON.stringify(couple)}' style="
+                        cursor: pointer; padding: 15px; border: 2px solid #ddd; border-radius: 10px;
+                        transition: all 0.3s ease; background: #f9f9f9;
+                    " onclick="this.style.background='#ffe8e3'; this.style.borderColor='#e17055'; 
+                              document.querySelectorAll('.couple-option').forEach(el => {
+                                  if(el !== this) { el.style.background='#f9f9f9'; el.style.borderColor='#ddd'; }
+                              }); 
+                              this.parentElement.parentElement.querySelector('#selected-couple').value = this.dataset.couple;">
+                        <img src="${couple.image}" alt="${couple.name}" style="
+                            width: 100px; height: 100px; border-radius: 50%; 
+                            object-fit: cover; margin-bottom: 10px;
+                            border: 3px solid #e17055;
+                        " onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2UxNzA1NSIvPjx0ZXh0IHg9IjUwIiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+4p2k77iPPC90ZXh0Pjwvc3ZnPg==';">
+                        <div style="font-weight: bold; color: #333; margin-bottom: 5px;">${couple.name}</div>
+                    </div>
+                `).join('')}
+            </div>
+            
+            <input type="hidden" id="selected-couple" value="">
+            
+            <div style="display: flex; gap: 15px; justify-content: center;">
+                <button id="confirm-couple-btn" onclick="game.confirmCoupleSelection()" style="
+                    background: #e17055; color: white; border: none; padding: 12px 24px; 
+                    border-radius: 5px; cursor: pointer; font-weight: bold;
+                ">💕 Confirm Choice</button>
+                <button onclick="this.parentElement.parentElement.parentElement.remove()" style="
+                    background: #6c757d; color: white; border: none; padding: 12px 24px; 
+                    border-radius: 5px; cursor: pointer; font-weight: bold;
+                ">Cancel</button>
+            </div>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+    }
+    
+    confirmCoupleSelection() {
+        const selectedCoupleData = document.getElementById('selected-couple').value;
+        
+        if (!selectedCoupleData) {
+            alert('Please select a partner first!');
+            return;
+        }
+        
+        const couple = JSON.parse(selectedCoupleData);
+        this.gameState.selectedCouple = couple;
+        
+        // Remove the modal
+        document.querySelector('.couple-selection-modal-overlay').remove();
+        
+        this.log(`💕 You chose ${couple.name} as your partner!`, 'success');
+        this.updateUI();
+    }
+    
+    breakUp() {
+        if (this.gameState.relationshipStatus !== 'Dating') {
+            return;
+        }
+        
+        // Reset relationship status
+        this.gameState.relationshipStatus = 'Single';
+        this.gameState.selectedCouple = null;
+        this.gameState.monthlyDatingCost = 0;
+        
+        // Apply happiness penalty for breakup
+        this.gameState.happiness = Math.max(0, this.gameState.happiness - 25);
+        
+        this.log(`💔 You broke up with your partner. Happiness -25.`, 'info');
+        this.recordCashFlow('expense', 0, 'Broke Up', 'relationship');
+        this.updateUI();
     }
     
     // Investment Events System
@@ -2953,10 +3110,10 @@ class SimLifeGame {
         const relationshipIcon = this.gameState.relationshipStatus === 'Single' ? '💔' : 
                                 this.gameState.relationshipStatus === 'Dating' ? '💕' : '💍';
         
-        // Create couple photo section for married status
-        const couplePhotoSection = this.gameState.relationshipStatus === 'Marriage' ? `
+        // Create couple photo section for dating and married status
+        const couplePhotoSection = (this.gameState.relationshipStatus === 'Dating' || this.gameState.relationshipStatus === 'Marriage') && this.gameState.selectedCouple ? `
             <div style="margin: 15px 0;">
-                <img src="assets/images/couple/spouse.jpg" 
+                <img src="${this.gameState.selectedCouple.image}" 
                      alt="Couple Photo" 
                      style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #e17055; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
@@ -2988,8 +3145,21 @@ class SimLifeGame {
             <h3 style="margin: 0 0 18px 0; color: #333; font-size: 1.2em; font-weight: bold;">Relationship</h3>
             <div style="font-size: 1.8em; font-weight: bold; color: #e17055; margin-bottom: 15px;">
                 ${this.gameState.relationshipStatus}
+                ${this.gameState.selectedCouple && this.gameState.relationshipStatus !== 'Single' ? 
+                    `<div style="font-size: 0.7em; font-weight: normal; color: #666; margin-top: 5px;">with ${this.gameState.selectedCouple.name}</div>` : ''}
             </div>
             ${couplePhotoSection}
+            ${this.gameState.relationshipStatus === 'Dating' ? `
+                <button onclick="game.breakUp()" style="
+                    background: #d63031; color: white; border: none; padding: 8px 16px; 
+                    border-radius: 5px; cursor: pointer; font-size: 12px; margin: 10px 0;
+                ">💔 Break Up</button>
+            ` : this.gameState.relationshipStatus === 'Marriage' ? `
+                <button onclick="game.showCoupleSelectionModal()" style="
+                    background: #e17055; color: white; border: none; padding: 8px 16px; 
+                    border-radius: 5px; cursor: pointer; font-size: 12px; margin: 10px 0;
+                ">💕 Change Partner</button>
+            ` : ''}
             ${childrenPhotosSection}
             <div style="font-size: 2em; margin-bottom: 10px;">👶</div>
             <div style="font-size: 1.1em; color: #636e72;">
@@ -7553,6 +7723,12 @@ class SimLifeGame {
     }
     
     calculatePetCapacity() {
+        // Check if player has rental property
+        if (this.gameState.currentRental) {
+            return this.getPropertyPetCapacity(this.gameState.currentRental.id);
+        }
+        
+        // Check owned properties
         if (this.gameState.properties.length === 0) {
             return 0; // Living with parents = no pets
         }
@@ -7582,6 +7758,11 @@ class SimLifeGame {
     }
     
     getCurrentLivingSpace() {
+        // Check if player has rental property first
+        if (this.gameState.currentRental) {
+            return this.gameState.currentRental.name;
+        }
+        
         if (this.gameState.properties.length === 0) {
             return "your parents' house";
         }

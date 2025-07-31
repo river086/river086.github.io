@@ -2086,7 +2086,7 @@
     <div class="stock-info-modal" id="pets-modal">
         <div class="stock-info-content">
             <div class="stock-header">
-                <h2>🐾 Pet Management</h2>
+                <h2>🐾 Pet Store</h2>
                 <button class="btn" onclick="closePetsModal()" style="background: #dc3545;">✕ Close</button>
             </div>
             
@@ -3435,6 +3435,28 @@
             }
         }
         
+        // Helper function to get pet emoji
+        function getPetEmoji(petType) {
+            const petEmojis = {
+                'fish': '🐠',
+                'small_mammal': '🐹',
+                'bird': '🐦',
+                'reptile': '🦎',
+                'cat': '🐱',
+                'dog': '🐶',
+                'rabbit': '🐰',
+                'ferret': '🐾',
+                'guinea_pig': '🐹',
+                'parrot': '🦜',
+                'snake': '🐍',
+                'turtle': '🐢',
+                'iguana': '🦎',
+                'chinchilla': '🐭',
+                'hedgehog': '🦔'
+            };
+            return petEmojis[petType] || '🐾';
+        }
+
         function updateOwnedPets() {
             const ownedPetsContainer = document.getElementById('owned-pets');
             const pets = game.gameState.pets;
@@ -3456,9 +3478,13 @@
                 const ageRatio = pet.ageMonths / pet.data.lifespan;
                 const condition = ageRatio < 0.5 ? 0.6 : (ageRatio < 0.8 ? 0.4 : 0.2);
                 const sellPrice = Math.floor(pet.data.purchaseCost * condition);
+                const petEmoji = getPetEmoji(pet.data.type);
                 
                 html += `
                     <div class="pet-card owned">
+                        <div class="pet-image" style="text-align: center; font-size: 48px; margin-bottom: 10px;">
+                            ${petEmoji}
+                        </div>
                         <div class="pet-header">
                             <div class="pet-name">${pet.data.name}</div>
                             <div class="pet-age">${ageInYears}/${lifespanInYears} years</div>
@@ -3516,8 +3542,13 @@
                 if (!meetsWisdom) requirements.push(`Wisdom ${pet.requirements.minWisdom}+`);
                 if (!meetsCharm) requirements.push(`Charm ${pet.requirements.minCharm}+`);
                 
+                const petEmoji = getPetEmoji(pet.type);
+                
                 html += `
                     <div class="pet-card ${cardClass}" data-category="${getPetCategory(pet)}">
+                        <div class="pet-image" style="text-align: center; font-size: 48px; margin-bottom: 10px;">
+                            ${petEmoji}
+                        </div>
                         <div class="pet-header">
                             <div class="pet-name">${pet.name}</div>
                             <div class="pet-price">$${pet.purchaseCost}</div>
