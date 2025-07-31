@@ -13,7 +13,10 @@
       "Bash(mv:*)",
       "Bash(rmdir:*)",
       "Bash(rm:*)",
-      "Bash(timeout 30 git add assets docs tests game.js index.html)"
+      "Bash(timeout 30 git add assets docs tests game.js index.html)",
+      "Bash(del:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }

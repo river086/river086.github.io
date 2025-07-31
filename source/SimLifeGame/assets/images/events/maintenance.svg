@@ -1,0 +1,67 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="maintenanceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c757d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#495057;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#maintenanceGrad)"/>
+  
+  <!-- Frustrated handyman character -->
+  <!-- Head -->
+  <circle cx="100" cy="65" r="22" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Annoyed eyes -->
+  <ellipse cx="92" cy="60" rx="3" ry="5" fill="white"/>
+  <ellipse cx="108" cy="60" rx="3" ry="5" fill="white"/>
+  <circle cx="92" cy="60" r="2" fill="black"/>
+  <circle cx="108" cy="60" r="2" fill="black"/>
+  
+  <!-- Grumpy mouth -->
+  <path d="M90 72 Q100 68 110 72" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Work cap -->
+  <ellipse cx="100" cy="45" rx="25" ry="12" fill="#FF8C00" stroke="#333" stroke-width="2"/>
+  <rect x="85" y="40" width="30" height="8" fill="#FFD700" stroke="#333" stroke-width="1"/>
+  
+  <!-- Body in work clothes -->
+  <ellipse cx="100" cy="115" rx="22" ry="28" fill="#4169E1" stroke="#333" stroke-width="2"/>
+  
+  <!-- Tool belt -->
+  <rect x="78" y="125" width="44" height="8" rx="4" fill="#8B4513" stroke="#333" stroke-width="2"/>
+  
+  <!-- Arms holding tools -->
+  <ellipse cx="75" cy="100" rx="8" ry="16" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  <ellipse cx="125" cy="100" rx="8" ry="16" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Wrench in left hand -->
+  <rect x="65" y="85" width="12" height="4" rx="2" fill="#C0C0C0" stroke="#333" stroke-width="2"/>
+  <rect x="63" y="82" width="6" height="10" rx="3" fill="#C0C0C0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Hammer in right hand -->
+  <rect x="123" y="85" width="4" height="15" fill="#8B4513" stroke="#333" stroke-width="1"/>
+  <rect x="120" y="82" width="10" height="6" rx="1" fill="#C0C0C0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Legs -->
+  <ellipse cx="90" cy="150" rx="8" ry="20" fill="#1976D2" stroke="#333" stroke-width="2"/>
+  <ellipse cx="110" cy="150" rx="8" ry="20" fill="#1976D2" stroke="#333" stroke-width="2"/>
+  
+  <!-- Work boots -->
+  <ellipse cx="90" cy="170" rx="10" ry="5" fill="#654321"/>
+  <ellipse cx="110" cy="170" rx="10" ry="5" fill="#654321"/>
+  
+  <!-- Broken/maintenance items around -->
+  <text x="45" y="40" font-family="Arial" font-size="16" fill="#FFD700">🔧</text>
+  <text x="150" y="50" font-family="Arial" font-size="16" fill="#FFD700">⚙️</text>
+  <text x="40" y="140" font-family="Arial" font-size="16" fill="#FFD700">🔨</text>
+  <text x="155" y="130" font-family="Arial" font-size="16" fill="#FFD700">💸</text>
+  
+  <!-- Frustration marks -->
+  <path d="M65 55 L70 50 M67 58 L72 53" stroke="#FF4500" stroke-width="2"/>
+  <path d="M130 55 L135 50 M133 58 L138 53" stroke="#FF4500" stroke-width="2"/>
+  
+  <!-- Sweat drop -->
+  <ellipse cx="80" cy="55" rx="2" ry="4" fill="#87CEEB"/>
+  
+  <text x="100" y="190" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">MAINTENANCE</text>
+</svg>

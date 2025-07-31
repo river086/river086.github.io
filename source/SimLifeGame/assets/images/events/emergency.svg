@@ -1,0 +1,65 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="emergencyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc3545;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#emergencyGrad)"/>
+  
+  <!-- Panicked cartoon character -->
+  <!-- Head -->
+  <circle cx="100" cy="70" r="25" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shocked/scared eyes -->
+  <circle cx="90" cy="65" r="6" fill="white"/>
+  <circle cx="110" cy="65" r="6" fill="white"/>
+  <circle cx="90" cy="65" r="3" fill="black"/>
+  <circle cx="110" cy="65" r="3" fill="black"/>
+  <!-- Smaller pupils for shocked look -->
+  <circle cx="90" cy="65" r="1" fill="white"/>
+  <circle cx="110" cy="65" r="1" fill="white"/>
+  
+  <!-- Open mouth (shocked) -->
+  <ellipse cx="100" cy="78" rx="4" ry="6" fill="black"/>
+  
+  <!-- Messy stressed hair -->
+  <path d="M75 55 Q80 40 85 50 Q90 35 95 45 Q100 30 105 40 Q110 35 115 45 Q120 40 125 50" 
+        fill="#8B4513" stroke="#333" stroke-width="1"/>
+  
+  <!-- Sweat drops -->
+  <ellipse cx="75" cy="60" rx="2" ry="4" fill="#87CEEB"/>
+  <ellipse cx="125" cy="65" rx="2" ry="4" fill="#87CEEB"/>
+  
+  <!-- Body (running/panic pose) -->
+  <ellipse cx="95" cy="120" rx="18" ry="25" fill="#FF6347" stroke="#333" stroke-width="2"/>
+  
+  <!-- Arms flailing -->
+  <ellipse cx="70" cy="105" rx="6" ry="18" fill="#fdbcb4" stroke="#333" stroke-width="2" transform="rotate(-30 70 105)"/>
+  <ellipse cx="130" cy="105" rx="6" ry="18" fill="#fdbcb4" stroke="#333" stroke-width="2" transform="rotate(30 130 105)"/>
+  
+  <!-- Hands -->
+  <circle cx="60" cy="95" r="5" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="95" r="5" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Running legs -->
+  <ellipse cx="85" cy="150" rx="6" ry="18" fill="#FF6347" stroke="#333" stroke-width="2"/>
+  <ellipse cx="105" cy="150" rx="6" ry="18" fill="#FF6347" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="82" cy="168" rx="8" ry="4" fill="black"/>
+  <ellipse cx="108" cy="168" rx="8" ry="4" fill="black"/>
+  
+  <!-- Emergency symbols floating around -->
+  <text x="40" y="50" font-family="Arial" font-size="16" fill="#FFD700">⚡</text>
+  <text x="160" y="80" font-family="Arial" font-size="16" fill="#FFD700">💥</text>
+  <text x="50" y="120" font-family="Arial" font-size="16" fill="#FFD700">🚨</text>
+  <text x="150" y="130" font-family="Arial" font-size="16" fill="#FFD700">💸</text>
+  
+  <!-- Motion lines -->
+  <path d="M30 90 L45 95" stroke="white" stroke-width="2"/>
+  <path d="M30 100 L50 105" stroke="white" stroke-width="2"/>
+  <path d="M30 110 L45 115" stroke="white" stroke-width="2"/>
+  
+  <text x="100" y="190" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">EMERGENCY</text>
+</svg>

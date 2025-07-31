@@ -876,4 +876,558 @@
         </detailedDescription>
     </event>
 
+    <!-- ──────────── LUXURY EVENTS ──────────── -->
+    
+    <!-- LUXURY WATCHES -->
+    <event id="rolex_submariner_offer">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>8500</min><max>8500</max></costRange>
+        <effects><happiness>10</happiness></effects>
+        <description>Rolex Submariner available</description>
+        <detailedDescription>
+            A Rolex authorized dealer contacts you about a rare Rolex Submariner Date (ref. 126610LN) in pristine condition. This iconic diving watch features a black Cerachrom bezel and is priced at $8,500.
+        </detailedDescription>
+    </event>
+
+    <event id="omega_speedmaster_offer">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>6200</min><max>6200</max></costRange>
+        <effects><happiness>8</happiness></effects>
+        <description>Omega Speedmaster Professional</description>
+        <detailedDescription>
+            The legendary "Moonwatch" - Omega Speedmaster Professional Moonwatch is available at an authorized retailer. This NASA-qualified chronograph costs $6,200 and comes with its storied space heritage.
+        </detailedDescription>
+    </event>
+
+    <event id="patek_philippe_calatrava">
+        <category>luxury</category>
+        <weight>0.1</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>32000</min><max>32000</max></costRange>
+        <effects><happiness>20</happiness></effects>
+        <description>Patek Philippe Calatrava</description>
+        <detailedDescription>
+            An extremely rare opportunity: a Patek Philippe Calatrava ref. 5196P in platinum becomes available. This horological masterpiece represents the pinnacle of Swiss watchmaking at $32,000.
+        </detailedDescription>
+    </event>
+
+    <event id="audemars_piguet_royal_oak">
+        <category>luxury</category>
+        <weight>0.1</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>27000</min><max>27000</max></costRange>
+        <effects><happiness>18</happiness></effects>
+        <description>Audemars Piguet Royal Oak</description>
+        <detailedDescription>
+            The iconic Audemars Piguet Royal Oak "Jumbo" ref. 15202ST becomes available through a private collector. This revolutionary luxury sports watch is priced at $27,000.
+        </detailedDescription>
+    </event>
+
+    <event id="cartier_santos_offer">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>4200</min><max>4200</max></costRange>
+        <effects><happiness>7</happiness></effects>
+        <description>Cartier Santos watch</description>
+        <detailedDescription>
+            A Cartier Santos de Cartier medium model in steel is available at the boutique. This pioneering aviation watch, originally created in 1904, is priced at $4,200.
+        </detailedDescription>
+    </event>
+    
+    <!-- LUXURY HANDBAGS -->
+    <event id="hermes_birkin_offer">
+        <category>luxury</category>
+        <weight>0.05</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>12000</min><max>12000</max></costRange>
+        <effects><happiness>25</happiness></effects>
+        <description>Hermès Birkin 30cm available</description>
+        <detailedDescription>
+            An extraordinary opportunity: a Hermès Birkin 30cm in Togo leather (Black with Palladium hardware) becomes available through a private appointment. This coveted handbag is priced at $12,000.
+        </detailedDescription>
+    </event>
+
+    <event id="chanel_classic_flap">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>8800</min><max>8800</max></costRange>
+        <effects><happiness>12</happiness></effects>
+        <description>Chanel Classic Flap Bag</description>
+        <detailedDescription>
+            The iconic Chanel Classic Medium Flap Bag in black caviar leather with gold hardware is available at the boutique. This timeless piece costs $8,800.
+        </detailedDescription>
+    </event>
+
+    <event id="louis_vuitton_capucines">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>5500</min><max>5500</max></costRange>
+        <effects><happiness>10</happiness></effects>
+        <description>Louis Vuitton Capucines MM</description>
+        <detailedDescription>
+            The Louis Vuitton Capucines MM in black Taurillon leather is available. Named after the street where Louis Vuitton opened his first store, this elegant bag costs $5,500.
+        </detailedDescription>
+    </event>
+
+    <event id="dior_lady_dior">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>5000</min><max>5000</max></costRange>
+        <effects><happiness>9</happiness></effects>
+        <description>Dior Lady Dior bag</description>
+        <detailedDescription>
+            The iconic Lady Dior bag in black lambskin with silver-tone metal becomes available. This bag, beloved by Princess Diana, is priced at $5,000.
+        </detailedDescription>
+    </event>
+
+    <event id="bottega_veneta_jodie">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>3200</min><max>3200</max></costRange>
+        <effects><happiness>8</happiness></effects>
+        <description>Bottega Veneta Jodie bag</description>
+        <detailedDescription>
+            The Bottega Veneta Jodie bag in signature Intrecciato woven leather (Fondente brown) is available. This contemporary luxury piece costs $3,200.
+        </detailedDescription>
+    </event>
+
+    <!-- LUXURY JEWELRY -->
+    <event id="cartier_love_bracelet">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>7350</min><max>7350</max></costRange>
+        <effects><happiness>12</happiness></effects>
+        <description>Cartier LOVE Bracelet</description>
+        <detailedDescription>
+            The iconic Cartier LOVE bracelet in 18k yellow gold becomes available. This symbol of eternal love, secured with a screwdriver, costs $7,350.
+        </detailedDescription>
+    </event>
+
+    <event id="tiffany_atlas_watch">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>4200</min><max>4200</max></costRange>
+        <effects><happiness>8</happiness></effects>
+        <description>Tiffany Atlas watch</description>
+        <detailedDescription>
+            A Tiffany Atlas watch in 18k rose gold with mother-of-pearl dial is available at the flagship store. This elegant timepiece costs $4,200.
+        </detailedDescription>
+    </event>
+
+    <event id="bulgari_serpenti_watch">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>5800</min><max>5800</max></costRange>
+        <effects><happiness>10</happiness></effects>
+        <description>Bulgari Serpenti watch</description>
+        <detailedDescription>
+            The iconic Bulgari Serpenti Tubogas watch in steel and gold with black dial is available. This serpent-inspired masterpiece costs $5,800.
+        </detailedDescription>
+    </event>
+
+    <event id="van_cleef_vintage_alhambra">
+        <category>luxury</category>
+        <weight>0.15</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>4100</min><max>4100</max></costRange>
+        <effects><happiness>9</happiness></effects>
+        <description>Van Cleef Vintage Alhambra</description>
+        <detailedDescription>
+            A Van Cleef & Arpels Vintage Alhambra necklace in 18k yellow gold with mother-of-pearl becomes available. This lucky charm piece costs $4,100.
+        </detailedDescription>
+    </event>
+
+    <event id="chopard_happy_diamonds">
+        <category>luxury</category>
+        <weight>0.15</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>3600</min><max>3600</max></costRange>
+        <effects><happiness>8</happiness></effects>
+        <description>Chopard Happy Diamonds</description>
+        <detailedDescription>
+            A Chopard Happy Diamonds pendant with floating diamonds in 18k white gold is available. This playful luxury piece costs $3,600.
+        </detailedDescription>
+    </event>
+
+    <!-- LUXURY TRAVEL - ASIA -->
+    <event id="tokyo_aman_stay">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>8500</min><max>8500</max></costRange>
+        <effects><happiness>18</happiness></effects>
+        <description>Tokyo Aman luxury retreat</description>
+        <detailedDescription>
+            5 days at Aman Tokyo with private city tours, Michelin-starred dining at Narisawa, and exclusive access to traditional tea ceremonies. Total cost: $8,500.
+        </detailedDescription>
+    </event>
+
+    <event id="singapore_raffles_package">
+        <category>travel</category>
+        <weight>0.2</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>4200</min><max>4200</max></costRange>
+        <effects><happiness>12</happiness></effects>
+        <description>Singapore Raffles Hotel experience</description>
+        <detailedDescription>
+            4 days at the legendary Raffles Hotel Singapore with private tours of Gardens by the Bay and exclusive dining experiences. Package cost: $4,200.
+        </detailedDescription>
+    </event>
+
+    <event id="hong_kong_peninsula">
+        <category>travel</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>3800</min><max>3800</max></costRange>
+        <effects><happiness>11</happiness></effects>
+        <description>Hong Kong Peninsula luxury</description>
+        <detailedDescription>
+            3 days at The Peninsula Hong Kong with helicopter tours, private yacht charter, and access to exclusive rooftop bars. Total: $3,800.
+        </detailedDescription>
+    </event>
+
+    <!-- LUXURY TRAVEL - EUROPE -->
+    <event id="paris_ritz_experience">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>12000</min><max>12000</max></costRange>
+        <effects><happiness>22</happiness></effects>
+        <description>Paris Ritz Palace suite</description>
+        <detailedDescription>
+            6 days at the Ritz Paris in the Imperial Suite, private Louvre tours after hours, Michelin 3-star dining, and luxury shopping with personal stylist. Cost: $12,000.
+        </detailedDescription>
+    </event>
+
+    <event id="london_claridges_package">
+        <category>travel</category>
+        <weight>0.2</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>7500</min><max>7500</max></costRange>
+        <effects><happiness>15</happiness></effects>
+        <description>London Claridge's experience</description>
+        <detailedDescription>
+            5 days at Claridge's London with private tours of Buckingham Palace, exclusive access to Royal Opera House, and helicopter tours of the countryside. Total: $7,500.
+        </detailedDescription>
+    </event>
+
+    <event id="swiss_badrutt_palace">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>9200</min><max>9200</max></costRange>
+        <effects><happiness>19</happiness></effects>
+        <description>St. Moritz Badrutt's Palace</description>
+        <detailedDescription>
+            4 days at Badrutt's Palace Hotel St. Moritz with private ski lessons, helicopter alpine tours, and luxury spa treatments. Winter luxury costs $9,200.
+        </detailedDescription>
+    </event>
+
+    <event id="italian_belmond_portofino">
+        <category>travel</category>
+        <weight>0.2</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>6800</min><max>6800</max></costRange>
+        <effects><happiness>16</happiness></effects>
+        <description>Portofino Belmond luxury</description>
+        <detailedDescription>
+            4 days at Belmond Hotel Splendido in Portofino with private yacht charters along the Italian Riviera and exclusive wine tastings. Cost: $6,800.
+        </detailedDescription>
+    </event>
+
+    <!-- LUXURY TRAVEL - AMERICAS -->
+    <event id="napa_auberge_du_soleil">
+        <category>travel</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>4500</min><max>4500</max></costRange>
+        <effects><happiness>13</happiness></effects>
+        <description>Napa Valley wine experience</description>
+        <detailedDescription>
+            3 days at Auberge du Soleil in Napa Valley with private winery tours, helicopter vineyard views, and exclusive tastings with renowned sommeliers. Total: $4,500.
+        </detailedDescription>
+    </event>
+
+    <event id="aspen_little_nell">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>7200</min><max>7200</max></costRange>
+        <effects><happiness>17</happiness></effects>
+        <description>Aspen Little Nell luxury</description>
+        <detailedDescription>
+            4 days at The Little Nell in Aspen with private ski instruction, helicopter mountain tours, and exclusive mountain dining experiences. Cost: $7,200.
+        </detailedDescription>
+    </event>
+
+    <event id="bahamas_atlantis_bridge_suite">
+        <category>travel</category>
+        <weight>0.1</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>15000</min><max>15000</max></costRange>
+        <effects><happiness>25</happiness></effects>
+        <description>Atlantis Bridge Suite Bahamas</description>
+        <detailedDescription>
+            5 days in the legendary Bridge Suite at Atlantis Paradise Island with private beach access, yacht charters, and underwater dining. Ultimate luxury: $15,000.
+        </detailedDescription>
+    </event>
+
+    <!-- LUXURY TRAVEL - MIDDLE EAST & AFRICA -->
+    <event id="dubai_burj_al_arab">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>8800</min><max>8800</max></costRange>
+        <effects><happiness>19</happiness></effects>
+        <description>Dubai Burj Al Arab suite</description>
+        <detailedDescription>
+            4 days in a Royal Suite at Burj Al Arab with private butler service, helicopter tours of Dubai, desert safari, and exclusive access to private beaches. Cost: $8,800.
+        </detailedDescription>
+    </event>
+
+    <event id="south_africa_sabi_sands">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>9500</min><max>9500</max></costRange>
+        <effects><happiness>20</happiness></effects>
+        <description>South Africa safari luxury</description>
+        <detailedDescription>
+            5 days at exclusive Sabi Sands Game Reserve with private game drives, luxury tented accommodations, and wine tastings in Cape Town. Safari experience: $9,500.
+        </detailedDescription>
+    </event>
+
+    <!-- LUXURY TRAVEL - OCEANIA -->
+    <event id="maldives_soneva_fushi">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>11000</min><max>11000</max></costRange>
+        <effects><happiness>22</happiness></effects>
+        <description>Maldives Soneva Fushi villa</description>
+        <detailedDescription>
+            6 days in an overwater villa at Soneva Fushi with private beach access, sunset yacht cruises, underwater dining, and spa treatments. Paradise costs $11,000.
+        </detailedDescription>
+    </event>
+
+    <event id="bora_bora_four_seasons">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>8200</min><max>8200</max></costRange>
+        <effects><happiness>18</happiness></effects>
+        <description>Bora Bora Four Seasons</description>
+        <detailedDescription>
+            5 days at Four Seasons Resort Bora Bora in an overwater bungalow with private lagoon access, helicopter island tours, and pearl farm visits. Total: $8,200.
+        </detailedDescription>
+    </event>
+
+    <!-- ADDITIONAL LUXURY WATCHES -->
+    <event id="richard_mille_offer">
+        <category>luxury</category>
+        <weight>0.05</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>180000</min><max>180000</max></costRange>
+        <effects><happiness>35</happiness></effects>
+        <description>Richard Mille RM 011</description>
+        <detailedDescription>
+            An ultra-rare Richard Mille RM 011 Felipe Massa Flyback Chronograph becomes available through a private collector. This pinnacle of horological engineering costs $180,000.
+        </detailedDescription>
+    </event>
+
+    <event id="vacheron_constantin_patrimony">
+        <category>luxury</category>
+        <weight>0.1</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>28000</min><max>28000</max></costRange>
+        <effects><happiness>18</happiness></effects>
+        <description>Vacheron Constantin Patrimony</description>
+        <detailedDescription>
+            A Vacheron Constantin Patrimony in 18k pink gold with ultra-thin movement becomes available. This Geneva-crafted masterpiece is priced at $28,000.
+        </detailedDescription>
+    </event>
+
+    <event id="jaeger_lecoultre_reverso">
+        <category>luxury</category>
+        <weight>0.15</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>8200</min><max>8200</max></costRange>
+        <effects><happiness>12</happiness></effects>
+        <description>Jaeger-LeCoultre Reverso</description>
+        <detailedDescription>
+            The iconic Jaeger-LeCoultre Reverso Classic Medium Thin in steel becomes available. This Art Deco masterpiece with reversible case costs $8,200.
+        </detailedDescription>
+    </event>
+
+    <event id="iwc_portugieser_offer">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>5800</min><max>5800</max></costRange>
+        <effects><happiness>9</happiness></effects>
+        <description>IWC Portugieser Automatic</description>
+        <detailedDescription>
+            An IWC Portugieser Automatic 40 in stainless steel with blue dial is available. This classic dress watch with 7-day power reserve costs $5,800.
+        </detailedDescription>
+    </event>
+
+    <!-- ADDITIONAL LUXURY HANDBAGS -->
+    <event id="goyard_st_louis_tote">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>15</cooldown>
+        <costRange><min>1800</min><max>1800</max></costRange>
+        <effects><happiness>7</happiness></effects>
+        <description>Goyard St. Louis tote</description>
+        <detailedDescription>
+            The coveted Goyard St. Louis PM tote in classic black with personalization becomes available at the Madison Avenue boutique. This handcrafted piece costs $1,800.
+        </detailedDescription>
+    </event>
+
+    <event id="celine_luggage_tote">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>2700</min><max>2700</max></costRange>
+        <effects><happiness>8</happiness></effects>
+        <description>Celine Luggage tote</description>
+        <detailedDescription>
+            The iconic Celine Luggage Micro tote in drummed calfskin (Tan) becomes available. This architectural design statement costs $2,700.
+        </detailedDescription>
+    </event>
+
+    <event id="saint_laurent_sac_de_jour">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>2400</min><max>2400</max></costRange>
+        <effects><happiness>7</happiness></effects>
+        <description>Saint Laurent Sac de Jour</description>
+        <detailedDescription>
+            The Saint Laurent Sac de Jour souple 36 in black grained leather is available. This sophisticated handbag costs $2,400.
+        </detailedDescription>
+    </event>
+
+    <event id="prada_galleria_bag">
+        <category>luxury</category>
+        <weight>0.2</weight>
+        <cooldown>12</cooldown>
+        <costRange><min>2300</min><max>2300</max></costRange>
+        <effects><happiness>7</happiness></effects>
+        <description>Prada Galleria bag</description>
+        <detailedDescription>
+            The Prada Galleria bag in black Saffiano leather with gold hardware becomes available. This structured classic costs $2,300.
+        </detailedDescription>
+    </event>
+
+    <!-- ADDITIONAL LUXURY JEWELRY -->
+    <event id="harry_winston_diamond_studs">
+        <category>luxury</category>
+        <weight>0.1</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>12000</min><max>12000</max></costRange>
+        <effects><happiness>15</happiness></effects>
+        <description>Harry Winston diamond studs</description>
+        <detailedDescription>
+            Harry Winston diamond stud earrings featuring 2 carats total weight of exceptional diamonds become available. These timeless pieces cost $12,000.
+        </detailedDescription>
+    </event>
+
+    <event id="graff_diamond_tennis_bracelet">
+        <category>luxury</category>
+        <weight>0.08</weight>
+        <cooldown>30</cooldown>
+        <costRange><min>25000</min><max>25000</max></costRange>
+        <effects><happiness>20</happiness></effects>
+        <description>Graff diamond tennis bracelet</description>
+        <detailedDescription>
+            A Graff diamond tennis bracelet featuring 5 carats of flawless diamonds in platinum setting becomes available through private appointment. Cost: $25,000.
+        </detailedDescription>
+    </event>
+
+    <event id="mikimoto_pearl_necklace">
+        <category>luxury</category>
+        <weight>0.15</weight>
+        <cooldown>18</cooldown>
+        <costRange><min>3500</min><max>3500</max></costRange>
+        <effects><happiness>8</happiness></effects>
+        <description>Mikimoto pearl necklace</description>
+        <detailedDescription>
+            A Mikimoto cultured pearl necklace with 18k gold clasp, featuring perfectly matched 7-7.5mm pearls, is available. This classic piece costs $3,500.
+        </detailedDescription>
+    </event>
+
+    <!-- ADDITIONAL LUXURY TRAVEL -->
+    <event id="antarctica_luxury_cruise">
+        <category>travel</category>
+        <weight>0.05</weight>
+        <cooldown>48</cooldown>
+        <costRange><min>32000</min><max>32000</max></costRange>
+        <effects><happiness>30</happiness></effects>
+        <description>Antarctica luxury expedition</description>
+        <detailedDescription>
+            10-day luxury expedition cruise to Antarctica aboard Le Commandant Charcot with helicopter excursions, zodiac landings, and world-class naturalist guides. Once-in-a-lifetime: $32,000.
+        </detailedDescription>
+    </event>
+
+    <event id="bhutan_aman_journey">
+        <category>travel</category>
+        <weight>0.1</weight>
+        <cooldown>36</cooldown>
+        <costRange><min>18000</min><max>18000</max></costRange>
+        <effects><happiness>25</happiness></effects>
+        <description>Bhutan Aman spiritual journey</description>
+        <detailedDescription>
+            7 days across three Aman properties in Bhutan with private monastery visits, traditional archery lessons, and audiences with Buddhist monks. Spiritual luxury: $18,000.
+        </detailedDescription>
+    </event>
+
+    <event id="iceland_blue_lagoon_luxury">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>6500</min><max>6500</max></costRange>
+        <effects><happiness>14</happiness></effects>
+        <description>Iceland Blue Lagoon retreat</description>
+        <detailedDescription>
+            4 days at the Blue Lagoon Retreat Hotel with private lagoon access, Northern Lights helicopter tours, and luxury spa treatments. Nordic luxury costs $6,500.
+        </detailedDescription>
+    </event>
+
+    <event id="morocco_royal_mansour">
+        <category>travel</category>
+        <weight>0.15</weight>
+        <cooldown>20</cooldown>
+        <costRange><min>7800</min><max>7800</max></costRange>
+        <effects><happiness>16</happiness></effects>
+        <description>Morocco Royal Mansour palace</description>
+        <detailedDescription>
+            5 days at Royal Mansour Marrakech in a private riad with dedicated butler, Atlas Mountains helicopter tours, and exclusive souk shopping. Moroccan luxury: $7,800.
+        </detailedDescription>
+    </event>
+
+    <event id="chile_explora_patagonia">
+        <category>travel</category>
+        <weight>0.1</weight>
+        <cooldown>24</cooldown>
+        <costRange><min>8900</min><max>8900</max></costRange>
+        <effects><happiness>18</happiness></effects>
+        <description>Patagonia Explora luxury</description>
+        <detailedDescription>
+            6 days at Explora Patagonia with private guided treks through Torres del Paine, luxury accommodation, and gourmet dining overlooking the wilderness. Adventure luxury: $8,900.
+        </detailedDescription>
+    </event>
+
 </events>

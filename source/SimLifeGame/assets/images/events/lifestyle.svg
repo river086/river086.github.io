@@ -1,0 +1,58 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lifestyleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffa500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#lifestyleGrad)"/>
+  
+  <!-- Funny cartoon character with shopping bags -->
+  <!-- Head -->
+  <circle cx="100" cy="70" r="25" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="92" cy="65" r="4" fill="white"/>
+  <circle cx="108" cy="65" r="4" fill="white"/>
+  <circle cx="92" cy="65" r="2" fill="black"/>
+  <circle cx="108" cy="65" r="2" fill="black"/>
+  
+  <!-- Big excited smile -->
+  <path d="M85 75 Q100 85 115 75" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Hair (messy style) -->
+  <path d="M80 50 Q85 45 90 48 Q95 42 100 47 Q105 40 110 45 Q115 42 120 50" 
+        fill="#8B4513" stroke="#333" stroke-width="1"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="20" ry="25" fill="#4169E1" stroke="#333" stroke-width="2"/>
+  
+  <!-- Arms with shopping bags -->
+  <ellipse cx="75" cy="110" rx="8" ry="15" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  <ellipse cx="125" cy="110" rx="8" ry="15" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shopping bag left -->
+  <rect x="60" y="115" width="15" height="18" rx="2" fill="#ff1744" stroke="#333" stroke-width="2"/>
+  <path d="M65 115 Q67 110 70 115" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="67" y="127" font-family="Arial" font-size="8" fill="white" text-anchor="middle">$$$</text>
+  
+  <!-- Shopping bag right -->
+  <rect x="125" y="115" width="15" height="18" rx="2" fill="#00e676" stroke="#333" stroke-width="2"/>
+  <path d="M130 115 Q132 110 135 115" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="132" y="127" font-family="Arial" font-size="8" fill="white" text-anchor="middle">SALE</text>
+  
+  <!-- Legs -->
+  <rect x="90" y="145" width="8" height="20" rx="4" fill="#1976D2" stroke="#333" stroke-width="1"/>
+  <rect x="102" y="145" width="8" height="20" rx="4" fill="#1976D2" stroke="#333" stroke-width="1"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="94" cy="168" rx="6" ry="4" fill="black"/>
+  <ellipse cx="106" cy="168" rx="6" ry="4" fill="black"/>
+  
+  <!-- Money flying around -->
+  <text x="50" y="80" font-family="Arial" font-size="12" fill="#FFD700">💰</text>
+  <text x="150" y="60" font-family="Arial" font-size="12" fill="#FFD700">💸</text>
+  <text x="140" y="90" font-family="Arial" font-size="12" fill="#FFD700">💳</text>
+  
+  <text x="100" y="190" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">LIFESTYLE</text>
+</svg>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clean Storage</title>
+</head>
+<body>
+    <h1>Cleaning up authentication data...</h1>
+    <script>
+        // Remove all authentication-related localStorage items
+        localStorage.removeItem('simlife_users');
+        localStorage.removeItem('simlife_current_user');
+        localStorage.removeItem('professions_bin_id');
+        localStorage.removeItem('professions_json_url');
+        localStorage.removeItem('jsonbin_api_key');
+        
+        // Clear any other simlife-related items
+        for (let i = localStorage.length - 1; i >= 0; i--) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith('simlife_')) {
+                localStorage.removeItem(key);
+            }
+        }
+        
+        alert('All authentication and configuration data has been cleared.\n\nYour game is now restored to its original state.');
+        
+        // Redirect to game
+        window.location.href = 'index.html';
+    </script>
+</body>
+</html>

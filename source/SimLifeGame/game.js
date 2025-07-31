@@ -53,6 +53,31 @@ class SimLifeGame {
             },
             cashFlowHistory: [],
             pets: [],
+            luxuryItems: [], // Store purchased luxury items
+            travelPassport: [], // Store travel destinations
+            luxuryCollection: {
+                watches: [],
+                bags: [],
+                jewelry: [],
+                clothing: [],
+                electronics: [],
+                art: [],
+                wine: [],
+                other: []
+            },
+            travelRecordBook: {
+                countriesVisited: new Set(),
+                citiesVisited: new Set(),
+                travelHistory: [],
+                continents: new Set(),
+                totalTrips: 0,
+                totalSpent: 0
+            },
+            investmentEvents: {
+                activeInvestments: [], // Current pending investments
+                completedInvestments: [], // Historical investment results
+                lastEventMonth: 0 // Track when last investment event occurred
+            },
             gameOver: false,
             gameStarted: false,
             realEstatePrices: {}, // Track current real estate prices
@@ -149,6 +174,7 @@ class SimLifeGame {
         await this.loadSideJobs();
         await this.loadStocks();
         await this.loadRealEstatePrices();
+        
         // Don't automatically show profession selection - let player setup handle it
         this.generateProfessionCards();
     }
@@ -945,6 +971,14 @@ class SimLifeGame {
         // Process family conversation events
         this.processFamilyConversations();
         
+        // Check for luxury events if player has high cash
+        if (this.gameState.portfolio.cash > 2500) {
+            this.processLuxuryEvents();
+        }
+        
+        // Process investment opportunity events
+        this.processInvestmentEvents();
+        
         const eligibleEvents = this.events.filter(event => {
             return !this.eventCooldowns[event.id] || this.eventCooldowns[event.id] <= 0;
         });
@@ -1064,6 +1098,1408 @@ class SimLifeGame {
                 this.eventCooldowns[eventId]--;
             }
         });
+    }
+    
+    processLuxuryEvents() {
+        // Check if already triggered luxury event recently (cooldown)
+        if (this.eventCooldowns['luxury_event'] && this.eventCooldowns['luxury_event'] > 0) {
+            return;
+        }
+        
+        // 30% chance to trigger luxury event when cash > $2500
+        if (Math.random() < 0.3) {
+            const luxuryEventTypes = ['luxury_item', 'travel'];
+            const eventType = luxuryEventTypes[Math.floor(Math.random() * luxuryEventTypes.length)];
+            
+            if (eventType === 'luxury_item') {
+                this.triggerLuxuryItemEvent();
+            } else {
+                this.triggerTravelEvent();
+            }
+            
+            // Set cooldown for luxury events (5 months)
+            this.eventCooldowns['luxury_event'] = 5;
+        }
+    }
+    
+    triggerLuxuryItemEvent() {
+        const luxuryItems = [
+            { name: 'Rolex Submariner', brand: 'Rolex', model: '126610LN', price: 8500, description: 'Classic Rolex Submariner diving watch, symbol of precision and luxury', icon: '⌚', category: 'watches', origin: 'Switzerland', year: 2023 },
+            { name: 'Hermès Birkin 30cm', brand: 'Hermès', model: 'Birkin 30', price: 12000, description: 'Handcrafted Hermès Birkin bag, pinnacle of leather craftsmanship', icon: '👜', category: 'bags', origin: 'France', material: 'Togo Leather' },
+            { name: 'Cartier LOVE Bracelet', brand: 'Cartier', model: 'LOVE', price: 7350, description: 'Iconic Cartier Love bracelet, eternal symbol of commitment', icon: '💍', category: 'jewelry', origin: 'France', material: '18k Gold' },
+            { name: 'Air Jordan 1 Retro', brand: 'Nike', model: 'AJ1 Chicago', price: 2000, description: 'Limited edition Air Jordan sneakers, perfect blend of collectibility and style', icon: '👟', category: 'clothing', origin: 'USA', size: '9.5' },
+            { name: 'Dom Pérignon 2012', brand: 'Dom Pérignon', model: 'Vintage 2012', price: 1500, description: 'Premium champagne for celebrating special moments', icon: '🍾', category: 'wine', origin: 'France', vintage: 2012 },
+            { name: 'Giorgio Armani Suit', brand: 'Giorgio Armani', model: 'Made to Measure', price: 4000, description: 'Bespoke Giorgio Armani suit, epitome of professional elegance', icon: '🤵', category: 'clothing', origin: 'Italy', material: 'Wool' },
+            { name: 'Bang & Olufsen Beolab 50', brand: 'Bang & Olufsen', model: 'Beolab 50', price: 18000, description: 'Flagship B&O sound system, perfect audio experience', icon: '🔊', category: 'electronics', origin: 'Denmark', power: '2500W' },
+            { name: 'Contemporary Art Piece', brand: 'Artist Studio', model: 'Original Painting', price: 10000, description: 'Original contemporary artwork, combining culture and investment value', icon: '🎨', category: 'art', origin: 'New York', size: '48x36 inches' }
+        ];
+        
+        const item = luxuryItems[Math.floor(Math.random() * luxuryItems.length)];
+        
+        // Check if player can afford it
+        if (this.gameState.portfolio.cash >= item.price) {
+            this.gameState.portfolio.cash -= item.price;
+            
+            // Create detailed luxury item record
+            const luxuryItem = {
+                ...item,
+                id: Date.now() + Math.random(), // Unique ID
+                purchaseDate: `${this.gameState.currentYear}-${String(this.gameState.currentMonth).padStart(2, '0')}`,
+                purchaseAge: this.gameState.ageYears,
+                purchaseLocation: this.getRandomLuxuryStore(item.category),
+                condition: 'New',
+                estimatedValue: item.price, // Current market value
+                insurance: false,
+                notes: ''
+            };
+            
+            // Add to both legacy and new collection systems
+            this.gameState.luxuryItems.push(luxuryItem);
+            this.gameState.luxuryCollection[item.category].push(luxuryItem);
+            
+            this.recordCashFlow('expense', item.price, `Purchased ${item.name}`, 'luxury');
+            this.log(`💎 Luxury Purchase: ${item.name} - $${item.price.toLocaleString()}`, 'info');
+            this.log(`${item.description}`, 'info');
+            
+            // Show luxury item popup
+            this.showLuxuryItemPopup(luxuryItem);
+        }
+    }
+    
+    getRandomLuxuryStore(category) {
+        const stores = {
+            watches: ['Tourneau', 'Crown & Caliber', 'Rolex Boutique', 'Authorized Dealer'],
+            bags: ['Hermès Boutique', 'Chanel Store', 'Louis Vuitton', 'Designer Boutique'],
+            jewelry: ['Tiffany & Co.', 'Cartier Boutique', 'Harry Winston', 'Private Jeweler'],
+            clothing: ['Giorgio Armani', 'Tom Ford', 'Savile Row', 'Custom Tailor'],
+            electronics: ['B&O Store', 'Premium Audio', 'Luxury Electronics', 'Flagship Store'],
+            art: ['Art Gallery', 'Auction House', 'Private Collection', 'Artist Studio'],
+            wine: ['Wine Merchant', 'Auction House', 'Private Cellar', 'Sommelier Selection'],
+            other: ['Luxury Boutique', 'Premium Store', 'Exclusive Retailer', 'Private Sale']
+        };
+        const categoryStores = stores[category] || stores.other;
+        return categoryStores[Math.floor(Math.random() * categoryStores.length)];
+    }
+    
+    triggerTravelEvent() {
+        const travelDestinations = [
+            { 
+                name: 'Tokyo Luxury Getaway', price: 8500, description: 'Stay at The Ritz-Carlton Tokyo and enjoy Michelin three-star dining', 
+                icon: '🗼', country: 'Japan', city: 'Tokyo', continent: 'Asia', duration: '7 days',
+                hotel: 'The Ritz-Carlton Tokyo', activities: ['Michelin dining', 'Traditional tea ceremony', 'Imperial Palace tour'], climate: 'Temperate'
+            },
+            { 
+                name: 'Paris Romantic Holiday', price: 12000, description: 'Stroll the Champs-Élysées, savor French cuisine and champagne', 
+                icon: '🗼', country: 'France', city: 'Paris', continent: 'Europe', duration: '10 days',
+                hotel: 'The Ritz Paris', activities: ['Private Louvre tour', 'Champagne tasting', 'Luxury fashion shopping'], climate: 'Temperate'
+            },
+            { 
+                name: 'Swiss Ski Resort', price: 15000, description: 'Alpine skiing paradise with snow-capped mountains and hot springs', 
+                icon: '🎿', country: 'Switzerland', city: 'St. Moritz', continent: 'Europe', duration: '8 days',
+                hotel: "Badrutt's Palace Hotel", activities: ['Private ski lessons', 'Helicopter sightseeing', 'Luxury spa'], climate: 'Alpine'
+            },
+            { 
+                name: 'Dubai Luxury Experience', price: 10000, description: 'Stay at the iconic Burj Al Arab and experience desert meets modern city', 
+                icon: '🏝️', country: 'UAE', city: 'Dubai', continent: 'Asia', duration: '6 days',
+                hotel: 'Burj Al Arab', activities: ['Desert camping', 'Helicopter city tour', 'Private beach access'], climate: 'Desert'
+            },
+            { 
+                name: 'Hawaii Island Paradise', price: 6000, description: 'Waikiki Beach resort with sun, sand, and surfing', 
+                icon: '🏖️', country: 'USA', city: 'Honolulu', continent: 'North America', duration: '7 days',
+                hotel: 'Four Seasons Resort Oahu', activities: ['Surf lessons', 'Volcano exploration', 'Hawaiian culture experience'], climate: 'Tropical'
+            },
+            { 
+                name: 'Italian Cultural Journey', price: 9000, description: 'Rome, Florence, Venice - explore Renaissance art and history', 
+                icon: '🏛️', country: 'Italy', city: 'Rome', continent: 'Europe', duration: '12 days',
+                hotel: 'Hotel de Russie', activities: ['Private Vatican tour', 'Art workshops', 'Culinary experiences'], climate: 'Mediterranean'
+            },
+            { 
+                name: 'African Wildlife Safari', price: 14000, description: 'Kenya safari adventure with close encounters of savanna wildlife', 
+                icon: '🦁', country: 'Kenya', city: 'Maasai Mara', continent: 'Africa', duration: '9 days',
+                hotel: 'Angama Mara', activities: ['Wildlife observation', 'Maasai cultural experience', 'Hot air balloon safari'], climate: 'Savanna'
+            },
+            { 
+                name: 'Singapore Culinary Tour', price: 4000, description: 'Michelin restaurant tour experiencing diverse cultural cuisine', 
+                icon: '🍜', country: 'Singapore', city: 'Singapore', continent: 'Asia', duration: '5 days',
+                hotel: 'Raffles Hotel Singapore', activities: ['Michelin restaurants', 'Botanical garden tours', 'Cultural district exploration'], climate: 'Tropical'
+            }
+        ];
+        
+        const destination = travelDestinations[Math.floor(Math.random() * travelDestinations.length)];
+        
+        // Check if player can afford it
+        if (this.gameState.portfolio.cash >= destination.price) {
+            this.gameState.portfolio.cash -= destination.price;
+            
+            // Create detailed travel record
+            const travelRecord = {
+                ...destination,
+                id: Date.now() + Math.random(), // Unique ID
+                travelDate: `${this.gameState.currentYear}-${String(this.gameState.currentMonth).padStart(2, '0')}`,
+                travelAge: this.gameState.ageYears,
+                travelSeason: this.getCurrentSeason(),
+                companions: this.getRandomCompanions(),
+                rating: Math.floor(Math.random() * 2) + 4, // 4-5 stars
+                photos: Math.floor(Math.random() * 10) + 15, // 15-24 photos
+                memories: this.getRandomMemories(destination.activities)
+            };
+            
+            // Add to both legacy and new record systems
+            this.gameState.travelPassport.push(travelRecord);
+            this.gameState.travelRecordBook.travelHistory.push(travelRecord);
+            this.gameState.travelRecordBook.countriesVisited.add(destination.country);
+            this.gameState.travelRecordBook.citiesVisited.add(destination.city);
+            this.gameState.travelRecordBook.continents.add(destination.continent);
+            this.gameState.travelRecordBook.totalTrips++;
+            this.gameState.travelRecordBook.totalSpent += destination.price;
+            
+            this.recordCashFlow('expense', destination.price, `${destination.name}`, 'travel');
+            this.log(`✈️ Luxury Travel: ${destination.name} - $${destination.price.toLocaleString()}`, 'info');
+            this.log(`${destination.description}`, 'info');
+            
+            // Boost happiness from luxury travel
+            this.gameState.happiness = Math.min(1000, this.gameState.happiness + 20);
+            
+            // Show travel popup
+            this.showTravelPopup(travelRecord);
+        }
+    }
+    
+    getCurrentSeason() {
+        const month = this.gameState.currentMonth;
+        if (month >= 3 && month <= 5) return 'Spring';
+        if (month >= 6 && month <= 8) return 'Summer';
+        if (month >= 9 && month <= 11) return 'Autumn';
+        return 'Winter';
+    }
+    
+    getRandomCompanions() {
+        const options = ['Solo', 'Family', 'Friends', 'Partner', 'Business Associates'];
+        return options[Math.floor(Math.random() * options.length)];
+    }
+    
+    getRandomMemories(activities) {
+        const baseMemories = [
+            'Unforgettable sunrise views',
+            'Tasted authentic local cuisine',
+            'Friendly interactions with locals',
+            'Captured breathtaking landscape photos',
+            'Experienced unique cultural activities'
+        ];
+        
+        const activityMemories = activities.map(activity => `Participated in ${activity}`);
+        const allMemories = [...baseMemories, ...activityMemories];
+        
+        // Return 2-3 random memories
+        const selectedMemories = [];
+        const memoryCount = Math.floor(Math.random() * 2) + 2; // 2-3 memories
+        
+        for (let i = 0; i < memoryCount; i++) {
+            const randomIndex = Math.floor(Math.random() * allMemories.length);
+            if (!selectedMemories.includes(allMemories[randomIndex])) {
+                selectedMemories.push(allMemories[randomIndex]);
+            }
+        }
+        
+        return selectedMemories;
+    }
+    
+    showLuxuryItemPopup(item) {
+        const modal = document.createElement('div');
+        modal.className = 'luxury-modal-overlay';
+        modal.style.cssText = `
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.8); display: flex;
+            justify-content: center; align-items: center; z-index: 1000;
+        `;
+        
+        const content = document.createElement('div');
+        content.style.cssText = `
+            background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+            color: gold; padding: 30px; border-radius: 15px;
+            text-align: center; max-width: 400px; border: 2px solid gold;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+        `;
+        
+        content.innerHTML = `
+            <div style="font-size: 60px; margin-bottom: 15px;">${item.icon}</div>
+            <h2 style="color: gold; margin: 0 0 10px 0;">Luxury Purchase</h2>
+            <h3 style="color: white; margin: 0 0 15px 0;">${item.name}</h3>
+            <p style="color: #ccc; margin: 0 0 15px 0; line-height: 1.4;">${item.description}</p>
+            <p style="color: gold; font-size: 20px; font-weight: bold; margin: 0 0 20px 0;">-$${item.price.toLocaleString()}</p>
+            <button onclick="this.parentElement.parentElement.remove()" 
+                    style="background: gold; color: black; border: none; padding: 10px 20px; 
+                           border-radius: 5px; cursor: pointer; font-weight: bold;">Confirm</button>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+    }
+    
+    showTravelPopup(destination) {
+        const modal = document.createElement('div');
+        modal.className = 'travel-modal-overlay';
+        modal.style.cssText = `
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.8); display: flex;
+            justify-content: center; align-items: center; z-index: 1000;
+        `;
+        
+        const content = document.createElement('div');
+        content.style.cssText = `
+            background: linear-gradient(145deg, #0f4c75, #3282b8);
+            color: white; padding: 30px; border-radius: 15px;
+            text-align: center; max-width: 400px; border: 2px solid #00bcd4;
+            box-shadow: 0 0 30px rgba(0, 188, 212, 0.3);
+        `;
+        
+        content.innerHTML = `
+            <div style="font-size: 60px; margin-bottom: 15px;">${destination.icon}</div>
+            <h2 style="color: #00bcd4; margin: 0 0 10px 0;">Luxury Travel</h2>
+            <h3 style="color: white; margin: 0 0 15px 0;">${destination.name}</h3>
+            <p style="color: #e0e0e0; margin: 0 0 10px 0;"><strong>Destination:</strong> ${destination.country}</p>
+            <p style="color: #e0e0e0; margin: 0 0 15px 0;"><strong>Duration:</strong> ${destination.duration}</p>
+            <p style="color: #ccc; margin: 0 0 15px 0; line-height: 1.4;">${destination.description}</p>
+            <p style="color: #00bcd4; font-size: 20px; font-weight: bold; margin: 0 0 20px 0;">-$${destination.price.toLocaleString()}</p>
+            <button onclick="this.parentElement.parentElement.remove()" 
+                    style="background: #00bcd4; color: white; border: none; padding: 10px 20px; 
+                           border-radius: 5px; cursor: pointer; font-weight: bold;">Confirm</button>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+    }
+    
+    // Investment Events System
+    processInvestmentEvents() {
+        // Check if enough time has passed since last investment event (minimum 3 months)
+        const monthsSinceLastEvent = (this.gameState.currentYear * 12 + this.gameState.currentMonth) - this.gameState.investmentEvents.lastEventMonth;
+        
+        if (monthsSinceLastEvent < 3) return;
+        
+        // Higher chance of investment events if player has more cash
+        let eventChance = 0.05; // Base 5% chance
+        if (this.gameState.portfolio.cash > 5000) eventChance = 0.08;
+        if (this.gameState.portfolio.cash > 15000) eventChance = 0.12;
+        if (this.gameState.portfolio.cash > 50000) eventChance = 0.15;
+        
+        if (Math.random() < eventChance) {
+            this.triggerInvestmentEvent();
+        }
+        
+        // Process any completed investments
+        this.processCompletedInvestments();
+    }
+    
+    triggerInvestmentEvent() {
+        const investmentOpportunities = [
+            // Legitimate investments
+            {
+                id: 'tech_startup',
+                title: 'Tech Startup Investment',
+                description: 'A promising AI technology startup is seeking early investors. They claim their revolutionary chatbot technology will change the industry forever.',
+                minInvestment: 1000,
+                maxInvestment: 25000,
+                isScam: false,
+                returnMultiplier: 1.5,
+                waitMonths: 8,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'real_estate_fund',
+                title: 'Real Estate Investment Fund',
+                description: 'A well-established real estate investment trust (REIT) is offering shares to private investors for their new commercial property portfolio.',
+                minInvestment: 2000,
+                maxInvestment: 50000,
+                isScam: false,
+                returnMultiplier: 1.3,
+                waitMonths: 12,
+                riskLevel: 'low'
+            },
+            {
+                id: 'renewable_energy',
+                title: 'Solar Energy Project',
+                description: 'Join a government-backed solar farm project. Guaranteed returns from selling clean energy back to the grid over the next year.',
+                minInvestment: 5000,
+                maxInvestment: 100000,
+                isScam: false,
+                returnMultiplier: 1.25,
+                waitMonths: 10,
+                riskLevel: 'low'
+            },
+            
+            // Scam investments based on real cases
+            {
+                id: 'ponzi_scheme',
+                title: 'High-Yield Investment Program',
+                description: 'GUARANTEED 40% returns in just 6 months! Our proprietary trading algorithm has NEVER failed. Limited spots available - invest now before it\'s too late!',
+                minInvestment: 500,
+                maxInvestment: 20000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'ponzi'
+            },
+            {
+                id: 'fake_crypto_exchange',
+                title: 'Exclusive Cryptocurrency Exchange',
+                description: 'Get early access to "CryptoMax" - the next Bitcoin! Our private exchange offers 200% guaranteed returns. Act fast - only 50 investors allowed!',
+                minInvestment: 1000,
+                maxInvestment: 30000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 4,
+                riskLevel: 'high',
+                scamType: 'fake_crypto'
+            },
+            {
+                id: 'oil_drilling_scam',
+                title: 'Oil Drilling Investment',
+                description: 'Exclusive opportunity to invest in proven oil reserves! Our geological survey confirms massive deposits. 300% returns guaranteed within 8 months!',
+                minInvestment: 2000,
+                maxInvestment: 40000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 8,
+                riskLevel: 'high',
+                scamType: 'oil_drilling'
+            },
+            {
+                id: 'forex_scam',
+                title: 'Forex Trading Bot',
+                description: 'Revolutionary AI forex trading system with 99.7% success rate! Our bot makes $1000+ daily. Small fee of just $5000 to access our premium algorithm.',
+                minInvestment: 5000,
+                maxInvestment: 25000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 3,
+                riskLevel: 'high',
+                scamType: 'forex_bot'
+            },
+            {
+                id: 'advance_fee_fraud',
+                title: 'International Business Opportunity',
+                description: 'Help us transfer $50 million from overseas! We need a US partner to facilitate the transaction. Small processing fee required - huge profits guaranteed!',
+                minInvestment: 1000,
+                maxInvestment: 15000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 2,
+                riskLevel: 'high',
+                scamType: 'advance_fee'
+            },
+            {
+                id: 'precious_metals_scam',
+                title: 'Rare Metals Investment',
+                description: 'Invest in rare earth metals! China is buying up all global supplies - prices will skyrocket 500%! Secure your position before it\'s too late!',
+                minInvestment: 3000,
+                maxInvestment: 35000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'precious_metals'
+            },
+
+            // Additional Legitimate Investments (15 more)
+            {
+                id: 'biotech_fund',
+                title: 'Biotech Innovation Fund',
+                description: 'Invest in a diversified portfolio of biotechnology companies developing breakthrough medical treatments and diagnostics.',
+                minInvestment: 3000,
+                maxInvestment: 75000,
+                isScam: false,
+                returnMultiplier: 1.4,
+                waitMonths: 18,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'infrastructure_bond',
+                title: 'Municipal Infrastructure Bonds',
+                description: 'Government-backed bonds funding critical infrastructure projects. Low risk with steady returns backed by municipal authority.',
+                minInvestment: 1000,
+                maxInvestment: 100000,
+                isScam: false,
+                returnMultiplier: 1.15,
+                waitMonths: 24,
+                riskLevel: 'low'
+            },
+            {
+                id: 'education_fund',
+                title: 'Education Technology Fund',
+                description: 'Invest in the future of learning with companies revolutionizing online education and training platforms.',
+                minInvestment: 2000,
+                maxInvestment: 40000,
+                isScam: false,
+                returnMultiplier: 1.35,
+                waitMonths: 15,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'green_energy_etf',
+                title: 'Clean Energy ETF',
+                description: 'Diversified exchange-traded fund focusing on renewable energy companies with strong growth potential.',
+                minInvestment: 1500,
+                maxInvestment: 60000,
+                isScam: false,
+                returnMultiplier: 1.28,
+                waitMonths: 14,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'healthcare_reit',
+                title: 'Healthcare Real Estate Trust',
+                description: 'REIT specializing in medical facilities, senior living communities, and healthcare infrastructure.',
+                minInvestment: 4000,
+                maxInvestment: 80000,
+                isScam: false,
+                returnMultiplier: 1.22,
+                waitMonths: 16,
+                riskLevel: 'low'
+            },
+            {
+                id: 'agriculture_fund',
+                title: 'Sustainable Agriculture Fund',
+                description: 'Investment in modern farming technology and sustainable agriculture practices for growing food demand.',
+                minInvestment: 2500,
+                maxInvestment: 45000,
+                isScam: false,
+                returnMultiplier: 1.32,
+                waitMonths: 20,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'water_infrastructure',
+                title: 'Water Infrastructure Project',
+                description: 'Municipal water treatment and distribution system upgrade. Essential infrastructure with government backing.',
+                minInvestment: 5000,
+                maxInvestment: 90000,
+                isScam: false,
+                returnMultiplier: 1.18,
+                waitMonths: 30,
+                riskLevel: 'low'
+            },
+            {
+                id: 'logistics_fund',
+                title: 'Global Logistics Fund',
+                description: 'Invest in warehouse automation, shipping technology, and supply chain optimization companies.',
+                minInvestment: 3000,
+                maxInvestment: 55000,
+                isScam: false,
+                returnMultiplier: 1.26,
+                waitMonths: 12,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'fintech_startup',
+                title: 'Fintech Startup Round',
+                description: 'Series B funding round for a digital banking platform with proven user growth and revenue streams.',
+                minInvestment: 10000,
+                maxInvestment: 100000,
+                isScam: false,
+                returnMultiplier: 1.6,
+                waitMonths: 24,
+                riskLevel: 'high'
+            },
+            {
+                id: 'dividend_aristocrats',
+                title: 'Dividend Aristocrats Fund',
+                description: 'Portfolio of companies with 25+ years of consecutive dividend increases. Steady income focus.',
+                minInvestment: 2000,
+                maxInvestment: 70000,
+                isScam: false,
+                returnMultiplier: 1.12,
+                waitMonths: 12,
+                riskLevel: 'low'
+            },
+            {
+                id: 'cybersecurity_fund',
+                title: 'Cybersecurity Investment Fund',
+                description: 'Portfolio focused on companies providing digital security solutions for the growing cyber threat landscape.',
+                minInvestment: 2500,
+                maxInvestment: 50000,
+                isScam: false,
+                returnMultiplier: 1.38,
+                waitMonths: 18,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'consumer_goods_fund',
+                title: 'Consumer Staples Fund',
+                description: 'Invest in established companies producing essential consumer goods with recession-resistant demand.',
+                minInvestment: 1500,
+                maxInvestment: 65000,
+                isScam: false,
+                returnMultiplier: 1.16,
+                waitMonths: 15,
+                riskLevel: 'low'
+            },
+            {
+                id: 'robotics_automation',
+                title: 'Robotics & Automation Fund',
+                description: 'Investment in companies developing industrial robotics, AI automation, and manufacturing technology.',
+                minInvestment: 4000,
+                maxInvestment: 60000,
+                isScam: false,
+                returnMultiplier: 1.42,
+                waitMonths: 21,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'gaming_entertainment',
+                title: 'Gaming & Entertainment Fund',
+                description: 'Portfolio of video game developers, streaming platforms, and digital entertainment companies.',
+                minInvestment: 2000,
+                maxInvestment: 40000,
+                isScam: false,
+                returnMultiplier: 1.33,
+                waitMonths: 16,
+                riskLevel: 'medium'
+            },
+            {
+                id: 'commodity_etf',
+                title: 'Commodity ETF Portfolio',
+                description: 'Diversified exposure to gold, silver, oil, and agricultural commodities for inflation protection.',
+                minInvestment: 3000,
+                maxInvestment: 75000,
+                isScam: false,
+                returnMultiplier: 1.19,
+                waitMonths: 18,
+                riskLevel: 'medium'
+            },
+
+            // Additional Scam Investments (35 more)
+            {
+                id: 'pyramid_mlm',
+                title: 'Network Marketing Opportunity',
+                description: 'Join our exclusive team! Earn $5000+ monthly working from home. Just recruit 3 friends and watch your income grow exponentially!',
+                minInvestment: 500,
+                maxInvestment: 10000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 4,
+                riskLevel: 'high',
+                scamType: 'pyramid_scheme'
+            },
+            {
+                id: 'fake_ipo',
+                title: 'Pre-IPO Investment Opportunity',
+                description: 'Get exclusive access to shares before the public! This unicorn startup will go public next month at 10x our price!',
+                minInvestment: 2000,
+                maxInvestment: 50000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 3,
+                riskLevel: 'high',
+                scamType: 'fake_ipo'
+            },
+            {
+                id: 'binary_options',
+                title: 'Binary Options Trading System',
+                description: 'Master binary options with our 95% accurate prediction algorithm! Double your money in 60 seconds guaranteed!',
+                minInvestment: 1000,
+                maxInvestment: 25000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 2,
+                riskLevel: 'high',
+                scamType: 'binary_options'
+            },
+            {
+                id: 'gold_investment_scam',
+                title: 'Gold Mine Investment',
+                description: 'Own shares in a producing gold mine! Geological reports show massive untapped reserves. 400% returns guaranteed!',
+                minInvestment: 3000,
+                maxInvestment: 60000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 9,
+                riskLevel: 'high',
+                scamType: 'mining_scam'
+            },
+            {
+                id: 'hedge_fund_scam',
+                title: 'Exclusive Hedge Fund Access',
+                description: 'Private hedge fund with 30% annual returns for 20 years! Minimum investment required for exclusive membership.',
+                minInvestment: 25000,
+                maxInvestment: 200000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 12,
+                riskLevel: 'high',
+                scamType: 'fake_hedge_fund'
+            },
+            {
+                id: 'penny_stock_scam',
+                title: 'Hot Penny Stock Tip',
+                description: 'Insider information on penny stock about to explode! Company announcing breakthrough technology next week!',
+                minInvestment: 500,
+                maxInvestment: 15000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 1,
+                riskLevel: 'high',
+                scamType: 'pump_dump'
+            },
+            {
+                id: 'real_estate_scam',
+                title: 'Distressed Property Investment',
+                description: 'Buy foreclosed properties at 50% below market value! We handle everything - just send money for closing costs!',
+                minInvestment: 5000,
+                maxInvestment: 80000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'real_estate_fraud'
+            },
+            {
+                id: 'lottery_scam',
+                title: 'Lottery Syndicate Investment',
+                description: 'Join our mathematically proven lottery system! We\'ve cracked the algorithm - guaranteed wins every month!',
+                minInvestment: 1000,
+                maxInvestment: 20000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 3,
+                riskLevel: 'high',
+                scamType: 'lottery_scam'
+            },
+            {
+                id: 'charity_scam',
+                title: 'Tax-Deductible Charity Investment',
+                description: 'Invest in our charity foundation! Get huge tax deductions while earning 25% returns helping orphaned children!',
+                minInvestment: 2000,
+                maxInvestment: 40000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 8,
+                riskLevel: 'high',
+                scamType: 'charity_fraud'
+            },
+            {
+                id: 'carbon_credit_scam',
+                title: 'Carbon Credits Investment',
+                description: 'Buy carbon credits now before regulations hit! Government will be forced to buy them at 10x current price!',
+                minInvestment: 3000,
+                maxInvestment: 50000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 5,
+                riskLevel: 'high',
+                scamType: 'carbon_credit_fraud'
+            },
+            {
+                id: 'diamond_scam',
+                title: 'Rare Diamond Investment',
+                description: 'Invest in rare colored diamonds! Prices have increased 300% in 5 years. We store them safely for you!',
+                minInvestment: 5000,
+                maxInvestment: 100000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 12,
+                riskLevel: 'high',
+                scamType: 'diamond_scam'
+            },
+            {
+                id: 'wine_investment_scam',
+                title: 'Fine Wine Investment Fund',
+                description: 'Invest in rare vintage wines! Market has grown 20% annually. We handle storage and insurance for premium bottles!',
+                minInvestment: 4000,
+                maxInvestment: 70000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 18,
+                riskLevel: 'high',
+                scamType: 'wine_fraud'
+            },
+            {
+                id: 'art_investment_scam',
+                title: 'Art Investment Portfolio',
+                description: 'Buy shares in masterpiece paintings! Art market never crashes. Our experts select only appreciating pieces!',
+                minInvestment: 3000,
+                maxInvestment: 60000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 15,
+                riskLevel: 'high',
+                scamType: 'art_fraud'
+            },
+            {
+                id: 'crypto_mining_scam',
+                title: 'Cryptocurrency Mining Pool',
+                description: 'Join our mining pool with latest ASIC miners! Earn Bitcoin daily with no electricity costs or maintenance!',
+                minInvestment: 2000,
+                maxInvestment: 40000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'crypto_mining_fraud'
+            },
+            {
+                id: 'land_banking_scam',
+                title: 'Land Banking Opportunity',
+                description: 'Buy undeveloped land before city expansion! Inside information shows this area will be rezoned commercial soon!',
+                minInvestment: 10000,
+                maxInvestment: 150000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 24,
+                riskLevel: 'high',
+                scamType: 'land_banking'
+            },
+            {
+                id: 'storage_pod_scam',
+                title: 'Storage Unit Investment',
+                description: 'Buy storage units and rent them out! Guaranteed 30% annual returns with our management company handling everything!',
+                minInvestment: 8000,
+                maxInvestment: 80000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 12,
+                riskLevel: 'high',
+                scamType: 'storage_fraud'
+            },
+            {
+                id: 'vending_machine_scam',
+                title: 'Vending Machine Business',
+                description: 'Own vending machines in prime locations! We place them, stock them, collect money. Just sit back and earn!',
+                minInvestment: 5000,
+                maxInvestment: 50000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 8,
+                riskLevel: 'high',
+                scamType: 'vending_scam'
+            },
+            {
+                id: 'payday_loan_scam',
+                title: 'Payday Loan Investment',
+                description: 'Earn 50% annual returns funding payday loans! High demand, guaranteed repayment with our collection methods!',
+                minInvestment: 3000,
+                maxInvestment: 45000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'predatory_lending'
+            },
+            {
+                id: 'atm_scam',
+                title: 'ATM Investment Program',
+                description: 'Own ATMs in high-traffic locations! Earn transaction fees plus we guarantee $500 monthly minimum income!',
+                minInvestment: 15000,
+                maxInvestment: 100000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 10,
+                riskLevel: 'high',
+                scamType: 'atm_fraud'
+            },
+            {
+                id: 'timeshare_scam',
+                title: 'Timeshare Investment',
+                description: 'Buy vacation timeshares and rent them out! Tourist demand is booming - guaranteed rental income year-round!',
+                minInvestment: 8000,
+                maxInvestment: 120000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 12,
+                riskLevel: 'high',
+                scamType: 'timeshare_fraud'
+            },
+            {
+                id: 'franchise_scam',
+                title: 'Franchise Opportunity',
+                description: 'Open a franchise of the hottest new restaurant concept! Proven business model with guaranteed territory protection!',
+                minInvestment: 20000,
+                maxInvestment: 200000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 18,
+                riskLevel: 'high',
+                scamType: 'franchise_fraud'
+            },
+            {
+                id: 'invoice_factoring_scam',
+                title: 'Invoice Factoring Business',
+                description: 'Buy unpaid invoices from struggling businesses at huge discounts! We guarantee collection with our aggressive legal team!',
+                minInvestment: 10000,
+                maxInvestment: 80000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 8,
+                riskLevel: 'high',
+                scamType: 'invoice_fraud'
+            },
+            {
+                id: 'equipment_leasing_scam',
+                title: 'Equipment Leasing Investment',
+                description: 'Buy heavy machinery and lease to construction companies! Guaranteed lease contracts with major contractors already signed!',
+                minInvestment: 25000,
+                maxInvestment: 300000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 15,
+                riskLevel: 'high',
+                scamType: 'equipment_fraud'
+            },
+            {
+                id: 'currency_scam',
+                title: 'Foreign Currency Investment',
+                description: 'Iraqi Dinar will revalue soon! Buy millions of dinars now before the government announces the new exchange rate!',
+                minInvestment: 2000,
+                maxInvestment: 30000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'currency_fraud'
+            },
+            {
+                id: 'tax_lien_scam',
+                title: 'Tax Lien Investment',
+                description: 'Buy tax liens on properties! Government guarantees 18% interest plus you might get the property for pennies!',
+                minInvestment: 5000,
+                maxInvestment: 75000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 12,
+                riskLevel: 'high',
+                scamType: 'tax_lien_fraud'
+            },
+            {
+                id: 'movie_investment_scam',
+                title: 'Hollywood Movie Investment',
+                description: 'Invest in the next blockbuster film! A-list actors already attached, distribution deal signed. Box office gold guaranteed!',
+                minInvestment: 10000,
+                maxInvestment: 100000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 18,
+                riskLevel: 'high',
+                scamType: 'entertainment_fraud'
+            },
+            {
+                id: 'debt_elimination_scam',
+                title: 'Debt Elimination Program',
+                description: 'Pay us to eliminate your debts legally! Secret government program allows debt forgiveness for small processing fee!',
+                minInvestment: 3000,
+                maxInvestment: 25000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 4,
+                riskLevel: 'high',
+                scamType: 'debt_elimination'
+            },
+            {
+                id: 'solar_panel_scam',
+                title: 'Solar Panel Investment',
+                description: 'Buy solar panels and lease them to homeowners! Government subsidies guarantee 35% annual returns for 20 years!',
+                minInvestment: 15000,
+                maxInvestment: 150000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 12,
+                riskLevel: 'high',
+                scamType: 'solar_fraud'
+            },
+            {
+                id: 'medical_device_scam',
+                title: 'Medical Device Investment',
+                description: 'Fund revolutionary medical device! FDA approval imminent, major hospitals already placing orders. Get in early!',
+                minInvestment: 5000,
+                maxInvestment: 60000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 9,
+                riskLevel: 'high',
+                scamType: 'medical_fraud'
+            },
+            {
+                id: 'casino_scam',
+                title: 'Casino Investment Opportunity',
+                description: 'Invest in new tribal casino! Exclusive license granted, construction starting soon. Gamblers always lose - we always win!',
+                minInvestment: 20000,
+                maxInvestment: 200000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 24,
+                riskLevel: 'high',
+                scamType: 'casino_fraud'
+            },
+            {
+                id: 'patent_scam',
+                title: 'Patent Investment Fund',
+                description: 'Buy patent portfolios and license them! Our legal team forces companies to pay royalties. Guaranteed lawsuit victories!',
+                minInvestment: 8000,
+                maxInvestment: 80000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 15,
+                riskLevel: 'high',
+                scamType: 'patent_fraud'
+            },
+            {
+                id: 'cell_tower_scam',
+                title: 'Cell Tower Investment',
+                description: 'Own cell towers and lease to wireless companies! 5G expansion means guaranteed long-term contracts with major carriers!',
+                minInvestment: 25000,
+                maxInvestment: 250000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 18,
+                riskLevel: 'high',
+                scamType: 'infrastructure_fraud'
+            },
+            {
+                id: 'water_well_scam',
+                title: 'Water Well Investment',
+                description: 'Drill water wells in drought areas! Climate change guarantees water scarcity - sell water rights for massive profits!',
+                minInvestment: 12000,
+                maxInvestment: 120000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 15,
+                riskLevel: 'high',
+                scamType: 'water_rights_fraud'
+            },
+            {
+                id: 'government_bond_scam',
+                title: 'Secret Government Bonds',
+                description: 'Exclusive access to classified government bonds! Treasury department error allows public purchase at huge discount!',
+                minInvestment: 10000,
+                maxInvestment: 100000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 6,
+                riskLevel: 'high',
+                scamType: 'fake_government_bond'
+            },
+            {
+                id: 'sports_betting_scam',
+                title: 'Sports Betting Algorithm',
+                description: 'Professional sports betting system with 87% win rate! Our AI analyzes every game - guaranteed profits every season!',
+                minInvestment: 3000,
+                maxInvestment: 40000,
+                isScam: true,
+                returnMultiplier: 0,
+                waitMonths: 4,
+                riskLevel: 'high',
+                scamType: 'sports_betting_fraud'
+            }
+        ];
+        
+        // Filter opportunities based on player's available cash
+        const affordableOpportunities = investmentOpportunities.filter(opp => 
+            opp.minInvestment <= this.gameState.portfolio.cash
+        );
+        
+        // If no affordable opportunities, don't show anything
+        if (affordableOpportunities.length === 0) return;
+        
+        const opportunity = affordableOpportunities[Math.floor(Math.random() * affordableOpportunities.length)];
+        this.showInvestmentModal(opportunity);
+    }
+    
+    showInvestmentModal(opportunity) {
+        const modal = document.createElement('div');
+        modal.className = 'investment-modal-overlay';
+        modal.style.cssText = `
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.8); display: flex;
+            justify-content: center; align-items: center; z-index: 1000;
+        `;
+        
+        const riskColor = opportunity.riskLevel === 'low' ? '#4caf50' : 
+                         opportunity.riskLevel === 'medium' ? '#ff9800' : '#f44336';
+        
+        const content = document.createElement('div');
+        content.style.cssText = `
+            background: white; padding: 30px; border-radius: 15px;
+            max-width: 500px; text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        `;
+        
+        const maxInvestAmount = Math.max(opportunity.minInvestment, Math.min(opportunity.maxInvestment, Math.floor(this.gameState.portfolio.cash * 0.8)));
+        
+        content.innerHTML = `
+            <div style="font-size: 48px; margin-bottom: 15px;">💰</div>
+            <h2 style="color: #333; margin: 0 0 15px 0; font-size: 24px;">Investment Opportunity</h2>
+            <h3 style="color: #2196f3; margin: 0 0 20px 0;">${opportunity.title}</h3>
+            
+            <div style="background: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: left;">
+                <p style="margin: 0; line-height: 1.5; color: #333;">${opportunity.description}</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; text-align: left;">
+                <div>
+                    <strong>Risk Level:</strong><br>
+                    <span style="color: ${riskColor}; font-weight: bold; text-transform: uppercase;">${opportunity.riskLevel}</span>
+                </div>
+                <div>
+                    <strong>Expected Duration:</strong><br>
+                    ${opportunity.waitMonths} months
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 10px; font-weight: bold;">Investment Amount:</label>
+                <input type="number" id="investment-amount" 
+                       min="${opportunity.minInvestment}" 
+                       max="${maxInvestAmount}"
+                       value="${opportunity.minInvestment}"
+                       style="width: 200px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; text-align: center; font-size: 16px;">
+                <div style="font-size: 12px; color: #666; margin-top: 5px;">
+                    Min: $${opportunity.minInvestment.toLocaleString()} - Max: $${maxInvestAmount.toLocaleString()}
+                </div>
+            </div>
+            
+            <div style="display: flex; gap: 15px; justify-content: center;">
+                <button id="invest-btn" style="background: #4caf50; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                    💰 Invest Now
+                </button>
+                <button id="decline-btn" style="background: #f44336; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                    ❌ Decline
+                </button>
+            </div>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+        
+        // Add event listeners
+        document.getElementById('invest-btn').onclick = () => {
+            const amount = parseInt(document.getElementById('investment-amount').value);
+            if (amount >= opportunity.minInvestment && amount <= maxInvestAmount && amount <= this.gameState.portfolio.cash) {
+                this.makeInvestment(opportunity, amount);
+                modal.remove();
+            } else {
+                alert('Invalid investment amount!');
+            }
+        };
+        
+        document.getElementById('decline-btn').onclick = () => {
+            modal.remove();
+            this.log('📊 You declined the investment opportunity', 'info');
+        };
+        
+        // Update last event month
+        this.gameState.investmentEvents.lastEventMonth = this.gameState.currentYear * 12 + this.gameState.currentMonth;
+    }
+    
+    makeInvestment(opportunity, amount) {
+        // Deduct money from cash
+        this.gameState.portfolio.cash -= amount;
+        
+        // Create investment record
+        const investment = {
+            id: `investment_${Date.now()}`,
+            opportunityId: opportunity.id,
+            title: opportunity.title,
+            amount: amount,
+            isScam: opportunity.isScam,
+            returnMultiplier: opportunity.returnMultiplier,
+            startMonth: this.gameState.currentYear * 12 + this.gameState.currentMonth,
+            completionMonth: (this.gameState.currentYear * 12 + this.gameState.currentMonth) + opportunity.waitMonths,
+            status: 'pending',
+            scamType: opportunity.scamType || null
+        };
+        
+        this.gameState.investmentEvents.activeInvestments.push(investment);
+        
+        this.log(`💰 You invested $${amount.toLocaleString()} in "${opportunity.title}". Results expected in ${opportunity.waitMonths} months.`, 'info');
+        this.updateUI();
+    }
+    
+    processCompletedInvestments() {
+        const currentMonth = this.gameState.currentYear * 12 + this.gameState.currentMonth;
+        
+        this.gameState.investmentEvents.activeInvestments.forEach((investment, index) => {
+            if (currentMonth >= investment.completionMonth && investment.status === 'pending') {
+                this.completeInvestment(investment, index);
+            }
+        });
+    }
+    
+    completeInvestment(investment, index) {
+        investment.status = 'completed';
+        const returnAmount = Math.floor(investment.amount * investment.returnMultiplier);
+        
+        if (investment.isScam) {
+            // Investment was a scam - player loses everything
+            this.showInvestmentResultModal(investment, 0, true);
+            this.log(`🚨 SCAM ALERT: "${investment.title}" was fraudulent! You lost $${investment.amount.toLocaleString()}.`, 'negative');
+        } else {
+            // Legitimate investment - player gets returns
+            this.gameState.portfolio.cash += returnAmount;
+            const profit = returnAmount - investment.amount;
+            this.showInvestmentResultModal(investment, returnAmount, false);
+            this.log(`💰 Investment SUCCESS: "${investment.title}" returned $${returnAmount.toLocaleString()} (profit: $${profit.toLocaleString()})!`, 'positive');
+        }
+        
+        // Move to completed investments
+        this.gameState.investmentEvents.completedInvestments.push(investment);
+        this.gameState.investmentEvents.activeInvestments.splice(index, 1);
+        
+        this.updateUI();
+    }
+    
+    showInvestmentResultModal(investment, returnAmount, isScam) {
+        const modal = document.createElement('div');
+        modal.className = 'investment-result-modal-overlay';
+        modal.style.cssText = `
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.8); display: flex;
+            justify-content: center; align-items: center; z-index: 1000;
+        `;
+        
+        const content = document.createElement('div');
+        const bgColor = isScam ? 'linear-gradient(145deg, #d32f2f, #f44336)' : 'linear-gradient(145deg, #388e3c, #4caf50)';
+        content.style.cssText = `
+            background: ${bgColor}; color: white; padding: 30px; border-radius: 15px;
+            max-width: 400px; text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        `;
+        
+        const icon = isScam ? '🚨' : '💰';
+        const title = isScam ? 'INVESTMENT SCAM!' : 'INVESTMENT SUCCESS!';
+        const profit = returnAmount - investment.amount;
+        
+        content.innerHTML = `
+            <div style="font-size: 64px; margin-bottom: 20px;">${icon}</div>
+            <h2 style="margin: 0 0 15px 0; font-size: 24px;">${title}</h2>
+            <h3 style="margin: 0 0 20px 0; opacity: 0.9;">${investment.title}</h3>
+            
+            <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <div style="margin-bottom: 10px;">
+                    <strong>Initial Investment:</strong> $${investment.amount.toLocaleString()}
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Amount Returned:</strong> $${returnAmount.toLocaleString()}
+                </div>
+                <div style="font-size: 18px; font-weight: bold;">
+                    <strong>Net Result:</strong> 
+                    <span style="color: ${isScam ? '#ffcdd2' : '#c8e6c9'};">
+                        ${isScam ? '-' : '+'}$${Math.abs(profit).toLocaleString()}
+                    </span>
+                </div>
+            </div>
+            
+            ${isScam ? `
+                <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <p style="margin: 0; font-size: 14px; line-height: 1.4;">
+                        This was a fraudulent scheme. Always research investments thoroughly and be wary of "guaranteed" high returns.
+                    </p>
+                </div>
+            ` : ''}
+            
+            <button onclick="this.parentElement.parentElement.remove()" 
+                    style="background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.3); padding: 12px 24px; 
+                           border-radius: 5px; cursor: pointer; font-weight: bold;">
+                Continue
+            </button>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+    }
+    
+    showEventPopup(event, cost) {
+        // Create modal overlay
+        const modal = document.createElement('div');
+        modal.className = 'event-modal-overlay';
+        modal.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            animation: fadeIn 0.3s ease-in;
+        `;
+        
+        // Create modal content
+        const modalContent = document.createElement('div');
+        modalContent.className = 'event-modal-content';
+        modalContent.style.cssText = `
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            position: relative;
+            animation: slideIn 0.3s ease-out;
+        `;
+        
+        // Determine image path based on event category
+        const imagePath = `assets/images/events/${event.category || 'default'}.svg`;
+        
+        // Event image
+        const eventImage = document.createElement('img');
+        eventImage.src = imagePath;
+        eventImage.style.cssText = `
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        `;
+        eventImage.onerror = () => {
+            eventImage.src = 'assets/images/events/default.svg';
+        };
+        
+        // Event title
+        const title = document.createElement('h2');
+        title.textContent = event.description || 'Random Event';
+        title.style.cssText = `
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        `;
+        
+        // Event detailed description
+        const description = document.createElement('p');
+        description.textContent = event.detailedDescription || event.description || 'Something happened!';
+        description.style.cssText = `
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        `;
+        
+        // Cost/benefit display
+        const costDisplay = document.createElement('div');
+        costDisplay.style.cssText = `
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        `;
+        
+        if (cost > 0) {
+            costDisplay.style.backgroundColor = '#ffebee';
+            costDisplay.style.color = '#c62828';
+            costDisplay.innerHTML = `<span style="font-size: 24px;">💸</span> Cost: $${cost.toLocaleString()}`;
+        } else if (cost < 0) {
+            costDisplay.style.backgroundColor = '#e8f5e8';
+            costDisplay.style.color = '#2e7d32';
+            costDisplay.innerHTML = `<span style="font-size: 24px;">💰</span> Gained: $${Math.abs(cost).toLocaleString()}`;
+        } else {
+            costDisplay.style.backgroundColor = '#f5f5f5';
+            costDisplay.style.color = '#666';
+            costDisplay.innerHTML = `<span style="font-size: 24px;">ℹ️</span> No financial impact`;
+        }
+        
+        // Effects display
+        let effectsHTML = '';
+        if (event.effects) {
+            const effects = [];
+            if (event.effects.happiness && event.effects.happiness !== 0) {
+                const sign = event.effects.happiness > 0 ? '+' : '';
+                effects.push(`😊 Happiness: ${sign}${event.effects.happiness}`);
+            }
+            if (event.effects.energy && event.effects.energy !== 0) {
+                const sign = event.effects.energy > 0 ? '+' : '';
+                effects.push(`⚡ Energy: ${sign}${event.effects.energy}`);
+            }
+            if (event.effects.focus && event.effects.focus !== 0) {
+                const sign = event.effects.focus > 0 ? '+' : '';
+                effects.push(`🎯 Focus: ${sign}${event.effects.focus}`);
+            }
+            if (event.effects.wisdom && event.effects.wisdom !== 0) {
+                const sign = event.effects.wisdom > 0 ? '+' : '';
+                effects.push(`🧠 Wisdom: ${sign}${event.effects.wisdom}`);
+            }
+            if (event.effects.charm && event.effects.charm !== 0) {
+                const sign = event.effects.charm > 0 ? '+' : '';
+                effects.push(`✨ Charm: ${sign}${event.effects.charm}`);
+            }
+            if (event.effects.luck && event.effects.luck !== 0) {
+                const sign = event.effects.luck > 0 ? '+' : '';
+                effects.push(`🍀 Luck: ${sign}${event.effects.luck}`);
+            }
+            
+            if (effects.length > 0) {
+                effectsHTML = `
+                    <div style="
+                        background: #f8f9fa;
+                        padding: 15px;
+                        border-radius: 10px;
+                        margin-bottom: 20px;
+                        font-size: 14px;
+                        color: #495057;
+                    ">
+                        <strong>Effects:</strong><br>
+                        ${effects.join('<br>')}
+                    </div>
+                `;
+            }
+        }
+        
+        // Close button
+        const closeButton = document.createElement('button');
+        closeButton.textContent = 'Continue';
+        closeButton.style.cssText = `
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        `;
+        closeButton.onmouseover = () => closeButton.style.backgroundColor = '#0056b3';
+        closeButton.onmouseout = () => closeButton.style.backgroundColor = '#007bff';
+        
+        // Close modal function
+        const closeModal = () => {
+            modal.style.animation = 'fadeOut 0.3s ease-out';
+            modalContent.style.animation = 'slideOut 0.3s ease-in';
+            setTimeout(() => {
+                if (modal.parentNode) {
+                    modal.parentNode.removeChild(modal);
+                }
+            }, 300);
+        };
+        
+        closeButton.onclick = closeModal;
+        modal.onclick = (e) => {
+            if (e.target === modal) closeModal();
+        };
+        
+        // ESC key support
+        const handleKeyPress = (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.removeEventListener('keydown', handleKeyPress);
+            }
+        };
+        document.addEventListener('keydown', handleKeyPress);
+        
+        // Assemble modal
+        modalContent.appendChild(eventImage);
+        modalContent.appendChild(title);
+        modalContent.appendChild(description);
+        modalContent.appendChild(costDisplay);
+        if (effectsHTML) {
+            modalContent.innerHTML += effectsHTML;
+        }
+        modalContent.appendChild(closeButton);
+        modal.appendChild(modalContent);
+        
+        // Add to DOM
+        document.body.appendChild(modal);
     }
     
     // Removed old generateMonthlyLotteryNumbers function - using the updated one below
@@ -1734,99 +3170,199 @@ class SimLifeGame {
     
     updateStockTradingModal() {
         document.getElementById('stock-cash-display').textContent = this.gameState.portfolio.cash.toLocaleString();
-        
+        this.displayFilteredStocks();
+    }
+    
+    displayFilteredStocks() {
         const container = document.getElementById('stock-trading-list');
         container.innerHTML = '';
         
         const stockSymbols = this.getStockSymbols();
         
-        stockSymbols.forEach(symbol => {
+        // Create stock data array with all information needed for filtering
+        const stockData = stockSymbols.map(symbol => {
             const price = this.getStockPrice(symbol);
-            if (price === undefined) return; // Skip stocks without prices
+            if (price === undefined) return null; // Skip stocks without prices
+            
             const stockHolding = this.gameState.portfolio.stocks[symbol];
             const holdings = stockHolding ? (typeof stockHolding === 'number' ? stockHolding : stockHolding.shares) : 0;
+            const stockInfo = this.stocksData[symbol] || { name: symbol };
             
-            const stockDiv = document.createElement('div');
-            stockDiv.style.marginBottom = '15px';
-            stockDiv.style.padding = '15px';
-            stockDiv.style.border = '1px solid #ddd';
-            stockDiv.style.borderRadius = '5px';
-            stockDiv.style.backgroundColor = '#f8f9fa';
-            
-            // Get price history for the last 12 months
+            // Get price history for change calculation
             const priceHistory = this.getStockPriceHistory(symbol, 12);
             const priceChange = priceHistory.length >= 2 ? ((price - priceHistory[priceHistory.length - 2].price) / priceHistory[priceHistory.length - 2].price * 100) : 0;
-            const changeColor = priceChange >= 0 ? '#28a745' : '#dc3545';
-            const changeSymbol = priceChange >= 0 ? '+' : '';
             
-            const stockInfo = this.stocksData[symbol] || { name: symbol };
-            const stockNews = this.getStockNews(symbol);
-            
-            stockDiv.innerHTML = `
-                <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 10px;">
-                    <div>
-                        <h4 style="margin: 0; color: #007bff;">${symbol} - ${stockInfo.name}</h4>
-                        <div style="font-size: 0.9em; color: #666;">Price: $${price.toFixed(2)} | Holdings: ${holdings} shares</div>
-                        <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)} | Sector: ${stockInfo.sector || 'N/A'}</div>
-                        ${stockHolding && typeof stockHolding === 'object' && holdings > 0 ? 
-                            (() => {
-                                const totalCost = stockHolding.totalCost;
-                                const currentValue = holdings * price;
-                                const profit = currentValue - totalCost;
-                                const profitPercent = ((profit / totalCost) * 100).toFixed(1);
-                                const profitColor = profit >= 0 ? '#28a745' : '#dc3545';
-                                const avgCost = totalCost / holdings;
-                                return `<div style="font-size: 0.9em; color: ${profitColor}; font-weight: bold;">Avg Cost: $${avgCost.toFixed(2)} | Profit: ${profit >= 0 ? '+' : ''}$${profit.toFixed(2)} (${profitPercent}%)</div>`;
-                            })() : ''
-                        }
-                        <div style="font-size: 0.85em; color: ${changeColor}; font-weight: bold;">${changeSymbol}${priceChange.toFixed(1)}% this month</div>
-                    </div>
-                </div>
-                
-                ${stockNews ? `
-                    <div style="background: #e3f2fd; padding: 10px; border-radius: 3px; margin-bottom: 10px; border-left: 4px solid #2196f3;">
-                        <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 5px; color: #1976d2;">📰 ${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} News</div>
-                        <div style="font-size: 0.85em; color: #333; line-height: 1.4;">${stockNews}</div>
-                    </div>
-                ` : ''}
-                
-                <div style="background: #f8f9fa; padding: 10px; border-radius: 3px; margin-bottom: 10px;">
-                    <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 5px;">📈 12-Month Price History</div>
-                    <div style="display: flex; justify-content: space-between; font-size: 0.8em; color: #666;">
-                        ${priceHistory.slice(-6).map(data => `
-                            <div style="text-align: center;">
-                                <div>${data.date}</div>
-                                <div style="font-weight: bold;">$${data.price.toFixed(2)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-                
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                    <div>
-                        <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #28a745;">📈 Buy Shares</label>
-                        <div style="display: flex; gap: 5px;">
-                            <input type="number" id="buy-${symbol}-amount" placeholder="Shares" 
-                                   style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
-                            <button class="btn" onclick="handleStockBuy('${symbol}')" 
-                                    style="background: #28a745; padding: 5px 10px;">Buy</button>
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #dc3545;">📉 Sell Shares</label>
-                        <div style="display: flex; gap: 5px;">
-                            <input type="number" id="sell-${symbol}-amount" placeholder="Shares" 
-                                   style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
-                            <button class="btn" onclick="handleStockSell('${symbol}')" 
-                                    style="background: #dc3545; padding: 5px 10px;">Sell</button>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
+            return {
+                symbol,
+                name: stockInfo.name || symbol,
+                price,
+                holdings,
+                priceChange,
+                sector: stockInfo.sector || 'N/A',
+                isOwned: holdings > 0,
+                value: holdings * price,
+                stockInfo,
+                stockHolding,
+                priceHistory
+            };
+        }).filter(stock => stock !== null);
+        
+        // Apply filters
+        let filteredStocks = this.applyStockFilters(stockData);
+        
+        // Apply sorting (always prioritize owned stocks first if not specifically sorting differently)
+        filteredStocks = this.sortStocks(filteredStocks);
+        
+        // Display stocks
+        filteredStocks.forEach(stock => {
+            const stockDiv = this.createStockDiv(stock);
             container.appendChild(stockDiv);
+            
+            // Create chart after div is added to DOM
+            setTimeout(() => {
+                this.createPriceChart(stock.symbol, `chart-${stock.symbol}`);
+            }, 10);
         });
+        
+        // Show message if no stocks match filter
+        if (filteredStocks.length === 0) {
+            container.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;"><h3>No stocks match your filters</h3><p>Try adjusting your search or filter criteria.</p></div>';
+        }
+    }
+    
+    applyStockFilters(stockData) {
+        const searchTerm = document.getElementById('stock-search')?.value.toLowerCase() || '';
+        const filterType = document.getElementById('stock-filter')?.value || 'all';
+        
+        let filtered = stockData;
+        
+        // Apply search filter
+        if (searchTerm) {
+            filtered = filtered.filter(stock => 
+                stock.symbol.toLowerCase().includes(searchTerm) || 
+                stock.name.toLowerCase().includes(searchTerm)
+            );
+        }
+        
+        // Apply category filter
+        switch (filterType) {
+            case 'owned':
+                filtered = filtered.filter(stock => stock.isOwned);
+                break;
+            case 'gainers':
+                filtered = filtered.filter(stock => stock.priceChange > 0).sort((a, b) => b.priceChange - a.priceChange);
+                break;
+            case 'losers':
+                filtered = filtered.filter(stock => stock.priceChange < 0).sort((a, b) => a.priceChange - b.priceChange);
+                break;
+            case 'high-price':
+                filtered = filtered.filter(stock => stock.price > 100);
+                break;
+            case 'low-price':
+                filtered = filtered.filter(stock => stock.price < 50);
+                break;
+        }
+        
+        return filtered;
+    }
+    
+    sortStocks(stockData) {
+        const sortType = document.getElementById('stock-sort')?.value || 'owned-first';
+        
+        switch (sortType) {
+            case 'owned-first':
+                return stockData.sort((a, b) => {
+                    if (a.isOwned && !b.isOwned) return -1;
+                    if (!a.isOwned && b.isOwned) return 1;
+                    return a.symbol.localeCompare(b.symbol);
+                });
+            case 'name':
+                return stockData.sort((a, b) => a.name.localeCompare(b.name));
+            case 'price-high':
+                return stockData.sort((a, b) => b.price - a.price);
+            case 'price-low':
+                return stockData.sort((a, b) => a.price - b.price);
+            case 'change':
+                return stockData.sort((a, b) => Math.abs(b.priceChange) - Math.abs(a.priceChange));
+            default:
+                return stockData;
+        }
+    }
+    
+    createStockDiv(stock) {
+        const { symbol, name, price, holdings, priceChange, stockInfo, stockHolding, priceHistory } = stock;
+        
+        const changeColor = priceChange >= 0 ? '#28a745' : '#dc3545';
+        const changeSymbol = priceChange >= 0 ? '+' : '';
+        const stockNews = this.getStockNews(symbol);
+        
+        const stockDiv = document.createElement('div');
+        stockDiv.style.marginBottom = '15px';
+        stockDiv.style.padding = '15px';
+        stockDiv.style.border = holdings > 0 ? '2px solid #28a745' : '1px solid #ddd';
+        stockDiv.style.borderRadius = '5px';
+        stockDiv.style.backgroundColor = holdings > 0 ? '#f0fff4' : '#f8f9fa';
+        
+        // Add "OWNED" badge for owned stocks
+        const ownedBadge = holdings > 0 ? '<span style="background: #28a745; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.7em; font-weight: bold; margin-left: 10px;">OWNED</span>' : '';
+        
+        stockDiv.innerHTML = `
+            <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 10px;">
+                <div>
+                    <h4 style="margin: 0; color: #007bff;">${symbol} - ${name}${ownedBadge}</h4>
+                    <div style="font-size: 0.9em; color: #666;">Price: $${price.toFixed(2)} | Holdings: ${holdings} shares</div>
+                    <div style="font-size: 0.9em; color: #666;">Value: $${(holdings * price).toFixed(2)} | Sector: ${stockInfo.sector || 'N/A'}</div>
+                    ${stockHolding && typeof stockHolding === 'object' && holdings > 0 ? 
+                        (() => {
+                            const totalCost = stockHolding.totalCost;
+                            const currentValue = holdings * price;
+                            const profit = currentValue - totalCost;
+                            const profitPercent = ((profit / totalCost) * 100).toFixed(1);
+                            const profitColor = profit >= 0 ? '#28a745' : '#dc3545';
+                            const avgCost = totalCost / holdings;
+                            return `<div style="font-size: 0.9em; color: ${profitColor}; font-weight: bold;">Avg Cost: $${avgCost.toFixed(2)} | Profit: ${profit >= 0 ? '+' : ''}$${profit.toFixed(2)} (${profitPercent}%)</div>`;
+                        })() : ''
+                    }
+                    <div style="font-size: 0.85em; color: ${changeColor}; font-weight: bold;">${changeSymbol}${priceChange.toFixed(1)}% this month</div>
+                </div>
+            </div>
+            
+            ${stockNews ? `
+                <div style="background: #e3f2fd; padding: 10px; border-radius: 3px; margin-bottom: 10px; border-left: 4px solid #2196f3;">
+                    <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 5px; color: #1976d2;">📰 ${this.getMonthName(this.gameState.currentMonth)} ${this.gameState.currentYear} News</div>
+                    <div style="font-size: 0.85em; color: #333; line-height: 1.4;">${stockNews}</div>
+                </div>
+            ` : ''}
+            
+            <div style="background: #f8f9fa; padding: 10px; border-radius: 3px; margin-bottom: 10px;">
+                <div style="font-size: 0.9em; font-weight: bold; margin-bottom: 10px;">📈 Complete Price History</div>
+                <div id="chart-${symbol}" style="display: flex; justify-content: center;"></div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <div>
+                    <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #28a745;">📈 Buy Shares</label>
+                    <div style="display: flex; gap: 5px;">
+                        <input type="number" id="buy-${symbol}-amount" placeholder="Shares" 
+                               style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
+                        <button class="btn" onclick="handleStockBuy('${symbol}')" 
+                                style="background: #28a745; padding: 5px 10px;">Buy</button>
+                    </div>
+                </div>
+                
+                <div>
+                    <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #dc3545;">📉 Sell Shares</label>
+                    <div style="display: flex; gap: 5px;">
+                        <input type="number" id="sell-${symbol}-amount" placeholder="Shares" 
+                               style="flex: 1; padding: 5px; border: 1px solid #ddd; border-radius: 3px;">
+                        <button class="btn" onclick="handleStockSell('${symbol}')" 
+                                style="background: #dc3545; padding: 5px 10px;">Sell</button>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        return stockDiv;
     }
     
     updateCryptoTradingModal() {
@@ -3072,6 +4608,167 @@ class SimLifeGame {
         }
         
         return history;
+    }
+    
+    getCompleteStockPriceHistory(symbol) {
+        const history = [];
+        const stockPriceData = this.stockPrices[symbol];
+        
+        if (!stockPriceData) return history;
+        
+        const currentYear = this.gameState.currentYear;
+        const currentMonth = this.gameState.currentMonth;
+        
+        // Get all available price data and sort by date
+        const sortedDates = Object.keys(stockPriceData).sort();
+        
+        for (const key of sortedDates) {
+            const [year, month] = key.split('-').map(Number);
+            
+            // Only include data up to current game date
+            if (year < currentYear || (year === currentYear && month <= currentMonth)) {
+                const price = stockPriceData[key];
+                
+                history.push({
+                    date: key,
+                    displayDate: `${this.getMonthName(month)} ${year}`,
+                    price: price,
+                    year: year,
+                    month: month
+                });
+            }
+        }
+        
+        return history;
+    }
+    
+    createPriceChart(symbol, containerId) {
+        const history = this.getCompleteStockPriceHistory(symbol);
+        if (history.length < 2) return;
+        
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        const width = 300;
+        const height = 120;
+        const padding = { top: 10, right: 10, bottom: 25, left: 40 };
+        const chartWidth = width - padding.left - padding.right;
+        const chartHeight = height - padding.top - padding.bottom;
+        
+        // Find min and max prices for scaling
+        const prices = history.map(h => h.price);
+        const minPrice = Math.min(...prices);
+        const maxPrice = Math.max(...prices);
+        const priceRange = maxPrice - minPrice;
+        
+        // Create SVG
+        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('width', width);
+        svg.setAttribute('height', height);
+        svg.style.background = '#f8f9fa';
+        svg.style.borderRadius = '3px';
+        
+        // Create price line path
+        let pathData = '';
+        history.forEach((point, index) => {
+            const x = padding.left + (index / (history.length - 1)) * chartWidth;
+            const y = padding.top + (1 - (point.price - minPrice) / priceRange) * chartHeight;
+            
+            if (index === 0) {
+                pathData += `M ${x} ${y}`;
+            } else {
+                pathData += ` L ${x} ${y}`;
+            }
+        });
+        
+        // Create path element
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', pathData);
+        path.setAttribute('stroke', '#2196f3');
+        path.setAttribute('stroke-width', '2');
+        path.setAttribute('fill', 'none');
+        svg.appendChild(path);
+        
+        // Add grid lines and labels
+        const gridColor = '#e0e0e0';
+        
+        // Horizontal grid lines (price)
+        for (let i = 0; i <= 4; i++) {
+            const y = padding.top + (i / 4) * chartHeight;
+            const price = maxPrice - (i / 4) * priceRange;
+            
+            // Grid line
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', padding.left);
+            line.setAttribute('y1', y);
+            line.setAttribute('x2', padding.left + chartWidth);
+            line.setAttribute('y2', y);
+            line.setAttribute('stroke', gridColor);
+            line.setAttribute('stroke-width', '1');
+            svg.appendChild(line);
+            
+            // Price label
+            const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            text.setAttribute('x', padding.left - 5);
+            text.setAttribute('y', y + 3);
+            text.setAttribute('text-anchor', 'end');
+            text.setAttribute('font-size', '10');
+            text.setAttribute('fill', '#666');
+            text.textContent = `$${price.toFixed(0)}`;
+            svg.appendChild(text);
+        }
+        
+        // Vertical grid lines (time) - show first, middle, and last dates
+        const dateIndices = [0, Math.floor(history.length / 2), history.length - 1];
+        dateIndices.forEach(index => {
+            if (index < history.length) {
+                const x = padding.left + (index / (history.length - 1)) * chartWidth;
+                const y = padding.top + chartHeight;
+                
+                // Grid line
+                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                line.setAttribute('x1', x);
+                line.setAttribute('y1', padding.top);
+                line.setAttribute('x2', x);
+                line.setAttribute('y2', y);
+                line.setAttribute('stroke', gridColor);
+                line.setAttribute('stroke-width', '1');
+                svg.appendChild(line);
+                
+                // Date label
+                const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                text.setAttribute('x', x);
+                text.setAttribute('y', y + 15);
+                text.setAttribute('text-anchor', 'middle');
+                text.setAttribute('font-size', '9');
+                text.setAttribute('fill', '#666');
+                text.textContent = history[index].displayDate.substring(0, 6);
+                svg.appendChild(text);
+            }
+        });
+        
+        // Add dots for data points
+        history.forEach((point, index) => {
+            const x = padding.left + (index / (history.length - 1)) * chartWidth;
+            const y = padding.top + (1 - (point.price - minPrice) / priceRange) * chartHeight;
+            
+            const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            circle.setAttribute('cx', x);
+            circle.setAttribute('cy', y);
+            circle.setAttribute('r', '2');
+            circle.setAttribute('fill', '#2196f3');
+            
+            // Add hover effect
+            circle.style.cursor = 'pointer';
+            const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+            title.textContent = `${point.displayDate}: $${point.price.toFixed(2)}`;
+            circle.appendChild(title);
+            
+            svg.appendChild(circle);
+        });
+        
+        container.innerHTML = '';
+        container.appendChild(svg);
     }
     
     getCryptoPrice(symbol) {
